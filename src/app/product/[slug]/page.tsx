@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { CheckCircle2, Star, ShoppingCart, Phone, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
+import { CheckCircle2, Star, Phone, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
+import AddToCartButton from '@/components/AddToCartButton';
 
 const products: Record<string, {
   name: string;
@@ -167,13 +168,17 @@ export default async function ProductPage({ params }: Props) {
               </div>
             </div>
 
+            <AddToCartButton
+              slug={slug}
+              name={product.name}
+              price={product.price}
+              oldPrice={product.oldPrice}
+            />
+
             <div className="flex gap-3 mb-6">
-              <button className="flex-1 flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg">
-                <ShoppingCart className="w-5 h-5" /> Add to Cart
-              </button>
               <Link
                 href="/contact-us"
-                className="flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-5 py-3.5 rounded-xl font-semibold transition-all"
+                className="flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-5 py-3.5 rounded-xl font-semibold transition-all text-sm"
               >
                 <Phone className="w-5 h-5" /> Enquire
               </Link>

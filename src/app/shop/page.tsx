@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ShoppingCart, Filter, Star } from 'lucide-react';
+import { Filter, Star } from 'lucide-react';
+import AddToCartButton from '@/components/AddToCartButton';
 
 export const metadata: Metadata = {
   title: 'Shop — LPG Composite Cylinders',
@@ -85,10 +86,13 @@ export default function ShopPage() {
                     {p.oldPrice && <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
                     <span className="text-lg font-black text-green-700">₨ {p.price.toLocaleString()}</span>
                   </div>
-                  <button className="w-full flex items-center justify-center gap-2 bg-slate-900 hover:bg-green-700 text-white text-sm font-semibold py-2.5 rounded-xl transition-colors">
-                    <ShoppingCart className="w-4 h-4" />
-                    Add to Cart
-                  </button>
+                  <AddToCartButton
+                    slug={p.slug}
+                    name={p.name}
+                    price={p.price}
+                    oldPrice={p.oldPrice ?? undefined}
+                    showBuyNow={false}
+                  />
                 </div>
               </Link>
             ))}

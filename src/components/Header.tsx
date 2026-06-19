@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X, ChevronDown, Phone, ShoppingCart } from 'lucide-react';
+import { useCart } from '@/components/CartContext';
 
 const aboutLinks = [
   { label: 'Our Company', href: '/our-company' },
@@ -25,6 +26,7 @@ export default function Header() {
   const [aboutOpen, setAboutOpen] = useState(false);
   const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const { count } = useCart();
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -110,10 +112,20 @@ export default function Header() {
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-2">
           <Link
+            href="/checkout"
+            className="relative flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-3 py-2 rounded-xl text-sm font-semibold transition-all"
+          >
+            <ShoppingCart className="w-4 h-4" />
+            {count > 0 && (
+              <span className="absolute -top-2 -right-2 w-5 h-5 bg-green-600 text-white text-xs font-black rounded-full flex items-center justify-center">
+                {count}
+              </span>
+            )}
+          </Link>
+          <Link
             href="/shop"
             className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-xl text-sm font-semibold transition-all shadow-sm hover:shadow-md"
           >
-            <ShoppingCart className="w-4 h-4" />
             Shop Now
           </Link>
         </div>
