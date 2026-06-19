@@ -15,9 +15,21 @@ const regions = [
     color: 'bg-green-50 border-green-200',
     headerColor: 'bg-green-700',
     dealers: [
-      { name: 'Bilal Express Link', address: 'Abbot Road, Sialkot', phone: '0321 6144858' },
-      { name: 'Muhammad Azhar — A1 Electronics', address: 'Abid Market, Lahore', phone: '0300 9413671' },
-      { name: 'Ashiq Home Appliance — M. Imran', address: 'Mugalpura Link Road, Lahore', phone: '0321 4354809' },
+      {
+        name: 'Bilal Express Link',
+        address: 'Abbot Road, Sialkot',
+        phone: '0321 6144858',
+      },
+      {
+        name: 'Muhammad Azhar — A1 Electronics',
+        address: 'Abid Market, Lahore',
+        phone: '0300 9413671',
+      },
+      {
+        name: 'Ashiq Home Appliance — M. Imran',
+        address: 'Mugalpura Link Road, Nazad Railway Crossing Dryport, Lahore',
+        phone: '0321 4354809',
+      },
     ],
   },
   {
@@ -25,8 +37,16 @@ const regions = [
     color: 'bg-blue-50 border-blue-200',
     headerColor: 'bg-blue-700',
     dealers: [
-      { name: 'Adrees & Sons', address: 'Karachi', phone: '0333 2000252' },
-      { name: 'Gujrat Gass Cylinder', address: 'Hyderabad', phone: '0222663544-45 / 0315 4374577' },
+      {
+        name: 'Adrees & Sons',
+        address: 'Karachi',
+        phone: '0333 2000252',
+      },
+      {
+        name: 'Gujrat Gass Cylinder',
+        address: 'Pakkah Qila Street No 4, Hyderabad, Sindh',
+        phone: '0222663544-45 / 0315 4374577',
+      },
     ],
   },
   {
@@ -34,7 +54,12 @@ const regions = [
     color: 'bg-amber-50 border-amber-200',
     headerColor: 'bg-amber-600',
     dealers: [
-      { name: 'Global Gas Corner', address: 'Peshawar', phone: '0300 9590349 / 0300 5522337' },
+      {
+        name: 'Global Gas Corner',
+        address: 'Malik Ghulam Rasool Market, Gulabad Police Station, Chamkani G.T Road, Peshawar',
+        phone: '0300 9590349 / 0300 5522337',
+        contacts: 'Syed Athar Ali Shah, Syed Tariq Ali Shah',
+      },
     ],
   },
 ];
@@ -72,13 +97,19 @@ export default function AuthorizedDealersPage() {
                 </div>
                 <div className="p-5 flex flex-col gap-4">
                   {region.dealers.map((dealer) => (
-                    <div key={dealer.name} className="bg-white rounded-xl p-5 shadow-sm border border-white">
+                    <div key={dealer.name} className="bg-white rounded-xl p-5 shadow-sm">
                       <h4 className="font-bold text-slate-900 mb-2">{dealer.name}</h4>
                       <div className="flex items-start gap-2 text-sm text-slate-500 mb-2">
                         <MapPin className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
                         {dealer.address}
                       </div>
-                      <a href={`tel:${dealer.phone.split(' ')[0]}`} className="flex items-center gap-2 text-sm text-green-700 font-semibold hover:text-green-800 transition-colors">
+                      {'contacts' in dealer && dealer.contacts && (
+                        <p className="text-xs text-slate-400 mb-2 ml-6">{dealer.contacts}</p>
+                      )}
+                      <a
+                        href={`tel:${dealer.phone.split(' ')[0]}`}
+                        className="flex items-center gap-2 text-sm text-green-700 font-semibold hover:text-green-800 transition-colors"
+                      >
                         <Phone className="w-4 h-4" />
                         {dealer.phone}
                       </a>

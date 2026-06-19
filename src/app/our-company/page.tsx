@@ -103,7 +103,7 @@ export default function OurCompanyPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-6 text-center">
             {[
-              { val: '2017', label: 'Founded' },
+              { val: '2022', label: 'Established' },
               { val: '26K sqft', label: 'Plant Area' },
               { val: '6+', label: 'Certifications' },
               { val: '3', label: 'Dealer Provinces' },

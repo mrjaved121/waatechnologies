@@ -28,9 +28,8 @@ const team = [
 ];
 
 const milestones = [
-  { year: '2017', label: 'Company Founded', desc: 'WAA Technologies established with a vision for safer LPG.' },
-  { year: '2018', label: 'R&D Begins', desc: 'Research and development of composite cylinder technology started.' },
-  { year: '2022', label: 'Gujranwala Plant', desc: '26,000 sq ft manufacturing facility officially commissioned.' },
+  { year: '2018', label: 'R&D Begins', desc: 'Research and development of composite cylinder technology started under the leadership of experienced engineers.' },
+  { year: '2022', label: 'Officially Established', desc: 'WAA TECHNOLOGIES PVT LTD was officially formed in 2022 at Gujranwala with a 26,000 sq ft manufacturing facility.' },
   { year: '2023', label: 'ISO Certified', desc: 'Achieved ISO 9001-2015 and EN 14427-2022 certification.' },
   { year: '2024', label: 'National Rollout', desc: 'Expanded to authorized dealers across Punjab, Sindh & KPK.' },
   { year: '2025+', label: 'Growing Forward', desc: 'Scaling production to meet Pakistan\'s composite LPG demand.' },

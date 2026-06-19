@@ -11,8 +11,7 @@ const quickLinks = [
 
 const usefulLinks = [
   { label: 'Authorized Dealers', href: '/authorized-dealers' },
-  { label: 'Our Technology', href: '/our-technology' },
-  { label: 'Sustainability', href: '/sustainability' },
+  { label: 'Waa Tech Stores', href: '/waa-tech-stores' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
   { label: 'Returns', href: '/returns' },
 ];
@@ -26,7 +25,6 @@ const blogLinks = [
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
-      {/* Main footer */}
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-1">
@@ -40,8 +38,8 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-slate-400 leading-relaxed mb-6">
-            WAA TECHNOLOGIES PVT LTD — pioneering blast-proof composite LPG cylinders since 2017.
-            Combining safety, innovation, and sustainability for Pakistan&apos;s energy future.
+            WAA TECHNOLOGIES PVT LTD promise to ensure the quality of its each and every product.
+            Lives are precious and we care for our customers and families lives.
           </p>
           <div className="flex flex-col gap-3 text-sm">
             <a href="tel:+924237815533" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
@@ -68,10 +66,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-2.5">
             {quickLinks.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group"
-                >
+                <Link href={link.href} className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group">
                   <ArrowRight className="w-3.5 h-3.5 text-green-600 group-hover:translate-x-1 transition-transform" />
                   {link.label}
                 </Link>
@@ -89,10 +84,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-2.5">
             {usefulLinks.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group"
-                >
+                <Link href={link.href} className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group">
                   <ArrowRight className="w-3.5 h-3.5 text-green-600 group-hover:translate-x-1 transition-transform" />
                   {link.label}
                 </Link>
@@ -110,10 +102,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-4">
             {blogLinks.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="text-sm text-slate-400 hover:text-green-400 transition-colors leading-snug block"
-                >
+                <Link href={link.href} className="text-sm text-slate-400 hover:text-green-400 transition-colors leading-snug block">
                   {link.label}
                 </Link>
                 <span className="text-xs text-slate-600 mt-1 block">WAATechCylinders</span>
@@ -123,7 +112,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-500">
           <span>© 2026 WAA Technologies. All rights reserved.</span>
