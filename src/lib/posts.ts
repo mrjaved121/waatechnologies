@@ -13,6 +13,16 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
   {
+    slug: '8-crucial-gas-cylinder-safety-rules-every-household-must-follow',
+    title: '8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '9 min read',
+    tags: ['gas-cylinder-safety-rules', 'lpg-safety-pakistan', 'household-gas-safety', 'composite-lpg-cylinders'],
+    excerpt: 'Gas cylinder accidents claim lives and destroy homes across Pakistan every year — and almost every one is preventable. These 8 essential safety rules cover storage, handling, leak detection, emergency response, and cylinder choice for every Pakistani household.',
+  },
+  {
     slug: 'lpg-gas-shortage-pakistan-composite-cylinders-solution',
     title: 'LPG Gas Shortage in Pakistan: Why Composite Cylinders Are the Solution',
     date: 'Jun 21, 2026',

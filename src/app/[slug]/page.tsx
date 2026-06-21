@@ -48,6 +48,137 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
+  '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Closing the cylinder valve after every cooking session is the single most impactful safety habit you can form',
+            'Never use an open flame to check for a gas leak — use soap and water or a gas leak detector instead',
+            'A damaged, rusted, or uncertified steel cylinder is a serious safety hazard that must be removed from service immediately',
+            'Composite LPG cylinders are non-blast — under fire conditions they leak rather than explode, eliminating the shrapnel risk of steel',
+            'Every household member — including children and domestic workers — must know the 3-step gas emergency protocol',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every year across Pakistan, gas cylinder accidents kill people, burn down kitchens, and destroy homes. In Lahore, Karachi, Rawalpindi, and in towns across Punjab and KPK, Emergency Rescue 1122 receives calls about gas explosions, kitchen fires, and carbon monoxide incidents with tragic regularity. The most painful truth about the overwhelming majority of these accidents is this: they were completely preventable. They happened not because of equipment failure that nobody could have anticipated, but because of avoidable mistakes — a valve left open, a cracked hose not replaced, a leak checked with a lighter instead of soapy water, a child in the kitchen without anyone knowing the emergency procedure.</p>
+
+      <p>Pakistan has approximately 10–12 million LPG cylinder users and tens of millions more households connected to Sui gas pipelines — all using gas appliances in daily life. Gas is not inherently dangerous when used correctly with well-maintained equipment. But when basic safety rules are ignored — as they routinely are in millions of Pakistani households — the consequences can be catastrophic. The good news is that the 8 rules in this guide require no special equipment, no expensive upgrades, and no technical expertise. They require only knowledge and the discipline to form habits. Read them, share them with your family, and act on them today.</p>
+
+      <h2>Rule 1: Always Close the Cylinder Valve After Every Cooking Session</h2>
+
+      <p>This is the single most important gas safety rule in any Pakistani household — and the one most frequently ignored. After cooking, most people turn off the stove burner knobs and consider the job done. But the stove knobs only control gas flow at the appliance end. The cylinder valve, located on top of the cylinder at the regulator connection, controls gas flow at the source. Leaving the cylinder valve open when cooking is finished means pressurised LPG continues to push gas through the regulator, through the hose, through the stove connections, up to the closed burner knobs — and any weakness in that path (a micro-crack in the hose, a slightly loose connection, a worn burner seal) becomes an active leak point.</p>
+
+      <p>Closing the cylinder valve is a three-second operation. Turn the valve handle clockwise until it stops — do not overtighten, just snug. Make it the last step of every cooking session, every time, without exception. After a week of deliberate practice, it becomes automatic. Many experienced home cooks describe it as feeling as natural as turning off a light switch when leaving a room.</p>
+
+      <p>There is an important distinction to understand: the stove knob and the cylinder valve are different controls. The stove knob stops gas flow to that specific burner. The cylinder valve stops gas flow entirely from the source. Both should be off when cooking is finished. If you smell gas when you return to the kitchen hours later and your stove knobs are all closed, an open cylinder valve combined with a hose weakness is the most likely cause.</p>
+
+      <h2>Rule 2: Store Your LPG Cylinder Upright in a Ventilated Area</h2>
+
+      <p>LPG is heavier than air. This is a fact with profound safety implications that many Pakistani households do not fully appreciate. When LPG leaks — from a valve, a hose joint, or a corroded cylinder body — it does not disperse upward and away from danger zones the way natural gas does. It sinks. It flows along the floor, accumulates in low areas, collects under kitchen counters, pools in enclosed corners, and eventually reaches a concentration at which it can ignite from a spark, a pilot light, or any open flame. A cylinder stored in a sealed cupboard, a closed pantry, or a poorly ventilated kitchen corner creates exactly the conditions for this dangerous accumulation.</p>
+
+      <p>The rules for safe cylinder storage are straightforward. Store cylinders upright at all times — never on their side, which can allow liquid LPG to enter the regulator and cause pressure surges. Store them in a ventilated area where any leaked gas can disperse naturally: near a window, in a kitchen with cross-ventilation, or in an outdoor space that is protected from rain and direct sunlight. Keep cylinders at least one metre away from stoves, water heaters, and any other heat source. Never store a cylinder in a sealed cupboard, under stairs, or in a basement — these are the most dangerous locations possible for LPG storage.</p>
+
+      <p>If your kitchen layout makes good cylinder storage difficult, the solution is to invest in a proper cylinder storage cage or outdoor cylinder cabinet, available from most hardware suppliers in Pakistan. These are specifically designed to keep cylinders secure, upright, and ventilated.</p>
+
+      <h2>Rule 3: Inspect Your Gas Hose and Regulator Every Month</h2>
+
+      <p>The gas hose connecting your cylinder to your stove is typically made of reinforced rubber or thermoplastic and has a finite service life. In Pakistan&apos;s operating environment — heat, humidity, kitchen steam, occasional mechanical stress from moving the cylinder — hose degradation happens faster than most households expect. A hose that looked perfectly fine six months ago may have developed internal micro-cracks that are not visible externally but will allow gas to seep through the hose wall under pressure.</p>
+
+      <p>Conduct a monthly visual inspection of your gas hose. Look for: cracks or cuts in the outer surface; kinks or sharp bends that damage the hose internally; discolouration from heat exposure; scorch marks near the stove end; and any stiffening or hardening of the material that indicates rubber degradation. If you find any of these signs, replace the hose immediately — do not patch, tape, or try to repair a damaged gas hose under any circumstances.</p>
+
+      <p>Perform the soap test quarterly. Mix washing-up liquid with water to create a thick foam. With the cylinder valve open and all stove knobs closed, apply the foam to every connection point: the cylinder valve where the regulator attaches, both ends of the hose, and the stove inlet. Watch carefully for bubbles growing or popping rhythmically — this indicates gas escaping at that point. Any bubbling means a leak. Close the cylinder valve immediately, do not use the appliance, and have the connection inspected and repaired before using the gas again.</p>
+
+      <p>Replace your gas hose every two years regardless of appearance. Hose degradation that creates leak risk often begins internally, where it is not visible. A two-year replacement schedule is cheap protection against a risk that can cost your family its safety.</p>
+
+      <h2>Rule 4: Never Check for Gas Leaks with an Open Flame</h2>
+
+      <p>This is the mistake that kills people. It sounds too obvious to need stating — yet Emergency Rescue 1122 and hospital burn units across Pakistan treat victims of exactly this error every year. When a household suspects a gas leak — from a smell, a sound, or a concern about a hose connection — the instinct in many Pakistani homes is to light a match or a lighter near the suspected leak point to see if gas is present. The logic seems sound: if gas is there, it will light up and you will know. What this ignores is the physics of LPG concentration and ignition: by the time a leak is detectable by smell, the gas concentration in the area around the leak may already be within or approaching the flammable range. Introducing an ignition source into that environment does not produce a neat visible flame at the leak point — it ignites the accumulated gas cloud, producing a flash fire or explosion that engulfs anyone nearby.</p>
+
+      <p>The correct method for checking for a gas leak is the soap and water test described in Rule 3 above, or a dedicated electronic gas leak detector available from hardware suppliers in Pakistan for a modest cost. Gas leak detectors sense LPG concentration in the air and sound an alarm well before dangerous concentrations are reached, giving you warning and time to act safely rather than a sudden ignition event.</p>
+
+      <p>If you smell gas in a room and suspect a leak, do not try to find it with any kind of flame or spark. Do not switch electrical lights or appliances on or off — electrical switches produce a small spark that can ignite accumulated gas. Open all windows and doors immediately, leave the building, close the cylinder valve from outside if accessible, and call SNGPL emergency services or Rescue 1122 before re-entering.</p>
+
+      <h2>Rule 5: Keep Cylinders Away from Heat Sources and Direct Sunlight</h2>
+
+      <p>LPG is stored in your cylinder as a liquid under moderate pressure. The pressure inside the cylinder is not fixed — it varies with temperature. As the cylinder gets warmer, the liquid LPG inside vaporises more rapidly, raising the internal pressure. LPG cylinders are designed and tested to safely contain pressures well above normal operating range. However, if a cylinder is exposed to sustained extreme heat — placed next to a stove, left in direct Pakistani summer sunlight on a concrete surface, stored in a hot enclosed vehicle — the internal pressure can exceed safe limits, stressing the cylinder body and particularly the valve seal.</p>
+
+      <p>For steel cylinders, extreme heat combined with corrosion damage or physical impact damage can result in catastrophic failure. For WAA Technologies composite cylinders, the non-blast construction means that even under extreme over-pressure conditions the cylinder will develop a controlled gas leak rather than rupture — but this is a safety feature of last resort, not a reason to expose cylinders to unnecessary heat.</p>
+
+      <p>Practical rules: never place a cylinder within one metre of a stove, water heater, or any other heat source. Never leave a cylinder in a car, van, or enclosed vehicle during summer months — vehicle interiors can reach 60–70°C in Pakistani summer sun, well above safe cylinder storage temperatures. Store cylinders in the shade. If a cylinder feels unusually warm to the touch, move it to a cooler, ventilated location and allow it to cool before using it.</p>
+
+      <h2>Rule 6: Never Use a Damaged, Rusty, or Uncertified Cylinder</h2>
+
+      <p>Pakistan has millions of steel LPG cylinders in circulation. A significant proportion of them are beyond their safe service life — corroded, dented, or not hydro-tested within the OGRA-mandated five-year cycle. Some are counterfeit or uncertified cylinders that were never manufactured to safety standards in the first place. These cylinders are present in Pakistani households and at dealers across the country, and they represent the most serious equipment-level safety risk in Pakistan&apos;s LPG sector.</p>
+
+      <p>Every time you take a cylinder from a dealer, inspect it before accepting it. Signs that a cylinder should be refused: visible rust on the body or base; dents or deformations in the cylinder wall; a valve that is loose, bent, or damaged; no hydro-test date stamp on the cylinder body (OGRA requires cylinders to display their manufacture date and last hydro-test date); any cracks or weld failures visible on the body. A dealer who tries to pressure you into accepting a visibly damaged cylinder should be reported to OGRA and avoided in future.</p>
+
+      <p>The long-term solution to the damaged cylinder problem in Pakistan is the adoption of composite LPG cylinders. WAA Technologies composite cylinders cannot corrode — their HDPE and glass fibre construction is chemically inert and will not rust regardless of how long they are in service or how humid the storage environment. A WAA composite cylinder after 15 years of service will be structurally identical to when it left the Gujranwala factory. The risk of using a degraded, corroded pressure vessel simply does not exist with composite cylinders.</p>
+
+      <h2>Rule 7: Teach Every Household Member the Emergency Gas Protocol</h2>
+
+      <p>Gas safety is not the responsibility of one person in a household — the person who usually cooks, the father, the mother. It is the responsibility of every person in the household who is old enough to understand it. Children as young as seven or eight can be taught the basic emergency protocol. Domestic workers who cook regularly must know it. Elderly household members must know it. The reason is simple: a gas emergency can happen when the most safety-conscious person in the household is not present — and the person who discovers it must know exactly what to do.</p>
+
+      <p>The emergency gas protocol for Pakistani households:</p>
+
+      <ol>
+        <li><strong>Do not panic.</strong> Stay calm and think clearly. Panicked actions — switching lights on and off, shouting, running — can introduce ignition sources or delay the critical first steps.</li>
+        <li><strong>Do not use any electrical switch, phone, or flame.</strong> No lights, no fans, no mobile phones inside the affected area. Even a phone call creates a radio frequency signal that has been linked to gas ignition in some conditions.</li>
+        <li><strong>Close the cylinder valve immediately</strong> if it is safely accessible — it is the primary way to stop gas flow at the source.</li>
+        <li><strong>Open all windows and doors</strong> to ventilate the space and allow accumulated gas to disperse.</li>
+        <li><strong>Leave the building</strong> and move to an open area away from the structure.</li>
+        <li><strong>From outside, call Rescue 1122</strong> (Punjab) or your local gas emergency service. Do not re-enter the building until it has been cleared by professionals.</li>
+        <li><strong>If a fire has already started,</strong> do not attempt to fight it yourself. Evacuate immediately and call the fire services.</li>
+      </ol>
+
+      <p>Write this protocol on a card and post it in your kitchen where every household member can see it. Review it with all household members, including children, at least once a year.</p>
+
+      <h2>Rule 8: Choose a Composite Cylinder — The Safest LPG Storage Available in Pakistan</h2>
+
+      <p>All seven rules above apply regardless of whether your household uses a steel or composite LPG cylinder. But the eighth rule addresses the most important equipment decision you can make for your household&apos;s gas safety: choosing a composite cylinder over steel.</p>
+
+      <p>The fundamental difference between a composite and steel LPG cylinder is what happens in a worst-case scenario — fire exposure, severe impact, or extreme over-pressure. A steel cylinder under these conditions can rupture catastrophically, releasing all its stored pressure energy in an instant and projecting lethal metal shrapnel in all directions. The resulting blast can destroy a kitchen, collapse walls, and kill anyone in the vicinity. This is the explosion risk that LPG cylinders have always carried, and why gas cylinder accidents in Pakistani news reports so frequently involve deaths and severe structural damage.</p>
+
+      <p>A WAA Technologies composite cylinder under the same worst-case conditions behaves entirely differently. The glass fibre and HDPE construction cannot fragment and project shrapnel. Under extreme heat or over-pressure, the composite structure develops a controlled gas leak at the valve or seal — releasing pressure gradually rather than catastrophically. The resulting fire risk from a leaking cylinder is real and must be taken seriously, but it is categorically different from the explosion risk of a steel cylinder failure. There are no high-velocity metal fragments. There is no detonation wave. There is no blast radius that destroys everything within 10 metres.</p>
+
+      <p>Beyond the non-blast safety advantage, WAA composite cylinders offer three additional safety benefits. First, their translucent HDPE body lets you see the gas level at a glance — eliminating the dangerous practice of tipping, shaking, or using a flame to estimate whether a cylinder is empty. Second, their corrosion-free construction means the cylinder body will never develop rust-related weaknesses in its structural integrity over its 20+ year service life. Third, their 50% lower weight compared to steel makes them easier to move, position, and handle safely — reducing the risk of dropping accidents that can damage valves or dent cylinder bodies.</p>
+
+      <p>WAA Technologies composite cylinders are manufactured in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards. Every cylinder is individually hydro-tested and air-leak tested before leaving the factory. They are available through an authorised dealer network across Punjab, Sindh, and KPK, and directly through the WAA Technologies online shop.</p>
+
+      <h2>Frequently Asked Questions About Gas Cylinder Safety in Pakistan</h2>
+
+      <h3>What should I do immediately if I smell gas in my home?</h3>
+      <p>Do not switch any electrical switch on or off, and do not use your phone inside the room. Close the cylinder valve if safely accessible. Open all windows and doors immediately. Leave the building and move to an open area. From outside, call Rescue 1122 (Punjab) or your local gas emergency service. Do not re-enter until the space has been professionally cleared and ventilated. Under no circumstances use an open flame to look for the leak.</p>
+
+      <h3>How often should I replace my gas hose in Pakistan?</h3>
+      <p>Replace your gas hose every two years regardless of visible condition. Additionally, replace it immediately if you notice any cracks, kinks, discolouration, scorching, or stiffening of the material. Perform a soap-water bubble test quarterly at all connection points. Hose degradation often begins internally before showing external signs, so the two-year replacement schedule is essential even when the hose looks fine from the outside.</p>
+
+      <h3>Is it safe to store an LPG cylinder inside my home?</h3>
+      <p>Yes, with the correct precautions. Store the cylinder upright in a ventilated area — near a window or in a kitchen with good airflow. Keep it at least one metre from stoves and heat sources. Never store in a sealed cupboard, basement, or enclosed space where leaked gas could accumulate. Install a floor-level gas leak detector, since LPG is heavier than air and sinks to the floor. With these measures in place, indoor cylinder storage is safe.</p>
+
+      <h3>What is the difference between a composite and steel cylinder for home safety?</h3>
+      <p>The critical difference is what happens in a fire or severe over-pressure event. Steel cylinders can rupture explosively, projecting shrapnel and causing a blast that destroys the surrounding space. Composite cylinders like WAA Technologies&apos; products are non-blast: under the same conditions they develop a controlled gas leak rather than rupturing, eliminating the explosion and shrapnel risk. Composite cylinders are also corrosion-free, lighter (reducing handling accidents), and translucent (eliminating the need to tip or shake the cylinder to check the level).</p>
+
+      <h2>Conclusion: Safety Is a Decision, Not a Circumstance</h2>
+
+      <p>Gas cylinder accidents in Pakistan are not random bad luck. They follow predictable patterns: an open valve, a cracked hose, a leak checked with a flame, a rusty cylinder that should have been replaced years ago. Every one of the 8 rules in this guide addresses one of those patterns directly. None of them requires money beyond the cost of a replacement hose or a gas leak detector. All of them require only knowledge and the decision to act on it.</p>
+
+      <p>Share this guide with your household. Write the emergency protocol on a card for your kitchen wall. Inspect your hose this week. Close the cylinder valve tonight after dinner. And when your current steel cylinder reaches the end of its service life — or sooner, if it shows any signs of corrosion or damage — replace it with a WAA Technologies composite cylinder that brings non-blast safety, corrosion-free durability, and 20+ years of reliable service to your household&apos;s most important energy equipment.</p>
+
+      <p>Contact WAA Technologies Pvt Ltd at (+92) 4237815533 or visit our showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Our composite cylinders are available online at waatechnologies.com and through our authorised dealer network across Pakistan.</p>
+    </>
+  ),
+
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': (
     <>
       <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
@@ -840,6 +971,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': 2200,
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': 2700,
   'winter-gas-shortage-pakistan-2025-prepare-your-home': 2900,
   'ramadan-gas-safety-tips-pakistani-kitchens': 3000,
@@ -848,6 +980,24 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': [
+    {
+      q: 'What should I do immediately if I smell gas in my home?',
+      a: 'Do not switch any electrical switch on or off, and do not use your phone inside the affected room. Close the cylinder valve if safely accessible. Open all windows and doors to ventilate the space. Leave the building immediately and move to an open area. From outside, call Rescue 1122 (Punjab) or your local gas emergency service. Never use an open flame to locate the source of the leak.',
+    },
+    {
+      q: 'How often should I replace my gas hose in Pakistan?',
+      a: 'Replace your gas hose every two years regardless of visible condition. Additionally replace it immediately if you notice cracks, kinks, discolouration, scorch marks, or stiffening. Perform a soap-and-water bubble test quarterly at all connection points. Hose degradation often begins internally before showing external signs, making the two-year replacement schedule essential even when the hose appears undamaged.',
+    },
+    {
+      q: 'Is it safe to store an LPG cylinder inside a Pakistani home?',
+      a: 'Yes, with correct precautions. Store the cylinder upright in a ventilated area near a window or with good airflow. Keep it at least one metre from stoves and heat sources. Never store in a sealed cupboard, basement, or enclosed space where leaked gas could accumulate. Install a floor-level gas leak detector since LPG is heavier than air and sinks. With these measures in place, indoor cylinder storage is safe.',
+    },
+    {
+      q: 'What is the difference between a composite and steel LPG cylinder for home safety?',
+      a: 'The critical difference is behaviour under fire or severe over-pressure. Steel cylinders can rupture explosively, projecting shrapnel and causing a blast that destroys the surrounding space. WAA Technologies composite cylinders are non-blast: under the same conditions they develop a controlled gas leak rather than rupturing, eliminating the explosion and shrapnel risk entirely. Composite cylinders are also corrosion-free, 50% lighter (reducing handling accidents), and translucent so you can see the gas level without tipping or shaking the cylinder.',
+    },
+  ],
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': [
     {
       q: 'Why does the LPG shortage hit some areas of Pakistan worse than others?',
