@@ -55,9 +55,62 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://waatechnologies.com' },
 };
 
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['Organization', 'LocalBusiness'],
+      '@id': 'https://waatechnologies.com/#organization',
+      name: 'WAA Technologies Pvt Ltd',
+      url: 'https://waatechnologies.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://waatechnologies.com/images/logo.png',
+        width: 200,
+        height: 60,
+      },
+      image: 'https://waatechnologies.com/images/og-image.jpg',
+      description:
+        "Pakistan's leading manufacturer of ISO-certified non-blast composite LPG gas cylinders. Lightweight, corrosion-free, 20+ year service life. ISO 11119-3 and EN 14427-2022 certified.",
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town',
+        addressLocality: 'Lahore',
+        addressRegion: 'Punjab',
+        addressCountry: 'PK',
+      },
+      foundingLocation: { '@type': 'Place', name: 'Gujranwala, Punjab, Pakistan' },
+      telephone: '+92-42-37815533',
+      email: 'waatechnologies.pvt.ltd@gmail.com',
+      areaServed: { '@type': 'Country', name: 'Pakistan' },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Composite LPG Cylinders',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '5kg Composite LPG Cylinder' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '10kg Composite LPG Cylinder' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '12kg Composite LPG Cylinder' } },
+        ],
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://waatechnologies.com/#website',
+      url: 'https://waatechnologies.com',
+      name: 'WAA Technologies',
+      description: "Pakistan's leading manufacturer of composite LPG cylinders",
+      publisher: { '@id': 'https://waatechnologies.com/#organization' },
+      inLanguage: 'en-PK',
+    },
+  ],
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+      </head>
       <body className="min-h-full flex flex-col antialiased">
         <CartProvider>
           <Header />

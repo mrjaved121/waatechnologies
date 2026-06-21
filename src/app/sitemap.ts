@@ -2,25 +2,25 @@ import type { MetadataRoute } from 'next';
 import { allPosts, getBlogPosts } from '@/lib/posts';
 
 const base = 'https://waatechnologies.com';
+const now = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
-    { url: base, changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${base}/about-us`, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/our-company`, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/our-technology`, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/sustainability`, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/our-products-and-advantages`, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/authorized-dealers`, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/waa-tech-stores`, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/shop`, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${base}/blog`, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${base}/category/casestudies`, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/category/waatechcylinders`, changeFrequency: 'weekly', priority: 0.6 },
-    { url: `${base}/contact-us`, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/author/admin`, changeFrequency: 'weekly', priority: 0.4 },
-    { url: `${base}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${base}/returns`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: base,                                         lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
+    { url: `${base}/about-us`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/our-company`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/our-technology`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/sustainability`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/our-products-and-advantages`,        lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/authorized-dealers`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/waa-tech-stores`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/shop`,                               lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${base}/blog`,                               lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
+    { url: `${base}/category/casestudies`,               lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/category/waatechcylinders`,          lastModified: now, changeFrequency: 'weekly',  priority: 0.65 },
+    { url: `${base}/contact-us`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/privacy-policy`,                     lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
+    { url: `${base}/returns`,                            lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
   ];
 
   const productSlugs = [
@@ -31,36 +31,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'lpg-composite-cylinder-10kg-traditional-blue',
   ];
 
-  // Blog pagination
   const blogPosts = getBlogPosts();
   const totalPages = Math.ceil(blogPosts.length / 10);
   const paginationPages: MetadataRoute.Sitemap = Array.from({ length: totalPages - 1 }, (_, i) => ({
     url: `${base}/blog/page/${i + 2}`,
+    lastModified: now,
     changeFrequency: 'weekly' as const,
     priority: 0.5,
   }));
 
-  // All tags
   const allTags = new Set<string>();
   allPosts.forEach((p) => p.tags?.forEach((t) => allTags.add(t)));
+
+  // Slugs for the long-form 2500+ word blog posts — given highest priority
+  const deepBlogSlugs = new Set([
+    'lpg-gas-shortage-pakistan-composite-cylinders-solution',
+    'winter-gas-shortage-pakistan-2025-prepare-your-home',
+    'ramadan-gas-safety-tips-pakistani-kitchens',
+    'load-shedding-lpg-pakistanis-switching-gas-cooking',
+  ]);
 
   return [
     ...staticPages,
     ...productSlugs.map((slug) => ({
       url: `${base}/product/${slug}`,
+      lastModified: now,
       changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      priority: 0.85,
     })),
     ...allPosts.map((post) => ({
       url: `${base}/${post.slug}`,
+      lastModified: now,
       changeFrequency: 'monthly' as const,
-      priority: post.type === 'case-study' ? 0.7 : 0.6,
+      priority: post.type === 'case-study' ? 0.7 : deepBlogSlugs.has(post.slug) ? 0.95 : 0.75,
     })),
     ...paginationPages,
     ...Array.from(allTags).map((tag) => ({
       url: `${base}/tag/${tag}`,
+      lastModified: now,
       changeFrequency: 'monthly' as const,
-      priority: 0.4,
+      priority: 0.45,
     })),
   ];
 }

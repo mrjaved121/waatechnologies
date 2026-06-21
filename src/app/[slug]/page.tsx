@@ -17,11 +17,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
+    keywords: post.tags,
+    authors: [{ name: 'WAA Technologies Pvt Ltd', url: 'https://waatechnologies.com' }],
     alternates: { canonical: `https://waatechnologies.com/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
+      url: `https://waatechnologies.com/${post.slug}`,
+      siteName: 'WAA Technologies',
+      locale: 'en_PK',
+      publishedTime: post.date,
+      authors: ['WAA Technologies Pvt Ltd'],
+      tags: post.tags,
+      images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: ['/images/og-image.jpg'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
     },
   };
 }
@@ -818,6 +838,90 @@ const articleContent: Record<string, React.ReactNode> = {
   ),
 };
 
+// ── Per-article word counts for JSON-LD ──────────────────────────────────────
+const wordCounts: Record<string, number> = {
+  'lpg-gas-shortage-pakistan-composite-cylinders-solution': 2700,
+  'winter-gas-shortage-pakistan-2025-prepare-your-home': 2900,
+  'ramadan-gas-safety-tips-pakistani-kitchens': 3000,
+  'load-shedding-lpg-pakistanis-switching-gas-cooking': 2900,
+};
+
+// ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
+const faqData: Record<string, { q: string; a: string }[]> = {
+  'lpg-gas-shortage-pakistan-composite-cylinders-solution': [
+    {
+      q: 'Why does the LPG shortage hit some areas of Pakistan worse than others?',
+      a: 'LPG shortage severity depends on distance from import infrastructure (Karachi port and filling plants), population density, and the efficiency of local distribution fleets. Punjab\'s combination of high density and distance from import points makes it the worst-affected region. Rural areas with infrequent delivery visits suffer longer shortages even when individual delivery quantities are adequate.',
+    },
+    {
+      q: 'Do composite LPG cylinders work with existing gas stoves and regulators in Pakistan?',
+      a: 'WAA Technologies composite cylinders use standard LPG valve configurations compatible with most domestic gas stoves and regulators used in Pakistan. WAA also supplies matched high-quality regulators designed for their cylinder valve design. A qualified gas technician can verify compatibility with your specific stove setup in minutes.',
+    },
+    {
+      q: 'Is a composite LPG cylinder worth the higher price during a gas shortage?',
+      a: 'Yes. A composite cylinder\'s 20+ year service life means the higher upfront cost is spread over twice the service period of a steel cylinder. More importantly during shortage conditions, the ability to keep a second cylinder as a backup — practical because composite cylinders weigh 50% less than steel — provides supply security that has enormous household value when dealer queues stretch around the block.',
+    },
+    {
+      q: 'Can I use a composite LPG cylinder for heating as well as cooking in Pakistan?',
+      a: 'Yes. Composite LPG cylinders are compatible with LPG room heaters and water heaters in addition to cooking stoves. Gas heaters consume LPG at significantly higher rates than cooking stoves, so a household using one cylinder for both cooking and heating should increase their buffer stock and plan for more frequent refills — especially during winter.',
+    },
+    {
+      q: 'Where can I find a WAA Technologies authorised dealer near me?',
+      a: 'WAA Technologies operates an authorised dealer network across Punjab, Sindh, and KPK. Contact WAA Technologies directly at (+92) 4237815533 or visit the Authorised Dealers page at waatechnologies.com to locate your nearest dealer. Always purchase through authorised channels to receive a genuine, certified, warranted product.',
+    },
+  ],
+  'winter-gas-shortage-pakistan-2025-prepare-your-home': [
+    {
+      q: 'When does the winter gas shortage start in Pakistan?',
+      a: 'The winter gas shortage in Pakistan typically begins when temperatures drop significantly in November, with peak shortage severity in December, January, and February. In severe years, meaningful pipeline pressure drops can begin as early as late October in northern cities like Lahore and Peshawar. Households should prepare by September–October, well before the shortage begins.',
+    },
+    {
+      q: 'How much LPG should a Pakistani household store before winter?',
+      a: 'For a family of 4–6 using LPG as backup during pipeline gas shortage, one fully filled 10 kg or 12 kg composite cylinder plus a second cylinder at three-quarters or above provides approximately 3–4 weeks of cooking backup. Two composite cylinders is the recommended minimum for winter shortage resilience. Because composite cylinders weigh 50% less than steel, the two-cylinder approach is practical for the first time.',
+    },
+    {
+      q: 'Can I use an LPG cylinder indoors for heating in winter in Pakistan?',
+      a: 'LPG room heaters can be used with composite cylinders, but must only be operated in well-ventilated spaces with an open window or door. Gas heaters produce carbon monoxide as a combustion by-product, which can accumulate to dangerous levels in a sealed room. Never run an LPG heater with all windows and doors closed, especially while sleeping.',
+    },
+    {
+      q: 'How long does a 10 kg LPG cylinder last in Pakistani winter conditions?',
+      a: 'For cooking-only use in a family of 4–6, a 10 kg composite cylinder lasts approximately 4–6 weeks in winter conditions. If the cylinder is also used for space heating, this duration reduces to 1–3 weeks depending on daily heater usage. The translucent HDPE body of a WAA composite cylinder lets you monitor the level visually so you can plan your refill in advance.',
+    },
+  ],
+  'ramadan-gas-safety-tips-pakistani-kitchens': [
+    {
+      q: 'Is it safe to cook on LPG during Ramadan in Pakistan?',
+      a: 'Yes — with properly maintained equipment and safe habits. LPG is a safe, clean cooking fuel when used correctly. The Ramadan-specific safety precautions in this guide address the additional risks that fasting fatigue, extended cooking hours, and crowded kitchens create during the holy month. A household with a well-maintained WAA composite cylinder, clean burners, a sound hose, and the cylinder valve shutdown habit can cook safely through all 30 days of Ramadan.',
+    },
+    {
+      q: 'How often should I check my gas hose during Ramadan?',
+      a: 'Conduct a thorough visual inspection and soap-and-water bubble test at the start of Ramadan, then visually check the hose weekly throughout the month. Any hose showing cracks, kinks, discolouration, or scorch marks should be replaced immediately. Replace any hose older than two years regardless of visible condition — hose degradation often begins internally before external signs appear.',
+    },
+    {
+      q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
+      a: 'WAA Technologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
+    },
+  ],
+  'load-shedding-lpg-pakistanis-switching-gas-cooking': [
+    {
+      q: 'Can I use my existing gas stove with an LPG cylinder during load shedding?',
+      a: 'Most Pakistani domestic gas stoves can be used with LPG by adjusting the burner jet orifice size — LPG requires a smaller orifice than natural gas due to its higher calorific value. A qualified gas technician can perform this conversion in 15–20 minutes. Alternatively, LPG-specific burner stoves and single-burner units are widely available in Pakistan and do not require any conversion.',
+    },
+    {
+      q: 'Is it safe to keep an LPG cylinder indoors in a Pakistani apartment?',
+      a: 'Yes, with proper precautions: store the cylinder in a well-ventilated area, close the cylinder valve after every cooking session, install a gas leak detector near floor level (LPG is heavier than air), and never store cylinders near a heat source or in a sealed cupboard. WAA composite cylinders\' non-blast design means that even if a leak ignites, there is no explosion or shrapnel risk — a significant safety advantage in a small apartment.',
+    },
+    {
+      q: 'How do I know when to refill my composite LPG cylinder?',
+      a: 'The translucent HDPE body of a WAA composite cylinder lets you see the LPG level visually, like a water bottle. When the liquid level drops to approximately one-quarter of the cylinder height, contact your dealer for a refill. Do not wait until the cylinder is completely empty — at very low levels gas flow becomes erratic and may extinguish mid-cooking.',
+    },
+    {
+      q: 'How much cheaper is LPG cooking compared to electric cooking in Pakistan?',
+      a: 'At current Pakistan electricity tariff rates of Rs 45–55 per unit for mid-to-high consumption households, electric cooking costs approximately Rs 7,500–12,000 per month for a family of five cooking typical Pakistani meals. LPG cooking using a 10 kg cylinder costs approximately Rs 1,600–2,400 per month for the same household. LPG cooking costs 3–5 times less than electric cooking at current Pakistan prices — plus LPG remains available during load shedding when electricity does not.',
+    },
+  ],
+};
+
 // Default content for posts without custom content
 function DefaultContent({ post }: { post: ReturnType<typeof getPostBySlug> }) {
   if (!post) return null;
@@ -907,24 +1011,82 @@ export default async function SlugPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Structured data: BlogPosting + BreadcrumbList + FAQPage (People Also Ask) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': isCaseStudy ? 'Article' : 'BlogPosting',
-            headline: post.title,
-            description: post.excerpt,
-            datePublished: post.date,
-            author: { '@type': 'Organization', name: 'WAA Technologies Pvt Ltd', url: 'https://waatechnologies.com' },
-            publisher: {
-              '@type': 'Organization',
-              name: 'WAA Technologies Pvt Ltd',
-              logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/logo.png' },
+          __html: JSON.stringify([
+            // 1. Article / BlogPosting
+            {
+              '@context': 'https://schema.org',
+              '@type': isCaseStudy ? 'Article' : 'BlogPosting',
+              '@id': `https://waatechnologies.com/${post.slug}#article`,
+              headline: post.title,
+              description: post.excerpt,
+              datePublished: post.date,
+              dateModified: post.date,
+              inLanguage: 'en-PK',
+              wordCount: wordCounts[post.slug],
+              keywords: post.tags?.join(', '),
+              articleSection: post.category,
+              author: {
+                '@type': 'Organization',
+                '@id': 'https://waatechnologies.com/#organization',
+                name: 'WAA Technologies Pvt Ltd',
+                url: 'https://waatechnologies.com',
+              },
+              publisher: {
+                '@type': 'Organization',
+                '@id': 'https://waatechnologies.com/#organization',
+                name: 'WAA Technologies Pvt Ltd',
+                logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/logo.png', width: 200, height: 60 },
+              },
+              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/og-image.jpg', width: 1200, height: 630 },
+              url: `https://waatechnologies.com/${post.slug}`,
+              mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
+              about: {
+                '@type': 'Thing',
+                name: 'Composite LPG Cylinders Pakistan',
+                description: 'ISO-certified non-blast composite LPG gas cylinders manufactured by WAA Technologies Pvt Ltd in Gujranwala, Pakistan',
+              },
+              mentions: [
+                { '@type': 'Organization', name: 'WAA Technologies Pvt Ltd', url: 'https://waatechnologies.com' },
+                { '@type': 'Place', name: 'Pakistan' },
+                { '@type': 'Place', name: 'Gujranwala, Punjab, Pakistan' },
+              ],
             },
-            url: `https://waatechnologies.com/${post.slug}`,
-            mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
-          }),
+            // 2. Breadcrumb
+            {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://waatechnologies.com' },
+                {
+                  '@type': 'ListItem',
+                  position: 2,
+                  name: isCaseStudy ? 'Case Studies' : 'Blog',
+                  item: isCaseStudy
+                    ? 'https://waatechnologies.com/category/casestudies'
+                    : 'https://waatechnologies.com/blog',
+                },
+                { '@type': 'ListItem', position: 3, name: post.title },
+              ],
+            },
+            // 3. FAQPage (targets Google People Also Ask + AI answer extraction)
+            ...(faqData[post.slug]
+              ? [
+                  {
+                    '@context': 'https://schema.org',
+                    '@type': 'FAQPage',
+                    mainEntity: faqData[post.slug].map(({ q, a }) => ({
+                      '@type': 'Question',
+                      name: q,
+                      acceptedAnswer: { '@type': 'Answer', text: a },
+                    })),
+                  },
+                ]
+              : []),
+          ]),
         }}
       />
 
