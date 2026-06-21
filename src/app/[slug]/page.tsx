@@ -30,6 +30,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const articleContent: Record<string, React.ReactNode> = {
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': (
     <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan imports 35–45% of its LPG demand — any supply disruption hits household stoves within weeks',
+            'Ageing steel cylinders leak an estimated 3–7% of distributed LPG before it reaches a stove',
+            'Composite cylinders carry 60–100% more gas per delivery trip due to half the weight of steel',
+            'A composite cylinder lasts 20+ years vs 8–12 for steel — the effective fleet size doubles over time',
+            'Every household that switches to composite improves the distribution system for the whole neighbourhood',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <p>Every year, as temperatures drop across Pakistan, the same painful scene plays out in cities from Lahore to Peshawar: long queues outside LPG dealers, frustrated households waiting days for a cylinder refill, and families forced back onto wood fires and kerosene stoves simply to cook a meal. The LPG gas shortage in Pakistan is not a new problem. It has repeated, deepened, and spread geographically for nearly two decades. Yet for all the government committees, regulatory announcements, and import diversification promises, the crisis returns every winter with the same ferocity — and it increasingly strikes during Ramadan and summer peaks as well.</p>
 
       <p>The conventional framing of Pakistan&apos;s LPG shortage focuses on production deficits, import chain failures, and government policy — all real problems that genuinely need addressing. But buried within this crisis is a structural inefficiency that receives almost no public attention and that can be meaningfully improved right now, without waiting for government action or new import infrastructure: the ageing, heavy, corroding fleet of steel LPG cylinders that Pakistan&apos;s distribution system depends on. Replacing this fleet with modern composite LPG cylinders would not solve the shortage by itself — but it would substantially reduce its severity, improve distribution efficiency, extend cylinder lifespan, and directly reduce the LPG wastage that bleeds supply before it ever reaches a consumer&apos;s stove.</p>
@@ -174,6 +195,27 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'winter-gas-shortage-pakistan-2025-prepare-your-home': (
     <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan loses functional pipeline gas pressure for 3–4 months every winter — this is structural, not accidental',
+            'Lahore, Faisalabad, Peshawar, and rural KPK are the hardest-hit regions each year',
+            'LPG is the only backup completely independent of the pipeline network and electricity grid',
+            'Composite cylinders are non-blast — safe for winter heating use even near open flame sources',
+            'Start preparing in August–October before panic buying empties dealer shelves in November',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <p>It is 4:30 in the morning in Lahore. Fajr is 40 minutes away. In the kitchen, someone turns the gas stove knob. There is no click of ignition, no blue flame, no hiss of gas. The pressure is so low that not even a lighter held directly to the burner produces a flame worth cooking on. This scene repeats itself in millions of Pakistani homes every winter — from Peshawar to Gujranwala, from Rawalpindi to Faisalabad. Mothers trying to prepare Sehri in cold kitchens. Children going to school without a hot breakfast. Elderly people unable to heat their rooms. The winter gas shortage in Pakistan is not a minor administrative inconvenience. For the households it affects most severely, it is a daily ordeal that lasts three to four months of every year.</p>
 
       <p>The winter gas shortage Pakistan 2025 season will be no different from those that preceded it. In fact, with domestic gas field production continuing its multi-year decline and demand growing every year as more households connect to the gas network, the 2025 winter shortage may be more severe than previous years. The government will issue advisories. SNGPL will announce load management schedules. Journalists will file the same stories they filed last December. And millions of households will wake up to cold stoves unless they have prepared in advance.</p>
@@ -332,6 +374,27 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'ramadan-gas-safety-tips-pakistani-kitchens': (
     <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Gas-related kitchen accidents peak during Sehri (3–5 AM) due to fatigue, darkness, and distraction',
+            'A 10-minute pre-Ramadan inspection of your hose, valve, and burners can prevent a disaster',
+            'Closing the cylinder valve after every cooking session is the single most impactful safety habit',
+            'Composite cylinders are non-blast — a gas leak near an open flame does not create an explosion risk',
+            'Never cook Sehri alone while severely fatigued — always have a second person present as safety monitor',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <p>In the Pakistani household, Ramadan is the month that pushes the kitchen to its absolute limit. Before Fajr, someone is already at the stove preparing Sehri — paratha on the tawa, eggs sizzling, chai boiling — while the rest of the family sleeps or drowsily dresses. As Maghrib approaches, the kitchen becomes a controlled frenzy: samosas frying in hot oil, daal simmering, chicken karahi on full heat, chaat being assembled, sharbat being mixed. After Iftar, Taraweeh is followed by dessert and late-night chai. Then the alarm goes off at 3:30 AM and the cycle begins again. Over 29 or 30 consecutive days, Pakistani kitchens operate at an intensity they match at no other time of year.</p>
 
       <p>That intensity, combined with the physiological effects of fasting — reduced alertness, fatigue, dehydration, slowed reaction times — and the social dynamics of crowded kitchens full of helpers who may not normally cook, creates a genuinely elevated risk environment for gas-related kitchen accidents. Pakistan&apos;s Emergency Rescue 1122 data consistently shows elevated kitchen fire and gas incident reports during Ramadan. The majority of these incidents are preventable. Most result not from equipment failure but from human factors: a burner left on, a hose not checked in months, a child in the wrong place, a dupatta too close to a flame, a cylinder valve never closed.</p>
@@ -511,6 +574,27 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'load-shedding-lpg-pakistanis-switching-gas-cooking': (
     <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'LPG cooking costs 3–5x less than electric cooking at current Pakistan electricity tariff rates',
+            'Electric cooktops fail precisely during Sehri and Iftar — the moments when cooking cannot wait',
+            "Pakistan's load shedding is structural and projected to continue for at least 5–7 more years",
+            'Composite cylinders are the safest LPG option for households using gas as primary cooking fuel daily',
+            "Pakistan's restaurant industry switched from electric to gas years ago — households are catching up",
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <p>At 7 PM in the evening during a Lahore summer, a working mother arrives home to prepare dinner. She turns on the induction cooktop. Nothing happens. The load shedding that started at 6 PM will not end until 10 PM. The rice will not cook. The curry will not simmer. The family will eat biscuits, or leftover roti from the morning, or nothing — because the cooking fuel of choice, electricity, is unavailable precisely when it is needed most. This scene, repeated in millions of Pakistani households daily, is driving one of the most significant household energy shifts Pakistan has seen in a generation: the mass switch from electric to LPG gas cooking.</p>
 
       <p>Pakistan&apos;s electricity load shedding crisis is not a temporary disruption. It is a structural consequence of a power sector circular debt that has grown beyond Rs 2.7 trillion, a generation fleet that cannot be adequately fuelled because the fuel cannot be paid for, a distribution infrastructure that loses 20–25% of power as technical and commercial losses, and a tariff structure that prices electricity beyond the reach of millions of households while simultaneously failing to generate enough revenue to cover generation costs. None of these problems will be resolved quickly. The International Monetary Fund&apos;s structural reform programme addresses them over a 3–5 year horizon at best. Pakistan&apos;s households need cooking fuel today, this evening, when the power goes out — not in 2028 when the circular debt may or may not have been meaningfully reduced.</p>
@@ -813,12 +897,36 @@ export default async function SlugPage({ params }: Props) {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-black mb-4 leading-tight">{post.title}</h1>
-          <div className="flex items-center gap-4 text-sm text-green-200">
+          <div className="flex items-center gap-4 text-sm text-green-200 flex-wrap">
             <span className="flex items-center gap-1"><Calendar className="w-4 h-4" /> {post.date}</span>
             <span>By WAA Technologies</span>
+            {post.readingTime && (
+              <span className="bg-white/10 px-2.5 py-0.5 rounded-full">{post.readingTime}</span>
+            )}
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': isCaseStudy ? 'Article' : 'BlogPosting',
+            headline: post.title,
+            description: post.excerpt,
+            datePublished: post.date,
+            author: { '@type': 'Organization', name: 'WAA Technologies Pvt Ltd', url: 'https://waatechnologies.com' },
+            publisher: {
+              '@type': 'Organization',
+              name: 'WAA Technologies Pvt Ltd',
+              logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/logo.png' },
+            },
+            url: `https://waatechnologies.com/${post.slug}`,
+            mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
+          }),
+        }}
+      />
 
       {/* Content */}
       <section className="py-16 bg-white">
@@ -840,7 +948,7 @@ export default async function SlugPage({ params }: Props) {
                 </div>
               )}
 
-              <div className="prose prose-slate max-w-none prose-headings:font-black prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-3 prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-4 prose-li:text-slate-600 prose-ul:my-4 prose-ul:list-disc prose-ul:pl-5 prose-strong:text-slate-800">
+              <div className="prose prose-slate max-w-none prose-lg prose-headings:font-black prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-lg prose-h3:mt-7 prose-h3:mb-3 prose-p:leading-[1.85] prose-p:mb-5 prose-li:leading-relaxed prose-ul:pl-6 prose-ol:pl-6 prose-strong:font-bold prose-img:rounded-xl">
                 {content}
               </div>
 

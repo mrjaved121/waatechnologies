@@ -7,6 +7,7 @@ export type Post = {
   type: 'blog' | 'case-study';
   location?: string;
   tags?: string[];
+  readingTime?: string;
 };
 
 export const allPosts: Post[] = [
@@ -17,6 +18,7 @@ export const allPosts: Post[] = [
     date: 'Jun 21, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
+    readingTime: '11 min read',
     tags: ['lpg-shortage-pakistan', 'composite-cylinders-solution', 'lpg-gas-shortage', 'fiber-lpg-cylinders'],
     excerpt: 'Pakistan faces recurring LPG shortages driven by supply chain bottlenecks and ageing infrastructure. Composite cylinders — lighter, more durable, and stackable — are a practical part of the solution every household can adopt today.',
   },
@@ -26,6 +28,7 @@ export const allPosts: Post[] = [
     date: 'Jun 21, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
+    readingTime: '12 min read',
     tags: ['winter-gas-shortage-pakistan', 'winter-heating-lpg', 'home-gas-preparation', 'composite-lpg-cylinders'],
     excerpt: 'Every winter, millions of Pakistani households face acute gas shortages. Here is how to prepare your home before the cold hits — and why an LPG composite cylinder is the most reliable backup you can have.',
   },
@@ -35,6 +38,7 @@ export const allPosts: Post[] = [
     date: 'Jun 21, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
+    readingTime: '13 min read',
     tags: ['ramadan-gas-safety', 'kitchen-gas-safety-pakistan', 'ramadan-cooking', 'safe-lpg-cylinders'],
     excerpt: 'Sehri and Iftar cooking marathons significantly increase kitchen gas usage during Ramadan. Follow these essential LPG safety tips — and understand why a composite cylinder makes every Pakistani kitchen safer this holy month.',
   },
@@ -44,6 +48,7 @@ export const allPosts: Post[] = [
     date: 'Jun 21, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
+    readingTime: '12 min read',
     tags: ['load-shedding-lpg', 'gas-cooking-pakistan', 'lpg-alternative-electricity', 'composite-lpg-cylinders'],
     excerpt: 'With electricity load shedding stretching 10–14 hours in parts of Pakistan, LPG-powered cooking has become the practical choice for millions of households. Here is why composite cylinders are the smartest way to make the switch.',
   },
