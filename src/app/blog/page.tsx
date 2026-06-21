@@ -11,6 +11,34 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    title: 'LPG Gas Shortage in Pakistan: Why Composite Cylinders Are the Solution',
+    slug: 'lpg-gas-shortage-pakistan-composite-cylinders-solution',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'Pakistan faces recurring LPG shortages driven by supply chain bottlenecks and ageing infrastructure. Composite cylinders — lighter, more durable, and stackable — are a practical part of the solution every household can adopt today.',
+  },
+  {
+    title: 'Winter Gas Shortage Pakistan 2025 — Prepare Your Home',
+    slug: 'winter-gas-shortage-pakistan-2025-prepare-your-home',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'Every winter, millions of Pakistani households face acute gas shortages. Here is how to prepare your home before the cold hits — and why an LPG composite cylinder is the most reliable backup you can have.',
+  },
+  {
+    title: 'Ramadan Gas Safety Tips for Pakistani Kitchens',
+    slug: 'ramadan-gas-safety-tips-pakistani-kitchens',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'Sehri and Iftar cooking marathons significantly increase kitchen gas usage during Ramadan. Follow these essential LPG safety tips — and understand why a composite cylinder makes every Pakistani kitchen safer this holy month.',
+  },
+  {
+    title: 'Load Shedding and LPG: Why More Pakistanis Are Switching to Gas Cooking',
+    slug: 'load-shedding-lpg-pakistanis-switching-gas-cooking',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'With electricity load shedding stretching 10–14 hours in parts of Pakistan, LPG-powered cooking has become the practical choice for millions of households. Here is why composite cylinders are the smartest way to make the switch.',
+  },
+  {
     title: 'Cost Benefits of Composite LPG Cylinders: A Smart Investment for 2025',
     slug: 'cost-benefits-of-composite-lpg-cylinders-a-smart-investment-for-2025',
     date: 'May 2, 2025',
