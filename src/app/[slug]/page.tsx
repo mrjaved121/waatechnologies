@@ -48,6 +48,150 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
+  'how-to-safely-connect-lpg-cylinder-regulator-at-home': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Always close the cylinder valve fully before attaching or removing a regulator — never connect to an open valve',
+            'Inspect the O-ring seal every time you connect a regulator — a cracked or missing O-ring is the most common cause of connection leaks',
+            'Tighten the regulator hand-tight first, then one quarter-turn with a wrench — overtightening cracks the valve body',
+            'Always perform the soap-and-water bubble test after every connection before opening the valve fully',
+            'If bubbles persist after re-tightening, do not use the cylinder — call your dealer or a qualified gas technician',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every time a Pakistani household switches to a new LPG cylinder — whether it is the routine delivery from the local dealer or a new cylinder purchased after moving home — someone has to connect the regulator. It is one of the most frequently performed gas-related tasks in Pakistani domestic life, repeated by tens of millions of households across the country every week. It is also one of the most frequently performed incorrectly. Improperly connected regulators are among the leading causes of gas leaks in Pakistani homes: a cross-threaded fitting, a worn O-ring nobody checked, a cylinder valve not closed before attachment, a hose left kinked under the weight of the cylinder. These are not rare or exotic failure modes. They happen in ordinary homes, to ordinary families, every single day — because the correct procedure is simply not widely known.</p>
+
+      <p>This guide gives you the complete, correct procedure for connecting an LPG cylinder regulator at home — from the pre-connection safety checks, through the step-by-step attachment process, to the leak test that confirms the connection is safe before you cook your first meal on the new cylinder. It also covers the most common mistakes Pakistani households make, how to know when your regulator needs replacement, the differences between regulator types used across Pakistan, and how WAA Technologies composite cylinders interact with standard Pakistani domestic regulators.</p>
+
+      <h2>What Is an LPG Cylinder Regulator and What Does It Do?</h2>
+
+      <p>An LPG cylinder regulator is the device that sits between your cylinder valve and your gas hose, controlling the pressure of gas delivered to your stove. The pressure inside a filled LPG cylinder is substantial — typically 5 to 10 bar (75 to 145 psi) depending on temperature and fill level. Your domestic gas appliances — stove burners, water heaters, room heaters — are designed to operate on gas delivered at a much lower, stable pressure: typically 28 to 37 millibar for most Pakistani domestic appliances. The regulator reduces the high cylinder pressure to this appliance-safe working pressure automatically, maintaining that stable output pressure regardless of how full or empty the cylinder is and regardless of ambient temperature fluctuations.</p>
+
+      <p>Without a functioning regulator, the full cylinder pressure would flow directly to your stove, producing a dangerously oversized flame, damaging your appliance burners and seals, and creating an uncontrollable fire hazard. A regulator in poor condition — with a cracked body, worn internal diaphragm, damaged O-ring seal, or a pressure setting that has drifted out of specification — creates safety and performance problems: irregular flame behaviour, hissing sounds at the connection, a persistent faint gas smell near the cylinder, or a flame that cannot be turned down to a simmer regardless of the stove knob position.</p>
+
+      <h2>Regulator Types Used in Pakistani Homes</h2>
+
+      <p>Two main regulator types are in common use with LPG cylinders in Pakistan.</p>
+
+      <p><strong>Clip-on (snap-on) regulators</strong> attach to the cylinder valve by pressing straight down over the valve outlet and twisting to lock — no tools required. This is the most common type for standard Pakistani domestic cylinders and is the easiest to connect and disconnect correctly. The twist-lock mechanism provides a positive engagement that is easy to verify by feel and sight.</p>
+
+      <p><strong>Screw-type regulators</strong> have a threaded nut on the inlet that screws clockwise onto a threaded cylinder valve outlet. This type is common with some industrial and commercial cylinder sizes, and with certain import-specification cylinders. It requires a correctly sized spanner for full tightening and demands care to avoid cross-threading — a common mistake that damages both the regulator inlet and the cylinder valve threads, requiring professional repair.</p>
+
+      <p>WAA Technologies composite cylinders use standard LPG valve configurations that are compatible with the clip-on and screw-type regulators already in use in most Pakistani households. WAA also supplies matched, high-quality regulators specifically engineered for their cylinder valve geometry. If you are switching from a steel cylinder to a WAA composite cylinder for the first time, confirm regulator compatibility with your WAA authorised dealer, or purchase a matched WAA regulator at the time of cylinder purchase to guarantee optimal sealing and safe working pressure.</p>
+
+      <h2>What You Need Before You Start</h2>
+
+      <ul>
+        <li><strong>The correct regulator</strong> — confirmed compatible with your cylinder valve type and your stove&apos;s pressure requirements. Check the regulator body for the output pressure specification (typically 28–37 mbar for Pakistani domestic use).</li>
+        <li><strong>A gas hose in good condition</strong> — less than two years old, with no cracks, kinks, discolouration, or scorch marks. If there is any doubt, replace the hose before proceeding. A new hose fitting is far cheaper than the consequences of a hose failure.</li>
+        <li><strong>Soap-and-water solution</strong> — mix washing-up liquid with water in a small bowl to create a thick foam. This is your leak detection tool after connection.</li>
+        <li><strong>An adjustable spanner or the correct fixed spanner</strong> for your regulator type — for screw-type regulators only. Clip-on regulators do not require tools.</li>
+        <li><strong>A clean cloth or tissue</strong> — for wiping the cylinder valve outlet before connection to remove any dust, debris, or moisture.</li>
+      </ul>
+
+      <h2>Safety Checks Before Connecting</h2>
+
+      <p>Rushing the pre-connection checks is where most household accidents originate. Take three minutes to do all of the following before touching the regulator fitting.</p>
+
+      <p><strong>Confirm the cylinder valve is closed.</strong> Turn the cylinder valve handle clockwise until it stops. If you are connecting a new cylinder just delivered by your dealer, it may arrive with the valve open — always check and close it before proceeding.</p>
+
+      <p><strong>Inspect the cylinder valve outlet.</strong> Look at the valve outlet port — the socket or threaded stub that the regulator will attach to. It should be clean, undamaged, and free from grit or debris. Wipe it with a clean dry cloth. If the valve outlet is cracked, bent, or visibly damaged, do not proceed — a damaged valve outlet cannot form a safe seal and must be repaired by a qualified gas technician before the cylinder is used.</p>
+
+      <p><strong>Inspect the regulator inlet O-ring.</strong> The O-ring is a small rubber ring seated in the regulator inlet that creates the gas-tight seal between the regulator and the cylinder valve. This is the single most common failure point in LPG cylinder connections in Pakistani homes. Look at it carefully: it should be supple, uniformly round, seated fully in its groove, and free from cracks, flattening, or cuts. A hardened, cracked, or flattened O-ring will not seal correctly and must be replaced before the regulator is used. Replacement O-rings are available from any LPG dealer or hardware supplier in Pakistan for a negligible cost.</p>
+
+      <p><strong>Inspect the gas hose.</strong> Run your hand along the full length of the hose feeling for kinks, hard spots, or surface cracks. Check both hose-end fittings — they should be fully seated on the hose with no visible gaps. If the hose has been in use for more than two years, replace it now regardless of appearance.</p>
+
+      <p><strong>Ensure the area is ventilated.</strong> Open a window or door in the kitchen before starting. Any small gas escape during connection — from a brief moment before the seal is formed — should be able to disperse rather than accumulate.</p>
+
+      <h2>Step-by-Step: How to Connect the Regulator Safely</h2>
+
+      <h3>Step 1 — Confirm the Cylinder Valve Is Fully Closed</h3>
+      <p>Turn the valve handle clockwise until it stops firmly. Do not force it or overtighten — just snug resistance. This step is so important it bears repeating even though it was a pre-connection check: do not attach a regulator to an open valve under any circumstances. Doing so releases gas the moment the connection is not yet sealed, creating a gas-rich atmosphere immediately around your face and hands.</p>
+
+      <h3>Step 2 — Align the Regulator to the Cylinder Valve</h3>
+      <p>For a <strong>clip-on regulator</strong>: hold the regulator body with the outlet (hose connection end) pointing toward your stove. Position the regulator inlet directly over the cylinder valve outlet and press straight down with firm, even pressure until you hear and feel the clip engage. Then twist the regulator body clockwise (as seen from above) approximately a quarter-turn until it locks. Tug the regulator upward gently to confirm it is locked and will not pull free.</p>
+      <p>For a <strong>screw-type regulator</strong>: hand-thread the regulator inlet nut onto the cylinder valve outlet clockwise. Start by turning with your fingers only — if you feel any resistance before the nut has begun to engage threads, stop and realign. Cross-threading — forcing the nut when the threads are misaligned — is the most damaging mistake you can make with a screw-type connection. Once fully hand-tight, use your spanner to tighten one additional quarter-turn. No more. Overtightening cracks the brass valve body, which is a serious and expensive failure.</p>
+
+      <h3>Step 3 — Connect the Gas Hose</h3>
+      <p>Connect the hose to the regulator outlet and to the stove inlet, pushing each end fully onto its fitting and ensuring the securing clip or clamp (if present) is properly engaged. The hose should run cleanly between cylinder and stove with no sharp kinks. If the hose is too short to run without tension, or too long and coiling on the floor behind the cylinder, it needs to be replaced with an appropriately sized hose.</p>
+
+      <h3>Step 4 — Perform the Soap Test</h3>
+      <p>Before opening the cylinder valve, apply your soap-and-water foam generously to: the regulator-to-valve connection point; both hose end fittings; and the stove inlet connection. Now open the cylinder valve slowly — one full turn counterclockwise from the fully closed position. Watch all soaped points carefully for 30 seconds. Growing bubbles or bubbles that pop rhythmically indicate gas escaping at that point.</p>
+
+      <h3>Step 5 — If No Bubbles: Connection Is Safe</h3>
+      <p>No bubbles at any connection point means your connection is gas-tight and safe to use. Open the cylinder valve to the desired operating position (usually fully open — regulators are designed to operate with the upstream valve fully open). Wipe away the soap solution with a dry cloth and light your stove in the normal way.</p>
+
+      <h3>Step 6 — If Bubbles Are Present: Do Not Use the Cylinder</h3>
+      <p>Close the cylinder valve immediately. Identify the precise point of the bubble. For a screw-type regulator inlet, carefully re-tighten by one further eighth-turn and re-test. For a clip-on connection, disconnect, inspect the O-ring for damage, reposition and re-engage, and re-test. If bubbles persist after two re-test attempts, do not use the cylinder. The regulator, O-ring, or cylinder valve requires professional inspection. Contact your LPG dealer or a qualified gas technician.</p>
+
+      <h2>Common Mistakes Pakistani Households Make When Connecting Regulators</h2>
+
+      <p><strong>Connecting to an open cylinder valve.</strong> The most dangerous mistake. Always close the valve before connecting — without exception.</p>
+
+      <p><strong>Not checking the O-ring.</strong> The O-ring is the connection seal. A cracked, missing, or hardened O-ring will leak from the first moment gas pressure is applied. It costs virtually nothing to inspect and replace, yet it is skipped in the majority of household cylinder changes in Pakistan.</p>
+
+      <p><strong>Overtightening screw-type connections.</strong> Pakistani households frequently believe that tighter is safer with gas connections. For screw-type regulators, overtightening distorts the seating surfaces and can crack the brass valve body — actually making the connection less safe, not more. Hand-tight plus a quarter-turn is the correct specification.</p>
+
+      <p><strong>Skipping the soap test.</strong> The soap test is the only reliable way to confirm a gas-tight connection without professional equipment. Omitting it and lighting the stove without testing means operating with an unknown connection quality — a risk that is entirely unnecessary when the test takes less than a minute.</p>
+
+      <p><strong>Using the wrong regulator.</strong> A regulator with the wrong output pressure for your appliances, or one designed for a different cylinder valve type than you have, will either deliver gas at the wrong pressure (causing flame problems and equipment damage) or fail to seal correctly (causing a leak). Confirm regulator compatibility every time you purchase a new regulator.</p>
+
+      <p><strong>Leaving the hose kinked behind the cylinder.</strong> A kinked hose restricts gas flow and, if the kink is severe, can crack the hose material at that point over time. Always position the cylinder and route the hose to eliminate kinks before use.</p>
+
+      <h2>How to Know When Your Regulator Needs Replacing</h2>
+
+      <p>A domestic LPG regulator has a service life of approximately 3–5 years under normal Pakistani household use conditions. Replace your regulator if you observe any of the following: a persistent faint gas smell near the cylinder even when the cylinder valve is closed and the soap test shows no connection leak (indicates internal regulator diaphragm failure); a hissing sound from the regulator body (indicates internal pressure relief or diaphragm failure); irregular flame behaviour that cannot be resolved by burner cleaning (indicates regulator pressure drift); visible cracks, dents, or corrosion on the regulator body; the regulator is more than five years old regardless of apparent condition; or any incident where the regulator was dropped, struck, or exposed to fire heat.</p>
+
+      <p>Do not attempt to repair a faulty regulator. LPG regulators are precision pressure-control devices with internal diaphragms, springs, and seats that degrade at the component level. A regulator that is performing incorrectly should be replaced, not repaired, to ensure reliable pressure control and gas-tight sealing.</p>
+
+      <h2>Why Composite Cylinder Connections Are Safer</h2>
+
+      <p>When connecting a regulator to a WAA Technologies composite LPG cylinder, there is one important safety advantage over steel: the cylinder valve is protected from corrosion. Steel cylinder valves in Pakistan&apos;s operating environment — humidity, temperature extremes, the rough handling of distribution operations — develop rust around the valve seat and O-ring groove over time. This corrosion interferes with the seal between the cylinder valve and the regulator inlet, making it harder to achieve a gas-tight connection even with a good O-ring and correct technique. It is a frequent cause of the connection leaks that the soap test reveals on older steel cylinders.</p>
+
+      <p>WAA composite cylinders use valves protected from the corrosion environment by the cylinder&apos;s HDPE and composite construction. The valve seat remains clean and geometrically correct throughout the cylinder&apos;s 20+ year service life, providing a consistent sealing surface for the regulator connection. Combined with a matched WAA regulator and a fresh O-ring, a connection to a WAA composite cylinder should produce a clean, bubble-free soap test result on the first attempt, every time.</p>
+
+      <h2>When to Call a Professional Gas Technician</h2>
+
+      <p>The regulator connection procedure described in this guide is designed to be performed safely by any competent adult household member following the steps carefully. However, there are situations where professional intervention is the right choice and should not be avoided to save time or money.</p>
+
+      <p>Call a qualified gas technician if: the cylinder valve outlet is visibly damaged, bent, or corroded; the soap test continues to show bubbles after two careful re-test attempts; you smell gas from the cylinder area even with the valve fully closed; the regulator body is cracked or visibly damaged; you are connecting gas to a new installation (new stove, new water heater, new appliance) for the first time; or you are simply not confident in any step of the procedure. An annual professional inspection of your complete LPG setup — cylinder valve, regulator, hose, and stove connections — is a worthwhile investment in household safety that costs very little compared to the value of the safety assurance it provides.</p>
+
+      <h2>Frequently Asked Questions About LPG Regulator Connection in Pakistan</h2>
+
+      <h3>How tight should a regulator be on an LPG cylinder?</h3>
+      <p>For clip-on regulators: press firmly down until the clip engages, then twist to lock — no tools required. For screw-type regulators: hand-tight until finger resistance, then one quarter-turn with a spanner. No more. Overtightening a screw-type regulator damages the brass valve body threads and seating surfaces, actually reducing connection security and potentially requiring expensive valve repair.</p>
+
+      <h3>Can I use any regulator with any LPG cylinder in Pakistan?</h3>
+      <p>No. Regulators must be compatible with the cylinder valve type (clip-on vs screw-type) and must deliver the correct output pressure for your appliances (typically 28–37 mbar for Pakistani domestic gas stoves). Using a regulator with the wrong pressure specification damages appliances and creates dangerous flame conditions. Always confirm regulator-cylinder compatibility before purchase. WAA Technologies supplies matched regulators specifically for their composite cylinder valve geometry.</p>
+
+      <h3>How do I know if my LPG regulator is faulty?</h3>
+      <p>Signs of a faulty regulator include: persistent gas smell near the cylinder when the valve is closed; hissing sound from the regulator body; irregular or uncontrollable flame size at the stove; the stove flame cannot be turned to a low simmer regardless of the stove knob position; or visible cracks, corrosion, or physical damage on the regulator body. A faulty regulator must be replaced — do not attempt to repair it. Replace any regulator more than five years old regardless of apparent condition.</p>
+
+      <h3>Is it safe to connect an LPG regulator without tools?</h3>
+      <p>For clip-on (snap-on) regulators: yes — these are specifically designed for tool-free connection and do not require a wrench. For screw-type regulators: partial — you can hand-thread the connection to start, but a spanner is required for the final quarter-turn tightening to achieve a gas-tight seal. Never use excessive force with either type: clip-on connections that resist engagement need realignment, not force; screw-type connections that resist threading are cross-threaded and must be backed off and restarted.</p>
+
+      <h2>Conclusion: A Three-Minute Procedure That Could Save Your Family</h2>
+
+      <p>Connecting an LPG cylinder regulator correctly takes approximately three minutes from pre-connection check to completed soap test. Done correctly every single time, following the steps in this guide, it is a safe and straightforward procedure that poses no meaningful risk. Done carelessly — without checking the O-ring, without closing the valve first, without performing the soap test — it creates exactly the conditions for the gas leaks and kitchen accidents that affect Pakistani households with tragic frequency.</p>
+
+      <p>Make the full procedure — including the soap test — your standard practice for every cylinder change. Share this guide with your household members who handle cylinder changes. And when you are next choosing an LPG cylinder, consider making the upgrade to a WAA Technologies composite cylinder: a safer, lighter, corrosion-free pressure vessel that provides a consistently reliable valve seating surface for your regulator connection, backed by ISO 11119-3 and EN 14427-2022 certification and manufactured to the highest standards at our Gujranwala facility.</p>
+
+      <p>Contact WAA Technologies Pvt Ltd at (+92) 4237815533 or visit our showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Find an authorised dealer near you at waatechnologies.com/authorized-dealers.</p>
+    </>
+  ),
+
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': (
     <>
       <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
@@ -971,6 +1115,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'how-to-safely-connect-lpg-cylinder-regulator-at-home': 2500,
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': 2200,
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': 2700,
   'winter-gas-shortage-pakistan-2025-prepare-your-home': 2900,
@@ -980,6 +1125,24 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'how-to-safely-connect-lpg-cylinder-regulator-at-home': [
+    {
+      q: 'How tight should a regulator be on an LPG cylinder in Pakistan?',
+      a: 'For clip-on regulators: press firmly down until the clip engages, then twist to lock — no tools required. For screw-type regulators: hand-tight until finger resistance, then one quarter-turn with a spanner. No more. Overtightening a screw-type regulator damages the brass valve body threads and seating surfaces, reducing connection security and potentially requiring expensive valve repair.',
+    },
+    {
+      q: 'Can I use any regulator with any LPG cylinder in Pakistan?',
+      a: 'No. Regulators must be compatible with the cylinder valve type (clip-on vs screw-type) and must deliver the correct output pressure for your appliances (typically 28–37 mbar for Pakistani domestic gas stoves). Using a regulator with the wrong pressure specification damages appliances and creates dangerous flame conditions. WAA Technologies supplies matched regulators specifically for their composite cylinder valve geometry.',
+    },
+    {
+      q: 'How do I know if my LPG regulator is faulty?',
+      a: 'Signs of a faulty regulator include: persistent gas smell near the cylinder when the valve is closed; hissing sound from the regulator body; irregular or uncontrollable flame size at the stove that cannot be resolved by burner cleaning; or visible cracks, corrosion, or physical damage on the regulator body. Replace any regulator showing these signs immediately — do not attempt to repair it. Also replace any regulator more than five years old regardless of apparent condition.',
+    },
+    {
+      q: 'Is it safe to connect an LPG regulator without tools in Pakistan?',
+      a: 'For clip-on (snap-on) regulators: yes — these are designed for tool-free connection. For screw-type regulators: a spanner is required for the final quarter-turn tightening to achieve a gas-tight seal. Never force either type: clip-on connections that resist engagement need realignment, not force; screw-type connections that resist threading are cross-threaded and must be backed off and restarted to avoid damaging the valve.',
+    },
+  ],
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': [
     {
       q: 'What should I do immediately if I smell gas in my home?',

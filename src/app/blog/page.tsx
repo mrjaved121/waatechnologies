@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    title: 'How to Safely Connect an LPG Cylinder Regulator at Home — Step-by-Step Guide for Pakistan',
+    slug: 'how-to-safely-connect-lpg-cylinder-regulator-at-home',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'Fitting an LPG cylinder regulator incorrectly is one of the most common causes of gas leaks in Pakistani homes. This complete step-by-step guide shows you exactly how to connect a regulator safely — including the checks most households skip.',
+  },
+  {
     title: '8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow',
     slug: '8-crucial-gas-cylinder-safety-rules-every-household-must-follow',
     date: 'Jun 21, 2026',

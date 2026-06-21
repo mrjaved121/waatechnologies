@@ -13,6 +13,16 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
   {
+    slug: 'how-to-safely-connect-lpg-cylinder-regulator-at-home',
+    title: 'How to Safely Connect an LPG Cylinder Regulator at Home — Step-by-Step Guide for Pakistan',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '9 min read',
+    tags: ['lpg-regulator-connection', 'gas-cylinder-regulator-pakistan', 'lpg-cylinder-safety', 'composite-lpg-cylinders'],
+    excerpt: 'Fitting an LPG cylinder regulator incorrectly is one of the most common causes of gas leaks in Pakistani homes. This complete step-by-step guide shows you exactly how to connect a regulator safely — including the checks most households skip.',
+  },
+  {
     slug: '8-crucial-gas-cylinder-safety-rules-every-household-must-follow',
     title: '8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow',
     date: 'Jun 21, 2026',
