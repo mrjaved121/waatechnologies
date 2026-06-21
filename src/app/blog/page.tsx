@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    title: 'Why Pakistani Restaurants Are Switching to Composite LPG Cylinders — The Complete Business Case',
+    slug: 'why-restaurants-switching-composite-lpg-cylinders-pakistan',
+    date: 'Jun 21, 2026',
+    category: 'WAATechCylinders',
+    excerpt: 'From Lahore\'s Food Street to Karachi\'s Boat Basin, Pakistan\'s restaurant industry is rapidly replacing steel LPG cylinders with composite alternatives. Here is the complete business case — safety, cost, operations, and compliance — driving the switch.',
+  },
+  {
     title: 'How to Safely Connect an LPG Cylinder Regulator at Home — Step-by-Step Guide for Pakistan',
     slug: 'how-to-safely-connect-lpg-cylinder-regulator-at-home',
     date: 'Jun 21, 2026',

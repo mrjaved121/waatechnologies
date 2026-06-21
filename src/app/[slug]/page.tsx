@@ -48,6 +48,157 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
+  'why-restaurants-switching-composite-lpg-cylinders-pakistan': (
+    <>
+      {/* Featured snippet target — bulleted quick answer */}
+      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-3">Quick Answer: 5 Reasons Restaurants Are Switching</p>
+        <ul className="space-y-2">
+          {[
+            'Non-blast composite cylinders eliminate the explosion risk in high-heat commercial kitchens',
+            'Translucent body shows gas level instantly — no mid-service shutdowns from empty cylinders',
+            'Composite cylinders last 20+ years vs 8–12 for steel — dramatically lower total cost of ownership',
+            '50% lighter than steel makes frequent cylinder changes manageable for kitchen staff',
+            'ISO-certified cylinders lower insurance premiums and pass OGRA safety inspections first time',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-green-300">
+              <span className="font-black mt-0.5 shrink-0">→</span>
+              <span className="text-slate-200">{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan\'s restaurant sector uses gas cooking exclusively — any cylinder failure directly costs revenue and reputation',
+            'A single steel cylinder explosion in a restaurant can mean criminal liability, complete insurance loss, and permanent closure',
+            'Composite cylinders\' see-through body is the single most operationally valuable feature for busy commercial kitchens',
+            'Restaurants in Lahore, Karachi, and Islamabad report 30–50% reductions in cylinder-related operational downtime after switching',
+            'WAA Technologies supplies composite cylinders to commercial and restaurant accounts across Punjab, Sindh, and KPK',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Walk into any successful restaurant kitchen in Lahore&apos;s DHA, Karachi&apos;s Boat Basin, Islamabad&apos;s F-7 Markaz, or Faisalabad&apos;s city centre, and you will find the same scene: multiple burners running simultaneously at full heat, karahis and woks in constant motion, industrial pressure cookers venting steam, bread ovens cycling through hundreds of rotis per hour. Gas is not one option among several for these kitchens — it is the only practical cooking fuel for the Pakistani commercial kitchen environment, and it must never fail. A restaurant that cannot cook is a restaurant that cannot earn revenue, cannot serve customers, and cannot pay staff. In Pakistan&apos;s fiercely competitive food service sector, even a single service disruption due to a gas cylinder problem can cost thousands of rupees in lost covers, wasted prepared food, and damage to reputation.</p>
+
+      <p>This is why Pakistan&apos;s restaurant industry is in the middle of a significant transition: away from conventional steel LPG cylinders and toward WAA Technologies-style composite alternatives. The transition is driven not by sentiment or marketing, but by hard commercial logic. Composite cylinders are safer, cheaper over their full service life, more operationally reliable, easier to handle, and better suited to the regulatory requirements that Pakistani commercial kitchens face. This article examines every dimension of the business case in detail — with specific reference to the restaurant markets of Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, and Gujranwala.</p>
+
+      <h2>Why Commercial Kitchens Have Different LPG Needs Than Households</h2>
+
+      <p>A Pakistani household uses a single LPG cylinder for cooking, and that cylinder may last 4–8 weeks. A mid-sized restaurant in Lahore&apos;s Gulberg or Karachi&apos;s Zamzama serving lunch and dinner service six days a week may consume the same cylinder in 3–5 days. A large wedding catering kitchen in Rawalpindi&apos;s Saddar area, operating for an event, may consume three or four cylinders in a single evening. A hotel breakfast kitchen in Islamabad&apos;s Blue Area may maintain four cylinders simultaneously to ensure uninterrupted service through peak hours.</p>
+
+      <p>The commercial kitchen relationship with LPG cylinders differs from the household relationship in three critical ways. First, <strong>usage intensity</strong>: commercial burners run for 10–16 hours per day at full capacity, consuming gas at rates that create frequent cylinder changes and maximise the risk of running out mid-service. Second, <strong>cylinder handling frequency</strong>: commercial kitchen staff may change cylinders daily or several times per week, compared to a household change every month or two. Each connection and disconnection is a potential safety event that compounds over hundreds of annual cylinder changes. Third, <strong>consequence of failure</strong>: a household that runs out of gas experiences inconvenience. A restaurant that runs out of gas during a Saturday dinner service loses revenue, wastes prepared food, and damages customer relationships in ways that have lasting commercial impact.</p>
+
+      <h2>Reason 1: Safety — Non-Blast Cylinders Are Mandatory for Commercial Kitchens</h2>
+
+      <p>A commercial kitchen has more ignition sources in a smaller space than almost any other domestic or commercial environment. Multiple gas burners burning simultaneously, tandoor ovens at several hundred degrees, hot oil fryers, electrical equipment generating heat and sparks, open flames used for finishing dishes — all of this operates in close proximity to LPG cylinders, in kitchens where staff are moving quickly and sometimes cutting corners under service pressure.</p>
+
+      <p>In this environment, the difference between a steel cylinder and a composite cylinder in a fire or over-pressure event is not theoretical — it is the difference between a serious fire that may damage the kitchen and a catastrophic explosion that destroys the building and kills people. Steel LPG cylinders, when exposed to fire heat, develop rapidly increasing internal pressure as the LPG inside vaporises. If the cylinder&apos;s pressure relief valve fails to open fast enough — as happens in rapid fire development scenarios — the cylinder ruptures violently, projecting lethal metal shrapnel at high velocity throughout the kitchen and into surrounding spaces.</p>
+
+      <p>WAA Technologies composite cylinders are non-blast. Their glass-fibre-over-HDPE construction cannot fragment and project shrapnel. Under the same fire exposure conditions, a composite cylinder develops a controlled gas leak at the valve or seal rather than a catastrophic rupture. The resulting fire from a leaking cylinder is serious and must be fought — but there is no detonation, no blast wave, and no metal fragments. For a restaurant owner in Lahore, Karachi, or Islamabad who is responsible for the safety of dozens of kitchen staff, hundreds of customers, and a significant capital investment in equipment and fit-out, this non-blast guarantee is not a minor feature. It is the most important safety decision in the entire kitchen design.</p>
+
+      <p>Beyond the physical safety argument, there is a legal and financial dimension. A restaurant owner whose steel cylinder explodes and causes injuries faces criminal negligence liability under Pakistan&apos;s legal system, complete loss of insurance coverage (most commercial policies exclude incidents caused by uncertified or unsafe equipment), and the permanent reputational damage of being associated with a fatal kitchen explosion. Composite cylinder use, backed by ISO 11119-3 and EN 14427-2022 certification, is demonstrable due diligence that provides meaningful legal protection in the event of any gas-related incident.</p>
+
+      <h2>Reason 2: Operational Efficiency — The Translucent Body Changes Everything</h2>
+
+      <p>Ask any experienced restaurant manager in Faisalabad&apos;s bustling restaurant district or Lahore&apos;s MM Alam Road what their single most frustrating operational gas problem is, and the answer is almost always the same: running out of gas mid-service without warning. With a steel cylinder, there is no way to know how much gas remains without lifting and weighing the cylinder — which requires stopping work, moving the cylinder from its position, and making an imprecise estimate based on feel. In a busy commercial kitchen during a lunch or dinner rush, nobody has time to do this, so cylinders are used until they run out. Running out during service means an emergency cylinder change under pressure, a gap in cooking output, backed-up orders, cold food, and frustrated customers.</p>
+
+      <p>WAA Technologies composite cylinders have a translucent HDPE body. The LPG level inside is visible at a glance — like looking at a transparent water bottle. A kitchen supervisor or chef can see from across the kitchen, in three seconds, whether the cylinder is full, half, or nearly empty. They can plan cylinder changes proactively — scheduling them between service periods rather than reacting to emergencies during peak hours. For a Karachi restaurant running back-to-back lunch and dinner services, this simple visibility feature eliminates an entire category of service disruption.</p>
+
+      <p>The operational value of level visibility cannot be overstated in commercial settings. Restaurants in Islamabad&apos;s F-6 and F-7 sectors that have switched to composite cylinders report that they can now manage their cylinder inventory with the same precision they apply to food inventory — knowing exactly what they have, when they will need more, and scheduling replenishment in advance. This is not possible with steel cylinders, which give no information about their contents without physical measurement.</p>
+
+      <h2>Reason 3: Cost — The Total Ownership Case Over Five Years</h2>
+
+      <p>Restaurant owners who evaluate composite cylinders only on purchase price will always conclude they are expensive. A composite cylinder costs more upfront than a steel equivalent. But purchase price is the wrong metric for any commercial equipment decision. The correct metric is total cost of ownership over the cylinder&apos;s full service life — including replacement frequency, maintenance costs, operational downtime costs, and safety incident risk.</p>
+
+      <p>A steel cylinder in commercial restaurant use — changed frequently, handled roughly by multiple staff members, stored in hot kitchen environments — realistically lasts 6–10 years in Pakistani conditions before corrosion forces replacement. A WAA composite cylinder, under the same conditions, is rated for 20+ years. A restaurant that currently replaces a fleet of 10 cylinders on a 7-year average will spend significantly more on steel cylinder purchases over a 20-year period than on composite cylinders that need no replacement over the same timeframe.</p>
+
+      <p>The calculation is sharpened further by operational efficiency gains. A restaurant in Rawalpindi&apos;s Saddar that reduces cylinder-change-related service disruptions by switching to composite cylinders with visible gas levels can reasonably attribute 1–2 additional covers per service to that reliability improvement. At average Pakistani restaurant margins, 1–2 extra covers per service — multiplied across 300+ annual service days — represents meaningful incremental revenue that dwarfs the additional purchase cost of composite cylinders over steel.</p>
+
+      <p>There is also a handling and logistics cost saving. WAA composite cylinders weigh approximately 50% less than steel equivalents when filled. A delivery truck supplying composite cylinders to restaurants in Lahore&apos;s Johar Town or Karachi&apos;s Defence can carry significantly more cylinders per trip than a steel cylinder delivery of the same payload weight. This reduces delivery frequency, transport cost per cylinder, and handling cost at both the supplier and restaurant ends of the supply chain.</p>
+
+      <h2>Reason 4: Staff Safety and Handling — Lighter Cylinders Reduce Workplace Injuries</h2>
+
+      <p>Commercial kitchen cylinder changes are physically demanding work. A filled 12 kg steel cylinder weighs approximately 30–32 kg — heavy enough to require significant effort to lift, carry, and position, and heavy enough to cause back injuries and dropping accidents when handled repeatedly by kitchen staff under time pressure. Pakistan&apos;s commercial kitchen workforce, particularly in cities like Faisalabad and Gujranwala where restaurant margins are tight and staff work long hours, is not always in a position to handle heavy equipment with optimal care.</p>
+
+      <p>A filled WAA Technologies 12 kg composite cylinder weighs approximately 18–20 kg — a 35–40% weight reduction. This difference is significant in a commercial setting where kitchen staff may change cylinders multiple times per day. The reduced handling weight lowers back injury risk, reduces the probability of dropping accidents that damage valves or dent cylinder bodies, and makes it practical for a single staff member to manage cylinder changes without assistance — reducing kitchen disruption during changes. Restaurants with predominantly female kitchen staff, particularly in bakeries and catering kitchens in Lahore and Karachi, report that composite cylinders are the first LPG option that their staff can safely manage independently.</p>
+
+      <h2>Reason 5: Compliance and Insurance — Composite Cylinders Simplify Both</h2>
+
+      <p>Pakistan&apos;s commercial food sector is subject to increasing regulatory scrutiny. OGRA&apos;s enforcement of LPG cylinder safety standards is more rigorous than it was five years ago, with periodic inspections of commercial premises that use LPG. A commercial kitchen found using uncertified, out-of-service, or visibly degraded steel cylinders during an OGRA or municipal inspection faces immediate closure orders, fines, and the requirement to replace all non-compliant cylinders before reopening.</p>
+
+      <p>WAA Technologies composite cylinders are certified to ISO 11119-3 and EN 14427-2022, with individual cylinder certification numbers traceable to the Gujranwala manufacturing and testing facility. A restaurant manager in Islamabad, Karachi, or Lahore presenting an OGRA inspector with WAA composite cylinders that have clearly legible certification markings and are in obviously excellent physical condition (no corrosion possible, no dents or wear visible on the HDPE body) is in a fundamentally different compliance position than one presenting a fleet of rusted, dented steel cylinders with questionable hydro-test dates.</p>
+
+      <p>Commercial property insurance in Pakistan&apos;s food sector also increasingly distinguishes between certified and uncertified LPG equipment. Some commercial insurers now offer premium reductions for premises that use ISO-certified, non-blast LPG cylinders — reflecting the actuarially lower risk profile of composite cylinders compared to steel in commercial kitchen environments. For a restaurant in Karachi&apos;s high-rent commercial districts or Lahore&apos;s MM Alam Road where insurance premiums are significant, this reduction has direct financial value.</p>
+
+      <h2>City-by-City: How Pakistan&apos;s Restaurant Hubs Are Adopting Composite Cylinders</h2>
+
+      <p><strong>Lahore:</strong> Pakistan&apos;s food capital, with its thousands of restaurants from Anarkali&apos;s street food to the fine dining establishments of DHA and Gulberg, has seen the earliest and most rapid commercial adoption of composite cylinders. High-volume karahi houses and wedding catering operations on Canal Road were among the first commercial customers to recognise the operational efficiency value of level visibility and the handling benefits of lighter cylinders. LPG home delivery services in Lahore now routinely offer composite cylinder options alongside steel for their restaurant accounts.</p>
+
+      <p><strong>Karachi:</strong> Pakistan&apos;s commercial capital and largest city presents the strongest insurance compliance driver for composite cylinder adoption. Commercial insurance requirements in Karachi&apos;s Clifton, Defence, and Boat Basin restaurant districts are more rigorous than in other Pakistani cities, and the certification advantage of composite cylinders is clearly understood by restaurant owners operating in these premium locations. Karachi&apos;s coastal humidity also makes the corrosion-free advantage of composite cylinders particularly valuable — steel cylinders corrode measurably faster in Karachi&apos;s salt-air environment than in inland cities.</p>
+
+      <p><strong>Islamabad and Rawalpindi:</strong> The twin cities&apos; restaurant sector, concentrated in Islamabad&apos;s F-6, F-7, F-10, and G-11 sectors and Rawalpindi&apos;s Saddar and Bahria Town areas, is driven by an affluent customer base with high quality expectations and a commercial sector with above-average regulatory compliance culture. Restaurant operators in these markets have been early adopters of composite cylinders for both safety and brand positioning reasons — composite cylinders in a restaurant kitchen signal modern, safety-conscious operation to both customers and regulatory inspectors.</p>
+
+      <p><strong>Faisalabad and Gujranwala:</strong> Pakistan&apos;s industrial cities have a large and dense restaurant sector serving factory workers, business travellers, and growing middle-class populations. The cost-of-ownership argument for composite cylinders resonates strongly in these price-conscious markets, where restaurant operators run tight margins and evaluate every equipment decision on financial return. The long service life of composite cylinders — eliminating the cylinder replacement cycle that steel requires — is the primary adoption driver in these markets. WAA Technologies&apos; Gujranwala manufacturing base provides a local supply and dealer network that makes composite cylinder sourcing straightforward for Gujranwala and Faisalabad restaurant operators.</p>
+
+      <h2>Which Restaurant Types Benefit Most</h2>
+
+      <p><strong>High-volume karahi and BBQ restaurants</strong> benefit most from level visibility — these high-intensity cooking operations consume gas rapidly and need constant awareness of cylinder levels to avoid mid-service outages.</p>
+
+      <p><strong>Hotel and guest house breakfast kitchens</strong> benefit from the compliance and insurance advantage — hotel operators are subject to the most rigorous safety inspections and benefit most from the certification credibility of composite cylinders.</p>
+
+      <p><strong>Bakeries and confectioneries</strong> benefit from the lighter weight — their staff handle cylinders more frequently relative to their size and benefit most from the reduced physical demands of composite cylinder management.</p>
+
+      <p><strong>Wedding and event catering operations</strong> benefit from the non-blast safety guarantee — catering kitchens operate in temporary setups with less built-in fire safety infrastructure than permanent restaurant kitchens, making the non-blast protection of composite cylinders especially valuable.</p>
+
+      <p><strong>Fast food chains and franchise operations</strong> benefit from the standardisation and traceability — franchise kitchen safety audits are conducted rigorously, and ISO-certified composite cylinders with traceable certification numbers satisfy audit requirements more cleanly than steel cylinders with variable hydro-test histories.</p>
+
+      <h2>How to Switch Your Restaurant to Composite LPG Cylinders</h2>
+
+      <ol>
+        <li><strong>Audit your current usage:</strong> Count the number of cylinders your kitchen uses per week and per month. This determines the number of composite cylinders you need to maintain uninterrupted operations with a comfortable buffer.</li>
+        <li><strong>Contact your WAA Technologies authorised dealer:</strong> Dealers in your city can advise on cylinder sizing, quantity, and delivery schedule for commercial accounts. Call WAA Technologies at (+92) 4237815533 or visit waatechnologies.com/authorized-dealers.</li>
+        <li><strong>Verify regulator compatibility:</strong> Have your dealer confirm that your existing regulators are compatible with WAA composite cylinder valves, or purchase matched WAA regulators at the same time.</li>
+        <li><strong>Brief your kitchen staff:</strong> Ensure all staff who handle cylinders understand the connection procedure, the soap test, the cylinder valve shutdown protocol, and the emergency procedure. Composite cylinders are safer — but correct handling habits remain essential.</li>
+        <li><strong>Update your insurance documentation:</strong> Notify your commercial insurer that you have switched to ISO-certified composite cylinders. Request a premium review — some insurers offer reductions for certified non-blast cylinder use.</li>
+        <li><strong>Store your OGRA compliance documentation:</strong> Keep the cylinder certification records accessible for any future regulatory inspection. WAA cylinders come with individual certification documentation that demonstrates ISO compliance at a glance.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions for Pakistani Restaurant Operators</h2>
+
+      <h3>How many composite cylinders does a restaurant typically need in Pakistan?</h3>
+      <p>A small café or fast food outlet serving 50–80 covers per day typically needs 2–3 composite cylinders in rotation (one in use, one full in reserve, one at the dealer for refill). A mid-sized restaurant serving 150–250 covers per day typically needs 4–6 cylinders. A high-volume karahi house or wedding catering operation may need 8–12 or more. Your WAA Technologies dealer can help calculate the correct buffer stock for your specific operation and usage pattern.</p>
+
+      <h3>Can composite LPG cylinders handle the high usage demands of a commercial Pakistani kitchen?</h3>
+      <p>Yes. WAA Technologies composite cylinders are rated for 12,000 pressure fill-and-empty cycles and 20+ years of service life — specifications that exceed commercial kitchen usage demands by a wide margin. The composite construction handles the temperature variations, handling frequency, and continuous pressure demands of commercial use with no performance degradation over the cylinder&apos;s full service life. Commercial kitchens in Lahore and Karachi using composite cylinders report identical performance to steel in terms of gas flow rate and burner performance.</p>
+
+      <h3>What does it cost to switch a restaurant from steel to composite cylinders in Pakistan?</h3>
+      <p>The upfront cost of switching depends on the number of cylinders required. Composite cylinders have a higher initial purchase price than steel. However, the switch is typically cost-neutral or cost-positive within 2–3 years when accounting for reduced replacement frequency (composite lasts 20+ years vs steel&apos;s 6–10 in commercial use), operational efficiency gains from level visibility, and potential insurance premium reductions. Contact your WAA authorised dealer for a commercial pricing quote and total cost-of-ownership comparison for your specific restaurant&apos;s usage profile.</p>
+
+      <h3>How do composite cylinders improve kitchen safety ratings for Pakistani restaurants?</h3>
+      <p>ISO 11119-3 and EN 14427-2022 certified composite cylinders satisfy OGRA compliance requirements for commercial LPG equipment. Their non-blast construction eliminates the highest-severity risk category (cylinder explosion) from commercial kitchen safety assessments. The corrosion-free body eliminates the structural degradation failure mode that makes ageing steel cylinders high-risk in safety audits. Combined, these properties mean a restaurant with WAA composite cylinders will pass any standard commercial kitchen LPG safety inspection with zero cylinder-related deficiencies — a result that is not guaranteed with a fleet of ageing steel cylinders.</p>
+
+      <h2>Conclusion: The Business Decision Is Clear</h2>
+
+      <p>Pakistan&apos;s restaurant industry runs on gas. The question is not whether to use LPG — there is no practical alternative for high-volume Pakistani commercial cooking. The question is which LPG cylinder to use: a heavy, opaque, corrosion-prone steel vessel with an unpredictable service life and an explosion risk that grows as the cylinder ages, or a lightweight, transparent, corrosion-free composite vessel with a 20+ year service life, non-blast safety certification, and the level visibility that allows a commercial kitchen to manage its gas supply with the same precision it applies to every other operational resource.</p>
+
+      <p>From Lahore&apos;s Food Street to Karachi&apos;s Boat Basin, from Islamabad&apos;s F-7 to Faisalabad&apos;s city centre, the Pakistani restaurant industry has been answering that question consistently: composite cylinders. WAA Technologies Pvt Ltd manufactures those composite cylinders in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards, and supplies them through an authorised dealer network across Punjab, Sindh, and KPK.</p>
+
+      <p>Contact WAA Technologies for commercial restaurant accounts at (+92) 4237815533, visit our showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore, or find your nearest authorised dealer at waatechnologies.com/authorized-dealers.</p>
+    </>
+  ),
+
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': (
     <>
       <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
@@ -1115,6 +1266,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'why-restaurants-switching-composite-lpg-cylinders-pakistan': 2800,
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': 2500,
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': 2200,
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': 2700,
@@ -1125,6 +1277,24 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'why-restaurants-switching-composite-lpg-cylinders-pakistan': [
+    {
+      q: 'How many composite LPG cylinders does a restaurant in Pakistan typically need?',
+      a: 'A small café or fast food outlet serving 50–80 covers per day typically needs 2–3 composite cylinders in rotation. A mid-sized restaurant serving 150–250 covers per day typically needs 4–6 cylinders. A high-volume karahi house or wedding catering operation may need 8–12 or more. A WAA Technologies authorised dealer can help calculate the correct buffer stock for a specific operation and usage pattern.',
+    },
+    {
+      q: 'Can composite LPG cylinders handle the high usage demands of a commercial Pakistani kitchen?',
+      a: 'Yes. WAA Technologies composite cylinders are rated for 12,000 pressure fill-and-empty cycles and 20+ years of service life — specifications that exceed commercial kitchen usage demands by a wide margin. Commercial kitchens in Lahore and Karachi using composite cylinders report identical gas flow rate and burner performance to steel cylinders.',
+    },
+    {
+      q: 'What does it cost to switch a restaurant from steel to composite LPG cylinders in Pakistan?',
+      a: 'Composite cylinders have a higher initial purchase price than steel, but the switch is typically cost-neutral or cost-positive within 2–3 years when accounting for reduced replacement frequency (composite lasts 20+ years vs steel\'s 6–10 in commercial use), operational efficiency gains from level visibility, and potential insurance premium reductions. Contact a WAA authorised dealer for a commercial pricing quote.',
+    },
+    {
+      q: 'How do composite LPG cylinders improve safety ratings for Pakistani restaurant kitchens?',
+      a: 'ISO 11119-3 and EN 14427-2022 certified composite cylinders satisfy OGRA compliance requirements for commercial LPG equipment. Their non-blast construction eliminates the explosion risk from commercial kitchen safety assessments. The corrosion-free body eliminates the structural degradation failure mode that makes ageing steel cylinders high-risk in safety audits. A restaurant with WAA composite cylinders will pass any standard commercial kitchen LPG safety inspection with zero cylinder-related deficiencies.',
+    },
+  ],
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': [
     {
       q: 'How tight should a regulator be on an LPG cylinder in Pakistan?',

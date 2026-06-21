@@ -45,6 +45,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Slugs for the long-form 2500+ word blog posts — given highest priority
   const deepBlogSlugs = new Set([
+    'why-restaurants-switching-composite-lpg-cylinders-pakistan',
+    'how-to-safely-connect-lpg-cylinder-regulator-at-home',
+    '8-crucial-gas-cylinder-safety-rules-every-household-must-follow',
     'lpg-gas-shortage-pakistan-composite-cylinders-solution',
     'winter-gas-shortage-pakistan-2025-prepare-your-home',
     'ramadan-gas-safety-tips-pakistani-kitchens',
