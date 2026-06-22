@@ -48,7 +48,7 @@ export default async function TagPage({ params }: Props) {
               {posts.map((post) => (
                 <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48 overflow-hidden">
-                    <Image src="/images/post-image.png" alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
+                    <Image src="/images/post-image.jpg" alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
                   </div>
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">

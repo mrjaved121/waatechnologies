@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Calendar } from 'lucide-react';
@@ -157,7 +157,7 @@ export default function BlogPage() {
             <div className="bg-slate-50 rounded-3xl overflow-hidden border border-slate-100 grid lg:grid-cols-2">
               <div className="relative min-h-64 overflow-hidden">
                 <Image
-                  src="/images/post-image.png"
+                  src="/images/post-image.jpg"
                   alt={featured.title}
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -188,7 +188,7 @@ export default function BlogPage() {
               <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow card-hover">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/images/post-image.png"
+                    src="/images/post-image.jpg"
                     alt={post.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
