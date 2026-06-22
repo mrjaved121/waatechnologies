@@ -1,7 +1,19 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { CheckCircle2, Star, Phone, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
 import AddToCartButton from '@/components/AddToCartButton';
+
+const productImages: Record<string, string> = {
+  '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.png',
+  '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.png',
+  'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.png',
+};
+
+const colorGradient: Record<string, string> = {
+  'Cerulean Blue': 'from-blue-400 to-blue-700',
+  'Traditional Blue': 'from-blue-600 to-blue-900',
+};
 
 const products: Record<string, {
   name: string;
@@ -116,11 +128,24 @@ export default async function ProductPage({ params }: Props) {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-start">
           {/* Image */}
-          <div className="bg-gradient-to-br from-slate-50 to-emerald-50 rounded-3xl aspect-square flex items-center justify-center shadow-sm border border-slate-100">
-            <div className="text-center">
-              <div className="w-32 h-56 mx-auto bg-gradient-to-b from-amber-300 to-amber-600 rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-2xl" />
-              <div className="mt-4 text-sm text-slate-400 font-medium">{product.color}</div>
-            </div>
+          <div className="relative bg-gradient-to-br from-slate-50 to-emerald-50 rounded-3xl aspect-square shadow-sm border border-slate-100 overflow-hidden">
+            {productImages[slug] ? (
+              <Image
+                src={productImages[slug]}
+                alt={product.name}
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-contain p-10"
+                priority
+              />
+            ) : (
+              <div className="flex items-center justify-center h-full">
+                <div className="text-center">
+                  <div className={`w-32 h-56 mx-auto bg-gradient-to-b ${colorGradient[product.color] ?? 'from-amber-300 to-amber-600'} rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-2xl`} />
+                  <div className="mt-4 text-sm text-slate-400 font-medium">{product.color}</div>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Details */}

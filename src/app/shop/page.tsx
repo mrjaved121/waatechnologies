@@ -1,7 +1,20 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Filter, Star } from 'lucide-react';
 import AddToCartButton from '@/components/AddToCartButton';
+
+const productImages: Record<string, string> = {
+  '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.png',
+  '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.png',
+  'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.png',
+};
+
+const colorGradient: Record<string, string> = {
+  'Cerulean Blue': 'from-blue-400 to-blue-700',
+  'Traditional Blue': 'from-blue-600 to-blue-900',
+  'Blue': 'from-blue-400 to-blue-600',
+};
 
 export const metadata: Metadata = {
   title: 'Shop — LPG Composite Cylinders',
@@ -67,10 +80,20 @@ export default function ShopPage() {
                       SALE
                     </span>
                   )}
-                  <div className="product-card-img text-center">
-                    <div className="w-20 h-36 mx-auto bg-gradient-to-b from-amber-300 to-amber-600 rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-xl" />
-                    <div className="mt-3 text-xs text-slate-400 font-medium">{p.color}</div>
-                  </div>
+                  {productImages[p.slug] ? (
+                    <Image
+                      src={productImages[p.slug]}
+                      alt={p.name}
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                      className="object-contain p-6 group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="text-center">
+                      <div className={`w-20 h-36 mx-auto bg-gradient-to-b ${colorGradient[p.color] ?? 'from-amber-300 to-amber-600'} rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-xl`} />
+                      <div className="mt-3 text-xs text-slate-400 font-medium">{p.color}</div>
+                    </div>
+                  )}
                 </div>
                 <div className="p-5">
                   <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-700 transition-colors line-clamp-2">

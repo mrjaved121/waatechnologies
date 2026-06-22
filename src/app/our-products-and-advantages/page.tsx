@@ -1,6 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, CheckCircle2, Zap, Feather, Droplets, Sun, Shield, Award } from 'lucide-react';
+
+const productImages: Record<string, string> = {
+  '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.png',
+  '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.png',
+  'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.png',
+};
 
 export const metadata: Metadata = {
   title: 'Our Products And Advantages',
@@ -133,9 +140,19 @@ export default function ProductsAndAdvantagesPage() {
                   {'oldPrice' in p && p.oldPrice && (
                     <span className="absolute top-3 left-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">SALE</span>
                   )}
-                  <div className="product-card-img text-center py-8">
-                    <div className="w-16 h-28 mx-auto bg-gradient-to-b from-amber-300 to-amber-500 rounded-[40%_40%_50%_50%/30%_30%_60%_60%] shadow-lg" />
-                  </div>
+                  {productImages[p.slug] ? (
+                    <Image
+                      src={productImages[p.slug]}
+                      alt={p.name}
+                      fill
+                      sizes="(max-width: 640px) 50vw, 20vw"
+                      className="object-contain p-5 group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="text-center py-8">
+                      <div className="w-16 h-28 mx-auto bg-gradient-to-b from-blue-400 to-blue-700 rounded-[40%_40%_50%_50%/30%_30%_60%_60%] shadow-lg" />
+                    </div>
+                  )}
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-700 transition-colors">{p.name}</h3>
