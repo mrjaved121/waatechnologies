@@ -1522,9 +1522,9 @@ export default async function SlugPage({ params }: Props) {
                 '@type': 'Organization',
                 '@id': 'https://waatechnologies.com/#organization',
                 name: 'WAA Technologies Pvt Ltd',
-                logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/logo.png', width: 200, height: 60 },
+                logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/global-waatech-logo.png', width: 991, height: 833 },
               },
-              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/og-image.jpg', width: 1200, height: 630 },
+              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/global-waatech-logo.png', width: 991, height: 833 },
               url: `https://waatechnologies.com/${post.slug}`,
               mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
               about: {

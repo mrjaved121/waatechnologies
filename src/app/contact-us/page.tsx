@@ -32,9 +32,43 @@ const faqs = [
   },
 ];
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+};
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact WAA Technologies',
+  url: 'https://waatechnologies.com/contact-us',
+  description: 'Contact WAA Technologies Pvt Ltd for composite LPG cylinder enquiries, dealer applications, and order support.',
+  mainEntity: {
+    '@type': 'LocalBusiness',
+    '@id': 'https://waatechnologies.com/#organization',
+    name: 'WAA Technologies Pvt Ltd',
+    telephone: '+92-42-37815533',
+    email: 'waatechnologies.pvt.ltd@gmail.com',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town',
+      addressLocality: 'Lahore',
+      addressRegion: 'Punjab',
+      addressCountry: 'PK',
+    },
+  },
+};
+
 export default function ContactUsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
       <section className="gradient-green py-20 text-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">

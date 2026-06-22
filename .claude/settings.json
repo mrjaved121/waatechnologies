@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:waatechnologies.com)",
+      "Bash(mkdir -p \"c:/projects/waatech/src/app/about-us\" \"c:/projects/waatech/src/app/our-company\" \"c:/projects/waatech/src/app/our-technology\" \"c:/projects/waatech/src/app/sustainability\" \"c:/projects/waatech/src/app/our-products-and-advantages\" \"c:/projects/waatech/src/app/authorized-dealers\" \"c:/projects/waatech/src/app/waa-tech-stores\" \"c:/projects/waatech/src/app/blog\" \"c:/projects/waatech/src/app/category/casestudies\" \"c:/projects/waatech/src/app/contact-us\" \"c:/projects/waatech/src/app/shop\" \"c:/projects/waatech/src/app/product/[slug]\" \"c:/projects/waatech/src/app/privacy-policy\" \"c:/projects/waatech/src/app/returns\")",
+      "Bash(mkdir -p \"c:/projects/waatech/src/app/[slug]\" \"c:/projects/waatech/src/app/case-studies\" \"c:/projects/waatech/src/app/category/waatechcylinders\" \"c:/projects/waatech/src/app/author/admin\" \"c:/projects/waatech/src/app/tag/[tag]\" \"c:/projects/waatech/src/app/blog/page\")",
+      "Bash(mkdir -p \"c:/projects/waatech/src/app/blog/page/[page]\")",
+      "Bash(git remote *)",
+      "Bash(npx next *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(npm install *)",
+      "Bash(node -e ' *)"
+    ],
+    "additionalDirectories": [
+      "c:\\projects\\waatech\\src\\app\\product",
+      "c:\\projects\\waatech\\src\\app",
+      "c:\\projects\\waatech\\src\\app\\blog\\page",
+      "c:\\projects\\waatech\\public\\images"
+    ]
+  }
+}

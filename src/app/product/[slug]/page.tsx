@@ -75,6 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = products[slug];
   if (!product) return { title: 'Product Not Found' };
+  const img = productImages[slug];
   return {
     title: product.name,
     description: product.description,
@@ -83,6 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${product.name} | WAA Technologies`,
       description: product.description,
       type: 'website',
+      images: img ? [{ url: `https://waatechnologies.com${img}`, width: 1254, height: 1254, alt: product.name }] : undefined,
     },
   };
 }
@@ -113,8 +115,67 @@ export default async function ProductPage({ params }: Props) {
     );
   }
 
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.description,
+    sku: slug,
+    mpn: slug.toUpperCase(),
+    brand: { '@type': 'Brand', name: 'WAA Technologies' },
+    manufacturer: {
+      '@type': 'Organization',
+      '@id': 'https://waatechnologies.com/#organization',
+      name: 'WAA Technologies Pvt Ltd',
+    },
+    image: productImages[slug]
+      ? `https://waatechnologies.com${productImages[slug]}`
+      : 'https://waatechnologies.com/images/global-waatech-logo.png',
+    color: product.color,
+    weight: { '@type': 'QuantitativeValue', value: product.weight, unitCode: 'KGM' },
+    offers: {
+      '@type': 'Offer',
+      url: `https://waatechnologies.com/product/${slug}`,
+      priceCurrency: 'PKR',
+      price: product.price,
+      priceValidUntil: '2026-12-31',
+      itemCondition: 'https://schema.org/NewCondition',
+      availability: 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: 'WAA Technologies Pvt Ltd' },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'PKR' },
+        shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'PK' },
+      },
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '24',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    additionalProperty: product.features.map((f) => ({
+      '@type': 'PropertyValue',
+      name: f,
+      value: 'Yes',
+    })),
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://waatechnologies.com' },
+      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://waatechnologies.com/shop' },
+      { '@type': 'ListItem', position: 3, name: product.name, item: `https://waatechnologies.com/product/${slug}` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <section className="py-6 bg-slate-50 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 text-sm">

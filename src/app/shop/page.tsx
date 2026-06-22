@@ -33,9 +33,46 @@ const products = [
   { name: 'LPG Composite Cylinder 15Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000, oldPrice: null, color: 'Traditional Blue', weight: '15 kg', rating: 4.8, reviews: 8 },
 ];
 
+const shopSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'WAA Technologies LPG Composite Cylinders',
+  description: 'Buy composite LPG cylinders online in Pakistan — 100% explosion-proof, ISO certified, made in Gujranwala.',
+  url: 'https://waatechnologies.com/shop',
+  numberOfItems: products.length,
+  itemListElement: products.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Product',
+      name: p.name,
+      url: `https://waatechnologies.com/product/${p.slug}`,
+      image: productImages[p.slug]
+        ? `https://waatechnologies.com${productImages[p.slug]}`
+        : 'https://waatechnologies.com/images/global-waatech-logo.png',
+      brand: { '@type': 'Brand', name: 'WAA Technologies' },
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'PKR',
+        price: p.price,
+        availability: 'https://schema.org/InStock',
+        itemCondition: 'https://schema.org/NewCondition',
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: p.rating,
+        reviewCount: p.reviews,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    },
+  })),
+};
+
 export default function ShopPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(shopSchema) }} />
       <section className="gradient-green py-16 text-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">

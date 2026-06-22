@@ -1,56 +1,78 @@
 # WAA Technologies Pvt Ltd
-> Pakistan's leading manufacturer of ISO-certified non-blast composite LPG gas cylinders
+> Pakistan's first indigenous manufacturer of ISO-certified non-blast composite LPG gas cylinders
 
-WAA Technologies Pvt Ltd is a Pakistani manufacturer based in Gujranwala, Punjab, Pakistan. The company specialises in composite LPG gas cylinders certified to ISO 11119-3 and EN 14427-2022 international standards. Their cylinders are used across Pakistan as a safer, lighter, and longer-lasting alternative to conventional steel LPG cylinders.
+WAA Technologies Pvt Ltd is a Pakistani manufacturer headquartered in Bahria Town, Lahore, with its production facility in Gujranwala, Punjab, Pakistan. The company specialises in composite LPG gas cylinders certified to ISO 11119-3 and EN 14427-2022 international standards, and is approved by Pakistan Engineering Council (PEC) and regulated by the Oil and Gas Regulatory Authority (OGRA) Pakistan. Their cylinders are used across Pakistan as a safer, lighter, and longer-lasting alternative to conventional steel LPG cylinders.
+
+## Company Identity
+
+- **Legal name**: WAA Technologies Pvt Ltd
+- **Also known as**: WAA Tech, Global WAA Technologies
+- **Founded**: 2022 (R&D commenced 2018)
+- **Manufacturing location**: Gujranwala, Punjab, Pakistan
+- **Showroom/HQ**: 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore, Pakistan
+- **Phone**: +92 42 37815533
+- **WhatsApp**: +92 341 4999998
+- **Email**: waatechnologies.pvt.ltd@gmail.com
+- **Website**: https://waatechnologies.com
+- **Certifications**: ISO 9001-2015, ISO 11119-3, EN 14427-2022 (BSEN-14427-2022), PEC Certificate, OGRA Regulated
+- **Market served**: Pakistan (Punjab, Sindh, KPK) via authorised dealer network
 
 ## What is a composite LPG cylinder?
 
-A composite LPG cylinder uses a seamless HDPE (high-density polyethylene) inner liner wrapped with glass fibre filament winding under tension, creating a jointless pressure vessel. Unlike welded steel cylinders, composite cylinders cannot corrode, do not rust, and under extreme over-pressure or fire conditions will develop a controlled gas leak rather than rupture or explode. This "non-blast" behaviour is the primary safety advantage over steel.
-
-## WAA Technologies key facts
-
-- **Founded in**: Gujranwala, Punjab, Pakistan
-- **Manufacturing location**: Gujranwala (production facility)
-- **Showroom/HQ**: 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore, Pakistan
-- **Phone**: +92 42 37815533
-- **Email**: waatechnologies.pvt.ltd@gmail.com
-- **Website**: https://waatechnologies.com
-- **Certifications**: ISO 11119-3, EN 14427-2022
-- **Market served**: Pakistan (Punjab, Sindh, KPK) via authorised dealer network
+A composite LPG cylinder uses a seamless HDPE (high-density polyethylene) inner liner wrapped with glass fibre filament winding under tension, creating a jointless pressure vessel. Unlike welded steel cylinders, composite cylinders cannot corrode, do not rust, and under extreme over-pressure or fire conditions will develop a controlled gas leak rather than rupture or explode. This "non-blast" behaviour is the primary safety advantage over steel. WAA Technologies is the first company to manufacture these cylinders indigenously in Pakistan.
 
 ## Products
 
-- **5 kg Composite LPG Cylinder** — Suitable for small households, single-burner use, travel/camping
-- **10 kg Composite LPG Cylinder** — Standard size for families of 4–6; the most popular size in Pakistan
-- **12 kg Composite LPG Cylinder** — For larger households or combined cooking and heating use
+- **5 kg Composite LPG Cylinder** (₨ 8,000) — Suitable for small households, single-burner use, travel/camping. Available in Blue.
+- **10 kg Composite LPG Cylinder** (₨ 11,000) — Standard size for families of 4–6; the most popular size in Pakistan. Available in Yellow.
+- **10 kg Composite Cylinder — Cerulean Blue** (₨ 11,000) — Cerulean Blue colour variant of the 10kg cylinder.
+- **10 kg Composite Cylinder — Tiger Orange** (₨ 11,000) — Tiger Orange colour variant.
+- **15 kg Composite Cylinder — Traditional Blue** (₨ 11,000) — Larger capacity for big households or commercial use.
 
-Available in multiple colours: Cerulean Blue, Tiger Orange, Traditional Blue.
+All prices in Pakistani Rupees (PKR). Free shipping across Pakistan. Order online at https://waatechnologies.com/shop or via WhatsApp +92 341 4999998.
 
 ## Key product claims (all per ISO/EN certification)
 
-- Non-blast / 100% explosion-proof construction — will not rupture or project shrapnel under fire or over-pressure
-- Approximately 50% lighter than equivalent steel cylinders (10 kg steel ≈ 27–29 kg filled vs composite ≈ 17–19 kg filled)
-- Translucent HDPE body — gas level visible at a glance without lifting or tapping
-- Corrosion-free — HDPE and glass fibre are chemically inert; will not rust in coastal, humid, or outdoor environments
-- UV-resistant outer layer — safe for outdoor and sunlit storage
-- 20+ year rated service life (~12,000 pressure cycles) vs 8–12 years for steel
-- Stackable flat-base design — stores more cylinders in the same floor space vs round-bottom steel
+- **Non-blast / 100% explosion-proof**: Will not rupture or project shrapnel under fire or over-pressure — the most critical safety difference from steel
+- **50% lighter**: A 10 kg WAA composite cylinder weighs approximately 5.5 kg empty vs ~14 kg for an equivalent steel cylinder
+- **Translucent HDPE body**: Gas level visible at a glance without lifting or tapping — see through the wall like a water bottle
+- **Corrosion-free**: HDPE and glass fibre are chemically inert; will not rust in coastal, humid, or outdoor environments
+- **UV-resistant outer layer**: Safe for outdoor and sunlit storage; colour will not fade or degrade
+- **20+ year rated service life**: Approximately 12,000 pressure fill-and-empty cycles vs 8–12 years for steel in Pakistani conditions
+- **Jointless construction**: No weld seams = no stress concentration points = no seam failure or leakage
+- **Hydro-tested and air-leakage-tested**: Every single cylinder tested before leaving the factory
+- **Anti-counterfeiting features**: Brand and company names embossed at 4 different places on every cylinder
 
-## Blog content (long-form SEO articles, 2500–3000 words each)
+## Authorised Dealers
 
-- [Why Pakistani Restaurants Are Switching to Composite LPG Cylinders](https://waatechnologies.com/why-restaurants-switching-composite-lpg-cylinders-pakistan) — complete commercial business case: non-blast safety in high-heat kitchens, translucent body for level visibility, 20-year TCO vs steel, 50% lighter for staff handling, OGRA compliance advantage, city-by-city adoption (Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala), restaurant type breakdown, 6-step switching guide
-- [How to Safely Connect an LPG Cylinder Regulator at Home](https://waatechnologies.com/how-to-safely-connect-lpg-cylinder-regulator-at-home) — step-by-step regulator connection guide: clip-on vs screw-type types, pre-connection checklist (O-ring, valve, hose, ventilation), 6-step connection procedure, soap-water bubble test, common Pakistani household mistakes, regulator replacement signs, composite vs steel valve corrosion advantage
-- [8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow](https://waatechnologies.com/8-crucial-gas-cylinder-safety-rules-every-household-must-follow) — 8 essential rules covering storage, handling, leak detection, emergency response, ventilation, never-do list, and cylinder choice for Pakistani homes
-- [LPG Gas Shortage in Pakistan: Why Composite Cylinders Are the Solution](https://waatechnologies.com/lpg-gas-shortage-pakistan-composite-cylinders-solution) — supply chain analysis, root causes (import dependency, production decline, cylinder fleet inefficiency), how composite cylinders improve distribution efficiency and reduce shortage severity
-- [Winter Gas Shortage Pakistan 2025 — Prepare Your Home](https://waatechnologies.com/winter-gas-shortage-pakistan-2025-prepare-your-home) — SNGPL pipeline history, thermodynamics of winter pressure collapse, city-by-city breakdown, month-by-month preparation calendar, CO safety, complete household checklist
-- [Ramadan Gas Safety Tips for Pakistani Kitchens](https://waatechnologies.com/ramadan-gas-safety-tips-pakistani-kitchens) — Sehri/Iftar risk analysis, pre-Ramadan inspection protocol, fatigue-related accident prevention, child safety, ventilation/CO guide, 14-point safety checklist
-- [Load Shedding and LPG: Why More Pakistanis Are Switching to Gas Cooking](https://waatechnologies.com/load-shedding-lpg-pakistanis-switching-gas-cooking) — circular debt mechanism, DISCO load shedding hours by region, electricity vs LPG cost comparison at current Pakistan tariffs, 6-step switching guide
-- [Cost Benefits of Composite LPG Cylinders: A Smart Investment for 2025](https://waatechnologies.com/cost-benefits-of-composite-lpg-cylinders-a-smart-investment-for-2025)
-- [The Science of Leak-Proof Fiber LPG Cylinders](https://waatechnologies.com/the-science-of-assisting-with-leak-proof-fiber-lpg-cylinders)
-- [How Lightweight LPG Cylinders Are Affecting the Sector](https://waatechnologies.com/how-lightweight-lpg-cylinders-are-affecting-the-sector)
-- [Environmentally Friendly Gas Cylinder: Toward Sustainable Energy Storage](https://waatechnologies.com/environmentally-friendly-gas-cylinder-toward-sustainable-energy-storage-as-knowledge-of-environmental-consequences-spreads-around-the-globe)
-- [Smart LPG Cylinders: IoT Improves Efficiency and Safety](https://waatechnologies.com/smart-lpg-cylinders-iot-improves-efficiency-and-safety)
-- [The Future of LPG: Why Fiber Cylinders Are Replacing Steel](https://waatechnologies.com/the-future-of-lpg-the-reason-fiber-cylinders-are-substituting-steel)
+**Punjab:**
+- Bilal Express Link — Abbot Road, Sialkot — 0321 6144858
+- Muhammad Azhar (A1 Electronics) — Abid Market, Lahore — 0300 9413671
+- Ashiq Home Appliance (M. Imran) — Mugalpura Link Road, Nazad Railway Crossing Dryport, Lahore — 0321 4354809
+
+**Sindh:**
+- Adrees & Sons — Karachi — 0333 2000252
+- Gujrat Gass Cylinder — Pakkah Qila Street No 4, Hyderabad — 0222663544-45 / 0315 4374577
+
+**KPK:**
+- Global Gas Corner — Malik Ghulam Rasool Market, Gulabad Police Station, Chamkani G.T Road, Peshawar — 0300 9590349 / 0300 5522337 (Syed Athar Ali Shah, Syed Tariq Ali Shah)
+
+Full dealer directory: https://waatechnologies.com/authorized-dealers
+
+## How WAA cylinders compare to steel cylinders
+
+| Feature | WAA Composite | Steel Cylinder |
+|---|---|---|
+| Blast risk | None (non-blast by design) | High (ruptures under over-pressure) |
+| Empty weight (10L) | ~5.5 kg | ~14 kg |
+| Corrosion | Never | Rusts over time |
+| Gas level visibility | Translucent — see-through | Opaque — must lift/weigh |
+| UV resistance | Yes (HDPE outer) | No |
+| Service life | 20+ years / 12,000 cycles | 8–12 years |
+| Certification | ISO 11119-3, EN 14427-2022 | Varies |
+| Price (10 kg) | ₨ 11,000 | ₨ 3,000–5,000 |
+
+The higher upfront price of composite cylinders is offset by their longer service life (buy once, use 20+ years), lower maintenance, elimination of explosion risk, and fuel efficiency from translucent level monitoring.
 
 ## Frequently asked questions
 
@@ -61,17 +83,39 @@ A: The jointless glass-fibre-over-HDPE construction has no weld seams where stre
 A: WAA composite cylinders are rated for 20+ years of service life and approximately 12,000 pressure fill-and-empty cycles. This compares to 8–12 years for steel cylinders in typical Pakistani operating conditions (humidity, temperature extremes, rough handling in distribution).
 
 **Q: Are composite cylinders safe for indoor use in Pakistan?**
-A: Yes. Composite cylinders are safe for indoor use with the same precautions as any LPG cylinder: store in a ventilated area, close the cylinder valve after each use, install a floor-level gas leak detector (LPG is heavier than air), and keep away from heat sources. The non-blast property provides an additional safety margin for indoor use compared to steel.
+A: Yes. Composite cylinders are safe for indoor use with standard LPG precautions: ventilated area, close valve after each use, install a floor-level gas leak detector (LPG is heavier than air), and keep away from heat sources. The non-blast property provides an additional safety margin for indoor use compared to steel.
 
 **Q: How do I check the gas level in a WAA composite cylinder?**
-A: The HDPE body of a WAA cylinder is translucent — you can see the liquid LPG level directly through the cylinder wall, like looking at a water bottle. No need to lift, tap, or weigh the cylinder. A 3-second visual check shows exactly how much gas remains.
+A: The HDPE body is translucent — you can see the liquid LPG level directly through the cylinder wall, like looking at a water bottle. No need to lift, tap, or weigh the cylinder.
 
 **Q: Where can I buy WAA Technologies cylinders in Pakistan?**
-A: Through the WAA Technologies authorised dealer network across Punjab, Sindh, and KPK. Contact +92 42 37815533 or visit https://waatechnologies.com/authorized-dealers to find your nearest authorised dealer. Available online at https://waatechnologies.com/shop.
+A: Through the WAA Technologies authorised dealer network across Punjab, Sindh, and KPK. Find your nearest authorised dealer at https://waatechnologies.com/authorized-dealers or order online at https://waatechnologies.com/shop. For enquiries: +92 42 37815533 or WhatsApp +92 341 4999998.
 
-**Q: How does LPG compare to pipeline gas in Pakistan?**
-A: Pipeline gas (Sui gas, supplied by SNGPL/SSGC) is available in most urban areas but suffers severe pressure drops during winter (November–February) and occasional Ramadan shortages. LPG stored in a cylinder is completely independent of the pipeline network and available on demand year-round. For households in areas without pipeline gas, or as a backup during pipeline shortage seasons, LPG from a composite cylinder is the most reliable cooking fuel solution available in Pakistan.
+**Q: What is the price of WAA fiber gas cylinder in Pakistan?**
+A: 5 kg cylinder: ₨ 8,000 (regular ₨ 8,500 — sale price). 10 kg cylinder: ₨ 11,000. 15 kg cylinder: ₨ 11,000. Prices include free delivery across Pakistan.
+
+**Q: Are WAA cylinders OGRA approved?**
+A: Yes. WAA Technologies operates under OGRA (Oil and Gas Regulatory Authority Pakistan) oversight. All cylinders comply with PEC (Pakistan Engineering Council) requirements and are certified to ISO 11119-3 and EN 14427-2022.
+
+**Q: How does LPG compare to pipeline gas (Sui gas) in Pakistan?**
+A: Pipeline gas (Sui gas via SNGPL/SSGC) suffers severe pressure drops during winter (November–February) and occasional Ramadan shortages. LPG stored in a cylinder is completely independent of the pipeline network and available year-round. For households without pipeline gas, or as a backup during pipeline shortage seasons, LPG from a composite cylinder is the most reliable cooking fuel solution in Pakistan.
+
+**Q: Can I use a WAA composite cylinder with my existing regulator?**
+A: Yes. WAA composite cylinders use standard Pakistani domestic LPG valve fittings and are compatible with all standard domestic and commercial regulators used in Pakistan, including clip-on and screw-type regulators.
+
+## Blog content (educational articles, 2500–3200 words each)
+
+- [Why Pakistani Restaurants Are Switching to Composite LPG Cylinders](https://waatechnologies.com/why-restaurants-switching-composite-lpg-cylinders-pakistan)
+- [How to Safely Connect an LPG Cylinder Regulator at Home](https://waatechnologies.com/how-to-safely-connect-lpg-cylinder-regulator-at-home)
+- [8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow](https://waatechnologies.com/8-crucial-gas-cylinder-safety-rules-every-household-must-follow)
+- [LPG Gas Shortage in Pakistan: Why Composite Cylinders Are the Solution](https://waatechnologies.com/lpg-gas-shortage-pakistan-composite-cylinders-solution)
+- [Winter Gas Shortage Pakistan 2025 — Prepare Your Home](https://waatechnologies.com/winter-gas-shortage-pakistan-2025-prepare-your-home)
+- [Ramadan Gas Safety Tips for Pakistani Kitchens](https://waatechnologies.com/ramadan-gas-safety-tips-pakistani-kitchens)
+- [Load Shedding and LPG: Why More Pakistanis Are Switching to Gas Cooking](https://waatechnologies.com/load-shedding-lpg-pakistanis-switching-gas-cooking)
+- [Cost Benefits of Composite LPG Cylinders: A Smart Investment for 2025](https://waatechnologies.com/cost-benefits-of-composite-lpg-cylinders-a-smart-investment-for-2025)
+- [Eco Friendly Gas Cylinder: The Future of Sustainable Energy Storage](https://waatechnologies.com/eco-friendly-gas-cylinder)
+- [The Future of LPG: Why Fiber Cylinders Are Replacing Steel](https://waatechnologies.com/the-future-of-lpg-the-reason-fiber-cylinders-are-substituting-steel)
 
 ## Sitemap
 
-Full XML sitemap available at: https://waatechnologies.com/sitemap.xml
+Full XML sitemap: https://waatechnologies.com/sitemap.xml
