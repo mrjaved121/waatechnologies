@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, ChevronDown, Phone, ShoppingCart } from 'lucide-react';
 import { useCart } from '@/components/CartContext';
 
@@ -54,14 +55,15 @@ export default function Header() {
       {/* Main nav */}
       <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-green-700 rounded-xl flex items-center justify-center shadow-md group-hover:bg-green-800 transition-colors">
-            <span className="text-white font-black text-sm tracking-tight">WAA</span>
-          </div>
-          <div className="leading-tight">
-            <div className="font-black text-green-800 text-lg tracking-tight">WAA TECH</div>
-            <div className="text-xs text-slate-500 font-medium -mt-0.5">TECHNOLOGIES PVT LTD</div>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/global-waatech-logo.png"
+            alt="WAA Technologies"
+            width={130}
+            height={110}
+            className="h-12 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 
 const quickLinks = [
@@ -28,14 +29,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 bg-green-600 rounded-xl flex items-center justify-center">
-              <span className="text-white font-black text-sm">WAA</span>
-            </div>
-            <div>
-              <div className="font-black text-white text-lg tracking-tight">WAA TECH</div>
-              <div className="text-xs text-slate-400 font-medium">TECHNOLOGIES PVT LTD</div>
-            </div>
+          <div className="mb-5">
+            <Link href="/">
+              <Image
+                src="/images/global-waatech-logo.png"
+                alt="WAA Technologies"
+                width={130}
+                height={110}
+                className="h-14 w-auto object-contain brightness-0 invert"
+              />
+            </Link>
           </div>
           <p className="text-sm text-slate-400 leading-relaxed mb-6">
             WAA TECHNOLOGIES PVT LTD promise to ensure the quality of its each and every product.

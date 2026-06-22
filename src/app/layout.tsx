@@ -53,6 +53,11 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
   alternates: { canonical: 'https://waatechnologies.com' },
+  icons: {
+    icon: '/images/global-waatech-logo.png',
+    apple: '/images/global-waatech-logo.png',
+    shortcut: '/images/global-waatech-logo.png',
+  },
 };
 
 const orgSchema = {
