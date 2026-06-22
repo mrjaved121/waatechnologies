@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Calendar, ArrowLeft } from 'lucide-react';
 import { getBlogPosts } from '@/lib/posts';
 
@@ -50,8 +51,8 @@ export default async function BlogPaginationPage({ params }: Props) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {posts.map((post) => (
               <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow card-hover">
-                <div className="bg-gradient-to-br from-green-50 to-emerald-100 h-36 flex items-center justify-center">
-                  <span className="text-3xl">📋</span>
+                <div className="relative h-48 overflow-hidden">
+                  <Image src="/images/post-image.png" alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">

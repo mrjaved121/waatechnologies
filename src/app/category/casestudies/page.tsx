@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, MapPin, Calendar } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -72,11 +73,13 @@ export default function CaseStudiesPage() {
           <div className="flex flex-col gap-8">
             {caseStudies.map((cs) => (
               <article key={cs.slug} className="bg-slate-50 rounded-3xl border border-slate-100 overflow-hidden grid md:grid-cols-[280px_1fr] card-hover">
-                <div className="bg-gradient-to-br from-green-800 to-green-600 flex flex-col items-center justify-center p-10 text-white text-center min-h-48">
-                  <div className="text-5xl mb-3">{cs.icon}</div>
-                  <div className="text-sm font-bold text-green-200 uppercase tracking-wider">Case Study</div>
-                  <div className="mt-3 bg-amber-400 text-slate-900 text-xs font-bold px-3 py-1.5 rounded-full">
-                    {cs.outcome}
+                <div className="relative min-h-48 overflow-hidden">
+                  <Image src="/images/post-image.png" alt={cs.title} fill sizes="280px" className="object-cover" />
+                  <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-6 text-white text-center">
+                    <div className="text-sm font-bold text-green-200 uppercase tracking-wider mb-2">Case Study</div>
+                    <div className="bg-amber-400 text-slate-900 text-xs font-bold px-3 py-1.5 rounded-full">
+                      {cs.outcome}
+                    </div>
                   </div>
                 </div>
                 <div className="p-8 flex flex-col justify-center">

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Calendar, MapPin, Tag, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { allPosts, getPostBySlug } from '@/lib/posts';
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       authors: ['WAA Technologies Pvt Ltd'],
       tags: post.tags,
-      images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: post.title }],
+      images: [{ url: '/images/post-image.png', width: 1536, height: 1024, alt: post.title }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -1494,6 +1495,20 @@ export default async function SlugPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Post featured image */}
+      <div className="max-w-4xl mx-auto px-4 -mt-0 pt-10">
+        <div className="relative w-full aspect-[3/2] rounded-2xl overflow-hidden shadow-lg">
+          <Image
+            src="/images/post-image.png"
+            alt={post.title}
+            fill
+            sizes="(max-width: 896px) 100vw, 896px"
+            className="object-cover"
+            priority
+          />
+        </div>
+      </div>
+
       {/* Structured data: BlogPosting + BreadcrumbList + FAQPage (People Also Ask) */}
       <script
         type="application/ld+json"
@@ -1524,7 +1539,7 @@ export default async function SlugPage({ params }: Props) {
                 name: 'WAA Technologies Pvt Ltd',
                 logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/global-waatech-logo.png', width: 991, height: 833 },
               },
-              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/global-waatech-logo.png', width: 991, height: 833 },
+              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/post-image.png', width: 1536, height: 1024 },
               url: `https://waatechnologies.com/${post.slug}`,
               mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
               about: {

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, Calendar, User } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowRight, Calendar } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog — LPG & Composite Cylinder Insights',
@@ -154,11 +155,15 @@ export default function BlogPage() {
           {/* Featured Post */}
           <div className="mb-14">
             <div className="bg-slate-50 rounded-3xl overflow-hidden border border-slate-100 grid lg:grid-cols-2">
-              <div className="bg-gradient-to-br from-green-800 to-green-600 min-h-64 flex items-center justify-center p-10">
-                <div className="text-white text-center">
-                  <div className="text-5xl mb-4">📰</div>
-                  <div className="text-sm font-semibold text-green-200 uppercase tracking-wider">Featured Post</div>
-                </div>
+              <div className="relative min-h-64 overflow-hidden">
+                <Image
+                  src="/images/post-image.png"
+                  alt={featured.title}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
               </div>
               <div className="p-8 lg:p-10 flex flex-col justify-center">
                 <div className="flex items-center gap-3 mb-3">
@@ -181,8 +186,14 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {rest.map((post) => (
               <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow card-hover">
-                <div className="bg-gradient-to-br from-slate-100 to-green-50 h-40 flex items-center justify-center">
-                  <div className="text-3xl">📋</div>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="/images/post-image.png"
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
