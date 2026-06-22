@@ -7,7 +7,9 @@ import AddToCartButton from '@/components/AddToCartButton';
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.png',
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.png',
+  'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.png',
   'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.png',
+  'lpg-composite-cylinder-10kg-traditional-blue': '/images/10kg-blue-Fiber-cylinder.png',
 };
 
 const colorGradient: Record<string, string> = {
