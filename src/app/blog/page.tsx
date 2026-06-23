@@ -1,139 +1,24 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Calendar } from 'lucide-react';
+import { getBlogPosts } from '@/lib/posts';
 
 export const metadata: Metadata = {
   title: 'Blog — LPG & Composite Cylinder Insights',
   description:
-    'WAA Technologies blog — expert insights on composite LPG cylinders, safety, sustainability, and the future of gas storage in Pakistan.',
+    'WAATechnologies blog — expert insights on composite LPG cylinders, safety, sustainability, and the future of gas storage in Pakistan.',
   alternates: { canonical: 'https://waatechnologies.com/blog' },
 };
 
-const posts = [
-  {
-    title: 'Why Pakistani Restaurants Are Switching to Composite LPG Cylinders — The Complete Business Case',
-    slug: 'why-restaurants-switching-composite-lpg-cylinders-pakistan',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'From Lahore\'s Food Street to Karachi\'s Boat Basin, Pakistan\'s restaurant industry is rapidly replacing steel LPG cylinders with composite alternatives. Here is the complete business case — safety, cost, operations, and compliance — driving the switch.',
-  },
-  {
-    title: 'How to Safely Connect an LPG Cylinder Regulator at Home — Step-by-Step Guide for Pakistan',
-    slug: 'how-to-safely-connect-lpg-cylinder-regulator-at-home',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'Fitting an LPG cylinder regulator incorrectly is one of the most common causes of gas leaks in Pakistani homes. This complete step-by-step guide shows you exactly how to connect a regulator safely — including the checks most households skip.',
-  },
-  {
-    title: '8 Crucial Gas Cylinder Safety Rules Every Pakistani Household Must Follow',
-    slug: '8-crucial-gas-cylinder-safety-rules-every-household-must-follow',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'Gas cylinder accidents claim lives and destroy homes across Pakistan every year — and almost every one is preventable. These 8 essential safety rules cover storage, handling, leak detection, emergency response, and cylinder choice for every Pakistani household.',
-  },
-  {
-    title: 'LPG Gas Shortage in Pakistan: Why Composite Cylinders Are the Solution',
-    slug: 'lpg-gas-shortage-pakistan-composite-cylinders-solution',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'Pakistan faces recurring LPG shortages driven by supply chain bottlenecks and ageing infrastructure. Composite cylinders — lighter, more durable, and stackable — are a practical part of the solution every household can adopt today.',
-  },
-  {
-    title: 'Winter Gas Shortage Pakistan 2025 — Prepare Your Home',
-    slug: 'winter-gas-shortage-pakistan-2025-prepare-your-home',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'Every winter, millions of Pakistani households face acute gas shortages. Here is how to prepare your home before the cold hits — and why an LPG composite cylinder is the most reliable backup you can have.',
-  },
-  {
-    title: 'Ramadan Gas Safety Tips for Pakistani Kitchens',
-    slug: 'ramadan-gas-safety-tips-pakistani-kitchens',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'Sehri and Iftar cooking marathons significantly increase kitchen gas usage during Ramadan. Follow these essential LPG safety tips — and understand why a composite cylinder makes every Pakistani kitchen safer this holy month.',
-  },
-  {
-    title: 'Load Shedding and LPG: Why More Pakistanis Are Switching to Gas Cooking',
-    slug: 'load-shedding-lpg-pakistanis-switching-gas-cooking',
-    date: 'Jun 21, 2026',
-    category: 'WAATechCylinders',
-    excerpt: 'With electricity load shedding stretching 10–14 hours in parts of Pakistan, LPG-powered cooking has become the practical choice for millions of households. Here is why composite cylinders are the smartest way to make the switch.',
-  },
-  {
-    title: 'Cost Benefits of Composite LPG Cylinders: A Smart Investment for 2025',
-    slug: 'cost-benefits-of-composite-lpg-cylinders-a-smart-investment-for-2025',
-    date: 'May 2, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'Composite LPG cylinders may have a higher upfront cost than steel, but their 20+ year lifespan, zero maintenance, and safety benefits make them the smarter long-term investment.',
-  },
-  {
-    title: 'The Science of Assisting with Leak-Proof Fiber LPG Cylinders',
-    slug: 'the-science-of-assisting-with-leak-proof-fiber-lpg-cylinders',
-    date: 'Feb 11, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'Exploring the engineering principles behind WAA\'s jointless composite design and how it virtually eliminates gas leakage compared to traditional welded steel cylinders.',
-  },
-  {
-    title: 'How Lightweight LPG Cylinders Are Affecting the Sector',
-    slug: 'how-lightweight-lpg-cylinders-are-affecting-the-sector',
-    date: 'Feb 11, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'The shift from heavy steel to lightweight composite cylinders is reshaping Pakistan\'s LPG distribution sector — from transport logistics to retail convenience.',
-  },
-  {
-    title: 'Environmentally Friendly Gas Cylinder: Toward Sustainable Energy Storage',
-    slug: 'environmentally-friendly-gas-cylinder-toward-sustainable-energy-storage-as-knowledge-of-environmental-consequences-spreads-around-the-globe',
-    date: 'Feb 10, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'As environmental consciousness grows globally, composite cylinders emerge as the sustainable alternative — using 70% less material and lasting twice as long as steel.',
-  },
-  {
-    title: 'Smart LPG Cylinders: IoT Improves Efficiency and Safety',
-    slug: 'smart-lpg-cylinders-iot-improves-efficiency-and-safety',
-    date: 'Feb 10, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'The next frontier for LPG safety: how IoT sensors and smart monitoring are being integrated with composite cylinder designs to deliver real-time usage data.',
-  },
-  {
-    title: 'The Future of LPG: The Reason Fiber Cylinders Are Substituting Steel',
-    slug: 'the-future-of-lpg-the-reason-fiber-cylinders-are-substituting-steel',
-    date: 'Feb 10, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'Steel LPG cylinders dominated for decades, but composite fiber technology is now rapidly replacing them globally. Here\'s the technical and economic case for the transition.',
-  },
-  {
-    title: 'The Transformation of Energy Storage via Fiber LPG Cylinders',
-    slug: 'the-transformation-of-energy-storage-via-fiber-lpg-cylinders',
-    date: 'Feb 10, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'Fiber composite cylinders are not just safer — they represent a fundamental transformation in how households and businesses store and use portable energy.',
-  },
-  {
-    title: 'Eco Friendly Gas Cylinder: The Future of Sustainable Energy Storage',
-    slug: 'eco-friendly-gas-cylinder',
-    date: 'Feb 9, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'Composite cylinders reduce manufacturing emissions, use less material, and last longer — making them the most eco-friendly LPG storage solution available today.',
-  },
-  {
-    title: 'The Science Supporting Leak-Proof Fiber LPG Cylinders',
-    slug: 'the-science-supporting-leak-proof-fiber-lpg-cylinders',
-    date: 'Feb 7, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'A deep dive into the materials science and manufacturing processes that make WAA composite cylinders inherently more leak-resistant than traditional steel alternatives.',
-  },
-  {
-    title: 'Technologies Driving the Change from Steel to Fiber LPG Cylinders',
-    slug: 'technologies-driving-the-change-from-steel-to-fiber-lpg-cylinders',
-    date: 'Feb 7, 2025',
-    category: 'WAATechCylinders',
-    excerpt: 'CNC filament winding, HDPE liners, and advanced resin systems — the key manufacturing technologies enabling the global transition to composite LPG cylinders.',
-  },
-];
+const PER_PAGE = 10;
 
 export default function BlogPage() {
-  const [featured, ...rest] = posts;
+  const all = getBlogPosts();
+  const totalPages = Math.ceil(all.length / PER_PAGE);
+  const page1 = all.slice(0, PER_PAGE);
+  const [featured, ...rest] = page1;
+
   return (
     <>
       <section className="gradient-green py-20 text-white">
@@ -181,7 +66,7 @@ export default function BlogPage() {
             </div>
           </div>
 
-          {/* All Posts */}
+          {/* Posts Grid */}
           <h2 className="text-2xl font-black text-slate-900 mb-8">All Posts</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {rest.map((post) => (
@@ -210,6 +95,22 @@ export default function BlogPage() {
                 </div>
               </article>
             ))}
+          </div>
+
+          {/* Pagination */}
+          <div className="flex justify-center items-center gap-2 mt-12">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <Link
+                key={p}
+                href={p === 1 ? '/blog' : `/blog/page/${p}`}
+                className={`w-9 h-9 flex items-center justify-center rounded-xl text-sm font-bold transition-colors ${p === 1 ? 'bg-green-700 text-white' : 'border border-slate-200 text-slate-600 hover:border-green-300 hover:text-green-700'}`}
+              >
+                {p}
+              </Link>
+            ))}
+            <Link href="/blog/page/2" className="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-xl text-slate-700 hover:border-green-300 hover:text-green-700 transition-colors text-sm font-medium">
+              Next <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>

@@ -31,7 +31,7 @@ const products: Record<string, {
     price: 11000,
     weight: '10 kg',
     color: 'Yellow',
-    description: 'WAA Technologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. 100% explosion-proof, UV resistant, and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
+    description: 'WAATechnologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. 100% explosion-proof, UV resistant, and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
     features: ['100% Explosion Proof', 'ISO 11119-3 Certified', 'UV Resistant HDPE Outer', 'Corrosion Free', 'Translucent Body', '20+ Year Lifespan'],
   },
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': {
@@ -40,7 +40,7 @@ const products: Record<string, {
     oldPrice: 8500,
     weight: '5 kg',
     color: 'Blue',
-    description: 'The WAA Technologies 5 Kg LPG Fiber Gas Cylinder is perfect for small households. Lightweight, explosion-proof, and ISO certified — the safest small cylinder in Pakistan.',
+    description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is perfect for small households. Lightweight, explosion-proof, and ISO certified — the safest small cylinder in Pakistan.',
     features: ['100% Explosion Proof', 'Ultra Lightweight', 'ISO Certified', 'UV Resistant', 'Corrosion Free', 'Translucent Visibility'],
   },
   'lpg-composite-cylinder-10kg-cerulean-blue': {
@@ -64,7 +64,7 @@ const products: Record<string, {
     price: 11000,
     weight: '15 kg',
     color: 'Traditional Blue',
-    description: 'WAA Technologies 15Kg Traditional Blue composite cylinder for larger households and commercial use. The same explosion-proof, ISO-certified composite technology in a larger capacity.',
+    description: 'WAATechnologies 15Kg Traditional Blue composite cylinder for larger households and commercial use. The same explosion-proof, ISO-certified composite technology in a larger capacity.',
     features: ['Traditional Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'High Capacity'],
   },
 };
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: product.description,
     alternates: { canonical: `https://waatechnologies.com/product/${slug}` },
     openGraph: {
-      title: `${product.name} | WAA Technologies`,
+      title: `${product.name} | WAATechnologies`,
       description: product.description,
       type: 'website',
       images: img ? [{ url: `https://waatechnologies.com${img}`, width: 1254, height: 1254, alt: product.name }] : undefined,
@@ -122,11 +122,11 @@ export default async function ProductPage({ params }: Props) {
     description: product.description,
     sku: slug,
     mpn: slug.toUpperCase(),
-    brand: { '@type': 'Brand', name: 'WAA Technologies' },
+    brand: { '@type': 'Brand', name: 'WAATechnologies' },
     manufacturer: {
       '@type': 'Organization',
       '@id': 'https://waatechnologies.com/#organization',
-      name: 'WAA Technologies Pvt Ltd',
+      name: 'WAATechnologies Pvt Ltd',
     },
     image: productImages[slug]
       ? `https://waatechnologies.com${productImages[slug]}`
@@ -141,7 +141,7 @@ export default async function ProductPage({ params }: Props) {
       priceValidUntil: '2026-12-31',
       itemCondition: 'https://schema.org/NewCondition',
       availability: 'https://schema.org/InStock',
-      seller: { '@type': 'Organization', name: 'WAA Technologies Pvt Ltd' },
+      seller: { '@type': 'Organization', name: 'WAATechnologies Pvt Ltd' },
       shippingDetails: {
         '@type': 'OfferShippingDetails',
         shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'PKR' },

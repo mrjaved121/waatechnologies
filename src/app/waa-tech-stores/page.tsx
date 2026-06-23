@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, ArrowRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Waa Tech Stores',
   description:
-    'Find WAA Technologies stores near you. Visit our Bahria Town Lahore showroom or Life LPG Store in DHA Phase 5, Askari 11 to experience our composite cylinders in person.',
+    'Find WAATechnologies stores near you. Visit our Bahria Town Lahore showroom or Life LPG Store in DHA Phase 5, Askari 11 to experience our composite cylinders in person.',
   alternates: { canonical: 'https://waatechnologies.com/waa-tech-stores' },
 };
 

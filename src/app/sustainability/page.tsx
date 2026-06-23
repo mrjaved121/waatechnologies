@@ -5,7 +5,7 @@ import { Leaf, Heart, ShieldCheck, Recycle, Globe, Sun } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Sustainability',
   description:
-    'WAA Technologies is committed to environmental sustainability, health & safety, and ethical compliance. Learn how our composite LPG cylinders contribute to a greener Pakistan.',
+    'WAATechnologies is committed to environmental sustainability, health & safety, and ethical compliance. Learn how our composite LPG cylinders contribute to a greener Pakistan.',
   alternates: { canonical: 'https://waatechnologies.com/sustainability' },
 };
 
@@ -72,7 +72,7 @@ export default function SustainabilityPage() {
           <div className="text-center mb-6">
             <h2 className="text-4xl font-black text-slate-900 mb-4">Some Words About Us</h2>
             <p className="text-slate-600 max-w-3xl mx-auto text-lg leading-relaxed">
-              We care for our customers and families&apos; lives. WAA Technologies was founded on the
+              We care for our customers and families&apos; lives. WAATechnologies was founded on the
               belief that energy should be safe, accessible, and sustainable for every Pakistani household.
               Our commitment to sustainability runs through every stage of design, manufacture, distribution,
               and after-sales support.
@@ -86,7 +86,7 @@ export default function SustainabilityPage() {
           <div className="text-center mb-14">
             <h2 className="text-4xl font-black text-slate-900 mb-3">Our Pillars</h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              Three principles guide every decision we make at WAA Technologies.
+              Three principles guide every decision we make at WAATechnologies.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">

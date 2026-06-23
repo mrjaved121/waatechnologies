@@ -15,9 +15,9 @@ const productImages: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: 'WAA Technologies | Non-Blast Composite LPG Gas Cylinders Pakistan',
+  title: 'WAATechnologies | Non-Blast Composite LPG Gas Cylinders Pakistan',
   description:
-    "WAA Technologies — Pakistan's leading composite LPG cylinder manufacturer. 100% explosion-proof, lightweight, UV resistant, ISO certified. Shop 5kg, 10kg & 14kg cylinders.",
+    "WAATechnologies — Pakistan's leading composite LPG cylinder manufacturer. 100% explosion-proof, lightweight, UV resistant, ISO certified. Shop 5kg, 10kg & 14kg cylinders.",
   alternates: { canonical: 'https://waatechnologies.com' },
 };
 
@@ -25,7 +25,7 @@ const features = [
   {
     icon: Shield,
     title: 'WAA Technology',
-    desc: 'WAA Technologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
+    desc: 'WAATechnologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
     color: 'bg-green-50 text-green-700',
     border: 'border-green-200',
   },
@@ -131,7 +131,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl text-green-100 font-semibold mb-3">For Your Requirement</p>
             <p className="text-green-200 text-lg leading-relaxed mb-8 max-w-lg">
-              WAA Technologies — Pakistan&apos;s first composite LPG cylinder manufacturer. 100% explosion-proof,
+              WAATechnologies — Pakistan&apos;s first composite LPG cylinder manufacturer. 100% explosion-proof,
               jointless design, ISO certified. Serving homes, restaurants &amp; businesses nationwide.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -202,14 +202,14 @@ export default function HomePage() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <span className="w-8 h-0.5 bg-green-600 inline-block" />
-              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">About WAA Technologies</span>
+              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">About WAATechnologies</span>
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
-              About WAA<br />
-              <span className="text-green-700">Technologies</span>
+              About<br />
+              <span className="text-green-700">WAATechnologies</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-5">
-              WAA TECHNOLOGIES was officially formed in 2022 at Gujranwala however research and development
+              WAATechnologies was officially formed in 2022 at Gujranwala however research and development
               was under progress since 2018. Company was aimed to develop reliable, safe and long-life
               composite cylinders. Research and development team worked hard to achieve the goal and
               successfully developed the product as envisaged.
@@ -256,7 +256,7 @@ export default function HomePage() {
               Features of WAA Tech Cylinders
             </h2>
             <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-              Here are key features of WAA Technologies Cylinders which stand&apos;s out the Brand.
+              Here are key features of WAATechnologies Cylinders which stand&apos;s out the Brand.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -380,7 +380,7 @@ export default function HomePage() {
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-3">LPG &amp; Cylinders</h2>
             <p className="text-slate-500 max-w-xl mx-auto text-lg">
-              There are many variations of WAA Technologies
+              There are many variations of WAATechnologies
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
@@ -509,7 +509,7 @@ export default function HomePage() {
               {
                 icon: Award,
                 title: 'WAA Technology',
-                desc: 'WAA Technologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
+                desc: 'WAATechnologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
               },
             ].map((f) => (
               <div key={f.title} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 card-hover">
@@ -573,7 +573,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-3xl font-black text-slate-900 mb-1">Ready to Switch to Safety?</h2>
             <p className="text-slate-700 text-lg">
-              WAA TECHNOLOGIES PVT LTD promise to ensure the quality of its each and every product.
+              WAATechnologies PVT LTD promise to ensure the quality of its each and every product.
               Lives are precious and we care for our customers and families lives.
             </p>
           </div>

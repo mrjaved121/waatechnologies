@@ -4,7 +4,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Returns Policy',
-  description: 'WAA Technologies returns and refund policy. Learn about our product return process, eligibility conditions, and how to initiate a return.',
+  description: 'WAATechnologies returns and refund policy. Learn about our product return process, eligibility conditions, and how to initiate a return.',
   alternates: { canonical: 'https://waatechnologies.com/returns' },
 };
 
@@ -27,7 +27,7 @@ export default function ReturnsPage() {
           <div className="bg-green-50 border border-green-100 rounded-2xl p-8 mb-10">
             <h2 className="text-2xl font-black text-slate-900 mb-4">Our Return Commitment</h2>
             <p className="text-slate-600 leading-relaxed">
-              WAA Technologies stands behind the quality of every composite cylinder we manufacture. If you
+              WAATechnologies stands behind the quality of every composite cylinder we manufacture. If you
               receive a defective or damaged product, we will replace it or refund your purchase — no questions asked.
             </p>
           </div>

@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with WAA Technologies. Head office: 172-A Bahria Town Lahore. Phone: (+92) 4237815533. WhatsApp: +92 3414999998. Email: waatechnologies.pvt.ltd@gmail.com.',
+    'Get in touch with WAATechnologies. Head office: 172-A Bahria Town Lahore. Phone: (+92) 4237815533. WhatsApp: +92 3414999998. Email: waatechnologies.pvt.ltd@gmail.com.',
   alternates: { canonical: 'https://waatechnologies.com/contact-us' },
 };
 
@@ -45,13 +45,13 @@ const faqSchema = {
 const contactSchema = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  name: 'Contact WAA Technologies',
+  name: 'Contact WAATechnologies',
   url: 'https://waatechnologies.com/contact-us',
-  description: 'Contact WAA Technologies Pvt Ltd for composite LPG cylinder enquiries, dealer applications, and order support.',
+  description: 'Contact WAATechnologies Pvt Ltd for composite LPG cylinder enquiries, dealer applications, and order support.',
   mainEntity: {
     '@type': 'LocalBusiness',
     '@id': 'https://waatechnologies.com/#organization',
-    name: 'WAA Technologies Pvt Ltd',
+    name: 'WAATechnologies Pvt Ltd',
     telephone: '+92-42-37815533',
     email: 'waatechnologies.pvt.ltd@gmail.com',
     address: {
@@ -78,7 +78,7 @@ export default function ContactUsPage() {
           </div>
           <h1 className="text-5xl font-black mb-4">CONTACT US</h1>
           <p className="text-green-100 text-xl max-w-2xl">
-            WAA TECHNOLOGIES PVT LTD promise to ensure the quality of its each and every product.
+            WAATechnologies PVT LTD promise to ensure the quality of its each and every product.
             Lives are precious and we care for our customers and families lives.
           </p>
         </div>

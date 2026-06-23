@@ -33,7 +33,7 @@ export default function Footer() {
             <Link href="/">
               <Image
                 src="/images/global-waatech-logo.png"
-                alt="WAA Technologies"
+                alt="WAATechnologies"
                 width={130}
                 height={110}
                 className="h-14 w-auto object-contain brightness-0 invert"
@@ -41,7 +41,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className="text-sm text-slate-400 leading-relaxed mb-6">
-            WAA TECHNOLOGIES PVT LTD promise to ensure the quality of its each and every product.
+            WAATechnologies PVT LTD promise to ensure the quality of its each and every product.
             Lives are precious and we care for our customers and families lives.
           </p>
           <div className="flex flex-col gap-3 text-sm">
@@ -117,7 +117,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-500">
-          <span>© 2026 WAA Technologies. All rights reserved.</span>
+          <span>© 2026 WAATechnologies. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="hover:text-green-400 transition-colors">Privacy Policy</Link>
             <Link href="/returns" className="hover:text-green-400 transition-colors">Returns</Link>

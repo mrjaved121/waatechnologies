@@ -6,7 +6,7 @@ import { ArrowRight, MapPin, Calendar } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Case Studies',
   description:
-    'Real-world case studies showing how WAA Technologies\' blast-proof composite cylinders have prevented accidents and protected lives across Pakistan — Karachi, Lahore, Islamabad, and beyond.',
+    'Real-world case studies showing how WAATechnologies\' blast-proof composite cylinders have prevented accidents and protected lives across Pakistan — Karachi, Lahore, Islamabad, and beyond.',
   alternates: { canonical: 'https://waatechnologies.com/category/casestudies' },
 };
 

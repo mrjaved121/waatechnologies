@@ -14,7 +14,7 @@ const productImages: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Our Products And Advantages',
   description:
-    'Explore WAA Technologies\' composite LPG cylinders — 5kg, 10kg, and 15kg. 100% explosion-proof, lightweight, UV resistant, corrosion-proof, translucent, ISO certified.',
+    'Explore WAATechnologies\' composite LPG cylinders — 5kg, 10kg, and 15kg. 100% explosion-proof, lightweight, UV resistant, corrosion-proof, translucent, ISO certified.',
   alternates: { canonical: 'https://waatechnologies.com/our-products-and-advantages' },
 };
 

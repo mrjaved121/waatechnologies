@@ -5,7 +5,7 @@ import { CheckCircle2, ArrowRight, Users, Building2, Award } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn about WAA Technologies — Pakistan\'s pioneer in composite LPG cylinder manufacturing. Founded in 2017, ISO certified, with a 26,000 sq ft facility in Gujranwala.',
+    'Learn about WAATechnologies — Pakistan\'s pioneer in composite LPG cylinder manufacturing. Founded in 2017, ISO certified, with a 26,000 sq ft facility in Gujranwala.',
   alternates: { canonical: 'https://waatechnologies.com/about-us' },
 };
 
@@ -29,7 +29,7 @@ const team = [
 
 const milestones = [
   { year: '2018', label: 'R&D Begins', desc: 'Research and development of composite cylinder technology started under the leadership of experienced engineers.' },
-  { year: '2022', label: 'Officially Established', desc: 'WAA TECHNOLOGIES PVT LTD was officially formed in 2022 at Gujranwala with a 26,000 sq ft manufacturing facility.' },
+  { year: '2022', label: 'Officially Established', desc: 'WAATechnologies PVT LTD was officially formed in 2022 at Gujranwala with a 26,000 sq ft manufacturing facility.' },
   { year: '2023', label: 'ISO Certified', desc: 'Achieved ISO 9001-2015 and EN 14427-2022 certification.' },
   { year: '2024', label: 'National Rollout', desc: 'Expanded to authorized dealers across Punjab, Sindh & KPK.' },
   { year: '2025+', label: 'Growing Forward', desc: 'Scaling production to meet Pakistan\'s composite LPG demand.' },
@@ -62,11 +62,11 @@ export default function AboutUsPage() {
               <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">Our Story</span>
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
-              WAA Technologies<br />
+              WAATechnologies<br />
               <span className="text-green-700">Pvt Ltd</span>
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              WAA TECHNOLOGIES PVT LTD was formally established in 2022 in Gujranwala, Pakistan — with
+              WAATechnologies PVT LTD was formally established in 2022 in Gujranwala, Pakistan — with
               research and development work started in 2018. We have since successfully developed and
               manufactured composite gas cylinders using advanced winding technologies.
             </p>

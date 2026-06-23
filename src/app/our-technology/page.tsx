@@ -5,7 +5,7 @@ import { Layers, Zap, Shield, Microscope, Cog, CheckCircle2 } from 'lucide-react
 export const metadata: Metadata = {
   title: 'Our Technology',
   description:
-    'Discover WAA Technologies\' proprietary composite cylinder winding technology. ISO 11119-3 and EN 14427-2022 certified filament winding process for 100% explosion-proof LPG cylinders.',
+    'Discover WAATechnologies\' proprietary composite cylinder winding technology. ISO 11119-3 and EN 14427-2022 certified filament winding process for 100% explosion-proof LPG cylinders.',
   alternates: { canonical: 'https://waatechnologies.com/our-technology' },
 };
 
@@ -62,7 +62,7 @@ export default function OurTechnologyPage() {
           <div className="text-center mb-14">
             <h2 className="text-4xl font-black text-slate-900 mb-4">How We Build Safety</h2>
             <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-              WAA Technologies uses internationally proven composite winding technology — the same process
+              WAATechnologies uses internationally proven composite winding technology — the same process
               used in aerospace, defence, and high-performance engineering applications worldwide.
             </p>
           </div>
@@ -105,7 +105,7 @@ export default function OurTechnologyPage() {
               { code: 'ISO 9001-2015', title: 'Quality Management', desc: 'Our entire manufacturing and business process is governed by ISO 9001-2015 quality management principles.' },
               { code: 'BS EN 11119', title: 'European Cylinder Testing', desc: 'Full-scope European testing standard covering burst pressure, drop tests, fire engulfment, and fatigue cycling.' },
               { code: 'PEC Approved', title: 'Pakistan Engineering Council', desc: 'Our plant, processes, and products are approved by the Pakistan Engineering Council.' },
-              { code: 'OGRA Regulated', title: 'Oil & Gas Regulatory Authority', desc: 'WAA Technologies operates under OGRA oversight, ensuring compliance with Pakistan\'s national LPG regulations.' },
+              { code: 'OGRA Regulated', title: 'Oil & Gas Regulatory Authority', desc: 'WAATechnologies operates under OGRA oversight, ensuring compliance with Pakistan\'s national LPG regulations.' },
             ].map((s) => (
               <div key={s.code} className="bg-white/5 border border-white/10 rounded-2xl p-6">
                 <div className="text-amber-400 font-black text-lg mb-1">{s.code}</div>

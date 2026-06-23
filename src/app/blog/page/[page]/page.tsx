@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { page } = await params;
   return {
     title: `Blog — Page ${page}`,
-    description: `WAA Technologies blog — page ${page}. Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
+    description: `WAATechnologies blog — page ${page}. Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
     alternates: { canonical: `https://waatechnologies.com/blog/page/${page}` },
   };
 }

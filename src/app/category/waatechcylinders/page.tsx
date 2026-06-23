@@ -7,7 +7,7 @@ import { getBlogPosts } from '@/lib/posts';
 export const metadata: Metadata = {
   title: 'WAATechCylinders — Blog Category',
   description:
-    'All WAA Technologies blog posts about composite LPG cylinders — safety, sustainability, technology, and industry insights.',
+    'All WAATechnologies blog posts about composite LPG cylinders — safety, sustainability, technology, and industry insights.',
   alternates: { canonical: 'https://waatechnologies.com/category/waatechcylinders' },
 };
 

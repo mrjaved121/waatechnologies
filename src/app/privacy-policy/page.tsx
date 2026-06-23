@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'WAA Technologies privacy policy — how we collect, use, and protect your personal information.',
+  description: 'WAATechnologies privacy policy — how we collect, use, and protect your personal information.',
   alternates: { canonical: 'https://waatechnologies.com/privacy-policy' },
 };
 
@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
           <h2>2. How We Use Your Information</h2>
           <p>We use your personal information to process orders, respond to enquiries, send relevant product updates (with your consent), and improve our website and services.</p>
           <h2>3. Information Sharing</h2>
-          <p>WAA Technologies does not sell, trade, or rent your personal information to third parties. We may share information with authorized dealers only when necessary to fulfil your order or service request.</p>
+          <p>WAATechnologies does not sell, trade, or rent your personal information to third parties. We may share information with authorized dealers only when necessary to fulfil your order or service request.</p>
           <h2>4. Data Security</h2>
           <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
           <h2>5. Cookies</h2>
@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
           <h2>6. Your Rights</h2>
           <p>You have the right to access, correct, or delete your personal data at any time. To exercise these rights, contact us at waatechnologies.pvt.ltd@gmail.com.</p>
           <h2>7. Contact</h2>
-          <p>For privacy-related questions, contact WAA Technologies at 172-A First Floor, Bahria Town Lahore, or email waatechnologies.pvt.ltd@gmail.com.</p>
+          <p>For privacy-related questions, contact WAATechnologies at 172-A First Floor, Bahria Town Lahore, or email waatechnologies.pvt.ltd@gmail.com.</p>
         </div>
       </section>
     </>

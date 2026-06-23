@@ -53,7 +53,7 @@ export default function CheckoutPage() {
       .join('\n');
 
     const lines = [
-      '🛒 *New Order — WAA Technologies Website*',
+      '🛒 *New Order — WAATechnologies Website*',
       '',
       '*Customer Details:*',
       `Name: ${form.firstName} ${form.lastName}`,

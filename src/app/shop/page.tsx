@@ -21,7 +21,7 @@ const colorGradient: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Shop — LPG Composite Cylinders',
   description:
-    'Buy WAA Technologies composite LPG cylinders online. 5kg, 10kg, 14kg, and 15kg sizes available. 100% explosion-proof, ISO certified. Fast delivery across Pakistan.',
+    'Buy WAATechnologies composite LPG cylinders online. 5kg, 10kg, 14kg, and 15kg sizes available. 100% explosion-proof, ISO certified. Fast delivery across Pakistan.',
   alternates: { canonical: 'https://waatechnologies.com/shop' },
 };
 
@@ -36,7 +36,7 @@ const products = [
 const shopSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
-  name: 'WAA Technologies LPG Composite Cylinders',
+  name: 'WAATechnologies LPG Composite Cylinders',
   description: 'Buy composite LPG cylinders online in Pakistan — 100% explosion-proof, ISO certified, made in Gujranwala.',
   url: 'https://waatechnologies.com/shop',
   numberOfItems: products.length,
@@ -50,7 +50,7 @@ const shopSchema = {
       image: productImages[p.slug]
         ? `https://waatechnologies.com${productImages[p.slug]}`
         : 'https://waatechnologies.com/images/global-waatech-logo.png',
-      brand: { '@type': 'Brand', name: 'WAA Technologies' },
+      brand: { '@type': 'Brand', name: 'WAATechnologies' },
       offers: {
         '@type': 'Offer',
         priceCurrency: 'PKR',

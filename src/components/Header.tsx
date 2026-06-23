@@ -58,7 +58,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <Image
             src="/images/global-waatech-logo.png"
-            alt="WAA Technologies"
+            alt="WAATechnologies"
             width={130}
             height={110}
             className="h-12 w-auto object-contain"

@@ -5,7 +5,7 @@ import { CheckCircle2, Factory, Globe, Target } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Our Company',
   description:
-    'WAA Technologies Pvt Ltd — Pakistan\'s composite LPG cylinder manufacturer. 26,000 sq ft facility in Gujranwala. ISO 9001-2015 & EN 14427-2022 certified.',
+    'WAATechnologies Pvt Ltd — Pakistan\'s composite LPG cylinder manufacturer. 26,000 sq ft facility in Gujranwala. ISO 9001-2015 & EN 14427-2022 certified.',
   alternates: { canonical: 'https://waatechnologies.com/our-company' },
 };
 
@@ -31,9 +31,9 @@ export default function OurCompanyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-3xl font-black text-slate-900 mb-5">WAA Technologies Pvt Ltd</h2>
+            <h2 className="text-3xl font-black text-slate-900 mb-5">WAATechnologies Pvt Ltd</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              WAA TECHNOLOGIES PVT LTD is a Pakistani company formally established in 2022, with R&D work
+              WAATechnologies PVT LTD is a Pakistani company formally established in 2022, with R&D work
               commenced in 2018 under the leadership of experienced engineers and industrial experts. We are
               headquartered in Bahria Town, Lahore, with our manufacturing facility in Gujranwala spanning
               26,000 square feet.

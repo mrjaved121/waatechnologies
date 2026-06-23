@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const label = tag.replace(/-/g, ' ');
   return {
     title: `${label} — Tag`,
-    description: `All WAA Technologies articles tagged with "${label}".`,
+    description: `All WAATechnologies articles tagged with "${label}".`,
     alternates: { canonical: `https://waatechnologies.com/tag/${tag}` },
   };
 }

@@ -5,7 +5,7 @@ import { Phone, MapPin } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Authorized Dealers',
   description:
-    'Find WAA Technologies authorized dealers across Pakistan — Punjab (Lahore, Sialkot), Sindh (Karachi, Hyderabad), and KPK (Peshawar). Contact your nearest dealer today.',
+    'Find WAATechnologies authorized dealers across Pakistan — Punjab (Lahore, Sialkot), Sindh (Karachi, Hyderabad), and KPK (Peshawar). Contact your nearest dealer today.',
   alternates: { canonical: 'https://waatechnologies.com/authorized-dealers' },
 };
 
@@ -76,7 +76,7 @@ export default function AuthorizedDealersPage() {
           </div>
           <h1 className="text-5xl font-black mb-4">Authorized Dealers</h1>
           <p className="text-green-100 text-xl max-w-2xl">
-            Find a WAA Technologies authorized dealer near you across Pakistan.
+            Find a WAATechnologies authorized dealer near you across Pakistan.
           </p>
         </div>
       </section>

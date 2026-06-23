@@ -4,8 +4,8 @@ import { ArrowRight, Calendar } from 'lucide-react';
 import { allPosts } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'Posts by WAA Technologies',
-  description: 'All blog posts and case studies published by WAA Technologies.',
+  title: 'Posts by WAATechnologies',
+  description: 'All blog posts and case studies published by WAATechnologies.',
   alternates: { canonical: 'https://waatechnologies.com/author/admin' },
 };
 
@@ -18,14 +18,14 @@ export default function AuthorAdminPage() {
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
             <span className="text-green-400">/</span>
-            <span className="text-white text-sm font-medium">Author: WAA Technologies</span>
+            <span className="text-white text-sm font-medium">Author: WAATechnologies</span>
           </div>
           <div className="flex items-center gap-4 mb-3">
             <div className="w-16 h-16 bg-green-800 rounded-full flex items-center justify-center">
               <span className="text-white font-black text-lg">WAA</span>
             </div>
             <div>
-              <h1 className="text-3xl font-black">WAA Technologies</h1>
+              <h1 className="text-3xl font-black">WAATechnologies</h1>
               <p className="text-green-200">Pakistan&apos;s composite LPG cylinder experts</p>
             </div>
           </div>
