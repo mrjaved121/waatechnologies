@@ -16,10 +16,27 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { page } = await params;
+  const pageNum = parseInt(page, 10);
   return {
-    title: `Blog — Page ${page}`,
+    title: `Blog — Page ${page} | WAATechnologies`,
     description: `WAATechnologies blog — page ${page}. Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
     alternates: { canonical: `https://waatechnologies.com/blog/page/${page}` },
+    robots: pageNum > 1 ? { index: false, follow: true } : { index: true, follow: true },
+    openGraph: {
+      title: `Blog — Page ${page} | WAATechnologies`,
+      description: `Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
+      url: `https://waatechnologies.com/blog/page/${page}`,
+      siteName: 'WAATechnologies',
+      locale: 'en_PK',
+      type: 'website',
+      images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'WAATechnologies Blog' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Blog — Page ${page} | WAATechnologies`,
+      description: `Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
+      images: ['/images/og-image.jpg'],
+    },
   };
 }
 

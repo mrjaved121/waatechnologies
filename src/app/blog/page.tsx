@@ -5,10 +5,26 @@ import { ArrowRight, Calendar } from 'lucide-react';
 import { getBlogPosts } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'Blog — LPG & Composite Cylinder Insights',
+  title: 'Blog — LPG & Composite Cylinder Insights | WAATechnologies',
   description:
     'WAATechnologies blog — expert insights on composite LPG cylinders, safety, sustainability, and the future of gas storage in Pakistan.',
+  keywords: ['composite LPG cylinders Pakistan', 'LPG cylinder safety', 'fiber gas cylinder blog', 'WAATechnologies blog'],
   alternates: { canonical: 'https://waatechnologies.com/blog' },
+  openGraph: {
+    title: 'Blog — LPG & Composite Cylinder Insights | WAATechnologies',
+    description: 'Expert insights on composite LPG cylinders, safety, sustainability, and the future of gas storage in Pakistan.',
+    url: 'https://waatechnologies.com/blog',
+    siteName: 'WAATechnologies',
+    locale: 'en_PK',
+    type: 'website',
+    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'WAATechnologies Blog' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog — LPG & Composite Cylinder Insights | WAATechnologies',
+    description: 'Expert insights on composite LPG cylinders, safety, and Pakistan\'s energy future.',
+    images: ['/images/og-image.jpg'],
+  },
 };
 
 const PER_PAGE = 10;
