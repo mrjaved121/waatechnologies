@@ -70,21 +70,20 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-1">
           {navLinks.map((link) =>
             link.children ? (
-              <div key={link.label} className="relative" ref={dropdownRef}>
+              <div key={link.label} className="relative" ref={dropdownRef}
+                onMouseEnter={() => setAboutOpen(true)}
+                onMouseLeave={() => setAboutOpen(false)}
+              >
                 <button
                   className="nav-link flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 hover:text-green-700 rounded-lg hover:bg-green-50 transition-colors"
                   onClick={() => setAboutOpen((v) => !v)}
-                  onMouseEnter={() => setAboutOpen(true)}
-                  onMouseLeave={() => setAboutOpen(false)}
                 >
                   {link.label}
                   <ChevronDown className={`w-3.5 h-3.5 transition-transform ${aboutOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {aboutOpen && (
                   <div
-                    className="dropdown-menu absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-slate-100 py-2 z-50"
-                    onMouseEnter={() => setAboutOpen(true)}
-                    onMouseLeave={() => setAboutOpen(false)}
+                    className="dropdown-menu absolute top-full left-0 w-56 bg-white rounded-xl shadow-xl border border-slate-100 py-2 z-50"
                   >
                     {link.children.map((child) => (
                       <Link
