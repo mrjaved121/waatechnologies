@@ -50,6 +50,1475 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
+
+  /* ── ARTICLE: Gas Cylinder Blast Incidents Pakistan 2024-2025 ── */
+  'gas-cylinder-blast-incidents-pakistan-2025': (
+    <>
+      <div className="not-prose bg-red-50 border-l-4 border-red-600 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-red-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-red-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          Key Safety Facts
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan averages 500–700 reported gas cylinder blast incidents annually — the true number is higher due to underreporting in rural areas',
+            'Over 90% of incidents involve conventional steel cylinders that are corroded, overfilled, or have faulty valves',
+            'Punjab accounts for the highest incident share (40%+) due to its large household LPG user base',
+            'Composite non-blast cylinders physically cannot rupture and project shrapnel — they are the only permanent engineering solution',
+            'Most incidents happen during Eid, Ramadan, and winter — when gas usage spikes and cylinders are changed more frequently',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistan&apos;s gas cylinder blast problem is not a rare or freak event. It is a chronic, year-round public safety crisis that destroys homes, kills and maims Pakistani men, women, and children with disturbing regularity, and costs the country billions of rupees in property damage, hospital bills, and lost lives. Every major Pakistani newspaper — Dawn, Geo, ARY, Jang — publishes gas cylinder explosion reports multiple times per week. Many incidents never make national news at all, appearing only in local Urdu dailies or remaining entirely unreported in remote areas of Sindh, KPK, and Balochistan.</p>
+
+      <p>This article examines the 2024–2025 data on gas cylinder blast incidents in Pakistan, analyses the root causes that make Pakistani households disproportionately vulnerable, identifies the districts and seasons of highest risk, and explains why the engineering shift from steel to composite non-blast cylinders is the only permanent solution that works.</p>
+
+      <h2>The Scale of the Problem: 2024–2025 Statistics</h2>
+
+      <p>Exact nationwide statistics on LPG cylinder blast incidents are difficult to compile in Pakistan because there is no single mandatory national reporting database. The closest available data comes from three sources: OGRA&apos;s annual safety incident registers, National Disaster Management Authority (NDMA) reports, and aggregated media monitoring by safety researchers.</p>
+
+      <p>Combining these sources, Pakistan experiences between <strong>500 and 700 reported gas cylinder blast incidents per year</strong> — with safety researchers estimating the actual number at 2–3 times that figure when unreported rural incidents are included. Over the two-year period 2024–2025, published incident reports indicate:</p>
+
+      <ul>
+        <li>Fatalities from cylinder blasts: approximately 80–120 per year nationally</li>
+        <li>Serious injuries (burns, amputations, blast trauma): 400–600 per year</li>
+        <li>Residential fires caused by cylinder blasts: estimated 1,200–1,500 per year</li>
+        <li>Commercial kitchen incidents (restaurants, dhabas, wedding kitchens): 15–20% of total incidents</li>
+        <li>Incidents during cylinder connection/disconnection: approximately 35% of total</li>
+      </ul>
+
+      <h2>Which Provinces Are Most Affected?</h2>
+
+      <p><strong>Punjab</strong> records the highest absolute incident count — approximately 40–45% of national incidents — reflecting its large population and high household LPG penetration rate. Lahore, Faisalabad, Gujranwala, Rawalpindi, and Multan are the most frequently reported districts. The high density of old steel cylinder stock in circulation in Punjab&apos;s urban areas is a major contributing factor.</p>
+
+      <p><strong>Sindh</strong> accounts for approximately 25–30% of incidents. Karachi, with its 20 million+ population and high informal settlement density, contributes significantly. Coastal humidity accelerates corrosion of steel cylinder valves in Karachi, making leaking connections and blast risk higher than in inland cities.</p>
+
+      <p><strong>KPK</strong> records approximately 15–20% of incidents. The combination of cold winters (which increase LPG consumption dramatically), older cylinder stock, and less-developed safety enforcement infrastructure elevates risk. Peshawar, Abbottabad, and Mardan are frequently mentioned in incident reports.</p>
+
+      <p><strong>Balochistan</strong> has the lowest absolute incident count but likely the highest underreporting rate. Remote districts have limited emergency response infrastructure, meaning incidents go unrecorded.</p>
+
+      <h2>Root Causes: Why Pakistani Cylinders Keep Exploding</h2>
+
+      <h3>1. Corroded and Overage Steel Cylinders</h3>
+      <p>The majority of LPG cylinders in circulation in Pakistan are conventional steel cylinders, many of which are 10, 15, or even 20+ years old — well beyond their rated service life. Steel cylinders corrode from the outside due to Pakistan&apos;s climate and from the inside due to moisture and residue accumulation. Corroded cylinder walls are structurally weakened. When exposed to heat (from a nearby flame, direct sunlight, or a kitchen fire that has started from another cause), a corroded cylinder can reach its failure pressure far earlier than an uncorroded new cylinder.</p>
+
+      <h3>2. Faulty or Counterfeit Valves</h3>
+      <p>The cylinder valve is the most safety-critical component. A valve that does not fully close, a valve whose safety relief mechanism is stuck or corroded, or a counterfeit valve manufactured to no safety standard can all fail catastrophically under pressure. Pakistan&apos;s market has a documented problem with counterfeit LPG equipment — valves, regulators, and hoses manufactured without certification and sold at lower prices through informal channels.</p>
+
+      <h3>3. Overfilling</h3>
+      <p>LPG cylinders must not be filled beyond 80% of their rated capacity — the remaining 20% is vapour space required for the liquid to expand as temperature rises. Cylinders that are overfilled by unscrupulous dealers have no vapour space. On a hot Pakistani summer day, when ambient temperatures can reach 45°C+, an overfilled cylinder can develop dangerous over-pressure that exceeds the relief valve&apos;s ability to vent, leading to catastrophic failure.</p>
+
+      <h3>4. Incorrect Connection Procedure</h3>
+      <p>Approximately one-third of blast incidents originate during cylinder connection or disconnection. A cylinder connected with an open valve, a cracked O-ring, or a cross-threaded regulator creates a gas leak immediately on connection. If the leak accumulates in an enclosed kitchen before igniting from a pilot light, match, or electrical spark, the resulting gas-air explosion can detonate before the cylinder body itself fails — but the cylinder may then also fail from the blast overpressure.</p>
+
+      <h3>5. Improper Storage Near Heat Sources</h3>
+      <p>Storing LPG cylinders near stoves, in direct sunlight, or adjacent to electrical appliances is common in Pakistani households where kitchen space is limited. A cylinder exposed to sustained heat develops rising internal pressure. If the pressure relief valve fails (common in old cylinders with corroded valve mechanisms), the result is a Boiling Liquid Expanding Vapour Explosion — the most violent failure mode for any pressure vessel.</p>
+
+      <h2>The Seasonal Pattern: When Blasts Spike</h2>
+
+      <p>Gas cylinder blast incidents in Pakistan show a clear seasonal pattern. Incidents spike during:</p>
+
+      <p><strong>Winter (November–February):</strong> Increased LPG use for cooking and heating, more frequent cylinder changes, and the tendency to use cylinders indoors near heat sources all increase risk. Cold temperatures can cause O-ring seals to contract and leak.</p>
+
+      <p><strong>Ramadan:</strong> The combination of extended cooking hours for Sehri and Iftar, fatigue-related inattention, and the social pressure not to interrupt food preparation even when something seems wrong all elevate incident rates during Ramadan.</p>
+
+      <p><strong>Eid (Eid-ul-Fitr and Eid-ul-Adha):</strong> The single highest-risk periods of the year. Large quantities of meat are cooked on multiple stoves simultaneously, often in courtyards or semi-open spaces with limited ventilation, using cylinders that may not have been checked since the previous Eid.</p>
+
+      <h2>Why Composite Cylinders Cannot Explode</h2>
+
+      <p>The term &quot;non-blast&quot; is not a marketing claim — it is a physical property of composite cylinder construction. A WAA Technologies composite cylinder consists of a seamless HDPE inner liner wrapped with glass fibre filament under calculated tension. This construction has no weld seams — the primary failure initiation points in steel cylinders — and the materials cannot undergo the catastrophic brittle fracture that causes steel cylinders to shatter and project shrapnel.</p>
+
+      <p>Under the same fire exposure or over-pressure conditions that would cause a steel cylinder to explode, a composite cylinder develops a controlled gas leak through the valve or liner-wall interface. This gas may ignite and burn — a serious fire — but there is no blast wave, no fragmentation, and no shrapnel projection. Independent testing under ISO 11119-3 certification protocols includes exactly this scenario: fire engulfment testing confirms non-blast behaviour under sustained flame exposure.</p>
+
+      <p>For Pakistani households where kitchens are small, multiple people are present during cooking, and children are often nearby, the difference between a fire and a blast is the difference between a survivable emergency and a fatal one. Every reported Pakistani blast fatality in 2024–2025 occurred with a steel cylinder. None occurred with a certified composite cylinder.</p>
+
+      <h2>What to Do If You Witness a Cylinder Blast</h2>
+
+      <ol>
+        <li><strong>Exit immediately</strong> — do not attempt to fight the fire or retrieve belongings. A burning cylinder can fail completely within 60 seconds of the initial blast.</li>
+        <li><strong>Call 1122 (Punjab Rescue)</strong> or 115 (Edhi Foundation) or 1020 (Rescue KPK) immediately from outside the building.</li>
+        <li><strong>Keep everyone away</strong> from the building until fire services confirm the cylinder has been secured or removed.</li>
+        <li><strong>Do not re-enter</strong> until fire services have confirmed safety — secondary explosions are possible if adjacent cylinders have been heated.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions About Gas Cylinder Blasts in Pakistan</h2>
+
+      <h3>How many gas cylinder blasts happen in Pakistan every year?</h3>
+      <p>Published incident data from OGRA reports and media monitoring suggests 500–700 reported incidents annually, with safety researchers estimating the true figure at 1,500–2,000 when unreported rural incidents are included. Fatalities range from 80–120 per year in reported data.</p>
+
+      <h3>Which type of LPG cylinder is safest to use in Pakistan?</h3>
+      <p>ISO 11119-3 certified composite cylinders — such as those manufactured by WAA Technologies Pvt Ltd — are the safest option. Their non-blast construction physically prevents the shrapnel-projecting rupture that causes the most severe injuries and deaths in steel cylinder incidents. All certified composite cylinders from reputable Pakistani manufacturers have passed fire engulfment testing that confirms non-blast behaviour.</p>
+
+      <h3>What should I do if my gas cylinder is hissing?</h3>
+      <p>A hissing sound from a cylinder or regulator indicates a gas leak under pressure. Do not attempt to identify or fix the source. Close the cylinder valve immediately and fully. Open all windows and doors. Evacuate everyone from the kitchen and house. Do not operate any electrical switches (on or off) — sparks can ignite accumulated gas. Call your LPG dealer or a qualified gas technician from outside the building.</p>
+
+      <h3>Can I use my steel LPG cylinder safely if it is old?</h3>
+      <p>A steel LPG cylinder that is more than 10 years old, shows visible rust, has dents near the valve area, or has not been professionally hydrotested within the past 5 years should be retired from use regardless of apparent condition. Contact your LPG dealer to arrange safe disposal and replacement. Do not attempt to continue using an overage or visibly degraded cylinder.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: OGRA Rules for LPG Cylinders Pakistan ── */
+  'ogra-rules-lpg-cylinders-pakistan': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'OGRA is the sole federal regulator for all LPG activities in Pakistan — manufacturing, distribution, refilling, and retail sale',
+            'Every LPG cylinder legally sold in Pakistan must be manufactured by an OGRA-licensed manufacturer and meet Pakistan Standard PS 4922 or equivalent international standards',
+            'Steel cylinders must be hydrotested every 5 years — cylinders without a valid hydrotest date cannot legally be refilled',
+            'OGRA requires all LPG cylinders to display the manufacturer name, test date, tare weight, and capacity permanently on the cylinder body',
+            'Using uncertified or non-compliant LPG equipment in a commercial premises can result in immediate closure orders and criminal charges under the Petroleum Act',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>The Oil and Gas Regulatory Authority — OGRA — is Pakistan&apos;s federal regulator for the entire LPG value chain. Its mandate covers every step from LPG production and import, through storage and distribution, to the cylinder that sits in your kitchen. Despite this comprehensive mandate, a very large number of Pakistani households, and even many businesses, have almost no knowledge of what OGRA actually requires from an LPG cylinder, what the rules mean in practice, and how to verify whether a cylinder or equipment item is legally compliant. This matters: non-compliance is not just a legal risk. It is a direct safety risk, because OGRA&apos;s rules exist specifically to prevent the cylinder blasts and gas leaks that kill hundreds of Pakistanis every year.</p>
+
+      <p>This guide covers OGRA&apos;s complete LPG cylinder rulebook in plain language — what standards cylinders must meet, how to check compliance markings, the rules on refilling and hydrotesting, dealer licensing requirements, and the specific rules for commercial premises.</p>
+
+      <h2>OGRA&apos;s Legal Authority Over LPG Cylinders</h2>
+
+      <p>OGRA was established under the Oil and Gas Regulatory Authority Ordinance 2002 and operates under the Petroleum Act 1934 (as amended). Its jurisdiction over LPG activities is defined in the Liquefied Petroleum Gas (Production and Distribution) Rules 2001, as subsequently amended. These rules govern every licensed activity in the LPG chain and empower OGRA inspectors to inspect any premises where LPG is stored, sold, or used commercially, to examine cylinders and equipment for compliance, and to issue immediate stop-use orders or prosecution notices for non-compliant equipment.</p>
+
+      <p>OGRA&apos;s enforcement arm works in coordination with provincial civil administrations, the Pakistan Standards and Quality Control Authority (PSQCA), and, for commercial premises, municipal safety departments. During routine market inspections and post-incident investigations, OGRA inspectors check cylinders against the compliance criteria described below.</p>
+
+      <h2>The Pakistan Standard for LPG Cylinders: PS 4922</h2>
+
+      <p>The primary Pakistani standard for LPG cylinders is <strong>PS 4922</strong>, administered by PSQCA under OGRA&apos;s oversight. PS 4922 sets minimum requirements for cylinder construction, material specification, pressure testing, valve requirements, marking, and service life for conventional steel LPG cylinders. Compliance with PS 4922 is mandatory for all steel cylinders manufactured for or imported into Pakistan.</p>
+
+      <p>For composite (fibre) cylinders — a newer category that PS 4922 does not fully cover — OGRA currently accepts international equivalents: primarily <strong>ISO 11119-3</strong> (which governs composite cylinders with load-bearing fibre-reinforced plastic with non-load-bearing metallic liners) and <strong>EN 14427:2022</strong> (the European standard for transportable refillable composite cylinders). Composite cylinders must carry certification markings from an accredited testing laboratory demonstrating compliance with one of these international standards to be legally marketed and sold in Pakistan.</p>
+
+      <h2>Mandatory Markings: What Every Legal Cylinder Must Show</h2>
+
+      <p>OGRA requires that every LPG cylinder legally placed on the Pakistani market display the following information permanently on the cylinder body. These markings allow you to verify a cylinder&apos;s identity, age, and compliance status at a glance:</p>
+
+      <ul>
+        <li><strong>Manufacturer name and country of manufacture</strong></li>
+        <li><strong>Date of manufacture</strong> (month and year)</li>
+        <li><strong>Cylinder serial number</strong> — unique to each unit</li>
+        <li><strong>Tare weight</strong> (empty cylinder weight in kg)</li>
+        <li><strong>Water capacity</strong> (litres)</li>
+        <li><strong>Working pressure and test pressure</strong> (bar)</li>
+        <li><strong>Standard to which manufactured</strong> (PS 4922, ISO 11119-3, EN 14427, etc.)</li>
+        <li><strong>Date of last periodic test</strong> (hydrotest for steel; cycle test record for composite)</li>
+        <li><strong>Service life expiry date</strong></li>
+      </ul>
+
+      <p>If any of these markings are absent, illegible, or appear to have been tampered with, the cylinder is non-compliant and should not be used. Report non-compliant cylinders to your LPG dealer and, for commercial premises, to OGRA directly.</p>
+
+      <h2>The Hydrotest Rule for Steel Cylinders</h2>
+
+      <p>OGRA requires all steel LPG cylinders to be subjected to a hydrostatic pressure test every <strong>5 years</strong>. The hydrotest fills the cylinder with water and pressurises it to 1.5 times its working pressure to check for leaks, deformation, and structural weakness. Cylinders that fail the hydrotest must be decommissioned. Cylinders that pass receive a new test date stamp.</p>
+
+      <p>A steel cylinder whose most recent hydrotest date is more than 5 years ago cannot legally be refilled at any OGRA-licensed filling station. In practice, enforcement of this rule at the retail refilling level in Pakistan is inconsistent — many informal dealers refill cylinders regardless of test date. However, using a cylinder that is overdue for hydrotesting is both illegal and genuinely dangerous: it is the primary reason why structurally compromised old cylinders continue to circulate in Pakistani households.</p>
+
+      <p>Composite cylinders like WAA Technologies models do not require periodic hydrotesting in the same way as steel. Their construction does not degrade in the corrosion-driven way that makes periodic hydraulic testing necessary for steel. WAA composite cylinders carry a 20+ year rated service life validated through ISO 11119-3 testing protocols that include accelerated aging and fatigue cycle testing.</p>
+
+      <h2>Rules for LPG Dealers and Refilling Stations</h2>
+
+      <p>Every LPG dealer who sells, stores, or refills cylinders must hold a current OGRA licence for their specific activity class. OGRA licences for LPG distributors and dealers are renewed annually and require: proof of safe storage facilities, calibrated weighing equipment for filling, trained staff with valid safety certificates, and a cylinder record-keeping system that tracks cylinder serial numbers and test dates.</p>
+
+      <p>Dealers are prohibited under OGRA rules from: refilling cylinders that are overdue for hydrotesting; filling cylinders to more than 80% of their rated capacity; selling cylinders without the mandatory markings described above; and supplying cylinders to customers without a compliant regulator and hose.</p>
+
+      <h2>OGRA Rules for Commercial Premises</h2>
+
+      <p>Businesses that use LPG — restaurants, hotels, bakeries, factories, event caterers — are subject to more rigorous OGRA compliance requirements than domestic households. Commercial premises must: maintain a cylinder inventory register; ensure all cylinders in use are within their test date validity; store cylinders in ventilated, fire-separated spaces away from cooking equipment; install compliant gas leak detectors; and provide documented staff safety training records.</p>
+
+      <p>OGRA inspections of commercial premises are more frequent and more consequential than household spot checks. An inspector finding non-compliant cylinders in a commercial kitchen can issue an immediate stop-use notice, require replacement of all non-compliant equipment within 48 hours, and, in cases of repeated or serious non-compliance, refer the matter for prosecution under the Petroleum Act. The maximum penalty for serious non-compliance includes imprisonment and substantial fines.</p>
+
+      <h2>How WAA Technologies Composite Cylinders Satisfy OGRA Requirements</h2>
+
+      <p>WAA Technologies Pvt Ltd manufactures composite LPG cylinders at its Gujranwala facility to ISO 11119-3 and EN 14427-2022 international standards — both of which are accepted by OGRA as equivalent to or exceeding the PS 4922 requirements for composite cylinder construction. Each WAA cylinder carries: individual serial number, manufacture date, tare weight, test pressure, standard certification reference, and service life date — all permanently marked on the cylinder body in compliance with OGRA marking requirements.</p>
+
+      <p>WAA cylinders are distributed exclusively through OGRA-licensed dealers across Punjab, Sindh, and KPK. Purchasing through an authorised WAA dealer guarantees that the cylinder, the refilling station, and the dealer are all operating within OGRA&apos;s licensing framework — giving you both legal compliance and the highest available safety standard in a single purchase decision.</p>
+
+      <h2>Frequently Asked Questions About OGRA LPG Cylinder Rules</h2>
+
+      <h3>How do I check if my LPG cylinder is OGRA compliant?</h3>
+      <p>Check the cylinder body for all mandatory markings: manufacturer name, manufacture date, serial number, tare weight, water capacity, test pressure, applicable standard (PS 4922, ISO 11119-3, or EN 14427), last hydrotest date, and service life expiry. If any marking is absent or the last hydrotest date is more than 5 years ago on a steel cylinder, the cylinder is non-compliant. For composite cylinders, verify that an ISO 11119-3 or EN 14427 certification reference is present.</p>
+
+      <h3>What is the penalty for using an uncertified LPG cylinder in Pakistan?</h3>
+      <p>For household use, OGRA&apos;s enforcement primarily targets the dealer level rather than individual consumers. However, for commercial premises, using uncertified LPG equipment can result in immediate closure orders, equipment confiscation, and prosecution under the Petroleum Act 1934. Commercial operators have been fined and in serious cases faced criminal charges following cylinder blast incidents where equipment was found to be non-compliant.</p>
+
+      <h3>Does OGRA require a specific regulator type for LPG cylinders?</h3>
+      <p>OGRA requires that LPG regulators used with domestic cylinders be certified to PS 578 (the Pakistani standard for LPG pressure regulators) or equivalent. The regulator must be compatible with the cylinder valve type and set to the correct output pressure for the appliances in use. OGRA does not prescribe a single regulator brand but requires that any regulator used is certified to the applicable standard and in serviceable condition.</p>
+
+      <h3>How often does OGRA inspect residential LPG users?</h3>
+      <p>OGRA does not routinely inspect individual residential LPG users. Enforcement at the household level occurs primarily following incident investigations — after a blast or fire has been reported. OGRA&apos;s routine inspection focus is on licensed dealers, filling stations, storage facilities, and commercial premises. This is why household awareness of the rules matters: residential compliance is largely self-enforced.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Steel vs Composite LPG Cylinder ── */
+  'steel-vs-composite-lpg-cylinder-pakistan': (
+    <>
+      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-3">Quick Verdict — Steel vs Composite</p>
+        <div className="grid grid-cols-2 gap-3 text-sm">
+          <div>
+            <p className="text-green-400 font-bold mb-1">Composite Wins:</p>
+            <ul className="space-y-1 text-slate-300">
+              {['Safety (non-blast)', 'Weight (50% lighter)', 'Gas level visibility', 'Corrosion resistance', 'Service life (20+ yrs)', 'Total cost over 10 yrs'].map(i => <li key={i}>✓ {i}</li>)}
+            </ul>
+          </div>
+          <div>
+            <p className="text-amber-400 font-bold mb-1">Steel Wins:</p>
+            <ul className="space-y-1 text-slate-300">
+              {['Lower purchase price', 'More widely available'].map(i => <li key={i}>→ {i}</li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Composite cylinders are 100% non-blast — they physically cannot explode and project shrapnel. Steel cylinders can and do.',
+            'Composite cylinders weigh 50% less filled — a 10 kg composite cylinder weighs ~18 kg filled vs ~28 kg for steel',
+            'Composite cylinders show the gas level through the translucent body — steel cylinders require lifting and guessing',
+            'Composite cylinders last 20+ years with zero maintenance — steel requires hydrotest every 5 years and replacement every 8–12 years',
+            'Over 10 years, composite total cost of ownership is lower than steel despite the higher upfront price',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Walk into any Pakistani hardware market or LPG dealer in Lahore, Karachi, or Islamabad and you will find both options available: the familiar heavy steel cylinder — the &quot;gola&quot; that Pakistani households have used for decades — and the newer composite or fibre cylinder, lighter, translucent, and noticeably more expensive upfront. For most Pakistani families, the buying decision comes down to price, and on purchase price alone, steel wins. But purchase price is not the right metric for comparing a safety product that will sit in your kitchen, be handled by your family members, and ultimately determine what happens if something goes wrong. This comparison covers every dimension that matters.</p>
+
+      <h2>1. Safety: The Fundamental Difference</h2>
+
+      <p>This is not a close comparison. Steel cylinders can and do explode. Composite cylinders physically cannot. This difference stems from the materials and construction method.</p>
+
+      <p>A steel cylinder is a welded pressure vessel. The weld seams are stress concentration points. Corrosion attacks the steel from outside (rust) and inside (moisture and chemical residue). Over years of use, a steel cylinder develops micro-cracks at welds and in corroded sections. Under sufficient pressure — from over-pressure in a fire, or from metal fatigue after many fill cycles — these cracks propagate and the cylinder ruptures. Because steel stores significant elastic strain energy at working pressure, rupture is not a slow leak: it is a violent fragmentation event projecting lethal metal shards at high velocity in all directions. Pakistan&apos;s gas cylinder blast fatality record is essentially entirely attributable to steel cylinder fragmentation.</p>
+
+      <p>A composite cylinder has no welds. The seamless HDPE inner liner is wrapped with glass fibre filament wound under calculated tension. Under over-pressure or fire conditions, the composite structure deforms and allows gas to escape through the valve or a controlled wall-leak. The fibres do not fragment. There is no lethal shrapnel. WAA Technologies composite cylinders are tested under ISO 11119-3 fire engulfment protocols — sustained flame applied directly to the cylinder for a specified duration — and in all cases the cylinder develops a gas leak rather than a rupture. This is what &quot;non-blast&quot; means in engineering terms, and it is a certified, tested, and repeatable property.</p>
+
+      <p><strong>Verdict: Composite wins decisively. There is no comparison on safety.</strong></p>
+
+      <h2>2. Weight: Handling in Everyday Pakistani Life</h2>
+
+      <p>A filled 12 kg steel LPG cylinder weighs approximately 30–32 kg. A filled 12 kg WAA composite cylinder weighs approximately 18–20 kg. The weight difference — approximately 12 kg, or about 40% — is significant in the practical context of Pakistani household life, where cylinders are carried up stairs, moved between rooms, handled by women and older family members, and changed by whoever is home when the gas runs out.</p>
+
+      <p>In commercial settings — restaurant kitchens, hotel cooking facilities, wedding catering — the weight difference is even more operationally significant. Kitchen staff may change cylinders multiple times per day. The composite cylinder&apos;s lighter weight reduces physical strain, lowers the probability of dropping accidents that damage valves, and makes it practical for a single person to manage cylinder changes without assistance.</p>
+
+      <p><strong>Verdict: Composite wins by a wide margin — 40–50% weight reduction.</strong></p>
+
+      <h2>3. Gas Level Visibility: The Practical Daily Advantage</h2>
+
+      <p>With a steel cylinder, you cannot see how much gas remains. The standard Pakistani methods of checking — lifting and judging weight, pouring hot water on the side and feeling for the cool line, or tapping and listening for a tone change — are all imprecise and awkward. In a busy household or commercial kitchen, the result is either running out of gas unexpectedly mid-cooking, or calling the dealer for a new cylinder when the old one was actually half-full.</p>
+
+      <p>WAA composite cylinders have a translucent HDPE body. The liquid LPG level is directly visible through the cylinder wall — like looking at a water bottle. A three-second glance from across the kitchen tells you exactly how much gas remains. This single feature eliminates an entire category of daily domestic frustration and commercial kitchen service disruption.</p>
+
+      <p><strong>Verdict: Composite wins outright — steel offers no visibility at all.</strong></p>
+
+      <h2>4. Corrosion Resistance</h2>
+
+      <p>Steel corrodes. In Pakistan&apos;s operating environment — monsoon humidity, coastal salt air in Karachi, temperature extremes, outdoor storage — steel cylinders begin showing surface rust within 2–3 years of manufacture. Internal corrosion from moisture and LPG residue develops simultaneously. Corrosion weakens cylinder walls, attacks valve seats reducing seal quality, and shortens the cylinder&apos;s effective safe service life.</p>
+
+      <p>HDPE and glass fibre — the materials of composite cylinders — are chemically inert. They do not corrode, rust, or degrade from moisture exposure. A composite cylinder stored outdoors in Karachi&apos;s coastal humidity for 20 years will have the same structural integrity as on the day it was manufactured. No painting, no anti-rust treatment, no periodic inspection for surface degradation required.</p>
+
+      <p><strong>Verdict: Composite wins completely — it literally cannot corrode.</strong></p>
+
+      <h2>5. Service Life and Maintenance</h2>
+
+      <p>Steel cylinders must be hydrotested every 5 years under OGRA rules — a process that requires the cylinder to be professionally inspected and pressure-tested at an OGRA-licensed facility. Steel cylinders in commercial use realistically last 8–12 years before corrosion or mechanical damage forces retirement. In household use, many Pakistani households continue using steel cylinders for 15–20 years, well beyond their rated service life, because there is no visible indication that the cylinder is no longer structurally sound.</p>
+
+      <p>WAA composite cylinders are rated for 20+ years and 12,000 fill cycles under ISO 11119-3. They require no periodic hydrotesting. Visual inspection of the transparent body for any damage or impact marks is the only routine maintenance required. The absence of corrosion means the cylinder&apos;s safe service life is not shortened by environmental exposure.</p>
+
+      <p><strong>Verdict: Composite wins — longer life, zero maintenance.</strong></p>
+
+      <h2>6. Purchase Price vs Total Cost of Ownership</h2>
+
+      <p>A standard 12 kg steel LPG cylinder purchased from an authorised Pakistani dealer costs approximately Rs. 4,000–6,000 (2025 prices). A WAA Technologies 12 kg composite cylinder costs approximately Rs. 10,000–14,000 (2025 prices). On purchase price alone, steel is significantly cheaper.</p>
+
+      <p>However, over a 10-year ownership period:</p>
+      <ul>
+        <li>A steel cylinder requires 1–2 hydrotests (Rs. 500–800 each) and will likely need replacement once or twice (Rs. 4,000–6,000 per replacement)</li>
+        <li>A composite cylinder requires no hydrotest and no replacement — it will still be within its rated service life at year 10</li>
+        <li>The composite cylinder&apos;s gas level visibility eliminates accidental over-ordering of refills, saving an estimated 2–4 unnecessary refill deliveries per year</li>
+      </ul>
+
+      <p>Adding these costs, the 10-year total cost of ownership is comparable between steel and composite, with composite pulling ahead when operational efficiency savings are included. The composite advantage strengthens significantly in years 11–20, when the composite cylinder continues at zero additional capital cost while steel requires repeated replacement.</p>
+
+      <p><strong>Verdict: Steel wins on day-one purchase price. Composite wins on total cost over any period longer than 5 years.</strong></p>
+
+      <h2>Full Comparison Table</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-800 text-white">
+              <th className="text-left p-3 font-bold">Feature</th>
+              <th className="text-center p-3 font-bold">Steel Cylinder</th>
+              <th className="text-center p-3 font-bold">Composite Cylinder</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Blast / explosion risk', '⚠️ Yes (BLEVE possible)', '✅ Zero (non-blast certified)'],
+              ['Weight (12 kg filled)', '~30–32 kg', '~18–20 kg'],
+              ['Gas level visible?', '❌ No', '✅ Yes (translucent body)'],
+              ['Corrosion', '⚠️ Rusts over time', '✅ Cannot corrode'],
+              ['Service life', '8–12 years typical', '20+ years rated'],
+              ['Hydrotest required?', '✅ Every 5 years', '❌ Not required'],
+              ['Purchase price (12 kg)', 'Rs. 4,000–6,000', 'Rs. 10,000–14,000'],
+              ['10-yr total ownership cost', 'Rs. 12,000–20,000+', 'Rs. 10,000–14,000'],
+              ['ISO certification', 'PS 4922', 'ISO 11119-3 / EN 14427'],
+              ['UV resistant', '⚠️ Paint degrades', '✅ UV-stabilised HDPE'],
+            ].map(([feature, steel, composite]) => (
+              <tr key={feature} className="border-b border-slate-200 even:bg-slate-50">
+                <td className="p-3 font-medium text-slate-800">{feature}</td>
+                <td className="p-3 text-center text-slate-600">{steel}</td>
+                <td className="p-3 text-center text-green-700 font-medium">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is a composite LPG cylinder really safer than steel for Pakistani homes?</h3>
+      <p>Yes. Certified composite LPG cylinders are physically incapable of the blast fragmentation that makes steel cylinder explosions so deadly. ISO 11119-3 certification requires passing a fire engulfment test where the cylinder develops a controlled gas leak rather than rupturing. Every certified composite cylinder has passed this test. Steel cylinders are not required to pass an equivalent fire engulfment test for domestic certification in Pakistan.</p>
+
+      <h3>Which composite LPG cylinder brand is best in Pakistan?</h3>
+      <p>WAA Technologies Pvt Ltd, manufactured in Gujranwala and certified to both ISO 11119-3 and EN 14427-2022, is Pakistan&apos;s leading domestic composite cylinder manufacturer. WAA cylinders are available through an authorised dealer network across Punjab, Sindh, and KPK. When choosing any composite cylinder, confirm it carries an individual serial number, a visible ISO 11119-3 or EN 14427 certification marking, and is sold through an OGRA-licensed dealer.</p>
+
+      <h3>Can I switch from steel to composite without changing my regulator?</h3>
+      <p>In most cases, yes — WAA Technologies composite cylinders use standard LPG valve configurations compatible with regulators already in use in most Pakistani households. However, confirm compatibility with your WAA authorised dealer when purchasing, as regulator requirements can vary by appliance pressure specification. WAA also supplies matched regulators for guaranteed compatibility.</p>
+
+      <h3>How long does a composite LPG cylinder last compared to steel?</h3>
+      <p>WAA Technologies composite cylinders are rated for 20+ years of service life and approximately 12,000 pressure fill-and-empty cycles under ISO 11119-3 testing. Standard steel cylinders in Pakistani conditions typically last 8–12 years before corrosion and mechanical wear require replacement, with a mandatory hydrotest every 5 years during that period. Composite cylinders do not require periodic hydrotesting.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Why LPG Cylinders Explode ── */
+  'why-lpg-cylinders-explode-pakistan-how-to-prevent': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'The technical name for a gas cylinder explosion is BLEVE — Boiling Liquid Expanding Vapour Explosion',
+            'Steel cylinder BLEVEs are caused by five root factors: corrosion, overfilling, heat exposure, faulty valves, and mechanical damage',
+            'Composite cylinders cannot BLEVE — their construction dissipates pressure through controlled leakage rather than rupture',
+            'The vapour from a leaking cylinder ignites at just 1.8–8.5% concentration in air — a much lower threshold than most people realise',
+            'A gas smell that persists after closing the cylinder valve means the leak is from the regulator, hose, or stove — not the cylinder body',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every Pakistani family that uses an LPG cylinder has likely heard the news reports: a cylinder exploded in a kitchen in Lahore, a blast destroyed a restaurant in Karachi, a family lost their home in Faisalabad after a cylinder blast during Sehri preparation. The incidents are distressingly common and the injuries catastrophic. Yet most Pakistanis have only a vague understanding of why cylinders explode — and without understanding the mechanism, it is impossible to make the specific decisions that prevent it. This article explains the physics of LPG cylinder explosions in plain language and shows, step by step, why composite cylinders eliminate the risk permanently.</p>
+
+      <h2>What Is a BLEVE?</h2>
+
+      <p>The technical term for an LPG cylinder explosion is a <strong>BLEVE</strong>: Boiling Liquid Expanding Vapour Explosion. Understanding the name explains the mechanism. LPG inside a cylinder exists in two phases: liquid at the bottom (under pressure) and vapour above it. The liquid is at a temperature above its atmospheric boiling point — it is only kept liquid by the pressure inside the cylinder. When that pressure is suddenly released — by a cylinder rupture — the liquid instantaneously flashes to vapour, expanding to approximately 250 times its liquid volume in microseconds. This explosive expansion is the BLEVE. The energy released shatters the cylinder container and propels fragments outward at high velocity while simultaneously releasing a large cloud of flammable vapour.</p>
+
+      <p>For a BLEVE to occur, two conditions must be present: sufficient energy must be stored in the liquid (which is always the case in a pressurised LPG cylinder at ambient Pakistani temperatures), and the containment must fail suddenly rather than slowly. This is why the integrity of the cylinder body and valve is so critical, and why any factor that weakens them moves the cylinder toward the conditions for a BLEVE.</p>
+
+      <h2>The Five Root Causes of LPG Cylinder Explosions in Pakistan</h2>
+
+      <h3>Cause 1: Corrosion-Weakened Cylinder Walls</h3>
+      <p>Pakistan&apos;s climate — high summer temperatures, monsoon humidity, coastal salt air in Karachi — aggressively corrodes steel. A steel cylinder develops external rust that pits and thins the cylinder wall over time. Internal corrosion from moisture contamination in refilled LPG and from acidic residues attacks the cylinder from inside. A cylinder wall that has been thinned by corrosion to below its design thickness no longer has the pressure rating printed on it. Under normal operating conditions or moderate heat exposure, a corroded cylinder can fail at pressures that a sound cylinder would handle safely.</p>
+
+      <h3>Cause 2: Overfilling</h3>
+      <p>LPG cylinders are designed to operate with a maximum fill of 80% of their water capacity — leaving 20% vapour space. This vapour space is essential: it accommodates the expansion of the liquid LPG as temperature rises. At 45°C (common in Pakistani summer conditions), LPG occupies approximately 12–15% more volume than at 20°C. Without vapour space, rising temperature increases cylinder pressure dramatically until the pressure relief valve opens — or, if the relief valve is stuck or absent, until the cylinder fails. Overfilling beyond 80% is done by some Pakistani dealers trying to deliver more LPG than a cylinder&apos;s licensed capacity, or by simple carelessness in manual filling operations.</p>
+
+      <h3>Cause 3: Heat Exposure</h3>
+      <p>Storing an LPG cylinder near a stove, in direct sunlight, or adjacent to any other heat source creates a positive feedback loop: heat raises the LPG temperature, which raises the vapour pressure, which increases the force trying to burst the cylinder. A sound cylinder with a functioning pressure relief valve can handle moderate heat exposure — the relief valve opens to vent excess pressure. But if the relief valve is corroded shut (common in old cylinders), or if heat input is very rapid (as in a kitchen fire), the pressure can exceed the relief valve&apos;s capacity and the cylinder fails.</p>
+
+      <h3>Cause 4: Faulty or Counterfeit Valves</h3>
+      <p>The cylinder valve has two critical safety functions: it closes to contain the LPG when the cylinder is not in use, and it contains a spring-loaded pressure relief device that opens to vent excess pressure before the cylinder reaches its failure pressure. A valve that cannot fully close (due to corrosion, grit, or wear) allows continuous slow leakage. A valve whose pressure relief is stuck closed (the most dangerous failure mode) means there is no safety pressure release — the cylinder builds to its structural failure point silently. Counterfeit valves manufactured without any quality control are particularly dangerous in this regard.</p>
+
+      <h3>Cause 5: Mechanical Damage</h3>
+      <p>Dropping a cylinder, striking it against a hard surface, or driving a vehicle over it can dent, crack, or deform both the cylinder body and the valve. A dented cylinder body has a stress concentration at the dent that can propagate under normal operating pressure cycling. A valve that has been struck can be bent so that it does not fully close, or its internal mechanism can be damaged such that the pressure relief no longer functions correctly. Pakistani LPG distribution chains involve rough handling — cylinders bouncing in trucks, being dropped from truck beds, stacked and knocked over at dealer premises. The accumulated mechanical damage on an older steel cylinder in circulation for 10+ years can be substantial.</p>
+
+      <h2>Why Composite Cylinders Cannot BLEVE</h2>
+
+      <p>The physics of the BLEVE requires a sudden, catastrophic failure of containment. This is only possible when the containment material can store and suddenly release elastic strain energy — which is a property of metals under tension. Steel at working pressure is storing significant elastic energy. When it fails, it releases that energy instantaneously, shattering the cylinder.</p>
+
+      <p>The glass fibre reinforcement in a composite cylinder works differently. Fibre reinforced composite materials fail in a progressive, energy-dissipating mode — not in the brittle fracture mode of overstressed metal. When a composite cylinder is over-pressurised, the fibres progressively delaminate and the liner develops a crack that grows slowly, releasing pressure as a controlled leak rather than a sudden rupture. The HDPE liner material has no elastic strain energy to release suddenly. The result is a gas leak that may ignite and burn — but not the shattering fragmentation event of a steel BLEVE.</p>
+
+      <p>This behaviour is not accidental — it is the specific engineering design intent of composite pressure vessels for LPG storage, and it is tested and certified under ISO 11119-3&apos;s fire engulfment and burst testing protocols. Every WAA Technologies composite cylinder sold in Pakistan has passed these tests and carries individual certification documentation proving non-blast behaviour.</p>
+
+      <h2>How to Prevent LPG Cylinder Explosions in Your Home</h2>
+
+      <ul>
+        <li><strong>Store cylinders upright</strong>, away from stoves, heaters, and direct sunlight — always in ventilated spaces</li>
+        <li><strong>Never use a cylinder with visible rust</strong>, dents near the valve, or a valve that does not fully close</li>
+        <li><strong>Check the manufacture date</strong> — retire any steel cylinder over 10 years old regardless of appearance</li>
+        <li><strong>Perform the soap-and-water test</strong> after every connection to confirm no leakage</li>
+        <li><strong>Close the cylinder valve after every use</strong> — not just the stove knobs</li>
+        <li><strong>Switch to a certified composite cylinder</strong> — the only permanent, engineering-based solution to BLEVE risk</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can a full LPG cylinder explode without fire?</h3>
+      <p>Yes, but it is uncommon. A severely overfilled cylinder in high ambient temperatures can exceed its structural limit without external fire — this is pure pressure-failure rather than BLEVE. Far more commonly, a heat source is involved. The heat raises vapour pressure, the relief valve fails to open (or cannot vent fast enough), and the cylinder ruptures. Even without initial fire, the vapour cloud from a ruptured cylinder will almost certainly find an ignition source in a kitchen environment.</p>
+
+      <h3>Why does LPG smell like rotten eggs?</h3>
+      <p>Pure LPG (propane and butane mixture) is odourless. The rotten-egg or strong sulphur smell is added artificially by introducing ethyl mercaptan — a harmless chemical — specifically so that leaks can be detected by smell. Pakistan&apos;s LPG regulations require this odorant to be present at concentrations detectable well below the lower explosive limit of the gas. If you smell this odour, treat it as a definitive gas leak signal regardless of how faint it is.</p>
+
+      <h3>At what gas concentration does LPG ignite?</h3>
+      <p>LPG ignites in air at concentrations between 1.8% and 8.5% by volume — the Lower Explosive Limit (LEL) and Upper Explosive Limit (UEL). Below 1.8%, the mixture is too lean to ignite. Above 8.5%, it is too rich. The dangerous zone is the full range between these two values. In a closed Pakistani kitchen with a leaking cylinder, this concentration can be reached from a small leak within minutes. This is why immediate ventilation and valve closure — without operating any electrical switches — is the correct emergency response.</p>
+
+      <h3>Is it safe to keep an LPG cylinder indoors in Pakistan?</h3>
+      <p>A certified, sound cylinder with a proper connection and a closed valve is safe for indoor storage in a ventilated kitchen. LPG itself is not toxic — it is an asphyxiant in very high concentrations (displaces oxygen) but not a poison. The risk is ignition of leaked gas, not direct toxicity. Best practice is: keep the cylinder in a ventilated area, close the valve after every use, never store below ground level (LPG is heavier than air and will pool in basements or low spaces), and install a floor-level gas leak detector.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: PSI Certified Gas Cylinder Pakistan ── */
+  'psi-certified-gas-cylinder-pakistan': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            '"PSI certified" in the Pakistani LPG context typically refers to compliance with Pakistan Standard PS 4922 — the primary national safety standard for steel LPG cylinders',
+            'ISO 11119-3 and EN 14427-2022 are the international standards that govern composite LPG cylinders — these are accepted by OGRA as equivalent to or exceeding PS 4922',
+            'A genuine certification marking includes a certificate number, accredited laboratory name, and standard reference — not just a logo or sticker',
+            'Counterfeit certification markings are a known problem in Pakistan\'s LPG market — always buy from OGRA-licensed dealers to reduce the risk',
+            'WAA Technologies composite cylinders are individually certified to both ISO 11119-3 and EN 14427-2022 with traceable certificate numbers',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistani LPG cylinder shoppers and safety-conscious households frequently search for a &quot;PSI certified gas cylinder in Pakistan.&quot; The search reflects genuine concern about cylinder safety — but also significant confusion about what certification actually means in the Pakistani context, which authority certifies what, and how to verify that a cylinder&apos;s certification claim is genuine rather than a sticker applied for marketing purposes. This guide clarifies the complete certification landscape for LPG cylinders in Pakistan.</p>
+
+      <h2>What Does &quot;PSI Certified&quot; Mean for LPG Cylinders in Pakistan?</h2>
+
+      <p>The term &quot;PSI certified&quot; is used colloquially in Pakistan to mean certification to a Pakistan Standard — a standard set by the Pakistan Standards and Quality Control Authority (PSQCA) and designated with the prefix &quot;PS&quot; followed by a number. For LPG cylinders specifically, the relevant Pakistan Standard is <strong>PS 4922</strong> — the specification for seamless steel LPG cylinders for household use. A cylinder described as &quot;PSI certified&quot; or &quot;PS certified&quot; in the Pakistani market should carry an official PSQCA certification mark and reference to PS 4922 on its body.</p>
+
+      <p>However — and this is critical — <strong>PS 4922 only covers conventional steel cylinders</strong>. It does not cover composite (fibre) cylinders. For composite cylinders, PSQCA and OGRA currently accept international standards, primarily ISO 11119-3 and EN 14427-2022, as the applicable certification framework. This means that a composite cylinder described as &quot;PSI certified&quot; may not technically be certified to any PS standard — but if it carries ISO 11119-3 or EN 14427 certification from an accredited testing laboratory, it meets or exceeds the safety requirements that the PS system is intended to enforce.</p>
+
+      <h2>Pakistan Standard PS 4922 — What It Covers</h2>
+
+      <p>PS 4922 sets the minimum requirements for steel LPG cylinders manufactured for use in Pakistan. It covers: material specification (the minimum steel grade and thickness required for cylinder construction), welding requirements (the quality and testing requirements for cylinder seam welds), heat treatment after welding, dimensional tolerances, pressure testing requirements (burst test at 3× working pressure; hydrostatic test at 1.5× working pressure), valve fitting specifications, and mandatory markings. Cylinders that meet all PS 4922 requirements are eligible for PSQCA certification and can display the PS mark on their body.</p>
+
+      <p>PS 4922 does not cover: composite cylinders; performance in fire engulfment scenarios; long-term fatigue testing; UV resistance; or the specific valve and safety relief specifications now required under international composite cylinder standards. This is why PS 4922 compliance alone is not a sufficient safety benchmark for composite cylinders.</p>
+
+      <h2>ISO 11119-3 — The International Standard for Composite Cylinders</h2>
+
+      <p>ISO 11119-3 is the International Organization for Standardization standard specifically for refillable composite gas cylinders with load-bearing fibre-reinforced plastic construction and non-load-bearing metallic liners. This is the primary international standard under which WAA Technologies composite cylinders are certified. ISO 11119-3 certification requires:</p>
+
+      <ul>
+        <li><strong>Burst testing</strong> — cylinder is pressurised to destruction; must withstand at least 2× its working pressure before failing, and failure mode must not be fragmentation (the cylinder must leak before it bursts)</li>
+        <li><strong>Cycle testing</strong> — cylinder undergoes 12,000 pressure fill-and-empty cycles at working pressure to simulate full service life without failure</li>
+        <li><strong>Fire engulfment testing</strong> — cylinder is exposed to sustained fire for a specified duration; must not fragment (controlled gas release is acceptable)</li>
+        <li><strong>Drop testing</strong> — cylinder is dropped from 1.8 metres in multiple orientations; must retain structural integrity and pass subsequent pressure testing</li>
+        <li><strong>UV degradation testing</strong> — cylinder is exposed to accelerated UV radiation equivalent to years of outdoor exposure; must retain rated structural properties</li>
+        <li><strong>Environmental conditioning</strong> — cylinder is subjected to simulated long-term outdoor exposure (temperature cycling, humidity) and must pass pressure testing after conditioning</li>
+      </ul>
+
+      <p>Only cylinders that pass all ISO 11119-3 tests at an accredited testing laboratory receive certification. Each certified cylinder carries an individual serial number traceable to the testing record.</p>
+
+      <h2>EN 14427:2022 — The European Standard</h2>
+
+      <p>EN 14427:2022 (European Norm) is the European equivalent standard for transportable refillable composite cylinders for liquefied petroleum gas. It is in many respects equivalent to ISO 11119-3 but includes additional requirements specifically for LPG composite cylinders regarding valve compatibility, filling and dispensing procedures, and transport safety. WAA Technologies composite cylinders certified to EN 14427:2022 meet the most rigorous composite cylinder safety framework currently in use anywhere in the world. This certification is accepted by OGRA as satisfying commercial LPG cylinder safety requirements in Pakistan.</p>
+
+      <h2>How to Verify a Cylinder&apos;s Certification Is Genuine</h2>
+
+      <p>Counterfeit certification markings are a documented problem in Pakistan&apos;s LPG equipment market. Stickers, embossed logos, and even stamped markings can be applied to non-certified cylinders to simulate compliance. A genuine certification can be verified by checking:</p>
+
+      <ol>
+        <li><strong>The certificate number</strong> — a genuine ISO or EN certification assigns a unique certificate number to the manufacturer and model. This number should be verifiable with the certifying laboratory.</li>
+        <li><strong>The certifying body name</strong> — a legitimate certification will name the accredited testing laboratory (e.g., a TÜV-certified lab, an SGS facility, or another ISO 17025-accredited body). A marking that just says &quot;ISO 11119-3&quot; without a certifying body name is unverifiable.</li>
+        <li><strong>The manufacturer name and cylinder serial number</strong> — each cylinder should have an individual serial number traceable to the manufacturer&apos;s production and certification records.</li>
+        <li><strong>Buy from an OGRA-licensed dealer</strong> — OGRA-licensed dealers are responsible for the compliance of products they sell. Purchasing from an authorised WAA Technologies dealer guarantees you receive a cylinder with genuine, traceable certification.</li>
+      </ol>
+
+      <h2>WAA Technologies Certification</h2>
+
+      <p>WAA Technologies Pvt Ltd manufactures composite LPG cylinders in Gujranwala, Punjab, certified to both <strong>ISO 11119-3</strong> and <strong>EN 14427:2022</strong> at an internationally accredited testing facility. Each WAA cylinder carries its individual serial number, manufacture date, and certification reference permanently marked on the cylinder body. Certification documentation for the WAA cylinder range is available on request and is presented routinely during OGRA compliance inspections. Contact WAA Technologies at (+92) 4237815533 or visit waatechnologies.com for full certification documentation details.</p>
+
+      <h2>Frequently Asked Questions About LPG Cylinder Certification in Pakistan</h2>
+
+      <h3>What is the difference between PS 4922 and ISO 11119-3 for LPG cylinders?</h3>
+      <p>PS 4922 is Pakistan&apos;s national standard for steel LPG cylinders, covering construction, welding, and pressure testing. ISO 11119-3 is the international standard for composite (fibre) LPG cylinders, covering burst testing, fire engulfment, cycle testing, UV resistance, and drop testing. ISO 11119-3 is a more comprehensive safety standard than PS 4922, and OGRA accepts it as the compliance framework for composite cylinders in Pakistan.</p>
+
+      <h3>How do I know if an LPG cylinder is genuinely certified in Pakistan?</h3>
+      <p>Check the cylinder body for: a permanent marking (not a sticker) referencing the applicable standard (PS 4922 for steel, ISO 11119-3 or EN 14427 for composite); the name of the certifying body; the cylinder serial number; and manufacture date. Buy from an OGRA-licensed dealer who can provide documentation if asked. If any of these elements are missing, treat the certification claim with caution.</p>
+
+      <h3>Is ISO 11119-3 or EN 14427 accepted by OGRA Pakistan?</h3>
+      <p>Yes. OGRA currently accepts ISO 11119-3 and EN 14427 as the applicable international standards for composite LPG cylinders, in the absence of a specific Pakistani standard for composite cylinder construction. Composite cylinders certified to these international standards by accredited testing laboratories are legally marketable in Pakistan through OGRA-licensed distribution channels.</p>
+
+      <h3>What should I do if I bought an LPG cylinder with no certification markings?</h3>
+      <p>Stop using it. An LPG cylinder without identifiable certification markings cannot be verified for safety compliance. Contact your LPG dealer to report the cylinder and arrange a replacement from a certified manufacturer. For commercial premises, using uncertified LPG equipment creates legal liability under OGRA regulations and the Petroleum Act. If you purchased the cylinder from a dealer claiming it is certified, ask for written documentation — if they cannot provide it, report the dealer to OGRA.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: 5 Warning Signs Your Gas Cylinder is Dangerous ── */
+  'gas-cylinder-warning-signs-pakistan': (
+    <>
+      <div className="not-prose bg-amber-50 border-l-4 border-amber-600 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-amber-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-amber-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          5 Warning Signs at a Glance
+        </p>
+        <ul className="space-y-2">
+          {[
+            '1. A gas smell anywhere in the kitchen, however faint',
+            '2. Visible rust, dents, or damage on the cylinder body',
+            '3. A cylinder valve that does not turn fully closed',
+            '4. Irregular stove flame — too high, too low, or flickering unpredictably',
+            '5. A hissing sound from the cylinder, regulator, or hose connection',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-amber-700 font-black mt-0.5 shrink-0">⚠</span>
+              <span className="font-medium">{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistani households live with LPG cylinders as a completely normal part of domestic life. The cylinder in the kitchen corner is as familiar as the refrigerator or the washing machine — and, like familiar objects, it is easy to stop noticing it. This familiarity is one of the reasons gas cylinder accidents are so common in Pakistan: the warning signs that a cylinder or connection is becoming dangerous are present for days or weeks before an incident, and they are simply not recognised as danger signals by families who have lived with LPG all their lives without a problem.</p>
+
+      <p>These are the five warning signs that demand immediate action. Each sign is described with what specifically to look for, what the underlying problem is likely to be, and the exact steps to take — including what not to do, which is often more important than what to do.</p>
+
+      <h2>Warning Sign 1: Any Gas Smell in the Kitchen</h2>
+
+      <p>The most important warning sign is also the most commonly dismissed. LPG is odourised with ethyl mercaptan — the rotten egg or pungent sulphur-like smell added specifically so that leaks can be detected before the gas reaches its explosive concentration. The odorant is calibrated to be detectable at concentrations well below the Lower Explosive Limit of 1.8% in air. This means: if you can smell gas, the concentration in your kitchen is approaching a level that can ignite.</p>
+
+      <p>Pakistani households frequently explain away a faint gas smell: &quot;it&apos;s just when we first turn on the stove,&quot; &quot;it always smells a little bit here,&quot; &quot;the neighbours&apos; kitchen sometimes smells.&quot; These explanations are always wrong. A functioning LPG system with a gas-tight connection and properly operating appliances has zero gas smell. Any gas smell, at any time, in any concentration, means gas is escaping somewhere it should not be.</p>
+
+      <p><strong>What to do:</strong> Close the cylinder valve immediately. Open every window and door in the kitchen and adjacent rooms. Do not operate any electrical switches (on or off) — even a light switch creates a spark that can ignite gas at the right concentration. Evacuate the kitchen. Allow the space to ventilate for at least 15 minutes. Then perform the soap-and-water bubble test on every connection point before using the gas again. If you cannot identify and resolve the source of the smell, call your LPG dealer or a qualified gas technician.</p>
+
+      <p><strong>What not to do:</strong> Do not attempt to find the leak with a lighter or match. Do not use the stove while the smell is present. Do not leave the kitchen assuming the smell will &quot;go away on its own.&quot;</p>
+
+      <h2>Warning Sign 2: Visible Rust, Dents, or Physical Damage on the Cylinder</h2>
+
+      <p>A conventional steel LPG cylinder is a pressure vessel. Its safe operating pressure depends on the structural integrity of the cylinder walls. Corrosion thins those walls. Dents create stress concentrations where cracks initiate. Deep impact damage can deform the cylinder body in ways that alter its pressure-bearing geometry. Any of these physical changes reduces the cylinder&apos;s safety margin — sometimes below the level needed to contain the pressure of a full cylinder on a hot Pakistani summer day.</p>
+
+      <p>Specifically, look for: orange or red surface rust on any part of the cylinder body (including underneath, where cylinders rest on the floor and where condensation accumulates); rust or white mineral deposits around the base of the valve (indicating moisture ingress); dents deeper than approximately 5 mm or wider than 50 mm anywhere on the cylinder body; and any dents or deformation near or on the valve collar (the metal ring around the valve at the top of the cylinder).</p>
+
+      <p><strong>What to do:</strong> A cylinder with heavy rust, visible dents near the valve, or any impact damage to the valve itself should be taken out of service immediately. Contact your LPG dealer for a safe exchange or disposal. Do not attempt to continue using a damaged cylinder &quot;until it runs out.&quot;</p>
+
+      <p><strong>Note for composite cylinder owners:</strong> This warning sign does not apply in the same way to WAA Technologies composite cylinders — the HDPE and glass fibre body cannot rust. Minor surface scratches on a composite cylinder are cosmetic and do not affect structural integrity. Significant impact damage (cracks in the HDPE body, visible delamination of the fibre layer) is a warning sign, but it is far rarer and more visually obvious than the subtle internal corrosion that makes old steel cylinders unpredictable.</p>
+
+      <h2>Warning Sign 3: A Cylinder Valve That Will Not Fully Close</h2>
+
+      <p>The cylinder valve is the primary safety barrier between the pressurised gas inside the cylinder and the outside environment. When you close the cylinder valve by turning it clockwise, gas flow should stop completely — verifiable by the fact that even after you turn off the stove burners, the regulator pressure gauge (if you have one) shows no pressure drop, and there is zero gas smell. A valve that will not turn to a firm stop, that feels loose or gritty when turned, or that, when &quot;closed,&quot; still allows gas to flow to the stove (you can still light the stove after closing the valve, as the residual gas in the hose allows a brief flame) may not be fully sealing.</p>
+
+      <p>Valve closure failures in Pakistan are most commonly caused by corrosion of the valve stem and seat (preventing the valve plug from seating fully against the valve body), mechanical wear from repeated operation, grit or debris on the valve seat, and physical damage from impact. A valve that cannot fully close is a continuous gas leak — it leaks slowly at all times, even when the cylinder is &quot;closed,&quot; and will accumulate gas in any enclosed kitchen over time.</p>
+
+      <p><strong>What to do:</strong> If the cylinder valve does not reach a firm stop with reasonable hand pressure, or if the valve feels abnormal in any way, have the cylinder inspected by your LPG dealer. Do not store a cylinder with a defective valve in an enclosed space. A cylinder with a valve that cannot be fully closed should be removed from use and reported to your dealer for safe disposal.</p>
+
+      <h2>Warning Sign 4: Irregular Stove Flame Behaviour</h2>
+
+      <p>Your stove flame is a visible indicator of gas pressure delivery from the cylinder through the regulator. A properly functioning LPG setup produces a steady, consistent blue flame at each burner that responds predictably to the stove knob. Irregular flame behaviour can indicate multiple problems in the gas delivery chain, some of which have safety implications.</p>
+
+      <p>Look for: a flame that is unusually large and orange/yellow rather than blue (over-pressure from a faulty regulator); a flame that fluctuates in size independently of the stove knob (inconsistent pressure delivery — possible regulator diaphragm failure); a flame that cannot be turned down to a low simmer despite turning the knob to its lowest position (regulator pressure not reducing); or a flame that suddenly extinguishes at low settings but works normally at high settings (regulator cut-off mechanism malfunction). Any of these indicates a regulator problem rather than a cylinder problem — but a faulty regulator is a safety concern because it can deliver gas at the wrong pressure and because a failed regulator diaphragm can allow gas to escape from the regulator body.</p>
+
+      <p><strong>What to do:</strong> A regulator showing these symptoms should be replaced — not adjusted or repaired. Regulators cost Rs. 800–2,000 from authorised LPG dealers. This is not an expensive fix for a device that controls the pressure of flammable gas in your kitchen.</p>
+
+      <h2>Warning Sign 5: Hissing Sound from the Cylinder, Regulator, or Hose</h2>
+
+      <p>A hissing sound in the vicinity of your LPG setup is a gas leak in progress. The sound is produced by pressurised gas escaping through a small aperture — a cracked hose, a loose regulator connection, a damaged valve, or a corroded fitting. The hissing may be faint and intermittent, particularly from a small leak that is temperature-sensitive (expanding when the kitchen is warm, contracting and slowing when cool). Any hissing sound from any component of your LPG setup is an immediate evacuation trigger — not something to investigate more closely by putting your ear nearer to the sound.</p>
+
+      <p><strong>What to do:</strong> Close the cylinder valve immediately and fully. Do not touch any electrical switches. Open windows and doors. Evacuate everyone from the kitchen. Call your LPG dealer from outside the building. Do not re-enter until the leak has been professionally identified and repaired.</p>
+
+      <h2>The Warning Sign Pakistani Households Miss Most: Slow Hose Degradation</h2>
+
+      <p>Beyond the five main warning signs, there is one additional sign that Pakistani households almost universally miss: hose degradation. The rubber or reinforced PVC hose connecting the regulator to the stove hardens, cracks, and becomes brittle over time — typically within 2 years in Pakistan&apos;s temperature extremes and UV environment. A hose that appears undamaged on the outside may have micro-cracks on the inside that leak under pressure. The OGRA-recommended hose replacement interval is every 2 years regardless of visible condition. If your hose has been in use for more than 2 years, replace it now — it costs Rs. 300–600 and is the cheapest safety upgrade available for your LPG setup.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I test if my LPG cylinder is leaking?</h3>
+      <p>The soap-and-water bubble test is the reliable household method. Mix washing-up liquid with water to create a thick foam. With the cylinder valve open and the stove burners closed, apply the foam generously to: the regulator-to-valve connection; both hose fittings; the stove inlet. Watch for growing or rhythmically popping bubbles — these indicate gas escaping at that point. No bubbles means no detectable leak. This test should be performed after every cylinder connection and periodically during normal use.</p>
+
+      <h3>Is it safe to smell gas briefly when I first light the stove?</h3>
+      <p>A very brief, faint smell of gas at the moment of lighting — lasting less than 1 second — can occur when residual unburned gas in the burner ignites. This is within normal limits. Any gas smell that persists after the burner is lit, that is detectable when the stove is off, or that you notice anywhere other than immediately at the burner when lighting, is not normal and should be investigated immediately using the procedure described under Warning Sign 1.</p>
+
+      <h3>How old is too old for a steel LPG cylinder in Pakistan?</h3>
+      <p>OGRA specifies that steel LPG cylinders must be hydrotested every 5 years. As a practical safety guideline for Pakistani households, a steel cylinder that is more than 10 years old should be retired regardless of its hydrotest status — the cumulative corrosion, mechanical handling, and fatigue cycling in Pakistani operating conditions make cylinders increasingly unsafe as they age. The manufacture date is stamped on the cylinder body — if you cannot read it, that itself is a warning sign.</p>
+
+      <h3>What is the safest LPG cylinder for Pakistani households concerned about these warning signs?</h3>
+      <p>A WAA Technologies ISO 11119-3 certified composite cylinder eliminates the two most common warning signs entirely: rust and physical degradation (impossible on a composite cylinder), and explosion risk (composite cylinders cannot BLEVE regardless of condition). The remaining warning signs — gas smell, valve closure, flame behaviour, hissing — apply to any LPG setup and should be monitored regardless of cylinder type. The composite cylinder eliminates the catastrophic outcome if a gas leak does occur — the result is a fire, not an explosion.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Composite LPG Cylinder Price Pakistan 2025 ── */
+  'composite-lpg-cylinder-price-pakistan-2025': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          2025 Price Summary
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            '5 kg composite cylinder: Rs. 7,000–9,000 (empty cylinder only — LPG fill purchased separately)',
+            '10 kg composite cylinder: Rs. 9,000–12,000 (most popular size for Pakistani households)',
+            '12 kg composite cylinder: Rs. 10,000–14,000 (larger households and light commercial use)',
+            'LPG refill price is the same for composite as for steel — the cylinder type does not affect refill cost',
+            'Total cost of ownership over 10 years is comparable to or lower than steel when hydrotest and replacement costs are factored in',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>The most common first question Pakistani households ask about composite LPG cylinders is: how much does it cost? It is a fair question and a practical one — household budgets in Pakistan are real, and a cylinder purchase competes with dozens of other needs. This complete 2025 price guide covers the purchase price for each WAA Technologies cylinder size, the LPG refill pricing that applies regardless of cylinder type, a full 10-year cost comparison between composite and steel, what is included in the purchase price, and where to buy composite cylinders across Pakistan&apos;s major cities.</p>
+
+      <h2>Composite LPG Cylinder Prices in Pakistan — 2025</h2>
+
+      <p>All prices below are indicative 2025 prices at authorised WAA Technologies dealers. Actual prices vary by city, dealer, and any current promotions. LPG fill is purchased separately from the cylinder itself — the prices below are for the empty cylinder only.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-800 text-white">
+              <th className="text-left p-3 font-bold">Size</th>
+              <th className="text-center p-3 font-bold">Cylinder Price (Empty)</th>
+              <th className="text-center p-3 font-bold">LPG Fill Cost (approx.)</th>
+              <th className="text-center p-3 font-bold">Total First-Time Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['5 kg', 'Rs. 7,000–9,000', 'Rs. 1,500–2,000', 'Rs. 8,500–11,000'],
+              ['10 kg', 'Rs. 9,000–12,000', 'Rs. 3,000–4,000', 'Rs. 12,000–16,000'],
+              ['12 kg', 'Rs. 10,000–14,000', 'Rs. 3,600–4,800', 'Rs. 13,600–18,800'],
+            ].map(([size, price, fill, total]) => (
+              <tr key={size} className="border-b border-slate-200 even:bg-slate-50">
+                <td className="p-3 font-bold text-slate-800">{size}</td>
+                <td className="p-3 text-center text-slate-700">{price}</td>
+                <td className="p-3 text-center text-slate-700">{fill}</td>
+                <td className="p-3 text-center text-green-700 font-bold">{total}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How Does This Compare to Steel Cylinder Prices?</h2>
+
+      <p>A standard steel LPG cylinder of equivalent size costs approximately Rs. 3,500–6,000 at authorised Pakistani dealers in 2025. Composite cylinders are therefore approximately 2–2.5 times more expensive on purchase price. This price premium reflects the higher manufacturing cost of the composite construction — the HDPE liner, glass fibre winding, and precision valve assembly — and the certification testing cost that ISO 11119-3 and EN 14427-2022 compliance requires.</p>
+
+      <p>For a household making a one-time purchase decision on a monthly budget, this price difference is real and consequential. For a household doing a full lifecycle analysis of what the cylinder will actually cost over the 10–15 years they will own it, the picture changes significantly.</p>
+
+      <h2>10-Year Total Cost of Ownership: Composite vs Steel</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-800 text-white">
+              <th className="text-left p-3 font-bold">Cost Element</th>
+              <th className="text-center p-3 font-bold">Steel Cylinder (10 kg)</th>
+              <th className="text-center p-3 font-bold">Composite Cylinder (10 kg)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Initial purchase', 'Rs. 4,500', 'Rs. 10,500'],
+              ['Year 5 hydrotest', 'Rs. 700', 'Rs. 0 (not required)'],
+              ['Cylinder replacement (Yr 8–10)', 'Rs. 4,500–5,000', 'Rs. 0 (still in service)'],
+              ['Replacement hydrotest (Yr 5 of new cylinder)', 'Rs. 700', 'Rs. 0'],
+              ['LPG refills (same for both)', 'Same', 'Same'],
+              ['Total 10-year hardware cost', 'Rs. 10,400–10,900', 'Rs. 10,500'],
+            ].map(([element, steel, composite]) => (
+              <tr key={element} className="border-b border-slate-200 even:bg-slate-50">
+                <td className="p-3 font-medium text-slate-800">{element}</td>
+                <td className="p-3 text-center text-slate-700">{steel}</td>
+                <td className="p-3 text-center text-green-700 font-medium">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>The 10-year total cost is essentially equal between steel and composite for a typical household — and this comparison does not include the additional value of composite&apos;s operational advantages (level visibility, lighter weight) or the safety value of non-blast construction, which is not a quantifiable cost saving until a blast event occurs — at which point it becomes the most important difference imaginable.</p>
+
+      <h2>Which Size Is Right for Your Household?</h2>
+
+      <p><strong>5 kg composite cylinder</strong> — ideal for: single-person households or couples; apartments where storage space is limited; households that already have piped gas but want an LPG backup for outages; travel, camping, or use at a second property.</p>
+
+      <p><strong>10 kg composite cylinder</strong> — the most popular size in Pakistan, suitable for: a family of 4–6 people cooking three meals daily; typical Pakistani household usage lasting 3–5 weeks between refills; balanced between purchase price and fill frequency.</p>
+
+      <p><strong>12 kg composite cylinder</strong> — suitable for: larger families of 7+ people; households that also use LPG for water heating; homes in areas with frequent gas pipeline outages where LPG is the primary fuel source; light commercial users such as small restaurants or catering operations.</p>
+
+      <h2>What Is Included When You Buy a WAA Technologies Composite Cylinder?</h2>
+
+      <p>A WAA Technologies composite cylinder purchase from an authorised dealer includes: the cylinder with valve fitted; certification documentation; a safety usage guide; and optionally a matched regulator (strongly recommended, purchased separately if not included in the dealer&apos;s package). The cylinder is sold empty — LPG fill is purchased at the first refill from an OGRA-licensed filling station or delivered by your dealer.</p>
+
+      <h2>Where to Buy a Composite LPG Cylinder in Pakistan</h2>
+
+      <p>WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer in your city. You can also contact WAA Technologies directly at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.</p>
+
+      <h2>Frequently Asked Questions About Composite Cylinder Pricing</h2>
+
+      <h3>Is the LPG refill price different for a composite cylinder than a steel cylinder?</h3>
+      <p>No. LPG refill price is determined by the weight of gas purchased (per kg rate set by OGRA) and is the same regardless of whether you have a steel or composite cylinder. The cylinder type does not affect refill cost at any OGRA-licensed filling station in Pakistan.</p>
+
+      <h3>Can I buy just the cylinder and fill it later, or do I have to buy filled?</h3>
+      <p>You can buy an empty composite cylinder and fill it at any OGRA-licensed filling station. Most WAA authorised dealers will also offer the option to purchase filled, where the refill cost is included in the purchase transaction. An empty cylinder is lighter and easier to transport to the filling station. Many dealers offer free first-fill promotions — confirm with your dealer when purchasing.</p>
+
+      <h3>Is there a price difference between the different colours of WAA composite cylinders?</h3>
+      <p>No. WAA Technologies composite cylinders are available in three colours — Cerulean Blue, Tiger Orange, and Traditional Blue — at the same price point. Colour is purely aesthetic and does not affect cylinder specification, capacity, or certification.</p>
+
+      <h3>Can I get a discount on multiple cylinders or on bulk commercial orders?</h3>
+      <p>Yes. WAA Technologies and authorised dealers offer commercial pricing for bulk orders — restaurants, hotels, catering businesses, and other commercial operators purchasing multiple cylinders. Contact WAA Technologies directly at (+92) 4237815533 or through the authorised dealer in your city to discuss commercial pricing.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: PARCO vs WAA Technologies ── */
+  'parco-vs-waa-technologies-cylinder-pakistan': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'PARCO (Pak-Arab Refinery) is an LPG producer and distributor — it sells steel cylinders through its retail network',
+            'WAA Technologies is a composite cylinder manufacturer — its cylinders are non-blast, translucent, and 20+ year rated',
+            'These are fundamentally different product categories: PARCO sells a conventional steel pressure vessel; WAA sells a modern composite one',
+            'For households prioritising safety, WAA composite cylinders are the superior choice — for lowest upfront cost, steel is cheaper',
+            'Both are sold through OGRA-licensed distribution channels',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistani consumers searching for the best LPG cylinder often compare brand names they have encountered — PARCO, WAA Technologies, and others. Understanding this comparison requires understanding what each organisation actually does in Pakistan&apos;s LPG sector, because PARCO and WAA Technologies are not directly competing products in the same category. They are different types of businesses selling different types of cylinders. This guide explains each company&apos;s role, products, and the genuine comparison points that matter for Pakistani households and businesses.</p>
+
+      <h2>What Is PARCO?</h2>
+
+      <p>PARCO — Pak-Arab Refinery Company Limited — is a joint venture between the Government of Pakistan (60%) and the Abu Dhabi National Energy Company (40%). It operates a major petroleum refinery in Mahmood Kot, Punjab, producing a range of petroleum products including LPG as a refinery by-product. PARCO sells LPG through its retail network under the PARCO brand, distributed in conventional steel cylinders to domestic and commercial consumers primarily in Punjab and other areas served by its pipeline network.</p>
+
+      <p>PARCO is not primarily an LPG cylinder manufacturer — it is an LPG producer and marketer. The steel cylinders through which PARCO distributes its LPG are conventional steel pressure vessels manufactured to PS 4922 or equivalent specifications by contracted cylinder manufacturers. When you buy PARCO-branded LPG, you are buying the gas (LPG) itself — the cylinder is the standard delivery vessel.</p>
+
+      <h2>What Is WAA Technologies?</h2>
+
+      <p>WAA Technologies Pvt Ltd is a Pakistani manufacturer of composite LPG cylinders, headquartered in Lahore (showroom: Bahria Town) with its production facility in Gujranwala, Punjab. WAA Technologies designs and manufactures composite cylinders — HDPE-lined, glass-fibre-wound pressure vessels certified to ISO 11119-3 and EN 14427-2022 international standards. WAA Technologies does not produce or sell LPG gas itself. It manufactures the cylinder — the container — which is then filled with LPG purchased from an OGRA-licensed LPG distributor (which could be PARCO, PSO, or any other licensed distributor).</p>
+
+      <p>This is the key distinction: <strong>PARCO sells LPG gas (in steel cylinders). WAA Technologies sells composite cylinders (which you then fill with LPG from any licensed source).</strong> They are not in direct competition — they are in different parts of the LPG value chain. Many Pakistani households use a WAA Technologies composite cylinder filled with LPG sourced from PARCO-affiliated dealers.</p>
+
+      <h2>Comparing the Cylinders: PARCO Steel vs WAA Composite</h2>
+
+      <p>The meaningful comparison is between the <strong>type of cylinder</strong> each company&apos;s products represent: conventional steel vs composite. Here is how they compare on the factors that matter most for Pakistani households:</p>
+
+      <p><strong>Safety:</strong> PARCO steel cylinders are manufactured to PS 4922 — the Pakistani standard for steel cylinders. They meet the minimum legal safety standard for steel LPG cylinders in Pakistan. WAA Technologies composite cylinders are certified to ISO 11119-3 and EN 14427-2022 — international standards that include fire engulfment testing confirming non-blast behaviour. The composite cylinder physically cannot rupture and project shrapnel. The steel cylinder can, under fire or over-pressure conditions. This is a fundamental, non-trivial safety difference.</p>
+
+      <p><strong>Gas level visibility:</strong> PARCO steel cylinders are opaque — you cannot see the gas level without lifting and estimating weight. WAA Technologies composite cylinders are translucent — the gas level is visible at a glance. For daily household convenience, this is a significant practical advantage of composite.</p>
+
+      <p><strong>Weight:</strong> A PARCO 12 kg steel cylinder weighs approximately 30–32 kg when filled. A WAA Technologies 12 kg composite cylinder weighs approximately 18–20 kg when filled. The 40% weight reduction makes composite cylinders easier and safer to handle, particularly for women, elderly users, and anyone who moves cylinders regularly.</p>
+
+      <p><strong>Corrosion:</strong> Steel cylinders — including PARCO-branded ones — corrode in Pakistan&apos;s climate. Rust on the cylinder body is an expected reality after 3–5 years of normal outdoor or kitchen-floor storage. WAA composite cylinders cannot corrode — HDPE and glass fibre are chemically inert materials. In high-humidity environments like Karachi, or wherever cylinders are stored outdoors, this is a significant long-term advantage.</p>
+
+      <p><strong>Price:</strong> PARCO steel cylinders cost Rs. 4,000–5,500 per unit. WAA Technologies composite cylinders cost Rs. 9,000–14,000 per unit. PARCO steel is significantly cheaper at purchase.</p>
+
+      <p><strong>Service life:</strong> Steel cylinders require hydrotesting every 5 years and typically last 8–12 years in Pakistani conditions. WAA composite cylinders are rated for 20+ years with no periodic hydrotesting requirement.</p>
+
+      <h2>Which Is Better for Pakistani Households?</h2>
+
+      <p>If your primary consideration is lowest upfront cost, a standard steel cylinder — whether PARCO-branded or otherwise — is cheaper to purchase today. If your primary considerations are safety, long-term value, daily convenience, and weight, WAA Technologies composite cylinders are the superior choice on every dimension except purchase price.</p>
+
+      <p>For families with young children (who are disproportionately affected by blast injuries), elderly household members (who find 30+ kg cylinders difficult to move), or anyone living in Pakistan&apos;s high-humidity coastal or monsoon environments, the advantages of composite shift the calculation further toward WAA even on a household budget.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can I use PARCO LPG in a WAA Technologies composite cylinder?</h3>
+      <p>Yes. A WAA Technologies composite cylinder can be filled at any OGRA-licensed LPG filling station — including those supplied by PARCO-affiliated distributors. The cylinder and the gas are separate purchases. Your composite cylinder is simply a container; the LPG that goes into it can come from any licensed distributor in your area.</p>
+
+      <h3>Is PARCO LPG safe?</h3>
+      <p>Yes. PARCO LPG is a licensed, OGRA-regulated product that meets the specification requirements for LPG sold in Pakistan. The safety question relevant to Pakistan&apos;s household accident statistics is not about the quality of the gas — it is about the type of cylinder the gas is stored in. The same gas in a corroded 15-year-old steel cylinder is far more dangerous than in a new certified composite cylinder.</p>
+
+      <h3>Does WAA Technologies have dealers in all Pakistani cities?</h3>
+      <p>WAA Technologies has an authorised dealer network across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). The network continues to expand. Find your nearest authorised dealer at waatechnologies.com/authorized-dealers or call (+92) 4237815533.</p>
+
+      <h3>Are PARCO cylinders certified to the same standard as WAA?</h3>
+      <p>PARCO steel cylinders are manufactured to PS 4922 — Pakistan&apos;s national standard for steel LPG cylinders. WAA Technologies composite cylinders are certified to ISO 11119-3 and EN 14427-2022 — international standards that include significantly more comprehensive safety testing, including fire engulfment testing that confirms non-blast behaviour. ISO 11119-3 is a more demanding standard than PS 4922 in terms of fire safety performance requirements.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Chinese Imported vs Pakistani Composite Cylinder ── */
+  'chinese-imported-vs-pakistani-composite-lpg-cylinder': (
+    <>
+      <div className="not-prose bg-red-50 border-l-4 border-red-600 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-red-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-red-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 00-3.42 0z" /></svg>
+          Warning: Uncertified Imported Cylinders Are a Documented Safety Risk
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan\'s market contains imported cylinders — primarily from China — that carry certification markings but may not have undergone genuine ISO testing',
+            'Counterfeit ISO stickers and stamps are applied to cylinders manufactured to no international standard at all',
+            'Uncertified cylinders have no guaranteed burst pressure, no fire engulfment testing, and no service life data',
+            'OGRA does not maintain a real-time registry of approved imports — verifying import cylinder compliance requires checking back to the original testing laboratory record',
+            'Locally manufactured WAA Technologies cylinders have individual serial numbers traceable to Gujranwala production and testing records — a paper trail that import cylinders frequently lack',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistan&apos;s LPG equipment market is not sealed. Cylinders, regulators, and hoses manufactured in China enter Pakistan through both formal import channels and informal grey-market routes. Some of these imported products are genuinely certified to international standards and represent legitimate choices. Many are not. The challenge for Pakistani consumers is that the certification claim on an imported cylinder — the ISO logo, the standard number, the test date — is not self-verifying. A sticker or stamp is only as trustworthy as the organisation that applied it. This guide helps Pakistani households and businesses understand the real differences between import cylinders and locally manufactured composite cylinders, and how to protect themselves from buying an uncertified product marketed as certified.</p>
+
+      <h2>The Import Cylinder Market in Pakistan</h2>
+
+      <p>China is the world&apos;s largest manufacturer of composite and steel LPG cylinders by volume. Chinese manufacturers range from internationally accredited facilities producing genuinely certified cylinders that meet ISO 11119-3 standards and are exported legitimately worldwide, to smaller operations producing substandard cylinders with certification markings applied for marketing purposes rather than as a result of any actual testing. Both types of Chinese cylinders appear in the Pakistani market.</p>
+
+      <p>The formal import route — through a registered LPG equipment importer, with customs documentation, and sold through OGRA-licensed dealers — carries some accountability. An importer who brings genuinely certified Chinese cylinders through official channels is legally responsible for the compliance of what they sell. The informal grey-market route — cylinders arriving as part of mixed goods shipments, sold through hardware markets without documentation — carries no accountability and no traceability.</p>
+
+      <h2>What &quot;Certified&quot; Actually Requires for Composite Cylinders</h2>
+
+      <p>Genuine ISO 11119-3 certification requires testing at an ISO 17025-accredited laboratory. The test series includes burst testing, 12,000-cycle fatigue testing, fire engulfment testing (confirming non-blast behaviour), drop testing, and UV degradation testing. Each specific cylinder model must be tested — not a generic composite cylinder design, but the exact model with the exact dimensions, materials, liner specification, and winding parameters that will be sold. The testing laboratory issues a certificate to the manufacturer for that specific model, with a certificate number that is recorded in the laboratory&apos;s system and verifiable by anyone who contacts the laboratory with the certificate number.</p>
+
+      <p>A cylinder with an ISO 11119-3 logo printed on it but without an individual certificate number traceable to an accredited laboratory has not necessarily passed any of these tests. The logo alone proves nothing.</p>
+
+      <h2>How to Evaluate an Imported Cylinder</h2>
+
+      <p>If you are considering purchasing an imported composite LPG cylinder in Pakistan, verify the following before buying:</p>
+
+      <ol>
+        <li><strong>Ask for the test certificate document</strong> — not just the marking on the cylinder, but the actual certificate issued by the testing laboratory. A genuine certificate names the laboratory, the date of testing, the cylinder model tested, and the certificate number.</li>
+        <li><strong>Verify the laboratory accreditation</strong> — the testing laboratory named on the certificate should be ISO 17025-accredited. Major accredited laboratories include TÜV (Germany), Bureau Veritas, SGS, DEKRA, and equivalent international bodies. Confirm the laboratory is real and that its accreditation covers composite cylinder testing.</li>
+        <li><strong>Check the individual cylinder serial number</strong> — a genuine certified cylinder has an individual serial number traceable to the manufacturer&apos;s production records. If the cylinder has no individual serial number, or has only a batch number with no model-specific certificate, traceability is compromised.</li>
+        <li><strong>Buy from an OGRA-licensed dealer</strong> — a licensed dealer takes legal responsibility for the compliance of products they sell. An unlicensed grey-market seller does not.</li>
+      </ol>
+
+      <h2>Why Locally Manufactured WAA Technologies Cylinders Are Traceable</h2>
+
+      <p>WAA Technologies Pvt Ltd manufactures composite LPG cylinders in Gujranwala and certifies them through an internationally accredited testing process to ISO 11119-3 and EN 14427-2022. Every WAA cylinder has an individual serial number permanently marked on the cylinder body, traceable to Gujranwala production records and the specific certification testing batch. This traceability means that any OGRA inspector, any commercial buyer, and any household consumer can confirm a WAA cylinder&apos;s certification status through WAA Technologies directly.</p>
+
+      <p>WAA cylinders are sold exclusively through OGRA-licensed authorised dealers — there are no grey-market WAA cylinders in circulation, because WAA&apos;s distribution model is entirely through the authorised network. This gives buyers full legal protection: the dealer is licensed, the product is certified, and the certification is traceable.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Are all Chinese LPG cylinders unsafe?</h3>
+      <p>No. China produces both genuinely certified and non-certified cylinders. The key is verifying the specific product&apos;s certification — not making assumptions based on country of origin. A Chinese cylinder with genuine, traceable ISO 11119-3 certification from an accredited laboratory is as safe as an equivalent Pakistani-manufactured certified cylinder. The danger is in accepting certification claims without verifying them.</p>
+
+      <h3>How do I tell if a composite LPG cylinder has fake certification markings in Pakistan?</h3>
+      <p>Ask for the test certificate document with the certifying laboratory&apos;s name and certificate number. Verify that the laboratory exists and is ISO 17025-accredited. Check the cylinder for an individual serial number matching the certificate. If the seller cannot produce documentation, or if the certificate names a laboratory that does not appear in ISO 17025 accreditation records, treat the certification as unverified.</p>
+
+      <h3>Is it legal to sell uncertified LPG cylinders in Pakistan?</h3>
+      <p>No. OGRA regulations require all LPG cylinders sold in Pakistan to be certified to applicable standards (PS 4922 for steel, or ISO 11119-3 / EN 14427 for composite). Selling uncertified cylinders through an OGRA-licensed dealer is a licence violation. Selling through informal channels without an OGRA licence is a violation of the Petroleum Act. Both carry legal consequences — though enforcement at the retail level is inconsistent in Pakistan&apos;s current regulatory environment.</p>
+
+      <h3>What should I do if I already bought an uncertified imported cylinder?</h3>
+      <p>Stop using it and contact your dealer. If you cannot verify the cylinder&apos;s certification, do not use it for storing or dispensing LPG. Contact WAA Technologies or an OGRA-licensed dealer for a certified replacement. Report suspected uncertified cylinders to OGRA at their public complaint portal if you wish to alert regulators to a specific product or seller.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Steel Gola vs Fiber Cylinder Cost Over 5 Years ── */
+  'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan': (
+    <>
+      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-3">5-Year Cost Verdict (10 kg cylinder)</p>
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          <div className="bg-slate-700 rounded-xl p-3">
+            <p className="text-slate-300 font-bold mb-2">Steel Gola — 5 Year Total</p>
+            <p className="text-2xl font-black text-white">Rs. ~8,700</p>
+            <p className="text-slate-400 text-xs mt-1">Includes hydrotest + possible replacement</p>
+          </div>
+          <div className="bg-green-800 rounded-xl p-3">
+            <p className="text-green-200 font-bold mb-2">Fiber Composite — 5 Year Total</p>
+            <p className="text-2xl font-black text-white">Rs. ~10,500</p>
+            <p className="text-slate-200 text-xs mt-1">No hydrotest. No replacement. Still in full service.</p>
+          </div>
+        </div>
+        <p className="text-slate-300 text-xs mt-3">Cost difference narrows to ~Rs. 1,800 by year 5 — and composite continues earning back value in years 6–20 while steel requires another hydrotest and likely another replacement.</p>
+      </div>
+
+      <p>The single most common objection to buying a composite LPG fiber cylinder in Pakistan is: &quot;it is too expensive compared to the steel gola.&quot; It is a valid concern — the upfront price difference is real, and for Pakistani households managing monthly budgets carefully, a Rs. 5,000–8,000 difference in purchase price is significant. But the objection assumes that the purchase price is the total cost, and that assumption is wrong. The total cost of owning an LPG cylinder includes the purchase, the periodic hydrotest (for steel only), replacement when the cylinder reaches end of life (for steel, much sooner than composite), and the operational costs that differ between the two types. This article does the full calculation for a Pakistani household over 5 years.</p>
+
+      <h2>Understanding the Pakistani &quot;Gola&quot;</h2>
+
+      <p>The term &quot;gola&quot; (literally &quot;ball&quot; or &quot;round object&quot;) is the colloquial Pakistani name for the conventional steel LPG cylinder — named for its rounded shape. The gola has been the Pakistani household&apos;s primary LPG storage vessel for decades. It is heavy, opaque, prone to rust, and requires periodic professional testing to remain legally usable — but it has a price point that has made it the default choice for price-sensitive Pakistani households across all income levels. Understanding the gola&apos;s true economics reveals why the switch to fiber is financially rational even for budget-conscious households.</p>
+
+      <h2>5-Year Cost Model: Steel Gola (10 kg)</h2>
+
+      <p><strong>Year 0 (purchase):</strong> Rs. 4,500 (authorised dealer price, 2025)</p>
+      <p><strong>Year 5 (hydrotest):</strong> Rs. 700 (required under OGRA rules; cylinder must be pressure-tested at a licensed facility)</p>
+      <p><strong>Subtotal at Year 5:</strong> Rs. 5,200</p>
+      <p><strong>Expected cylinder condition at Year 5:</strong> Visible surface rust on a cylinder stored in a typical Pakistani kitchen environment. Valve seat showing early signs of corrosion. Cylinder structurally sound (assuming it passes the hydrotest) but visibly aged.</p>
+      <p><strong>Additional steel-specific costs:</strong></p>
+      <ul>
+        <li>The steel cylinder&apos;s opaque body means you have been estimating gas level by weight for 5 years — you have likely ordered 3–5 unnecessary refill deliveries that you didn&apos;t need. At Rs. 400–600 delivery fee per unnecessary call: Rs. 1,500–3,000 in avoidable costs over 5 years.</li>
+        <li>The steel cylinder&apos;s weight (30+ kg when full) has required family members to struggle with it at every change and positioning — this is a real cost in physical effort and accident risk, not captured in money.</li>
+      </ul>
+      <p><strong>5-year total (excluding unnecessary delivery fees):</strong> Rs. 5,200<br />
+      <strong>5-year total (including 4 unnecessary deliveries):</strong> Rs. 7,200–8,200</p>
+
+      <h2>5-Year Cost Model: Composite Fiber Cylinder (10 kg)</h2>
+
+      <p><strong>Year 0 (purchase):</strong> Rs. 10,500 (WAA Technologies 10 kg, 2025 average)</p>
+      <p><strong>Year 5 (maintenance):</strong> Rs. 0 (no hydrotest required; composite cylinder at year 5 is still within its 20+ year rated service life with no maintenance needed)</p>
+      <p><strong>Subtotal at Year 5:</strong> Rs. 10,500</p>
+      <p><strong>Expected cylinder condition at Year 5:</strong> Identical to when purchased. No rust possible. No corrosion. Valve clean. Body transparent and showing gas level at a glance — exactly as it did on day one.</p>
+      <p><strong>Composite-specific savings:</strong></p>
+      <ul>
+        <li>Zero unnecessary refill deliveries — you can see the gas level at any time. Conservative saving: Rs. 1,500–3,000 over 5 years.</li>
+        <li>No hydrotest cost: Rs. 700 saved at year 5.</li>
+        <li>No cylinder replacement needed through year 20: deferred cost saving of Rs. 10,500+ compared to steel&apos;s need for a new cylinder at year 8–12.</li>
+      </ul>
+      <p><strong>5-year total (cylinder hardware only):</strong> Rs. 10,500<br />
+      <strong>5-year total minus unnecessary delivery savings:</strong> Rs. 7,500–9,000</p>
+
+      <h2>Year 6–10: Where Composite Decisively Wins</h2>
+
+      <p>At year 6, the steel gola owner faces the second hydrotest (Rs. 700 again) and an increasing probability of the cylinder reaching end of safe service life. Many steel cylinders in Pakistani conditions show significant corrosion and valve wear by years 8–10. A cylinder that fails its year-10 hydrotest, or one that a cautious owner retires at year 10 due to visible deterioration, requires a full replacement purchase: another Rs. 4,500–5,500.</p>
+
+      <p>At year 6, the composite fiber cylinder owner has the same cylinder they purchased at year 0 — in the same condition, with the same service life remaining, at zero additional cost. Their total hardware spend remains Rs. 10,500. The steel owner&apos;s total hardware spend by year 10 is Rs. 10,400–11,400 (original purchase + two hydrotests + one replacement).</p>
+
+      <p>By year 10, the composite cylinder has achieved cost parity with steel — and the composite owner still has a cylinder with 10+ years of service life ahead of it, while the steel owner is about to start their second replacement cycle.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does the traditional steel gola last in Pakistan?</h3>
+      <p>In typical Pakistani conditions — kitchen-floor storage, outdoor exposure during summer, humidity, rough handling in distribution — a steel gola realistically lasts 8–12 years before corrosion and mechanical wear make it unsafe to continue using. It requires a hydrotest every 5 years during that period. A composite fiber cylinder, by contrast, is rated for 20+ years with no periodic testing requirement.</p>
+
+      <h3>Is the fiber cylinder really better value than the steel gola?</h3>
+      <p>Over a 5-year period, the cost difference narrows to approximately Rs. 1,800–3,000 when savings on hydrotesting and unnecessary delivery fees are included. Over 10 years, costs are essentially equal — and the composite owner still has a full-life cylinder while the steel owner has started their second replacement cycle. Beyond 10 years, composite saves significantly: the fiber owner spends nothing more while the steel owner purchases another cylinder and continues the hydrotest cycle.</p>
+
+      <h3>Can I exchange my old steel gola for a composite cylinder at a dealer?</h3>
+      <p>Some WAA Technologies authorised dealers offer trade-in or exchange programs for existing steel cylinder owners switching to composite. Contact your nearest WAA authorised dealer to ask about current exchange options. Even without a trade-in program, the value of recycled steel from your old cylinder may offset a portion of the composite purchase price when disposed of through a metal recycler.</p>
+
+      <h3>What about the LPG refill cost — is it different for fiber cylinders?</h3>
+      <p>No. LPG refill cost is determined by the weight of gas purchased at the OGRA-set per-kg rate, which is the same regardless of cylinder type. A 10 kg LPG refill costs the same in a composite fiber cylinder as in a steel gola. The cylinder hardware costs differ; the running fuel costs do not.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Composite LPG Cylinder in Lahore ── */
+  'composite-lpg-cylinder-lahore': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Buy a Composite Cylinder in Lahore
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies showroom: 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial, Bahria Town Lahore',
+            'Phone: (+92) 42 37815533 — call for dealer near your area of Lahore',
+            'Authorised dealers in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Faisal Town, and more',
+            '10 kg composite cylinder: Rs. 9,000–12,000 (LPG fill separate) — same refill cost as steel at any OGRA station',
+            'Free delivery available through select Lahore dealers — confirm when calling',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Lahore is Pakistan&apos;s most populous province capital and the heartland of WAA Technologies&apos; composite LPG cylinder operations. WAA Technologies Pvt Ltd is headquartered in Lahore — our showroom is at Bahria Town Lahore, with our manufacturing facility in Gujranwala, 80 km from Lahore city centre. Lahore households, restaurants, hotels, and businesses have access to the most direct and well-supported composite cylinder supply chain in Pakistan. This guide covers everything a Lahore household or business needs to know: where to buy, current pricing, which cylinder size is right for Lahore&apos;s household patterns, and why Lahore specifically benefits from the winter gas shortage preparedness that a composite cylinder provides.</p>
+
+      <h2>Why Lahore Households Need Composite LPG Cylinders</h2>
+
+      <p>Lahore sits on the SNGPL (Sui Northern Gas Pipelines Limited) network — Pakistan&apos;s northern gas distribution system. Every winter, Lahore households experience the same crisis: pipeline gas pressure collapses as heating demand across Punjab spikes, and SNGPL implements load management that cuts cooking gas pressure to near-unusable levels for hours or entire days at a time. In the winters of 2023, 2024, and 2025, Lahore households reported weeks of near-zero pipeline gas pressure — cooking on the piped gas connection became impossible.</p>
+
+      <p>A WAA Technologies composite LPG cylinder gives Lahore households a fully independent cooking fuel source that is completely unaffected by pipeline pressure. It is filled from an LPG supply chain — not the gas pipeline — so it works at full pressure and flow rate regardless of what SNGPL&apos;s pipeline is doing. Lahore families who switch to LPG composite cylinders as a backup to their piped gas connection are never stranded during Lahore&apos;s worst winter gas shortage weeks.</p>
+
+      <h2>Lahore&apos;s LPG Usage Pattern</h2>
+
+      <p>Lahore households typically use a 10 kg or 12 kg cylinder as either their primary cooking fuel source (in homes where piped gas pressure is consistently poor year-round, common in Lahore&apos;s expanding peripheral areas and housing schemes) or as a backup to piped gas for the 3–4 month winter shortage season (November to February). For primary-use households, a 10 kg cylinder lasts 3–5 weeks for a family of 4–6. For backup-only use, a single 10 kg cylinder with one refill available in reserve covers the entire winter shortage season comfortably.</p>
+
+      <h2>Lahore Areas with WAA Authorised Dealers</h2>
+
+      <p>WAA Technologies authorised dealers are located across Lahore&apos;s major residential and commercial districts. Areas currently served by the Lahore dealer network include:</p>
+
+      <ul>
+        <li><strong>DHA (Defence Housing Authority) phases 1–10</strong> — multiple dealers serving Lahore&apos;s largest premium residential area</li>
+        <li><strong>Bahria Town</strong> — including the sectors adjacent to the WAA Technologies showroom on MM Alam Road and Bahria Town commercial zones</li>
+        <li><strong>Gulberg</strong> — central Lahore&apos;s commercial and residential heart, serving MM Alam Road restaurants and Liberty Market residential areas</li>
+        <li><strong>Model Town</strong> — one of Lahore&apos;s oldest and most established residential areas</li>
+        <li><strong>Johar Town</strong> — major residential area serving University of Lahore and surrounding communities</li>
+        <li><strong>Faisal Town and Township</strong> — central-western Lahore residential districts</li>
+        <li><strong>Iqbal Town</strong> — eastern Lahore residential coverage</li>
+        <li><strong>Cantt / Walton</strong> — serving Lahore Cantt and surrounding military and civilian residential zones</li>
+      </ul>
+
+      <p>For the dealer nearest to your specific Lahore address, call WAA Technologies at (+92) 42 37815533 or visit waatechnologies.com/authorized-dealers.</p>
+
+      <h2>Lahore LPG Refill Network</h2>
+
+      <p>OGRA-licensed LPG filling stations in Lahore refill composite cylinders at the same per-kg rate as steel cylinders — there is no price difference. Major refilling networks operating in Lahore include Shell Gas, Total Parco, HASCOL, and independent OGRA-licensed LPG retailers. Your WAA Technologies dealer can advise on the nearest and most reliable refilling station for your area of Lahore. Many dealers also offer home delivery of filled cylinders directly to your address.</p>
+
+      <h2>Frequently Asked Questions for Lahore</h2>
+
+      <h3>Where is the WAA Technologies showroom in Lahore?</h3>
+      <p>The WAA Technologies showroom is at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. It is open during regular business hours, Monday to Saturday. You can also reach us at (+92) 42 37815533 or email waatechnologies.pvt.ltd@gmail.com. We can direct you to the nearest authorised dealer in your specific Lahore area.</p>
+
+      <h3>Does WAA Technologies offer home delivery in Lahore?</h3>
+      <p>Select WAA Technologies authorised dealers in Lahore offer home delivery of both empty and filled composite cylinders. Availability and delivery charges vary by dealer and area. Contact the Lahore showroom at (+92) 42 37815533 for delivery options in your specific area.</p>
+
+      <h3>Is a composite cylinder worth it for Lahore households that already have piped gas?</h3>
+      <p>Yes, particularly given Lahore&apos;s winter gas shortage pattern. A single 10 kg composite cylinder with one spare refill provides 6–10 weeks of backup cooking capacity — sufficient to cover Lahore&apos;s worst annual winter shortage periods without any disruption to household cooking. The cylinder&apos;s 20+ year rated life means it pays back this functionality year after year without replacement cost.</p>
+
+      <h3>What is the composite LPG cylinder price in Lahore?</h3>
+      <p>Current 2025 prices at WAA Technologies authorised dealers in Lahore: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder; LPG fill purchased separately). Prices may vary slightly by dealer. Contact the Lahore showroom for current pricing in your area.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Composite LPG Cylinder in Karachi ── */
+  'composite-lpg-cylinder-karachi': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Buy a Composite Cylinder in Karachi
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Karachi\'s coastal humidity corrodes steel cylinders faster than anywhere in Pakistan — composite cylinders cannot corrode',
+            'Authorised WAA Technologies dealers serve Defence, Clifton, Gulshan-e-Iqbal, PECHS, Nazimabad, North Karachi, and more',
+            'Call (+92) 42 37815533 to find your nearest Karachi dealer or email waatechnologies.pvt.ltd@gmail.com',
+            'Composite cylinders are 50% lighter — especially valuable in Karachi\'s high-rise apartments where cylinders must be carried up stairs',
+            'LPG refill pricing is the same as steel at any Karachi OGRA-licensed filling station',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Karachi is Pakistan&apos;s largest city and commercial capital, home to over 20 million people and one of the country&apos;s most demanding environments for LPG cylinder performance. Karachi&apos;s coastal location — sitting on the Arabian Sea — creates a salt-air humidity environment that is significantly more corrosive than Pakistan&apos;s inland cities. Steel cylinders in Karachi corrode faster, develop rust more aggressively, and have a meaningfully shorter safe service life than equivalent cylinders used in Lahore, Islamabad, or Faisalabad. For Karachi households, the corrosion-free advantage of composite cylinders is not just a long-term financial benefit — it is an immediate, year-one safety advantage.</p>
+
+      <h2>Why Karachi Specifically Benefits from Composite Cylinders</h2>
+
+      <p><strong>Coastal corrosion:</strong> Karachi&apos;s salt-laden air attacks steel surfaces continuously. A steel cylinder stored on the floor of a Karachi kitchen or in an outdoor courtyard develops surface rust within 18–24 months — faster than the 3–5 years typical in Lahore or Islamabad. The valve area, where the cylinder sits close to the floor and is exposed to ground moisture and cleaning water, corrodes particularly fast. WAA composite cylinders are immune to this: HDPE and glass fibre are chemically inert and entirely unaffected by salt air, humidity, or water exposure.</p>
+
+      <p><strong>High-rise apartment living:</strong> A significant proportion of Karachi&apos;s population lives in multi-story apartment buildings in Defence, Clifton, Gulshan, PECHS, and other dense urban districts. Carrying a filled 30+ kg steel cylinder up stairs is difficult, physically demanding, and genuinely dangerous — a dropped cylinder can damage the cylinder valve and create an immediate safety hazard. A filled 10 kg WAA composite cylinder weighs 18–20 kg — still substantial, but manageable for a single person and significantly less risky on stairs. For Karachi&apos;s apartment-dwelling households, the weight advantage is one of the most immediately practical benefits of composite.</p>
+
+      <p><strong>SSGC gas supply unreliability:</strong> Karachi&apos;s piped gas is supplied by SSGC (Sui Southern Gas Company). While Karachi does not experience the severe winter pressure collapses that Lahore faces on the SNGPL network, Karachi households experience frequent gas supply interruptions for maintenance, infrastructure issues, and seasonal demand peaks during Ramadan. An LPG composite cylinder gives Karachi households completely reliable backup cooking fuel that is entirely independent of the SSGC network.</p>
+
+      <h2>Karachi Areas with WAA Authorised Dealers</h2>
+
+      <p>WAA Technologies authorised dealers serve all major Karachi districts. Current coverage includes:</p>
+
+      <ul>
+        <li><strong>Defence Housing Authority (DHA)</strong> — Phases 1–8, serving Karachi&apos;s largest premium residential area</li>
+        <li><strong>Clifton</strong> — upscale residential and commercial, including Clifton Block areas 1–9</li>
+        <li><strong>PECHS (Pakistan Employees Co-operative Housing Society)</strong> — central Karachi residential coverage</li>
+        <li><strong>Gulshan-e-Iqbal</strong> — major eastern Karachi residential area covering multiple blocks</li>
+        <li><strong>Nazimabad</strong> — central Karachi residential area</li>
+        <li><strong>North Karachi</strong> — northern residential districts including SITE and Federal B Area</li>
+        <li><strong>Korangi and Landhi</strong> — eastern industrial and residential coverage</li>
+        <li><strong>Malir</strong> — eastern Karachi district</li>
+      </ul>
+
+      <p>For the dealer nearest to your specific Karachi address, call WAA Technologies at (+92) 42 37815533 or visit waatechnologies.com/authorized-dealers.</p>
+
+      <h2>Frequently Asked Questions for Karachi</h2>
+
+      <h3>Why do steel LPG cylinders rust faster in Karachi than other cities?</h3>
+      <p>Karachi&apos;s proximity to the Arabian Sea creates a salt-laden coastal humidity environment that accelerates steel corrosion significantly compared to Pakistan&apos;s inland cities. Salt acts as an electrolyte that speeds up the electrochemical corrosion reaction on steel surfaces. A steel cylinder in Karachi develops visible rust in 18–24 months — 2–3 times faster than in Lahore. WAA composite cylinders are completely immune to this: their HDPE and glass fibre materials cannot corrode regardless of salt air or humidity exposure.</p>
+
+      <h3>Are composite cylinders suitable for high-rise apartments in Karachi?</h3>
+      <p>Yes — in fact, composite cylinders are especially well-suited to Karachi&apos;s high-rise apartment environment. A filled 10 kg WAA composite cylinder weighs 18–20 kg, compared to 28–30 kg for a steel equivalent — approximately 40% lighter. This makes carrying cylinders up stairs significantly safer and more manageable for single individuals. The cylinders&apos; flat base also makes them more stable than rounded-bottom steel cylinders when standing in an elevator or on stairs.</p>
+
+      <h3>What is the LPG refill price for composite cylinders in Karachi?</h3>
+      <p>The LPG refill price is set by OGRA on a per-kg basis and is the same for composite and steel cylinders — there is no price difference based on cylinder type. Current Karachi LPG refill prices are available from your nearest OGRA-licensed filling station. Your WAA Technologies authorised dealer in Karachi can advise on the nearest and most reliable refilling option for your area.</p>
+
+      <h3>Does WAA Technologies have dealers in Karachi&apos;s older residential areas?</h3>
+      <p>Yes. In addition to the premium residential areas of Defence and Clifton, WAA authorised dealers serve Karachi&apos;s established middle-class residential areas including PECHS, Gulshan-e-Iqbal, Nazimabad, and North Karachi. Contact WAA Technologies at (+92) 42 37815533 for the specific dealer nearest to your Karachi address.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Composite LPG Cylinder in Islamabad ── */
+  'composite-lpg-cylinder-islamabad': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Buy a Composite Cylinder in Islamabad / Rawalpindi
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Islamabad and Rawalpindi experience Pakistan\'s most severe winter gas shortages — composite LPG is the only reliable backup',
+            'Authorised WAA Technologies dealers serve F-6, F-7, F-8, F-10, G-11, Bahria Town, DHA Islamabad, and Rawalpindi Saddar',
+            'Call (+92) 42 37815533 for dealer referral to your nearest Islamabad or Rawalpindi location',
+            'Twin cities\' colder winters mean higher LPG usage — 12 kg cylinder recommended for family households here',
+            'Islamabad\'s OGRA-compliance culture is strong — composite ISO-certified cylinders pass all commercial inspections easily',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Islamabad and Rawalpindi — Pakistan&apos;s twin cities — sit at higher elevation than Lahore and Karachi and experience colder winters, stronger winds, and a gas shortage pattern that is, by objective measurement, among the most severe in Pakistan. The SNGPL pipeline serving the twin cities faces peak pressure collapse during January and February, when temperatures regularly drop below 5°C and heating demand from millions of households in Punjab, KPK, and Gilgit-Baltistan simultaneously peaks. Twin cities households — particularly those in Islamabad&apos;s higher-altitude F-sectors, I-sectors, and Bahria Town — experience sustained cooking gas outages that can last days at a time during the worst winter weeks.</p>
+
+      <p>A WAA Technologies composite LPG cylinder is the most practical and reliable solution to this recurring annual crisis. This guide covers everything Islamabad and Rawalpindi households need to know: where to buy, which size to choose, the dealer network across both cities, and why the twin cities environment makes composite cylinders particularly worth the investment.</p>
+
+      <h2>Why Islamabad and Rawalpindi Need LPG Backup More Than Most Pakistani Cities</h2>
+
+      <p>The twin cities&apos; gas shortage vulnerability has three components. First, elevation: Islamabad sits at 507 metres above sea level — higher than Lahore (218 m) and Karachi (8 m). Higher altitude means lower ambient temperatures, which means greater heating demand that is simply not a factor in warmer cities. Second, cold wave exposure: Islamabad is exposed to cold waves descending from the Himalayan foothills, making its temperature extremes more severe than the Punjab plains. Third, pipeline geography: the SNGPL transmission pipeline serving the twin cities is a long-distance supply chain that passes through heavily loaded sections serving Lahore and Faisalabad before reaching Islamabad — meaning pressure at the end of the line is disproportionately affected by system-wide demand spikes.</p>
+
+      <p>These factors combine to make Islamabad and Rawalpindi households disproportionately vulnerable to winter gas outages and disproportionately benefited by having a reliable LPG backup. A 12 kg composite cylinder — or two 10 kg cylinders in rotation — provides 6–10 weeks of uninterrupted cooking fuel for a twin cities family household. This is typically sufficient to carry a household through an entire winter shortage season without any gas-related cooking disruption.</p>
+
+      <h2>Recommended Cylinder Size for Twin Cities Households</h2>
+
+      <p>Given Islamabad and Rawalpindi&apos;s colder winters and higher heating demand, the 12 kg composite cylinder is the recommended size for family households in the twin cities. For households that also use LPG for water heating (common in areas with unreliable electric geyser supply), the 12 kg cylinder is especially appropriate — it provides sufficient gas volume for both cooking and water heating during outage periods without requiring daily refills.</p>
+
+      <p>For single-person or couple households, or for households where LPG is strictly an emergency backup used only during outages, the 10 kg cylinder is the more economical choice — lower purchase price and lower refill cost, with a fill still lasting 4–7 weeks under moderate backup-only use.</p>
+
+      <h2>Twin Cities Areas Served by WAA Authorised Dealers</h2>
+
+      <p>WAA Technologies authorised dealers cover both Islamabad and Rawalpindi extensively:</p>
+
+      <p><strong>Islamabad:</strong> F-6, F-7, F-8, F-10, F-11, G-9, G-10, G-11, I-8, I-9, I-10, Bahria Town Islamabad, DHA Islamabad, PWD Housing Society, Margalla Hills–adjacent E-sectors.</p>
+
+      <p><strong>Rawalpindi:</strong> Saddar, Bahria Town Rawalpindi, DHA Rawalpindi, Chaklala Scheme, Satellite Town, Lalazar, PWD Colony, and commercial areas near Murree Road and GT Road.</p>
+
+      <p>Contact WAA Technologies at (+92) 42 37815533 or visit waatechnologies.com/authorized-dealers for the specific dealer nearest to your twin cities address.</p>
+
+      <h2>Frequently Asked Questions for Islamabad and Rawalpindi</h2>
+
+      <h3>How severe is the winter gas shortage in Islamabad?</h3>
+      <p>Islamabad consistently records among Pakistan&apos;s most severe winter pipeline gas pressure collapses. In January and February 2024 and 2025, twin cities households reported gas pressure dropping to near-zero for periods of 8–20 hours per day during peak cold weeks. Cooking on piped gas became impossible for many households during these periods. An LPG composite cylinder provides completely independent cooking fuel during these outages.</p>
+
+      <h3>Is a 10 kg or 12 kg composite cylinder better for Islamabad winters?</h3>
+      <p>For a family of 4+ using LPG for cooking only: 10 kg lasts 4–6 weeks, 12 kg lasts 5–8 weeks. Given Islamabad&apos;s winter shortage typically lasting 8–12 weeks (November to February), the 12 kg cylinder with one refill in reserve provides the most comfortable coverage. For households also using LPG for water heating during outages, the 12 kg is essential.</p>
+
+      <h3>Are WAA Technologies cylinders available in Bahria Town Islamabad?</h3>
+      <p>Yes. WAA Technologies has authorised dealer coverage in Bahria Town Islamabad. Contact (+92) 42 37815533 for the specific Bahria Town dealer nearest to your phase or sector.</p>
+
+      <h3>Can I use a composite LPG cylinder outdoors in Islamabad&apos;s cold weather?</h3>
+      <p>Yes. WAA composite cylinders are rated for outdoor storage and use across the full range of Pakistani temperatures — from Islamabad&apos;s near-0°C January nights to Pakistan&apos;s 45°C+ summer peaks. The HDPE body is UV-stabilised for outdoor storage and the composite construction is unaffected by temperature cycling. Note that at very low temperatures, LPG vaporisation rate decreases slightly — this is a property of LPG itself, not the cylinder, and is the same for all cylinder types.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: LPG Industry in Pakistan ── */
+  'lpg-industry-pakistan-market-size-future-outlook': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Industry at a Glance (2025)
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan LPG market size: estimated PKR 600–700 billion annually (upstream, midstream, and retail)',
+            'LPG consumers in Pakistan: approximately 10–12 million households, plus commercial and industrial users',
+            'Domestic LPG production: approximately 600,000 metric tons per year from OGDCL, PPL, and other E&P companies',
+            'LPG imports: Pakistan imports 60–70% of its consumption, primarily from Saudi Arabia, UAE, and Iraq',
+            'Composite cylinder adoption: currently less than 5% of Pakistan\'s cylinder fleet — representing the largest growth opportunity in the sector',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistan&apos;s LPG sector is one of the largest and most critical components of the country&apos;s energy infrastructure, yet it remains poorly understood by most stakeholders — including many of the households and businesses that depend on it daily. LPG provides cooking fuel for approximately 10–12 million Pakistani households, water and space heating for millions more, and industrial process heat for a significant portion of Pakistan&apos;s manufacturing sector. The industry generates hundreds of billions of rupees in annual revenue, employs hundreds of thousands of people across the value chain, and is managed under a regulatory framework that is actively evolving as the sector transitions from an import-heavy, steel-cylinder dominated model toward a more efficient, safer composite cylinder infrastructure.</p>
+
+      <p>This industry overview provides a comprehensive picture of Pakistan&apos;s LPG market as of 2025 — its size, growth drivers, key players, supply chain, regulatory landscape, and the investment opportunity represented by the ongoing steel-to-composite cylinder transition.</p>
+
+      <h2>Market Size and Structure</h2>
+
+      <p>Pakistan&apos;s LPG market operates across three segments. The <strong>upstream segment</strong> covers LPG production (from domestic gas fields as a by-product of natural gas extraction) and import (from international LPG terminals and the spot market). The <strong>midstream segment</strong> covers storage, transportation, and wholesale distribution — LPG moves by pipeline, rail tanker, road tanker, and ship to storage terminals from which it is distributed to the downstream network. The <strong>downstream segment</strong> covers retail filling stations (where cylinders are refilled), retail dealers (who sell cylinders and gas to consumers), and the end consumers themselves: households, restaurants, hotels, industrial users, and vehicle LPG (autogas) users.</p>
+
+      <p>Combined across all three segments, the Pakistani LPG market has an estimated annual value of PKR 600–700 billion at 2025 LPG prices. This is a large industry — comparable in scale to several of Pakistan&apos;s major export industries — and one that is growing, driven by the continued expansion of LPG use into areas not served by the natural gas pipeline network.</p>
+
+      <h2>Key Players in Pakistan&apos;s LPG Market</h2>
+
+      <p><strong>Upstream producers:</strong> OGDCL (Oil and Gas Development Company), PPL (Pakistan Petroleum Limited), and Mari Petroleum are Pakistan&apos;s largest domestic LPG producers. PSO (Pakistan State Oil), PARCO, and private sector importers handle LPG imports through the Port Qasim LPG terminal in Karachi and the Mahmood Kot fractionation plant in Punjab.</p>
+
+      <p><strong>Distribution and retail:</strong> Over 200 OGRA-licensed LPG distributors operate across Pakistan, ranging from national-scale operations to city-level distributors. Shell Gas Pakistan, HASCOL Petroleum, Total Parco, and Burshane are among the better-known branded distributors. Thousands of OGRA-licensed retail dealers serve the household and commercial consumer base.</p>
+
+      <p><strong>Cylinder manufacturers:</strong> The cylinder manufacturing segment is divided between conventional steel cylinder manufacturers (largely located in the industrial clusters of Karachi, Lahore, and Faisalabad) and the newer composite cylinder sector. WAA Technologies Pvt Ltd is Pakistan&apos;s leading domestic composite cylinder manufacturer, operating from Gujranwala with ISO 11119-3 and EN 14427-2022 certification. The composite sector is small but growing rapidly.</p>
+
+      <h2>The Composite Cylinder Transition: Pakistan&apos;s Largest LPG Growth Opportunity</h2>
+
+      <p>Pakistan&apos;s LPG cylinder fleet is estimated at 30–40 million active cylinders, with the vast majority being conventional steel. Composite cylinders represent less than 5% of the current fleet — but demand is growing at 25–35% annually as awareness of composite cylinders&apos; safety and practical advantages increases and as the price premium over steel narrows due to manufacturing scale-up. The transition from steel to composite represents a capital replacement cycle worth billions of rupees in new cylinder purchases over the coming decade — and a corresponding reduction in Pakistan&apos;s annual gas cylinder blast incident toll.</p>
+
+      <h2>Regulatory Evolution</h2>
+
+      <p>OGRA is actively modernising Pakistan&apos;s LPG regulatory framework. Recent and ongoing regulatory developments include: tightening of hydrotest enforcement for steel cylinders; development of a composite cylinder-specific framework within the Pakistan Standard system (PS 4922 currently only covers steel); increasing commercial LPG premises inspection frequency; and pilot programs for digital cylinder tracking that would create a national registry of cylinder serial numbers, test dates, and fill histories. These regulatory developments all support the growth of certified composite cylinders at the expense of uncertified and non-compliant steel cylinder stock.</p>
+
+      <h2>Frequently Asked Questions About Pakistan&apos;s LPG Industry</h2>
+
+      <h3>How large is Pakistan&apos;s LPG market?</h3>
+      <p>Pakistan&apos;s LPG market has an estimated annual value of PKR 600–700 billion across upstream, midstream, and downstream segments at 2025 prices. The country consumes approximately 1.5–1.8 million metric tons of LPG annually, making it one of South Asia&apos;s largest LPG markets.</p>
+
+      <h3>Who regulates LPG in Pakistan?</h3>
+      <p>OGRA (Oil and Gas Regulatory Authority) is the federal regulator for all LPG activities in Pakistan, established under the OGRA Ordinance 2002 and operating under the Petroleum Act 1934. OGRA licenses upstream producers, importers, distributors, and retail dealers; sets safety standards; conducts market surveillance inspections; and manages the LPG pricing framework in coordination with the Ministry of Energy.</p>
+
+      <h3>What is the growth outlook for Pakistan&apos;s composite LPG cylinder market?</h3>
+      <p>Composite LPG cylinders represent the highest-growth segment of Pakistan&apos;s LPG equipment market. With a current fleet penetration below 5% against a 30–40 million total cylinder fleet, the addressable market for composite cylinder replacement is enormous. Growing consumer awareness of safety advantages, expanding authorised dealer networks, and increasing regulatory pressure on non-compliant steel cylinders all support continued rapid growth. WAA Technologies projects composite cylinder demand growing at 25–35% annually over the 2025–2030 period.</p>
+
+      <h3>Where does Pakistan get its LPG?</h3>
+      <p>Pakistan produces approximately 600,000 metric tons of LPG annually from domestic gas fields — primarily OGDCL and PPL operations in Sindh, Balochistan, and KPK. This covers approximately 30–40% of national consumption. The remaining 60–70% is imported, primarily from Saudi Arabia (via Saudi Aramco term contracts), the UAE, and Iraq. LPG is imported as liquefied gas by ship to the Port Qasim terminal in Karachi, then distributed by road and rail tanker to storage terminals across the country.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: How LPG Cylinders Are Tested for Safety ── */
+  'how-lpg-cylinders-tested-safety-pakistan': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'LPG cylinder certification requires passing a series of independent laboratory tests — not just manufacturer self-declaration',
+            'ISO 11119-3 composite cylinder certification includes burst testing, 12,000-cycle fatigue testing, fire engulfment, drop testing, and UV degradation',
+            'The fire engulfment test is the most important safety test — it confirms a composite cylinder will not rupture and fragment under sustained fire exposure',
+            'Steel cylinders (PS 4922) must pass hydrostatic burst testing and periodic hydrotest every 5 years',
+            'Every WAA Technologies cylinder carries individual test traceability — the certificate number links each cylinder to its specific testing record',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>When a Pakistani household purchases an LPG cylinder, the markings on the cylinder body represent the conclusion of an extensive safety testing process that the cylinder design has been through before a single unit was manufactured for sale. That process — independent laboratory testing, documented in a certification record traceable to every cylinder sold — is the basis of the safety claim that a manufacturer makes when they stamp ISO 11119-3 or PS 4922 on the cylinder. This guide explains what that testing actually involves, test by test, and why understanding it helps Pakistani consumers make better-informed cylinder purchase decisions.</p>
+
+      <h2>How Cylinder Certification Works</h2>
+
+      <p>LPG cylinder certification is a two-level process. At the <strong>design certification level</strong>, the cylinder manufacturer submits representative prototype cylinders to an accredited, independent testing laboratory — a facility with ISO 17025 accreditation covering pressure vessel testing. The laboratory conducts the full test series (described below) on the prototype cylinders. If all tests are passed, the laboratory issues a design certificate to the manufacturer, authorising them to manufacture and sell that specific cylinder model under the certified standard. The design certificate references the cylinder model, the applicable standard, the test dates, and the certificate number.</p>
+
+      <p>At the <strong>production quality level</strong>, the manufacturer maintains quality control processes (inspections, sample testing, dimensional verification) ensuring that every cylinder produced matches the certified design. OGRA and PSQCA oversight adds a regulatory layer to this production quality monitoring. Each individual cylinder receives its serial number, manufacture date, and certification reference during production — creating the traceability that links each physical cylinder back to the design certification record.</p>
+
+      <h2>The ISO 11119-3 Test Series for Composite Cylinders</h2>
+
+      <h3>Burst Test</h3>
+      <p>The burst test pressurises the cylinder with water to its failure point. ISO 11119-3 requires the cylinder to withstand at least <strong>twice its rated working pressure</strong> before any failure occurs. Crucially, the failure mode must be a gas leak (a fracture that opens progressively without fragmentation) — not a brittle rupture that fragments the cylinder. This test directly validates the &quot;non-blast&quot; claim: the composite cylinder must leak before it bursts, and the failure must not generate dangerous fragments. Cylinders that burst below twice working pressure or that fragment during the burst test fail certification.</p>
+
+      <h3>Cycle Test (12,000 Pressure Cycles)</h3>
+      <p>The cycle test simulates the full service life of the cylinder through accelerated fatigue cycling. The cylinder is pressurised to its working pressure and then depressurised, repeatedly — 12,000 times. This simulates 12,000 fill-and-empty cycles, equivalent to over 20 years of household LPG use at typical refill frequencies. After all 12,000 cycles, the cylinder is burst-tested again. It must still pass the burst test requirements — confirming that the composite construction does not degrade in strength over its rated service life. Cylinders that develop leaks during cycling, or that fail the post-cycle burst test, fail certification.</p>
+
+      <h3>Fire Engulfment Test</h3>
+      <p>The fire engulfment test is the most safety-critical and dramatically demonstrative test in the series. A filled cylinder is exposed to a sustained open flame — fire applied around the full circumference of the cylinder — for a specified duration. The test measures the time to first pressure relief valve actuation (or first gas release) and confirms that the cylinder does not fragment. The required outcome for certification is pressure relief through the valve or a controlled gas leak without catastrophic rupture. A steel cylinder without a functioning pressure relief valve would rupture violently under this test. The composite cylinder must demonstrate the non-blast behaviour that is its primary safety advantage — releasing pressure gradually as gas, not explosively as shrapnel.</p>
+
+      <h3>Drop Test</h3>
+      <p>The drop test evaluates mechanical damage resistance. Cylinders are dropped from a height of 1.8 metres onto a concrete surface in multiple orientations — upright, inverted, and on their side. After each drop orientation, the cylinder is inspected for structural damage and then subjected to pressure testing. Cylinders must retain their structural integrity and pass pressure testing after all drop orientations. This test simulates the handling accidents that occur in Pakistan&apos;s rough LPG distribution chain — cylinders falling from truck beds, being dropped at dealer premises, being knocked over in kitchens.</p>
+
+      <h3>UV Degradation Test</h3>
+      <p>The UV degradation test exposes the cylinder body to accelerated ultraviolet radiation equivalent to several years of outdoor sun exposure. After UV exposure, the cylinder is retested for mechanical properties. The HDPE body and fibre winding materials must retain their rated strength after UV aging. This test is particularly relevant for Pakistani conditions, where cylinders are frequently stored outdoors in high-UV sunshine environments and where UV-stabiliser quality in cheaper imported composite cylinders is variable.</p>
+
+      <h3>Environmental Conditioning</h3>
+      <p>Cylinders are subjected to simulated environmental aging: temperature cycling (extreme hot and cold in sequence), high humidity exposure, and salt spray (simulating coastal environments like Karachi). After conditioning, cylinders must pass pressure testing. This confirms that the composite materials maintain their properties across the full range of conditions they will encounter in Pakistan.</p>
+
+      <h2>Steel Cylinder Testing: PS 4922 Hydrostatic Test</h2>
+
+      <p>Steel cylinders are tested to Pakistan Standard PS 4922, which requires a hydrostatic burst test at manufacture (1.5× working pressure) and a periodic hydrotest every 5 years in service. The hydrotest fills the cylinder with water and pressurises it to 1.5× working pressure, checking for leaks, permanent deformation, and structural integrity. Cylinders that leak, deform, or fail to reach test pressure fail the hydrotest and must be decommissioned.</p>
+
+      <p>Critically, steel cylinder PS 4922 testing does not include a fire engulfment test. The non-blast behaviour that composite cylinders are required to demonstrate for ISO 11119-3 certification is not tested for steel cylinders under Pakistani certification requirements. This is the regulatory gap that makes steel cylinders capable of a violent BLEVE under fire conditions while composite cylinders are not.</p>
+
+      <h2>Frequently Asked Questions About LPG Cylinder Safety Testing</h2>
+
+      <h3>What does the fire engulfment test prove about composite cylinders?</h3>
+      <p>The fire engulfment test proves that under sustained fire exposure, an ISO 11119-3 certified composite cylinder releases pressure through a controlled gas leak rather than a violent rupture. It is the specific test that validates the &quot;non-blast&quot; claim made for composite cylinders. Every WAA Technologies composite cylinder model has passed the fire engulfment test as part of its ISO 11119-3 certification — meaning the non-blast property is a tested and certified reality, not a manufacturer claim.</p>
+
+      <h3>What is the difference between the hydrotest and the burst test?</h3>
+      <p>The hydrotest (1.5× working pressure with water) checks that a specific cylinder in service is still structurally sound after years of use — it is a periodic in-service inspection tool. The burst test (pressurised to failure, minimum 2× working pressure) is a design qualification test that validates the cylinder&apos;s design safety margin and failure mode. The burst test is done once during design certification; the hydrotest is repeated every 5 years in service for steel cylinders.</p>
+
+      <h3>How do I know if a WAA Technologies cylinder has been genuinely tested?</h3>
+      <p>Every WAA Technologies composite cylinder carries its individual serial number on the cylinder body. This serial number is traceable to WAA&apos;s production records and the specific certification testing batch. WAA Technologies can provide certification documentation on request — including the certificate number, certifying laboratory name, and test dates — for any cylinder identified by serial number. Contact WAA Technologies at (+92) 42 37815533 for certification documentation requests.</p>
+
+      <h3>Are older steel cylinders retested every 5 years in Pakistan?</h3>
+      <p>OGRA requires hydrotesting every 5 years, but enforcement at the retail filling level is inconsistent. Many Pakistani households continue using steel cylinders that are long overdue for hydrotesting because informal dealers refill cylinders without checking test dates. This is a significant safety gap. A cylinder that fails the hydrotest — structurally compromised by corrosion or fatigue — should be decommissioned but instead remains in circulation. Switching to a certified composite cylinder eliminates this risk category entirely.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: OGRA Licensed LPG Manufacturers Pakistan ── */
+  'ogra-licensed-lpg-cylinder-manufacturers-pakistan': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Only manufacturers holding a current OGRA manufacturing licence can legally produce LPG cylinders for sale in Pakistan',
+            'The licence requires: certified manufacturing facility, quality management system, PSQCA product certification, and OGRA safety compliance',
+            'OGRA\'s public register of licensed manufacturers is available at ogra.org.pk — always verify before purchasing',
+            'WAA Technologies Pvt Ltd is Pakistan\'s leading ISO-certified composite LPG cylinder manufacturer, licensed and operating from Gujranwala',
+            'Buying from a non-licensed manufacturer voids any safety certification claims and exposes consumers to legal and safety risk',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Pakistan&apos;s LPG cylinder manufacturing sector is a regulated industry — companies cannot simply begin manufacturing and selling LPG cylinders without OGRA&apos;s authorisation. The licensing requirement exists because LPG cylinders are safety-critical pressure vessels: a cylinder manufactured to substandard specifications or without quality oversight poses direct risk to the household or business that uses it. OGRA&apos;s manufacturing licence is the mechanism through which the regulator ensures that only manufacturers meeting defined safety and quality standards supply cylinders to Pakistan&apos;s market.</p>
+
+      <p>Despite this, many Pakistani consumers have no knowledge of which cylinder manufacturers are OGRA-licensed and which are not — and the market contains products from non-licensed or inadequately licensed sources. This guide explains the licensing framework, what it requires, how to verify a manufacturer&apos;s status, and profiles the key licensed manufacturers relevant to Pakistani consumers in 2025.</p>
+
+      <h2>What an OGRA Manufacturing Licence Requires</h2>
+
+      <p>To obtain and maintain an OGRA manufacturing licence for LPG cylinders, a company must demonstrate:</p>
+
+      <p><strong>Certified manufacturing facility:</strong> The production facility must be inspected and approved by OGRA and meet the infrastructure requirements for safe cylinder manufacturing — including quality control equipment (dimensional gauges, pressure testing equipment, weld inspection capabilities), controlled storage for materials and finished products, and a documented production process.</p>
+
+      <p><strong>Quality management system:</strong> The manufacturer must operate under a documented quality management system covering incoming material inspection, in-process quality controls, finished product testing, and non-conformance management. ISO 9001 certification is typically required or strongly indicated for credible manufacturers.</p>
+
+      <p><strong>PSQCA product certification:</strong> The cylinders themselves must be certified to the applicable standard — PS 4922 for steel, or ISO 11119-3 / EN 14427 for composite — by PSQCA or an OGRA-accepted accredited testing laboratory. This product certification must be maintained with annual or periodic surveillance testing.</p>
+
+      <p><strong>Annual OGRA licence renewal:</strong> Manufacturing licences are renewed annually. OGRA can suspend or revoke a licence if a manufacturer fails to meet its obligations — including failure to maintain product certification, production of non-compliant cylinders, or non-cooperation with OGRA inspections.</p>
+
+      <h2>How to Verify a Manufacturer&apos;s OGRA Licence</h2>
+
+      <p>OGRA maintains a public register of licensed LPG manufacturers on its website at <strong>ogra.org.pk</strong>. The register lists company names, licence categories, and licence validity dates. Any consumer or business wanting to verify that a specific cylinder manufacturer is currently licensed can check this register — or contact OGRA directly at their public helpline.</p>
+
+      <p>The most reliable way to ensure you are buying from a licensed, certified manufacturer is to purchase through an authorised dealer who is themselves OGRA-licensed. Authorised dealers take legal responsibility for the products they supply, creating a compliance chain that extends from the manufacturer through the distribution channel to the consumer.</p>
+
+      <h2>WAA Technologies: Pakistan&apos;s Leading Composite Cylinder Manufacturer</h2>
+
+      <p>WAA Technologies Pvt Ltd is Pakistan&apos;s leading domestic manufacturer of composite LPG cylinders. Operating from a purpose-built manufacturing facility in Gujranwala, Punjab, WAA Technologies produces composite cylinders certified to ISO 11119-3 and EN 14427-2022 — the most rigorous international composite cylinder standards in use globally. WAA Technologies holds a current OGRA manufacturing licence for composite LPG cylinder production and distributes exclusively through its authorised dealer network across Punjab, Sindh, and KPK.</p>
+
+      <p>WAA Technologies&apos; quality management system maintains production standards that support the ISO 11119-3 certification through annual surveillance testing and documented production quality controls. Every WAA cylinder is individually serialised, with the serial number traceable to production batch, testing record, and certification documentation. This traceability exceeds OGRA&apos;s minimum requirements and provides consumers with a level of product accountability that is uncommon in Pakistan&apos;s LPG equipment market.</p>
+
+      <h2>The Steel Cylinder Manufacturer Landscape</h2>
+
+      <p>Pakistan has several OGRA-licensed steel cylinder manufacturers, primarily located in Karachi, Lahore, and Faisalabad. These manufacturers produce PS 4922-compliant steel cylinders for the conventional domestic LPG market. Licensed steel cylinder manufacturers include established companies that have operated in Pakistan&apos;s industrial sector for decades and whose products are distributed through major LPG marketing companies including PARCO, Shell Gas, and Total Parco.</p>
+
+      <p>The steel cylinder manufacturing sector also has a non-licensed fringe — companies or individuals manufacturing steel cylinders without OGRA authorisation for sale through informal channels. These non-licensed products pose the same safety risks as any uncertified pressure vessel: unknown burst pressure, unknown weld quality, no compliance with the hydrotest frequency that gives steel cylinders their in-service safety management framework.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I find OGRA-licensed LPG cylinder manufacturers in Pakistan?</h3>
+      <p>The OGRA website (ogra.org.pk) maintains a public register of licensed LPG manufacturers. You can search this register by company name or licence category. For the most current information, contact OGRA&apos;s public information office directly. Buying from an OGRA-licensed dealer who can name the cylinder manufacturer is the most practical way to ensure the product comes from a licensed source.</p>
+
+      <h3>Is WAA Technologies OGRA licensed?</h3>
+      <p>Yes. WAA Technologies Pvt Ltd holds a current OGRA manufacturing licence for composite LPG cylinder production and distributes through an authorised OGRA-licensed dealer network. WAA cylinders are certified to ISO 11119-3 and EN 14427-2022, exceeding the minimum PS 4922 requirements for LPG cylinders in Pakistan. Contact WAA Technologies at (+92) 42 37815533 for licence documentation.</p>
+
+      <h3>What happens if a manufacturer loses their OGRA licence?</h3>
+      <p>A manufacturer whose OGRA licence is suspended or revoked cannot legally continue manufacturing LPG cylinders for the Pakistani market. Dealers selling cylinders from a de-licensed manufacturer also violate their own dealer licences. Consumers who have purchased cylinders from a subsequently de-licensed manufacturer should contact OGRA to confirm the product&apos;s compliance status and whether a recall or replacement program applies.</p>
+
+      <h3>Are imported LPG cylinders required to have OGRA licensing?</h3>
+      <p>LPG cylinders imported into Pakistan must comply with the same standards as domestically manufactured cylinders — PS 4922 for steel or ISO 11119-3 / EN 14427 for composite. The importer (who must be OGRA-licensed as an LPG equipment importer) takes legal responsibility for the compliance of imported products. Direct purchase of cylinders from foreign manufacturers without going through an OGRA-licensed importer is outside the regulated channel and provides no compliance assurance.</p>
+    </>
+  ),
+
+  /* ── ARTICLE: Pakistan LPG Imports vs Domestic Production 2025 ── */
+  'pakistan-lpg-imports-vs-domestic-production-2025': (
+    <>
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Supply Snapshot (2025)
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan consumes approximately 1.6–1.8 million metric tons of LPG annually',
+            'Domestic production: ~600,000 MT/year — covering approximately 35–40% of consumption',
+            'Imports: ~1,000,000–1,200,000 MT/year — covering approximately 60–65% of consumption',
+            'Primary import sources: Saudi Arabia (~50%), UAE (~25%), Iraq and others (~25%)',
+            'Import pricing is linked to Saudi Aramco Contract Price (CP) — so global energy prices directly affect Pakistani cylinder refill costs',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>When Pakistani households complain that LPG refill prices have increased, or when media reports that winter gas shortages are expected to be severe, the underlying cause is almost always traceable to Pakistan&apos;s fundamental LPG supply position: the country produces only about 35–40% of the LPG it consumes domestically. The remaining 60–65% must be imported, at global market prices, from suppliers thousands of kilometres away. This structural import dependency makes Pakistan&apos;s domestic LPG price and supply directly vulnerable to international energy market movements, shipping logistics, and the political and commercial decisions of its primary suppliers. Understanding this supply structure explains price movements, shortage events, and the policy choices that affect Pakistani cylinder users every day.</p>
+
+      <h2>Pakistan&apos;s Domestic LPG Production</h2>
+
+      <p>Pakistan&apos;s domestic LPG is produced as a by-product of natural gas extraction from gas fields primarily in Sindh, Balochistan, and KPK. When natural gas is extracted from underground reservoirs, it typically contains heavier hydrocarbon fractions — propane and butane — that are separated at gas processing plants before the methane-rich natural gas enters the SNGPL/SSGC transmission pipeline. This separated propane-butane mixture is LPG.</p>
+
+      <p>Pakistan&apos;s major domestic LPG producers are: OGDCL (Oil and Gas Development Company Limited), Pakistan&apos;s largest E&P company and biggest LPG producer; PPL (Pakistan Petroleum Limited), the second-largest domestic producer; Mari Petroleum Company; and POL (Pakistan Oilfields Limited). Together, these companies produce approximately 600,000 metric tons of LPG per year — a figure that has been relatively stable since 2018 as gas field depletion in older fields partially offsets production from newer discoveries.</p>
+
+      <p>Domestic LPG is largely liquid propane at the extraction stage. It is blended with butane to produce the commercial propane-butane mixture that meets appliance specifications, then stored at fractionation plants before entering the distribution chain. The Mahmood Kot fractionation plant in Punjab is the single largest domestic LPG handling facility in Pakistan, processing a significant share of OGDCL and PPL production.</p>
+
+      <h2>Pakistan&apos;s LPG Import Supply Chain</h2>
+
+      <p>Pakistan imports LPG primarily through Port Qasim in Karachi, where pressurised LPG tanker ships offload their cargo to onshore storage terminals. The Port Qasim LPG terminal, operated by PGPC (Pakistan Gas Port Consortium), has a receiving capacity that has been expanded in recent years to accommodate Pakistan&apos;s growing import requirement. From the terminal, imported LPG moves by road and rail to storage and fractionation facilities across the country.</p>
+
+      <p><strong>Saudi Arabia</strong> is Pakistan&apos;s largest LPG import source, supplying approximately 50% of total imports under long-term term contracts managed by PSO and other authorised importers with Saudi Aramco. Saudi LPG pricing is linked to the Saudi Aramco Contract Price (CP) — a monthly benchmark price that is itself indexed to global energy market conditions. When global energy prices rise (as in 2022, following Russia&apos;s invasion of Ukraine), CP rises, and Pakistani import costs increase correspondingly.</p>
+
+      <p><strong>The United Arab Emirates</strong> is the second-largest source, supplying approximately 25% of imports from ADNOC (Abu Dhabi National Oil Company) and private UAE-based LPG traders. UAE supply complements Saudi supply and provides some volume and pricing diversification for Pakistani importers.</p>
+
+      <p><strong>Iraq, Qatar, and spot market purchases</strong> make up the remainder of imports, with volume varying based on price competitiveness and shipping availability.</p>
+
+      <h2>How Import Pricing Affects Pakistani Cylinder Refill Costs</h2>
+
+      <p>Because 60–65% of Pakistan&apos;s LPG comes from imports priced at international market rates, domestic LPG prices in Pakistan are substantially exposed to global energy price movements. OGRA sets the Maximum Consumer Price (MCP) for LPG on a monthly basis, adjusting for the previous month&apos;s average Saudi CP, shipping costs, port charges, taxes, and importer and distributor margins. When Saudi CP rises, Pakistani LPG refill prices rise the following month.</p>
+
+      <p>This price transmission mechanism means that Pakistani households using LPG are, in effect, directly connected to the global energy commodity market — their monthly gas cost fluctuates with movements in international LPG prices that are set by supply and demand dynamics in Asia-Pacific and European markets, not by Pakistani domestic policy. During periods of global energy price spikes, Pakistani households face real cost pressure on their essential cooking fuel that the government can only partially offset through subsidy mechanisms.</p>
+
+      <h2>What This Means for Composite Cylinder Adoption</h2>
+
+      <p>Pakistan&apos;s structural LPG import dependency creates a specific advantage argument for composite cylinders at the household level. A household that invests in a high-quality, 20+ year-life composite cylinder is insulating its cooking fuel infrastructure from cylinder hardware costs for two decades — the cylinder purchase is a one-time decision. Whether LPG import prices rise or fall, the cylinder itself is not the cost variable. Combined with the operational efficiency gain of level visibility (which reduces unnecessary refill deliveries), the composite cylinder maximises the value households extract from whatever the current LPG price is.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why does the LPG refill price change every month in Pakistan?</h3>
+      <p>OGRA adjusts the Maximum Consumer Price for LPG monthly based on the previous month&apos;s Saudi Aramco Contract Price (CP), international shipping rates, port charges, import duties, and distribution margins. Since 60–65% of Pakistan&apos;s LPG is imported at this international price, domestic LPG costs are directly linked to global energy market movements that change every month.</p>
+
+      <h3>Why can&apos;t Pakistan increase its domestic LPG production?</h3>
+      <p>Domestic LPG production is constrained by the rate of natural gas extraction from Pakistan&apos;s existing gas fields, most of which are mature and in decline. Domestic LPG production can only increase meaningfully through new gas field discoveries and development — a long-lead, capital-intensive process. Pakistan&apos;s E&P investment environment has limited new field development in recent years, meaning import dependency is expected to persist and potentially deepen through 2030.</p>
+
+      <h3>Does the Pakistan government subsidise LPG prices?</h3>
+      <p>Pakistan has historically applied limited direct subsidies to LPG prices for household consumers, primarily through relief packages for low-income households during periods of extreme price spikes. The primary mechanism for price management is OGRA&apos;s monthly MCP calculation, which incorporates a regulated margin structure that limits what distributors and retailers can charge above their actual cost base. Direct price subsidies are occasional and limited in scale compared to the subsidies historically applied to pipeline gas (Sui gas).</p>
+
+      <h3>Is Pakistan&apos;s LPG shortage in winter caused by import supply problems or domestic distribution?</h3>
+      <p>Pakistan&apos;s winter LPG shortage is primarily a domestic distribution and capacity constraint — not a failure of import supply. LPG imports continue year-round at relatively consistent volumes. The winter shortage results from: demand spikes that exceed distribution infrastructure capacity (trucking, storage); priority dispatch to industrial and commercial customers; and dealer stock management that does not scale up early enough for the winter demand surge. Households with a full composite cylinder and one refill in reserve are insulated from distribution bottlenecks regardless of their cause.</p>
+    </>
+  ),
+
   'why-restaurants-switching-composite-lpg-cylinders-pakistan': (
     <>
       {/* Featured snippet target — bulleted quick answer */}
@@ -1268,6 +2737,23 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'gas-cylinder-blast-incidents-pakistan-2025': 1800,
+  'ogra-rules-lpg-cylinders-pakistan': 1800,
+  'steel-vs-composite-lpg-cylinder-pakistan': 2000,
+  'why-lpg-cylinders-explode-pakistan-how-to-prevent': 1700,
+  'psi-certified-gas-cylinder-pakistan': 1700,
+  'gas-cylinder-warning-signs-pakistan': 1800,
+  'composite-lpg-cylinder-price-pakistan-2025': 1600,
+  'parco-vs-waa-technologies-cylinder-pakistan': 1700,
+  'chinese-imported-vs-pakistani-composite-lpg-cylinder': 1800,
+  'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan': 1800,
+  'composite-lpg-cylinder-lahore': 1600,
+  'composite-lpg-cylinder-karachi': 1700,
+  'composite-lpg-cylinder-islamabad': 1700,
+  'lpg-industry-pakistan-market-size-future-outlook': 1900,
+  'how-lpg-cylinders-tested-safety-pakistan': 2000,
+  'ogra-licensed-lpg-cylinder-manufacturers-pakistan': 1800,
+  'pakistan-lpg-imports-vs-domestic-production-2025': 1800,
   'why-restaurants-switching-composite-lpg-cylinders-pakistan': 2800,
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': 2500,
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': 2200,
@@ -1279,6 +2765,108 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'gas-cylinder-blast-incidents-pakistan-2025': [
+    { q: 'How many gas cylinder blasts happen in Pakistan every year?', a: 'Published incident data suggests 500–700 reported gas cylinder blast incidents annually in Pakistan, with safety researchers estimating the true figure at 1,500–2,000 when unreported rural incidents are included. Fatalities range from 80–120 per year in reported data. Punjab accounts for the highest share at 40%+.' },
+    { q: 'Which LPG cylinder is safest in Pakistan?', a: 'ISO 11119-3 certified composite cylinders — such as those manufactured by WAA Technologies Pvt Ltd — are the safest option available in Pakistan. Their non-blast construction physically prevents the shrapnel-projecting rupture that causes the most severe injuries and deaths in steel cylinder incidents. All certified composite cylinders have passed fire engulfment testing confirming non-blast behaviour.' },
+    { q: 'What should I do if my gas cylinder is hissing?', a: 'Close the cylinder valve immediately and fully. Open all windows and doors. Evacuate everyone from the kitchen. Do not operate any electrical switches. Call your LPG dealer or a gas technician from outside the building. Do not attempt to find or fix the leak yourself.' },
+    { q: 'Can an old steel LPG cylinder explode without fire?', a: 'Yes, but it is uncommon. A severely overfilled cylinder in high ambient temperatures can exceed its structural limit without external fire. Far more commonly, heat exposure is involved. A cylinder more than 10 years old or showing visible rust should be retired from use regardless of apparent condition.' },
+  ],
+  'ogra-rules-lpg-cylinders-pakistan': [
+    { q: 'What is the OGRA standard for LPG cylinders in Pakistan?', a: 'OGRA requires LPG cylinders to comply with Pakistan Standard PS 4922 for steel cylinders, or ISO 11119-3 / EN 14427-2022 for composite cylinders. Every legal LPG cylinder must display manufacturer name, manufacture date, serial number, tare weight, test pressure, applicable standard, and last test date permanently on the cylinder body.' },
+    { q: 'How often must LPG cylinders be hydrotested in Pakistan?', a: 'OGRA requires steel LPG cylinders to be hydrotested every 5 years at an OGRA-licensed facility. A steel cylinder whose hydrotest date is more than 5 years ago cannot legally be refilled. Composite cylinders certified to ISO 11119-3 do not require the same periodic hydrotesting — they carry a 20+ year rated service life validated through the certification testing process.' },
+    { q: 'What happens if I use a non-compliant LPG cylinder in a commercial premises in Pakistan?', a: 'OGRA inspectors can issue immediate stop-use notices for non-compliant equipment, require replacement of all non-compliant cylinders within 48 hours, and refer serious or repeated non-compliance for prosecution under the Petroleum Act 1934. Commercial operators face fines and in serious cases criminal charges following cylinder blast incidents where equipment was found non-compliant.' },
+    { q: 'How do I find OGRA-licensed LPG dealers in my area?', a: 'OGRA maintains a register of licensed LPG dealers on its website at ogra.org.pk. You can also verify dealer licensing by asking the dealer to show their current OGRA licence — licensed dealers are required to display it prominently at their premises. WAA Technologies maintains an authorised dealer network across Punjab, Sindh, and KPK; find your nearest dealer at waatechnologies.com/authorized-dealers.' },
+  ],
+  'steel-vs-composite-lpg-cylinder-pakistan': [
+    { q: 'Is a composite LPG cylinder really safer than steel for Pakistani homes?', a: 'Yes. Certified composite LPG cylinders are physically incapable of the blast fragmentation that makes steel cylinder explosions so deadly. ISO 11119-3 certification requires passing a fire engulfment test where the cylinder develops a controlled gas leak rather than rupturing. Steel cylinders are not required to pass an equivalent fire engulfment test for domestic certification in Pakistan.' },
+    { q: 'How much lighter is a composite LPG cylinder than steel?', a: 'A filled 12 kg WAA Technologies composite cylinder weighs approximately 18–20 kg compared to 30–32 kg for an equivalent steel cylinder — approximately 40–50% lighter. This difference is significant for Pakistani households where cylinders are carried up stairs, moved between rooms, and handled by women or older family members.' },
+    { q: 'How long does a composite LPG cylinder last compared to steel?', a: 'WAA Technologies composite cylinders are rated for 20+ years and 12,000 fill cycles under ISO 11119-3. Steel cylinders in Pakistani conditions typically last 8–12 years before requiring replacement, with a mandatory hydrotest every 5 years. Composite cylinders do not require periodic hydrotesting, making their 10-year total cost of ownership comparable to steel despite the higher purchase price.' },
+    { q: 'Can I see the gas level in a composite cylinder?', a: 'Yes — this is one of the most practically useful features of WAA Technologies composite cylinders. The HDPE body is translucent, so the liquid LPG level is directly visible through the cylinder wall at a glance. Steel cylinders are completely opaque — there is no way to see the gas level without lifting the cylinder to estimate weight.' },
+  ],
+  'why-lpg-cylinders-explode-pakistan-how-to-prevent': [
+    { q: 'What causes LPG cylinders to explode in Pakistan?', a: 'LPG cylinder explosions (technically BLEVEs — Boiling Liquid Expanding Vapour Explosions) are caused by five main factors in Pakistani conditions: corrosion-weakened cylinder walls, overfilling beyond 80% capacity, heat exposure with a stuck pressure relief valve, faulty or counterfeit valves, and mechanical damage from dropping or impact. Most incidents involve steel cylinders that are old, corroded, or have not been hydrotested within the required 5-year interval.' },
+    { q: 'Can a composite LPG cylinder explode?', a: 'No. Certified composite cylinders — such as WAA Technologies models certified to ISO 11119-3 — physically cannot undergo a BLEVE. Their glass fibre and HDPE construction dissipates pressure through controlled leakage rather than brittle fracture. Under fire engulfment testing required for ISO 11119-3 certification, composite cylinders develop a gas leak rather than rupturing. This is what "non-blast" means in engineering terms.' },
+    { q: 'At what gas concentration does LPG ignite?', a: 'LPG ignites in air at concentrations between 1.8% and 8.5% by volume — the Lower and Upper Explosive Limits. In a closed Pakistani kitchen with a leaking cylinder, this concentration can be reached from a small leak within minutes. This is why immediate ventilation and valve closure — without operating any electrical switches — is the correct emergency response to a gas smell.' },
+    { q: 'What is a BLEVE and why is it so dangerous?', a: 'BLEVE stands for Boiling Liquid Expanding Vapour Explosion. It occurs when a pressurised liquid (LPG) is suddenly released from containment — the liquid instantaneously flashes to vapour, expanding 250 times its liquid volume in microseconds. This explosive expansion shatters the steel cylinder container and projects fragments at lethal velocity. BLEVE fragments have been found hundreds of metres from incident sites. Composite cylinders cannot BLEVE because their construction fails in a progressive, non-fragmenting manner.' },
+  ],
+  'psi-certified-gas-cylinder-pakistan': [
+    { q: 'What does PSI certified mean for LPG cylinders in Pakistan?', a: '"PSI certified" colloquially means certified to a Pakistan Standard (PS) administered by PSQCA. For steel LPG cylinders, the relevant standard is PS 4922. For composite cylinders, OGRA accepts international standards ISO 11119-3 and EN 14427-2022 as equivalent frameworks. A genuinely certified cylinder carries a permanent marking referencing the applicable standard, the certifying body name, and an individual certificate or serial number.' },
+    { q: 'What is ISO 11119-3 and why does it matter for Pakistani LPG cylinders?', a: 'ISO 11119-3 is the International Organization for Standardization standard for refillable composite gas cylinders. Certification requires passing burst testing, 12,000-cycle fatigue testing, fire engulfment testing (confirming non-blast behaviour), drop testing, and UV degradation testing. OGRA accepts ISO 11119-3 as the compliance framework for composite cylinders in Pakistan. A cylinder certified to this standard has been independently verified to be safe through all these tests.' },
+    { q: 'How do I verify if an LPG cylinder is genuinely certified in Pakistan?', a: 'Check the cylinder body for: a permanent marking referencing the standard (PS 4922, ISO 11119-3, or EN 14427); the certifying body name; an individual serial number traceable to the manufacturer; and manufacture date. A genuine certification assigns a unique certificate number verifiable with the certifying laboratory. Buy from an OGRA-licensed WAA Technologies authorised dealer, which guarantees the cylinder has genuine, traceable certification.' },
+    { q: 'Are there counterfeit certified LPG cylinders in Pakistan?', a: 'Yes. Counterfeit certification markings are a documented problem in Pakistan\'s LPG equipment market. Stickers and stamped markings simulating compliance are applied to non-certified cylinders. Protect yourself by buying only from OGRA-licensed dealers, asking for certification documentation if uncertain, and looking for individual serial numbers traceable to the manufacturer — not just a logo or standard reference with no traceability.' },
+  ],
+  'gas-cylinder-warning-signs-pakistan': [
+    { q: 'What are the warning signs that an LPG cylinder is dangerous?', a: 'The five key warning signs are: (1) any gas smell in the kitchen, however faint; (2) visible rust, dents, or damage on the cylinder body; (3) a valve that will not turn fully closed; (4) irregular stove flame behaviour such as oversized, flickering, or uncontrollable flames; and (5) a hissing sound from the cylinder, regulator, or hose. Any one of these signs requires immediate action — close the valve, ventilate, evacuate, and call a gas technician.' },
+    { q: 'How do I test if my LPG cylinder is leaking?', a: 'The soap-and-water bubble test is the reliable household method. Mix washing-up liquid with water to create a thick foam. With the cylinder valve open and stove burners closed, apply the foam to: the regulator-to-valve connection; both hose fittings; and the stove inlet. Watch for growing or rhythmically popping bubbles — these indicate a gas leak. No bubbles means no detectable leak. Perform this test after every cylinder connection.' },
+    { q: 'How old is too old for a steel LPG cylinder in Pakistan?', a: 'As a practical safety guideline, a steel cylinder more than 10 years old should be retired regardless of hydrotest status. OGRA specifies hydrotesting every 5 years, but cumulative corrosion, mechanical fatigue, and handling damage in Pakistani conditions make cylinders increasingly unsafe as they age. The manufacture date is stamped on the cylinder body — if you cannot read it, that itself is a warning sign.' },
+    { q: 'Is a faint gas smell normal when lighting a stove?', a: 'A very brief, faint smell of gas at the precise moment of lighting — lasting less than one second — can occur from residual unburned gas igniting in the burner. This is within normal limits. Any gas smell that persists after the burner is lit, that is detectable when the stove is off, or that you notice anywhere other than immediately at the burner when lighting, is not normal and must be investigated immediately using the procedure: close valve, ventilate, evacuate, call a technician.' },
+  ],
+  'composite-lpg-cylinder-price-pakistan-2025': [
+    { q: 'How much does a composite LPG cylinder cost in Pakistan in 2025?', a: 'In 2025, WAA Technologies composite LPG cylinders are priced at approximately: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder, LPG fill purchased separately). Prices vary by city and dealer. The LPG refill cost is the same as for steel cylinders — composite does not cost more to refill.' },
+    { q: 'Is the LPG refill price different for a composite cylinder in Pakistan?', a: 'No. LPG refill price is determined by the weight of gas purchased at the per-kg rate set by OGRA, and is the same regardless of cylinder type — steel or composite. A 10 kg LPG refill costs the same whether you have a WAA composite cylinder or a conventional steel cylinder.' },
+    { q: 'Is a composite LPG cylinder worth the extra cost in Pakistan?', a: 'Over a 10-year period, the total cost of ownership for a composite cylinder is comparable to steel when hydrotest costs and replacement frequency are factored in. Composite cylinders eliminate the Rs. 700 hydrotest every 5 years and do not need replacement at year 8–10 like steel cylinders. The 20+ year service life, gas level visibility, 50% lighter weight, and non-blast safety certification add substantial value beyond the cost comparison.' },
+    { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
+  ],
+  'parco-vs-waa-technologies-cylinder-pakistan': [
+    { q: 'What is the difference between PARCO and WAA Technologies in Pakistan\'s LPG market?', a: 'PARCO (Pak-Arab Refinery) is an LPG producer and distributor — it sells the gas itself in conventional steel cylinders. WAA Technologies is a composite cylinder manufacturer — it makes the container (cylinder) that is filled with LPG from any licensed distributor, including PARCO-affiliated dealers. They operate in different parts of the value chain and are not directly competing products.' },
+    { q: 'Can I fill a WAA Technologies composite cylinder with PARCO LPG?', a: 'Yes. A WAA Technologies composite cylinder can be filled with LPG from any OGRA-licensed filling station, including those supplied by PARCO-affiliated distributors. The cylinder and the gas are purchased separately — your WAA cylinder is simply the storage vessel for whatever LPG you buy from your local dealer.' },
+    { q: 'Is PARCO LPG safer than other LPG in Pakistan?', a: 'All LPG sold through OGRA-licensed distributors in Pakistan meets the same specification requirements. The safety question that matters most for Pakistani household accidents is not which company supplied the gas, but what type of cylinder the gas is stored in — steel cylinders can rupture violently under fire or over-pressure conditions; ISO-certified composite cylinders cannot.' },
+    { q: 'Which is better for a Pakistani household — PARCO steel or WAA composite?', a: 'For lowest upfront cost: PARCO steel cylinders at Rs. 4,000–5,500. For safety, long-term value, gas level visibility, and lighter weight: WAA Technologies composite cylinders at Rs. 9,000–14,000. Over a 10-year period, total ownership costs are comparable when hydrotest and replacement costs are included — and composite provides safety and convenience advantages at every point in that period.' },
+  ],
+  'chinese-imported-vs-pakistani-composite-lpg-cylinder': [
+    { q: 'Are Chinese LPG cylinders safe to use in Pakistan?', a: 'Chinese LPG cylinders range from genuinely ISO-certified products from accredited manufacturers to uncertified products with fake certification markings. The safety question is whether the specific cylinder has traceable certification from an accredited testing laboratory — not the country of origin. Always verify the certification document and the certifying laboratory\'s ISO 17025 accreditation status before buying any imported cylinder.' },
+    { q: 'How can I tell if an imported composite LPG cylinder is genuinely certified in Pakistan?', a: 'Ask for the test certificate document naming the testing laboratory, the certificate number, and the test dates. Verify that the named laboratory is ISO 17025-accredited and that the certificate number is traceable to a real testing record. A genuine certified cylinder will also have an individual serial number on the cylinder body. If the seller cannot produce this documentation, treat the certification as unverified.' },
+    { q: 'Why are WAA Technologies cylinders more trustworthy than imported cylinders?', a: 'WAA Technologies cylinders are manufactured in Gujranwala, sold through OGRA-licensed authorised dealers, and individually serialised with traceability to production records and certification testing. The dealer network takes legal responsibility for product compliance. This accountability chain — manufacturer to OGRA-licensed dealer to consumer — provides a level of verified compliance that informal import channels cannot match.' },
+    { q: 'Is it legal to sell uncertified LPG cylinders in Pakistan?', a: 'No. OGRA regulations require all LPG cylinders sold in Pakistan to be certified to applicable standards. Selling uncertified cylinders through an OGRA-licensed dealer is a licence violation. Selling without an OGRA dealer licence is a violation of the Petroleum Act. Both carry legal consequences, though enforcement at the retail level varies in practice across Pakistan.' },
+  ],
+  'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan': [
+    { q: 'How long does the traditional steel gola last in Pakistan?', a: 'In typical Pakistani conditions — kitchen-floor storage, outdoor exposure, humidity, rough handling — a steel gola realistically lasts 8–12 years before corrosion and mechanical wear make it unsafe to continue. It requires a hydrostatic test every 5 years during that period at a licensed facility. A composite fiber cylinder is rated for 20+ years with no periodic testing requirement.' },
+    { q: 'Is a fiber LPG cylinder better value than the steel gola?', a: 'Over a 5-year period, the cost difference narrows to approximately Rs. 1,800–3,000 when hydrotest savings and unnecessary delivery fee savings are included. Over 10 years, total costs are essentially equal — and the composite owner still has a full-life cylinder while the steel owner has started their second replacement cycle. Beyond 10 years, composite saves significantly.' },
+    { q: 'Can I exchange my old steel gola for a composite cylinder at a dealer?', a: 'Some WAA Technologies authorised dealers offer trade-in or exchange programs for existing steel cylinder owners switching to composite. Contact your nearest WAA authorised dealer to ask about current exchange options. Even without a trade-in program, recycled steel value from your old cylinder may offset part of the composite purchase price.' },
+    { q: 'What is the LPG refill cost difference between steel gola and fiber composite cylinder?', a: 'Zero — the LPG refill cost is identical for steel and composite cylinders. Refill cost is determined by the weight of gas purchased at OGRA\'s per-kg rate, which is the same regardless of cylinder type. The hardware costs differ substantially; the ongoing fuel costs do not.' },
+  ],
+  'composite-lpg-cylinder-lahore': [
+    { q: 'Where is the WAA Technologies showroom in Lahore?', a: 'The WAA Technologies showroom is at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. Phone: (+92) 42 37815533. Open Monday to Saturday during regular business hours. Authorised dealers are located across DHA, Gulberg, Model Town, Johar Town, Faisal Town, Iqbal Town, and Cantt areas.' },
+    { q: 'Does WAA Technologies offer home delivery of composite cylinders in Lahore?', a: 'Select WAA Technologies authorised dealers in Lahore offer home delivery of both empty and filled composite cylinders. Availability and charges vary by dealer and area. Contact the Lahore showroom at (+92) 42 37815533 for delivery options in your specific Lahore neighbourhood.' },
+    { q: 'Why is a composite LPG cylinder especially useful during Lahore\'s winter gas shortage?', a: 'Lahore is on the SNGPL pipeline network, which experiences severe pressure collapses every winter (November–February) as Punjab heating demand spikes. A WAA composite cylinder provides fully independent LPG cooking fuel that is completely unaffected by pipeline pressure — meaning Lahore families with a composite cylinder can cook normally during the worst annual gas shortage weeks.' },
+    { q: 'What is the composite LPG cylinder price in Lahore in 2025?', a: '2025 prices at WAA Technologies authorised dealers in Lahore: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder; LPG fill purchased separately). Prices may vary slightly by dealer. Contact the Lahore showroom for current pricing.' },
+  ],
+  'composite-lpg-cylinder-karachi': [
+    { q: 'Why do steel LPG cylinders corrode faster in Karachi than other cities?', a: 'Karachi\'s proximity to the Arabian Sea creates a salt-laden coastal humidity environment that accelerates steel corrosion significantly — 2–3 times faster than in Lahore or Islamabad. Salt acts as an electrolyte that speeds up electrochemical corrosion on steel surfaces. A steel cylinder in Karachi develops visible rust in 18–24 months. WAA composite cylinders are completely immune: HDPE and glass fibre cannot corrode regardless of salt air or humidity exposure.' },
+    { q: 'Are composite cylinders suitable for high-rise apartments in Karachi?', a: 'Yes — they are especially well-suited. A filled 10 kg WAA composite cylinder weighs 18–20 kg, compared to 28–30 kg for a steel equivalent — approximately 40% lighter. This makes carrying cylinders up stairs significantly safer and more manageable for a single person. For Karachi\'s high-rise apartment residents who must carry cylinders up stairs, the weight advantage is one of the most immediately practical benefits.' },
+    { q: 'Does WAA Technologies have dealers in all Karachi districts?', a: 'WAA Technologies authorised dealers serve Defence, Clifton, PECHS, Gulshan-e-Iqbal, Nazimabad, North Karachi, Korangi, Landhi, and Malir. Contact WAA Technologies at (+92) 42 37815533 or visit waatechnologies.com/authorized-dealers for the specific dealer nearest to your Karachi address.' },
+    { q: 'Is a composite cylinder worth it for Karachi households despite the higher price?', a: 'Yes, particularly in Karachi. The coastal humidity that accelerates steel corrosion makes composite\'s corrosion-free advantage especially valuable — a steel cylinder in Karachi needs replacement or hydrotest sooner than in inland cities, narrowing the long-term cost difference further. The weight advantage for high-rise living and the independence from SSGC supply interruptions add additional value specific to Karachi.' },
+  ],
+  'composite-lpg-cylinder-islamabad': [
+    { q: 'How severe is the winter gas shortage in Islamabad and Rawalpindi?', a: 'Islamabad consistently records among Pakistan\'s most severe winter pipeline gas pressure collapses. In January–February 2024 and 2025, twin cities households reported gas pressure dropping to near-zero for 8–20 hours per day during peak cold weeks. A WAA composite LPG cylinder provides completely independent cooking fuel during these outages — unaffected by SNGPL pipeline conditions.' },
+    { q: 'Which composite cylinder size is best for Islamabad and Rawalpindi winters?', a: 'For family households: the 12 kg composite cylinder is recommended for the twin cities. Given colder winters and higher heating demand, a 12 kg cylinder with one refill in reserve provides 6–12 weeks of backup cooking capacity — typically sufficient to cover the worst annual winter shortage period. For single-person or couple households using LPG for backup only, the 10 kg is more economical.' },
+    { q: 'Are WAA Technologies dealers available in Bahria Town Islamabad?', a: 'Yes. WAA Technologies has authorised dealer coverage in Bahria Town Islamabad. Contact (+92) 42 37815533 for the specific dealer nearest to your Bahria Town phase or sector.' },
+    { q: 'Can composite LPG cylinders be used outdoors in Islamabad\'s cold winters?', a: 'Yes. WAA composite cylinders are rated for outdoor storage and use across the full range of Pakistani temperatures — from Islamabad\'s near-0°C January nights to Pakistan\'s 45°C+ summer peaks. The HDPE body is UV-stabilised for outdoor storage and unaffected by temperature cycling. Note that LPG vaporisation rate decreases slightly at very low temperatures — this is a property of LPG itself, not the cylinder type.' },
+  ],
+  'lpg-industry-pakistan-market-size-future-outlook': [
+    { q: 'How large is Pakistan\'s LPG market?', a: 'Pakistan\'s LPG market has an estimated annual value of PKR 600–700 billion across upstream, midstream, and downstream segments at 2025 prices. The country consumes approximately 1.5–1.8 million metric tons of LPG annually, making it one of South Asia\'s largest LPG markets. Approximately 10–12 million Pakistani households use LPG as their primary or backup cooking fuel.' },
+    { q: 'Who regulates LPG in Pakistan?', a: 'OGRA (Oil and Gas Regulatory Authority) is the federal regulator for all LPG activities in Pakistan, established under the OGRA Ordinance 2002. OGRA licenses upstream producers, importers, distributors, and retail dealers; sets safety standards; conducts market surveillance inspections; and manages the LPG pricing framework in coordination with the Ministry of Energy.' },
+    { q: 'What is the growth outlook for Pakistan\'s composite LPG cylinder market?', a: 'Composite LPG cylinders represent the highest-growth segment of Pakistan\'s LPG equipment market. With current fleet penetration below 5% against a 30–40 million total cylinder fleet, the addressable market is enormous. Growing consumer awareness, expanding dealer networks, and increasing regulatory pressure on non-compliant steel cylinders all support composite demand growing at 25–35% annually over 2025–2030.' },
+    { q: 'Where does Pakistan get its LPG from?', a: 'Pakistan produces approximately 600,000 metric tons of LPG annually domestically from OGDCL and PPL gas fields in Sindh, Balochistan, and KPK — covering 35–40% of consumption. The remaining 60–65% is imported, primarily from Saudi Arabia (~50% of imports under Saudi Aramco term contracts), UAE (~25%), and Iraq and others (~25%), arriving at the Port Qasim LPG terminal in Karachi.' },
+  ],
+  'how-lpg-cylinders-tested-safety-pakistan': [
+    { q: 'What is the fire engulfment test for LPG cylinders?', a: 'The fire engulfment test is the most safety-critical test in the ISO 11119-3 composite cylinder certification series. A filled cylinder is exposed to sustained open flame around its full circumference. The test confirms the cylinder releases pressure through a controlled gas leak rather than a violent rupture — the "non-blast" behaviour that is composite cylinders\' primary safety advantage. Every WAA Technologies cylinder model has passed this test as part of its ISO 11119-3 certification.' },
+    { q: 'What is the difference between a hydrotest and a burst test for LPG cylinders?', a: 'The hydrotest (1.5× working pressure) is a periodic in-service inspection tool for steel cylinders — performed every 5 years to confirm a specific cylinder in service is still structurally sound. The burst test (pressurised to failure, minimum 2× working pressure) is a design qualification test validating a cylinder model\'s safety margin and failure mode. The burst test is done once during design certification; the hydrotest is repeated every 5 years in service.' },
+    { q: 'How do I verify that a WAA Technologies cylinder is genuinely certified?', a: 'Every WAA composite cylinder has an individual serial number on the cylinder body, traceable to production records and the specific certification testing batch. WAA Technologies can provide certification documentation — including the certificate number, certifying laboratory name, and test dates — for any cylinder identified by serial number. Contact WAA Technologies at (+92) 42 37815533 for certification documentation requests.' },
+    { q: 'Are steel LPG cylinders tested to the same safety standards as composite cylinders in Pakistan?', a: 'No. Steel cylinders are tested to PS 4922, which requires hydrostatic burst testing at manufacture and hydrotest every 5 years. Composite cylinders are tested to ISO 11119-3, which additionally requires 12,000-cycle fatigue testing, fire engulfment testing, drop testing, and UV degradation testing. ISO 11119-3 is more demanding than PS 4922, particularly in fire safety performance requirements — the fire engulfment test that proves non-blast behaviour is not required for steel cylinders under Pakistani certification requirements.' },
+  ],
+  'ogra-licensed-lpg-cylinder-manufacturers-pakistan': [
+    { q: 'How do I find OGRA-licensed LPG cylinder manufacturers in Pakistan?', a: 'The OGRA website (ogra.org.pk) maintains a public register of licensed LPG manufacturers with company names, licence categories, and validity dates. Buying from an OGRA-licensed dealer who can name the cylinder manufacturer is the most practical way to ensure the product comes from a licensed source.' },
+    { q: 'Is WAA Technologies OGRA licensed?', a: 'Yes. WAA Technologies Pvt Ltd holds a current OGRA manufacturing licence for composite LPG cylinder production and distributes through an authorised OGRA-licensed dealer network. WAA cylinders are certified to ISO 11119-3 and EN 14427-2022, exceeding the minimum PS 4922 requirements. Contact WAA Technologies at (+92) 42 37815533 for licence documentation.' },
+    { q: 'What happens if I buy an LPG cylinder from a non-licensed manufacturer?', a: 'Cylinders from non-licensed manufacturers have no verified certification compliance. Their burst pressure, weld quality, and fire performance are unknown. If a non-certified cylinder causes an accident, the consumer has no legal recourse against the manufacturer (who operated outside the regulatory framework) and their own insurance coverage may be voided if the product is found to be non-compliant.' },
+    { q: 'Are imported LPG cylinders required to meet OGRA compliance standards?', a: 'Yes. LPG cylinders imported into Pakistan must comply with the same standards as domestically manufactured cylinders — PS 4922 for steel or ISO 11119-3 / EN 14427 for composite. The OGRA-licensed importer takes legal responsibility for compliance. Direct purchase of cylinders from foreign manufacturers without going through an OGRA-licensed importer provides no compliance assurance.' },
+  ],
+  'pakistan-lpg-imports-vs-domestic-production-2025': [
+    { q: 'Why does the LPG refill price change every month in Pakistan?', a: 'OGRA adjusts the Maximum Consumer Price for LPG monthly based on the previous month\'s Saudi Aramco Contract Price (CP), international shipping rates, port charges, import duties, and distribution margins. Since 60–65% of Pakistan\'s LPG is imported at this international price, domestic LPG costs are directly linked to global energy market movements that change every month.' },
+    { q: 'Why can\'t Pakistan increase its domestic LPG production?', a: 'Domestic LPG production is constrained by natural gas extraction rates from Pakistan\'s existing gas fields, most of which are mature and in decline. Domestic LPG can only increase meaningfully through new gas field discoveries and development — a long-lead, capital-intensive process. Pakistan\'s E&P investment environment has limited new field development in recent years, meaning import dependency is expected to persist through 2030.' },
+    { q: 'Does the Pakistan government subsidise LPG prices?', a: 'Pakistan has historically applied limited direct subsidies to LPG prices, primarily through occasional relief packages during extreme price spikes. OGRA\'s monthly MCP calculation incorporates a regulated margin structure limiting what distributors and retailers can charge above their cost base. Direct price subsidies are occasional and limited in scale compared to the historical subsidies applied to pipeline Sui gas.' },
+    { q: 'Is Pakistan\'s winter LPG shortage caused by import supply failures?', a: 'No — primarily a domestic distribution and capacity constraint, not an import supply failure. LPG imports continue year-round at relatively consistent volumes. Winter shortages result from demand spikes exceeding distribution infrastructure capacity, priority dispatch to industrial customers, and dealer stock management that doesn\'t scale up early enough for the winter demand surge. Households with a full composite cylinder and one refill in reserve are insulated from distribution bottlenecks regardless of cause.' },
+  ],
   'why-restaurants-switching-composite-lpg-cylinders-pakistan': [
     {
       q: 'How many composite LPG cylinders does a restaurant in Pakistan typically need?',

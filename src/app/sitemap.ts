@@ -52,6 +52,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'winter-gas-shortage-pakistan-2025-prepare-your-home',
     'ramadan-gas-safety-tips-pakistani-kitchens',
     'load-shedding-lpg-pakistanis-switching-gas-cooking',
+    'gas-cylinder-blast-incidents-pakistan-2025',
+    'ogra-rules-lpg-cylinders-pakistan',
+    'steel-vs-composite-lpg-cylinder-pakistan',
+    'why-lpg-cylinders-explode-pakistan-how-to-prevent',
+    'psi-certified-gas-cylinder-pakistan',
+    'gas-cylinder-warning-signs-pakistan',
+    'composite-lpg-cylinder-price-pakistan-2025',
+    'parco-vs-waa-technologies-cylinder-pakistan',
+    'chinese-imported-vs-pakistani-composite-lpg-cylinder',
+    'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan',
+    'composite-lpg-cylinder-lahore',
+    'composite-lpg-cylinder-karachi',
+    'composite-lpg-cylinder-islamabad',
+    'lpg-industry-pakistan-market-size-future-outlook',
+    'how-lpg-cylinders-tested-safety-pakistan',
+    'ogra-licensed-lpg-cylinder-manufacturers-pakistan',
+    'pakistan-lpg-imports-vs-domestic-production-2025',
   ]);
 
   return [
