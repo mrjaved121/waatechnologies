@@ -93,7 +93,7 @@ export default function ShopPage() {
           <div className="flex items-center gap-3">
             <Filter className="w-4 h-4 text-slate-400" />
             <span className="text-sm text-slate-500">Sort by:</span>
-            <select className="text-sm border border-slate-200 rounded-lg px-3 py-2 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+            <select className="text-sm border border-slate-200 rounded-lg px-3 py-2 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-green-700">
               <option>Default</option>
               <option>Price: Low to High</option>
               <option>Price: High to Low</option>
@@ -135,7 +135,7 @@ export default function ShopPage() {
                   )}
                 </div>
                 <div className="p-5">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-700 transition-colors line-clamp-2">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors line-clamp-2">
                     {p.name}
                   </h3>
                   <div className="flex items-center gap-1 mb-2">
@@ -146,7 +146,7 @@ export default function ShopPage() {
                   </div>
                   <div className="flex items-center gap-2 mb-4">
                     {p.oldPrice && <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
-                    <span className="text-lg font-black text-green-700">₨ {p.price.toLocaleString()}</span>
+                    <span className="text-lg font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
                   <AddToCartButton
                     slug={p.slug}
@@ -165,7 +165,7 @@ export default function ShopPage() {
       <section className="py-12 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-slate-500 text-sm mb-2">Need help choosing the right cylinder?</p>
-          <Link href="/contact-us" className="text-green-700 font-semibold hover:text-green-800 transition-colors text-sm">
+          <Link href="/contact-us" className="text-green-900 font-semibold hover:text-green-950 transition-colors text-sm">
             Contact our team →
           </Link>
         </div>

@@ -42,7 +42,7 @@ export default function ReturnsPage() {
                 <ul className="flex flex-col gap-2">
                   {section.points.map((pt) => (
                     <li key={pt} className="flex items-center gap-2 text-sm text-slate-600">
-                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
                       {pt}
                     </li>
                   ))}
@@ -52,7 +52,7 @@ export default function ReturnsPage() {
           </div>
           <div className="mt-10 text-center">
             <p className="text-slate-500 mb-4">Need help with a return?</p>
-            <Link href="/contact-us" className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+            <Link href="/contact-us" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all">
               Contact Us
             </Link>
           </div>

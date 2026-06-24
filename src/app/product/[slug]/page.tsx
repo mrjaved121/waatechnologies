@@ -110,7 +110,7 @@ export default async function ProductPage({ params }: Props) {
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-3xl font-black text-slate-900 mb-3">Product Not Found</h1>
         <p className="text-slate-500 mb-6">This product doesn&apos;t exist or has been moved.</p>
-        <Link href="/shop" className="bg-green-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-800 transition-colors">Back to Shop</Link>
+        <Link href="/shop" className="bg-green-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-950 transition-colors">Back to Shop</Link>
       </div>
     );
   }
@@ -179,9 +179,9 @@ export default async function ProductPage({ params }: Props) {
       <section className="py-6 bg-slate-50 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-slate-500 hover:text-green-700 transition-colors">Home</Link>
+            <Link href="/" className="text-slate-500 hover:text-green-900 transition-colors">Home</Link>
             <span className="text-slate-300">/</span>
-            <Link href="/shop" className="text-slate-500 hover:text-green-700 transition-colors">Shop</Link>
+            <Link href="/shop" className="text-slate-500 hover:text-green-900 transition-colors">Shop</Link>
             <span className="text-slate-300">/</span>
             <span className="text-slate-900 font-medium">{product.name}</span>
           </div>
@@ -214,7 +214,7 @@ export default async function ProductPage({ params }: Props) {
           {/* Details */}
           <div>
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className="text-xs font-bold bg-green-100 text-green-700 px-3 py-1 rounded-full">LPG Composite</span>
+              <span className="text-xs font-bold bg-green-100 text-green-900 px-3 py-1 rounded-full">LPG Composite</span>
               <span className="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">{product.weight}</span>
               {product.oldPrice && <span className="text-xs font-bold bg-red-100 text-red-600 px-3 py-1 rounded-full">ON SALE</span>}
             </div>
@@ -229,7 +229,7 @@ export default async function ProductPage({ params }: Props) {
             </div>
             <div className="flex items-baseline gap-3 mb-5">
               {product.oldPrice && <span className="text-xl text-slate-400 line-through">₨ {product.oldPrice.toLocaleString()}</span>}
-              <span className="text-4xl font-black text-green-700">₨ {product.price.toLocaleString()}</span>
+              <span className="text-4xl font-black text-green-900">₨ {product.price.toLocaleString()}</span>
             </div>
             <p className="text-slate-600 leading-relaxed mb-6">{product.description}</p>
 
@@ -237,7 +237,7 @@ export default async function ProductPage({ params }: Props) {
             <div className="flex flex-wrap gap-3 mb-6">
               {highlights.map((h) => (
                 <div key={h.label} className="flex items-center gap-1.5 bg-slate-50 border border-slate-200 rounded-full px-3 py-1.5 text-xs font-medium text-slate-700">
-                  <h.icon className="w-3.5 h-3.5 text-green-600" />
+                  <h.icon className="w-3.5 h-3.5 text-green-800" />
                   {h.label}
                 </div>
               ))}
@@ -249,7 +249,7 @@ export default async function ProductPage({ params }: Props) {
               <div className="grid grid-cols-2 gap-2">
                 {product.features.map((f) => (
                   <div key={f} className="flex items-center gap-2 text-sm text-slate-600">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
                     {f}
                   </div>
                 ))}
@@ -266,16 +266,16 @@ export default async function ProductPage({ params }: Props) {
             <div className="flex gap-3 mb-6">
               <Link
                 href="/contact-us"
-                className="flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-5 py-3.5 rounded-xl font-semibold transition-all text-sm"
+                className="flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-5 py-3.5 rounded-xl font-semibold transition-all text-sm"
               >
                 <Phone className="w-5 h-5" /> Enquire
               </Link>
             </div>
 
             <div className="flex flex-col gap-2 text-sm text-slate-500">
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> ISO 9001-2015 & EN 14427-2022 Certified</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> PEC Approved &amp; OGRA Regulated</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Every unit hydro-tested before dispatch</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> ISO 9001-2015 & EN 14427-2022 Certified</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> PEC Approved &amp; OGRA Regulated</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Every unit hydro-tested before dispatch</div>
             </div>
           </div>
         </div>
@@ -284,7 +284,7 @@ export default async function ProductPage({ params }: Props) {
       <section className="py-12 bg-slate-50 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-black text-slate-900 mb-6">You May Also Like</h2>
-          <Link href="/shop" className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+          <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all">
             View All Products
           </Link>
         </div>

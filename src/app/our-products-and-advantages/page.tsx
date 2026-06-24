@@ -67,7 +67,7 @@ export default function ProductsAndAdvantagesPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {advantages.map((a) => (
               <div key={a.title} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 card-hover">
-                <div className="w-14 h-14 bg-green-100 text-green-700 rounded-xl flex items-center justify-center mb-5">
+                <div className="w-14 h-14 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-5">
                   <a.icon className="w-7 h-7" />
                 </div>
                 <h3 className="font-bold text-slate-900 text-lg mb-2">{a.title}</h3>
@@ -79,7 +79,7 @@ export default function ProductsAndAdvantagesPage() {
       </section>
 
       {/* Safety Testing */}
-      <section className="py-16 bg-green-700 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-black mb-4">Safety Testing on Every Cylinder</h2>
@@ -157,20 +157,20 @@ export default function ProductsAndAdvantagesPage() {
                   )}
                 </div>
                 <div className="p-4">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-700 transition-colors">{p.name}</h3>
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors">{p.name}</h3>
                   <div className="flex items-center gap-2 mb-3">
                     {'oldPrice' in p && p.oldPrice && (
                       <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>
                     )}
-                    <span className="text-base font-black text-green-700">₨ {p.price.toLocaleString()}</span>
+                    <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
-                  <button className="w-full bg-slate-900 hover:bg-green-700 text-white text-xs font-semibold py-2 rounded-lg transition-colors">Add to Cart</button>
+                  <button className="w-full bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors">Add to Cart</button>
                 </div>
               </Link>
             ))}
           </div>
           <div className="text-center">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md">
+            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md">
               View All in Shop <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

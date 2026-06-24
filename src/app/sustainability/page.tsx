@@ -37,7 +37,7 @@ const pillars = [
   {
     icon: Leaf,
     title: 'Environment',
-    color: 'bg-green-50 text-green-700 border-green-100',
+    color: 'bg-green-50 text-green-900 border-green-100',
     points: [
       'Composite cylinders use 70% less raw material than steel',
       'Zero rust/corrosion means no chemical leaching into soil',
@@ -129,7 +129,7 @@ export default function SustainabilityPage() {
               { icon: Heart, title: 'Community Impact', desc: 'Safer cylinders mean fewer household fires and gas accidents in Pakistani communities.' },
             ].map((card) => (
               <div key={card.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 card-hover">
-                <div className="w-12 h-12 bg-green-100 text-green-700 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-4">
                   <card.icon className="w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2">{card.title}</h3>

@@ -4,9 +4,9 @@
 :root {
   --background: #ffffff;
   --foreground: #1e293b;
-  --primary: #15803d;
-  --primary-dark: #14532d;
-  --primary-light: #22c55e;
+  --primary: #1a4731;
+  --primary-dark: #0f2d1e;
+  --primary-light: #15803d;
   --accent: #d97706;
   --accent-light: #fbbf24;
 }
@@ -33,7 +33,7 @@ body {
 /* ── Article typography overrides ─────────────────────────────────────── */
 
 .prose h2 {
-  border-left: 4px solid #15803d;
+  border-left: 4px solid #1a4731;
   padding-left: 1rem;
   margin-left: -1.25rem;
   color: #0f172a;
@@ -41,7 +41,7 @@ body {
 }
 
 .prose h3 {
-  color: #15803d;
+  color: #1a4731;
   font-weight: 800;
 }
 
@@ -64,49 +64,49 @@ body {
 }
 
 .prose ul > li::marker {
-  color: #15803d;
+  color: #1a4731;
 }
 
 .prose ol > li::marker {
-  color: #15803d;
+  color: #1a4731;
   font-weight: 700;
 }
 
 .prose a {
-  color: #15803d;
+  color: #1a4731;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .prose a:hover {
-  color: #14532d;
+  color: #0f2d1e;
 }
 
 .prose blockquote {
-  border-left-color: #15803d;
+  border-left-color: #1a4731;
   background: #f0fdf4;
   padding: 1rem 1.5rem;
   border-radius: 0 0.75rem 0.75rem 0;
   font-style: normal;
-  color: #166534;
+  color: #1a4731;
 }
 
 .prose blockquote p {
-  color: #166534;
+  color: #1a4731;
   font-weight: 500;
 }
 
 /* ── Gradient & nav utilities ─────────────────────────────────────────── */
 
 .gradient-green {
-  background: linear-gradient(135deg, #14532d 0%, #15803d 50%, #16a34a 100%);
+  background: linear-gradient(135deg, #0f2d1e 0%, #1a4731 50%, #15803d 100%);
 }
 
 .gradient-hero {
   background: linear-gradient(
     135deg,
-    rgba(20, 83, 45, 0.92) 0%,
-    rgba(21, 128, 61, 0.85) 50%,
+    rgba(15, 45, 30, 0.93) 0%,
+    rgba(26, 71, 49, 0.88) 50%,
     rgba(0, 0, 0, 0.6) 100%
   );
 }
@@ -130,7 +130,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #15803d;
+  background: #1a4731;
   transition: width 0.25s ease;
 }
 .nav-link:hover::after {
@@ -163,7 +163,7 @@ body {
 
 .section-divider {
   height: 4px;
-  background: linear-gradient(90deg, #15803d, #22c55e, #d97706);
+  background: linear-gradient(90deg, #0f2d1e, #1a4731, #d97706);
   border-radius: 2px;
 }
 
@@ -173,4 +173,4 @@ html {
 
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #15803d; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #1a4731; border-radius: 3px; }

@@ -70,13 +70,13 @@ export default function OurTechnologyPage() {
             {techSteps.map((step, i) => (
               <div key={step.title} className="flex gap-6 items-start bg-slate-50 rounded-2xl p-7 border border-slate-100">
                 <div className="flex-shrink-0">
-                  <div className="w-14 h-14 bg-green-700 text-white rounded-xl flex items-center justify-center">
+                  <div className="w-14 h-14 bg-green-900 text-white rounded-xl flex items-center justify-center">
                     <step.icon className="w-7 h-7" />
                   </div>
                 </div>
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-xs font-bold text-green-700 bg-green-100 rounded-full px-2.5 py-0.5">
+                    <span className="text-xs font-bold text-green-900 bg-green-100 rounded-full px-2.5 py-0.5">
                       Step {i + 1}
                     </span>
                     <h3 className="font-black text-slate-900 text-lg">{step.title}</h3>
@@ -132,7 +132,7 @@ export default function OurTechnologyPage() {
                 <div key={row.label} className="grid grid-cols-3 gap-3 bg-slate-50 rounded-xl p-4">
                   <div className="font-bold text-slate-700 text-sm">{row.label}</div>
                   <div className="text-red-500 text-sm flex items-start gap-1"><span className="font-bold">✗</span>{row.steel}</div>
-                  <div className="text-green-700 text-sm flex items-start gap-1"><CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" />{row.composite}</div>
+                  <div className="text-green-900 text-sm flex items-start gap-1"><CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" />{row.composite}</div>
                 </div>
               ))}
             </div>
@@ -151,7 +151,7 @@ export default function OurTechnologyPage() {
               ].map((row) => (
                 <div key={row.label} className="flex justify-between items-center py-2 border-b border-green-100 last:border-0">
                   <span className="text-slate-600 text-sm">{row.label}</span>
-                  <span className="text-green-800 font-semibold text-sm text-right">{row.val}</span>
+                  <span className="text-green-950 font-semibold text-sm text-right">{row.val}</span>
                 </div>
               ))}
             </div>

@@ -88,10 +88,10 @@ export default function CaseStudiesPage() {
                     <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3.5 h-3.5" />{cs.date}</span>
                   </div>
                   <h2 className="text-xl font-black text-slate-900 mb-3 leading-snug">
-                    <Link href={`/${cs.slug}`} className="hover:text-green-700 transition-colors">{cs.title}</Link>
+                    <Link href={`/${cs.slug}`} className="hover:text-green-900 transition-colors">{cs.title}</Link>
                   </h2>
                   <p className="text-slate-600 leading-relaxed mb-4">{cs.excerpt}</p>
-                  <Link href={`/${cs.slug}`} className="inline-flex items-center gap-2 text-green-700 font-semibold hover:text-green-800 transition-colors">
+                  <Link href={`/${cs.slug}`} className="inline-flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
                     Read Full Case Study <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
@@ -101,7 +101,7 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-green-700 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-black mb-3">Ready to Be Our Next Success Story?</h2>
           <p className="text-green-100 mb-6 max-w-xl mx-auto">

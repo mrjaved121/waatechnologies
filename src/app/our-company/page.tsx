@@ -59,7 +59,7 @@ export default function OurCompanyPage() {
                 'Hydro-tested with air leakage testing on each unit',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
                   {item}
                 </div>
               ))}
@@ -85,7 +85,7 @@ export default function OurCompanyPage() {
             ].map((card) => (
               <div key={card.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-green-100 text-green-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center flex-shrink-0">
                     <card.icon className="w-6 h-6" />
                   </div>
                   <div>
@@ -109,7 +109,7 @@ export default function OurCompanyPage() {
               { val: '3', label: 'Dealer Provinces' },
             ].map((s) => (
               <div key={s.label} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-                <div className="text-4xl font-black text-green-700 mb-2">{s.val}</div>
+                <div className="text-4xl font-black text-green-900 mb-2">{s.val}</div>
                 <div className="text-slate-500 font-medium">{s.label}</div>
               </div>
             ))}

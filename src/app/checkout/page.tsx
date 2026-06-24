@@ -99,17 +99,17 @@ export default function CheckoutPage() {
     return (
       <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
         <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-          <CheckCircle2 className="w-10 h-10 text-green-600" />
+          <CheckCircle2 className="w-10 h-10 text-green-800" />
         </div>
         <h1 className="text-3xl font-black text-slate-900 mb-3">Order Sent!</h1>
         <p className="text-slate-500 max-w-md mb-3">
           Your order details have been sent to our WhatsApp. Our team will confirm your order and arrange delivery shortly.
         </p>
         <p className="text-sm text-slate-400 mb-8">
-          WhatsApp: <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="text-green-700 font-semibold">+92 3414999998</a>
+          WhatsApp: <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="text-green-900 font-semibold">+92 3414999998</a>
         </p>
         <div className="flex gap-3 flex-wrap justify-center">
-          <Link href="/shop" className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
+          <Link href="/shop" className="bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
             Continue Shopping
           </Link>
           <Link href="/" className="border border-slate-200 text-slate-700 hover:border-green-300 px-6 py-3 rounded-xl font-semibold transition-colors">
@@ -124,9 +124,9 @@ export default function CheckoutPage() {
     <>
       <section className="py-4 bg-slate-50 border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 flex items-center gap-2 text-sm">
-          <Link href="/" className="text-slate-500 hover:text-green-700 transition-colors">Home</Link>
+          <Link href="/" className="text-slate-500 hover:text-green-900 transition-colors">Home</Link>
           <span className="text-slate-300">/</span>
-          <Link href="/shop" className="text-slate-500 hover:text-green-700 transition-colors">Shop</Link>
+          <Link href="/shop" className="text-slate-500 hover:text-green-900 transition-colors">Shop</Link>
           <span className="text-slate-300">/</span>
           <span className="text-slate-900 font-medium">Checkout</span>
         </div>
@@ -141,7 +141,7 @@ export default function CheckoutPage() {
               <ShoppingCart className="w-16 h-16 text-slate-200 mx-auto mb-4" />
               <h2 className="text-2xl font-bold text-slate-700 mb-2">Your cart is empty</h2>
               <p className="text-slate-400 mb-6">Add some products before checking out.</p>
-              <Link href="/shop" className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
+              <Link href="/shop" className="bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
                 Browse Shop
               </Link>
             </div>
@@ -160,7 +160,7 @@ export default function CheckoutPage() {
                         placeholder="Email address"
                         value={form.email}
                         onChange={(e) => set('email', e.target.value)}
-                        className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400 ${errors.email ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
+                        className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400 ${errors.email ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
                       />
                       {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
                     </div>
@@ -177,7 +177,7 @@ export default function CheckoutPage() {
                             placeholder="First name"
                             value={form.firstName}
                             onChange={(e) => set('firstName', e.target.value)}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400 ${errors.firstName ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
+                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400 ${errors.firstName ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
                           />
                           {errors.firstName && <p className="text-red-500 text-xs mt-1">{errors.firstName}</p>}
                         </div>
@@ -187,7 +187,7 @@ export default function CheckoutPage() {
                             placeholder="Last name"
                             value={form.lastName}
                             onChange={(e) => set('lastName', e.target.value)}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400 ${errors.lastName ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
+                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400 ${errors.lastName ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
                           />
                           {errors.lastName && <p className="text-red-500 text-xs mt-1">{errors.lastName}</p>}
                         </div>
@@ -198,7 +198,7 @@ export default function CheckoutPage() {
                         <select
                           value={form.country}
                           onChange={(e) => set('country', e.target.value)}
-                          className="w-full border border-slate-300 rounded-lg px-4 py-3 pr-10 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none"
+                          className="w-full border border-slate-300 rounded-lg px-4 py-3 pr-10 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-green-700 appearance-none"
                         >
                           <option value="Pakistan">Pakistan</option>
                         </select>
@@ -212,7 +212,7 @@ export default function CheckoutPage() {
                           placeholder="Street address"
                           value={form.address}
                           onChange={(e) => set('address', e.target.value)}
-                          className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400 ${errors.address ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
+                          className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400 ${errors.address ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
                         />
                         {errors.address && <p className="text-red-500 text-xs mt-1">{errors.address}</p>}
                       </div>
@@ -223,7 +223,7 @@ export default function CheckoutPage() {
                         placeholder="+ Add apartment, suite, unit, etc. (optional)"
                         value={form.apartment}
                         onChange={(e) => set('apartment', e.target.value)}
-                        className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400"
+                        className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400"
                       />
 
                       <div className="grid grid-cols-2 gap-3">
@@ -233,7 +233,7 @@ export default function CheckoutPage() {
                             placeholder="Town / City"
                             value={form.city}
                             onChange={(e) => set('city', e.target.value)}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400 ${errors.city ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
+                            className={`w-full border rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400 ${errors.city ? 'border-red-400 bg-red-50' : 'border-slate-300'}`}
                           />
                           {errors.city && <p className="text-red-500 text-xs mt-1">{errors.city}</p>}
                         </div>
@@ -241,7 +241,7 @@ export default function CheckoutPage() {
                           <select
                             value={form.province}
                             onChange={(e) => set('province', e.target.value)}
-                            className="w-full border border-slate-300 rounded-lg px-4 py-3 pr-10 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none"
+                            className="w-full border border-slate-300 rounded-lg px-4 py-3 pr-10 text-sm text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-green-700 appearance-none"
                           >
                             {pakistanProvinces.map((p) => <option key={p} value={p}>{p}</option>)}
                           </select>
@@ -255,19 +255,19 @@ export default function CheckoutPage() {
                           placeholder="Postcode / ZIP (optional)"
                           value={form.postcode}
                           onChange={(e) => set('postcode', e.target.value)}
-                          className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400"
+                          className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400"
                         />
                         <input
                           type="tel"
                           placeholder="Phone (optional)"
                           value={form.phone}
                           onChange={(e) => set('phone', e.target.value)}
-                          className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400"
+                          className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400"
                         />
                       </div>
 
                       <label className="flex items-center gap-2 text-sm text-slate-600 cursor-pointer">
-                        <input type="checkbox" defaultChecked className="w-4 h-4 text-green-600 rounded border-slate-300 focus:ring-green-500" />
+                        <input type="checkbox" defaultChecked className="w-4 h-4 text-green-800 rounded border-slate-300 focus:ring-green-700" />
                         Use same address for billing
                       </label>
                     </div>
@@ -276,15 +276,15 @@ export default function CheckoutPage() {
                   {/* Shipping options */}
                   <div>
                     <h2 className="text-lg font-black text-slate-900 mb-4">Shipping options</h2>
-                    <label className="flex items-center justify-between border-2 border-green-600 bg-green-50 rounded-lg px-4 py-3.5 cursor-pointer">
+                    <label className="flex items-center justify-between border-2 border-green-800 bg-green-50 rounded-lg px-4 py-3.5 cursor-pointer">
                       <div className="flex items-center gap-3">
-                        <input type="radio" name="shipping" defaultChecked className="w-4 h-4 text-green-600 border-slate-300 focus:ring-green-500" />
+                        <input type="radio" name="shipping" defaultChecked className="w-4 h-4 text-green-800 border-slate-300 focus:ring-green-700" />
                         <div className="flex items-center gap-2">
-                          <Truck className="w-4 h-4 text-green-700" />
+                          <Truck className="w-4 h-4 text-green-900" />
                           <span className="text-sm font-semibold text-slate-900">Free shipping</span>
                         </div>
                       </div>
-                      <span className="text-sm font-bold text-green-700">FREE</span>
+                      <span className="text-sm font-bold text-green-900">FREE</span>
                     </label>
                   </div>
 
@@ -315,7 +315,7 @@ export default function CheckoutPage() {
                         placeholder="Notes about your order, e.g. special delivery instructions"
                         value={note}
                         onChange={(e) => setNote(e.target.value)}
-                        className="mt-3 w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-slate-400 resize-none"
+                        className="mt-3 w-full border border-slate-300 rounded-lg px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400 resize-none"
                       />
                     )}
                   </div>
@@ -323,14 +323,14 @@ export default function CheckoutPage() {
                   {/* Terms */}
                   <p className="text-xs text-slate-400">
                     By proceeding with your purchase you agree to our{' '}
-                    <Link href="/privacy-policy" className="underline text-slate-500 hover:text-green-700">Terms and Conditions</Link>{' '}
+                    <Link href="/privacy-policy" className="underline text-slate-500 hover:text-green-900">Terms and Conditions</Link>{' '}
                     and{' '}
-                    <Link href="/privacy-policy" className="underline text-slate-500 hover:text-green-700">Privacy Policy</Link>.
+                    <Link href="/privacy-policy" className="underline text-slate-500 hover:text-green-900">Privacy Policy</Link>.
                   </p>
 
                   <button
                     type="submit"
-                    className="w-full bg-slate-900 hover:bg-green-700 text-white py-4 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+                    className="w-full bg-slate-900 hover:bg-green-900 text-white py-4 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
                   >
                     <MessageSquare className="w-5 h-5" />
                     Place Order via WhatsApp
@@ -368,7 +368,7 @@ export default function CheckoutPage() {
                           <div className="flex-shrink-0 text-right">
                             <p className="text-sm font-black text-slate-900">₨ {(item.price * item.qty).toLocaleString()}</p>
                             {item.oldPrice && (
-                              <p className="text-xs text-green-600 font-semibold">
+                              <p className="text-xs text-green-800 font-semibold">
                                 Save ₨ {((item.oldPrice - item.price) * item.qty).toLocaleString()}
                               </p>
                             )}
@@ -408,7 +408,7 @@ export default function CheckoutPage() {
                         <button
                           type="button"
                           onClick={() => setCouponOpen((v) => !v)}
-                          className="flex items-center justify-between w-full text-sm font-semibold text-slate-700 hover:text-green-700 transition-colors"
+                          className="flex items-center justify-between w-full text-sm font-semibold text-slate-700 hover:text-green-900 transition-colors"
                         >
                           Add coupons
                           <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${couponOpen ? 'rotate-180' : ''}`} />
@@ -420,9 +420,9 @@ export default function CheckoutPage() {
                               placeholder="Coupon code"
                               value={coupon}
                               onChange={(e) => setCoupon(e.target.value)}
-                              className="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+                              className="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-700"
                             />
-                            <button type="button" className="bg-green-700 hover:bg-green-800 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors">
+                            <button type="button" className="bg-green-900 hover:bg-green-950 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors">
                               Apply
                             </button>
                           </div>
@@ -437,7 +437,7 @@ export default function CheckoutPage() {
                         </div>
                         <div className="flex justify-between text-sm text-slate-600">
                           <span>Free shipping</span>
-                          <span className="font-semibold text-green-600">FREE</span>
+                          <span className="font-semibold text-green-800">FREE</span>
                         </div>
                       </div>
 

@@ -26,7 +26,7 @@ const features = [
     icon: Shield,
     title: 'WAA Technology',
     desc: 'WAATechnologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
-    color: 'bg-green-50 text-green-700',
+    color: 'bg-green-50 text-green-900',
     border: 'border-green-200',
   },
   {
@@ -175,20 +175,20 @@ export default function HomePage() {
           <div className="relative">
             <div className="aspect-square max-w-md mx-auto bg-gradient-to-br from-green-50 to-emerald-100 rounded-3xl p-10 flex items-center justify-center shadow-xl">
               <div className="text-center">
-                <div className="w-24 h-24 bg-green-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                <div className="w-24 h-24 bg-green-900 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                   <span className="text-white font-black text-2xl">WAA</span>
                 </div>
-                <p className="text-green-800 font-bold text-xl mb-2">TECHNOLOGIES</p>
-                <p className="text-green-600 text-sm font-medium">PVT LTD</p>
+                <p className="text-green-950 font-bold text-xl mb-2">TECHNOLOGIES</p>
+                <p className="text-green-800 text-sm font-medium">PVT LTD</p>
                 <div className="mt-6 flex flex-col gap-2 text-sm text-slate-600">
                   <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" /> Est. 2022 — R&amp;D since 2018
+                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> Est. 2022 — R&amp;D since 2018
                   </div>
                   <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" /> 26,000 sq ft Plant, Gujranwala
+                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> 26,000 sq ft Plant, Gujranwala
                   </div>
                   <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" /> First Composite Cylinder in Pakistan
+                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> First Composite Cylinder in Pakistan
                   </div>
                 </div>
               </div>
@@ -201,12 +201,12 @@ export default function HomePage() {
 
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
-              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">About WAATechnologies</span>
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
+              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">About WAATechnologies</span>
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
               About<br />
-              <span className="text-green-700">WAATechnologies</span>
+              <span className="text-green-900">WAATechnologies</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-5">
               WAATechnologies was officially formed in 2022 at Gujranwala however research and development
@@ -228,13 +228,13 @@ export default function HomePage() {
             <div className="flex gap-3">
               <Link
                 href="/shop"
-                className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
+                className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
               >
                 SHOP NOW <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/about-us"
-                className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-6 py-3 rounded-xl font-semibold transition-all"
+                className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all"
               >
                 VIEW MORE
               </Link>
@@ -248,9 +248,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
             <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
-              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
+              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-4">
               Features of WAA Tech Cylinders
@@ -305,7 +305,7 @@ export default function HomePage() {
                 '50% lighter than conventional cylinders — easy to handle.',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-slate-600">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-green-800 flex-shrink-0 mt-0.5" />
                   <span className="text-sm leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -334,7 +334,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <div className="mt-4 bg-green-700 rounded-2xl p-4 text-white text-center">
+              <div className="mt-4 bg-green-900 rounded-2xl p-4 text-white text-center">
                 <div className="font-black text-2xl mb-1">Load Shedding?</div>
                 <div className="text-green-200 text-sm">WAA Gas keeps you cooking 24/7 with Global Gas</div>
               </div>
@@ -374,9 +374,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
             <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
-              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">Featured Products</span>
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
+              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Featured Products</span>
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-3">LPG &amp; Cylinders</h2>
             <p className="text-slate-500 max-w-xl mx-auto text-lg">
@@ -411,16 +411,16 @@ export default function HomePage() {
                   )}
                 </div>
                 <div className="p-4">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-700 transition-colors">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors">
                     {p.name}
                   </h3>
                   <div className="flex items-center gap-2 mb-3">
                     {p.oldPrice && (
                       <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>
                     )}
-                    <span className="text-base font-black text-green-700">₨ {p.price.toLocaleString()}</span>
+                    <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
-                  <button className="w-full bg-slate-900 hover:bg-green-700 text-white text-xs font-semibold py-2 rounded-lg transition-colors">
+                  <button className="w-full bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors">
                     Add to Cart
                   </button>
                 </div>
@@ -430,7 +430,7 @@ export default function HomePage() {
           <div className="text-center mt-10">
             <Link
               href="/shop"
-              className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
+              className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
             >
               View All Products <ArrowRight className="w-4 h-4" />
             </Link>
@@ -485,7 +485,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-black text-slate-900 mb-4">
-              The Perfect Fit for Your <span className="text-green-700">Home &amp; Global Gas</span>
+              The Perfect Fit for Your <span className="text-green-900">Home &amp; Global Gas</span>
             </h2>
             <p className="text-slate-500 max-w-2xl mx-auto">Features</p>
           </div>
@@ -513,7 +513,7 @@ export default function HomePage() {
               },
             ].map((f) => (
               <div key={f.title} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 card-hover">
-                <div className="w-12 h-12 bg-green-100 text-green-700 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-4">
                   <f.icon className="w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2">{f.title}</h3>
@@ -522,10 +522,10 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-10 flex justify-center gap-3">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md">
+            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md">
               GO TO SHOP
             </Link>
-            <Link href="/our-products-and-advantages" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-6 py-3 rounded-xl font-semibold transition-all">
+            <Link href="/our-products-and-advantages" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all">
               VIEW MORE
             </Link>
           </div>
@@ -537,9 +537,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
             <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
-              <span className="text-green-700 font-semibold text-sm uppercase tracking-wider">Testimonials</span>
-              <span className="w-8 h-0.5 bg-green-600 inline-block" />
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
+              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Testimonials</span>
+              <span className="w-8 h-0.5 bg-green-800 inline-block" />
             </div>
             <h2 className="text-4xl font-black text-slate-900">What Our Clients Say</h2>
           </div>
@@ -553,7 +553,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-slate-600 text-sm leading-relaxed mb-5 italic">&ldquo;{t.text}&rdquo;</p>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-700 text-sm flex-shrink-0">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-900 text-sm flex-shrink-0">
                     {t.name[0]}
                   </div>
                   <div>

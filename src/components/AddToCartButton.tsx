@@ -34,7 +34,7 @@ export default function AddToCartButton({ slug, name, price, oldPrice, className
     return (
       <button
         onClick={handleAdd}
-        className={`w-full flex items-center justify-center gap-2 bg-slate-900 hover:bg-green-700 text-white text-xs font-semibold py-2 rounded-lg transition-colors ${className}`}
+        className={`w-full flex items-center justify-center gap-2 bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors ${className}`}
       >
         {added ? <><Check className="w-3.5 h-3.5" /> Added</> : <><ShoppingCart className="w-3.5 h-3.5" /> Add to Cart</>}
       </button>
@@ -45,7 +45,7 @@ export default function AddToCartButton({ slug, name, price, oldPrice, className
     <div className={`flex gap-3 mb-6 ${className}`}>
       <button
         onClick={handleAdd}
-        className="flex-1 flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
+        className="flex-1 flex items-center justify-center gap-2 bg-green-900 hover:bg-green-950 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
       >
         {added ? (
           <><Check className="w-5 h-5" /> Added to Cart!</>

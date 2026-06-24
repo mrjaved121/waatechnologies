@@ -73,14 +73,14 @@ export default async function BlogPaginationPage({ params }: Props) {
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">{post.category}</span>
+                    <span className="text-xs font-bold bg-green-100 text-green-900 px-2 py-0.5 rounded-full">{post.category}</span>
                     <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
                   </div>
                   <h2 className="font-bold text-slate-900 mb-2 leading-snug">
-                    <Link href={`/${post.slug}`} className="hover:text-green-700 transition-colors">{post.title}</Link>
+                    <Link href={`/${post.slug}`} className="hover:text-green-900 transition-colors">{post.title}</Link>
                   </h2>
                   <p className="text-slate-500 text-sm mb-4 line-clamp-2">{post.excerpt}</p>
-                  <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-green-700 text-sm font-semibold hover:text-green-800">
+                  <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-green-900 text-sm font-semibold hover:text-green-950">
                     Read More <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
@@ -91,7 +91,7 @@ export default async function BlogPaginationPage({ params }: Props) {
           {/* Pagination */}
           <div className="flex justify-center items-center gap-2">
             {pageNum > 1 && (
-              <Link href={pageNum - 1 === 1 ? '/blog' : `/blog/page/${pageNum - 1}`} className="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-xl text-slate-700 hover:border-green-300 hover:text-green-700 transition-colors text-sm font-medium">
+              <Link href={pageNum - 1 === 1 ? '/blog' : `/blog/page/${pageNum - 1}`} className="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-xl text-slate-700 hover:border-green-300 hover:text-green-900 transition-colors text-sm font-medium">
                 <ArrowLeft className="w-4 h-4" /> Previous
               </Link>
             )}
@@ -99,13 +99,13 @@ export default async function BlogPaginationPage({ params }: Props) {
               <Link
                 key={p}
                 href={p === 1 ? '/blog' : `/blog/page/${p}`}
-                className={`w-9 h-9 flex items-center justify-center rounded-xl text-sm font-bold transition-colors ${p === pageNum ? 'bg-green-700 text-white' : 'border border-slate-200 text-slate-600 hover:border-green-300 hover:text-green-700'}`}
+                className={`w-9 h-9 flex items-center justify-center rounded-xl text-sm font-bold transition-colors ${p === pageNum ? 'bg-green-900 text-white' : 'border border-slate-200 text-slate-600 hover:border-green-300 hover:text-green-900'}`}
               >
                 {p}
               </Link>
             ))}
             {pageNum < totalPages && (
-              <Link href={`/blog/page/${pageNum + 1}`} className="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-xl text-slate-700 hover:border-green-300 hover:text-green-700 transition-colors text-sm font-medium">
+              <Link href={`/blog/page/${pageNum + 1}`} className="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-xl text-slate-700 hover:border-green-300 hover:text-green-900 transition-colors text-sm font-medium">
                 Next <ArrowRight className="w-4 h-4" />
               </Link>
             )}

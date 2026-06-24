@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
       {/* Top bar */}
-      <div className="bg-green-800 text-white text-xs py-2 hidden md:block">
+      <div className="bg-green-950 text-white text-xs py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <span className="flex items-center gap-2">
             <Phone className="w-3 h-3" />
@@ -75,7 +75,7 @@ export default function Header() {
                 onMouseLeave={() => setAboutOpen(false)}
               >
                 <button
-                  className="nav-link flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 hover:text-green-700 rounded-lg hover:bg-green-50 transition-colors"
+                  className="nav-link flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 hover:text-green-900 rounded-lg hover:bg-green-50 transition-colors"
                   onClick={() => setAboutOpen((v) => !v)}
                 >
                   {link.label}
@@ -89,7 +89,7 @@ export default function Header() {
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-4 py-2.5 text-sm text-slate-700 hover:text-green-700 hover:bg-green-50 transition-colors font-medium"
+                        className="block px-4 py-2.5 text-sm text-slate-700 hover:text-green-900 hover:bg-green-50 transition-colors font-medium"
                         onClick={() => setAboutOpen(false)}
                       >
                         {child.label}
@@ -102,7 +102,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="nav-link px-3 py-2 text-sm font-medium text-slate-700 hover:text-green-700 rounded-lg hover:bg-green-50 transition-colors"
+                className="nav-link px-3 py-2 text-sm font-medium text-slate-700 hover:text-green-900 rounded-lg hover:bg-green-50 transition-colors"
               >
                 {link.label}
               </Link>
@@ -114,11 +114,11 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-2">
           <Link
             href="/checkout"
-            className="relative flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-3 py-2 rounded-xl text-sm font-semibold transition-all"
+            className="relative flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-3 py-2 rounded-xl text-sm font-semibold transition-all"
           >
             <ShoppingCart className="w-4 h-4" />
             {count > 0 && (
-              <span className="absolute -top-2 -right-2 w-5 h-5 bg-green-600 text-white text-xs font-black rounded-full flex items-center justify-center">
+              <span className="absolute -top-2 -right-2 w-5 h-5 bg-green-800 text-white text-xs font-black rounded-full flex items-center justify-center">
                 {count}
               </span>
             )}
@@ -149,7 +149,7 @@ export default function Header() {
               link.children ? (
                 <div key={link.label}>
                   <button
-                    className="w-full flex items-center justify-between px-3 py-2.5 text-sm font-medium text-slate-700 hover:text-green-700 hover:bg-green-50 rounded-lg transition-colors"
+                    className="w-full flex items-center justify-between px-3 py-2.5 text-sm font-medium text-slate-700 hover:text-green-900 hover:bg-green-50 rounded-lg transition-colors"
                     onClick={() => setMobileAboutOpen((v) => !v)}
                   >
                     {link.label}
@@ -161,7 +161,7 @@ export default function Header() {
                         <Link
                           key={child.href}
                           href={child.href}
-                          className="block py-2 text-sm text-slate-600 hover:text-green-700 font-medium"
+                          className="block py-2 text-sm text-slate-600 hover:text-green-900 font-medium"
                           onClick={() => setMobileOpen(false)}
                         >
                           {child.label}
@@ -174,7 +174,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block px-3 py-2.5 text-sm font-medium text-slate-700 hover:text-green-700 hover:bg-green-50 rounded-lg transition-colors"
+                  className="block px-3 py-2.5 text-sm font-medium text-slate-700 hover:text-green-900 hover:bg-green-50 rounded-lg transition-colors"
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}

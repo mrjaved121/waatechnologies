@@ -17,7 +17,7 @@ const stores = [
     whatsapp: '+92 3414999998',
     hours: 'Mon–Sat: 9:00 AM – 6:00 PM',
     type: 'Head Office',
-    badge: 'bg-green-100 text-green-700',
+    badge: 'bg-green-100 text-green-900',
   },
   {
     name: 'Life LPG Store',
@@ -68,15 +68,15 @@ export default function WaaTechStoresPage() {
                   <h3 className="font-black text-slate-900 text-xl mb-4">{store.name}</h3>
                   <div className="flex flex-col gap-3">
                     <div className="flex items-start gap-3 text-sm text-slate-600">
-                      <MapPin className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                      <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
                       {store.address}
                     </div>
-                    <a href={`tel:${store.phone.replace(/\s/g, '')}`} className="flex items-center gap-3 text-sm text-green-700 font-semibold hover:text-green-800 transition-colors">
-                      <Phone className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <a href={`tel:${store.phone.replace(/\s/g, '')}`} className="flex items-center gap-3 text-sm text-green-900 font-semibold hover:text-green-950 transition-colors">
+                      <Phone className="w-4 h-4 text-green-800 flex-shrink-0" />
                       {store.phone}
                     </a>
                     <div className="flex items-center gap-3 text-sm text-slate-600">
-                      <Clock className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <Clock className="w-4 h-4 text-green-800 flex-shrink-0" />
                       {store.hours}
                     </div>
                   </div>
@@ -91,10 +91,10 @@ export default function WaaTechStoresPage() {
               Shop online and we&apos;ll arrange delivery, or contact an authorized dealer near you.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              <Link href="/shop" className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md">
+              <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md">
                 Shop Online <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link href="/authorized-dealers" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-700 px-6 py-3 rounded-xl font-semibold transition-all">
+              <Link href="/authorized-dealers" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all">
                 Find Dealers
               </Link>
             </div>

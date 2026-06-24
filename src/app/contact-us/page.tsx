@@ -91,20 +91,20 @@ export default function ContactUsPage() {
             {/* Head Office */}
             <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100">
               <h2 className="font-black text-slate-900 text-lg mb-5 flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-green-600" /> HEAD OFFICE
+                <MapPin className="w-5 h-5 text-green-800" /> HEAD OFFICE
               </h2>
               <div className="flex flex-col gap-3 text-sm text-slate-600">
                 <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
                   172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore
                 </div>
-                <a href="tel:+924237815533" className="flex items-center gap-2 text-green-700 font-semibold hover:text-green-800 transition-colors">
+                <a href="tel:+924237815533" className="flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
                   <Phone className="w-4 h-4" /> +92 423 781 5533
                 </a>
-                <a href="https://wa.me/923414999998" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-700 font-semibold hover:text-green-800 transition-colors">
+                <a href="https://wa.me/923414999998" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
                   <MessageSquare className="w-4 h-4" /> WhatsApp: +92 3414999998
                 </a>
-                <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="flex items-start gap-2 text-green-700 font-semibold hover:text-green-800 transition-colors break-all">
+                <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="flex items-start gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors break-all">
                   <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" /> waatechnologies.pvt.ltd@gmail.com
                 </a>
               </div>
@@ -113,11 +113,11 @@ export default function ContactUsPage() {
             {/* Manufacturing Facility */}
             <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100">
               <h2 className="font-black text-slate-900 text-lg mb-5 flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-green-600" /> MANUFACTURING FACILITY
+                <MapPin className="w-5 h-5 text-green-800" /> MANUFACTURING FACILITY
               </h2>
               <div className="text-sm text-slate-600 flex flex-col gap-2">
                 <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
                   Gujranwala, Pakistan
                 </div>
                 <p className="text-slate-500">
@@ -136,41 +136,41 @@ export default function ContactUsPage() {
                 <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Name *</label>
                 <input
                   type="text" required placeholder="Your Name"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400"
+                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
                 />
               </div>
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Email *</label>
                 <input
                   type="email" required placeholder="Your Email"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400"
+                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
                 />
               </div>
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-1.5">Phone Number</label>
                 <input
                   type="tel" placeholder="Phone Number"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400"
+                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
                 />
               </div>
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-1.5">Company</label>
                 <input
                   type="text" placeholder="Company (optional)"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400"
+                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
                 />
               </div>
               <div className="sm:col-span-2">
                 <label className="block text-sm font-semibold text-slate-700 mb-1.5">Message *</label>
                 <textarea
                   required rows={5} placeholder="Message"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder:text-slate-400 resize-none"
+                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400 resize-none"
                 />
               </div>
               <div className="sm:col-span-2">
                 <button
                   type="submit"
-                  className="w-full bg-green-700 hover:bg-green-800 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
+                  className="w-full bg-green-900 hover:bg-green-950 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
                 >
                   Send Message
                 </button>

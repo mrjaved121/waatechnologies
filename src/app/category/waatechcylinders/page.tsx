@@ -39,14 +39,14 @@ export default function WaaTechCylindersCategory() {
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">{post.category}</span>
+                    <span className="text-xs font-bold bg-green-100 text-green-900 px-2 py-0.5 rounded-full">{post.category}</span>
                     <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
                   </div>
                   <h2 className="font-bold text-slate-900 mb-2 leading-snug">
-                    <Link href={`/${post.slug}`} className="hover:text-green-700 transition-colors">{post.title}</Link>
+                    <Link href={`/${post.slug}`} className="hover:text-green-900 transition-colors">{post.title}</Link>
                   </h2>
                   <p className="text-slate-500 text-sm mb-4 leading-relaxed line-clamp-2">{post.excerpt}</p>
-                  <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-green-700 text-sm font-semibold hover:text-green-800 transition-colors">
+                  <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-green-900 text-sm font-semibold hover:text-green-950 transition-colors">
                     Read More <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>

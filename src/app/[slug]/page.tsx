@@ -166,9 +166,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: OGRA Rules for LPG Cylinders Pakistan ── */
   'ogra-rules-lpg-cylinders-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -180,7 +180,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Using uncertified or non-compliant LPG equipment in a commercial premises can result in immediate closure orders and criminal charges under the Petroleum Act',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -284,9 +284,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </div>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -298,7 +298,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Over 10 years, composite total cost of ownership is lower than steel despite the higher upfront price',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -391,7 +391,7 @@ const articleContent: Record<string, React.ReactNode> = {
               <tr key={feature} className="border-b border-slate-200 even:bg-slate-50">
                 <td className="p-3 font-medium text-slate-800">{feature}</td>
                 <td className="p-3 text-center text-slate-600">{steel}</td>
-                <td className="p-3 text-center text-green-700 font-medium">{composite}</td>
+                <td className="p-3 text-center text-green-900 font-medium">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -417,9 +417,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Why LPG Cylinders Explode ── */
   'why-lpg-cylinders-explode-pakistan-how-to-prevent': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -431,7 +431,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'A gas smell that persists after closing the cylinder valve means the leak is from the regulator, hose, or stove — not the cylinder body',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -501,9 +501,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: PSI Certified Gas Cylinder Pakistan ── */
   'psi-certified-gas-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -515,7 +515,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'WAA Technologies composite cylinders are individually certified to both ISO 11119-3 and EN 14427-2022 with traceable certificate numbers',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -679,9 +679,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder Price Pakistan 2025 ── */
   'composite-lpg-cylinder-price-pakistan-2025': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           2025 Price Summary
         </p>
         <ul className="space-y-2.5">
@@ -693,7 +693,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Total cost of ownership over 10 years is comparable to or lower than steel when hydrotest and replacement costs are factored in',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -709,7 +709,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-green-800 text-white">
+            <tr className="bg-green-950 text-white">
               <th className="text-left p-3 font-bold">Size</th>
               <th className="text-center p-3 font-bold">Cylinder Price (Empty)</th>
               <th className="text-center p-3 font-bold">LPG Fill Cost (approx.)</th>
@@ -726,7 +726,7 @@ const articleContent: Record<string, React.ReactNode> = {
                 <td className="p-3 font-bold text-slate-800">{size}</td>
                 <td className="p-3 text-center text-slate-700">{price}</td>
                 <td className="p-3 text-center text-slate-700">{fill}</td>
-                <td className="p-3 text-center text-green-700 font-bold">{total}</td>
+                <td className="p-3 text-center text-green-900 font-bold">{total}</td>
               </tr>
             ))}
           </tbody>
@@ -762,7 +762,7 @@ const articleContent: Record<string, React.ReactNode> = {
               <tr key={element} className="border-b border-slate-200 even:bg-slate-50">
                 <td className="p-3 font-medium text-slate-800">{element}</td>
                 <td className="p-3 text-center text-slate-700">{steel}</td>
-                <td className="p-3 text-center text-green-700 font-medium">{composite}</td>
+                <td className="p-3 text-center text-green-900 font-medium">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -806,9 +806,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: PARCO vs WAA Technologies ── */
   'parco-vs-waa-technologies-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -820,7 +820,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Both are sold through OGRA-licensed distribution channels',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -961,7 +961,7 @@ const articleContent: Record<string, React.ReactNode> = {
             <p className="text-2xl font-black text-white">Rs. ~8,700</p>
             <p className="text-slate-400 text-xs mt-1">Includes hydrotest + possible replacement</p>
           </div>
-          <div className="bg-green-800 rounded-xl p-3">
+          <div className="bg-green-950 rounded-xl p-3">
             <p className="text-green-200 font-bold mb-2">Fiber Composite — 5 Year Total</p>
             <p className="text-2xl font-black text-white">Rs. ~10,500</p>
             <p className="text-slate-200 text-xs mt-1">No hydrotest. No replacement. Still in full service.</p>
@@ -1032,9 +1032,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Lahore ── */
   'composite-lpg-cylinder-lahore': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Lahore
         </p>
         <ul className="space-y-2.5">
@@ -1046,7 +1046,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Free delivery available through select Lahore dealers — confirm when calling',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1105,9 +1105,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Karachi ── */
   'composite-lpg-cylinder-karachi': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Karachi
         </p>
         <ul className="space-y-2.5">
@@ -1119,7 +1119,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'LPG refill pricing is the same as steel at any Karachi OGRA-licensed filling station',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1172,9 +1172,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Islamabad ── */
   'composite-lpg-cylinder-islamabad': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Islamabad / Rawalpindi
         </p>
         <ul className="space-y-2.5">
@@ -1186,7 +1186,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Islamabad\'s OGRA-compliance culture is strong — composite ISO-certified cylinders pass all commercial inspections easily',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1238,9 +1238,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: LPG Industry in Pakistan ── */
   'lpg-industry-pakistan-market-size-future-outlook': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Industry at a Glance (2025)
         </p>
         <ul className="space-y-2.5">
@@ -1252,7 +1252,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinder adoption: currently less than 5% of Pakistan\'s cylinder fleet — representing the largest growth opportunity in the sector',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1304,9 +1304,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How LPG Cylinders Are Tested for Safety ── */
   'how-lpg-cylinders-tested-safety-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1318,7 +1318,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Every WAA Technologies cylinder carries individual test traceability — the certificate number links each cylinder to its specific testing record',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1378,9 +1378,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: OGRA Licensed LPG Manufacturers Pakistan ── */
   'ogra-licensed-lpg-cylinder-manufacturers-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1392,7 +1392,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Buying from a non-licensed manufacturer voids any safety certification claims and exposes consumers to legal and safety risk',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1452,9 +1452,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Pakistan LPG Imports vs Domestic Production 2025 ── */
   'pakistan-lpg-imports-vs-domestic-production-2025': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Supply Snapshot (2025)
         </p>
         <ul className="space-y-2.5">
@@ -1466,7 +1466,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Import pricing is linked to Saudi Aramco Contract Price (CP) — so global energy prices directly affect Pakistani cylinder refill costs',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1540,9 +1540,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1554,7 +1554,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'WAATechnologies supplies composite cylinders to commercial and restaurant accounts across Punjab, Sindh, and KPK',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1672,9 +1672,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1686,7 +1686,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'If bubbles persist after re-tightening, do not use the cylinder — call your dealer or a qualified gas technician',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1816,9 +1816,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1830,7 +1830,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Every household member — including children and domestic workers — must know the 3-step gas emergency protocol',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -1947,9 +1947,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1961,7 +1961,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Every household that switches to composite improves the distribution system for the whole neighbourhood',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -2112,9 +2112,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'winter-gas-shortage-pakistan-2025-prepare-your-home': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -2126,7 +2126,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Start preparing in August–October before panic buying empties dealer shelves in November',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -2291,9 +2291,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'ramadan-gas-safety-tips-pakistani-kitchens': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -2305,7 +2305,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Never cook Sehri alone while severely fatigued — always have a second person present as safety monitor',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -2491,9 +2491,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'load-shedding-lpg-pakistanis-switching-gas-cooking': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -2505,7 +2505,7 @@ const articleContent: Record<string, React.ReactNode> = {
             "Pakistan's restaurant industry switched from electric to gas years ago — households are catching up",
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -3210,7 +3210,7 @@ export default async function SlugPage({ params }: Props) {
                       <Link
                         key={tag}
                         href={`/tag/${tag}`}
-                        className="text-xs bg-slate-100 hover:bg-green-100 text-slate-600 hover:text-green-700 px-3 py-1.5 rounded-full transition-colors font-medium"
+                        className="text-xs bg-slate-100 hover:bg-green-100 text-slate-600 hover:text-green-900 px-3 py-1.5 rounded-full transition-colors font-medium"
                       >
                         {tag.replace(/-/g, ' ')}
                       </Link>
@@ -3222,7 +3222,7 @@ export default async function SlugPage({ params }: Props) {
               <div className="mt-10">
                 <Link
                   href={isCaseStudy ? '/category/casestudies' : '/blog'}
-                  className="inline-flex items-center gap-2 text-green-700 font-semibold hover:text-green-800 transition-colors"
+                  className="inline-flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors"
                 >
                   <ArrowLeft className="w-4 h-4" />
                   {isCaseStudy ? 'All Case Studies' : 'All Posts'}
@@ -3232,7 +3232,7 @@ export default async function SlugPage({ params }: Props) {
 
             {/* Sidebar */}
             <aside className="flex flex-col gap-6">
-              <div className="bg-green-700 text-white rounded-2xl p-6">
+              <div className="bg-green-900 text-white rounded-2xl p-6">
                 <h3 className="font-black text-lg mb-3">Ready to Switch?</h3>
                 <p className="text-green-100 text-sm mb-4">
                   100% explosion-proof composite cylinders. ISO certified. Made in Pakistan.
@@ -3250,7 +3250,7 @@ export default async function SlugPage({ params }: Props) {
                 <div className="flex flex-col gap-2">
                   {['100% Explosion Proof', '50% Lighter than Steel', 'UV Resistant', 'Corrosion Free', 'ISO 9001-2015 Certified'].map((b) => (
                     <div key={b} className="flex items-center gap-2 text-xs text-slate-600">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-green-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-green-800 flex-shrink-0" />
                       {b}
                     </div>
                   ))}
@@ -3266,9 +3266,9 @@ export default async function SlugPage({ params }: Props) {
                     <Link
                       key={p.slug}
                       href={`/${p.slug}`}
-                      className="text-sm text-slate-600 hover:text-green-700 transition-colors leading-snug flex items-start gap-1.5"
+                      className="text-sm text-slate-600 hover:text-green-900 transition-colors leading-snug flex items-start gap-1.5"
                     >
-                      <ArrowRight className="w-3.5 h-3.5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <ArrowRight className="w-3.5 h-3.5 text-green-800 flex-shrink-0 mt-0.5" />
                       {p.title}
                     </Link>
                   ))}
@@ -3278,7 +3278,7 @@ export default async function SlugPage({ params }: Props) {
               <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
                 <h3 className="font-bold text-slate-900 mb-3 text-sm uppercase tracking-wide">Find a Dealer</h3>
                 <p className="text-slate-500 text-xs mb-3">Authorized dealers in Punjab, Sindh &amp; KPK.</p>
-                <Link href="/authorized-dealers" className="inline-flex items-center gap-1 text-green-700 font-semibold text-sm hover:text-green-800">
+                <Link href="/authorized-dealers" className="inline-flex items-center gap-1 text-green-900 font-semibold text-sm hover:text-green-950">
                   View Dealers <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>

@@ -17,7 +17,17 @@
       "PowerShell(\\(Get-Item 'c:\\\\projects\\\\waatech\\\\src\\\\app\\\\blog\\\\page\\\\[page]\\\\page.tsx' -LiteralPath\\).Length)",
       "Bash(git checkout *)",
       "Bash(sed -i 's|post-image\\\\.png|post-image.jpg|g' \"c:/projects/waatech/src/app/blog/page/[page]/page.tsx\" && echo \"done\")",
-      "Bash(cd \"c:/projects/waatech\" && git checkout HEAD -- \"src/app/tag/[tag]/page.tsx\" && sed -i 's|post-image\\\\.png|post-image.jpg|g' \"src/app/tag/[tag]/page.tsx\" && echo \"done\" && wc -c \"src/app/tag/[tag]/page.tsx\")"
+      "Bash(cd \"c:/projects/waatech\" && git checkout HEAD -- \"src/app/tag/[tag]/page.tsx\" && sed -i 's|post-image\\\\.png|post-image.jpg|g' \"src/app/tag/[tag]/page.tsx\" && echo \"done\" && wc -c \"src/app/tag/[tag]/page.tsx\")",
+      "Bash(curl -s \"https://waatechnologies.com/sitemap.xml\")",
+      "Bash(sed 's/<[^>]*>//g')",
+      "Bash(curl -sk \"https://waatechnologies.com/sitemap.xml\")",
+      "Bash(curl -v \"https://waatechnologies.com/sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/post-sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/page-sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/product-sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/category-sitemap.xml\")",
+      "Bash(curl -sL \"https://waatechnologies.com/local-sitemap.xml\")"
     ],
     "additionalDirectories": [
       "c:\\projects\\waatech\\src\\app\\product",
