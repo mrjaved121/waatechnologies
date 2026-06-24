@@ -74,7 +74,7 @@ const orgSchema = {
       },
       image: 'https://waatechnologies.com/images/global-waatech-logo.png',
       description:
-        "Pakistan's first indigenous manufacturer of ISO-certified non-blast composite LPG gas cylinders. 100% explosion-proof, lightweight, corrosion-free, 20+ year service life. ISO 11119-3 and EN 14427-2022 certified. PEC approved, OGRA regulated.",
+        "Pakistan's first indigenous manufacturer of ISO-certified non-blast composite LPG gas cylinders. 100% explosion-proof, lightweight, corrosion-free, 20+ year service life. ISO 9001:2015, ISO 11119-3:2020 and BS EN 14427:2022 certified. PEC licensed.",
       foundingDate: '2022',
       foundingLocation: { '@type': 'Place', name: 'Gujranwala, Punjab, Pakistan' },
       address: {
@@ -124,7 +124,7 @@ const orgSchema = {
           { '@type': 'Offer', itemOffered: { '@type': 'Product', name: '10kg Tiger Orange Composite Cylinder', description: 'Tiger Orange colored 10kg composite LPG cylinder' } },
         ],
       },
-      award: ['ISO 9001-2015 Certified', 'ISO 11119-3 Certified', 'EN 14427-2022 Certified', 'PEC Approved', 'OGRA Regulated'],
+      award: ['SECP Certificate of Incorporation', 'ISO 9001:2015 Certified', 'ISO 11119-3:2020 Certified', 'BS EN 14427:2022 Certified', 'PEC Licensed'],
       slogan: 'Lives are precious and we care for our customers and families lives.',
     },
     {

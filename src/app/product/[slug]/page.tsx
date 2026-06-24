@@ -273,8 +273,8 @@ export default async function ProductPage({ params }: Props) {
             </div>
 
             <div className="flex flex-col gap-2 text-sm text-slate-500">
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> ISO 9001-2015 & EN 14427-2022 Certified</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> PEC Approved &amp; OGRA Regulated</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> ISO 9001:2015, ISO 11119-3:2020 &amp; BS EN 14427:2022 Certified</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> PEC Licensed &amp; PCSIR Certified</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Every unit hydro-tested before dispatch</div>
             </div>
           </div>

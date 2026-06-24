@@ -45,17 +45,16 @@ export default function OurCompanyPage() {
               BS EN 14427-2022.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              We are approved by Pakistan Engineering Council (PEC) and overseen by the Oil and Gas
-              Regulatory Authority (OGRA) Pakistan — giving you complete assurance of quality,
-              safety, and compliance.
+              We are approved by Pakistan Engineering Council (PEC) and certified by PCSIR — giving
+              you complete assurance of quality, safety, and compliance.
             </p>
             <div className="flex flex-col gap-3">
               {[
                 'Indigenously manufactured in Pakistan',
-                'ISO 9001-2015 Quality Management certified',
-                'ISO 11119-3 composite cylinder standards',
-                'EN 14427-2022 British/European compliance',
-                'PEC approved, OGRA regulated',
+                'ISO 9001:2015 Quality Management certified',
+                'ISO 11119-3:2020 composite cylinder standard',
+                'BS EN 14427:2022 British/European compliance',
+                'PEC Licensed',
                 'Hydro-tested with air leakage testing on each unit',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm text-slate-700">
@@ -105,7 +104,7 @@ export default function OurCompanyPage() {
             {[
               { val: '2022', label: 'Established' },
               { val: '26K sqft', label: 'Plant Area' },
-              { val: '6+', label: 'Certifications' },
+              { val: '5', label: 'Certifications' },
               { val: '3', label: 'Dealer Provinces' },
             ].map((s) => (
               <div key={s.label} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">

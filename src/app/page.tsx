@@ -75,12 +75,11 @@ const products = [
 ];
 
 const certifications = [
-  { label: 'ISO-9001-2015', desc: 'Quality Management' },
-  { label: 'ISO 11119', desc: 'Composite Cylinders' },
-  { label: 'BSEN-14427-2022', desc: 'British/European Standard' },
-  { label: 'PEC Certificate', desc: 'Pakistan Engineering Council' },
-  { label: 'OGRA Regulated', desc: 'Oil & Gas Regulatory Authority' },
-  { label: 'EN 14427', desc: 'Cylinder Design & Approvals' },
+  { label: 'Certificate of Incorporation', desc: 'Securities & Exchange Commission of Pakistan', img: '/images/certificates/1-1.jpg' },
+  { label: 'ISO 9001:2015', desc: 'Quality Management System', img: '/images/certificates/waatechnologies-vertificate-ISO-9001-2015.jpg' },
+  { label: 'ISO 11119-3:2020', desc: 'Composite Cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-11119.jpg' },
+  { label: 'BS EN 14427:2022', desc: 'Composite Cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-BSEN-14427-2022-e1747214241127.jpg' },
+  { label: 'PEC License', desc: 'Pakistan Engineering Council', img: '/images/certificates/pec-waatech.jpeg' },
 ];
 
 const testimonials = [
@@ -149,7 +148,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-4 mt-10">
-              {['ISO 9001-2015', 'BSEN-14427-2022', 'PEC Approved', 'OGRA Certified'].map((cert) => (
+              {['ISO 9001:2015', 'ISO 11119-3:2020', 'BS EN 14427:2022', 'PEC Licensed'].map((cert) => (
                 <div key={cert} className="flex items-center gap-1.5 bg-white/10 rounded-full px-3 py-1.5 text-xs font-medium text-white">
                   <CheckCircle2 className="w-3.5 h-3.5 text-amber-300" />
                   {cert}
@@ -344,25 +343,27 @@ export default function HomePage() {
       </section>
 
       {/* ─── CERTIFICATIONS ───────────────────────────────────────────────── */}
-      <section className="py-16 bg-slate-900">
+      <section className="py-16 bg-[#0d1b3e]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-amber-400 inline-block" />
-              <span className="text-amber-400 font-semibold text-sm uppercase tracking-wider">Certifications</span>
-              <span className="w-8 h-0.5 bg-amber-400 inline-block" />
-            </div>
-            <h2 className="text-3xl font-black text-white mb-3">Certifications</h2>
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Internationally certified and regulated — every WAA cylinder meets the world&apos;s most rigorous standards.
-            </p>
+            <h2 className="text-3xl font-black text-white tracking-widest uppercase">Certifications</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="flex flex-wrap justify-center gap-6">
             {certifications.map((cert) => (
-              <div key={cert.label} className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center card-hover">
-                <Award className="w-8 h-8 text-amber-400 mx-auto mb-3" />
-                <div className="text-white font-bold text-sm mb-1">{cert.label}</div>
-                <div className="text-slate-500 text-xs">{cert.desc}</div>
+              <div key={cert.label} className="flex flex-col items-center w-48 md:w-52">
+                <div className="w-full aspect-[3/4] border-4 border-amber-700 rounded-sm overflow-hidden bg-white shadow-[0_0_20px_rgba(0,0,0,0.5)] relative">
+                  <Image
+                    src={cert.img}
+                    alt={cert.label}
+                    fill
+                    sizes="(max-width: 768px) 192px, 208px"
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-3 text-center">
+                  <div className="text-white font-bold text-xs leading-tight">{cert.label}</div>
+                  <div className="text-slate-400 text-xs mt-0.5">{cert.desc}</div>
+                </div>
               </div>
             ))}
           </div>

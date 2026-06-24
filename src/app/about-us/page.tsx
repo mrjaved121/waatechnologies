@@ -82,9 +82,9 @@ export default function AboutUsPage() {
             </p>
             <div className="grid grid-cols-2 gap-3">
               {[
-                'ISO 9001-2015 Certified',
-                'EN 14427-2022 Compliant',
-                'PEC & OGRA Approved',
+                'ISO 9001:2015 Certified',
+                'BS EN 14427:2022 Compliant',
+                'PEC Licensed',
                 'Made in Pakistan',
                 '26,000 sq ft Facility',
                 'R&D Since 2018',
@@ -101,7 +101,7 @@ export default function AboutUsPage() {
               { icon: Building2, label: 'Headquarters', val: 'Bahria Town, Lahore' },
               { icon: Building2, label: 'Manufacturing', val: 'Gujranwala, Pakistan' },
               { icon: Users, label: 'Leadership', val: '3 Expert Directors' },
-              { icon: Award, label: 'Certifications', val: '6+ International' },
+              { icon: Award, label: 'Certifications', val: '5 International' },
             ].map((s) => (
               <div key={s.label} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center card-hover">
                 <s.icon className="w-8 h-8 text-green-900 mx-auto mb-3" />
