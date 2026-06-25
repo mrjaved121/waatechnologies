@@ -99,15 +99,15 @@ body {
 /* ── Gradient & nav utilities ─────────────────────────────────────────── */
 
 .gradient-green {
-  background: linear-gradient(135deg, #050d06 0%, #0a1a0d 50%, #1a4731 100%);
+  background: linear-gradient(135deg, #0f2d1e 0%, #1a4731 50%, #15803d 100%);
 }
 
 .gradient-hero {
   background: linear-gradient(
     135deg,
-    rgba(5, 13, 6, 0.95) 0%,
-    rgba(10, 26, 13, 0.90) 50%,
-    rgba(0, 0, 0, 0.65) 100%
+    rgba(15, 45, 30, 0.93) 0%,
+    rgba(26, 71, 49, 0.88) 50%,
+    rgba(0, 0, 0, 0.6) 100%
   );
 }
 
