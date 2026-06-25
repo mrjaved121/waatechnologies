@@ -130,7 +130,7 @@ export default function ShopPage() {
                   ) : (
                     <div className="text-center">
                       <div className={`w-20 h-36 mx-auto bg-gradient-to-b ${colorGradient[p.color] ?? 'from-amber-300 to-amber-600'} rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-xl`} />
-                      <div className="mt-3 text-xs text-slate-400 font-medium">{p.color}</div>
+                      <div className="mt-3 text-xs text-slate-600 font-medium">{p.color}</div>
                     </div>
                   )}
                 </div>
@@ -142,10 +142,10 @@ export default function ShopPage() {
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} className={`w-3 h-3 ${i < Math.floor(p.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-200 fill-slate-200'}`} />
                     ))}
-                    <span className="text-xs text-slate-400 ml-1">({p.reviews})</span>
+                    <span className="text-xs text-slate-600 ml-1">({p.reviews})</span>
                   </div>
                   <div className="flex items-center gap-2 mb-4">
-                    {p.oldPrice && <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
+                    {p.oldPrice && <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
                     <span className="text-lg font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
                   <AddToCartButton

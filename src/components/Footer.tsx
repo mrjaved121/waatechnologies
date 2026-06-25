@@ -109,7 +109,7 @@ export default function Footer() {
                 <Link href={link.href} className="text-sm text-slate-400 hover:text-green-400 transition-colors leading-snug block">
                   {link.label}
                 </Link>
-                <span className="text-xs text-slate-600 mt-1 block">WAATechCylinders</span>
+                <span className="text-xs text-slate-400 mt-1 block">WAATechCylinders</span>
               </li>
             ))}
           </ul>
@@ -117,7 +117,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-500">
+        <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-400">
           <span>© 2026 WAATechnologies. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="hover:text-green-400 transition-colors">Privacy Policy</Link>

@@ -126,7 +126,7 @@ export default function Header() {
           </Link>
           <Link
             href="/shop"
-            className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-xl text-sm font-semibold transition-all shadow-sm hover:shadow-md"
+            className="flex items-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-4 py-2 rounded-xl text-sm font-semibold transition-all shadow-sm hover:shadow-md"
           >
             Shop Now
           </Link>
@@ -184,7 +184,7 @@ export default function Header() {
             )}
             <Link
               href="/shop"
-              className="mt-2 flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-4 py-2.5 rounded-xl text-sm font-semibold transition-all"
+              className="mt-2 flex items-center justify-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-4 py-2.5 rounded-xl text-sm font-semibold transition-all"
               onClick={() => setMobileOpen(false)}
             >
               <ShoppingCart className="w-4 h-4" />

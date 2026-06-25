@@ -160,7 +160,7 @@ export default function ProductsAndAdvantagesPage() {
                   <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors">{p.name}</h3>
                   <div className="flex items-center gap-2 mb-3">
                     {'oldPrice' in p && p.oldPrice && (
-                      <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>
+                      <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>
                     )}
                     <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>

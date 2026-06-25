@@ -269,7 +269,7 @@ export default function HomePage() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <span className="w-8 h-0.5 bg-amber-500 inline-block" />
-              <span className="text-amber-600 font-semibold text-sm uppercase tracking-wider">Applications</span>
+              <span className="text-amber-700 font-semibold text-sm uppercase tracking-wider">Applications</span>
             </div>
             <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
               Applications &amp; Usage
@@ -299,7 +299,7 @@ export default function HomePage() {
             </ul>
             <Link
               href="/our-products-and-advantages"
-              className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
+              className="inline-flex items-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
             >
               View All Products <ArrowRight className="w-4 h-4" />
             </Link>
@@ -405,7 +405,7 @@ export default function HomePage() {
                   </h3>
                   <div className="flex items-center gap-2 mb-3">
                     {p.oldPrice && (
-                      <span className="text-xs text-slate-400 line-through">₨ {p.oldPrice.toLocaleString()}</span>
+                      <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>
                     )}
                     <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
@@ -547,7 +547,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <div className="font-bold text-slate-900 text-sm">{t.name}</div>
-                    <div className="text-slate-400 text-xs">Verified Customer</div>
+                    <div className="text-slate-600 text-xs">Verified Customer</div>
                   </div>
                 </div>
               </div>
