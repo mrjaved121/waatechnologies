@@ -36,6 +36,7 @@ export default function Footer() {
                 alt="WAATechnologies"
                 width={130}
                 height={110}
+                sizes="130px"
                 className="h-14 w-auto object-contain brightness-0 invert"
               />
             </Link>

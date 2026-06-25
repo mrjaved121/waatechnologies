@@ -177,12 +177,13 @@ body {
 .orb-3 { animation: orbFloat3 15s ease-in-out infinite; }
 
 @keyframes pulseAmber {
-  0%, 100% { text-shadow: 0 0 0px rgba(251,191,36,0); }
-  50%       { text-shadow: 0 0 16px rgba(251,191,36,0.5); }
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.72; }
 }
 
 .stat-number {
   animation: pulseAmber 3s ease-in-out infinite;
+  will-change: opacity;
 }
 
 .product-card-img {

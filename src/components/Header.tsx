@@ -61,6 +61,7 @@ export default function Header() {
             alt="WAATechnologies"
             width={130}
             height={110}
+            sizes="130px"
             className="h-12 w-auto object-contain"
             priority
           />

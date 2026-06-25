@@ -55,10 +55,11 @@ function StatCard({ end, suffix, label, decimals, index }: typeof stats[0] & { i
       ref={ref}
       className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center
                  hover:bg-white/15 hover:border-amber-400/40 hover:scale-105
-                 transition-all duration-300 cursor-default
+                 transition-[transform,background-color,border-color] duration-300 cursor-default
                  opacity-0 translate-y-4"
       style={{
         animation: visible ? `statFadeIn 0.6s ease forwards ${index * 150}ms` : undefined,
+        willChange: 'transform, opacity',
       }}
     >
       <div className="stat-number text-4xl font-black text-amber-300 mb-1 tabular-nums">
