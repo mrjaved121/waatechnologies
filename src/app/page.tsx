@@ -5,6 +5,7 @@ import {
   Shield, Zap, Feather, Sun, Droplets, Award,
   ChevronRight, Star, CheckCircle2, ArrowRight, Phone
 } from 'lucide-react';
+import AnimatedStats from '@/components/AnimatedStats';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -100,12 +101,6 @@ const testimonials = [
   },
 ];
 
-const stats = [
-  { value: '100%', label: 'Explosion Proof' },
-  { value: '5.5 kg', label: 'Lightweight (10kg Size)' },
-  { value: '20+', label: 'Years Lifespan' },
-  { value: '12,000', label: 'Pressure Cycles' },
-];
 
 export default function HomePage() {
   return (
@@ -157,14 +152,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            {stats.map((s) => (
-              <div key={s.label} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center card-hover">
-                <div className="text-4xl font-black text-amber-300 mb-1">{s.value}</div>
-                <div className="text-sm text-green-100 font-medium">{s.label}</div>
-              </div>
-            ))}
-          </div>
+          <AnimatedStats />
         </div>
       </section>
 
