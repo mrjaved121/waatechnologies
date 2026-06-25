@@ -27,7 +27,22 @@
       "Bash(curl -sL \"https://waatechnologies.com/page-sitemap.xml\")",
       "Bash(curl -sL \"https://waatechnologies.com/product-sitemap.xml\")",
       "Bash(curl -sL \"https://waatechnologies.com/category-sitemap.xml\")",
-      "Bash(curl -sL \"https://waatechnologies.com/local-sitemap.xml\")"
+      "Bash(curl -sL \"https://waatechnologies.com/local-sitemap.xml\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('scripts',{}\\)\\)\")",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3099/)",
+      "Bash(npx playwright *)",
+      "Bash(node -e \"require\\('@playwright/test'\\); console.log\\('found'\\)\")",
+      "Read(//c/Users/Tech Cage/node_modules/**)",
+      "Bash(where playwright *)",
+      "Bash(npx --yes playwright screenshot --version)",
+      "Bash(curl -s \"http://localhost:3099/\")",
+      "Bash(curl -s -X POST http://localhost:3099/__nextjs_original-stack-frame)",
+      "Bash(npx kill-port *)",
+      "WebFetch(domain:burhangas.com)",
+      "Bash(cwebp -version)",
+      "Bash(magick -version)",
+      "Bash(ffmpeg -version)"
     ],
     "additionalDirectories": [
       "c:\\projects\\waatech\\src\\app\\product",

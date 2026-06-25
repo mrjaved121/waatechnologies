@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="mb-5">
             <Link href="/">
               <Image
-                src="/images/global-waatech-logo.png"
+                src="/images/global-waatech-logo.webp"
                 alt="WAATechnologies"
                 width={130}
                 height={110}

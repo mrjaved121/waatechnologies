@@ -57,7 +57,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/global-waatech-logo.png"
+            src="/images/global-waatech-logo.webp"
             alt="WAATechnologies"
             width={130}
             height={110}
