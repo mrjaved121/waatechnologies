@@ -46,15 +46,15 @@ export default function Footer() {
           </p>
           <div className="flex flex-col gap-3 text-sm">
             <a href="tel:+924237815533" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
-              <Phone className="w-4 h-4 text-green-700 flex-shrink-0" />
+              <Phone className="w-4 h-4 text-green-400 flex-shrink-0" />
               (+92) 4237815533
             </a>
             <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
-              <Mail className="w-4 h-4 text-green-700 flex-shrink-0" />
+              <Mail className="w-4 h-4 text-green-400 flex-shrink-0" />
               waatechnologies.pvt.ltd@gmail.com
             </a>
             <div className="flex items-start gap-2 text-slate-400">
-              <MapPin className="w-4 h-4 text-green-700 flex-shrink-0 mt-0.5" />
+              <MapPin className="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" />
               <span>172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore</span>
             </div>
           </div>
@@ -63,14 +63,14 @@ export default function Footer() {
         {/* Quick Links */}
         <div>
           <h3 className="text-white font-bold text-base mb-5 flex items-center gap-2">
-            <span className="w-6 h-0.5 bg-green-700 inline-block" />
+            <span className="w-6 h-0.5 bg-green-400 inline-block" />
             Quick Links
           </h3>
           <ul className="flex flex-col gap-2.5">
             {quickLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group">
-                  <ArrowRight className="w-3.5 h-3.5 text-green-800 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-3.5 h-3.5 text-green-400 group-hover:translate-x-1 transition-transform" />
                   {link.label}
                 </Link>
               </li>
@@ -81,14 +81,14 @@ export default function Footer() {
         {/* Useful Links */}
         <div>
           <h3 className="text-white font-bold text-base mb-5 flex items-center gap-2">
-            <span className="w-6 h-0.5 bg-green-700 inline-block" />
+            <span className="w-6 h-0.5 bg-green-400 inline-block" />
             Useful Links
           </h3>
           <ul className="flex flex-col gap-2.5">
             {usefulLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="flex items-center gap-2 text-sm text-slate-400 hover:text-green-400 transition-colors group">
-                  <ArrowRight className="w-3.5 h-3.5 text-green-800 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-3.5 h-3.5 text-green-400 group-hover:translate-x-1 transition-transform" />
                   {link.label}
                 </Link>
               </li>
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Recent Blog */}
         <div>
           <h3 className="text-white font-bold text-base mb-5 flex items-center gap-2">
-            <span className="w-6 h-0.5 bg-green-700 inline-block" />
+            <span className="w-6 h-0.5 bg-green-400 inline-block" />
             Recent Posts
           </h3>
           <ul className="flex flex-col gap-4">
