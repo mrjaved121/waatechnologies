@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react';
+import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -130,52 +131,9 @@ export default function ContactUsPage() {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <h2 className="font-black text-slate-900 text-2xl mb-6">SEND US AN EMAIL</h2>
-            <form className="grid sm:grid-cols-2 gap-5">
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Name *</label>
-                <input
-                  type="text" required placeholder="Your Name"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Email *</label>
-                <input
-                  type="email" required placeholder="Your Email"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">Phone Number</label>
-                <input
-                  type="tel" placeholder="Phone Number"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">Company</label>
-                <input
-                  type="text" placeholder="Company (optional)"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400"
-                />
-              </div>
-              <div className="sm:col-span-2">
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">Message *</label>
-                <textarea
-                  required rows={5} placeholder="Message"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400 resize-none"
-                />
-              </div>
-              <div className="sm:col-span-2">
-                <button
-                  type="submit"
-                  className="w-full bg-green-900 hover:bg-green-950 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
-                >
-                  Send Message
-                </button>
-              </div>
-            </form>
+            <h2 className="font-black text-slate-900 text-2xl mb-2">SEND US A MESSAGE</h2>
+            <p className="text-slate-500 text-sm mb-6">Fill in the form and we&apos;ll open WhatsApp with your message pre-filled.</p>
+            <ContactForm />
           </div>
         </div>
       </section>
