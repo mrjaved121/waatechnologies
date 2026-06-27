@@ -24,7 +24,7 @@ export default function HeroCylinder() {
       </div>
 
       {/* Cylinder image */}
-      <div className="relative z-10 cylinder-float w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 drop-shadow-[0_40px_80px_rgba(0,0,0,0.55)]">
+      <div className="relative z-10 cylinder-float w-72 h-72 md:w-96 md:h-96 lg:w-[26rem] lg:h-[26rem] drop-shadow-[0_40px_80px_rgba(0,0,0,0.55)]">
         <Image
           src="/images/orange-cylinder-transparent.png"
           alt="WAA Technologies 10kg Composite LPG Cylinder Orange"
