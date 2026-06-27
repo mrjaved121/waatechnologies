@@ -345,7 +345,7 @@ export default function HomePage() {
                     alt={cert.label}
                     fill
                     sizes="(max-width: 768px) 192px, 208px"
-                    className="object-cover"
+                    className="object-cover blur-[2px]"
                   />
                 </div>
                 <div className="mt-3 text-center">
