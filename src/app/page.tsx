@@ -5,7 +5,7 @@ import {
   Shield, Zap, Feather, Sun, Droplets, Award,
   ChevronRight, Star, CheckCircle2, ArrowRight, Phone
 } from 'lucide-react';
-import AnimatedStats from '@/components/AnimatedStats';
+import HeroCylinder from '@/components/HeroCylinder';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -152,7 +152,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <AnimatedStats />
+          <HeroCylinder />
         </div>
       </section>
 

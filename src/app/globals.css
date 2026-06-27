@@ -205,6 +205,53 @@ body {
   border-radius: 2px;
 }
 
+/* ── Hero cylinder animations ─────────────────────────────────────────── */
+
+@keyframes cylinderFloat {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-18px); }
+}
+
+.cylinder-float {
+  animation: cylinderFloat 4.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes cylinderGlowOuter {
+  0%, 100% { opacity: 0.6; transform: scale(1);    }
+  50%       { opacity: 1;   transform: scale(1.18); }
+}
+
+@keyframes cylinderGlowInner {
+  0%, 100% { opacity: 0.7; transform: scale(1);    }
+  50%       { opacity: 1;   transform: scale(1.25); }
+}
+
+.cylinder-glow-outer { animation: cylinderGlowOuter 4.5s ease-in-out infinite; }
+.cylinder-glow-inner { animation: cylinderGlowInner 4.5s ease-in-out infinite 0.6s; }
+
+@keyframes badgeFloat1 {
+  0%, 100% { transform: translateY(0px);  }
+  50%       { transform: translateY(-8px); }
+}
+@keyframes badgeFloat2 {
+  0%, 100% { transform: translateY(-50%) translateX(0px);  }
+  50%       { transform: translateY(-50%) translateX(7px);  }
+}
+@keyframes badgeFloat3 {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(8px); }
+}
+@keyframes badgeFloat4 {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-10px); }
+}
+
+.cylinder-badge-1 { animation: badgeFloat1 3.6s ease-in-out infinite; }
+.cylinder-badge-2 { animation: badgeFloat2 4.8s ease-in-out infinite 0.4s; }
+.cylinder-badge-3 { animation: badgeFloat3 3.2s ease-in-out infinite 0.9s; }
+.cylinder-badge-4 { animation: badgeFloat4 4.1s ease-in-out infinite 1.3s; }
+
 html {
   scroll-behavior: smooth;
 }
