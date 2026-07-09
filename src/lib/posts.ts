@@ -15,6 +15,16 @@ export const allPosts: Post[] = [
 
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
+    slug: 'composite-lpg-cylinders-food-trucks-street-vendors-pakistan',
+    title: 'Composite LPG Cylinders for Food Trucks & Street Vendors in Pakistan — The Complete Guide',
+    date: 'Jul 9, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '12 min read',
+    tags: ['food-truck-lpg-pakistan', 'composite-lpg-cylinders', 'street-vendor-gas-cylinder', 'commercial-lpg-pakistan', 'waa-technologies', 'fiber-gas-cylinder-pakistan'],
+    excerpt: 'Pakistan\'s food truck and street vendor sector runs on LPG — and conventional steel cylinders create real operational problems: too heavy to move, too opaque to monitor, and too dangerous for crowded public spaces. Composite cylinders solve every one of these problems.',
+  },
+  {
     slug: 'are-composite-lpg-cylinders-safe-pakistan',
     title: 'Are Composite LPG Cylinders Safe? The Complete Guide for Pakistani Households',
     date: 'Jul 9, 2026',

@@ -803,6 +803,196 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: Composite LPG Cylinders for Food Trucks & Street Vendors ── */
+  'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': (
+    <>
+      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-3">Why Food Truck & Street Vendors Are Switching to Composite Cylinders</p>
+        <ul className="space-y-2">
+          {[
+            '50% lighter — a filled 10 kg composite cylinder weighs 18 kg vs 30 kg for steel; essential when your kitchen moves every day',
+            'See-through body — check gas level at a glance mid-service without stopping or lifting the cylinder',
+            'Non-blast certified — critical in crowded street settings where a BLEVE affects dozens of bystanders',
+            'Corrosion-free — outdoor storage in all weathers, no rust on carts or stalls',
+            'One cylinder for 20+ years — lower lifetime cost than replacing steel every 8–10 years',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm">
+              <span className="text-green-400 font-black mt-0.5 shrink-0">→</span>
+              <span className="text-slate-200">{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan\'s street food economy employs millions — LPG is the sole fuel for the vast majority of pushcart, stall, and food truck operations',
+            'Steel cylinders weigh 28–32 kg when filled — a serious daily burden for vendors who move their carts between locations',
+            'Running out of gas mid-service is the single most costly operational failure for street vendors — composite cylinders\'  visible level eliminates it',
+            'Public-space food operations carry elevated risk when steel cylinders are nearby — one explosion near a crowded stall affects dozens of bystanders',
+            'WAA Technologies supplies commercial accounts with bulk pricing — contact (+92) 42 37815533 for food truck and vendor pricing',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Stand on any street corner in Lahore&apos;s Anarkali bazaar, Karachi&apos;s Burns Road, Islamabad&apos;s F-7 Markaz, or Faisalabad&apos;s D-Ground at 7 PM and you will see Pakistan&apos;s most vibrant economic sector in full operation: thousands of pushcart vendors, stall operators, and increasingly, food truck entrepreneurs serving hot food to millions of customers every night. The aroma of nihari, karahi, gola kabab, chaat, and freshly brewed chai that defines Pakistan&apos;s urban street food culture is produced almost entirely by LPG flames burning in cylinders attached to mobile cooking setups.</p>
+
+      <p>LPG is not optional equipment for a Pakistani street food vendor. It is the sole practical cooking fuel for any mobile or semi-permanent food operation. And yet the conventional steel cylinder that most vendors use creates very real, very expensive operational problems every single day: it is dangerously heavy to move, completely opaque, prone to rust that stains carts and undermines customer confidence, and — in the worst case — a potential BLEVE explosion risk in densely crowded public settings where hundreds of people are within the blast radius.</p>
+
+      <p>This guide is written specifically for Pakistan&apos;s food truck operators, pushcart vendors, dhaba owners, wedding caterers, canteen managers, and any food business that uses LPG in a mobile or semi-permanent setting. It covers every dimension of the composite cylinder advantage for commercial food operations, city by city, use case by use case, with practical guidance on making the switch.</p>
+
+      <h2>Pakistan&apos;s Street Food Economy — The Scale of the Opportunity</h2>
+
+      <p>Pakistan&apos;s informal food sector is one of the largest in Asia by vendor count. Conservative estimates suggest over 2 million active street food vendors across Pakistan&apos;s urban areas, with Lahore alone accounting for over 300,000 registered and unregistered food stalls, pushcarts, and mobile food operations. The sector employs directly and indirectly over 5 million people and generates hundreds of billions of rupees in annual revenue — making it one of Pakistan&apos;s largest single employment sectors by headcount.</p>
+
+      <p>The food truck sector is the fastest-growing segment within this already massive market. Purpose-built food trucks — vehicles specifically converted for mobile food service, operating at designated food parks, events, and street locations — emerged in Lahore and Karachi around 2018 and have grown dramatically since. Lahore&apos;s Packages Mall food truck zone, Karachi&apos;s Boat Basin and Seaview food truck festivals, and Islamabad&apos;s F-9 Park food truck weekends have created a new tier of mobile food entrepreneur: higher-investment, higher-margin, brand-conscious food businesses that care deeply about operational reliability, food safety, and brand presentation.</p>
+
+      <p>This newer food truck tier has very different equipment standards from the pushcart vendor sector. Food truck operators in Lahore&apos;s premium events circuit and Karachi&apos;s Clifton food zones are buying stainless steel equipment, branded packaging, and point-of-sale systems — and increasingly, they are asking the same question about their LPG supply that premium restaurant operators started asking three years ago: is there a better cylinder than the rusty steel gola?</p>
+
+      <h2>The Unique LPG Problems Street Food Vendors Face</h2>
+
+      <p>Street food and food truck operations have LPG requirements that are meaningfully different from household use — and different from even a fixed-location restaurant. Understanding these specific challenges clarifies why composite cylinders are not just a minor improvement for this sector, but a genuinely transformative operational upgrade.</p>
+
+      <h3>Problem 1: Weight — The Daily Physical Burden</h3>
+
+      <p>A household LPG cylinder is moved perhaps once a month, when a family member carries it to a filling station or a delivery driver drops off a new one. A street food vendor&apos;s cylinder may be moved daily. Many pushcart vendors in Lahore&apos;s Liberty Market area, Karachi&apos;s Saddar, and Islamabad&apos;s Blue Area set up their cart in the morning, operate through the day, and either take the cylinder home at night (security concern) or move it between locations as they follow customer footfall patterns. A conventional 10 kg steel cylinder weighs 28–30 kg when filled. Moving this weight daily — lifting it onto and off a cart, carrying it up stairs to a storage room, loading and unloading from a delivery vehicle — is genuinely punishing physical labour that accumulates into significant fatigue, back strain, and injury risk over weeks and months of operation.</p>
+
+      <p>A WAA Technologies 10 kg composite cylinder weighs 18–20 kg when filled — approximately 40% lighter. For a vendor moving a cylinder daily, this is not a minor convenience. Over the course of a week, a vendor handling a composite cylinder has lifted 70–80 kg less total weight than one handling steel. Over a year, the difference is several tonnes of avoided lifting. The physical cost to the vendor&apos;s body — and the injury risk that accompanies it — is dramatically reduced.</p>
+
+      <h3>Problem 2: Gas Level Blindness — Running Out Mid-Service</h3>
+
+      <p>For a household, running out of gas means an inconvenient interruption to cooking. For a street food vendor, running out of gas mid-service is a serious revenue event. A biryani vendor who runs out of gas in the middle of deghi cooking loses the entire pot&apos;s worth of partially cooked rice and meat — food cost that cannot be recovered. A gola kabab vendor whose flame dies at 8 PM on a Friday in Liberty Market loses peak-hour revenue while scrambling for an emergency cylinder swap. A chai vendor at a corporate office building during the morning rush who runs out of gas disappoints their entire customer queue at the most important service moment of the day.</p>
+
+      <p>With a conventional steel cylinder, there is no reliable way to know how much gas remains without stopping work to lift and weigh the cylinder. Most vendors develop a rough sense of their cylinder&apos;s consumption rate over time — but this is an estimate, not a measurement, and it fails to account for variation in service intensity, weather, and the specific dishes being cooked. Running out unexpectedly happens to every experienced steel cylinder user eventually.</p>
+
+      <p>A WAA Technologies composite cylinder eliminates this problem entirely. The translucent HDPE body lets the vendor see the gas level at a glance from across the cart — in 3 seconds, without stopping, without lifting, without interrupting service. When the liquid level is clearly in the lower quarter of the cylinder, it is time to arrange a refill swap for after service. This visibility transforms gas supply management from reactive (responding to the cylinder running out) to proactive (planning the refill at a convenient time).</p>
+
+      <h3>Problem 3: Public Safety in Crowded Settings</h3>
+
+      <p>A street food stall or food truck operates in close proximity to large numbers of members of the public. A Friday evening gola kabab stall in Lahore&apos;s Model Town park may have 30–50 people within 3–5 metres of the LPG cylinder at any given time. A food truck at a Karachi food festival may have hundreds of people within 10 metres. In these settings, the difference between a steel cylinder&apos;s potential BLEVE blast and a composite cylinder&apos;s controlled gas leak is not just a matter of whether the vendor is hurt — it is a matter of whether dozens of bystanders are caught in a shrapnel event.</p>
+
+      <p>Pakistan&apos;s worst gas cylinder blast incidents — including several that have occurred at market food stalls and wedding catering setups — involve steel cylinders failing in settings with dense public presence. The blast radius of a BLEVE from a 10 kg LPG cylinder in an unconfined outdoor setting can extend 5–10 metres with lethal shrapnel velocity, and the fireball can extend further. In Pakistan&apos;s densely populated street food environments, a single BLEVE event near a busy stall can injure or kill multiple bystanders.</p>
+
+      <p>A WAA Technologies composite cylinder certified to ISO 11119-3 and EN 14427-2022 cannot produce a BLEVE. Under fire or over-pressure conditions, it releases gas through a controlled leak rather than rupturing. This does not eliminate all fire risk — a gas fire is still a serious event — but it eliminates the shrapnel and blast wave that turn a fire into a mass casualty incident. For food vendors operating in crowded public settings, this distinction is not theoretical. It is the difference between a manageable emergency and a catastrophe.</p>
+
+      <h3>Problem 4: Corrosion and Presentation</h3>
+
+      <p>Street food vendors who operate outdoors store their cylinders outside — exposed to Pakistan&apos;s monsoon rains, coastal humidity (in Karachi), and temperature extremes. Steel cylinders stored outdoors in these conditions develop visible rust within 18–24 months. For a household, a rusty cylinder is an inconvenience. For a food business where customer confidence is tied to visible cleanliness and hygiene, a visibly corroded rust-stained cylinder under the cooking counter actively undermines the brand.</p>
+
+      <p>Lahore&apos;s premium food truck operators, who invest in branded vehicle wraps, matching uniforms, and clean stainless-steel equipment, consistently report that the rusty steel cylinder is the single piece of equipment most incompatible with their brand aesthetic. A WAA Technologies composite cylinder in its clean yellow or blue HDPE body — which cannot corrode regardless of outdoor exposure — looks professional and modern next to a branded food truck setup and does not stain carts, counters, or flooring with rust.</p>
+
+      <h3>Problem 5: Rough Handling and Cylinder Longevity</h3>
+
+      <p>A household LPG cylinder is set down once and stays there for weeks. A street vendor&apos;s cylinder is picked up, put down, slid across cart surfaces, jostled during transit, knocked against other equipment, and generally handled with the rough efficiency of a busy commercial operation. Steel cylinders develop dents from this handling — and dents in a pressure vessel create stress concentration points that reduce the cylinder&apos;s burst pressure margin over time. A heavily dented steel cylinder that has been in commercial street use for 5 years has an unknown safety margin, not the rated one.</p>
+
+      <p>WAA Technologies composite cylinders are certified to withstand a 1.8-metre drop onto concrete in the ISO 11119-3 drop test. The glass-fibre construction is resilient to the kinds of impacts that dent steel — it absorbs impact energy without creating the concentrated stress points that dents produce in steel. The cylinder may show surface scuffing from rough handling, but its structural integrity is maintained in ways that dented steel cylinders cannot guarantee.</p>
+
+      <h2>Food Truck and Vendor Use Cases — City by City</h2>
+
+      <h3>Lahore — Pakistan&apos;s Food Capital</h3>
+
+      <p>Lahore&apos;s street food scene is the largest and most diverse in Pakistan. The city&apos;s food truck culture has exploded since 2020, with regular food truck festivals at DHA&apos;s Packages Mall, Emporium Mall, and Bahria Town&apos;s commercial zones attracting hundreds of vendors and thousands of customers per event. The Liberty Market area, Anarkali, Gawalmandi (for nihari and paye vendors), MM Alam Road, and the Fortress Stadium food street are the densest concentrations of street food in the country.</p>
+
+      <p>Lahore&apos;s premium food truck operators have been among the earliest adopters of composite cylinders in the Pakistani street food sector. The combination of brand-consciousness (premium trucks invest significantly in visual identity), high-volume service (requiring reliable gas supply management), and regular participation in formal events (where safety standards are increasingly checked by venue management) makes composite cylinders a natural fit.</p>
+
+      <p>WAA Technologies is headquartered in Lahore and its showroom is at Bahria Town — giving Lahore food businesses the most direct access to composite cylinder supply, commercial pricing, and after-sale support of any city in Pakistan.</p>
+
+      <h3>Karachi — Commercial Capital and Coastal Food Scene</h3>
+
+      <p>Karachi&apos;s street food ecosystem operates at a scale that reflects the city&apos;s size as Pakistan&apos;s largest urban centre. Burns Road&apos;s nihari strip, Boat Basin&apos;s upscale food park, Seaview&apos;s street food corridor, and the dense food stall concentration of Saddar collectively serve millions of customers per day. Karachi&apos;s coastal environment makes composite cylinders especially relevant: the salt-laden humidity that corrodes steel cylinders in 18–24 months in Karachi households corrodes outdoor commercial cylinders even faster, given the greater exposure frequency.</p>
+
+      <p>Karachi&apos;s high-density street food settings — where hundreds of people are compressed into tight food market spaces — also elevate the public safety argument for non-blast composite cylinders more acutely than in any other Pakistani city. Food vendors operating in Karachi&apos;s busiest food zones should consider the composite cylinder&apos;s non-blast property as essential public liability management, not just a nice-to-have feature.</p>
+
+      <h3>Islamabad and Rawalpindi — The Premium Event Circuit</h3>
+
+      <p>The twin cities&apos; food truck scene concentrates around Islamabad&apos;s upscale sectors and weekend events. F-9 Park food truck weekends, Centaurus food court overflow vendors, Monal Road food stalls, and Rawalpindi&apos;s Saddar food zone all attract a customer base with above-average spending power and correspondingly higher expectations for food safety and presentation standards. OGRA compliance culture in Islamabad is stronger than in most Pakistani cities — food vendors in formal venue settings face equipment inspections that informal market vendors do not.</p>
+
+      <p>For Islamabad and Rawalpindi food vendors participating in formal events, festivals, or permanent-pitch arrangements at malls and food parks, ISO-certified composite cylinders provide compliance credibility that steel cylinders cannot match. An ISO 11119-3 certification number and OGRA-licensed dealer receipt are documentation that event organisers increasingly request from food vendor participants.</p>
+
+      <h3>Faisalabad, Gujranwala, and Multan — Industrial City Street Food</h3>
+
+      <p>Pakistan&apos;s textile and industrial cities have dense, value-focused street food markets serving factory workers, business commuters, and growing middle-class populations. The street food sector in these cities operates on tight margins but high volumes — a successful nihari or karahi pushcart in Faisalabad&apos;s D-Ground area can serve 200+ customers per day. The operational efficiency argument for composite cylinders — reduced handling time, no emergency gas runouts, lower lifetime cylinder cost — is especially compelling in these high-volume, margin-sensitive markets.</p>
+
+      <h2>How to Switch Your Food Business to Composite Cylinders</h2>
+
+      <p>Transitioning a food truck or street vending operation from steel to composite cylinders is straightforward. Here is the practical process:</p>
+
+      <ol>
+        <li><strong>Assess your cylinder count and sizes.</strong> Most pushcart operations use one or two 10 kg cylinders. Food trucks with multiple burners may use 10 kg or 12 kg cylinders. Catering setups may use multiple 12 kg cylinders simultaneously. Your composite cylinder purchase should match your current cylinder setup — you can switch one cylinder at a time as your steel cylinders reach end of life, or switch the entire fleet at once for maximum operational benefit.</li>
+        <li><strong>Contact WAA Technologies for commercial pricing.</strong> WAA Technologies offers commercial pricing for food businesses purchasing multiple cylinders. Call (+92) 42 37815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore, to discuss your requirements. Authorised dealers across Lahore, Karachi, Islamabad, and other cities can also quote commercial pricing for local food business accounts.</li>
+        <li><strong>Identify your nearest OGRA-licensed LPG filling station.</strong> Your WAA composite cylinder can be refilled at any OGRA-licensed LPG filling station — the same stations that fill your current steel cylinders. There is no price difference in LPG refill cost between steel and composite. Your WAA dealer can advise on the nearest, most reliable filling station for your area.</li>
+        <li><strong>Verify regulator compatibility.</strong> WAA composite cylinders use standard Pakistani domestic LPG valve fittings — the same regulators used on your current steel cylinders are compatible. You do not need to buy new regulators unless your existing ones are due for replacement anyway.</li>
+        <li><strong>Brief your staff on gas level reading.</strong> Show your staff how to read the translucent body — the dark liquid zone in the lower section is the gas remaining. Establish a simple rule: when the dark zone drops below one-quarter of the cylinder height, arrange a refill for after service. This eliminates mid-service gas outages entirely.</li>
+      </ol>
+
+      <h2>Commercial Cylinder Options for Food Businesses</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Cylinder Size</th>
+              <th className="p-3 text-left font-bold">Best For</th>
+              <th className="p-3 text-left font-bold">Weight (filled)</th>
+              <th className="p-3 text-left font-bold">Service Duration*</th>
+              <th className="p-3 text-left font-bold">Price Range</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['5 kg', 'Chai carts, chaat stalls, light snack vendors', '~10 kg', '2–4 days', 'Rs. 7,000–9,000'],
+              ['10 kg', 'Pushcart karahi, gola kabab, biryani vendors', '~18 kg', '4–8 days', 'Rs. 9,000–12,000'],
+              ['12 kg', 'Food trucks, multi-burner stalls, event catering', '~21 kg', '5–10 days', 'Rs. 10,000–14,000'],
+            ].map(([size, use, weight, duration, price], i) => (
+              <tr key={size} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-bold text-green-700 border border-slate-100">{size}</td>
+                <td className="p-3 text-slate-700 border border-slate-100 text-xs">{use}</td>
+                <td className="p-3 text-slate-700 border border-slate-100">{weight}</td>
+                <td className="p-3 text-slate-700 border border-slate-100 text-xs">{duration}</td>
+                <td className="p-3 font-medium text-slate-800 border border-slate-100">{price}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="text-slate-500 text-xs mt-2">*Service duration estimates for high-intensity commercial cooking. Actual duration varies with burner size, flame setting, and daily service hours.</p>
+      </div>
+
+      <h2>The ROI Calculation for Food Businesses</h2>
+
+      <p>Food vendors who evaluate composite cylinders purely on purchase price see a higher upfront cost than steel. The correct evaluation metric for a commercial food business is return on investment across the cylinder&apos;s full operating life. Here is how the calculation works for a typical pushcart vendor using a 10 kg cylinder:</p>
+
+      <p><strong>Steel cylinder total cost over 10 years:</strong> Purchase Rs. 4,500 + hydrotest year 5 Rs. 700 + replacement at year 8–10 Rs. 4,500 = Rs. 9,700. Add 4–6 emergency refill call-out premiums due to unexpected empty cylinders (Rs. 400–600 per call-out) = Rs. 2,000–3,600 in avoidable costs. Estimated 10-year total: Rs. 11,700–13,300.</p>
+
+      <p><strong>Composite cylinder total cost over 10 years:</strong> Purchase Rs. 10,500. No hydrotest. No replacement within 10 years (rated 20+ years). Zero emergency call-out premiums (visible level = planned refills). Estimated 10-year total: Rs. 10,500.</p>
+
+      <p>By year 10, the composite cylinder has cost less than the steel alternative — while providing safety, weight, and operational efficiency advantages every day of those 10 years. For a food business making dozens of operational decisions daily, the composite cylinder&apos;s daily advantages (no heavy lifting, no gas-level guessing, no emergency cylinder scrambles) have compounding operational value that the simple purchase price comparison does not capture.</p>
+
+      <h2>Frequently Asked Questions for Food Vendors and Food Truck Operators</h2>
+
+      <h3>Can a composite LPG cylinder handle the continuous high-heat cooking of a commercial food stall?</h3>
+      <p>Yes. WAA Technologies composite cylinders are rated for 12,000 fill-and-empty pressure cycles over a 20+ year service life — specifications that exceed commercial food stall usage demands by a wide margin. The cylinder delivers the same gas flow rate and pressure as a steel cylinder of equivalent size. Commercial karahi vendors, biryani cooks, and BBQ stall operators using composite cylinders in Lahore and Karachi report identical burner performance to their previous steel cylinders. The cylinder type does not affect gas pressure or flame intensity — these are determined by the LPG fill level and the regulator, not the cylinder material.</p>
+
+      <h3>Is it safe to use a composite cylinder in a food truck with limited ventilation?</h3>
+      <p>The standard LPG safety guidelines apply to composite cylinders in enclosed food truck environments: ensure adequate ventilation (a minimum of two air vents at floor level to prevent LPG vapour accumulation, since LPG is heavier than air), close the cylinder valve when not cooking, and install a floor-level LPG gas detector. The composite cylinder&apos;s non-blast property provides an additional safety margin in an enclosed food truck environment — in the event of a fire or over-pressure event, the absence of an explosive rupture is especially valuable in a small enclosed metal space. Food truck operators should also ensure the cylinder is secured against movement during transit with a proper cylinder bracket or strap.</p>
+
+      <h3>Does WAA Technologies offer bulk or commercial pricing for food businesses?</h3>
+      <p>Yes. WAA Technologies and its authorised dealer network offer commercial pricing for food businesses purchasing multiple cylinders. Contact WAA Technologies directly at (+92) 42 37815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore, to discuss your operation&apos;s requirements and receive a commercial quotation. Food truck operators, event caterers, and dhaba owners with fleets of multiple cylinders should ask specifically about the commercial account pricing structure.</p>
+
+      <h3>Will event organisers or food park management accept composite cylinders for their vendor requirements?</h3>
+      <p>ISO 11119-3 and EN 14427-2022 certified composite cylinders fully meet and exceed Pakistan&apos;s OGRA regulatory requirements for LPG cylinders used in commercial food operations. Event venues and food parks that specify safety-compliant LPG equipment for vendor participation will accept WAA Technologies composite cylinders — which carry internationally recognised safety certifications that are more demanding than the PS 4922 steel cylinder standard. A WAA cylinder&apos;s individual certification markings and OGRA-licensed dealer purchase receipt are clear compliance documentation for any event organiser requesting proof of cylinder safety compliance.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Are Composite LPG Cylinders Safe? ── */
   'are-composite-lpg-cylinders-safe-pakistan': (
     <>
@@ -3097,6 +3287,7 @@ const wordCounts: Record<string, number> = {
   'psi-certified-gas-cylinder-pakistan': 1700,
   'gas-cylinder-warning-signs-pakistan': 1800,
   'composite-lpg-cylinder-price-pakistan-2025': 1600,
+  'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': 2800,
   'are-composite-lpg-cylinders-safe-pakistan': 2500,
   'how-to-check-gas-level-composite-cylinder': 2000,
   'parco-vs-waa-technologies-cylinder-pakistan': 1700,
@@ -3161,6 +3352,12 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Is the LPG refill price different for a composite cylinder in Pakistan?', a: 'No. LPG refill price is determined by the weight of gas purchased at the per-kg rate set by OGRA, and is the same regardless of cylinder type — steel or composite. A 10 kg LPG refill costs the same whether you have a WAA composite cylinder or a conventional steel cylinder.' },
     { q: 'Is a composite LPG cylinder worth the extra cost in Pakistan?', a: 'Over a 10-year period, the total cost of ownership for a composite cylinder is comparable to steel when hydrotest costs and replacement frequency are factored in. Composite cylinders eliminate the Rs. 700 hydrotest every 5 years and do not need replacement at year 8–10 like steel cylinders. The 20+ year service life, gas level visibility, 50% lighter weight, and non-blast safety certification add substantial value beyond the cost comparison.' },
     { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
+  ],
+  'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': [
+    { q: 'Can composite LPG cylinders handle the continuous high-heat cooking of a food stall or food truck?', a: 'Yes. WAA Technologies composite cylinders are rated for 12,000 fill-and-empty pressure cycles and 20+ years of service life — exceeding commercial food stall usage demands by a wide margin. They deliver the same gas flow rate and pressure as steel cylinders of equivalent size. Commercial karahi vendors, biryani cooks, and BBQ stall operators using composite cylinders report identical burner performance to their previous steel cylinders.' },
+    { q: 'Why are composite cylinders better for food trucks and street vendors than steel cylinders?', a: 'Five key reasons: (1) 40% lighter — 18 kg vs 30 kg when filled, critical for vendors moving cylinders daily; (2) translucent body — see gas level at a glance without stopping service; (3) non-blast certified — in crowded public food settings, a BLEVE explosion risk affects dozens of bystanders; (4) corrosion-free — outdoor storage in all Pakistani weather conditions; (5) 20+ year service life — lower lifetime cost than replacing steel every 8–10 years.' },
+    { q: 'Does WAA Technologies offer commercial or bulk pricing for food businesses?', a: 'Yes. WAA Technologies and its authorised dealer network offer commercial pricing for food businesses purchasing multiple cylinders. Contact WAA Technologies at (+92) 42 37815533 or visit the Lahore showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town to discuss your requirements and receive a commercial quotation.' },
+    { q: 'Are composite cylinders accepted at food festivals and food park vendor spaces in Pakistan?', a: 'Yes. ISO 11119-3 and EN 14427-2022 certified composite cylinders fully meet OGRA regulatory requirements for commercial LPG use. WAA Technologies cylinders carry internationally recognised safety certifications that are more demanding than the PS 4922 steel cylinder standard. The individual certification markings and OGRA-licensed dealer purchase receipt provide clear compliance documentation for any event organiser or food park management requesting proof of cylinder safety compliance.' },
   ],
   'are-composite-lpg-cylinders-safe-pakistan': [
     { q: 'Are composite LPG cylinders safe to use in Pakistan?', a: 'Yes — ISO 11119-3 and EN 14427-2022 certified composite cylinders are measurably safer than conventional steel cylinders. They are non-blast (cannot produce a BLEVE explosion under fire), corrosion-free, and individually tested before leaving the factory. WAA Technologies composite cylinders are OGRA-regulated, manufactured in Gujranwala, and sold through authorised dealers who carry legal responsibility for product compliance.' },
