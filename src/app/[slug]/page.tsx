@@ -803,6 +803,196 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: How to Check Gas Level in a Composite Cylinder ── */
+  'how-to-check-gas-level-composite-cylinder': (
+    <>
+      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-3">Quick Answer — How to Check Gas Level in a Composite Cylinder</p>
+        <ol className="space-y-2 list-none">
+          {[
+            'Look at the cylinder body from the side — the HDPE shell is translucent',
+            'The liquid LPG inside appears as a darker, denser band at the bottom',
+            'The gas vapour above it appears lighter or clear',
+            'The boundary between the two is your gas level — read it like a measuring jug',
+            'In bright light, hold the cylinder up slightly and look from the side at eye level for best contrast',
+          ].map((step, i) => (
+            <li key={step} className="flex items-start gap-3 text-sm">
+              <span className="bg-green-600 text-white font-black rounded-full w-5 h-5 flex items-center justify-center shrink-0 text-xs mt-0.5">{i + 1}</span>
+              <span className="text-slate-200">{step}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies composite cylinders have a translucent HDPE body — the gas level is visible directly through the shell',
+            'Steel cylinders cannot show gas level — you must lift, weigh, or tap them, all of which give imprecise results',
+            'The liquid LPG inside sits at the bottom; the boundary between liquid and vapour is the exact gas level',
+            'On a cold morning, condensation forms a visible "frost line" on the outside — an even faster way to read the level',
+            'Checking level at a glance prevents mid-cooking gas runouts — the single most common LPG complaint in Pakistani households',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every Pakistani household that uses LPG has had the same experience: you are 20 minutes into cooking biryani — the rice is halfway done, the steam is exactly right — and the flame drops, flickers, and dies. The cylinder is empty. There was no warning. There was no way to know. You lift the steel cylinder and it feels lighter than yesterday, but &quot;lighter than yesterday&quot; is not a useful measurement when your rice is half-cooked and your guests arrive in an hour.</p>
+
+      <p>This is not a minor inconvenience. In Pakistani households, where one or two cylinders serve the entire family&apos;s cooking needs, running out of gas unexpectedly disrupts meals, wastes food, and creates the urgent scramble of finding a cylinder delivery at the worst possible moment. The problem has existed since LPG first entered Pakistani homes — because conventional steel cylinders are completely opaque. You cannot see inside them. You have no idea how much gas is left without lifting and guessing.</p>
+
+      <p>WAA Technologies composite LPG cylinders solve this problem completely — not through a meter, a sensor, or an app, but through the simplest possible mechanism: the cylinder body is <strong>translucent</strong>. You can see the gas level the same way you see water in a bottle. This article explains exactly how to read a composite cylinder&apos;s gas level, what you are actually seeing inside the cylinder, and why this one feature changes everything about how Pakistani households manage their LPG supply.</p>
+
+      <h2>Why Steel Cylinders Cannot Show Their Gas Level</h2>
+
+      <p>To understand why composite cylinder level visibility is such an advantage, it helps to understand why steel cylinders are blind. A conventional steel LPG cylinder — the &quot;gola&quot; familiar to every Pakistani household — is a welded steel pressure vessel. Steel is opaque. There is no way to see through it. The only methods available for checking how much gas a steel cylinder contains are:</p>
+
+      <ul>
+        <li><strong>Lifting and weighing by hand</strong> — You lift the cylinder and estimate its weight by feel. A full 10 kg cylinder weighs about 28–30 kg; an empty one weighs about 18–19 kg. The difference is about 10 kg — which sounds large but is surprisingly difficult to distinguish in practice, especially for the same person who has been lifting the same cylinder for weeks and has normalised its weight at every stage of depletion. This method is also physically demanding (30 kg is heavy), risky (dropping a cylinder near an open flame or stove is dangerous), and imprecise (most people can only distinguish &quot;feels heavy,&quot; &quot;feels medium,&quot; and &quot;feels light&quot; — not actual gas quantities).</li>
+        <li><strong>Tapping the cylinder body</strong> — Some experienced users tap the side of the cylinder and listen for the change in sound between the gas-filled upper section and the liquid-filled lower section. Below the liquid level, the tap produces a dull thud; above it, a hollow ring. This technique requires practice and a quiet environment — neither available during a busy Pakistani kitchen lunch service or a noisy household evening.</li>
+        <li><strong>Pouring warm water on the outside</strong> — When warm water is poured on a cylinder, the section in contact with cold LPG liquid causes condensation that makes that section visibly cooler or damp. The transition point between dry and damp is approximately the gas level. This works, but it requires having warm water available, involves pouring water on an LPG cylinder (not ideal near ignition sources), and produces only a rough estimate.</li>
+        <li><strong>Waiting for the flame to drop</strong> — The most common method used by Pakistani households: doing nothing until the gas runs out. This is effectively a non-method — it provides no useful advance warning at all.</li>
+      </ul>
+
+      <p>All of these methods share a common flaw: they are indirect, imprecise, inconvenient, or actively unsafe. None of them tell you accurately how much gas you have right now without extra effort.</p>
+
+      <h2>How the Composite Cylinder's Translucent Body Works</h2>
+
+      <p>WAA Technologies composite cylinders are manufactured with a seamless HDPE (High-Density Polyethylene) inner liner, overwrapped with filament-wound glass fibre under tension. HDPE is a semi-translucent material — it is not perfectly clear like glass, but it transmits enough light that the contents of the cylinder are visible through the wall in good lighting conditions. This is the same material and optical property that makes white plastic containers slightly see-through when you hold them up to a light.</p>
+
+      <p>Inside the cylinder, LPG is stored in two states simultaneously. The lower portion of the cylinder contains <strong>liquid LPG</strong> — propane and butane in their compressed liquid form. The upper portion contains <strong>LPG vapour</strong> — the gas phase that your appliances actually burn. The liquid is significantly denser and more light-absorbing than the vapour. When you look at the cylinder from the side in normal daylight, the liquid LPG in the lower section appears as a noticeably darker, more opaque zone compared to the lighter, clearer vapour zone above it.</p>
+
+      <p>The boundary between these two zones — the line where the darker liquid meets the lighter vapour — is your exact gas level. It is as clear and direct as reading water in a measuring jug.</p>
+
+      <h2>Step-by-Step: How to Read Your WAA Composite Cylinder Level</h2>
+
+      <p>Reading the gas level in a WAA Technologies composite cylinder takes about three seconds once you know what to look for. Here is the precise technique:</p>
+
+      <p><strong>Step 1 — Position yourself at eye level with the cylinder.</strong> Stand or crouch so your eyes are approximately level with the mid-section of the cylinder. Reading from above gives a distorted view; reading from the side at eye level gives the clearest contrast between liquid and vapour zones.</p>
+
+      <p><strong>Step 2 — Use natural daylight or position a light source behind the cylinder.</strong> The translucent effect works best with light passing through the cylinder wall. A kitchen window or outdoor light works well. In a dim kitchen corner, moving the cylinder briefly to a lighter spot makes the level much easier to read.</p>
+
+      <p><strong>Step 3 — Look at the cylinder body, not the bottom or the valve.</strong> The level boundary is visible on the cylindrical side wall. Look at the wall itself — you are looking for the transition from a slightly darker, denser-looking lower zone to a lighter, clearer upper zone.</p>
+
+      <p><strong>Step 4 — Identify the level boundary.</strong> The line between dark (liquid) and light (vapour) is your gas level. If the dark zone fills 75% of the cylinder height, you have approximately 75% gas remaining. If the dark zone is only visible as a thin band at the very bottom, you have perhaps 10–15% remaining and should arrange a refill.</p>
+
+      <p><strong>Step 5 — Plan your refill timing.</strong> Once you know your level, you can plan. A household using a 10 kg cylinder for primary cooking can estimate: at 50% level, arrange a refill within the next 2–3 weeks. At 25%, arrange a refill within the week. At 10–15%, arrange immediately. Never let the cylinder run completely empty before ordering — empty cylinders require purging before refilling at many stations.</p>
+
+      <h2>The Frost Line Trick — An Even Faster Reading Method</h2>
+
+      <p>In cooler weather — which applies to most of Pakistan from October to March, and year-round in Islamabad, Murree, Abbottabad, and other elevated areas — there is a second, even faster method of reading the gas level that requires no careful observation at all.</p>
+
+      <p>LPG liquid inside the cylinder is significantly colder than ambient temperature (it sits at approximately -42°C for propane under the pressure conditions inside the cylinder). The section of the cylinder wall in contact with the cold liquid becomes colder than the section in contact with the warmer gas vapour above it. In humid conditions, this temperature difference causes <strong>condensation or light frost to form on the outside of the cylinder wall</strong> — but only on the section below the liquid level.</p>
+
+      <p>The result: in cool or humid weather, you can see the gas level as a visible moisture or frost line on the outside of the composite cylinder body. The section below the line is slightly damp or cold to the touch; the section above it is dry and at ambient temperature. Run your hand up the outside of the cylinder from the bottom — the point where it transitions from cool-and-damp to dry-and-warm is your gas level. This works even faster than visual inspection and does not require any specific lighting conditions.</p>
+
+      <p>This &quot;frost line&quot; effect works on steel cylinders too — it is the physical basis of the &quot;warm water on the outside&quot; technique described earlier. But on a composite cylinder, the condensation forms naturally and is visible on the translucent body without any tricks or warm water required.</p>
+
+      <h2>Estimating How Long Your Gas Will Last</h2>
+
+      <p>Once you know how to read your gas level, the next practical question is: how long will a given level last? The answer depends on household size and cooking habits, but the following estimates apply to typical Pakistani household cooking (three meals per day, moderate to high daily cooking intensity):</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Visible Gas Level</th>
+              <th className="p-3 text-left font-bold">Gas Remaining (10 kg cylinder)</th>
+              <th className="p-3 text-left font-bold">Days Left (family of 4–5)</th>
+              <th className="p-3 text-left font-bold">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Full (100%)', '10 kg', '35–45 days', 'No action needed'],
+              ['75%', '~7.5 kg', '25–35 days', 'Note to arrange refill soon'],
+              ['50%', '~5 kg', '15–20 days', 'Order refill within 2 weeks'],
+              ['25%', '~2.5 kg', '7–10 days', 'Order refill this week'],
+              ['10–15%', '~1–1.5 kg', '3–5 days', 'Order immediately'],
+              ['Bottom only (5%)', '<1 kg', '1–2 days', 'Emergency — arrange today'],
+            ].map(([level, amount, days, action], i) => (
+              <tr key={level} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-medium text-slate-900 border border-slate-100">{level}</td>
+                <td className="p-3 text-slate-700 border border-slate-100">{amount}</td>
+                <td className="p-3 text-slate-700 border border-slate-100">{days}</td>
+                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{action}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>These estimates assume a family of 4–5 people using LPG for three daily meals with an average cooking intensity. Heavy users (large families, frequent guests, winter heating) will deplete gas faster. Light users (smaller households, some meals outside the home, backup-only LPG use) will see it last longer. The composite cylinder&apos;s level visibility allows you to track your actual consumption pattern over the first few months of use and calibrate your refill schedule precisely.</p>
+
+      <h2>Why This Changes How Pakistani Households Manage LPG</h2>
+
+      <p>The implications of this one feature — being able to see the gas level — are larger than they might initially appear. Pakistani households that switch from steel to WAA composite cylinders consistently report the same experience: within the first month of use, they stop having emergency gas runouts. Not &quot;fewer&quot; runouts — zero runouts. Because they no longer have to guess, they can plan.</p>
+
+      <p>Consider the typical steel cylinder household in Lahore or Karachi. They buy a filled cylinder, use it for cooking, and have no reliable way to know how much is left. So they use it until it runs out, then call a dealer for a delivery or visit a filling station. Sometimes this happens at 10 PM, sometimes during Friday prayers, sometimes mid-Eid dinner when dealers are closed. The steel cylinder&apos;s opacity creates a perpetual low-level anxiety about gas supply — always slightly unsure whether there is enough gas for tomorrow&apos;s cooking.</p>
+
+      <p>With a WAA composite cylinder, that anxiety disappears. You can check the level in three seconds any time you walk past the cylinder. You know days in advance when you need a refill. You can schedule it at your convenience — on a day when a family member is already going past the filling station, or when a delivery is being made to your area. The management of your household LPG supply becomes as straightforward as managing your milk or cooking oil supply — you can see how much you have.</p>
+
+      <h2>A Practical Tip: Create a Weekly Level-Check Habit</h2>
+
+      <p>Pakistani households get the most value from composite cylinder level visibility by making it a brief weekly habit. Every Sunday morning (or any fixed day), glance at the cylinder and mentally note the level. After 4–6 weeks of use, you will have a clear sense of your household&apos;s weekly consumption rate — how far the level drops per week. This allows you to predict to within a few days when you will need a refill, and to arrange it at exactly the right time without any urgency or emergency.</p>
+
+      <p>A simple visual marker helps: put a small pencil mark or piece of tape on the cylinder body at the 25% level — the level at which you should arrange a refill. When the liquid line drops to your marker, it is time to order. This is a technique that is only possible with a translucent composite cylinder — there is no equivalent for a steel gola.</p>
+
+      <h2>Composite vs Steel: The Level-Checking Comparison</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-800 text-white">
+              <th className="p-3 text-left font-bold">Method</th>
+              <th className="p-3 text-left font-bold">Steel Gola</th>
+              <th className="p-3 text-left font-bold">WAA Composite</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Time needed', '30–60 seconds', '3 seconds'],
+              ['Physical effort', 'Must lift (28–30 kg)', 'None — just look'],
+              ['Accuracy', 'Rough estimate only', 'Precise visual reading'],
+              ['Safety risk', 'Risk of dropping near stove', 'No risk'],
+              ['Works in all conditions', 'Lifting only, tapping needs quiet', 'Visual always; frost line in cool/humid weather'],
+              ['Requires any tools', 'No (but warm water helps)', 'No'],
+              ['Works for any family member', 'Only those strong enough to lift', 'Anyone at any age'],
+            ].map(([method, steel, composite], i) => (
+              <tr key={method} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{method}</td>
+                <td className="p-3 text-red-700 border border-slate-100">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-slate-100">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How clearly can you see the gas level through a WAA composite cylinder?</h3>
+      <p>In good natural or overhead lighting, the gas level boundary between liquid LPG and vapour is clearly visible through the HDPE cylinder wall — comparable to seeing liquid in a frosted glass bottle. The contrast is most distinct when the cylinder is backlit (light behind the cylinder, you in front). In dim lighting, the visibility is reduced but still present; in the brightest part of a kitchen or outdoors, the reading is very easy. The effect is best described as &quot;semi-transparent&quot; — you cannot read text through the cylinder wall, but you can clearly distinguish the denser liquid zone from the lighter vapour zone.</p>
+
+      <h3>Does the level visibility work when the cylinder has very little gas left?</h3>
+      <p>Yes — and this is actually where it is most valuable. With a steel cylinder, you have no way to distinguish between &quot;5% gas remaining&quot; and &quot;empty until the stove suddenly dies.&quot; With a WAA composite cylinder, the very thin layer of liquid remaining at the bottom is still visible as a dark band near the base of the cylinder. You can distinguish between &quot;almost empty — arrange refill today&quot; and &quot;completely empty — no point ordering until you arrange a delivery.&quot; This prevents the blank-stove surprise entirely.</p>
+
+      <h3>Can the gas level be seen at night or in a dark kitchen?</h3>
+      <p>In a completely dark room with no ambient light, the gas level is not visible through the cylinder wall — the same as you cannot see anything translucent without light. However, a standard kitchen light (ceiling bulb, tube light, LED panel) provides sufficient illumination to read the level clearly. Holding a torch or phone torch up to the side of the cylinder also works well in darker conditions. The frost line method (feeling for the temperature boundary on the outside) works regardless of light level and is the better option in dark conditions.</p>
+
+      <h3>Will the translucent body fade or become less see-through over time?</h3>
+      <p>No. WAA Technologies composite cylinders use UV-stabilised HDPE for the outer body. The UV stabilisation prevents the degradation that causes ordinary plastics to yellow, cloud, or become brittle when exposed to sunlight. A WAA cylinder stored outdoors in Pakistan&apos;s intense summer sun will not cloud over or lose its translucency. The cylinder is rated for 20+ years of service life, and the translucent property is maintained throughout that service life. This means the level visibility you have on day one is the same you will have in year ten.</p>
+    </>
+  ),
+
   /* ── ARTICLE: PARCO vs WAA Technologies ── */
   'parco-vs-waa-technologies-cylinder-pakistan': (
     <>
@@ -2744,6 +2934,7 @@ const wordCounts: Record<string, number> = {
   'psi-certified-gas-cylinder-pakistan': 1700,
   'gas-cylinder-warning-signs-pakistan': 1800,
   'composite-lpg-cylinder-price-pakistan-2025': 1600,
+  'how-to-check-gas-level-composite-cylinder': 2000,
   'parco-vs-waa-technologies-cylinder-pakistan': 1700,
   'chinese-imported-vs-pakistani-composite-lpg-cylinder': 1800,
   'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan': 1800,
@@ -2806,6 +2997,12 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Is the LPG refill price different for a composite cylinder in Pakistan?', a: 'No. LPG refill price is determined by the weight of gas purchased at the per-kg rate set by OGRA, and is the same regardless of cylinder type — steel or composite. A 10 kg LPG refill costs the same whether you have a WAA composite cylinder or a conventional steel cylinder.' },
     { q: 'Is a composite LPG cylinder worth the extra cost in Pakistan?', a: 'Over a 10-year period, the total cost of ownership for a composite cylinder is comparable to steel when hydrotest costs and replacement frequency are factored in. Composite cylinders eliminate the Rs. 700 hydrotest every 5 years and do not need replacement at year 8–10 like steel cylinders. The 20+ year service life, gas level visibility, 50% lighter weight, and non-blast safety certification add substantial value beyond the cost comparison.' },
     { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
+  ],
+  'how-to-check-gas-level-composite-cylinder': [
+    { q: 'How do you check the gas level in a WAA composite cylinder?', a: 'Look at the side of the cylinder in good light. The liquid LPG inside appears as a darker, denser band at the bottom; the gas vapour above it is lighter and clearer. The boundary between the two zones is your exact gas level — read it like water in a measuring jug. In cool or humid weather, a frost line on the outside of the cylinder also shows the level.' },
+    { q: 'Can you really see through a composite LPG cylinder?', a: 'Yes. WAA Technologies composite cylinders have a semi-translucent HDPE (High-Density Polyethylene) body. You cannot read text through it, but you can clearly see the difference between the denser liquid LPG in the lower section and the lighter vapour in the upper section — giving you a precise visual gas level reading in about 3 seconds.' },
+    { q: 'What is the frost line method for checking gas level?', a: 'In cool or humid weather, the section of the cylinder wall in contact with cold liquid LPG becomes colder than the section above the liquid. This causes condensation or light frost to form on the outer cylinder wall — but only below the liquid level. Run your hand up the outside of the cylinder: the point where it transitions from cool-and-damp to dry-and-warm is your gas level. This works even in the dark.' },
+    { q: 'Will the composite cylinder stay transparent over time or go cloudy?', a: 'The translucency does not degrade. WAA Technologies composite cylinders use UV-stabilised HDPE that resists the yellowing and clouding that affects ordinary plastics exposed to sunlight. A cylinder stored outdoors in Pakistan\'s intense summer sun will remain as translucent in year ten as it was on day one. The cylinder is rated for 20+ years of service life, and the level-visibility property is maintained throughout.' },
   ],
   'parco-vs-waa-technologies-cylinder-pakistan': [
     { q: 'What is the difference between PARCO and WAA Technologies in Pakistan\'s LPG market?', a: 'PARCO (Pak-Arab Refinery) is an LPG producer and distributor — it sells the gas itself in conventional steel cylinders. WAA Technologies is a composite cylinder manufacturer — it makes the container (cylinder) that is filled with LPG from any licensed distributor, including PARCO-affiliated dealers. They operate in different parts of the value chain and are not directly competing products.' },

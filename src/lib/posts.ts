@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Product Education / Buyer Questions ─────────────────────────────────────
+  {
+    slug: 'how-to-check-gas-level-composite-cylinder',
+    title: 'How to Check Gas Level in a Composite Cylinder Without Lifting It',
+    date: 'Jul 9, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '8 min read',
+    tags: ['composite-lpg-cylinders', 'gas-cylinder-level-check', 'fiber-gas-cylinder-pakistan', 'lpg-cylinder-tips', 'waa-technologies'],
+    excerpt: 'Checking the gas level in a steel cylinder requires lifting and guessing. WAA Technologies composite cylinders have a translucent body — you can see the LPG level directly, like reading a water bottle. Here is exactly how it works.',
+  },
+
   // ── Safety / News / Regulatory (Batch 1) ────────────────────────────────────
   {
     slug: 'gas-cylinder-blast-incidents-pakistan-2025',
