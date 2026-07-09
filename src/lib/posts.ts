@@ -15,6 +15,16 @@ export const allPosts: Post[] = [
 
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
+    slug: 'are-composite-lpg-cylinders-safe-pakistan',
+    title: 'Are Composite LPG Cylinders Safe? The Complete Guide for Pakistani Households',
+    date: 'Jul 9, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '11 min read',
+    tags: ['composite-lpg-cylinders', 'gas-cylinder-safety-pakistan', 'fiber-gas-cylinder-pakistan', 'lpg-safety', 'waa-technologies', 'iso-certified-cylinder'],
+    excerpt: 'Are composite LPG cylinders safe? This is the most-searched question before purchase. The complete answer: yes — and they are measurably safer than steel. Here is every safety question answered with evidence.',
+  },
+  {
     slug: 'how-to-check-gas-level-composite-cylinder',
     title: 'How to Check Gas Level in a Composite Cylinder Without Lifting It',
     date: 'Jul 9, 2026',

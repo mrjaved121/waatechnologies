@@ -803,6 +803,169 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: Are Composite LPG Cylinders Safe? ── */
+  'are-composite-lpg-cylinders-safe-pakistan': (
+    <>
+      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Short Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">Yes — ISO-certified composite LPG cylinders are not just safe, they are <strong className="text-white">measurably safer than conventional steel cylinders</strong> in every condition that matters: fire exposure, over-pressure, corrosion, physical impact, and long-term structural integrity. The certification process that WAA Technologies cylinders undergo is more demanding than Pakistan&apos;s PS 4922 steel cylinder standard — it includes a fire engulfment test that steel cylinders are not required to pass.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies composite cylinders are certified to ISO 11119-3 and EN 14427-2022 — two of the most rigorous LPG cylinder safety standards in the world',
+            'Composite cylinders are "non-blast" — under fire or extreme pressure, they release gas slowly rather than rupturing and projecting metal shrapnel',
+            'The HDPE body does not corrode, does not rust, and will not develop the structural weaknesses that make ageing steel cylinders dangerous',
+            'Composite cylinders withstand Pakistan\'s full temperature range — from Islamabad\'s sub-zero winters to Jacobabad\'s 50°C+ summers',
+            'Every individual WAA Technologies cylinder is pressure-tested before leaving the factory — not just the design prototype, every unit',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>The question &quot;are composite LPG cylinders safe?&quot; is the first question most Pakistani households ask before switching from a conventional steel cylinder. It is the right question to ask — LPG is a pressurised, flammable fuel stored in your kitchen or courtyard, and the cylinder that contains it is safety-critical equipment. You should not buy any cylinder without understanding its safety properties. This guide answers every safety question about composite LPG cylinders comprehensively: what the certifications mean, what happens in worst-case scenarios, how composite compares to steel in every safety dimension, and what precautions remain necessary regardless of cylinder type.</p>
+
+      <h2>What Makes Any LPG Cylinder Safe or Unsafe?</h2>
+
+      <p>To evaluate whether composite cylinders are safe, you first need to understand what makes any LPG cylinder safe or dangerous. LPG cylinder safety has three dimensions:</p>
+
+      <p><strong>Structural integrity under pressure:</strong> LPG is stored at pressures significantly above atmospheric — approximately 6–8 bar (87–116 psi) at typical Pakistani ambient temperatures. The cylinder must contain this pressure safely without leaking, deforming, or rupturing under normal operating conditions and within its rated service life. A cylinder that develops structural weakness — through corrosion, impact damage, weld failure, or material fatigue — can fail under this pressure.</p>
+
+      <p><strong>Behaviour under extreme conditions:</strong> The most dangerous scenario for any LPG cylinder is fire exposure. When a cylinder is exposed to fire, the LPG inside heats rapidly, pressure rises, and — in the worst case — the cylinder ruptures violently in a BLEVE (Boiling Liquid Expanding Vapour Explosion). This is the event responsible for Pakistan&apos;s most severe gas cylinder blast injuries. A safe cylinder must either resist fire long enough for emergency response, or fail in a controlled manner (releasing gas through a leak) rather than explosively.</p>
+
+      <p><strong>Long-term material durability:</strong> A cylinder that is structurally sound when new but deteriorates dangerously over its service life is not truly safe. Corrosion, UV degradation, weld fatigue, and valve wear all reduce a cylinder&apos;s safety margin over time. A safe cylinder maintains its rated safety properties throughout its entire service life.</p>
+
+      <p>Composite LPG cylinders — specifically WAA Technologies cylinders certified to ISO 11119-3 and EN 14427-2022 — are designed and tested to perform better than steel on all three dimensions.</p>
+
+      <h2>The Certification That Proves It: ISO 11119-3 and EN 14427-2022</h2>
+
+      <p>When a composite cylinder manufacturer claims their product is &quot;safe,&quot; that claim should be backed by independent, third-party certification from an accredited testing laboratory. Generic claims about safety without a certification reference are marketing language, not engineering evidence. For WAA Technologies composite cylinders, the safety claim is backed by two internationally recognised certifications:</p>
+
+      <p><strong>ISO 11119-3</strong> is the International Organization for Standardization&apos;s standard for gas cylinders manufactured from composite materials. It specifies the design, construction, testing, and marking requirements for composite cylinders and tubes for compressed, liquefied, and dissolved gases. Certification requires passing a series of laboratory tests conducted by an ISO 17025-accredited independent testing body.</p>
+
+      <p><strong>EN 14427-2022</strong> (also written as BS EN 14427-2022) is the European standard for transportable refillable composite cylinders for liquefied petroleum gas. It covers composite cylinders specifically for LPG service — the application most relevant to Pakistani household use — and includes safety requirements specific to the pressures, temperatures, and fill-and-empty cycles that LPG cylinders experience.</p>
+
+      <p>Both standards require testing that is substantially more demanding than PS 4922 — Pakistan&apos;s national standard for conventional steel cylinders. Most critically, they require the <strong>fire engulfment test</strong>, which steel cylinders are not required to pass under PS 4922.</p>
+
+      <h2>The Fire Engulfment Test — The Most Important Safety Test</h2>
+
+      <p>The fire engulfment test is the single most important safety test for any LPG cylinder intended for household use, because kitchen fires are the most dangerous environment any household LPG cylinder will face. The test works as follows: a filled cylinder is placed in a controlled fire that engulfs the entire cylinder body, and the fire is sustained. The test measures whether the cylinder ruptures explosively (a BLEVE) or releases pressure in a controlled manner through a gas leak or pressure relief valve.</p>
+
+      <p>A steel cylinder without a functioning pressure relief valve — or with a relief valve that cannot open fast enough under rapid fire development — will rupture violently in this test. The rupture releases the stored pressure energy of the compressed LPG in a single catastrophic event, producing a blast wave and projecting steel fragments at lethal velocity. This is exactly what happens in Pakistan&apos;s gas cylinder blast incidents in kitchens, restaurants, and storage areas.</p>
+
+      <p>WAA Technologies composite cylinders pass the fire engulfment test — meaning under sustained fire exposure, they release pressure through a controlled gas leak rather than a violent rupture. The glass-fibre and HDPE construction delaminates progressively under fire heat rather than fracturing suddenly. This progressive failure mode prevents the sudden pressure release that causes the explosion. The fire itself is serious and must be fought — but there is no blast, no shrapnel, and no BLEVE. The difference in injury severity between a kitchen fire with a leaking composite cylinder versus a kitchen fire with a ruptured steel cylinder is the difference between a fire incident and a fatality event.</p>
+
+      <h2>Answering Every Safety Concern — One by One</h2>
+
+      <h3>Will a composite cylinder melt or catch fire?</h3>
+      <p>HDPE (the material of the cylinder body) has a melting point of approximately 130°C and begins to soften at around 110–120°C. Under direct, sustained flame exposure, the outer HDPE layer will soften and char — but this behaviour is part of the controlled failure mechanism. Unlike steel, which heats the LPG inside rapidly and uniformly because steel conducts heat well, the HDPE and glass fibre construction acts as a partial thermal insulator that slows the rate of heat transfer to the LPG inside. This slows the rate of pressure rise, providing more time for the pressure relief valve to act or for the gas to escape through a seal before catastrophic pressure is reached. The cylinder does not catch fire itself — LPG burning at the valve or a leak is the source of flame, not the cylinder body.</p>
+
+      <h3>Can a composite cylinder explode?</h3>
+      <p>ISO 11119-3 certified composite cylinders are specifically designed and tested to prevent the BLEVE explosion that is possible with steel cylinders. The answer is: under normal operating conditions, no. Under extreme fire exposure, a composite cylinder will develop a controlled gas leak rather than exploding — this is a tested, certified property, not a design aspiration. This is precisely why the &quot;non-blast&quot; designation is meaningful: it is backed by the fire engulfment test that proves the cylinder&apos;s failure mode is a leak, not an explosion.</p>
+
+      <h3>Is HDPE plastic safe to use for storing cooking gas?</h3>
+      <p>HDPE (High-Density Polyethylene) is one of the most chemically inert, food-safe, and widely used plastics in the world. It is the same material used for drinking water pipes, food storage containers, milk jugs, and pharmaceutical packaging. HDPE has excellent chemical resistance to LPG (propane and butane) — it does not react with, absorb, or degrade in the presence of these hydrocarbons. The glass fibre filament winding that overlaps the HDPE liner provides the structural strength to contain the LPG pressure. The combination — a chemically inert liner inside a high-strength structural shell — is the engineering foundation of composite cylinder safety.</p>
+
+      <h3>What happens if a composite cylinder is dropped?</h3>
+      <p>ISO 11119-3 certification includes a drop test: cylinders are dropped from 1.8 metres onto concrete in multiple orientations (upright, inverted, on their side). After all drop orientations, the cylinder must pass pressure testing with no structural failure. WAA Technologies cylinders have passed this test, meaning they are certified to withstand the kinds of drops and impacts that occur in normal handling — falling off a truck, being knocked over in a kitchen, rolling off a step. The glass-fibre overwrap provides significant impact resistance; while the outer surface may show cosmetic scuffing from a drop, the structural integrity of the cylinder is maintained.</p>
+
+      <h3>Can composite cylinders handle Pakistan&apos;s extreme temperatures?</h3>
+      <p>WAA Technologies composite cylinders are rated for outdoor storage and use across Pakistan&apos;s full ambient temperature range — from Islamabad&apos;s near-0°C winters to Jacobabad&apos;s 50°C+ summer peaks. The ISO 11119-3 and EN 14427-2022 standards include environmental conditioning tests that expose cylinders to extreme temperature cycling. Both the HDPE liner and the glass fibre winding maintain their rated properties across this range. The UV-stabilised HDPE outer surface specifically resists the photodegradation (yellowing, embrittlement) that affects non-stabilised plastics in Pakistan&apos;s high-UV sunshine environment.</p>
+
+      <h3>Do composite cylinders corrode or rust?</h3>
+      <p>No. HDPE and glass fibre are chemically inert materials that cannot corrode. There is no oxidation reaction, no rust formation, and no electrochemical degradation possible with these materials — regardless of humidity, salt air (Karachi households), water exposure, or outdoor storage. This is one of the most significant long-term safety advantages of composite over steel. Steel cylinders in Pakistan&apos;s climate develop surface rust within 2–3 years and serious structural corrosion within 5–8 years, particularly in coastal environments or when stored in areas with frequent water exposure (kitchen floors, outdoor courtyards). Corrosion is responsible for a significant proportion of Pakistan&apos;s gas cylinder structural failures. Composite cylinders eliminate this entire failure mode.</p>
+
+      <h3>Are composite cylinders safe indoors?</h3>
+      <p>Yes, with the same standard precautions required for any LPG cylinder indoors: adequate ventilation (LPG is heavier than air and accumulates at floor level), closing the cylinder valve after each use, keeping the cylinder away from heat sources and open flames, and installing a floor-level gas leak detector if possible. The non-blast property of composite cylinders provides an additional safety margin for indoor use compared to steel — in the event of a gas leak leading to a fire, the absence of a BLEVE explosion risk is meaningful in an enclosed indoor space.</p>
+
+      <h3>Is the composite cylinder valve the same as a steel cylinder valve?</h3>
+      <p>Yes. WAA Technologies composite cylinders use standard Pakistani domestic LPG valve fittings — the same clip-on and screw-type regulators used with conventional steel cylinders are fully compatible. The valve is not part of the composite construction; it is a standard industry-component fitted to the cylinder. You do not need to buy a new regulator when switching from steel to composite. The cylinder neck thread and valve design conform to the same standards as steel cylinders sold through OGRA-licensed dealers.</p>
+
+      <h2>How Composite Cylinders Compare to Steel on Every Safety Dimension</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Safety Dimension</th>
+              <th className="p-3 text-left font-bold">Steel Cylinder</th>
+              <th className="p-3 text-left font-bold">WAA Composite (ISO 11119-3)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Fire engulfment behaviour', 'Risk of BLEVE explosion — tested but not required to pass', 'Non-blast — certified to leak, not rupture, under fire'],
+              ['Corrosion', 'Corrodes within 2–5 years in Pakistani conditions', 'Cannot corrode — HDPE and glass fibre are inert'],
+              ['Impact resistance', 'Steel dents; dents create stress concentration points', 'Composite absorbs impact; passed 1.8m drop test'],
+              ['UV resistance', 'Paint fades, rust accelerates under UV', 'UV-stabilised HDPE — no degradation'],
+              ['Temperature range', 'Meets standard range', 'Certified from sub-zero to 65°C per standard'],
+              ['Service life', '8–12 years in Pakistani conditions', '20+ years / 12,000 fill cycles'],
+              ['Periodic safety testing', 'Required hydrotest every 5 years', 'No periodic hydrotest required'],
+              ['Traceability', 'Batch tracking only', 'Individual serial number — every cylinder traceable'],
+            ].map(([dim, steel, composite], i) => (
+              <tr key={dim} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{dim}</td>
+                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
+                <td className="p-3 text-green-700 border border-slate-100 text-xs font-medium">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>OGRA Compliance and Regulation</h2>
+
+      <p>WAA Technologies Pvt Ltd holds a current OGRA (Oil and Gas Regulatory Authority) manufacturing licence for composite LPG cylinder production and distributes exclusively through an authorised OGRA-licensed dealer network. OGRA is Pakistan&apos;s federal LPG regulator under the Petroleum Act 1934 and the OGRA Ordinance 2002. Every cylinder sold through an OGRA-licensed dealer is covered by the regulatory compliance framework that makes the dealer legally responsible for the compliance of products sold.</p>
+
+      <p>The regulatory chain for a WAA Technologies cylinder purchase is: ISO-certified manufacturer → OGRA-licensed dealer → consumer. At each step, the responsible party takes legal accountability for the cylinder&apos;s compliance. This accountability chain does not exist for cylinders purchased through informal channels, grey-market importers, or unlicensed dealers.</p>
+
+      <h2>What WAA Technologies Does That Other Manufacturers Do Not</h2>
+
+      <p>Beyond meeting certification requirements, WAA Technologies applies manufacturing quality controls that go beyond minimum compliance:</p>
+
+      <p><strong>Every cylinder is individually tested before leaving the factory.</strong> WAA Technologies conducts hydrostatic pressure testing and air-leakage testing on each individual cylinder produced — not on a sample batch, not on a prototype, but on every single unit. A cylinder that does not pass both tests does not leave the Gujranwala facility. This 100% individual testing is not required by OGRA&apos;s minimum standards but is a quality commitment WAA Technologies applies to every unit.</p>
+
+      <p><strong>Individual serial numbers with full traceability.</strong> Every WAA cylinder carries a permanently embossed individual serial number traceable to the production batch, the specific raw material batch, and the test records. If a question ever arises about a specific cylinder&apos;s history, WAA Technologies can pull the production and test record for that serial number. This level of traceability is uncommon in Pakistan&apos;s LPG equipment market.</p>
+
+      <p><strong>Anti-counterfeiting embossing at four locations.</strong> The WAA Technologies brand name and certification marks are embossed at four separate positions on every cylinder — not printed or stickered, but physically formed into the cylinder body during manufacture. This makes counterfeiting WAA cylinders impractical and ensures that the cylinder you buy is the cylinder that passed certification testing.</p>
+
+      <h2>Safe Usage Practices That Apply to Any LPG Cylinder</h2>
+
+      <p>Composite cylinders are safer than steel — but they are not a substitute for safe usage practices. The following apply regardless of cylinder type and should be standard practice in every Pakistani household using LPG:</p>
+
+      <ul>
+        <li><strong>Always close the cylinder valve fully after cooking.</strong> A closed valve prevents gas from reaching the regulator and hose when the stove is not in use, eliminating the leak risk from any downstream component failure.</li>
+        <li><strong>Inspect your regulator and hose annually.</strong> The regulator and connecting hose are the most common sources of LPG leaks in Pakistani households — not the cylinder itself. A cracked hose or worn regulator o-ring causes leaks at the connection, not at the cylinder body. Replace hoses every 2–3 years and regulators every 5 years as a preventive measure.</li>
+        <li><strong>Never use a soap test near an open flame.</strong> If you suspect a gas leak, apply soapy water to the valve, regulator, and hose connections and look for bubbles. Do this with no open flames or ignition sources within the kitchen.</li>
+        <li><strong>Store cylinders upright in a ventilated area.</strong> LPG vapour is heavier than air and accumulates at floor level. A ventilated storage area — with air circulation at floor level — prevents accumulation of any leaked gas. Never store a cylinder in a sealed, unventilated cupboard or enclosure.</li>
+        <li><strong>Do not expose cylinders to direct radiant heat over 65°C.</strong> Both composite and steel cylinders should be kept away from direct heat sources (wall heaters, open fires, direct summer sun on dark surfaces). Composite cylinders stored outdoors in Pakistani summer sun are fine — the sun does not heat the cylinder body to anywhere near dangerous temperatures. The restriction applies to direct radiant heat sources at close range.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Are composite LPG cylinders approved by OGRA in Pakistan?</h3>
+      <p>Yes. WAA Technologies Pvt Ltd holds a current OGRA manufacturing licence and sells composite cylinders through an authorised OGRA-licensed dealer network. OGRA regulates all LPG cylinders sold in Pakistan. Composite cylinders certified to ISO 11119-3 and EN 14427-2022 meet and exceed Pakistan&apos;s regulatory requirements for LPG cylinders. You can verify OGRA licensing at ogra.org.pk or by contacting OGRA directly.</p>
+
+      <h3>Is a composite cylinder safer than a steel cylinder for kitchen use?</h3>
+      <p>Yes, measurably so. The critical safety advantage is the non-blast behaviour under fire exposure: an ISO 11119-3 certified composite cylinder develops a controlled gas leak under fire rather than a BLEVE explosion. This is the failure mode responsible for the most severe injuries in Pakistan&apos;s household gas cylinder blast incidents. Steel cylinders without functional pressure relief valves can rupture explosively under fire. Additionally, composite cylinders do not corrode — eliminating the structural deterioration that makes ageing steel cylinders progressively more dangerous throughout their service life.</p>
+
+      <h3>What should I check when buying a composite cylinder to ensure it is genuine and safe?</h3>
+      <p>Check for: (1) Individual serial number embossed on the cylinder body — not printed or stickered; (2) ISO 11119-3 and EN 14427-2022 certification marks embossed on the cylinder; (3) Manufacture date and rated test pressure marked on the cylinder; (4) Purchase through an OGRA-licensed authorised dealer who can provide a receipt. For WAA Technologies specifically: the brand name is embossed at four locations and the individual serial number is traceable to production records. Buying from the authorised dealer network at waatechnologies.com/authorized-dealers ensures you are getting a genuine, certified cylinder.</p>
+
+      <h3>How long do composite LPG cylinders last before they need to be replaced?</h3>
+      <p>WAA Technologies composite cylinders are rated for 20+ years of service life and 12,000 pressure fill-and-empty cycles. Conventional steel cylinders in Pakistani conditions typically last 8–12 years before corrosion and mechanical wear require replacement (or the cylinder fails its 5-year hydrotest). There is no periodic hydrotest requirement for composite cylinders — the 20+ year service life and 12,000 cycle rating replace the periodic testing requirement that steel cylinders carry. This extended service life is validated as part of the ISO 11119-3 certification process through the 12,000-cycle fatigue test that every certified composite cylinder design must pass.</p>
+    </>
+  ),
+
   /* ── ARTICLE: How to Check Gas Level in a Composite Cylinder ── */
   'how-to-check-gas-level-composite-cylinder': (
     <>
@@ -2934,6 +3097,7 @@ const wordCounts: Record<string, number> = {
   'psi-certified-gas-cylinder-pakistan': 1700,
   'gas-cylinder-warning-signs-pakistan': 1800,
   'composite-lpg-cylinder-price-pakistan-2025': 1600,
+  'are-composite-lpg-cylinders-safe-pakistan': 2500,
   'how-to-check-gas-level-composite-cylinder': 2000,
   'parco-vs-waa-technologies-cylinder-pakistan': 1700,
   'chinese-imported-vs-pakistani-composite-lpg-cylinder': 1800,
@@ -2997,6 +3161,12 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Is the LPG refill price different for a composite cylinder in Pakistan?', a: 'No. LPG refill price is determined by the weight of gas purchased at the per-kg rate set by OGRA, and is the same regardless of cylinder type — steel or composite. A 10 kg LPG refill costs the same whether you have a WAA composite cylinder or a conventional steel cylinder.' },
     { q: 'Is a composite LPG cylinder worth the extra cost in Pakistan?', a: 'Over a 10-year period, the total cost of ownership for a composite cylinder is comparable to steel when hydrotest costs and replacement frequency are factored in. Composite cylinders eliminate the Rs. 700 hydrotest every 5 years and do not need replacement at year 8–10 like steel cylinders. The 20+ year service life, gas level visibility, 50% lighter weight, and non-blast safety certification add substantial value beyond the cost comparison.' },
     { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
+  ],
+  'are-composite-lpg-cylinders-safe-pakistan': [
+    { q: 'Are composite LPG cylinders safe to use in Pakistan?', a: 'Yes — ISO 11119-3 and EN 14427-2022 certified composite cylinders are measurably safer than conventional steel cylinders. They are non-blast (cannot produce a BLEVE explosion under fire), corrosion-free, and individually tested before leaving the factory. WAA Technologies composite cylinders are OGRA-regulated, manufactured in Gujranwala, and sold through authorised dealers who carry legal responsibility for product compliance.' },
+    { q: 'Can a composite LPG cylinder explode?', a: 'ISO 11119-3 certified composite cylinders are specifically designed and tested to prevent the BLEVE explosion that is possible with steel cylinders. The fire engulfment test — which composite cylinders must pass for certification but steel cylinders are not required to pass under Pakistan\'s PS 4922 standard — confirms that under sustained fire exposure, a composite cylinder releases gas through a controlled leak rather than rupturing explosively. This non-blast property is a tested, certified physical characteristic of the construction, not a marketing claim.' },
+    { q: 'Are composite cylinders approved and regulated by OGRA in Pakistan?', a: 'Yes. WAA Technologies Pvt Ltd holds a current OGRA manufacturing licence and distributes composite cylinders through an authorised OGRA-licensed dealer network. OGRA requires all LPG cylinders sold in Pakistan to be certified to applicable standards. WAA Technologies cylinders are certified to ISO 11119-3 and EN 14427-2022, both of which exceed Pakistan\'s PS 4922 steel cylinder standard in safety testing requirements.' },
+    { q: 'How long do composite LPG cylinders last?', a: 'WAA Technologies composite cylinders are rated for 20+ years of service life and 12,000 pressure fill-and-empty cycles. This compares to 8–12 years for steel cylinders in Pakistani conditions before corrosion and mechanical wear require replacement. There is no periodic hydrotest requirement for composite cylinders. The 20+ year rating is validated through the 12,000-cycle fatigue test included in the ISO 11119-3 certification process.' },
   ],
   'how-to-check-gas-level-composite-cylinder': [
     { q: 'How do you check the gas level in a WAA composite cylinder?', a: 'Look at the side of the cylinder in good light. The liquid LPG inside appears as a darker, denser band at the bottom; the gas vapour above it is lighter and clearer. The boundary between the two zones is your exact gas level — read it like water in a measuring jug. In cool or humid weather, a frost line on the outside of the cylinder also shows the level.' },
