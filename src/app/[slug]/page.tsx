@@ -803,6 +803,234 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: Composite Cylinders Reduce Lifting Injuries in Restaurants ── */
+  'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': (
+    <>
+      <div className="not-prose bg-red-50 border-l-4 border-red-600 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-red-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-red-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          The Weight Problem in Pakistani Restaurant Kitchens
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'A filled 10 kg steel LPG cylinder weighs 28–30 kg — heavier than the maximum safe single-lift weight recommended by occupational health guidelines',
+            'A filled 12 kg steel cylinder weighs 32–34 kg — requiring two people to lift safely, yet routinely lifted solo by single kitchen staff',
+            'High-volume Pakistani commercial kitchens change cylinders 1–4 times per day, meaning staff may perform this heavy lift multiple times per shift',
+            'Back injuries from heavy lifting are among the most common and most costly workplace injuries in Pakistan\'s hospitality sector',
+            'A WAA Technologies 10 kg composite cylinder weighs 18–20 kg when filled — 40% lighter than the steel equivalent, every single lift, every single day',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways for Restaurant Owners
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Switching from steel to composite cylinders reduces per-lift weight by 10–12 kg — the single most effective intervention for cylinder-handling injury prevention',
+            'A kitchen that changes cylinders twice daily saves staff from lifting a cumulative 20–24 kg of unnecessary weight every single shift',
+            'Drop accidents — the second most common cylinder-handling injury — are dramatically reduced when cylinders are lighter and have a non-slip surface grip',
+            'Female kitchen staff, older workers, and smaller-framed employees are disproportionately affected by steel cylinder weight — composite enables independent safe handling for the full workforce',
+            'One lifting injury can cost a restaurant Rs. 30,000–100,000+ in medical costs, compensation, lost productivity, and temporary staff — far more than the price difference between steel and composite cylinders',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>In every discussion about LPG cylinder safety in Pakistani restaurants, the conversation focuses almost exclusively on explosion risk. That focus is understandable — a BLEVE explosion in a commercial kitchen is catastrophic. But it obscures a second, far more common category of LPG cylinder injury in Pakistan&apos;s restaurant sector: the daily, accumulating physical damage caused by repeatedly lifting and moving steel cylinders that weigh more than any single person should be lifting alone.</p>
+
+      <p>Pakistan&apos;s restaurant industry employs hundreds of thousands of kitchen workers. A significant proportion of their daily physical labour involves handling LPG cylinders — connecting them, disconnecting them, moving them within the kitchen, carrying them to and from storage, loading and unloading them from delivery vehicles. A filled 10 kg steel LPG cylinder weighs 28–30 kg. A filled 12 kg cylinder — common in commercial kitchens — weighs 32–34 kg. These are not trivial weights. They exceed the maximum safe single-lift load recommended in occupational health guidelines, and they are lifted repeatedly by the same workers, day after day, often under time pressure during service.</p>
+
+      <p>The result is a persistent, largely undocumented injury burden in Pakistan&apos;s restaurant kitchen workforce: back strains, herniated discs, shoulder injuries, and drop accidents that injure feet, damage cylinder valves, and create secondary safety hazards. This guide is written for restaurant owners and kitchen managers who want to understand this injury risk, quantify it, and eliminate the majority of it through one straightforward equipment change.</p>
+
+      <h2>The Biomechanics of a Steel Cylinder Lift</h2>
+
+      <p>To understand why steel cylinder handling causes injuries, it helps to understand what the body goes through during a typical cylinder change in a Pakistani commercial kitchen. The cylinder sits on the kitchen floor, in a corner or under a counter. When a change is needed — either because the gas has run out or because a proactive operator is swapping before service — the kitchen worker must:</p>
+
+      <ol>
+        <li>Disconnect the regulator from the current cylinder (typically requiring a twisting motion at floor level, which involves bending at the waist with arms extended — a mechanically disadvantaged position)</li>
+        <li>Move the empty cylinder out of position (rolling or dragging 18–20 kg of dead steel weight across the kitchen floor)</li>
+        <li>Move the full cylinder into position — lifting 28–30 kg of steel from floor level, carrying it across the kitchen, and lowering it into the connection position</li>
+        <li>Reconnect the regulator (again at floor level, again involving a bent-waist, extended-arm posture)</li>
+      </ol>
+
+      <p>Steps 3 is where most back injuries occur. Lifting 30 kg from floor level — a deadlift motion — with the load held away from the body (required because the cylinder&apos;s cylindrical shape prevents it from being held close to the torso) creates significant compressive and shear forces on the lumbar spine. Occupational health research consistently identifies floor-level lifts of loads above 20–25 kg as high-risk activities for lumbar disc injury, particularly when performed repeatedly over the course of a shift or career.</p>
+
+      <p>In Pakistani restaurant kitchens — where the cylinder change is often performed by a single kitchen staff member under time pressure during service, without the two-person protocol that the weight technically demands — the biomechanical risk is compounded by haste. A rushed lift, with the back not properly braced, the core not engaged, and the load not properly gripped, is far more likely to result in injury than the same lift performed carefully. And in a busy commercial kitchen, careful is rarely the operative mode during service.</p>
+
+      <h2>Who Is Most at Risk in Pakistani Restaurant Kitchens</h2>
+
+      <p>While any kitchen worker performing repeated heavy cylinder lifts faces cumulative injury risk, certain categories of restaurant staff in Pakistan are disproportionately exposed:</p>
+
+      <h3>Female Kitchen Staff</h3>
+
+      <p>Pakistan&apos;s bakery sector, catering industry, and an increasing number of café and restaurant kitchens employ significant numbers of female workers. Average female lifting capacity is generally lower than average male capacity, and the 30 kg steel cylinder is at or above the maximum safe solo lift weight for most female workers. Yet in many kitchens, cylinder changes are assigned to whoever is available — regardless of the physical load involved. Female kitchen workers tasked with solo steel cylinder changes are performing a genuinely unsafe manual handling operation. A 12 kg composite cylinder at 21 kg filled is within safe single-person lifting range for most adult workers regardless of sex.</p>
+
+      <h3>Older Kitchen Workers</h3>
+
+      <p>Pakistan&apos;s restaurant sector employs kitchen workers across a wide age range, including many experienced cooks and kitchen hands in their 40s, 50s, and beyond. Lumbar disc integrity decreases with age — the same lift that a 25-year-old can perform with low injury risk becomes a significantly higher-risk activity for a 50-year-old. Many of Pakistan&apos;s most experienced kitchen workers — the head cooks, the biryani masters, the tandoor specialists whose skills are irreplaceable — are also the workers whose musculoskeletal systems are most vulnerable to the cumulative damage of repeated steel cylinder handling. Losing an experienced head cook to a back injury from cylinder handling is a serious operational and financial event for any restaurant.</p>
+
+      <h3>High-Frequency Handlers in High-Volume Operations</h3>
+
+      <p>A household uses a 10 kg cylinder for 4–6 weeks. A high-volume commercial kitchen — a karahi house in Lahore&apos;s Gulberg serving 300+ covers per day, a hotel kitchen running breakfast, lunch, and dinner services, a wedding catering operation feeding 1,000 guests — may cycle through a 12 kg cylinder in a single shift. Workers in these operations perform the cylinder change lift multiple times per day, every day. The cumulative lifting load over a week — 5 lifts × 30 kg × 6 working days = 900 kg of cylinder weight moved per week — is significant even before the ergonomic risk factors of floor-level, off-balance lifting are considered.</p>
+
+      <h3>Small-Framed Workers</h3>
+
+      <p>Pakistani kitchen workforces across all city types include workers from a range of body sizes and physical builds. A 28–30 kg steel cylinder represents a substantially greater proportion of body weight — and a proportionally greater biomechanical challenge — for a smaller-framed worker than for a large one. Kitchen staffing decisions are typically made on cooking skill and availability, not physical size — meaning smaller workers routinely face the same cylinder handling demands as larger ones.</p>
+
+      <h2>The Two Types of Cylinder-Handling Injury</h2>
+
+      <h3>Overexertion Injuries — The Slow Accumulation</h3>
+
+      <p>Overexertion injuries — back strains, herniated or bulging lumbar discs, rotator cuff damage, and muscle tears — are the most common category of cylinder-handling injury and the hardest to attribute directly to a specific incident. They develop over time, as the cumulative load of repeated heavy lifts wears down the structural capacity of joints, discs, and muscles. A kitchen worker who has been changing 30 kg steel cylinders twice a day for two years has placed enormous cumulative stress on their lumbar spine. When they eventually present with a herniated disc or chronic back pain, it is difficult to point to a single cylinder lift as the cause — because it was not one lift. It was two thousand.</p>
+
+      <p>This gradual nature of overexertion injury makes it systematically undercounted in Pakistani restaurant kitchens. Workers continue working through early-stage pain because it is diffuse and attributable to general work fatigue. By the time the injury is severe enough to require medical treatment or result in absence, it may be far advanced. Chronic back pain — the most common eventual outcome of repeated lumbar overexertion — is a significant quality-of-life impact for kitchen workers and a genuine long-term cost to restaurant operations through reduced productivity, higher absenteeism, and increased staff turnover.</p>
+
+      <h3>Drop Accidents — The Acute Event</h3>
+
+      <p>The second category of cylinder-handling injury is the acute drop accident: a cylinder that slips from a worker&apos;s grip during a lift or carry and falls to the kitchen floor. Steel cylinders are smooth-sided, cylindrical, and heavy. When a worker&apos;s grip fails — from sweat, fatigue, a moment of distraction, or simply the sheer weight overwhelming their grip strength — the cylinder falls. At 30 kg from any height above the floor, a falling steel cylinder causes serious injury to any foot, ankle, or leg it lands on. Steel-toed safety boots are rarely standard issue in Pakistani restaurant kitchens.</p>
+
+      <p>Beyond the direct injury to the person, a dropped steel cylinder creates a second hazard: valve damage. The most dangerous point on a cylinder is the valve — the fitting at the top that controls gas flow and connects to the regulator. A dropped cylinder that lands on its valve can damage the valve body or shear the valve entirely, creating an uncontrolled gas release from a pressurised cylinder in an active kitchen environment. This secondary hazard is why cylinder drop accidents in commercial kitchens are classified as high-severity incidents even when no person is directly injured by the fall.</p>
+
+      <h2>How the 40% Weight Reduction Changes Everything</h2>
+
+      <p>WAA Technologies 10 kg composite cylinders weigh 18–20 kg when filled, compared to 28–30 kg for steel equivalents. The 12 kg composite weighs approximately 21 kg filled, compared to 32–34 kg for steel. This 10–13 kg reduction per cylinder — approximately 40% of the filled weight — changes the physical risk profile of every cylinder change in a kitchen that makes the switch.</p>
+
+      <p>Consider what a 10 kg weight reduction means in practice for the lifting biomechanics described above. The compressive force on the lumbar spine during a floor-level lift is not proportional to the load — it is multiplicative, because the spine acts as a lever. A 30% reduction in lifted load produces a disproportionately larger reduction in spinal compressive force, particularly when the load is held at arm&apos;s length. Occupational health research suggests that reducing a manual handling load from 30 kg to 20 kg can reduce the risk of lumbar injury by 40–60%, because the risk relationship between load and injury is non-linear.</p>
+
+      <p>The practical outcomes for a Pakistani commercial kitchen:</p>
+
+      <ul>
+        <li>Cylinder changes that previously required two people can be safely performed by one — reducing the coordination demand and allowing more flexible kitchen staffing</li>
+        <li>Female kitchen staff and smaller-framed workers can independently perform cylinder changes without calling for physical assistance — maintaining kitchen flow during service</li>
+        <li>Workers in high-frequency cylinder-change roles accumulate significantly less lumbar load per shift — measurably reducing overexertion injury risk over a career</li>
+        <li>Drop accident risk decreases because a 20 kg cylinder is within the sustained grip capacity of most adult workers, while a 30 kg cylinder at the end of a 12-hour shift is at the edge of many workers&apos; grip limits</li>
+        <li>The regulator connection and disconnection posture — bent at the waist at floor level — is lower risk when the cylinder to be moved immediately afterward is 10 kg lighter</li>
+      </ul>
+
+      <h2>Beyond Weight: The Other Handling Safety Advantages of Composite Cylinders</h2>
+
+      <h3>No Rust — A Better Grip Surface</h3>
+
+      <p>Steel cylinders develop surface rust in Pakistani kitchen environments, particularly in Karachi&apos;s coastal humidity and in kitchens where cylinders are exposed to splashed water or steam. A rusted cylinder surface is a compromised grip surface — the irregular rust texture can tear skin during gripping, and more importantly, it provides less predictable friction than a clean surface. A kitchen worker who loses grip on a rusty, wet steel cylinder is at immediate drop accident risk. WAA Technologies composite cylinders have a clean HDPE surface that does not rust, does not corrode, and maintains a consistent grip surface throughout its 20+ year service life.</p>
+
+      <h3>Visible Gas Level — No Rushed Emergency Lifts</h3>
+
+      <p>A significant proportion of cylinder handling injuries in Pakistani restaurant kitchens occur not during planned, controlled cylinder changes, but during emergency cylinder changes — when gas runs out mid-service and a frantic swap must be performed under maximum time pressure with maximum kitchen stress. The rushed lift, the hurried regulator connection, the lack of attention to posture under service pressure — these are the conditions that most frequently produce both overexertion injuries and drop accidents.</p>
+
+      <p>WAA Technologies composite cylinders eliminate emergency cylinder changes entirely. The translucent body makes the gas level visible at a glance — a kitchen manager or chef can see the level from across the kitchen and plan the swap during a service gap rather than reacting to an empty cylinder during peak service. Planned, unhurried cylinder changes are far lower injury risk than emergency ones. This benefit — reducing the frequency of the highest-risk scenario — is a significant but often overlooked safety advantage of composite cylinders in commercial kitchens.</p>
+
+      <h3>Uniform Shape and Balance</h3>
+
+      <p>Composite cylinders have a slightly different weight distribution from steel cylinders. Because the composite construction is a uniform shell rather than a thick steel base and thinner walls, the weight is distributed more evenly across the cylinder body. This gives the composite cylinder a more balanced feel during handling — it tracks more predictably during lifts and does not have the heavy-base instability that makes steel cylinders awkward to handle. Kitchen workers consistently report that composite cylinders &quot;feel easier to handle&quot; beyond just the weight reduction — the balance improvement contributes to safer gripping and more controlled cylinder placement.</p>
+
+      <h2>The Financial Cost of a Lifting Injury to a Pakistani Restaurant</h2>
+
+      <p>Restaurant owners who weigh the cost of composite cylinders against steel need to include the cost of lifting injuries in that calculation. A single serious back injury in a commercial kitchen has the following potential financial impacts:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-800 text-white">
+              <th className="p-3 text-left font-bold">Cost Category</th>
+              <th className="p-3 text-left font-bold">Typical Range (PKR)</th>
+              <th className="p-3 text-left font-bold">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Medical treatment', 'Rs. 15,000–60,000', 'Consultation, imaging (MRI), physiotherapy, medication'],
+              ['Lost productivity', 'Rs. 10,000–40,000', 'Days absent × daily output value; more for key staff'],
+              ['Temporary replacement staff', 'Rs. 8,000–25,000', 'Agency or informal hire to cover the role during recovery'],
+              ['Permanent replacement (if injury is chronic)', 'Rs. 5,000–15,000', 'Recruitment and training cost for permanent replacement'],
+              ['Legal / compensation exposure', 'Variable', 'Pakistan Workmen\'s Compensation Act 1923 applies to industrial injuries'],
+              ['Operational disruption', 'Variable', 'Service quality impact, customer complaints, menu limitations'],
+            ].map(([cat, range, notes], i) => (
+              <tr key={cat} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{cat}</td>
+                <td className="p-3 text-red-700 font-medium border border-slate-100">{range}</td>
+                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{notes}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>A moderate back injury — one that keeps a kitchen worker off for two weeks and requires physiotherapy — can easily cost a restaurant Rs. 40,000–80,000 in direct and indirect costs. A serious herniated disc injury requiring surgery and extended recovery can cost substantially more. The price difference between a composite and steel cylinder (approximately Rs. 5,000–8,000 per unit) is recovered in full if switching to composite prevents even a single moderate lifting injury per decade of cylinder use.</p>
+
+      <p>This is the ROI argument that persuades experienced restaurant operators far more convincingly than any product feature comparison: the composite cylinder is not just a better LPG vessel, it is an investment in your workforce&apos;s physical health that pays for itself through injury prevention. For a restaurant operating 10 cylinders, the fleet upgrade costs Rs. 50,000–80,000 more than equivalent steel. One prevented back injury recovers that entire investment.</p>
+
+      <h2>Practical Implementation: Safe Cylinder Handling Protocol for Pakistani Restaurants</h2>
+
+      <p>Switching to composite cylinders significantly reduces cylinder handling injury risk, but the switch should be accompanied by a basic safe handling protocol for kitchen staff. The following applies whether your restaurant uses composite or steel cylinders:</p>
+
+      <ul>
+        <li><strong>Always assess before lifting.</strong> Before attempting to lift a filled cylinder, assess its weight. A filled cylinder should be moved with two hands and the load held as close to the body as possible.</li>
+        <li><strong>Use a two-person lift for 12 kg cylinders.</strong> Even composite 12 kg cylinders at 21 kg filled benefit from a two-person carry in commercial kitchens where the cylinder must be moved significant distances or up steps. Establish a two-person protocol and enforce it.</li>
+        <li><strong>Use a cylinder trolley for frequent changes.</strong> A basic cylinder trolley (dolly) with a strap eliminates most of the lifting load during cylinder movement — the cylinder is tipped and rolled rather than carried. These are inexpensive and dramatically reduce handling risk for high-frequency cylinder change environments.</li>
+        <li><strong>Never rush a cylinder change.</strong> The single most effective behavioural rule: cylinder changes are not emergency activities. With composite cylinders, the visible gas level means you always have advance warning. Build the change into a quiet service period rather than a crisis response.</li>
+        <li><strong>Train all staff on the connection procedure.</strong> Valve connection and disconnection at floor level is the posture that most frequently causes back injuries. Train staff on the proper knee-bend, back-straight posture for this task — and check that they are actually using it.</li>
+      </ul>
+
+      <h2>Steel vs Composite: The Full Handling Safety Comparison</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Handling Factor</th>
+              <th className="p-3 text-left font-bold">Steel Cylinder</th>
+              <th className="p-3 text-left font-bold">WAA Composite Cylinder</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Filled weight (10 kg)', '28–30 kg', '18–20 kg'],
+              ['Filled weight (12 kg)', '32–34 kg', '~21 kg'],
+              ['Safe for solo lift by most adults?', 'No — exceeds safe single-lift limit', 'Yes — within safe single-lift range'],
+              ['Safe for female staff solo?', 'No — significantly above safe limit', 'Yes — manageable solo weight'],
+              ['Drop accident risk', 'High — heavy, smooth metal, round profile', 'Lower — 40% lighter, consistent HDPE grip surface'],
+              ['Grip surface condition', 'Degrades with rust over time', 'Consistent HDPE surface — never rusts'],
+              ['Emergency change risk', 'High — no warning before gas runs out', 'Eliminated — visible level allows planned changes'],
+              ['Cumulative daily lift load (2 changes/day)', '60 kg unnecessary weight per shift', 'Eliminated — 40 kg less per shift vs steel'],
+            ].map(([factor, steel, composite], i) => (
+              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{factor}</td>
+                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How much lighter is a WAA composite cylinder compared to a steel cylinder?</h3>
+      <p>A filled WAA Technologies 10 kg composite cylinder weighs approximately 18–20 kg, compared to 28–30 kg for a steel 10 kg cylinder — a reduction of 10–12 kg, or roughly 40%. A 12 kg composite cylinder weighs approximately 21 kg filled, compared to 32–34 kg for steel. This weight reduction applies to every lift, every cylinder change, every day — it is a permanent, compounding ergonomic benefit for every kitchen worker who handles the cylinder throughout its 20+ year service life.</p>
+
+      <h3>Can female kitchen staff safely handle a composite cylinder solo?</h3>
+      <p>A filled WAA Technologies 10 kg composite cylinder at 18–20 kg is within the safe single-person lifting range for most adult female workers using correct lifting technique. This compares to the steel equivalent at 28–30 kg, which exceeds safe solo lift limits for most female workers. The composite cylinder enables female kitchen staff in bakeries, catering operations, and restaurant kitchens to independently perform cylinder changes without requiring physical assistance — maintaining kitchen operational flow and removing a source of workplace inequality in task assignment.</p>
+
+      <h3>Does Pakistan have any workplace safety laws covering LPG cylinder handling in restaurants?</h3>
+      <p>Pakistan&apos;s Factories Act 1934 and the Workmen&apos;s Compensation Act 1923 both apply to workplace injuries in commercial kitchens classified as factory or industrial premises. The Factories Act requires employers to provide safe working conditions and equipment. An employer who requires kitchen staff to repeatedly perform lifts that exceed safe manual handling limits — using unnecessarily heavy equipment when lighter alternatives exist and are commercially available — may face exposure under these statutes if a worker is injured. Switching to composite cylinders is demonstrable due diligence in providing lighter, safer handling equipment for a known heavy-lift task.</p>
+
+      <h3>How do I order composite cylinders for my restaurant from WAA Technologies?</h3>
+      <p>Contact WAA Technologies directly at (+92) 42 37815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. For restaurants requiring multiple cylinders, commercial pricing is available. WAA Technologies authorised dealers also serve restaurant and commercial accounts across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find your nearest commercial account dealer.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Composite LPG Cylinders for Food Trucks & Street Vendors ── */
   'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': (
     <>
@@ -3307,6 +3535,7 @@ const wordCounts: Record<string, number> = {
   'winter-gas-shortage-pakistan-2025-prepare-your-home': 2900,
   'ramadan-gas-safety-tips-pakistani-kitchens': 3000,
   'load-shedding-lpg-pakistanis-switching-gas-cooking': 2900,
+  'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': 2600,
 };
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
@@ -3537,6 +3766,24 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     {
       q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
       a: 'WAATechnologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
+    },
+  ],
+  'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': [
+    {
+      q: 'How much lighter is a composite LPG cylinder compared to steel for restaurant use?',
+      a: 'A filled WAA Technologies 10 kg composite LPG cylinder weighs 18–20 kg, compared to 28–30 kg for a steel 10 kg cylinder — approximately 10–12 kg lighter, or 40% of the filled weight. A 12 kg composite cylinder weighs approximately 21 kg filled, vs 32–34 kg for steel. This weight reduction applies to every cylinder change in a commercial kitchen, every day — cumulatively reducing the manual handling load on kitchen staff by thousands of kilograms per year.',
+    },
+    {
+      q: 'What are the most common LPG cylinder handling injuries in Pakistani restaurant kitchens?',
+      a: 'The most common cylinder handling injuries in Pakistani commercial kitchens are: (1) Lumbar back strains and disc injuries from lifting 28–30 kg steel cylinders from floor level, particularly common in high-frequency cylinder change environments; (2) Shoulder and rotator cuff injuries from the awkward postures required during valve connection and disconnection at floor level; (3) Foot and ankle injuries from cylinder drop accidents when grip fails during lifting or carrying. Switching to composite cylinders (40% lighter) directly reduces the biomechanical forces responsible for all three injury types.',
+    },
+    {
+      q: 'Does Pakistani law require restaurants to provide safe cylinder handling equipment?',
+      a: 'Yes. The Pakistan Factories Act 1934 requires employers operating commercial premises classified as factories to provide safe equipment and working conditions. The Workmen\'s Compensation Act 1923 provides compensation rights to workers injured during employment, including injuries from manual handling of heavy equipment. A restaurant employer who requires staff to repeatedly lift 30 kg steel cylinders when lighter composite alternatives are commercially available may face Factories Act compliance risk and Workmen\'s Compensation exposure following a cylinder handling injury.',
+    },
+    {
+      q: 'Can female kitchen staff safely handle WAA composite cylinders independently?',
+      a: 'Yes. A filled WAA Technologies 10 kg composite cylinder at 18–20 kg is within the safe single-person lifting range for most adult female workers using correct lifting technique. The steel equivalent at 28–30 kg significantly exceeds safe solo lift limits for most female workers, requiring two people or creating unsafe single-person handling conditions. Composite cylinders enable female bakery, catering, and restaurant kitchen workers to independently perform cylinder changes without requiring physical assistance from male colleagues.',
     },
   ],
   'load-shedding-lpg-pakistanis-switching-gas-cooking': [

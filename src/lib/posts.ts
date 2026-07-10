@@ -15,6 +15,16 @@ export const allPosts: Post[] = [
 
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
+    slug: 'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan',
+    title: 'How Composite LPG Cylinders Reduce Lifting Injuries in Pakistani Restaurant Kitchens',
+    date: 'Jul 10, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '11 min read',
+    tags: ['restaurant-gas-cylinder-pakistan', 'composite-lpg-cylinders', 'kitchen-safety-pakistan', 'lpg-cylinder-weight', 'waa-technologies', 'commercial-lpg-pakistan'],
+    excerpt: 'A filled steel LPG cylinder weighs 30+ kg. Pakistani restaurant staff lift these multiple times per shift, every day. Back injuries, shoulder strains, and drop accidents are a direct consequence. Composite cylinders weigh 40% less and change the risk profile of every cylinder change in your kitchen.',
+  },
+  {
     slug: 'composite-lpg-cylinders-food-trucks-street-vendors-pakistan',
     title: 'Composite LPG Cylinders for Food Trucks & Street Vendors in Pakistan — The Complete Guide',
     date: 'Jul 9, 2026',
