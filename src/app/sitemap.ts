@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Slugs for the long-form 2500+ word blog posts — given highest priority
   const deepBlogSlugs = new Set([
+    'transparent-gas-cylinder-benefits-see-lpg-level-pakistan',
     'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan',
     'composite-lpg-cylinders-food-trucks-street-vendors-pakistan',
     'are-composite-lpg-cylinders-safe-pakistan',

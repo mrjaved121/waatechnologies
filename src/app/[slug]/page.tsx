@@ -803,6 +803,196 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: Transparent Gas Cylinder Benefits ── */
+  'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': (
+    <>
+      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">Can you see the gas level in a WAA Technologies composite cylinder?</p>
+        <p className="text-slate-300 text-sm leading-relaxed">Yes. WAA Technologies composite LPG cylinders have a translucent HDPE (high-density polyethylene) body. The liquid LPG inside is directly visible through the cylinder wall — you can see exactly how much gas remains at a glance, from across the kitchen, at any time. No lifting, no shaking, no guessing. Steel cylinders are 100% opaque — there is no way to see the level without lifting the cylinder to estimate its weight.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies composite cylinders are the only LPG cylinders in Pakistan with a translucent body — every other option (steel, traditional gola) is completely opaque',
+            'You can see the liquid LPG level through the cylinder wall the same way you see water in a plastic bottle — no special tools, no lifting, no calibrated weighing',
+            'Visible gas level eliminates the most common kitchen crisis in Pakistan: running out of gas mid-cooking with no warning',
+            'For restaurants, bakeries, and caterers, visible level enables planned cylinder changes during service gaps — eliminating high-risk emergency swaps',
+            'The translucent body is structural HDPE — a material with 20+ year outdoor durability — not a thin window or sight glass that can crack',
+            'This feature is exclusive to WAA Technologies in Pakistan — no imported or domestic steel cylinder competitor offers equivalent gas-level visibility',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every Pakistani household and commercial kitchen that uses LPG has experienced the same moment: you&apos;re mid-cook — biryani simmering, dough being fried, a pot of dal approaching ready — and the gas cuts out. The flame dies. The stove goes cold. You shake the steel cylinder and it feels light. You&apos;ve run out of gas, and you had no idea it was coming.</p>
+
+      <p>This is not a minor inconvenience. For a household, it means interrupted meals, emergency calls to the gas dealer, and the delay of waiting for a refill or replacement cylinder. For a restaurant, it means a service crisis — a kitchen that goes cold mid-service, dishes that cannot be completed, customers who wait. For a bakery with temperature-sensitive products in progress, running out of gas can mean a ruined batch. For a wedding catering operation serving 500 guests, it can mean a catastrophic failure.</p>
+
+      <p>The root cause of all of these scenarios is a single fundamental limitation of steel LPG cylinders: they are completely opaque. There is no window. There is no level indicator. There is no gauge. There is no way to know how much gas remains inside a steel cylinder without lifting it and estimating its remaining weight — a technique that requires experience, physical capability, and provides only a rough approximation even when done correctly.</p>
+
+      <p>WAA Technologies has solved this problem. Their composite LPG cylinders — manufactured in Pakistan to ISO 11119-3 and EN 14427-2022 international standards — have a translucent HDPE body. The liquid LPG inside is directly visible through the cylinder wall, exactly as water is visible through a plastic water bottle. You can see precisely how much gas you have, at a glance, from across the room, without touching the cylinder. This is the transparent gas cylinder advantage — and in Pakistan today, only WAA Technologies offers it.</p>
+
+      <h2>Why Steel Cylinders Cannot Show You the Gas Level</h2>
+
+      <p>Understanding why transparent gas cylinders are significant requires understanding the structural constraint that makes steel cylinders opaque. LPG is stored at pressure — approximately 6–10 bar depending on temperature and fill level. Steel is the traditional pressure vessel material because it is strong, cheap, and weldable into the cylindrical pressure vessel shape. But steel is inherently opaque — you cannot see through it, and creating a transparent window in a pressurised steel vessel introduces a structural weak point that defeats the safety advantage of steel construction.</p>
+
+      <p>This is why steel LPG cylinders have always been opaque, and why no manufacturer has ever successfully added a reliable transparent panel to a steel cylinder at commercial scale. The material constraint is fundamental: you cannot make steel transparent, and you cannot safely introduce a transparent panel into a pressurised steel shell.</p>
+
+      <p>Composite cylinders solve this problem by being constructed from a different material entirely. WAA Technologies composite cylinders use a structural HDPE (high-density polyethylene) liner, overwrapped with glass fibre for pressure containment. HDPE is inherently translucent — the same quality that makes HDPE milk bottles semi-transparent in sunlight. Because the entire cylinder wall is constructed from this material, the gas level is visible through the wall without any structural compromise. There is no window, no sight glass, no panel — the wall itself is translucent, uniformly, across the entire cylinder body.</p>
+
+      <h2>What You Actually See: The LPG Level in a Transparent Cylinder</h2>
+
+      <p>Understanding what gas visibility looks like in practice is important, because &quot;transparent cylinder&quot; can suggest total clarity — like glass — which is not accurate. WAA Technologies composite cylinders are translucent, not fully transparent. The correct comparison is a HDPE milk bottle or a thick plastic water container: you can see the liquid level clearly, you can see the approximate fill state, and you can track the level changing over time — but you are not seeing through a perfectly clear window.</p>
+
+      <p>In practice, what you observe is:</p>
+
+      <ul>
+        <li><strong>The liquid-gas interface line.</strong> LPG inside the cylinder exists in two phases: liquid LPG in the lower portion, and LPG vapour (gas) above it. The interface between liquid and vapour is visible as a horizontal line on the cylinder wall — exactly as the water surface is visible in a plastic bottle. This line is your gas level indicator.</li>
+        <li><strong>Fill state at a glance.</strong> A full cylinder shows the interface line high on the cylinder wall. A half-full cylinder shows it at the midpoint. An almost-empty cylinder shows it near the base. You can read the fill state in less than a second with no training required.</li>
+        <li><strong>Level changes over time.</strong> As gas is consumed, the interface line descends gradually. You can track this decline over days and weeks, developing an accurate intuition for your household or kitchen&apos;s consumption rate — and planning refills accordingly.</li>
+        <li><strong>Better visibility in good light.</strong> The translucency is most obvious in natural light or bright kitchen lighting. The interface line is less distinct in low light, but still visible. Shining a torch against the cylinder wall in dim conditions makes the level immediately clear.</li>
+      </ul>
+
+      <p>One practical tip: the liquid LPG level is easier to see when you look at the cylinder from the side in good light, angled slightly so light passes through the wall rather than reflecting off the surface. Most Pakistani households and kitchens naturally have enough ambient light that this is not a consideration — the level is simply visible under normal conditions.</p>
+
+      <h2>The Six Real-World Benefits of Gas Level Visibility in Pakistan</h2>
+
+      <h3>1. No More Running Out Mid-Cooking</h3>
+
+      <p>This is the benefit that every Pakistani household immediately understands. Running out of gas mid-cooking is not a rare event for households using steel cylinders — it happens regularly, because the only warning that the cylinder is nearly empty is the declining intensity of the flame, and by the time the flame is noticeably weaker, the cylinder may be hours or minutes from empty.</p>
+
+      <p>With a transparent WAA Technologies cylinder, the declining gas level is visible as a continuously descending interface line on the cylinder wall. A household that checks the level once a week — a two-second glance at the cylinder, no lifting required — knows its gas situation with certainty. When the level drops to the bottom quarter, you call the dealer. You never cook at risk of an unexpected gas-out again.</p>
+
+      <h3>2. No More Lifting to Estimate Weight</h3>
+
+      <p>The standard Pakistani method for checking a steel cylinder&apos;s gas level is to lift it and estimate its weight. A full cylinder is heavy; an empty one is light; partial fill is somewhere in between. This requires: the physical ability to lift 25–30 kg, the experience to calibrate an estimated weight into an approximate gas percentage, and the willingness to repeat this process every time you want to know the level.</p>
+
+      <p>For Pakistani households with elderly members, female members, or children who want to check the gas — and in commercial kitchens where dozens of cylinders are in use simultaneously — this lifting method is impractical and physically demanding. The transparent cylinder eliminates it entirely. Checking the gas level requires zero physical effort: look at the cylinder. That&apos;s it.</p>
+
+      <h3>3. Better Dealer Scheduling and No Emergency Refills</h3>
+
+      <p>Pakistani LPG dealers and cylinder exchange operators generally do not operate 24/7. Running out of gas at 9pm on a Friday means waiting until Saturday morning for a replacement. Running out mid-service in a restaurant means an emergency dealer call with associated inconvenience costs and potential premium pricing for an out-of-hours delivery.</p>
+
+      <p>Transparent cylinders enable planned refills. When the level is visually at 25%, you call the dealer during normal business hours, at a time of your choosing, with days of gas supply remaining. You never pay emergency rates. You never wait for a dealer to open. You are always in control of your gas supply timing.</p>
+
+      <h3>4. For Commercial Kitchens: Planned Cylinder Changes During Service Gaps</h3>
+
+      <p>Commercial kitchens — restaurants, bakeries, wedding caterers, hotel kitchens — face a specific hazard that does not apply to households: the emergency cylinder change during active service. When a restaurant kitchen runs out of gas during dinner service, the cylinder must be changed immediately, under time pressure, with chefs waiting, customers impatient, and the kitchen running at maximum stress. Emergency cylinder changes are the highest-risk cylinder handling scenario — they are rushed, supervision is diverted, and the combination of haste with a 30 kg steel cylinder is when drop accidents and connection errors occur.</p>
+
+      <p>Visible gas level eliminates emergency cylinder changes in commercial kitchens. A kitchen manager who can see all cylinder levels at a glance — a two-second scan during a morning prep walk-through — can plan every cylinder change for a quiet period between services. The change is unhurried, properly supervised, and lower risk. This benefit compounds across every service, every week, for the 20+ year life of the cylinders.</p>
+
+      <h3>5. Accurate Multiple-Cylinder Inventory Management</h3>
+
+      <p>Commercial operators — restaurants, bakeries, large households, small hotels — often hold multiple LPG cylinders simultaneously. With steel cylinders, managing a multi-cylinder inventory requires either keeping detailed written records of fill date and estimated remaining usage, or physically lifting each cylinder to estimate its level. Neither approach is reliable.</p>
+
+      <p>With transparent WAA Technologies cylinders, multi-cylinder inventory management is instantaneous: scan the cylinders visually, read the levels, identify which are approaching empty, order accordingly. A restaurant with six cylinders can determine the complete inventory status in seconds. This benefit scales linearly with the number of cylinders in use — the more cylinders, the more valuable the visibility becomes.</p>
+
+      <h3>6. Teaching Children and New Household Members to Monitor Gas</h3>
+
+      <p>In Pakistani households, gas monitoring is typically the responsibility of the main cook or household manager — the person with enough experience to estimate cylinder weight. Transparent cylinders make gas monitoring accessible to every household member. A teenager, a new daughter-in-law unfamiliar with the household&apos;s consumption patterns, a domestic worker — anyone can check the gas level with zero training and zero physical effort. This distributes the gas monitoring responsibility across the household and reduces the probability of running out simply because the one person who knew how to check was unavailable.</p>
+
+      <h2>Transparent vs Steel: The Full Comparison on Gas Level Visibility</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Feature</th>
+              <th className="p-3 text-left font-bold">Steel Cylinder</th>
+              <th className="p-3 text-left font-bold">WAA Composite (Transparent)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Gas level visible?', 'No — completely opaque', 'Yes — visible through translucent HDPE wall'],
+              ['Level check method', 'Lift and estimate weight (28–30 kg)', 'Look at the cylinder — zero effort'],
+              ['Level check accuracy', 'Rough estimate only (±25%)', 'Visual interface line — accurate within millimetres'],
+              ['Who can check the level?', 'Only adults with lifting capacity and experience', 'Anyone — no physical effort or experience required'],
+              ['Emergency gas-out risk', 'High — no visible warning before empty', 'Eliminated — declining level visible weeks before empty'],
+              ['Multiple cylinder management', 'Requires lifting each cylinder or keeping records', 'Instant visual inventory — scan all cylinders in seconds'],
+              ['Commercial kitchen benefit', 'Emergency mid-service changes common', 'Planned changes scheduled for service gaps'],
+              ['Night / low-light visibility', 'No change — opaque in all conditions', 'Use torch for easy night visibility through wall'],
+            ].map(([feat, steel, composite], i) => (
+              <tr key={feat} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{feat}</td>
+                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Is the Translucent Body as Strong as Steel?</h2>
+
+      <p>The most common question Pakistani buyers ask when they first see a transparent gas cylinder is whether the HDPE body is structurally compromised compared to steel. It is a reasonable question — the material is clearly different, and different can feel less substantial. The answer requires understanding what structural work the HDPE liner actually does versus what the glass fibre overwrap does.</p>
+
+      <p>In a WAA Technologies composite cylinder, the structural pressure containment is provided primarily by the glass fibre overwrap — the helically wound glass fibre that covers the HDPE liner completely. Glass fibre in tension has a strength-to-weight ratio significantly superior to steel. The HDPE liner provides: the gas-tight barrier (LPG does not permeate HDPE), the inner vessel shape, the visible level indicator through translucency, and the corrosion-immune surface. The glass fibre overwrap provides: the burst pressure containment, the structural integrity under pressure cycling, and the impact resistance against drops and impacts.</p>
+
+      <p>ISO 11119-3 certification — which all WAA Technologies composite cylinders carry — requires passing:</p>
+
+      <ul>
+        <li><strong>Burst pressure testing</strong> at minimum 2.25× the nominal working pressure</li>
+        <li><strong>12,000-cycle fatigue testing</strong> simulating 60+ years of fill-empty cycles at commercial use rates</li>
+        <li><strong>Fire engulfment testing</strong> confirming non-blast behaviour (the cylinder develops a controlled gas release rather than rupturing)</li>
+        <li><strong>Drop testing</strong> from 1.8 metres onto a steel boss</li>
+        <li><strong>UV degradation testing</strong> confirming outdoor durability over 20+ years</li>
+      </ul>
+
+      <p>A cylinder that passes all of these tests at independent certification — which WAA Technologies cylinders do — is not a compromised steel cylinder with a see-through panel. It is a fundamentally different and independently validated pressure vessel design that happens to be translucent as a result of its material construction. The translucency is not a feature added onto the design — it is a natural property of the structural HDPE material that also enables the gas-level visibility benefit.</p>
+
+      <h2>HDPE Durability in Pakistani Conditions</h2>
+
+      <p>Pakistani buyers sometimes raise concerns about HDPE durability in local conditions — specifically heat, UV exposure, and the rough handling that cylinders receive in delivery, storage, and kitchen environments. These are legitimate questions. HDPE is the answer to all of them.</p>
+
+      <p>HDPE (high-density polyethylene) is one of the most widely used structural plastics in the world precisely because of its durability characteristics. Pakistani consumers encounter HDPE daily in applications far more demanding than a kitchen cylinder: water storage tanks on rooftops across Pakistan are HDPE, exposed to direct sun at 40°C+ and temperature cycling for 20+ years. Agricultural irrigation pipes that carry pressurised water underground are HDPE, exposed to ground movement and chemical environments. Food-grade water containers in commercial kitchens are HDPE — the same application environment as an LPG cylinder.</p>
+
+      <p>HDPE has excellent UV resistance (particularly with standard UV stabilisers added during manufacture), good performance at temperatures up to 80°C (well above Pakistani ambient and kitchen storage temperatures), and excellent impact resistance — it is a tough, slightly flexible material that deforms elastically under impact rather than cracking brittlely. A steel cylinder dents permanently when dropped; an HDPE cylinder absorbs the impact and returns to shape. This impact resilience is particularly valuable in the delivery and handling chain, where cylinders regularly roll off vehicles and knock against surfaces.</p>
+
+      <h2>Which WAA Technologies Cylinders Are Transparent?</h2>
+
+      <p>All WAA Technologies composite LPG cylinders have the translucent HDPE body — this is a material property of the construction, not a feature specific to a particular model. The 5 kg, 10 kg, and 12 kg variants all share the same construction methodology and the same gas-level visibility benefit. The different colour overlays (Cerulean Blue, Tiger Orange, Traditional Blue) are surface finishes on the glass fibre overwrap — they affect the outer appearance and brand differentiation, but the translucency of the HDPE inner liner means the gas level is visible through the cylinder in all variants when viewed in good light.</p>
+
+      <p>If you hold a WAA Technologies cylinder up to natural light or bright artificial light, the liquid LPG level is clearly visible as the horizontal interface line between the opaque liquid phase below and the lighter vapour phase above. This is true regardless of which colour variant you purchase.</p>
+
+      <h2>Where to Buy a Transparent Gas Cylinder in Pakistan</h2>
+
+      <p>WAA Technologies is currently the only manufacturer offering transparent composite LPG cylinders in Pakistan. The cylinders are available through:</p>
+
+      <ul>
+        <li><strong>WAA Technologies direct</strong> — showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. Contact: (+92) 42 37815533</li>
+        <li><strong>Authorised dealers across Pakistan</strong> — covering Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Full dealer list at waatechnologies.com/authorized-dealers</li>
+        <li><strong>Online</strong> — available through the WAA Technologies shop at waatechnologies.com/shop</li>
+      </ul>
+
+      <p>When purchasing, ensure the cylinder carries the ISO 11119-3 or EN 14427-2022 certification mark and a WAA Technologies serial number. Genuine WAA Technologies cylinders are traceable to their manufacture batch and certification record. Do not purchase from unauthorised resellers offering composite cylinders without verifiable certification marks.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can I really see the gas level inside a WAA Technologies cylinder without lifting it?</h3>
+      <p>Yes. The translucent HDPE body of a WAA Technologies composite cylinder makes the liquid LPG level directly visible from outside the cylinder — the same way water level is visible in an HDPE bottle or water container. The liquid LPG (which occupies the lower portion of the cylinder) appears as a denser, slightly darker zone below a visible interface line. Above the line is LPG vapour. The interface line is your gas level indicator. No lifting, no weighing, no estimation required. In good natural light or bright kitchen lighting, the level is visible at a glance from a normal viewing distance.</p>
+
+      <h3>Does the transparent body mean the WAA Technologies cylinder is weaker than steel?</h3>
+      <p>No. The structural pressure containment in a WAA Technologies composite cylinder is provided by the glass fibre overwrap, not the HDPE liner. Glass fibre in tension has a higher strength-to-weight ratio than steel. WAA Technologies composite cylinders are certified to ISO 11119-3, which requires passing burst pressure testing at 2.25× working pressure, 12,000 fill-empty cycle fatigue testing, fire engulfment testing, and drop testing. These tests are equivalent to or more demanding than the tests required for steel cylinder certification. The translucency of the HDPE liner is a material property that comes at zero structural cost — it is simply a characteristic of the construction material.</p>
+
+      <h3>Are all composite gas cylinders in Pakistan transparent?</h3>
+      <p>No. Translucency is a property specific to WAA Technologies cylinders and their HDPE liner construction. Some imported composite cylinders — particularly those using different liner materials or opaque outer wraps — are not translucent. When purchasing a composite cylinder in Pakistan specifically for the gas-level visibility benefit, verify that the cylinder uses an HDPE liner construction and that the translucency is visible before purchase. WAA Technologies cylinders are the established option in Pakistan with this feature backed by full ISO 11119-3 certification and local manufacturer warranty support.</p>
+
+      <h3>How do I check the gas level if lighting is poor in my kitchen?</h3>
+      <p>The translucency is most obvious in good light, but there are simple techniques for low-light conditions. Shine a torch (mobile phone flashlight) against one side of the cylinder — the light passes through the translucent HDPE and makes the liquid-vapour interface immediately visible on the other side. This works reliably in any lighting condition and takes less than five seconds. Some WAA Technologies cylinder owners keep a small torch near their cylinders specifically for this purpose, though most Pakistani kitchens have adequate ambient light for the interface line to be visible without assistance.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Composite Cylinders Reduce Lifting Injuries in Restaurants ── */
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': (
     <>
@@ -3536,6 +3726,7 @@ const wordCounts: Record<string, number> = {
   'ramadan-gas-safety-tips-pakistani-kitchens': 3000,
   'load-shedding-lpg-pakistanis-switching-gas-cooking': 2900,
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': 2600,
+  'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': 2700,
 };
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
@@ -3766,6 +3957,24 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     {
       q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
       a: 'WAATechnologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
+    },
+  ],
+  'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': [
+    {
+      q: 'Can you see the gas level in a composite LPG cylinder in Pakistan?',
+      a: 'Yes — but only in WAA Technologies composite cylinders, which are the only LPG cylinders in Pakistan with a translucent HDPE body. The liquid LPG level is visible through the cylinder wall the same way water is visible in a plastic bottle: you see a horizontal interface line between the denser liquid LPG in the lower portion and the lighter vapour above. This line is your gas level indicator. No lifting, no weighing, and no estimation is required. Steel cylinders and most imported composite cylinders are opaque and offer no gas-level visibility.',
+    },
+    {
+      q: 'How do you check the gas level in a steel LPG cylinder vs a transparent composite cylinder?',
+      a: 'In a steel cylinder, the only method is lifting the cylinder and estimating its weight — a filled 10 kg steel cylinder weighs 28–30 kg, an empty one weighs 18–20 kg, and you estimate the remaining gas based on how heavy it feels. This requires physical ability to lift 30 kg, experience to calibrate the weight estimate into a gas percentage, and provides only rough accuracy at best. In a WAA Technologies transparent composite cylinder, you simply look at the cylinder: the liquid LPG level is directly visible as a horizontal line on the cylinder wall. The method requires zero physical effort, zero experience, and is accurate to the millimetre.',
+    },
+    {
+      q: 'Is a transparent composite cylinder body structurally weaker than steel?',
+      a: 'No. The structural pressure containment in a WAA Technologies composite cylinder is provided by the glass fibre overwrap, which has a higher strength-to-weight ratio than steel in tension. The translucent HDPE liner provides the gas barrier and the visible level indicator but is not the structural pressure vessel. WAA Technologies composite cylinders are certified to ISO 11119-3, which requires burst testing at 2.25× working pressure, 12,000 fill-empty cycle fatigue testing, fire engulfment testing, and drop testing — equivalent or more demanding than steel cylinder certification requirements.',
+    },
+    {
+      q: 'Where can I buy a transparent gas cylinder in Pakistan?',
+      a: 'WAA Technologies is currently the only manufacturer offering transparent composite LPG cylinders in Pakistan. They are available from the WAA Technologies showroom in Bahria Town Lahore (172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial), from the online shop at waatechnologies.com/shop, and from authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Contact WAA Technologies at (+92) 42 37815533 or find your nearest dealer at waatechnologies.com/authorized-dealers.',
     },
   ],
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': [

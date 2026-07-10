@@ -15,6 +15,16 @@ export const allPosts: Post[] = [
 
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
+    slug: 'transparent-gas-cylinder-benefits-see-lpg-level-pakistan',
+    title: 'Transparent Gas Cylinder Benefits: See Your LPG Level Anytime — The WAA Technologies Advantage',
+    date: 'Jul 10, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '10 min read',
+    tags: ['transparent-gas-cylinder-pakistan', 'composite-lpg-cylinders', 'lpg-level-check-pakistan', 'waa-technologies', 'gas-cylinder-features-pakistan', 'fiber-gas-cylinder-pakistan'],
+    excerpt: 'Steel LPG cylinders are completely opaque — you have no idea how much gas remains until you run out mid-cooking. WAA Technologies composite cylinders have a translucent HDPE body that lets you see the LPG level at a glance, like a water bottle. This single feature alone changes how Pakistani households and businesses manage their gas supply.',
+  },
+  {
     slug: 'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan',
     title: 'How Composite LPG Cylinders Reduce Lifting Injuries in Pakistani Restaurant Kitchens',
     date: 'Jul 10, 2026',
