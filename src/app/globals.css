@@ -31,7 +31,7 @@ body {
 
 /* ── Article typography overrides ─────────────────────────────────────── */
 
-.prose h2 {
+.prose h2:not(.not-prose *) {
   border-left: 4px solid #1a4731;
   padding-left: 1rem;
   margin-left: -1.25rem;
@@ -39,12 +39,12 @@ body {
   line-height: 1.3;
 }
 
-.prose h3 {
+.prose h3:not(.not-prose *) {
   color: #1a4731;
   font-weight: 800;
 }
 
-.prose h4 {
+.prose h4:not(.not-prose *) {
   color: #1e293b;
   font-weight: 700;
   text-transform: uppercase;
@@ -52,36 +52,36 @@ body {
   letter-spacing: 0.08em;
 }
 
-.prose p {
+.prose p:not(.not-prose *) {
   color: #374151;
   line-height: 1.8;
 }
 
-.prose strong {
+.prose strong:not(.not-prose *) {
   color: #0f172a;
   font-weight: 700;
 }
 
-.prose ul > li::marker {
+.prose ul > li:not(.not-prose *)::marker {
   color: #1a4731;
 }
 
-.prose ol > li::marker {
+.prose ol > li:not(.not-prose *)::marker {
   color: #1a4731;
   font-weight: 700;
 }
 
-.prose a {
+.prose a:not(.not-prose *) {
   color: #1a4731;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.prose a:hover {
+.prose a:not(.not-prose *):hover {
   color: #0f2d1e;
 }
 
-.prose blockquote {
+.prose blockquote:not(.not-prose *) {
   border-left-color: #1a4731;
   background: #f0fdf4;
   padding: 1rem 1.5rem;
@@ -90,7 +90,7 @@ body {
   color: #1a4731;
 }
 
-.prose blockquote p {
+.prose blockquote p:not(.not-prose *) {
   color: #1a4731;
   font-weight: 500;
 }
