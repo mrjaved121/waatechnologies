@@ -21,11 +21,6 @@ const regions = [
         phone: '0321 6144858',
       },
       {
-        name: 'Muhammad Azhar — A1 Electronics',
-        address: 'Abid Market, Lahore',
-        phone: '0300 9413671',
-      },
-      {
         name: 'Ashiq Home Appliance — M. Imran',
         address: 'Mugalpura Link Road, Nazad Railway Crossing Dryport, Lahore',
         phone: '0321 4354809',
@@ -40,7 +35,7 @@ const regions = [
       {
         name: 'Adrees & Sons',
         address: 'Karachi',
-        phone: '0333 2000252',
+        phone: '0345 2887277',
       },
       {
         name: 'Gujrat Gass Cylinder',
