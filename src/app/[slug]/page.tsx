@@ -803,6 +803,273 @@ const articleContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  /* ── ARTICLE: How Long Does a Composite LPG Cylinder Last ── */
+  'how-long-does-composite-lpg-cylinder-last-pakistan': (
+    <>
+      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">How long does a composite LPG cylinder last in Pakistan?</p>
+        <p className="text-slate-300 text-sm leading-relaxed">A WAA Technologies composite LPG cylinder is rated for <strong className="text-white">20+ years of service life</strong> and <strong className="text-white">12,000 fill-empty cycles</strong> under ISO 11119-3 international certification. At a typical Pakistani household usage rate of 8–10 fills per year, 12,000 cycles represents over 100 years of fill capacity — meaning the cylinder will outlast its structural service life of 20+ years in any realistic household scenario. By comparison, a steel LPG cylinder in Pakistani conditions lasts <strong className="text-white">8–12 years</strong> before structural degradation or mandatory hydrotest failure requires replacement. Over a 20-year period, you buy one composite cylinder where you would replace a steel cylinder two to three times.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies composite cylinders carry a 20+ year rated service life and 12,000 fill cycle rating under ISO 11119-3 — independently certified, not a marketing claim',
+            'Steel LPG cylinders in Pakistani conditions last 8–12 years due to corrosion, structural fatigue, and mandatory 5-year hydrotest failure rates',
+            'Over a 20-year household usage period, a composite cylinder costs 30–50% less than the combined cost of two to three steel cylinder replacements',
+            'The composite cylinder\'s HDPE liner does not corrode — the primary cause of premature steel cylinder failure in Pakistan\'s humid coastal and industrial environments is eliminated',
+            'ISO 11119-3 requires 12,000 pressure cycle tests — simulating 60+ years of commercial fill cycles — before certification is granted',
+            'Composite cylinders do NOT require the mandatory 5-year hydrotest that steel cylinders require in Pakistan — eliminating a significant recurring cost and inconvenience',
+            'A composite cylinder showing no physical damage (no cracks, no deep gouges, no valve damage) can continue in service for its full rated life without periodic recertification',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>When Pakistani buyers compare composite LPG cylinders to steel, the conversation almost always starts with price. A WAA Technologies composite cylinder costs more upfront than a steel cylinder — and that price difference is visible, immediate, and easy to compare. What is less immediately visible is the lifespan difference: the fact that the composite cylinder you buy today will still be in safe, certified service in 2045, while the steel cylinder you might buy instead will need to be replaced in 2034, and again before 2046.</p>
+
+      <p>Lifespan is the most important variable in any honest cost comparison between composite and steel LPG cylinders in Pakistan — and it is the variable that steel cylinder sellers have the least interest in discussing. This guide covers everything a Pakistani buyer needs to know about composite cylinder lifespan: the certification basis for the 20+ year rating, the real-world factors that affect actual service life in Pakistani conditions, how composite lifespan compares to steel, the cost implications over a 20-year ownership period, and how to ensure your cylinder achieves its full rated service life.</p>
+
+      <h2>The 20-Year Rating: What It Means and Where It Comes From</h2>
+
+      <p>The 20+ year service life rating of WAA Technologies composite cylinders is not a marketing claim — it is a certification outcome specified in ISO 11119-3, the International Organization for Standardization standard for refillable composite gas cylinders. To understand what the 20-year rating means in practice, you need to understand what ISO 11119-3 testing actually requires.</p>
+
+      <p>ISO 11119-3 certification requires that a composite cylinder design pass the following physical tests before any cylinder carrying that certification can be sold:</p>
+
+      <h3>Burst Pressure Testing</h3>
+      <p>Every certified cylinder design must withstand a burst pressure of at least 2.25 times its nominal working pressure. LPG cylinders operate at approximately 6–10 bar depending on temperature. A burst test at 2.25× this pressure confirms that the cylinder has a substantial safety margin above any pressure it will encounter in service — including overfilling, high ambient temperatures, and all other realistic operating conditions in Pakistan.</p>
+
+      <h3>12,000-Cycle Pressure Fatigue Testing</h3>
+      <p>This is the most significant lifespan test. The cylinder design is subjected to 12,000 complete pressure cycles — filled to working pressure, emptied to atmospheric, filled again — repeated 12,000 times without structural failure. At a typical Pakistani commercial fill rate of 200 cycles per year, 12,000 cycles represents 60 years of commercial usage. At a Pakistani household fill rate of 8–10 fills per year, 12,000 cycles represents over 100 years. The composite cylinder will structurally outlast both its rated 20-year service life and any realistic usage pattern in Pakistan before the 12,000-cycle fatigue limit becomes relevant.</p>
+
+      <h3>Fire Engulfment Testing</h3>
+      <p>The cylinder is placed in a fire and observed. The test requires that the cylinder does not fragment or explode — it must develop a controlled gas release instead. This confirms the non-blast behaviour that makes composite cylinders safer than steel in fire scenarios. Steel cylinders are not required to pass a fire engulfment test for domestic certification in Pakistan.</p>
+
+      <h3>Drop Testing</h3>
+      <p>The cylinder is dropped from 1.8 metres onto a steel boss — simulating the most common handling accident in delivery and kitchen environments. The cylinder must retain structural integrity and pass a subsequent pressure test. This directly addresses the Pakistani delivery environment, where cylinders regularly drop off rickshaws, roll off delivery vehicles, and knock against kerbs and steps.</p>
+
+      <h3>UV Degradation Testing</h3>
+      <p>The HDPE liner and glass fibre overwrap are subjected to accelerated UV exposure equivalent to 20+ years of outdoor exposure. The cylinder must retain structural and sealing integrity after this exposure. This test directly addresses Pakistan&apos;s high UV environment — particularly relevant for cylinders stored outdoors on balconies, in storage areas, or in open commercial kitchens.</p>
+
+      <p>A cylinder that passes all five of these tests receives ISO 11119-3 certification and a rated service life of 20+ years. This service life is the certification body&apos;s conclusion — based on physical testing, not manufacturer claims — that the cylinder design will remain structurally safe in normal use for that duration.</p>
+
+      <h2>Why Steel Cylinders Last Only 8–12 Years in Pakistan</h2>
+
+      <p>The contrast between composite&apos;s 20+ year rating and steel&apos;s 8–12 year practical lifespan in Pakistan is not arbitrary — it is driven by three specific failure mechanisms that affect steel but not composite cylinders.</p>
+
+      <h3>External Corrosion</h3>
+      <p>Steel corrodes in the presence of moisture and oxygen. Pakistan&apos;s climate — coastal humidity in Karachi, monsoon moisture across Punjab, industrial pollution in Lahore and Faisalabad — accelerates steel corrosion significantly. A steel cylinder that develops surface rust in its first year of service (extremely common in Pakistani household and commercial use) is already on its degradation timeline. External rust is not merely cosmetic: it is progressive corrosion that reduces wall thickness, compromises weld integrity, and eventually causes the cylinder to fail its mandatory pressure test.</p>
+
+      <p>The paint applied to steel cylinders provides temporary corrosion protection, but chips, scratches, and impact damage — which happen to every cylinder in normal Pakistani delivery and handling conditions — expose bare steel to the environment. Once rust begins in a scratch, it progresses even under adjacent intact paint through under-paint corrosion. A 10-year-old steel cylinder in a Pakistani household or kitchen that has been regularly handled, delivered, and stored will typically show significant surface corrosion affecting 30–60% of its exterior surface.</p>
+
+      <p>Composite cylinders do not corrode. HDPE is immune to moisture, salt air, industrial pollution, and oxidation. The glass fibre overwrap does not rust. A WAA Technologies composite cylinder stored outdoors in Karachi&apos;s coastal salt air for 20 years will have the same corrosion status as on its first day of service: none.</p>
+
+      <h3>Mandatory 5-Year Hydrotest Failure</h3>
+      <p>OGRA (Oil and Gas Regulatory Authority) requires steel LPG cylinders to undergo hydrostatic pressure testing every 5 years at a licensed facility. The hydrotest subjects the cylinder to water pressure significantly above working pressure and measures the permanent deformation resulting from the test pressure. A cylinder that deforms beyond permitted limits fails the hydrotest and must be withdrawn from service — it cannot legally be refilled.</p>
+
+      <p>Steel cylinders in Pakistan fail their 5-year hydrotests at surprisingly high rates — particularly cylinders that have been operating in corrosive environments, that have been involved in drop incidents, or that have completed high numbers of fill cycles. Industry estimates suggest 15–30% of steel cylinders presented for hydrotest in Pakistan are condemned at the 10-year mark (their second hydrotest). A cylinder condemned at 10 years has delivered half its expected service life and must be replaced at full cylinder cost.</p>
+
+      <p>Composite cylinders certified to ISO 11119-3 do not require the 5-year periodic hydrotest. The ISO 11119-3 certification testing is comprehensive enough that periodic re-testing is not required. This eliminates a significant cost and logistical inconvenience for composite cylinder owners — no hydrotest scheduling, no test fees, no risk of premature condemnation.</p>
+
+      <h3>Structural Fatigue from Fill Cycling</h3>
+      <p>Every time a steel cylinder is filled and emptied, it undergoes a pressure cycle that produces small mechanical stresses in the steel. Over hundreds of cycles, these stresses accumulate through a process called metal fatigue. Unlike static loads, cyclic loads can cause progressive crack growth even at stress levels well below the material&apos;s single-cycle strength. Steel cylinders in commercial use — refilled 50–200 times per year — accumulate fatigue damage at rates that household cylinders (8–10 fills per year) do not.</p>
+
+      <p>This is why Pakistani commercial operators who cycle through cylinders at high frequency face shorter effective steel cylinder lifespans than household users — and why the 5-year hydrotest is particularly important for commercial cylinders. A commercial kitchen that fills its 12 kg cylinders 150 times per year accumulates 750 fill cycles in 5 years — a significant fatigue load on a steel vessel.</p>
+
+      <p>Composite cylinders have been fatigue-tested to 12,000 cycles specifically because cyclic pressure loading is the primary structural challenge for pressure vessels. The glass fibre overwrap — which provides the burst strength — performs differently from steel under cyclic loading: glass fibre in tension does not exhibit the same progressive crack growth mechanism as steel, and the 12,000-cycle certification test confirms structural integrity at commercial usage rates far beyond any realistic Pakistani operation.</p>
+
+      <h2>Real-World Lifespan in Pakistani Conditions: What to Expect</h2>
+
+      <p>Certification testing tells you what the cylinder is rated for. Real-world usage in Pakistan introduces specific conditions that affect how cylinders actually perform against that rating.</p>
+
+      <h3>Handling and Delivery Impacts</h3>
+      <p>Pakistani LPG cylinder delivery involves conditions that would concern any pressure vessel engineer: cylinders loaded onto rickshaws and pickup trucks without securing straps, delivered across rough roads and broken pavements, unloaded by rolling off vehicle tailgates, and sometimes dropped from handling height. These conditions are not exceptional — they are the standard delivery experience for LPG cylinders across Pakistan.</p>
+
+      <p>Steel cylinders accumulate dents and deformation from these handling conditions. A dented steel cylinder is a cylinder with compromised geometry — the dent introduces a stress concentration point that accelerates both corrosion (paint cracks at the dent) and fatigue crack initiation. A significant dent near a weld is a serious structural concern in a steel cylinder.</p>
+
+      <p>Composite cylinders respond differently to impact. HDPE is a tough, elastic material — it absorbs impact energy and returns to shape rather than permanently deforming. The glass fibre overwrap adds stiffness and impact resistance. A composite cylinder dropped from typical handling height onto concrete or rolled off a delivery vehicle does not accumulate the permanent geometric damage that a steel cylinder does in the same incident. The drop test requirement in ISO 11119-3 certification is specifically designed to validate this impact resilience.</p>
+
+      <h3>Temperature Cycling in Pakistani Climate</h3>
+      <p>Pakistan&apos;s climate produces extreme temperature cycling — from winter nights at 2–5°C in Lahore and Islamabad to summer afternoon temperatures exceeding 45°C in Punjab and Sindh. Cylinders stored outdoors or in poorly insulated kitchen spaces experience this full temperature range across the year.</p>
+
+      <p>Temperature cycling affects steel cylinders through differential thermal expansion — the steel body, welds, and valve fitting expand and contract at slightly different rates with temperature changes, producing cyclic stresses at weld joints over time. This contributes to long-term fatigue at the most structurally critical points.</p>
+
+      <p>HDPE has a higher coefficient of thermal expansion than steel but is more compliant — it accommodates thermal expansion through elastic deformation rather than stress accumulation at rigid joints. The glass fibre overwrap provides dimensional stability across the temperature range. WAA Technologies composite cylinders are tested specifically for performance across the temperature range experienced in South Asian climate conditions.</p>
+
+      <h3>Storage Conditions</h3>
+      <p>Where a cylinder is stored between uses significantly affects its lifespan. Steel cylinders stored outdoors — particularly in coastal areas — corrode significantly faster than those stored indoors. The salt-laden air of Karachi and other coastal cities is particularly aggressive: salt-air corrosion can penetrate steel cylinder paint and initiate surface rust within a single monsoon season.</p>
+
+      <p>Composite cylinders are indifferent to storage environment from a corrosion perspective. Whether stored in a Karachi beachside kitchen or an outdoor balcony in monsoon-affected Lahore, the HDPE exterior does not corrode. UV stabilisers in the HDPE compound ensure that even direct outdoor sun exposure does not degrade the structural integrity of the liner across the 20+ year rated service life.</p>
+
+      <h2>The 20-Year Cost Comparison: Composite vs Steel in Pakistan</h2>
+
+      <p>The honest cost comparison between composite and steel cylinders in Pakistan must account for the full 20-year ownership period — not just the purchase price. Here is what that calculation looks like for a typical Pakistani household:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-800 text-white">
+              <th className="p-3 text-left font-bold">Cost Item</th>
+              <th className="p-3 text-left font-bold">Steel Cylinder (20 years)</th>
+              <th className="p-3 text-left font-bold">WAA Composite (20 years)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Initial purchase (10 kg)', 'Rs. 4,000–6,000', 'Rs. 12,000–16,000'],
+              ['Replacement at year 8–10 (condemned or degraded)', 'Rs. 4,500–7,000', 'Not required'],
+              ['Replacement at year 16–18', 'Rs. 5,500–8,000', 'Not required'],
+              ['5-year hydrotest fees (×4 over 20 years)', 'Rs. 800–1,500 per test = Rs. 3,200–6,000', 'Rs. 0 (not required)'],
+              ['20-year total cylinder cost', 'Rs. 17,000–27,000', 'Rs. 12,000–16,000'],
+              ['20-year saving (composite vs steel)', '—', 'Rs. 5,000–11,000 saved'],
+            ].map(([item, steel, composite], i) => (
+              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{item}</td>
+                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>These figures use conservative replacement assumptions — a steel cylinder that lasts the full 10–12 years before first replacement and 8–10 years for its second. Many Pakistani steel cylinders are condemned earlier due to corrosion or hydrotest failure. The composite cylinder cost advantage over 20 years is Rs. 5,000–11,000 per cylinder even before accounting for the additional value of the composite cylinder&apos;s safety, weight, and visibility benefits.</p>
+
+      <p>For a commercial restaurant or bakery operating 6–10 cylinders simultaneously, this 20-year cost advantage multiplies accordingly. A restaurant that switches 8 cylinders from steel to composite saves Rs. 40,000–88,000 in cylinder costs over 20 years — equivalent to several months of staff wages.</p>
+
+      <h2>What Actually Limits Composite Cylinder Life: The Real Failure Modes</h2>
+
+      <p>Understanding what can actually end a composite cylinder&apos;s service life before its 20-year rating helps owners maintain their cylinders correctly. Unlike steel, where the primary failure mode is corrosion — a passive, unavoidable process — composite cylinders fail primarily through physical damage events.</p>
+
+      <h3>Severe Impact Damage</h3>
+      <p>While composite cylinders tolerate the handling impacts of normal Pakistani delivery and kitchen use (as confirmed by drop testing in certification), severe impacts — a cylinder falling from a significant height onto a sharp object, or being struck by a heavy implement — can crack or delaminate the glass fibre overwrap. Visible cracks in the glass fibre, deep gouges exposing the HDPE liner through the overwrap, or localised delamination (where the fibre layers separate and the surface feels soft or spongy) are all grounds for retiring the cylinder from service regardless of age.</p>
+
+      <h3>Valve Damage</h3>
+      <p>The brass valve assembly at the top of the cylinder is the most mechanically vulnerable component. Valve damage from drops (the cylinder lands valve-first), overtightening of the regulator connection, or attempted forced connection of a non-compatible regulator can damage the valve threads, seat, or body. A damaged valve cannot be resealed reliably and requires replacement. Valve replacement is a certified service operation — it should be performed by the WAA Technologies dealer or authorised service provider, not attempted by the user.</p>
+
+      <h3>Chemical Contamination</h3>
+      <p>HDPE has excellent chemical resistance to most household and kitchen substances — water, cooking oils, cleaning agents. However, certain solvents — particularly aromatic hydrocarbons and halogenated solvents — can swell or degrade HDPE over prolonged contact. In a normal Pakistani household or kitchen environment, this is not a realistic concern. It becomes relevant only in industrial or chemical storage environments where the cylinder might be exposed to solvent spillage.</p>
+
+      <h3>UV Damage (Without Stabilisers)</h3>
+      <p>HDPE degrades under prolonged UV exposure if not UV-stabilised. WAA Technologies composite cylinders use UV-stabilised HDPE compound, confirmed through the UV degradation testing required for ISO 11119-3 certification. This means outdoor storage in Pakistani sunlight across the 20-year service life does not pose a UV degradation risk. However, cylinders that have been repainted with non-UV-resistant coatings or modified in ways that compromise the UV stabiliser in the original compound may have reduced UV resistance — another reason to never accept a modified or non-original composite cylinder.</p>
+
+      <h2>How to Ensure Your Composite Cylinder Achieves Its Full 20-Year Life</h2>
+
+      <p>Achieving the full 20+ year rated service life of a WAA Technologies composite cylinder requires following basic maintenance and handling practices. None of these are demanding — they are simply good cylinder ownership habits.</p>
+
+      <ul>
+        <li><strong>Inspect visually every 6 months.</strong> Run your hands over the glass fibre surface and look for cracks, gouges, soft spots, or delamination. The cylinder should feel uniformly firm. Any soft area or visible crack in the overwrap warrants immediate removal from service and inspection by a WAA Technologies dealer.</li>
+        <li><strong>Check the valve regularly.</strong> The valve should open and close smoothly. Any stiffness, leak at the valve body (detectable by applying soapy water), or physical damage to the valve thread or handwheel should be reported to the dealer before next use.</li>
+        <li><strong>Never modify the cylinder.</strong> Do not repaint, drill, weld, or attempt to repair the cylinder body. Do not replace the valve yourself. Any modification voids the certification and may compromise structural integrity.</li>
+        <li><strong>Store upright.</strong> LPG cylinders should always be stored and used in the upright position with the valve at the top. Storing a cylinder on its side places the valve in the liquid LPG phase rather than the vapour phase, which can cause liquid LPG to enter the regulator — a safety and equipment-damage hazard.</li>
+        <li><strong>Keep away from heat sources.</strong> Do not store cylinders near water heaters, stoves, generators, or any heat source. Elevated temperatures increase internal pressure. The composite cylinder&apos;s pressure relief valve will activate if temperature causes pressure to approach unsafe levels — but avoiding the situation by proper storage location is better practice.</li>
+        <li><strong>Use only compatible regulators.</strong> Ensure the regulator connected to your cylinder is the correct type and pressure rating for LPG in Pakistan. A mismatched regulator can damage the valve connection — a common source of premature valve failure.</li>
+        <li><strong>Refill only at licensed dealers.</strong> Always refill at OGRA-licensed LPG dealers or WAA Technologies authorised refill points. An unlicensed refiller may overfill the cylinder (creating dangerous over-pressure) or use contaminated LPG that affects the valve over time.</li>
+      </ul>
+
+      <h2>Signs a Composite Cylinder Should Be Retired — At Any Age</h2>
+
+      <p>The 20-year rating is a maximum service life under normal conditions, not a guarantee that every cylinder will reach 20 years regardless of how it is used. The following conditions are grounds for immediate retirement from service regardless of the cylinder&apos;s age:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-red-700 text-white">
+              <th className="p-3 text-left font-bold">Condition</th>
+              <th className="p-3 text-left font-bold">Why It Matters</th>
+              <th className="p-3 text-left font-bold">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Visible cracks in glass fibre overwrap', 'Structural pressure containment compromised', 'Remove from service immediately — do not refill'],
+              ['Soft or spongy area on the cylinder surface', 'Delamination of fibre layers — localised structural failure', 'Remove from service — WAA Technologies inspection required'],
+              ['Deep gouge exposing HDPE liner through overwrap', 'Fibre overwrap integrity breached at that point', 'Remove from service — dealer assessment required'],
+              ['Valve that cannot be fully closed', 'Gas cannot be safely isolated — leak risk', 'Remove from service — valve replacement at dealer'],
+              ['Visible gas leak at valve body or threads (bubbles with soapy water)', 'Active gas leak — immediate fire/explosion risk', 'Emergency: close valve, evacuate, contact dealer'],
+              ['Cylinder that has been in a fire', 'Heat may have degraded HDPE liner or fibre overwrap', 'Remove from service regardless of visual appearance'],
+              ['Manufacture date beyond 20 years', 'ISO 11119-3 rated service life expired', 'Retire and replace — do not continue using'],
+            ].map(([condition, why, action], i) => (
+              <tr key={condition} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{condition}</td>
+                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{why}</td>
+                <td className="p-3 text-red-700 font-medium border border-slate-100 text-xs">{action}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Composite vs Steel: Full Lifespan and Durability Comparison</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Factor</th>
+              <th className="p-3 text-left font-bold">Steel Cylinder</th>
+              <th className="p-3 text-left font-bold">WAA Composite Cylinder</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Rated service life', '10–15 years (standard)', '20+ years (ISO 11119-3 certified)'],
+              ['Practical life in Pakistani conditions', '8–12 years (corrosion-limited)', '20+ years (no corrosion failure mode)'],
+              ['Periodic re-testing required?', 'Yes — 5-year hydrotest (OGRA mandatory)', 'No — ISO 11119-3 eliminates periodic hydrotest'],
+              ['Primary failure mode', 'External corrosion, weld fatigue, hydrotest condemnation', 'Physical impact damage to overwrap (avoidable)'],
+              ['Corrosion in coastal/humid conditions', 'High — accelerated rust in Karachi/monsoon areas', 'Zero — HDPE and glass fibre do not corrode'],
+              ['Impact resilience', 'Permanent denting — concentrates stress at dent', 'Elastic deformation — returns to shape, ISO drop-tested'],
+              ['UV resistance (outdoor storage)', 'Paint fades and chips; bare steel rusts', 'UV-stabilised HDPE — 20+ year outdoor rating'],
+              ['Fill cycle rating', 'Not specified in Pakistan standard', '12,000 cycles (ISO 11119-3 fatigue-tested)'],
+              ['20-year total ownership cost (10 kg)', 'Rs. 17,000–27,000 (2–3 replacements + hydrotests)', 'Rs. 12,000–16,000 (one purchase, no hydrotest)'],
+            ].map(([factor, steel, composite], i) => (
+              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{factor}</td>
+                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>WAA Technologies Warranty and After-Sales Support in Pakistan</h2>
+
+      <p>WAA Technologies backs its composite cylinders with manufacturer warranty and authorised service support across Pakistan. The warranty covers manufacturing defects in the cylinder body and valve assembly. Physical damage from handling incidents is not covered under warranty — this is standard for all cylinder manufacturers — but WAA Technologies authorised dealers can assess damage, perform valve replacements, and advise on whether a cylinder is within its service life parameters.</p>
+
+      <p>For Pakistani buyers, the availability of a local manufacturer with an authorised dealer network across Punjab, Sindh, and KPK is a significant practical advantage over imported composite cylinders. An imported cylinder that develops a valve issue or requires assessment has no local manufacturer support infrastructure in Pakistan — the buyer is left relying on the importer, who may or may not maintain after-sales capability. WAA Technologies, as Pakistan&apos;s domestic composite cylinder manufacturer, has the established dealer network and technical capability to support its products through their full 20-year service life.</p>
+
+      <h2>Reading Your Cylinder&apos;s Manufacture Date</h2>
+
+      <p>Every WAA Technologies composite cylinder is permanently marked with its manufacture date. This marking is stamped or moulded into the cylinder shoulder area — not painted, so it cannot fade or be obscured by repainting. The manufacture date is your reference for the 20-year service life calculation: a cylinder manufactured in 2024 should be retired from service no later than 2044.</p>
+
+      <p>When purchasing a composite cylinder — new or through a dealer — always check the manufacture date marking. A reputable dealer selling a new cylinder will have cylinders manufactured within the last 1–2 years. Be cautious of composite cylinders offered at significant discounts that carry older manufacture dates — a cylinder manufactured in 2018 has only 12 years of service life remaining at the time of writing in 2026, not 20. The price should reflect the remaining service life.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does a WAA Technologies composite LPG cylinder last in Pakistan?</h3>
+      <p>A WAA Technologies composite LPG cylinder carries a rated service life of 20+ years under ISO 11119-3 certification. This rating is based on independent certification testing including 12,000 fill-cycle pressure fatigue testing, UV degradation testing, drop testing, and fire engulfment testing. In normal Pakistani household use (8–10 fills per year), the cylinder will reach its 20-year structural service life before it approaches anywhere near the 12,000-cycle fatigue limit. A cylinder maintained correctly — no severe physical damage, valve in good condition, stored properly — can be expected to serve safely for its full 20+ year rated life. By comparison, steel LPG cylinders in Pakistani conditions typically last 8–12 years before corrosion, hydrotest failure, or structural degradation requires replacement.</p>
+
+      <h3>Does a composite LPG cylinder need to be hydrotested in Pakistan?</h3>
+      <p>No. Composite cylinders certified to ISO 11119-3 — including all WAA Technologies composite cylinders — do not require the mandatory 5-year hydrostatic test that steel cylinders must undergo under OGRA regulations in Pakistan. The ISO 11119-3 certification testing is comprehensive enough that periodic re-testing is not required as a condition of continued service. This eliminates the 5-year hydrotest fee (Rs. 800–1,500 per test), the logistical inconvenience of removing the cylinder from service for testing, and the risk of premature condemnation at the hydrotest that affects aging steel cylinders. A composite cylinder in visible good condition — no cracks, no deep overwrap damage, functional valve — can continue in service without periodic recertification testing.</p>
+
+      <h3>Is a 20-year composite cylinder still safe to use in Pakistan?</h3>
+      <p>A composite cylinder that has reached the end of its 20-year rated service life should be retired from use regardless of its visual condition. The 20-year rating is the ISO 11119-3 certification limit — the period over which the standard certifies structural integrity under normal conditions. Using a cylinder beyond its rated service life is not OGRA-compliant in Pakistan and removes the safety assurance provided by the certification. When retiring a 20-year composite cylinder, contact your WAA Technologies authorised dealer for disposal guidance and replacement cylinder purchase. The replacement cylinder, also rated for 20+ years, then begins a new 20-year service cycle.</p>
+
+      <h3>Why do steel LPG cylinders fail faster in Karachi than in other Pakistani cities?</h3>
+      <p>Karachi&apos;s coastal environment is significantly more corrosive than inland Pakistani cities. Salt-laden marine air — particularly prevalent in areas near the coastline — penetrates steel cylinder paint through micro-cracks, chips, and handling scratches, initiating rust that progresses even under intact adjacent paint. Karachi&apos;s high humidity accelerates the electrochemical corrosion reaction. Steel cylinders in coastal Karachi environments can develop significant surface rust within 2–3 years and may fail their first 5-year hydrotest at rates higher than the national average. Composite cylinders are completely immune to this failure mode — HDPE and glass fibre do not corrode in salt-air environments. This makes WAA Technologies composite cylinders particularly cost-effective for Karachi households and businesses compared to the national average.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Transparent Gas Cylinder Benefits ── */
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': (
     <>
@@ -3727,6 +3994,7 @@ const wordCounts: Record<string, number> = {
   'load-shedding-lpg-pakistanis-switching-gas-cooking': 2900,
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': 2600,
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': 2700,
+  'how-long-does-composite-lpg-cylinder-last-pakistan': 3100,
 };
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
@@ -3957,6 +4225,24 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     {
       q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
       a: 'WAATechnologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
+    },
+  ],
+  'how-long-does-composite-lpg-cylinder-last-pakistan': [
+    {
+      q: 'How long does a composite LPG cylinder last in Pakistan?',
+      a: 'A WAA Technologies composite LPG cylinder is rated for 20+ years of service life and 12,000 fill-empty cycles under ISO 11119-3 international certification. At a typical Pakistani household usage rate of 8–10 refills per year, the cylinder will reach its 20-year structural service life well before approaching the 12,000-cycle fatigue limit. By comparison, a steel LPG cylinder in Pakistani conditions typically lasts 8–12 years before corrosion, mandatory 5-year hydrotest failure, or structural degradation requires replacement. Over a 20-year ownership period, you buy one composite cylinder where you would replace a steel cylinder two to three times.',
+    },
+    {
+      q: 'Does a composite LPG cylinder need to be hydrotested every 5 years in Pakistan?',
+      a: 'No. Composite cylinders certified to ISO 11119-3 — including all WAA Technologies composite cylinders — do not require the mandatory 5-year hydrostatic test (hydrotest) that OGRA requires for steel LPG cylinders in Pakistan. The ISO 11119-3 certification includes 12,000-cycle pressure fatigue testing and other comprehensive structural tests that remove the need for periodic re-testing. This saves composite cylinder owners Rs. 800–1,500 per hydrotest — four tests totalling Rs. 3,200–6,000 over a 20-year period — plus the logistical inconvenience and risk of premature condemnation that steel cylinder owners face every 5 years.',
+    },
+    {
+      q: 'What causes steel LPG cylinders to fail faster in Pakistan than their rated lifespan?',
+      a: 'Three main factors shorten steel cylinder practical lifespan in Pakistan below their rated figure: (1) External corrosion from Pakistan\'s humid climate — particularly in coastal Karachi where salt air penetrates paint through handling scratches and accelerates rust; (2) Mandatory 5-year hydrotest failure — Pakistan\'s OGRA requirement means cylinders must pass pressure testing every 5 years, and corroded or fatigue-damaged cylinders are condemned at rates of 15–30% at the 10-year mark; (3) Impact damage from Pakistan\'s delivery conditions — cylinders rolled off vehicles, dropped on rough roads, and handled without securing straps accumulate permanent dents that concentrate corrosion and fatigue stresses. Composite cylinders are immune to corrosion and resilient to handling impacts, eliminating all three failure modes.',
+    },
+    {
+      q: 'What is the 20-year total cost of a composite cylinder vs a steel cylinder in Pakistan?',
+      a: 'Over a 20-year household ownership period, a WAA Technologies 10 kg composite cylinder costs approximately Rs. 12,000–16,000 total (purchase price, no hydrotest fees, no replacement). A steel 10 kg cylinder over the same 20 years costs approximately Rs. 17,000–27,000 — the initial purchase (Rs. 4,000–6,000), two replacements as cylinders are condemned or degraded (Rs. 9,000–15,000 combined), and four mandatory 5-year hydrotests at Rs. 800–1,500 each (Rs. 3,200–6,000 total). The composite cylinder saves Rs. 5,000–11,000 per cylinder over 20 years — before accounting for its additional advantages in safety, weight reduction, and gas-level visibility.',
     },
   ],
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': [

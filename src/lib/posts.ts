@@ -15,6 +15,16 @@ export const allPosts: Post[] = [
 
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
+    slug: 'how-long-does-composite-lpg-cylinder-last-pakistan',
+    title: 'How Long Does a Composite LPG Cylinder Last in Pakistan? (Lifespan, Cost & Value Guide)',
+    date: 'Jul 10, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '13 min read',
+    tags: ['composite-lpg-cylinder-lifespan-pakistan', 'composite-lpg-cylinders', 'lpg-cylinder-durability-pakistan', 'waa-technologies', 'gas-cylinder-price-pakistan', 'fiber-gas-cylinder-pakistan'],
+    excerpt: 'A WAA Technologies composite LPG cylinder is rated for 20+ years and 12,000 fill cycles under ISO 11119-3 certification. A steel cylinder in Pakistani conditions lasts 8–12 years before mandatory replacement. Over two decades, you buy one composite cylinder where you would replace a steel one two to three times. This is the complete lifespan, durability, and value guide.',
+  },
+  {
     slug: 'transparent-gas-cylinder-benefits-see-lpg-level-pakistan',
     title: 'Transparent Gas Cylinder Benefits: See Your LPG Level Anytime — The WAA Technologies Advantage',
     date: 'Jul 10, 2026',
