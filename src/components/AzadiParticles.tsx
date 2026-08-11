@@ -25,7 +25,7 @@ export default function AzadiParticles() {
         className="fixed z-30 pointer-events-none select-none hidden sm:block"
         style={{
           left: 'calc(57% - 60px)',
-          top: 'calc(38% - 40px)',
+          top: 'calc(38% - 60px)',
           opacity: 0.78,
           animation: 'azadiFloat 5s ease-in-out infinite',
         }}
