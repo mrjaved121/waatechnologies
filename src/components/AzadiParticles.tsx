@@ -9,19 +9,22 @@ type Particle = {
   size: number;
   symbol: string;
   opacity: number;
+  drift: number;
 };
 
-// Deterministic values derived from index — avoids hydration mismatch
+// Alternates between ★ (star) and ☽ (crescent moon) — all white
+const SYMBOLS = ['★', '☽', '★', '★', '☽', '★', '☽', '★'];
+
 function buildParticles(): Particle[] {
-  const symbols = ['⭐', '✦', '☪', '✦', '⭐', '·', '✦', '⭐'];
-  return Array.from({ length: 16 }, (_, i) => ({
+  return Array.from({ length: 20 }, (_, i) => ({
     id: i,
-    left: (i * 6.25 + (i % 3) * 2.1) % 100,
-    delay: (i * 0.9) % 14,
-    duration: 10 + (i * 1.4) % 9,
-    size: 9 + (i * 1.6) % 10,
-    symbol: symbols[i % symbols.length],
-    opacity: 0.15 + (i % 4) * 0.08,
+    left: (i * 5.1 + (i % 4) * 1.7) % 100,
+    delay: (i * 0.85) % 15,
+    duration: 9 + (i * 1.3) % 9,
+    size: 10 + (i * 1.9) % 14,
+    symbol: SYMBOLS[i % SYMBOLS.length],
+    opacity: 0.55 + (i % 4) * 0.1,
+    drift: ((i % 5) - 2) * 18,   // horizontal drift in px
   }));
 }
 
@@ -38,28 +41,34 @@ export default function AzadiParticles() {
   return (
     <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden">
       <style>{`
-        @keyframes particleDrift {
-          0%   { transform: translateY(-30px) rotate(0deg);   opacity: 0; }
-          8%   { opacity: 1; }
-          90%  { opacity: 1; }
-          100% { transform: translateY(105vh) rotate(300deg); opacity: 0; }
-        }
+        @keyframes particleFall-neg { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(-18px) rotate(-25deg); opacity:0; } }
+        @keyframes particleFall-0   { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(0px)  rotate(15deg);  opacity:0; } }
+        @keyframes particleFall-pos { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(18px)  rotate(25deg);  opacity:0; } }
       `}</style>
-      {particles.map((p) => (
-        <div
-          key={p.id}
-          className="absolute top-0 text-[#01411C] font-bold"
-          style={{
-            left: `${p.left}%`,
-            fontSize: `${p.size}px`,
-            opacity: p.opacity,
-            animation: `particleDrift ${p.duration}s ${p.delay}s linear infinite`,
-            filter: 'drop-shadow(0 1px 1px rgba(255,255,255,0.6))',
-          }}
-        >
-          {p.symbol}
-        </div>
-      ))}
+      {particles.map((p) => {
+        const anim = p.drift < 0
+          ? 'particleFall-neg'
+          : p.drift > 0
+          ? 'particleFall-pos'
+          : 'particleFall-0';
+        return (
+          <div
+            key={p.id}
+            className="absolute top-0 select-none"
+            style={{
+              left: `${p.left}%`,
+              fontSize: `${p.size}px`,
+              color: 'white',
+              opacity: p.opacity,
+              animation: `${anim} ${p.duration}s ${p.delay}s linear infinite`,
+              textShadow: '0 0 6px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.4)',
+              lineHeight: 1,
+            }}
+          >
+            {p.symbol}
+          </div>
+        );
+      })}
     </div>
   );
 }

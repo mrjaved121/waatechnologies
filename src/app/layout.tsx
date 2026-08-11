@@ -5,7 +5,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { CartProvider } from '@/components/CartContext';
 import IndependenceBanner from '@/components/IndependenceBanner';
-import FloatingFlag from '@/components/FloatingFlag';
 import AzadiParticles from '@/components/AzadiParticles';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
@@ -158,7 +157,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col antialiased">
         <CartProvider>
           <IndependenceBanner />
-          <FloatingFlag />
           <AzadiParticles />
           <Header />
           <main className="flex-1">{children}</main>
