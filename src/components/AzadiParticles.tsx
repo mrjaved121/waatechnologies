@@ -1,98 +1,89 @@
 'use client';
 import { useState, useEffect } from 'react';
 
-type Particle = {
-  id: number;
-  left: number;
-  delay: number;
-  duration: number;
-  size: number;
-  type: 'star' | 'moon';
-  opacity: number;
-};
-
-// Proper 5-pointed star SVG — not a text character
-function Star({ size }: { size: number }) {
+// Combined Pakistan crescent + star SVG — transparent background, white shapes
+function CrescentStar({ size, uid }: { size: number; uid: string }) {
+  const maskId = `cm-${uid}`;
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 20 20"
-      fill="white"
-      style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.45))' }}
-    >
-      <polygon points="10,1 12.35,6.76 18.56,7.22 13.8,11.24 15.29,17.28 10,14 4.71,17.28 6.2,11.24 1.44,7.22 7.65,6.76" />
-    </svg>
-  );
-}
-
-// Proper crescent using SVG mask — transparent cutout, works on any background
-function Crescent({ size, id }: { size: number; id: number }) {
-  const maskId = `crescent-mask-${id}`;
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 20 20"
-      style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.45))' }}
+      viewBox="0 0 64 64"
+      fill="none"
+      style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.38))' }}
     >
       <defs>
         <mask id={maskId}>
-          <circle cx="10" cy="10" r="8.5" fill="white" />
-          <circle cx="14" cy="9.5" r="7" fill="black" />
+          {/* Outer crescent circle — white = visible */}
+          <circle cx="23" cy="35" r="19" fill="white" />
+          {/* Inner cutout — black = transparent */}
+          <circle cx="31" cy="31" r="15" fill="black" />
         </mask>
       </defs>
-      <circle cx="10" cy="10" r="8.5" fill="white" mask={`url(#${maskId})`} />
+
+      {/* Crescent */}
+      <circle cx="23" cy="35" r="19" fill="white" mask={`url(#${maskId})`} />
+
+      {/* 5-pointed star — upper right of crescent */}
+      {/* Center: 46,14  outer-r: 11  inner-r: 4.5 */}
+      <polygon
+        fill="white"
+        points="
+          46,3
+          48.6,10.8
+          56.5,10.8
+          50.4,15.6
+          52.9,23.4
+          46,18.7
+          39.1,23.4
+          41.6,15.6
+          35.5,10.8
+          43.4,10.8
+        "
+      />
     </svg>
   );
 }
 
-function buildParticles(): Particle[] {
-  return Array.from({ length: 14 }, (_, i) => ({
-    id: i,
-    left: (i * 7.3 + (i % 4) * 2.5) % 100,
-    delay: (i * 1.15) % 18,
-    duration: 14 + (i * 1.3) % 10,
-    size: i % 3 === 0 ? 13 : 9 + (i % 3) * 2,
-    type: (i % 4 === 0 ? 'moon' : 'star') as 'star' | 'moon',
-    opacity: 0.4 + (i % 4) * 0.1,
-  }));
-}
+const ELEMENTS = [
+  { left: '10%',  size: 48, duration: 28, delay:   0 },
+  { left: '50%',  size: 58, duration: 34, delay: -13 },
+  { left: '79%',  size: 42, duration: 26, delay: -20 },
+];
 
 export default function AzadiParticles() {
-  const [particles, setParticles] = useState<Particle[]>([]);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const expired = new Date() >= new Date('2026-08-15T00:00:00');
-    if (!expired) setParticles(buildParticles());
+    if (!expired) setVisible(true);
   }, []);
 
-  if (particles.length === 0) return null;
+  if (!visible) return null;
 
   return (
     <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden">
       <style>{`
-        @keyframes gentleFall {
-          0%   { transform: translateY(-30px); opacity: 0; }
-          6%   { opacity: 1; }
-          92%  { opacity: 1; }
-          100% { transform: translateY(105vh);  opacity: 0; }
+        @keyframes lanternFloat {
+          0%   { transform: translateY(108vh) translateX(0px);  opacity: 0; }
+          7%   { opacity: 1; }
+          48%  { transform: translateY(52vh)  translateX(16px); opacity: 1; }
+          93%  { opacity: 1; }
+          100% { transform: translateY(-90px) translateX(0px);  opacity: 0; }
         }
       `}</style>
-      {particles.map((p) => (
+
+      {ELEMENTS.map((el, i) => (
         <div
-          key={p.id}
-          className="absolute top-0"
+          key={i}
+          className="absolute bottom-0"
           style={{
-            left: `${p.left}%`,
-            opacity: p.opacity,
-            animation: `gentleFall ${p.duration}s ${p.delay}s linear infinite`,
+            left: el.left,
+            opacity: [0.22, 0.17, 0.21][i],
+            animation: `lanternFloat ${el.duration}s ${el.delay}s linear infinite`,
           }}
         >
-          {p.type === 'star'
-            ? <Star size={p.size} />
-            : <Crescent size={p.size} id={p.id} />
-          }
+          <CrescentStar size={el.size} uid={`el${i}`} />
         </div>
       ))}
     </div>
