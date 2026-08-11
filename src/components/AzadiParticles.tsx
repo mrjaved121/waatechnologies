@@ -24,8 +24,8 @@ export default function AzadiParticles() {
       <div
         className="fixed z-30 pointer-events-none select-none hidden sm:block"
         style={{
-          left: 'calc(57% - 40px)',
-          top: '38%',
+          left: 'calc(57% - 60px)',
+          top: 'calc(38% - 40px)',
           opacity: 0.78,
           animation: 'azadiFloat 5s ease-in-out infinite',
         }}
