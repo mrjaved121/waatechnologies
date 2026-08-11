@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { CartProvider } from '@/components/CartContext';
+import IndependenceBanner from '@/components/IndependenceBanner';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
 
@@ -154,6 +155,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <CartProvider>
+          <IndependenceBanner />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
