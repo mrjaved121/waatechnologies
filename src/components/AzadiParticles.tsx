@@ -22,7 +22,7 @@ export default function AzadiParticles() {
 
       {/* Positioned to the LEFT of the cylinder in the hero */}
       <div
-        className="fixed z-30 pointer-events-none select-none hidden sm:block"
+        className="fixed z-30 pointer-events-none select-none"
         style={{
           left: 'calc(57% - 60px)',
           top: 'calc(38% - 60px)',
