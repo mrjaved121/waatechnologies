@@ -1,6 +1,38 @@
 'use client';
 import { useState, useEffect } from 'react';
 
+function CrescentStar({ size }: { size: number }) {
+  return (
+    <svg
+      width={size}
+      height={Math.round(size * 1.13)}
+      viewBox="0 0 195 215"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <filter id="wGlow" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <mask id="wMask">
+          <circle cx="80" cy="135" r="76" fill="white" />
+          <circle cx="108" cy="117" r="63" fill="black" />
+        </mask>
+      </defs>
+      <circle cx="80" cy="135" r="76" fill="white" mask="url(#wMask)" filter="url(#wGlow)" />
+      <polygon
+        fill="white"
+        filter="url(#wGlow)"
+        points="132,66 137.9,83.4 155.9,83.7 141.6,94.3 147.5,111.7 132,101.2 116.5,111.7 122.4,94.3 108.1,83.7 126.1,83.4"
+      />
+    </svg>
+  );
+}
+
 export default function AzadiParticles() {
   const [visible, setVisible] = useState(false);
 
@@ -20,7 +52,7 @@ export default function AzadiParticles() {
         }
       `}</style>
 
-      {/* Positioned to the LEFT of the cylinder in the hero */}
+      {/* ── Desktop (lg+): left of cylinder in hero ── */}
       <div
         className="fixed z-30 pointer-events-none select-none hidden lg:block"
         style={{
@@ -30,60 +62,20 @@ export default function AzadiParticles() {
           animation: 'azadiFloat 5s ease-in-out infinite',
         }}
       >
-        <svg
-          width="150"
-          height="170"
-          viewBox="0 0 195 215"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            {/* Soft white glow */}
-            <filter id="wGlow" x="-30%" y="-30%" width="160%" height="160%">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-              <feMerge>
-                <feMergeNode in="blur" />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
+        <CrescentStar size={150} />
+      </div>
 
-            {/* Crescent = outer circle minus offset inner circle */}
-            <mask id="wMask">
-              <circle cx="80" cy="135" r="76" fill="white" />
-              <circle cx="108" cy="117" r="63" fill="black" />
-            </mask>
-          </defs>
-
-          {/* ── White crescent ── */}
-          <circle
-            cx="80"
-            cy="135"
-            r="76"
-            fill="white"
-            mask="url(#wMask)"
-            filter="url(#wGlow)"
-          />
-
-          {/* ── White star — close to crescent opening ──
-              Center: (132, 92)  outer-r: 26  inner-r: 10
-              Brought in tight so it sits just inside the crescent gap */}
-          <polygon
-            fill="white"
-            filter="url(#wGlow)"
-            points="
-              132,66
-              137.9,83.4
-              155.9,83.7
-              141.6,94.3
-              147.5,111.7
-              132,101.2
-              116.5,111.7
-              122.4,94.3
-              108.1,83.7
-              126.1,83.4
-            "
-          />
-        </svg>
+      {/* ── Mobile / tablet: left side of the cylinder ── */}
+      <div
+        className="fixed z-30 pointer-events-none select-none block lg:hidden"
+        style={{
+          left: '3%',
+          top: '58%',
+          opacity: 0.75,
+          animation: 'azadiFloat 5s ease-in-out infinite',
+        }}
+      >
+        <CrescentStar size={85} />
       </div>
     </>
   );
