@@ -20,28 +20,26 @@ export default function AzadiParticles() {
         }
       `}</style>
 
+      {/* Positioned to the LEFT of the cylinder in the hero */}
       <div
-        className="fixed bottom-10 right-8 z-30 pointer-events-none select-none hidden sm:block"
-        style={{ animation: 'azadiFloat 5s ease-in-out infinite' }}
+        className="fixed z-30 pointer-events-none select-none hidden sm:block"
+        style={{
+          left: '47%',
+          top: '13%',
+          opacity: 0.78,
+          animation: 'azadiFloat 5s ease-in-out infinite',
+        }}
       >
         <svg
-          width="155"
-          height="175"
-          viewBox="0 0 200 220"
+          width="150"
+          height="170"
+          viewBox="0 0 195 215"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
-            {/* Green → lime gradient — matches Pakistan flag colours */}
-            <linearGradient id="azGrad" x1="10%" y1="0%" x2="90%" y2="100%">
-              <stop offset="0%"   stopColor="#d9f99d" />
-              <stop offset="30%"  stopColor="#86efac" />
-              <stop offset="65%"  stopColor="#16a34a" />
-              <stop offset="100%" stopColor="#01411C" />
-            </linearGradient>
-
-            {/* Outer glow */}
-            <filter id="azGlow" x="-25%" y="-25%" width="150%" height="150%">
+            {/* Soft white glow */}
+            <filter id="wGlow" x="-30%" y="-30%" width="160%" height="160%">
               <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
               <feMerge>
                 <feMergeNode in="blur" />
@@ -49,42 +47,41 @@ export default function AzadiParticles() {
               </feMerge>
             </filter>
 
-            {/* Crescent mask: outer circle minus offset inner circle */}
-            <mask id="azMask">
-              <circle cx="82" cy="135" r="78" fill="white" />
-              <circle cx="112" cy="116" r="64" fill="black" />
+            {/* Crescent = outer circle minus offset inner circle */}
+            <mask id="wMask">
+              <circle cx="80" cy="135" r="76" fill="white" />
+              <circle cx="108" cy="117" r="63" fill="black" />
             </mask>
           </defs>
 
-          {/* ── Crescent ── */}
+          {/* ── White crescent ── */}
           <circle
-            cx="82"
+            cx="80"
             cy="135"
-            r="78"
-            fill="url(#azGrad)"
-            mask="url(#azMask)"
-            filter="url(#azGlow)"
-            opacity="0.92"
+            r="76"
+            fill="white"
+            mask="url(#wMask)"
+            filter="url(#wGlow)"
           />
 
-          {/* ── Five-pointed star (upper-right of crescent) ── */}
-          {/* Center: 158,62  outer-r: 32  inner-r: 13 */}
+          {/* ── White star — close to crescent opening ──
+              Center: (132, 92)  outer-r: 26  inner-r: 10
+              Brought in tight so it sits just inside the crescent gap */}
           <polygon
+            fill="white"
+            filter="url(#wGlow)"
             points="
-              158,30
-              164.8,52.2
-              187.4,52.8
-              169.6,66.4
-              176.4,88.6
-              158,75.2
-              139.6,88.6
-              146.4,66.4
-              128.6,52.8
-              151.2,52.2
+              132,66
+              137.9,83.4
+              155.9,83.7
+              141.6,94.3
+              147.5,111.7
+              132,101.2
+              116.5,111.7
+              122.4,94.3
+              108.1,83.7
+              126.1,83.4
             "
-            fill="url(#azGrad)"
-            filter="url(#azGlow)"
-            opacity="0.92"
           />
         </svg>
       </div>
