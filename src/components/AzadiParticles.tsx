@@ -1,56 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
 
-// Combined Pakistan crescent + star SVG — transparent background, white shapes
-function CrescentStar({ size, uid }: { size: number; uid: string }) {
-  const maskId = `cm-${uid}`;
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 64 64"
-      fill="none"
-      style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.38))' }}
-    >
-      <defs>
-        <mask id={maskId}>
-          {/* Outer crescent circle — white = visible */}
-          <circle cx="23" cy="35" r="19" fill="white" />
-          {/* Inner cutout — black = transparent */}
-          <circle cx="31" cy="31" r="15" fill="black" />
-        </mask>
-      </defs>
-
-      {/* Crescent */}
-      <circle cx="23" cy="35" r="19" fill="white" mask={`url(#${maskId})`} />
-
-      {/* 5-pointed star — upper right of crescent */}
-      {/* Center: 46,14  outer-r: 11  inner-r: 4.5 */}
-      <polygon
-        fill="white"
-        points="
-          46,3
-          48.6,10.8
-          56.5,10.8
-          50.4,15.6
-          52.9,23.4
-          46,18.7
-          39.1,23.4
-          41.6,15.6
-          35.5,10.8
-          43.4,10.8
-        "
-      />
-    </svg>
-  );
-}
-
-const ELEMENTS = [
-  { left: '10%',  size: 48, duration: 28, delay:   0 },
-  { left: '50%',  size: 58, duration: 34, delay: -13 },
-  { left: '79%',  size: 42, duration: 26, delay: -20 },
-];
-
 export default function AzadiParticles() {
   const [visible, setVisible] = useState(false);
 
@@ -62,30 +12,82 @@ export default function AzadiParticles() {
   if (!visible) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden">
+    <>
       <style>{`
-        @keyframes lanternFloat {
-          0%   { transform: translateY(108vh) translateX(0px);  opacity: 0; }
-          7%   { opacity: 1; }
-          48%  { transform: translateY(52vh)  translateX(16px); opacity: 1; }
-          93%  { opacity: 1; }
-          100% { transform: translateY(-90px) translateX(0px);  opacity: 0; }
+        @keyframes azadiFloat {
+          0%, 100% { transform: translateY(0px);   }
+          50%       { transform: translateY(-22px); }
         }
       `}</style>
 
-      {ELEMENTS.map((el, i) => (
-        <div
-          key={i}
-          className="absolute bottom-0"
-          style={{
-            left: el.left,
-            opacity: [0.22, 0.17, 0.21][i],
-            animation: `lanternFloat ${el.duration}s ${el.delay}s linear infinite`,
-          }}
+      <div
+        className="fixed bottom-10 right-8 z-30 pointer-events-none select-none hidden sm:block"
+        style={{ animation: 'azadiFloat 5s ease-in-out infinite' }}
+      >
+        <svg
+          width="155"
+          height="175"
+          viewBox="0 0 200 220"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <CrescentStar size={el.size} uid={`el${i}`} />
-        </div>
-      ))}
-    </div>
+          <defs>
+            {/* Green → lime gradient — matches Pakistan flag colours */}
+            <linearGradient id="azGrad" x1="10%" y1="0%" x2="90%" y2="100%">
+              <stop offset="0%"   stopColor="#d9f99d" />
+              <stop offset="30%"  stopColor="#86efac" />
+              <stop offset="65%"  stopColor="#16a34a" />
+              <stop offset="100%" stopColor="#01411C" />
+            </linearGradient>
+
+            {/* Outer glow */}
+            <filter id="azGlow" x="-25%" y="-25%" width="150%" height="150%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+
+            {/* Crescent mask: outer circle minus offset inner circle */}
+            <mask id="azMask">
+              <circle cx="82" cy="135" r="78" fill="white" />
+              <circle cx="112" cy="116" r="64" fill="black" />
+            </mask>
+          </defs>
+
+          {/* ── Crescent ── */}
+          <circle
+            cx="82"
+            cy="135"
+            r="78"
+            fill="url(#azGrad)"
+            mask="url(#azMask)"
+            filter="url(#azGlow)"
+            opacity="0.92"
+          />
+
+          {/* ── Five-pointed star (upper-right of crescent) ── */}
+          {/* Center: 158,62  outer-r: 32  inner-r: 13 */}
+          <polygon
+            points="
+              158,30
+              164.8,52.2
+              187.4,52.8
+              169.6,66.4
+              176.4,88.6
+              158,75.2
+              139.6,88.6
+              146.4,66.4
+              128.6,52.8
+              151.2,52.2
+            "
+            fill="url(#azGrad)"
+            filter="url(#azGlow)"
+            opacity="0.92"
+          />
+        </svg>
+      </div>
+    </>
   );
 }
