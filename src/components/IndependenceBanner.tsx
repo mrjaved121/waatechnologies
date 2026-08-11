@@ -15,7 +15,7 @@ export default function IndependenceBanner() {
   return (
     <div className="relative bg-[#01411C] text-white text-center py-2 px-10 text-sm font-medium tracking-wide">
       <span>
-        ☪️&nbsp; Celebrating 78 Years of Azadi &mdash; 14 August 2026 &nbsp;&nbsp;|&nbsp;&nbsp; Pakistan Zindabad&nbsp; 🇵🇰
+        🇵🇰&nbsp; Celebrating 78 Years of Azadi &mdash; 14 August 2026 &nbsp;&nbsp;|&nbsp;&nbsp; Pakistan Zindabad&nbsp; 🇵🇰
       </span>
       <button
         onClick={() => {
