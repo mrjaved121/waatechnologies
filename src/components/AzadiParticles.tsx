@@ -7,24 +7,55 @@ type Particle = {
   delay: number;
   duration: number;
   size: number;
-  symbol: string;
+  type: 'star' | 'moon';
   opacity: number;
-  drift: number;
 };
 
-// Alternates between ★ (star) and ☽ (crescent moon) — all white
-const SYMBOLS = ['★', '☽', '★', '★', '☽', '★', '☽', '★'];
+// Proper 5-pointed star SVG — not a text character
+function Star({ size }: { size: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 20 20"
+      fill="white"
+      style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.45))' }}
+    >
+      <polygon points="10,1 12.35,6.76 18.56,7.22 13.8,11.24 15.29,17.28 10,14 4.71,17.28 6.2,11.24 1.44,7.22 7.65,6.76" />
+    </svg>
+  );
+}
+
+// Proper crescent using SVG mask — transparent cutout, works on any background
+function Crescent({ size, id }: { size: number; id: number }) {
+  const maskId = `crescent-mask-${id}`;
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 20 20"
+      style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.45))' }}
+    >
+      <defs>
+        <mask id={maskId}>
+          <circle cx="10" cy="10" r="8.5" fill="white" />
+          <circle cx="14" cy="9.5" r="7" fill="black" />
+        </mask>
+      </defs>
+      <circle cx="10" cy="10" r="8.5" fill="white" mask={`url(#${maskId})`} />
+    </svg>
+  );
+}
 
 function buildParticles(): Particle[] {
-  return Array.from({ length: 20 }, (_, i) => ({
+  return Array.from({ length: 14 }, (_, i) => ({
     id: i,
-    left: (i * 5.1 + (i % 4) * 1.7) % 100,
-    delay: (i * 0.85) % 15,
-    duration: 9 + (i * 1.3) % 9,
-    size: 10 + (i * 1.9) % 14,
-    symbol: SYMBOLS[i % SYMBOLS.length],
-    opacity: 0.55 + (i % 4) * 0.1,
-    drift: ((i % 5) - 2) * 18,   // horizontal drift in px
+    left: (i * 7.3 + (i % 4) * 2.5) % 100,
+    delay: (i * 1.15) % 18,
+    duration: 14 + (i * 1.3) % 10,
+    size: i % 3 === 0 ? 13 : 9 + (i % 3) * 2,
+    type: (i % 4 === 0 ? 'moon' : 'star') as 'star' | 'moon',
+    opacity: 0.4 + (i % 4) * 0.1,
   }));
 }
 
@@ -41,34 +72,29 @@ export default function AzadiParticles() {
   return (
     <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden">
       <style>{`
-        @keyframes particleFall-neg { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(-18px) rotate(-25deg); opacity:0; } }
-        @keyframes particleFall-0   { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(0px)  rotate(15deg);  opacity:0; } }
-        @keyframes particleFall-pos { 0% { transform: translateY(-40px) translateX(0px) rotate(0deg); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform: translateY(105vh) translateX(18px)  rotate(25deg);  opacity:0; } }
+        @keyframes gentleFall {
+          0%   { transform: translateY(-30px); opacity: 0; }
+          6%   { opacity: 1; }
+          92%  { opacity: 1; }
+          100% { transform: translateY(105vh);  opacity: 0; }
+        }
       `}</style>
-      {particles.map((p) => {
-        const anim = p.drift < 0
-          ? 'particleFall-neg'
-          : p.drift > 0
-          ? 'particleFall-pos'
-          : 'particleFall-0';
-        return (
-          <div
-            key={p.id}
-            className="absolute top-0 select-none"
-            style={{
-              left: `${p.left}%`,
-              fontSize: `${p.size}px`,
-              color: 'white',
-              opacity: p.opacity,
-              animation: `${anim} ${p.duration}s ${p.delay}s linear infinite`,
-              textShadow: '0 0 6px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.4)',
-              lineHeight: 1,
-            }}
-          >
-            {p.symbol}
-          </div>
-        );
-      })}
+      {particles.map((p) => (
+        <div
+          key={p.id}
+          className="absolute top-0"
+          style={{
+            left: `${p.left}%`,
+            opacity: p.opacity,
+            animation: `gentleFall ${p.duration}s ${p.delay}s linear infinite`,
+          }}
+        >
+          {p.type === 'star'
+            ? <Star size={p.size} />
+            : <Crescent size={p.size} id={p.id} />
+          }
+        </div>
+      ))}
     </div>
   );
 }
