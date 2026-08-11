@@ -56,7 +56,7 @@ export default function AzadiMobileHero() {
         className="absolute z-20 pointer-events-none select-none block lg:hidden"
         style={{
           left: '5%',
-          bottom: '10%',
+          top: '48%',
           opacity: 0.72,
           animation: 'azadiFloatMobile 5s ease-in-out infinite',
         }}
