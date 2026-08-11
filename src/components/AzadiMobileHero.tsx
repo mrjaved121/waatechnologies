@@ -11,29 +11,29 @@ function CrescentStar({ size }: { size: number }) {
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
-        <filter id="wGlow" x="-30%" y="-30%" width="160%" height="160%">
+        <filter id="mhGlow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
           <feMerge>
             <feMergeNode in="blur" />
             <feMergeNode in="SourceGraphic" />
           </feMerge>
         </filter>
-        <mask id="wMask">
+        <mask id="mhMask">
           <circle cx="80" cy="135" r="76" fill="white" />
           <circle cx="108" cy="117" r="63" fill="black" />
         </mask>
       </defs>
-      <circle cx="80" cy="135" r="76" fill="white" mask="url(#wMask)" filter="url(#wGlow)" />
+      <circle cx="80" cy="135" r="76" fill="white" mask="url(#mhMask)" filter="url(#mhGlow)" />
       <polygon
         fill="white"
-        filter="url(#wGlow)"
+        filter="url(#mhGlow)"
         points="132,66 137.9,83.4 155.9,83.7 141.6,94.3 147.5,111.7 132,101.2 116.5,111.7 122.4,94.3 108.1,83.7 126.1,83.4"
       />
     </svg>
   );
 }
 
-export default function AzadiParticles() {
+export default function AzadiMobileHero() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -46,25 +46,23 @@ export default function AzadiParticles() {
   return (
     <>
       <style>{`
-        @keyframes azadiFloat {
-          0%, 100% { transform: translateY(0px);   }
-          50%       { transform: translateY(-22px); }
+        @keyframes azadiFloatMobile {
+          0%, 100% { transform: translateY(0px); }
+          50%       { transform: translateY(-18px); }
         }
       `}</style>
-
-      {/* ── Desktop (lg+): left of cylinder in hero ── */}
+      {/* Absolute inside hero section — scrolls with page, never overlaps other sections */}
       <div
-        className="fixed z-30 pointer-events-none select-none hidden lg:block"
+        className="absolute z-20 pointer-events-none select-none block lg:hidden"
         style={{
-          left: 'calc(57% - 60px)',
-          top: 'calc(38% - 60px)',
-          opacity: 0.78,
-          animation: 'azadiFloat 5s ease-in-out infinite',
+          left: '5%',
+          bottom: '10%',
+          opacity: 0.72,
+          animation: 'azadiFloatMobile 5s ease-in-out infinite',
         }}
       >
-        <CrescentStar size={150} />
+        <CrescentStar size={85} />
       </div>
-
     </>
   );
 }

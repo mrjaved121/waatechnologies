@@ -6,6 +6,7 @@ import {
   ChevronRight, Star, CheckCircle2, ArrowRight, Phone
 } from 'lucide-react';
 import HeroCylinder from '@/components/HeroCylinder';
+import AzadiMobileHero from '@/components/AzadiMobileHero';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -111,6 +112,7 @@ export default function HomePage() {
         <div className="orb-1 absolute -right-32 -top-32 w-[600px] h-[600px] rounded-full bg-white/5" />
         <div className="orb-2 absolute -right-16 top-1/4 w-[400px] h-[400px] rounded-full bg-white/5" />
         <div className="orb-3 absolute left-1/2 bottom-0 w-[300px] h-[300px] rounded-full bg-black/10" />
+        <AzadiMobileHero />
 
         <div className="relative max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
