@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 function CrescentStar({ size }: { size: number }) {
   return (
@@ -35,13 +36,14 @@ function CrescentStar({ size }: { size: number }) {
 
 export default function AzadiParticles() {
   const [visible, setVisible] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const expired = new Date() >= new Date('2026-08-15T00:00:00');
     if (!expired) setVisible(true);
   }, []);
 
-  if (!visible) return null;
+  if (!visible || pathname !== '/') return null;
 
   return (
     <>
