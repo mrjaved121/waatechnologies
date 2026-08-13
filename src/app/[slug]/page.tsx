@@ -51,6 +51,158 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: Made in Pakistan — WAATechnologies Azadi 2026 ── */
+  'made-in-pakistan-waatechnologies-azadi-2026': (
+    <>
+      <div className="not-prose bg-[#01411C] rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">🇵🇰 Azadi 2026 — Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">Who manufactures composite LPG cylinders in Pakistan?</p>
+        <p className="text-green-200 text-sm leading-relaxed"><strong className="text-white">WAATechnologies Pvt Ltd</strong> — Pakistan&apos;s first and only indigenous manufacturer of ISO-certified composite LPG cylinders, founded in 2022 after four years of R&amp;D beginning in 2018. Every cylinder is designed, engineered, and manufactured in Pakistan — at a purpose-built 26,000 sq ft facility in Gujranwala, Punjab. On this <strong className="text-white">79th Independence Day</strong>, choosing a WAATechnologies cylinder is choosing Made in Pakistan.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Facts — WAATechnologies &amp; Made in Pakistan
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Pakistan imported 100% of its composite LPG cylinders before WAATechnologies began domestic production in 2022',
+            "WAATechnologies' Gujranwala facility covers 26,000+ sq ft — purpose-built for composite cylinder manufacturing using international filament winding technology",
+            'Every WAATechnologies cylinder carries ISO 9001:2015, ISO 11119-3:2020, and BS EN 14427:2022 certification — the same standards governing composite cylinders in Europe and South Korea',
+            'WAATechnologies is PEC (Pakistan Engineering Council) licensed — a mandatory credential for engineering manufacturers in Pakistan',
+            'The filament winding technology at WAATechnologies is the same process used by leading manufacturers in Germany, South Korea, and the UAE — not an approximation of it',
+            'Choosing a Made in Pakistan composite cylinder keeps engineering jobs, technical R&D investment, and manufacturing revenue inside Pakistan',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>On 14 August 1947, Pakistan declared its independence. On every Independence Day since, the debate over what true self-reliance means — economic, industrial, technological — continues. Pakistan has made enormous strides in textiles, software, agriculture, and services. But in advanced manufacturing — the kind that requires precision engineering, international certification, and sustained R&amp;D investment — the ground is harder and the competition is global.</p>
+
+      <p>Gas cylinders are not a glamorous product. They do not appear in technology startup pitch decks or generate social media excitement. But they sit in 20 million Pakistani kitchens. They heat the food that 220 million Pakistanis eat every day. They power the restaurants, the food stalls, the commercial kitchens, the hospitals, and the industrial facilities that keep Pakistan&apos;s economy running. In a product this fundamental to daily Pakistani life, the question of whether Pakistan can manufacture it to world-class standards matters. It is a question about whether Pakistan&apos;s engineering and manufacturing capabilities have matured to the point where Pakistani families no longer depend on imported equipment for their kitchen safety.</p>
+
+      <p>WAATechnologies Pvt Ltd answered that question. This is their story — and the case for why choosing a Made in Pakistan composite cylinder this Independence Day is not sentiment, but sound engineering sense.</p>
+
+      <h2>The Problem Pakistan Had Before WAATechnologies</h2>
+
+      <p>Before WAATechnologies, Pakistan&apos;s composite LPG cylinder market was entirely import-dependent. Every composite cylinder available in Pakistan came from manufacturing facilities in China, South Korea, Turkey, or Europe — with all the import costs, supply chain vulnerabilities, quality inconsistencies, and foreign exchange outflow that entails.</p>
+
+      <p>The dominant product in Pakistan&apos;s gas cylinder market was — and in most homes still is — the conventional steel cylinder. Steel cylinders have been produced in Pakistan for decades. They are familiar, widely distributed, and relatively cheap to manufacture. They are also responsible for hundreds of gas cylinder blast incidents every year in Pakistan, killing and maiming Pakistani families in their own kitchens through a failure mode — the BLEVE explosion — that composite cylinder technology specifically and permanently eliminates.</p>
+
+      <p>Imported composite cylinders were available in Pakistan before WAATechnologies, but they came with no domestic after-sales infrastructure, inconsistent certification verification, limited dealer networks, and pricing that put them beyond the ordinary Pakistani household. More fundamentally, every foreign exchange rupee spent on an imported composite cylinder left Pakistan permanently.</p>
+
+      <p>The gap was clear: Pakistan needed a domestic composite LPG cylinder manufacturer that could produce to international certification standards, build a national dealer network, price competitively for Pakistani households, and keep the engineering investment and manufacturing employment inside the country. WAATechnologies was built to fill that gap.</p>
+
+      <h2>Four Years of R&amp;D: Building Pakistan&apos;s First Composite Cylinder from the Ground Up</h2>
+
+      <p>WAATechnologies did not adapt an imported product with a Pakistani label. The company&apos;s founders began research and development into composite cylinder manufacturing in 2018 — four years before commercial production started in 2022. This R&amp;D period addressed three fundamental challenges that any manufacturer of composite pressure vessels must solve: materials science, manufacturing process engineering, and international certification compliance.</p>
+
+      <h3>Materials: The HDPE Liner and Glass Fibre Specification</h3>
+
+      <p>A composite LPG cylinder consists of two core components: an HDPE (High-Density Polyethylene) liner that provides gas-tight inner containment, and a glass fibre overwrap applied by the filament winding process that provides structural pressure-bearing capability. Both materials must be precisely specified for the pressure, temperature, and chemical environment of LPG service in Pakistan — from 2°C winter nights in Lahore and Islamabad to 48°C summer peak temperatures in Punjab and Sindh.</p>
+
+      <p>The HDPE grade must be specified for LPG compatibility, UV resistance, and impact toughness across this full temperature range. The glass fibre must be specified for strength, fatigue resistance, and adhesion to the epoxy resin system used in the winding process. Getting these specifications right required sustained materials testing — subjecting liner samples to LPG permeation tests, conducting tensile and fatigue tests on fibre-resin combinations, and validating UV performance on accelerated test schedules. This is engineering work that cannot be shortcut if the resulting cylinder is to achieve genuine ISO 11119-3 certification.</p>
+
+      <h3>Manufacturing Process: Filament Winding at the Gujranwala Facility</h3>
+
+      <p>Filament winding is the manufacturing process used to apply glass fibre to the HDPE liner. A continuous strand of glass fibre, wetted with epoxy resin, is wound around a rotating liner under controlled tension at precisely calculated angles. The winding pattern determines the cylinder&apos;s strength in different loading directions: hoop strength (resistance to internal pressure), axial strength, and impact resistance.</p>
+
+      <p>Getting the filament winding process right is a precision manufacturing challenge. The winding machine must be programmed with the exact pattern calculated for the cylinder design. Fibre tension must be controlled consistently across thousands of revolutions. Resin content must be managed within tight tolerances — too much adds weight without adding strength; too little leaves the fibre reinforcement matrix structurally compromised. Cure cycle temperature and duration must be validated to ensure full resin polymerisation without overheating the HDPE liner.</p>
+
+      <p>WAATechnologies invested in purpose-built filament winding equipment and the process engineering capability to operate it correctly. The Gujranwala facility was designed around this manufacturing process — not retrofitted around generic industrial equipment. This is the same technology used by leading composite cylinder manufacturers in Europe and South Korea to produce the cylinders that serve Western and Korean households safely for 20+ years. It is now operating in Pakistan, staffed by Pakistani engineers, producing for Pakistani families.</p>
+
+      <h2>The Certifications That Prove WAATechnologies Competes with the World</h2>
+
+      <p>Manufacturing technology and materials are necessary but not sufficient. The proof that a composite cylinder meets international safety standards comes from independent certification testing. WAATechnologies has achieved three certifications that together provide the most rigorous safety validation available in the global composite cylinder industry.</p>
+
+      <h3>ISO 9001:2015 — Quality Management System</h3>
+
+      <p>ISO 9001:2015 certifies that WAATechnologies operates a quality management system meeting international requirements for process control, documentation, traceability, and continuous improvement. This certification covers the entire organisation — from raw material procurement through production to finished cylinder testing and dispatch. Every WAATechnologies cylinder is produced within a quality system ensuring consistency and traceability, not quality by inspection alone.</p>
+
+      <h3>ISO 11119-3:2020 — The Core Cylinder Safety Standard</h3>
+
+      <p>ISO 11119-3:2020 is the International Organization for Standardization standard for refillable composite gas cylinders with non-metallic liners. Certification requires the cylinder design to pass: burst pressure testing at 2.25× working pressure; 12,000-cycle pressure fatigue testing; fire engulfment testing confirming non-blast behaviour; drop testing from 1.8 metres; and accelerated UV degradation equivalent to 20+ years of outdoor exposure.</p>
+
+      <p>A cylinder that passes all five test categories receives a 20+ year rated service life and the non-blast certification that means it physically cannot undergo the shrapnel-projecting BLEVE explosion that makes steel cylinder incidents so devastating. Every imported composite cylinder claiming ISO 11119-3 certification also carries this certification — because there is no alternative if the cylinder is genuinely safe. The significance: WAATechnologies cylinders carry identical certification to the South Korean and European products that previously represented the only certified composite option in Pakistan. Made in Pakistan. Certified to the same standard.</p>
+
+      <h3>BS EN 14427:2022 — European Standard Certification</h3>
+
+      <p>BS EN 14427:2022 is the British Standards / European Norm standard for composite cylinders for liquefied petroleum gas — the same standard governing composite cylinder manufacturing in Germany, the United Kingdom, France, and across the EU. Achieving this certification means WAATechnologies cylinders meet European safety standards. EN 14427 testing is rigorous, conducted by accredited European test laboratories, and cannot be self-certified. A Pakistani manufacturer achieving European standard certification is a measurable engineering accomplishment.</p>
+
+      <h2>Why This Matters for Pakistan Beyond the Kitchen</h2>
+
+      <p>The case for choosing a Made in Pakistan composite cylinder is not primarily sentimental. The case is economic, strategic, and practical.</p>
+
+      <h3>Foreign Exchange Retention</h3>
+
+      <p>Every imported composite cylinder represents a foreign exchange outflow from Pakistan. In a country with persistent balance of payments pressure, every category of import that can be substituted with a domestically manufactured equivalent — without compromising quality or safety — strengthens the national economy. Pakistan&apos;s composite cylinder market is growing rapidly as awareness of non-blast technology increases. As that market grows, the choice between domestic and imported supply becomes increasingly significant in aggregate foreign exchange terms.</p>
+
+      <h3>Manufacturing Employment and Technology Transfer</h3>
+
+      <p>WAATechnologies&apos; Gujranwala facility employs Pakistani engineers, technicians, and production workers. The filament winding technology, process engineering knowledge, and quality management expertise developed at WAATechnologies exists in Pakistan — in Pakistani engineers who worked through the challenges of composite pressure vessel manufacturing and solved them. This is technology transfer in the most meaningful sense: not a licence agreement with a foreign partner retaining core technology control, but a genuinely Pakistani-developed manufacturing capability that can train the next generation of Pakistani engineers.</p>
+
+      <p>As Pakistan&apos;s composite cylinder market grows, WAATechnologies can scale its Pakistani workforce, deepen its engineering capability, and potentially export — carrying Pakistan&apos;s manufacturing reputation into regional markets that currently depend on the same imported products Pakistan previously imported.</p>
+
+      <h3>Supply Chain Security for Pakistani Households</h3>
+
+      <p>Import-dependent supply chains are vulnerable. Global shipping disruptions, foreign currency shortages, trade policy changes, and supplier decisions in other countries have all affected Pakistan&apos;s access to imported goods in recent years. A household depending on imported composite cylinders is dependent on supply chains entirely outside Pakistani control. A WAATechnologies cylinder — manufactured in Gujranwala from materials procured under domestic supply agreements — does not carry this geopolitical and logistics risk.</p>
+
+      <h2>The Economic Case for Buying Pakistani This Independence Day</h2>
+
+      <p>Pakistan&apos;s 79th Independence Day is an appropriate moment to ask the question every purchasing decision implicitly answers: where does this money go? Every rupee spent on an imported composite cylinder leaves Pakistan. Every rupee spent on a WAATechnologies cylinder stays in Pakistan — paying Pakistani workers, funding Pakistani engineering, and building a manufacturing capability that can serve the country for decades.</p>
+
+      <p>The economic multiplier of domestic manufacturing is well-documented. A Pakistani engineer employed at WAATechnologies spends their salary in the Pakistani economy. A Pakistani supplier providing raw materials to WAATechnologies generates further Pakistani economic activity. The tax revenue from WAATechnologies&apos; operations funds Pakistani public services. None of this happens when the cylinder on a Pakistani kitchen shelf was made in China or South Korea.</p>
+
+      <p>Critically, this is not an argument for buying inferior Pakistani products to support local industry out of obligation — that is a false choice. The argument here is that WAATechnologies composite cylinders are certifiably equal to the best imported alternatives, carrying identical international certification, produced to the same manufacturing standards, and delivering the same 20+ year service life and non-blast safety performance. Given certification parity, buying Pakistani is not a compromise. It is an economically rational choice that also strengthens Pakistan&apos;s industrial base.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-[#01411C] text-white">
+              <th className="p-3 text-left font-bold">Comparison</th>
+              <th className="p-3 text-left font-bold">WAATechnologies (Made in Pakistan)</th>
+              <th className="p-3 text-left font-bold">Imported Composite Cylinder</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['ISO 11119-3 Certification', '✓ Certified', '✓ Certified'],
+              ['BS EN 14427:2022', '✓ Certified', 'Varies by manufacturer'],
+              ['Service Life', '20+ years', '20+ years'],
+              ['Non-Blast', '✓ Yes', '✓ Yes'],
+              ['Pakistani Dealer Network', '✓ Nationwide', 'Limited / none'],
+              ['Foreign Exchange Impact', '0 — stays in Pakistan', 'Outflow from Pakistan'],
+              ['Manufacturing Jobs', 'Pakistani workers', 'Foreign workers'],
+              ['After-Sales Support', '✓ Local', 'Difficult / unavailable'],
+              ['Supply Chain Risk', 'Low — domestic', 'High — import dependent'],
+            ].map(([item, local, imported], i) => (
+              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                <td className="p-3 font-medium text-slate-800 border border-slate-200">{item}</td>
+                <td className="p-3 text-green-800 font-medium border border-slate-200">{local}</td>
+                <td className="p-3 text-slate-600 border border-slate-200">{imported}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How to Switch to a Made in Pakistan Composite Cylinder This Independence Day</h2>
+
+      <p>Switching from a steel cylinder to a WAATechnologies composite cylinder is straightforward. WAATechnologies maintains an authorised dealer network across Punjab (Lahore, Gujranwala, Faisalabad, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Find your nearest dealer at waatechnologies.com/authorized-dealers.</p>
+
+      <p>Purchase the cylinder size appropriate for your household or business — 5 kg for small households, 10 kg for standard families and commercial use. Have it filled at any OGRA-licensed LPG fill point. No new regulator is required in most cases — the cylinder valve is compatible with standard Pakistani LPG regulators. The same per-kg LPG fill cost applies as for steel cylinders.</p>
+
+      <p>The cylinder you purchase today will serve your household for 20+ years, certified under three international standards, manufactured by Pakistani engineers in Gujranwala. That is what Made in Pakistan looks like in 2026.</p>
+
+      <p><strong>Pakistan Zindabad. 🇵🇰</strong></p>
+    </>
+  ),
+
   /* ── ARTICLE: Gas Cylinder Blast Incidents Pakistan 2024-2025 ── */
   'gas-cylinder-blast-incidents-pakistan-2025': (
     <>
@@ -3995,6 +4147,7 @@ const wordCounts: Record<string, number> = {
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': 2600,
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': 2700,
   'how-long-does-composite-lpg-cylinder-last-pakistan': 3100,
+  'made-in-pakistan-waatechnologies-azadi-2026': 2900,
 };
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
@@ -4226,6 +4379,13 @@ const faqData: Record<string, { q: string; a: string }[]> = {
       q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
       a: 'WAATechnologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
     },
+  ],
+  'made-in-pakistan-waatechnologies-azadi-2026': [
+    { q: 'Who manufactures composite LPG cylinders in Pakistan?', a: 'WAATechnologies Pvt Ltd is Pakistan\'s first and only indigenous manufacturer of ISO-certified composite LPG cylinders. Founded in 2022 after four years of R&D beginning in 2018, the company manufactures composite cylinders at a purpose-built 26,000 sq ft facility in Gujranwala, Punjab. Every cylinder carries ISO 9001:2015, ISO 11119-3:2020, and BS EN 14427:2022 certification — the same international standards used by manufacturers in Europe and South Korea.' },
+    { q: 'Is WAATechnologies\' composite cylinder Made in Pakistan?', a: 'Yes. Every WAATechnologies composite LPG cylinder is designed, engineered, and manufactured in Pakistan at the company\'s Gujranwala, Punjab facility. The R&D process that developed the cylinder design began in Pakistan in 2018. The filament winding manufacturing process, HDPE liner production, and all quality certification testing are conducted under Pakistani engineering oversight. WAATechnologies is also PEC (Pakistan Engineering Council) licensed — a mandatory credential for Pakistani engineering manufacturers.' },
+    { q: 'Is a Pakistani-made WAATechnologies cylinder as safe as an imported composite cylinder?', a: 'Yes — and this is verifiable through independent certification. WAATechnologies cylinders carry ISO 11119-3:2020 and BS EN 14427:2022 certification — identical to the certifications carried by leading composite cylinder manufacturers in South Korea, Germany, and the UAE. ISO 11119-3 requires passing burst testing, 12,000-cycle fatigue testing, fire engulfment testing confirming non-blast behaviour, drop testing, and UV degradation testing. A Pakistani-manufactured cylinder passing these tests is certifiably as safe as any imported alternative that carries the same certification.' },
+    { q: 'Why should I choose a Pakistani-made cylinder over an imported composite cylinder?', a: 'Five reasons: (1) Identical safety certification — WAATechnologies carries the same ISO 11119-3 and EN 14427 certifications as imported cylinders; (2) Nationwide Pakistani dealer network with local after-sales support; (3) Every rupee spent keeps manufacturing employment, engineering investment, and economic activity inside Pakistan — imported cylinder purchases send foreign exchange out of the country; (4) Supply chain security — a domestically manufactured product is not vulnerable to import disruptions, currency shortages, or shipping delays; (5) Supporting Pakistan\'s 14 August self-reliance vision: buying WAATechnologies this Independence Day is backing Pakistani manufacturing capability, not just a product.' },
+    { q: 'What certifications does WAATechnologies hold for its composite LPG cylinders?', a: 'WAATechnologies holds four certifications: ISO 9001:2015 (Quality Management System covering the entire manufacturing organisation), ISO 11119-3:2020 (the primary international composite cylinder safety standard requiring burst, fatigue, fire engulfment, drop, and UV testing), BS EN 14427:2022 (the European composite cylinder standard), and PEC (Pakistan Engineering Council) licensing. This certification set is equivalent to or more extensive than certifications held by leading composite cylinder manufacturers in Europe, South Korea, and the UAE.' },
   ],
   'how-long-does-composite-lpg-cylinder-last-pakistan': [
     {

@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Independence Day 2026 ────────────────────────────────────────────────────
+  {
+    slug: 'made-in-pakistan-waatechnologies-azadi-2026',
+    title: 'Made in Pakistan: How WAATechnologies Is Building a Safer, Self-Reliant Nation — Azadi 2026',
+    date: 'Aug 13, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '12 min read',
+    tags: ['made-in-pakistan-2026', 'azadi-2026', 'pakistan-independence-day-2026', '14-august-2026', 'composite-lpg-cylinders', 'waa-technologies', 'pakistani-manufacturer', 'pakistan-zindabad'],
+    excerpt: "On Pakistan's 79th Independence Day, WAATechnologies stands as proof that Made in Pakistan is not a consolation — it is an engineering achievement. Pakistan's first indigenous ISO-certified composite LPG cylinder manufacturer, built from 4 years of R&D, now protects Pakistani families with non-blast cylinders certified to ISO 11119-3, ISO 9001:2015, and BS EN 14427:2022 — the same standards used in Europe and South Korea.",
+  },
+
   // ── Product Education / Buyer Questions ─────────────────────────────────────
   {
     slug: 'how-long-does-composite-lpg-cylinder-last-pakistan',
