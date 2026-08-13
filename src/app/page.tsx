@@ -174,7 +174,7 @@ export default function HomePage() {
                     <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> Est. 2022 — R&amp;D since 2018
                   </div>
                   <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> 26,000 sq ft Plant, Gujranwala
+                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> Pakistan&apos;s Premier Cylinder Factory
                   </div>
                   <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
                     <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> First Composite Cylinder in Pakistan
