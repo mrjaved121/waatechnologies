@@ -51,6 +51,199 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: How to Store LPG Cylinder Safely — OGRA Rules ── */
+  'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': (
+    <>
+      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">How should an LPG cylinder be stored at home in Pakistan?</p>
+        <p className="text-slate-300 text-sm leading-relaxed">OGRA requires LPG cylinders to be stored <strong className="text-white">upright, in a ventilated area, away from heat sources, and never in a basement or enclosed room</strong>. The cylinder must be stored with its valve closed when not in use and must never be stored horizontally. Most Pakistani household gas cylinder incidents happen not during use but due to <strong className="text-white">incorrect storage</strong> — an enclosed space traps any minor leak until the concentration reaches ignition point.</p>
+      </div>
+
+      <div className="not-prose bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-amber-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-amber-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          Key Storage Rules — At a Glance
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Always store the cylinder upright — never on its side or upside down',
+            'Store only in a ventilated area where leaked gas can escape — never in a closed room, cabinet, or basement',
+            'Keep at least 1 metre away from any heat source: stove, geyser, heater, or direct sunlight through glass',
+            'Close the cylinder valve fully when the stove is not in use — not just the stove knobs',
+            'Never store more than one filled cylinder per household unless OGRA-licensed for multiple',
+            'Keep children away from the cylinder storage area at all times',
+            'Composite cylinders are translucent — check the gas level visually before storing an apparently empty cylinder',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-amber-600 font-black mt-0.5 shrink-0">⚠</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Walk into any Pakistani kitchen and you will find the gas cylinder somewhere. Behind the stove. Under the counter. In the corner of the kitchen. In a cabinet. On a balcony. In a storage room. In some homes, in the bedroom. Most of these locations are wrong — some dangerously so — and yet the households that store cylinders this way have been doing it for years without incident, which creates a false sense of safety that persists until it does not.</p>
+
+      <p>Gas cylinder storage is not a matter of convenience or habit. It is regulated by OGRA (Oil and Gas Regulatory Authority), governed by the Petroleum Act 1934 and its associated regulations, and directly connected to the majority of gas cylinder incidents that occur in Pakistani homes every year. Most incidents do not happen during cooking. They happen because a cylinder was stored incorrectly, developed a slow leak, and the leak went undetected long enough for the gas concentration in an enclosed space to reach ignition point — at which point a spark from a light switch, a phone charger, or even static electricity is sufficient to ignite the accumulated gas.</p>
+
+      <p>This guide covers everything a Pakistani household needs to know about correct LPG cylinder storage: what OGRA actually requires, the most common dangerous mistakes, the right and wrong locations in a Pakistani home, and how composite cylinder technology changes some of the storage calculus that applies to steel cylinders.</p>
+
+      <h2>What OGRA Says About LPG Cylinder Storage in Pakistan</h2>
+
+      <p>OGRA&apos;s LPG regulations draw from the Petroleum Act 1934, the LPG (Production and Distribution) Rules 2001, and associated technical guidelines. While OGRA&apos;s primary focus is on the commercial supply chain — dealers, distributors, and filling plants — the household storage requirements are clear in the guidelines provided to licensed LPG dealers, who are obligated to communicate them to end users.</p>
+
+      <p>The core OGRA-derived household storage requirements are:</p>
+
+      <h3>Upright Storage Position</h3>
+      <p>LPG cylinders must be stored in the upright vertical position at all times. This is not a preference — it is a structural and safety requirement. Storing a cylinder on its side places the liquid LPG in contact with the valve mechanism, which is designed to release vapour only. If the valve develops a minor leak or is slightly loose, a horizontal cylinder will release liquid LPG rather than vapour. Liquid LPG expands to approximately 250 times its volume when it vaporises — a small liquid release creates a large vapour release. This is why horizontal storage is prohibited.</p>
+
+      <h3>Ventilation Requirement</h3>
+      <p>LPG is heavier than air — it sinks to floor level and accumulates in low spaces rather than dispersing upward like natural gas would. OGRA requirements specify that LPG cylinders must be stored in areas with natural ventilation at floor level so that any leaked gas can escape the space rather than accumulate. This means ventilation openings at or near floor level, not just a window near the ceiling. A kitchen with a high window but no low ventilation is not adequately ventilated for LPG cylinder storage purposes, because accumulated LPG will pool at floor level below the window&apos;s reach.</p>
+
+      <h3>Distance from Ignition Sources</h3>
+      <p>Cylinders must be stored at least one metre from any potential ignition source: gas stoves, electric stoves, geysers, water heaters, electrical panels, light switches, and any open flame. The one-metre minimum is a conservative safety margin, not a precise risk threshold — more distance is always safer. Direct sunlight through glass (which can raise local temperatures significantly above ambient) also counts as a heat source for storage purposes.</p>
+
+      <h3>Valve-Closed Storage</h3>
+      <p>OGRA guidance requires the cylinder valve to be fully closed whenever the cylinder is not actively in use. Many Pakistani households close only the stove knobs and leave the cylinder valve open continuously. This means that any failure in the regulator, hose, or stove connection — however minor — will allow continuous gas leakage from an open valve. Closing the cylinder valve after every cooking session eliminates this risk entirely.</p>
+
+      <h3>One Cylinder Per Household</h3>
+      <p>Domestic LPG regulations permit one filled cylinder per household for normal residential use. Storing multiple filled cylinders in a residential property without an OGRA commercial licence is technically non-compliant. Many Pakistani households keep a spare cylinder — which is understandable given supply uncertainties — but the safety risk of multiple filled cylinders in a residential space is proportionally higher, and both should be stored correctly.</p>
+
+      <h2>The 7 Most Dangerous LPG Cylinder Storage Mistakes in Pakistani Homes</h2>
+
+      <p>These are the specific storage practices that directly cause the majority of gas cylinder incidents in Pakistani residential settings. Each one has a documented connection to real incidents.</p>
+
+      <h3>Mistake 1: Storing in an Enclosed Cabinet or Under the Counter</h3>
+      <p>This is the single most common dangerous storage mistake in Pakistani urban homes, particularly in modern kitchen designs where the cylinder is hidden inside a cabinet with a door. The cabinet creates exactly the enclosed low-level space where leaked LPG accumulates to explosive concentration. When the cabinet door is opened — with the switch-activated cabinet light, or even by creating a static discharge — the accumulated gas ignites. Several high-profile Pakistani kitchen fire incidents have followed this exact pattern. The cylinder must be visible and in open, ventilated space — not concealed for aesthetic reasons.</p>
+
+      <h3>Mistake 2: Storing in the Basement or Ground Floor Storage Room</h3>
+      <p>Basements are the worst possible LPG storage location because they represent exactly the enclosed low-level space where heavier-than-air LPG accumulates. There is no natural ventilation path for gas to escape — it pools and concentrates. A minor valve or regulator leak in a basement can build to explosive concentration within hours. Basement LPG storage is prohibited under OGRA guidance and should be considered an emergency to correct immediately.</p>
+
+      <h3>Mistake 3: Leaving the Cylinder Valve Open Overnight</h3>
+      <p>Many Pakistani households leave the cylinder valve open at all times, closing only the stove burner knobs. This is dangerous because any failure in the hose, regulator, or stove connection — including a regulator diaphragm that has degraded with age, or a hose fitting that has loosened slightly — will allow continuous gas release. Most such failures are too small to produce an immediate noticeable smell but large enough to create dangerous accumulation over the hours of overnight storage. Close the cylinder valve — not just the stove — every time cooking is finished.</p>
+
+      <h3>Mistake 4: Storing Near the Geyser or Water Heater</h3>
+      <p>Gas geysers are common in Pakistani homes and are frequently installed in or adjacent to kitchens or storage areas. A geyser&apos;s pilot light or ignition spark represents a permanent ignition source in close proximity to any stored cylinder. The geyser itself is also a heat source — raising the ambient temperature around the cylinder, which raises the internal pressure. LPG cylinders should never be stored within 1.5 metres of a gas geyser, and ideally should be separated by a wall or partition.</p>
+
+      <h3>Mistake 5: Storing the Cylinder Horizontally</h3>
+      <p>Cylinders left on their side — either during storage or because there is no stable upright position available — allow liquid LPG contact with the valve mechanism. Even a tiny valve leak in a horizontal cylinder releases liquid rather than vapour, producing instantaneous large-volume vapour release. Always ensure the cylinder is stored upright with a stable base — if the floor surface is uneven, use a rubber mat or cylinder base ring to stabilise it.</p>
+
+      <h3>Mistake 6: Covering the Cylinder with a Cloth or Bag</h3>
+      <p>Covering the cylinder for aesthetic reasons — a cloth, a bag, a decorative cover — prevents heat dissipation and, more critically, prevents early detection of a leak by smell. The cover also creates a local enclosed space around the valve area where leaked gas accumulates and concentrates before escaping to the broader room. Never cover an LPG cylinder with any material.</p>
+
+      <h3>Mistake 7: Storing an "Empty" Cylinder Carelessly</h3>
+      <p>There is no such thing as a truly empty LPG cylinder. A cylinder that no longer feeds the stove still contains residual LPG vapour at above-atmospheric pressure. This residual gas is sufficient to ignite if the valve is damaged or left open. Treat every LPG cylinder — regardless of how &quot;empty&quot; it appears — with the same storage care as a full cylinder. Always store with the valve closed and in the correct upright position, even if you believe the cylinder is empty.</p>
+
+      <h2>Best Locations to Store an LPG Cylinder in a Pakistani Home</h2>
+
+      <p>Given Pakistan&apos;s typical residential architecture — from urban apartment kitchens to traditional courtyard homes — here are the correct storage locations ranked from best to acceptable:</p>
+
+      <h3>Best: Dedicated Outdoor Ventilated Alcove or Niche</h3>
+      <p>An outdoor wall niche or dedicated alcove with natural ventilation on all sides and overhead protection from direct rain is the ideal storage location. The cylinder is fully ventilated, away from interior electrical systems, and any leaked gas disperses harmlessly to open air. This is the standard in well-designed commercial kitchens and the storage approach recommended by OGRA guidelines for residential use wherever outdoor space exists.</p>
+
+      <h3>Good: Kitchen Corner with Low Ventilation</h3>
+      <p>A kitchen corner where the cylinder is visible, accessible, not enclosed by cabinets, and the kitchen has a vent or window with some airflow at or near floor level. The cylinder should be away from the stove (minimum 1 metre of hose length), away from the geyser, and not under any electrical fitting. This is the most practical storage location for urban Pakistani apartments and is acceptable when the ventilation condition is met.</p>
+
+      <h3>Acceptable: Open Balcony or Veranda</h3>
+      <p>An open balcony or veranda with the cylinder sheltered from direct rain (a rain cover is acceptable — do not enclose it with walls or doors) is a safe storage location. Keep the cylinder away from balcony electrical fittings and ensure the connecting hose is long enough to reach the stove without tension or kinking. Balcony storage eliminates interior gas accumulation risk entirely.</p>
+
+      <h2>Locations Where You Must Never Store an LPG Cylinder</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-red-700 text-white">
+              <th className="p-3 text-left font-bold">Location</th>
+              <th className="p-3 text-left font-bold">Why It Is Dangerous</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Enclosed kitchen cabinet', 'Creates sealed low-level gas accumulation pocket — most common incident cause'],
+              ['Basement or storage room below grade', 'No ventilation path; gas pools to explosive concentration'],
+              ['Bedroom or living room', 'Enclosed living space with sleeping occupants; delayed detection'],
+              ['Car boot or vehicle interior', 'High heat, vibration, and enclosed space — extremely high risk'],
+              ['Near electrical panel or meter', 'Permanent ignition source; sparks from panel are common'],
+              ['Under stairs', 'Enclosed low space with poor ventilation; gas accumulates'],
+              ['Bathroom or wet area', 'Moisture accelerates steel corrosion; valve and regulator corrosion risk'],
+              ['Rooftop without cover', 'Direct sun through clear sky raises cylinder temperature dangerously in Pakistani summer'],
+            ].map(([location, reason], i) => (
+              <tr key={location} className={i % 2 === 0 ? 'bg-white' : 'bg-red-50'}>
+                <td className="p-3 font-medium text-slate-800 border border-slate-200">{location}</td>
+                <td className="p-3 text-slate-600 border border-slate-200">{reason}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How Composite Cylinders Change the Storage Equation</h2>
+
+      <p>WAATechnologies composite cylinders improve the storage safety picture in two specific ways that steel cylinders cannot match.</p>
+
+      <h3>Gas Level Visibility Prevents Overfilling and Misreading</h3>
+      <p>The translucent HDPE body of a WAATechnologies composite cylinder lets you see the gas level directly — like reading a water bottle. This matters for storage because many Pakistani households store what they believe is an empty cylinder carelessly, not realising it contains significant residual LPG. With a transparent composite cylinder, you can immediately see whether the cylinder has residual liquid gas before deciding on your storage approach. An apparently &quot;empty&quot; composite cylinder that still shows liquid at the bottom should be treated as a partially filled cylinder with all the same storage precautions.</p>
+
+      <h3>Corrosion-Free Body Eliminates Rust-Related Storage Risks</h3>
+      <p>Steel cylinders stored in the correct outdoor alcove or kitchen corner in Pakistan&apos;s humid climate — particularly in Karachi, coastal areas, and monsoon-affected Punjab — corrode progressively. Corrosion weakens the cylinder wall over time and can compromise valve threads, leading to slow leaks at the valve-body interface. The HDPE body of a WAATechnologies composite cylinder does not corrode regardless of storage environment. A composite cylinder stored correctly on an outdoor balcony in Karachi&apos;s coastal salt air for 10 years will have the same structural condition as on its first day of service.</p>
+
+      <h3>Non-Blast Certification Reduces Consequences of Storage Errors</h3>
+      <p>Even with perfect storage practices, storage errors happen — particularly in households with children, in rental properties where instructions are not passed between tenants, or in emergencies. If a storage error leads to a fire, a steel cylinder in the fire will eventually undergo a BLEVE — a catastrophic rupture that projects lethal shrapnel fragments. A WAATechnologies composite cylinder certified to ISO 11119-3 cannot BLEVE. Its fire engulfment test requires that the cylinder develop a controlled gas release rather than rupturing. This does not make storage errors acceptable, but it does mean that the catastrophic consequence of the worst-case storage scenario — fire — is less lethal with a composite cylinder than with a steel one.</p>
+
+      <h2>What to Do If You Smell Gas at Home</h2>
+
+      <p>Even with correct storage, a gas smell may occur. The correct response is specific and sequential — do not skip steps or change the order:</p>
+
+      <div className="not-prose bg-red-50 border-l-4 border-red-600 rounded-r-2xl p-5 mb-6">
+        <p className="font-black text-red-900 text-sm mb-3">Emergency Response — Gas Smell at Home</p>
+        <ol className="space-y-2">
+          {[
+            'Close the cylinder valve immediately and fully — turn clockwise until it stops',
+            'Do NOT operate any electrical switch — no lights, no fans, no exhaust. Electrical sparks ignite LPG at 1.8% concentration',
+            'Open all windows and doors using handles only — do not flick light switches in the process',
+            'Evacuate everyone from the home, including pets',
+            'Do not re-enter until the gas smell has completely cleared and a technician has inspected the valve, regulator, and hose',
+            'Call your LPG dealer or a gas technician from outside the building — use your phone only after leaving',
+            'If the smell is very strong or you cannot close the valve, leave immediately and call emergency services from outside',
+          ].map((step, i) => (
+            <li key={step} className="flex items-start gap-2.5 text-sm text-red-900">
+              <span className="font-black shrink-0 text-red-700 w-5">{i + 1}.</span>
+              <span>{step}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <h2>Monthly Storage Safety Checklist for Pakistani Households</h2>
+
+      <p>Performing a quick monthly check takes less than two minutes and significantly reduces storage-related incident risk. Here is the complete checklist:</p>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3">Monthly LPG Storage Check</p>
+        <ul className="space-y-2.5">
+          {[
+            'Cylinder is upright and stable — no leaning or tilting',
+            'Valve is fully closed (confirm with a quarter-turn attempt — it should not move further)',
+            'Hose shows no cracks, kinks, or visible damage — replace if older than 2 years',
+            'Regulator fits snugly with no wobble at the valve connection',
+            'No rust, dents, or damage visible on the cylinder body (steel) or cracks on the body (composite)',
+            'Storage area has clear floor-level ventilation — check that no object is blocking the low vent or window gap',
+            'No new heat source has been installed within 1 metre of the cylinder',
+            'Perform soap-and-water bubble test on hose fittings and regulator connection after every cylinder change',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Gas cylinder safety in Pakistani homes is not complicated. The rules are specific, the required actions are simple, and the difference between a safe household and a vulnerable one is usually a matter of correcting one or two long-standing storage habits. The most important action you can take after reading this guide is to walk to where your LPG cylinder is stored right now and check it against the rules above. If it fails any of the checks — particularly if it is in an enclosed space or the valve has been left open — correct it today.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Made in Pakistan — WAATechnologies Azadi 2026 ── */
   'made-in-pakistan-waatechnologies-azadi-2026': (
     <>
@@ -4147,6 +4340,7 @@ const wordCounts: Record<string, number> = {
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': 2600,
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': 2700,
   'how-long-does-composite-lpg-cylinder-last-pakistan': 3100,
+  'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': 2800,
   'made-in-pakistan-waatechnologies-azadi-2026': 2900,
 };
 
@@ -4379,6 +4573,13 @@ const faqData: Record<string, { q: string; a: string }[]> = {
       q: 'What is the safest LPG cylinder for Ramadan kitchen use in Pakistan?',
       a: 'WAATechnologies composite cylinders are the safest option for Ramadan kitchen use. Their non-blast design means a fire near the cylinder will not cause an explosion. Their translucent HDPE body lets you see the gas level without lifting or tapping the cylinder — important when you are fatigued at 4 AM. Their lightweight construction makes them easy to move away from the cooking area when not in use, reducing the fire proximity risk.',
     },
+  ],
+  'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': [
+    { q: 'Where should an LPG cylinder be stored at home in Pakistan?', a: 'An LPG cylinder should be stored upright in a ventilated area with airflow at floor level — because LPG is heavier than air and sinks to the floor when it leaks. The best locations are a dedicated outdoor alcove, a kitchen corner with low ventilation, or an open balcony with rain cover. Never store an LPG cylinder in an enclosed cabinet, basement, under the stairs, in a bedroom, or in any space without floor-level ventilation. The cylinder must be at least 1 metre from any heat source including the stove, geyser, or direct sunlight.' },
+    { q: 'What are the OGRA rules for LPG cylinder storage at home?', a: 'OGRA requires: (1) Upright storage position at all times — never horizontal; (2) Storage in a ventilated area with floor-level airflow; (3) Minimum 1 metre distance from all ignition and heat sources; (4) Cylinder valve fully closed when not in use; (5) No storage in basements, enclosed cabinets, or rooms without ventilation. These requirements derive from the Petroleum Act 1934 and the LPG (Production and Distribution) Rules 2001. OGRA-licensed dealers are required to communicate these guidelines to household customers.' },
+    { q: 'Can I store an LPG cylinder in a kitchen cabinet in Pakistan?', a: 'No. Storing an LPG cylinder inside a closed kitchen cabinet is one of the most dangerous practices in Pakistani homes. The enclosed cabinet creates exactly the sealed low-level space where any leaked LPG accumulates to explosive concentration. When the cabinet door is opened — triggering a cabinet light switch or creating a static discharge — the accumulated gas can ignite. LPG cylinders must be stored in open, ventilated space, not concealed inside cabinets for aesthetic reasons.' },
+    { q: 'Is it safe to store an LPG cylinder on the balcony in Pakistan?', a: 'Yes — an open balcony is one of the safest storage locations for an LPG cylinder in a Pakistani home, provided the cylinder is: upright and stable; sheltered from direct rain (a roof or cover is fine, but do not enclose the sides with walls or doors); away from balcony electrical fittings by at least 1 metre; and connected to the kitchen stove via a hose of appropriate length that is not kinked or under tension. Balcony storage eliminates interior gas accumulation risk entirely.' },
+    { q: 'What should I do if I smell gas in my home in Pakistan?', a: 'If you smell gas in your home: (1) Close the cylinder valve immediately — turn clockwise until it stops; (2) Do NOT operate any electrical switch — sparks ignite LPG; (3) Open all windows and doors using handles only; (4) Evacuate everyone from the home; (5) Do not re-enter until the smell has fully cleared; (6) Call your LPG dealer or a gas technician from outside. If the smell is very strong or you cannot close the valve safely, leave immediately and call emergency services (1122 in Punjab, 115 fire brigade) from outside the building.' },
   ],
   'made-in-pakistan-waatechnologies-azadi-2026': [
     { q: 'Who manufactures composite LPG cylinders in Pakistan?', a: 'WAATechnologies Pvt Ltd is Pakistan\'s first and only indigenous manufacturer of ISO-certified composite LPG cylinders. Founded in 2022 after four years of R&D beginning in 2018, the company manufactures composite cylinders at a purpose-built 26,000 sq ft facility in Gujranwala, Punjab. Every cylinder carries ISO 9001:2015, ISO 11119-3:2020, and BS EN 14427:2022 certification — the same international standards used by manufacturers in Europe and South Korea.' },

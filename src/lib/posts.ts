@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Storage / Safety Guides ──────────────────────────────────────────────────
+  {
+    slug: 'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules',
+    title: 'How to Store an LPG Cylinder Safely at Home in Pakistan — OGRA Rules + Common Mistakes',
+    date: 'Aug 14, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '11 min read',
+    tags: ['lpg-cylinder-storage-pakistan', 'gas-cylinder-safety-pakistan', 'ogra-lpg-rules', 'composite-lpg-cylinders', 'waa-technologies', 'home-gas-safety-pakistan', 'lpg-safety-tips'],
+    excerpt: 'Most Pakistani households store their LPG cylinder incorrectly — in enclosed spaces, near heat sources, or lying on their side. OGRA specifies clear storage rules that most families have never read. This guide covers every OGRA storage requirement, the 7 most dangerous common mistakes, and exactly where to store your cylinder in a Pakistani home.',
+  },
+
   // ── Independence Day 2026 ────────────────────────────────────────────────────
   {
     slug: 'made-in-pakistan-waatechnologies-azadi-2026',

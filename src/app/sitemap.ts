@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Slugs for the long-form 2500+ word blog posts — given highest priority
   const deepBlogSlugs = new Set([
+    'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules',
     'made-in-pakistan-waatechnologies-azadi-2026',
     'how-long-does-composite-lpg-cylinder-last-pakistan',
     'transparent-gas-cylinder-benefits-see-lpg-level-pakistan',
