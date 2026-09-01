@@ -40,22 +40,22 @@ export default function OurCompanyPage() {
             </p>
             <p className="text-slate-600 leading-relaxed mb-4">
               Our company is the first in Pakistan to successfully develop and manufacture composite gas
-              cylinders indigenously using advanced filament winding technology. Our cylinders are
-              manufactured in strict conformance with international standards including ISO 11119-3 and
-              BS EN 14427-2022.
+              cylinders indigenously using advanced filament winding technology. Every cylinder is
+              non-blast, corrosion-free, and built to last 20+ years.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              We are approved by Pakistan Engineering Council (PEC) and certified by PCSIR — giving
-              you complete assurance of quality, safety, and compliance.
+              We are approved by Pakistan Engineering Council (PEC) and operate from a 26,000 sq ft
+              manufacturing facility in Gujranwala — giving you complete assurance of quality, safety,
+              and compliance.
             </p>
             <div className="flex flex-col gap-3">
               {[
                 'Indigenously manufactured in Pakistan',
-                'ISO 9001:2015 Quality Management certified',
-                'ISO 11119-3:2020 composite cylinder standard',
-                'BS EN 14427:2022 British/European compliance',
-                'PEC Licensed',
+                'Pakistan\'s first composite LPG cylinder manufacturer',
+                'PEC Licensed manufacturing facility',
                 'Hydro-tested with air leakage testing on each unit',
+                '20+ year rated service life per cylinder',
+                'Serving homes, restaurants & businesses nationwide',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
@@ -73,8 +73,8 @@ export default function OurCompanyPage() {
               },
               {
                 icon: Globe,
-                title: 'International Standards',
-                desc: 'Every cylinder is designed, tested, and certified against ISO 11119-3 and BS EN 14427-2022 — the most rigorous international standards for composite pressure vessels.',
+                title: 'International Quality',
+                desc: 'Every cylinder is engineered and tested to meet the most rigorous international safety requirements for composite pressure vessels — built to world-class standards.',
               },
               {
                 icon: Target,
@@ -104,7 +104,7 @@ export default function OurCompanyPage() {
             {[
               { val: '2022', label: 'Established' },
               { val: '26K sqft', label: 'Plant Area' },
-              { val: '5', label: 'Certifications' },
+              { val: '20+', label: 'Year Lifespan' },
               { val: '3', label: 'Dealer Provinces' },
             ].map((s) => (
               <div key={s.label} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">

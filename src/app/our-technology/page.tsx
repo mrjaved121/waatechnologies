@@ -89,33 +89,6 @@ export default function OurTechnologyPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
-            <h2 className="text-4xl font-black mb-4">Standards &amp; Compliance</h2>
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Cylinder design and approvals per EN 14427 and ISO 11119-3. Tested, certified, and
-              independently verified.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { code: 'ISO 9001:2015', title: 'Quality Management System', desc: 'Our entire manufacturing and business process is governed by ISO 9001:2015 quality management principles.' },
-              { code: 'ISO 11119-3:2020', title: 'Composite Gas Cylinders', desc: 'Design, construction, and testing of transportable composite gas cylinders — the primary standard for our product class.' },
-              { code: 'BS EN 14427:2022', title: 'British/European Standard', desc: 'Requirements for composite cylinders for use as transportable refillable equipment for liquefied petroleum gases (LPG).' },
-              { code: 'PEC License', title: 'Pakistan Engineering Council', desc: 'Our plant, processes, and products are licensed by the Pakistan Engineering Council.' },
-              { code: 'SECP', title: 'Certificate of Incorporation', desc: 'WAATechnologies Pvt Ltd is formally incorporated under the Securities and Exchange Commission of Pakistan.' },
-            ].map((s) => (
-              <div key={s.code} className="bg-white/5 border border-white/10 rounded-2xl p-6">
-                <div className="text-amber-400 font-black text-lg mb-1">{s.code}</div>
-                <div className="text-white font-bold mb-2">{s.title}</div>
-                <p className="text-slate-400 text-sm leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -146,7 +119,6 @@ export default function OurTechnologyPage() {
                 { label: 'Burst Pressure', val: '≥ 1.5× working pressure' },
                 { label: 'Empty Weight (10L)', val: '~5.5 kg' },
                 { label: 'Service Life', val: '20+ years / 12,000 cycles' },
-                { label: 'Standard', val: 'ISO 11119-3, EN 14427-2022' },
               ].map((row) => (
                 <div key={row.label} className="flex justify-between items-center py-2 border-b border-green-100 last:border-0">
                   <span className="text-slate-600 text-sm">{row.label}</span>

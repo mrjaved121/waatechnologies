@@ -72,22 +72,22 @@ export default function AboutUsPage() {
             </p>
             <p className="text-slate-600 leading-relaxed mb-4">
               All the advantages of our cylinders enable us to serve Pakistan&apos;s residential, commercial,
-              and industrial customers with cylinders that conform to the highest international standards —
-              ISO 11119-3 and EN 14427-2022.
+              and industrial customers with non-blast, corrosion-free, 20+ year rated composite cylinders
+              built to world-class safety standards.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
               We maintain a strong reputation for delivering cutting-edge performance, proven safety, and
-              long-lasting quality. As proud Pakistani manufacturer, we are committed to national energy
+              long-lasting quality. As a proud Pakistani manufacturer, we are committed to national energy
               security and public safety.
             </p>
             <div className="grid grid-cols-2 gap-3">
               {[
-                'ISO 9001:2015 Certified',
-                'BS EN 14427:2022 Compliant',
-                'PEC Licensed',
                 'Made in Pakistan',
+                'PEC Licensed',
                 '26,000 sq ft Facility',
                 'R&D Since 2018',
+                '100% Non-Blast Design',
+                'Every Unit Hydro-Tested',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
@@ -101,7 +101,7 @@ export default function AboutUsPage() {
               { icon: Building2, label: 'Headquarters', val: 'Bahria Town, Lahore' },
               { icon: Building2, label: 'Manufacturing', val: 'Gujranwala, Pakistan' },
               { icon: Users, label: 'Leadership', val: '3 Expert Directors' },
-              { icon: Award, label: 'Certifications', val: '5 International' },
+              { icon: Award, label: 'Service Life', val: '20+ Years' },
             ].map((s) => (
               <div key={s.label} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center card-hover">
                 <s.icon className="w-8 h-8 text-green-900 mx-auto mb-3" />
