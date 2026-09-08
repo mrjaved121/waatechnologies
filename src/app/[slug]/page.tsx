@@ -51,6 +51,130 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: 5kg vs 10kg Composite LPG Cylinder ── */
+  '5kg-vs-10kg-composite-lpg-cylinder': (
+    <>
+      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">5kg or 10kg composite LPG cylinder — which should you buy?</p>
+        <p className="text-slate-300 text-sm leading-relaxed">For most Pakistani households of <strong className="text-white">2–4 people</strong>, a <strong className="text-white">5 kg composite LPG cylinder</strong> is the right size — a full cylinder typically lasts <strong className="text-white">15–20 days</strong> of normal cooking and is light enough (≈5.5 kg empty) to carry to a filling station without help. Choose a <strong className="text-white">10 kg composite cylinder</strong> for a family of <strong className="text-white">4–6 people</strong>, heavier daily cooking, or a small restaurant — it lasts <strong className="text-white">3–5 weeks</strong> per fill, so you refill less often even though the cylinder itself is heavier and costs more upfront.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            '5 kg composite cylinder: best for small families, apartments, single-burner kitchens, and anyone who needs to lift and carry the cylinder themselves',
+            '10 kg composite cylinder: best for larger families, restaurants, food trucks, and anyone who would rather refill less often than carry a lighter cylinder',
+            'Both sizes are 100% explosion-proof, jointless, and translucent — you can see the LPG level through the cylinder wall on either size',
+            'Price and refill frequency are the two real deciding factors — see the side-by-side table below',
+            'Both carry ISO 9001:2015 and BS EN 14427:2022 certification — size does not change the safety rating',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>The first decision a Pakistani household makes when buying a composite LPG cylinder is not steel-versus-composite — it&apos;s size. WAA Technologies&apos; two most common sizes, 5 kg and 10 kg, cover the vast majority of household needs, and the right choice depends on exactly two things: how many people you&apos;re cooking for, and how often you&apos;re willing to arrange a refill. Get the size wrong and you either pay for gas capacity you don&apos;t use, or you find yourself reordering every couple of weeks.</p>
+
+      <p>This guide compares the 5 kg and 10 kg composite cylinder head-to-head — gas duration, weight, <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">current cylinder prices</Link>, and which size fits which household — so you can buy the right one the first time, backed by the same 20+ year <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">cylinder lifespan</Link> and non-blast safety rating regardless of which size you choose.</p>
+
+      <h2>How to Decide Between a 5kg and 10kg Composite Cylinder (2-Minute Answer)</h2>
+
+      <p>If you are cooking for 1–4 people and want the lightest, most affordable option, buy the <strong>5 kg</strong>. If you are cooking for 4–6+ people, run a small commercial kitchen, or simply want to refill less often, buy the <strong>10 kg</strong>. The 10 kg costs more upfront and is heavier to carry, but it holds double the gas and needs roughly half as many refill trips per month for the same household size.</p>
+
+      <h2>5kg Composite LPG Cylinder — Who It&apos;s For</h2>
+
+      <h3>Gas Duration &amp; Typical Household Usage</h3>
+      <p>A full 5 kg composite cylinder typically lasts <strong>15–20 days</strong> — about 2–3 weeks — for a household of 2–4 people cooking two to three meals a day on a single burner. Usage varies with the number of burners running and how much of the cooking is gas-heavy (frying, tandoor-style roti, long simmers) versus quick reheating.</p>
+
+      <h3>Weight, Portability, Price</h3>
+      <p>The WAA Technologies 5 kg composite cylinder weighs approximately <strong>5.5 kg empty</strong> and around <strong>10–11 kg filled</strong> — light enough for most adults to carry unassisted, up stairs, or on a motorbike to a filling station. It is priced at approximately <strong>Rs. 7,000–9,000</strong> for the empty cylinder, with a refill costing roughly <strong>Rs. 1,500–2,000</strong>, for a first-time total of about <strong>Rs. 8,500–11,000</strong>.</p>
+
+      <h2>10kg Composite LPG Cylinder — Who It&apos;s For</h2>
+
+      <h3>Gas Duration &amp; Heavy-Use Scenarios</h3>
+      <p>A full 10 kg composite cylinder is the most popular size in Pakistan and typically lasts <strong>3–5 weeks</strong> for a family of 4–6 people cooking three meals daily. For lighter or backup-only use, the same cylinder can stretch to 4–7 weeks.</p>
+
+      <h3>Weight, Refill Savings, Price</h3>
+      <p>A 10 kg composite cylinder weighs approximately <strong>8–10 kg empty</strong> and <strong>18–20 kg filled</strong> — noticeably heavier than the 5 kg but still around 40% lighter than an equivalent steel cylinder. It costs approximately <strong>Rs. 9,000–12,000</strong> empty, with a refill costing roughly <strong>Rs. 3,000–4,000</strong>, for a first-time total of about <strong>Rs. 12,000–16,000</strong>. Per kilogram of gas, the fill cost is identical to the 5 kg — the saving comes from fewer refill trips, not a cheaper rate.</p>
+
+      <h2>5kg vs 10kg Composite Cylinder — Side-by-Side Comparison</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-950 text-white">
+              <th className="text-left p-3 font-bold">Spec</th>
+              <th className="text-center p-3 font-bold">5 kg</th>
+              <th className="text-center p-3 font-bold">10 kg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Empty weight', '≈5.5 kg', '≈8–10 kg'],
+              ['Filled weight', '≈10–11 kg', '≈18–20 kg'],
+              ['Typical gas duration', '15–20 days (2–3 weeks)', '3–5 weeks'],
+              ['Refills per month (approx.)', '1.5–2', '0.75–1'],
+              ['Cylinder price (empty)', 'Rs. 7,000–9,000', 'Rs. 9,000–12,000'],
+              ['Refill cost', 'Rs. 1,500–2,000', 'Rs. 3,000–4,000'],
+              ['Best for', 'Singles, couples, small families, apartments', 'Families of 4–6, restaurants, food trucks'],
+            ].map(([spec, five, ten]) => (
+              <tr key={spec} className="border-b border-slate-200 even:bg-slate-50">
+                <td className="p-3 font-medium text-slate-800">{spec}</td>
+                <td className="p-3 text-center text-slate-700">{five}</td>
+                <td className="p-3 text-center text-green-900 font-medium">{ten}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Which Size for Your Situation?</h2>
+
+      <p><strong>Small family or single person (1–3 people)</strong> — the 5 kg is almost always the right call. It&apos;s cheaper upfront, lighter to carry, and matches typical light-cooking gas usage without leaving capacity unused.</p>
+
+      <p><strong>Joint family or household of 4–6</strong> — the 10 kg is the better fit. Fewer refill trips matter more than portability once you&apos;re cooking three meals a day for a full household, and the per-refill convenience adds up over a year.</p>
+
+      <p><strong>Restaurant or small commercial kitchen</strong> — the 10 kg is the minimum size WAA Technologies recommends for continuous commercial cooking; very high-volume kitchens should look at the 12 kg or 15 kg cylinders in the <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">full size and price range</Link> instead of running multiple 5 kg cylinders.</p>
+
+      <p><strong>Food truck or street vendor</strong> — the 10 kg balances weight (still liftable by one person) against fewer mid-shift refill interruptions; some vendors carry a spare 5 kg as backup for exactly this reason.</p>
+
+      <p><strong>Camping or travel</strong> — the 5 kg is the practical choice: lighter to transport, easier to secure in a vehicle, and sized for short-duration use away from home.</p>
+
+      <h2>Why Size Doesn&apos;t Change the Safety</h2>
+
+      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, 12 kg, or 15 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
+
+      <h2>Where to Buy the Right Size in Pakistan</h2>
+
+      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does a 5kg composite LPG cylinder last?</h3>
+      <p>For a family of 2–4 cooking daily, a full 5 kg composite cylinder typically lasts 15–20 days — roughly 2–3 weeks. Usage varies with the number of burners running and how much heavy cooking (frying, roti-making, long simmers) you do versus quick reheating.</p>
+
+      <h3>Is a 10kg cylinder more economical than a 5kg?</h3>
+      <p>Per kilogram of gas, the cost is the same for both sizes. A 10 kg cylinder is more economical in terms of convenience — it means fewer refills and fewer delivery or filling-station trips per month — which suits larger households and small commercial kitchens more than it saves money outright.</p>
+
+      <h3>Can I use a 5kg cylinder for a restaurant?</h3>
+      <p>It can work for very light or occasional commercial use, but WAA Technologies recommends the 10 kg (or larger) for restaurants and commercial kitchens, since continuous cooking demand means a 5 kg cylinder would need refilling multiple times per week.</p>
+
+      <h3>Are both sizes explosion-proof?</h3>
+      <p>Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.</p>
+
+      <h3>Which size is easier to carry?</h3>
+      <p>The 5 kg cylinder, at approximately 5.5 kg empty, is significantly lighter and easier to carry than the 10 kg — a practical advantage for elderly users, upper-floor apartments, or anyone without help lifting a filled cylinder.</p>
+    </>
+  ),
+
   /* ── ARTICLE: How to Store LPG Cylinder Safely — OGRA Rules ── */
   'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': (
     <>
@@ -1121,6 +1245,8 @@ const articleContent: Record<string, React.ReactNode> = {
       <p><strong>5 kg composite cylinder</strong> — ideal for: single-person households or couples; apartments where storage space is limited; households that already have piped gas but want an LPG backup for outages; travel, camping, or use at a second property.</p>
 
       <p><strong>10 kg composite cylinder</strong> — the most popular size in Pakistan, suitable for: a family of 4–6 people cooking three meals daily; typical Pakistani household usage lasting 3–5 weeks between refills; balanced between purchase price and fill frequency.</p>
+
+      <p>For a full side-by-side breakdown of gas duration, weight, and price for these two sizes, see our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5kg vs 10kg composite cylinder comparison guide</Link>.</p>
 
       <p><strong>12 kg composite cylinder</strong> — suitable for: larger families of 7+ people; households that also use LPG for water heating; homes in areas with frequent gas pipeline outages where LPG is the primary fuel source; light commercial users such as small restaurants or catering operations.</p>
 
@@ -4310,6 +4436,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  '5kg-vs-10kg-composite-lpg-cylinder': 1650,
   'gas-cylinder-blast-incidents-pakistan-2025': 1800,
   'ogra-rules-lpg-cylinders-pakistan': 1800,
   'steel-vs-composite-lpg-cylinder-pakistan': 2000,
@@ -4346,6 +4473,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  '5kg-vs-10kg-composite-lpg-cylinder': [
+    { q: 'How long does a 5kg composite LPG cylinder last?', a: 'For a family of 2–4 cooking daily, a full 5 kg composite cylinder typically lasts 15–20 days — roughly 2–3 weeks. Usage varies with the number of burners running and how much heavy cooking (frying, roti-making, long simmers) you do versus quick reheating.' },
+    { q: 'Is a 10kg cylinder more economical than a 5kg?', a: 'Per kilogram of gas, the cost is the same for both sizes. A 10 kg cylinder is more economical in terms of convenience — it means fewer refills and fewer delivery or filling-station trips per month — which suits larger households and small commercial kitchens more than it saves money outright.' },
+    { q: 'Can I use a 5kg cylinder for a restaurant?', a: 'It can work for very light or occasional commercial use, but WAA Technologies recommends the 10 kg (or larger) for restaurants and commercial kitchens, since continuous cooking demand means a 5 kg cylinder would need refilling multiple times per week.' },
+    { q: 'Are both sizes explosion-proof?', a: 'Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.' },
+    { q: 'Which size is easier to carry?', a: 'The 5 kg cylinder, at approximately 5.5 kg empty, is significantly lighter and easier to carry than the 10 kg — a practical advantage for elderly users, upper-floor apartments, or anyone without help lifting a filled cylinder.' },
+  ],
   'gas-cylinder-blast-incidents-pakistan-2025': [
     { q: 'How many gas cylinder blasts happen in Pakistan every year?', a: 'Published incident data suggests 500–700 reported gas cylinder blast incidents annually in Pakistan, with safety researchers estimating the true figure at 1,500–2,000 when unreported rural incidents are included. Fatalities range from 80–120 per year in reported data. Punjab accounts for the highest share at 40%+.' },
     { q: 'Which LPG cylinder is safest in Pakistan?', a: 'ISO 11119-3 certified composite cylinders — such as those manufactured by WAA Technologies Pvt Ltd — are the safest option available in Pakistan. Their non-blast construction physically prevents the shrapnel-projecting rupture that causes the most severe injuries and deaths in steel cylinder incidents. All certified composite cylinders have passed fire engulfment testing confirming non-blast behaviour.' },

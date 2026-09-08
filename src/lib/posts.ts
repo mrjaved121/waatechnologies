@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Buying Guide / Sizing ─────────────────────────────────────────────────────
+  {
+    slug: '5kg-vs-10kg-composite-lpg-cylinder',
+    title: '5kg vs 10kg Composite LPG Cylinder: Which Size Is Right for Your Home in Pakistan? (2026 Guide)',
+    date: 'Sep 8, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '8 min read',
+    tags: ['5kg-vs-10kg-lpg-cylinder', 'which-composite-gas-cylinder-size-to-buy', 'best-lpg-cylinder-size-pakistan', 'composite-lpg-cylinders', 'waa-technologies', 'lpg-cylinder-price-pakistan'],
+    excerpt: 'Choosing between a 5kg and 10kg composite LPG cylinder comes down to household size, cooking frequency, and how often you want to refill. This 2026 guide compares gas duration, weight, and price side by side so you can pick the right size the first time.',
+  },
+
   // ── Storage / Safety Guides ──────────────────────────────────────────────────
   {
     slug: 'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules',
