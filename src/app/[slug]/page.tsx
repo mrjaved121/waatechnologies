@@ -48,8 +48,198 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Dealership post: the visible steps/FAQ and the HowTo/FAQPage schema read from these same
+// constants, so what users see and what crawlers see are guaranteed to match word-for-word.
+const dealerApplySteps: { name: string; text: string }[] = [
+  { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Karachi, Hyderabad and Peshawar), then note the city and area you want to serve.' },
+  { name: 'Prepare your premises and business details', text: 'Have the address of your retail shop or storage space, your valid business registration, and a rough idea of the cylinder sizes and volumes you plan to stock.' },
+  { name: 'Contact the WAA Technologies sales team', text: 'Message WAA on WhatsApp at +92 3414999998, call +92 423 781 5533, email waatechnologies.pvt.ltd@gmail.com, or use the contact page at waatechnologies.com/contact-us.' },
+  { name: 'Share your location and business details', text: 'Tell the sales team your city, area, type of business and premises. WAA reviews your details and confirms whether your area is available.' },
+  { name: 'Confirm requirements, initial stock and dealer pricing', text: 'Agree the requirements that apply to you, the size of your initial stock order and your dealer pricing. Exact terms are confirmed during application.' },
+  { name: 'Complete onboarding and start selling', text: 'Once approved and your initial stock is supplied, you receive branding and marketing support and begin selling as a WAA Technologies authorised dealer.' },
+];
+
+const dealerFaqs: { q: string; a: string }[] = [
+  { q: 'How can I become a gas cylinder dealer in Pakistan with WAA Technologies?', a: 'Apply through WAA Technologies\' authorised dealer network by contacting the sales team on WhatsApp (+92 3414999998), phone (+92 423 781 5533) or the contact page with your location and business details. If your premises and registration meet the requirements, you complete onboarding and receive supply and dealer pricing.' },
+  { q: 'What is required to open an LPG composite cylinder dealership?', a: 'Typically a retail or storage space, valid business registration, and an initial stock investment. Exact terms are confirmed during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask the sales team which licence or approval applies to your location and business type.' },
+  { q: 'Is a gas cylinder dealership profitable in Pakistan?', a: 'Demand for lightweight composite cylinders is rising, so early dealers in a city can benefit as households and businesses switch from steel. Composite cylinders are under 5% of Pakistan\'s cylinder fleet and WAA Technologies projects 25–35% annual demand growth. Actual profitability depends on your city, location, stock turnover and local competition.' },
+  { q: 'Does WAA give marketing support to dealers?', a: 'Yes, WAA Technologies provides branding, dealer pricing and marketing support as part of its authorised dealer network. The sales team explains what support applies to your city and premises during onboarding.' },
+  { q: 'Which cities is WAA Technologies looking for dealers in?', a: 'WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. It currently lists authorised dealers in Lahore, Sialkot, Karachi, Hyderabad and Peshawar. Contact WAA to check availability in your area.' },
+];
+
+const dealerCta = (heading: string) => (
+  <div className="not-prose bg-green-900 rounded-2xl p-6 my-8 text-white">
+    <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Apply to Become a Dealer</p>
+    <p className="text-lg font-bold leading-snug mb-2">{heading}</p>
+    <p className="text-green-100 text-sm leading-relaxed mb-4">Message WAA&apos;s sales team with your city, premises and business details. They will confirm requirements, dealer pricing and next steps.</p>
+    <div className="flex flex-wrap gap-3 mb-3">
+      <a
+        href="https://wa.me/923414999998?text=Hello%20WAA%20Technologies%2C%20I%20would%20like%20to%20apply%20to%20become%20an%20authorised%20dealer.%20My%20city%20is%3A%20"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-5 py-2.5 rounded-xl font-bold text-sm transition-all"
+      >
+        Apply on WhatsApp
+      </a>
+      <Link href="/contact-us" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-5 py-2.5 rounded-xl font-bold text-sm transition-all">
+        Contact WAA Technologies
+      </Link>
+    </div>
+    <p className="text-green-200 text-xs">Phone: <a href="tel:+924237815533" className="underline">+92 423 781 5533</a> · Email: <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="underline">waatechnologies.pvt.ltd@gmail.com</a></p>
+  </div>
+);
+
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
+
+  /* ── ARTICLE: Become a WAA Composite Cylinder Dealer ── */
+  'become-waa-composite-cylinder-dealer-pakistan': (
+    <>
+      <p className="not-prose text-xs text-slate-500 mb-4">Last updated: September 2026 · Published by WAA Technologies Pvt Ltd, Gujranwala, Pakistan</p>
+
+      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+        <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
+        <p className="text-lg font-bold leading-snug mb-3">How do you become a gas cylinder dealer in Pakistan with WAA Technologies?</p>
+        <p className="text-slate-300 text-sm leading-relaxed">To become a gas cylinder dealer in Pakistan with WAA Technologies, you <strong className="text-white">apply through WAA&apos;s authorised dealer network</strong>, show a <strong className="text-white">retail or storage space and valid business registration</strong>, and place an <strong className="text-white">initial stock order</strong>. Once approved, you are onboarded with <strong className="text-white">supply, dealer pricing, branding and marketing support</strong>. Full requirements and steps are below.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'WAA Technologies runs an authorised dealer network across Punjab, Sindh and KPK, with listed dealers in Lahore, Sialkot, Karachi, Hyderabad and Peshawar',
+            'Typical requirements: a retail or storage space, valid business registration and an initial stock order — exact terms are confirmed by WAA during application',
+            'Authorised dealers receive supply, dealer pricing, branding and marketing support from WAA Technologies',
+            'Composite cylinders are under 5% of Pakistan\'s cylinder fleet and demand is projected to grow 25–35% a year, so early dealers can capture the switch from steel',
+            'Apply by WhatsApp (+92 3414999998), phone (+92 423 781 5533) or the contact page — the step-by-step process is below',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>If you are researching how to become a gas cylinder dealer in Pakistan, a composite LPG cylinder dealership is one of the few openings where the product itself is changing the market. Households and restaurants are moving from heavy steel cylinders to lighter, non-blast composite ones, and the dealer network that supplies them is still being built. WAA Technologies Pvt Ltd — Pakistan&apos;s first composite LPG cylinder manufacturer, based in Gujranwala — is actively adding authorised dealers across the country.</p>
+
+      <p>This guide covers what a WAA Technologies dealer does, the requirements, what WAA provides, how to apply step by step, and where the network is growing. It builds on the <Link href="/lpg-industry-pakistan-market-size-future-outlook" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">growing market demand</Link> for composite cylinders and the <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">business case for composite</Link> that Pakistani restaurants are already acting on.</p>
+
+      <h2>Why a Composite LPG Cylinder Dealership Is a Strong Opportunity in 2026</h2>
+
+      <p>A composite LPG cylinder dealership is a strong opportunity in 2026 because demand is growing from a very small base. Composite cylinders make up less than 5% of Pakistan&apos;s estimated 30–40 million cylinder fleet, and WAA Technologies projects composite demand growing 25–35% annually over 2025–2030. Four forces drive the switch from steel:</p>
+
+      <ul>
+        <li><strong>Safety.</strong> WAA composite LPG cylinders are jointless and 100% explosion-proof, which matters to households and commercial kitchens alike.</li>
+        <li><strong>Weight.</strong> A 10 kg composite cylinder weighs about 18–20 kg filled versus 28–30 kg for steel, and its translucent body lets customers see the gas level.</li>
+        <li><strong>Commercial demand.</strong> Restaurants, food trucks and caterers are switching because non-blast, ISO-certified cylinders reduce risk in busy kitchens.</li>
+        <li><strong>Regulation.</strong> OGRA is tightening hydrotest enforcement on steel cylinders, which pushes buyers toward certified alternatives.</li>
+      </ul>
+
+      <h2>What a WAA Technologies Dealer Actually Does</h2>
+
+      <p>An authorised WAA Technologies dealer sells composite LPG cylinders to households, restaurants and other businesses in a defined area and supports those customers after the sale. In practice that means:</p>
+
+      <ul>
+        <li>Advising customers on the right size, from a 5 kg cylinder for small households to larger cylinders for commercial kitchens, using our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5kg vs 10kg sizing guide</Link>.</li>
+        <li>Supplying each cylinder with its valve fitted, certification documentation and a safety usage guide, plus a matched regulator where the customer needs one.</li>
+        <li>Offering filled cylinders, and delivery where the dealer provides it, so customers do not have to arrange filling themselves.</li>
+        <li>Providing first-line after-sales help: assessing handling damage, replacing valves and advising whether a cylinder is still within its service life.</li>
+      </ul>
+
+      <h2>Requirements to Become a WAA Dealer</h2>
+
+      <p>To become a WAA Technologies authorised dealer, applicants typically need three things: suitable premises, valid business registration and an initial stock order. WAA confirms the exact terms during application, so treat the points below as the framework rather than a fixed checklist.</p>
+
+      <h3>Space &amp; Location</h3>
+      <p>You need a retail shop or dedicated storage space in the area you want to serve. Location matters commercially: visible, accessible premises close to the households, restaurants and food businesses you plan to supply will turn stock over faster than a hard-to-reach address.</p>
+
+      <h3>Business Registration &amp; Documents</h3>
+      <p>Applicants need valid business registration for their shop or company, plus the documents WAA&apos;s sales team requests during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask early which licence or approval applies to your premises and business type. The regulator&apos;s framework is published on the <a href="https://www.ogra.org.pk" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA website</a>, and our list of <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA-compliant supply</Link> shows what licensed LPG cylinder manufacturing looks like in Pakistan.</p>
+
+      <h3>Initial Investment &amp; Stock</h3>
+      <p>Dealers place an initial stock order before they start selling. The size of that order, and therefore the total investment, depends on your city, premises and the cylinder sizes you plan to stock, so no single figure applies to every dealer and WAA confirms it during application. For planning scale, the retail prices of the cylinders you would stock run from roughly Rs. 7,000–9,000 for a 5 kg to Rs. 10,000–14,000 for a 12 kg — see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">cylinder pricing</Link> guide. Dealer pricing is provided to approved applicants.</p>
+
+      {dealerCta('Meet the requirements? Apply to become a WAA Technologies authorised dealer.')}
+
+      <h2>What WAA Provides Its Dealers</h2>
+
+      <p>WAA Technologies provides its authorised dealers with supply, dealer pricing, branding and marketing support, backed by a certified product that is easy to sell to safety-conscious buyers.</p>
+
+      <ul>
+        <li><strong>Supply:</strong> composite LPG cylinders manufactured by WAA Technologies in Gujranwala, supplied to you as an approved dealer.</li>
+        <li><strong>Dealer pricing:</strong> dealer-level pricing agreed with the sales team during onboarding.</li>
+        <li><strong>Branding and marketing support:</strong> the support WAA provides to its authorised dealer network to help you present and promote the product locally.</li>
+        <li><strong>Certified product:</strong> ISO 9001:2015, ISO 11119-3 and BS EN 14427:2022 certification — the standards that commercial and safety-conscious customers ask about.</li>
+        <li><strong>Warranty backing:</strong> WAA&apos;s manufacturer warranty covers manufacturing defects in the cylinder body and valve assembly, giving your customers a clear point of recourse.</li>
+      </ul>
+
+      <h2>Step-by-Step: How to Apply and Get Onboarded</h2>
+
+      <p>To apply, contact WAA Technologies with your location and business details, confirm the requirements with the sales team, place your initial order and complete onboarding. The full process:</p>
+
+      <ol>
+        {dealerApplySteps.map(({ name, text }) => (
+          <li key={name}><strong>{name}.</strong> {text}</li>
+        ))}
+      </ol>
+
+      <h2>Which Cities and Areas Is WAA Expanding Into?</h2>
+
+      <p>WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. Its dealer list currently shows authorised dealers in five cities across three provinces:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-950 text-white">
+              <th className="text-left p-3 font-bold">Province</th>
+              <th className="text-left p-3 font-bold">Cities with listed authorised dealers</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Punjab', 'Lahore, Sialkot'],
+              ['Sindh', 'Karachi, Hyderabad'],
+              ['KPK', 'Peshawar'],
+            ].map(([province, cities]) => (
+              <tr key={province} className="border-b border-slate-200 even:bg-slate-50">
+                <td className="p-3 font-bold text-slate-800">{province}</td>
+                <td className="p-3 text-slate-700">{cities}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Availability is decided city by city and area by area, so the fastest way to find out whether your territory is open is to ask WAA directly. To see how the network looks from a customer&apos;s side, read our dealer network by city: <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>. The current dealer list is on the <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">authorised dealers page</Link>.</p>
+
+      <h2>Is a Composite Cylinder Dealership Profitable?</h2>
+
+      <p>Demand is moving in a composite dealer&apos;s favour, but profitability depends on your city, premises, stock turnover and local competition, and WAA confirms dealer pricing and terms with applicants directly. This guide does not publish dealer margins or investment totals because those are agreed individually.</p>
+
+      <p>What the market data does show is a large, under-served category. Pakistan has an estimated 10–12 million LPG households, composite cylinders are under 5% of the cylinder fleet, and the gap between those two facts is the opportunity. Three practical factors shape a dealer&apos;s results:</p>
+
+      <ul>
+        <li><strong>Repeat and commercial customers.</strong> WAA and its authorised dealers offer commercial pricing for bulk orders from restaurants, hotels and catering businesses, and many dealers also offer filled cylinders and delivery.</li>
+        <li><strong>Early positioning.</strong> A dealer who establishes composite cylinders in a neighbourhood before competitors do becomes the local reference for the category.</li>
+        <li><strong>Trust through certification.</strong> Selling a cylinder certified to ISO 9001:2015 and BS EN 14427:2022 gives you a verifiable answer to the safety question every buyer asks.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions About Becoming a WAA Dealer</h2>
+
+      {dealerFaqs.map(({ q, a }) => (
+        <div key={q}>
+          <h3>{q}</h3>
+          <p>{a}</p>
+        </div>
+      ))}
+
+      {dealerCta('Ready to become a WAA Technologies authorised dealer?')}
+    </>
+  ),
 
   /* ── ARTICLE: 5kg vs 10kg Composite LPG Cylinder ── */
   '5kg-vs-10kg-composite-lpg-cylinder': (
@@ -154,7 +344,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Where to Buy the Right Size in Pakistan</h2>
 
-      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>.</p>
+      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>. If you would rather stock and sell these sizes yourself, see <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to become a WAA Technologies composite cylinder dealer</Link>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -2960,7 +3150,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s LPG sector is one of the largest and most critical components of the country&apos;s energy infrastructure, yet it remains poorly understood by most stakeholders — including many of the households and businesses that depend on it daily. LPG provides cooking fuel for approximately 10–12 million Pakistani households, water and space heating for millions more, and industrial process heat for a significant portion of Pakistan&apos;s manufacturing sector. The industry generates hundreds of billions of rupees in annual revenue, employs hundreds of thousands of people across the value chain, and is managed under a regulatory framework governed by <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA&apos;s LPG rules</Link> that is actively evolving as the sector transitions from an import-heavy, steel-cylinder dominated model toward a more efficient, safer composite cylinder infrastructure.</p>
 
-      <p>This industry overview provides a comprehensive picture of Pakistan&apos;s LPG market as of 2025 — its size, growth drivers, key players, supply chain, regulatory landscape, and the investment opportunity represented by the ongoing steel-to-composite cylinder transition.</p>
+      <p>This industry overview provides a comprehensive picture of Pakistan&apos;s LPG market as of 2025 — its size, growth drivers, key players, supply chain, regulatory landscape, and the investment opportunity represented by the ongoing steel-to-composite cylinder transition. If you are considering that opportunity as a business, see our guide to <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">becoming a WAA Technologies composite cylinder dealer</Link>.</p>
 
       <h2>Market Size and Structure</h2>
 
@@ -4436,7 +4626,8 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
-  '5kg-vs-10kg-composite-lpg-cylinder': 1650,
+  'become-waa-composite-cylinder-dealer-pakistan': 1900,
+  '5kg-vs-10kg-composite-lpg-cylinder': 1460,
   'gas-cylinder-blast-incidents-pakistan-2025': 1800,
   'ogra-rules-lpg-cylinders-pakistan': 1800,
   'steel-vs-composite-lpg-cylinder-pakistan': 2000,
@@ -4473,6 +4664,7 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'become-waa-composite-cylinder-dealer-pakistan': dealerFaqs,
   '5kg-vs-10kg-composite-lpg-cylinder': [
     { q: 'How long does a 5kg composite LPG cylinder last?', a: 'For a family of 2–4 cooking daily, a full 5 kg composite cylinder typically lasts 15–20 days — roughly 2–3 weeks. Usage varies with the number of burners running and how much heavy cooking (frying, roti-making, long simmers) you do versus quick reheating.' },
     { q: 'Is a 10kg cylinder more economical than a 5kg?', a: 'Per kilogram of gas, the cost is the same for both sizes. A 10 kg cylinder is more economical in terms of convenience — it means fewer refills and fewer delivery or filling-station trips per month — which suits larger households and small commercial kitchens more than it saves money outright.' },
@@ -4834,6 +5026,15 @@ function DefaultContent({ post }: { post: ReturnType<typeof getPostBySlug> }) {
   );
 }
 
+// HowTo schema (opt-in per slug) — steps are shared with the visible numbered list in the article
+const howToData: Record<string, { name: string; description: string; steps: { name: string; text: string }[] }> = {
+  'become-waa-composite-cylinder-dealer-pakistan': {
+    name: 'How to become a WAA Technologies composite LPG cylinder dealer in Pakistan',
+    description: 'Step-by-step process to apply for an authorised dealership with WAA Technologies Pvt Ltd, from checking availability in your city to onboarding.',
+    steps: dealerApplySteps,
+  },
+};
+
 export default async function SlugPage({ params }: Props) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -4899,7 +5100,7 @@ export default async function SlugPage({ params }: Props) {
         </div>
       </div>
 
-      {/* Structured data: BlogPosting + BreadcrumbList + FAQPage (People Also Ask) */}
+      {/* Structured data: BlogPosting + BreadcrumbList + FAQPage (People Also Ask) + HowTo (opt-in) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -4970,6 +5171,23 @@ export default async function SlugPage({ params }: Props) {
                       '@type': 'Question',
                       name: q,
                       acceptedAnswer: { '@type': 'Answer', text: a },
+                    })),
+                  },
+                ]
+              : []),
+            // 4. HowTo (only for posts with a step-by-step process)
+            ...(howToData[post.slug]
+              ? [
+                  {
+                    '@context': 'https://schema.org',
+                    '@type': 'HowTo',
+                    name: howToData[post.slug].name,
+                    description: howToData[post.slug].description,
+                    step: howToData[post.slug].steps.map(({ name, text }, i) => ({
+                      '@type': 'HowToStep',
+                      position: i + 1,
+                      name,
+                      text,
                     })),
                   },
                 ]

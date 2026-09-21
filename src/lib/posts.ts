@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Business / Dealership ─────────────────────────────────────────────────────
+  {
+    slug: 'become-waa-composite-cylinder-dealer-pakistan',
+    title: 'How to Become a WAA Technologies Composite Cylinder Dealer in Pakistan — Distributorship Guide (2026)',
+    date: 'Sep 21, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '10 min read',
+    tags: ['how-to-become-gas-cylinder-dealer-pakistan', 'lpg-cylinder-distributorship-pakistan', 'composite-cylinder-dealership-pakistan', 'waa-technologies-dealer-apply', 'gas-cylinder-business-pakistan', 'authorised-dealer-network', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'Want an LPG cylinder distributorship in Pakistan? Learn how to become a WAA Technologies composite cylinder dealer: requirements, support and how to apply.',
+  },
+
   // ── Buying Guide / Sizing ─────────────────────────────────────────────────────
   {
     slug: '5kg-vs-10kg-composite-lpg-cylinder',
@@ -20,7 +32,7 @@ export const allPosts: Post[] = [
     date: 'Sep 8, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
-    readingTime: '8 min read',
+    readingTime: '7 min read',
     tags: ['5kg-vs-10kg-lpg-cylinder', 'which-composite-gas-cylinder-size-to-buy', 'best-lpg-cylinder-size-pakistan', 'composite-lpg-cylinders', 'waa-technologies', 'lpg-cylinder-price-pakistan'],
     excerpt: 'Choosing between a 5kg and 10kg composite LPG cylinder comes down to household size, cooking frequency, and how often you want to refill. This 2026 guide compares gas duration, weight, and price side by side so you can pick the right size the first time.',
   },
