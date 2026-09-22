@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { CartProvider } from '@/components/CartContext';
 import IndependenceBanner from '@/components/IndependenceBanner';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
 
@@ -53,6 +54,11 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
   alternates: { canonical: 'https://waatechnologies.com' },
+  // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in Vercel once the Search Console
+  // property gives you the HTML-tag verification code — no code change needed.
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
 };
 
 const orgSchema = {
@@ -154,6 +160,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>
       <body className="min-h-full flex flex-col antialiased">
+        <GoogleAnalytics />
         <CartProvider>
           <IndependenceBanner />
           <Header />
