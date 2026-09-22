@@ -89,7 +89,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...allPosts.map((post) => ({
       url: `${base}/${post.slug}`,
-      lastModified: now,
+      // Real publish date, not build time — an always-"now" lastModified gives
+      // Google no genuine freshness signal and gets discounted over time.
+      lastModified: new Date(post.date),
       changeFrequency: 'monthly' as const,
       priority: post.type === 'case-study' ? 0.7 : deepBlogSlugs.has(post.slug) ? 0.95 : 0.75,
     })),

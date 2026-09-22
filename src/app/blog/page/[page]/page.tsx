@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'WAATechnologies',
       locale: 'en_PK',
       type: 'website',
-      images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'WAATechnologies Blog' }],
+      images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'WAATechnologies Blog' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: `Blog — Page ${page} | WAATechnologies`,
       description: `Expert insights on composite LPG cylinders, safety, and Pakistan's energy future.`,
-      images: ['/images/og-image.jpg'],
+      images: ['/images/og-image.webp'],
     },
   };
 }
