@@ -32,13 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       modifiedTime: new Date(post.date).toISOString(),
       authors: ['WAATechnologies Pvt Ltd'],
       tags: post.tags,
-      images: [{ url: '/images/post-image.jpg', width: 1536, height: 1024, alt: post.title }],
+      // images intentionally omitted: opengraph-image.tsx in this segment generates
+      // a per-post branded card and Next wires it into og:image automatically.
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: ['/images/og-image.webp'],
+      // no explicit image: Twitter/X falls back to og:image, which is per-post here.
     },
     robots: {
       index: true,
