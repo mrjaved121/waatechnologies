@@ -5,7 +5,7 @@ import { Phone, MapPin } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Authorized Dealers',
   description:
-    'Find WAATechnologies authorized dealers across Pakistan — Punjab (Lahore, Sialkot), Sindh (Karachi, Hyderabad), and KPK (Peshawar). Contact your nearest dealer today.',
+    'Find WAATechnologies authorized dealers across Pakistan — Punjab (Lahore, Sialkot, Rawalpindi / Islamabad), Sindh (Karachi, Hyderabad), and KPK (Peshawar). Contact your nearest dealer today.',
   alternates: { canonical: 'https://waatechnologies.com/authorized-dealers' },
 };
 
@@ -24,6 +24,12 @@ const regions = [
         name: 'Ashiq Home Appliance — M. Imran',
         address: 'Mugalpura Link Road, Nazad Railway Crossing Dryport, Lahore',
         phone: '0321 4354809',
+      },
+      {
+        name: 'Ovaisco Residency',
+        address: 'Hussain Abad, Lohi Bher, Rawalpindi / Islamabad',
+        phone: '0339 3789220 / 0332 9116996',
+        contacts: 'Wasif Mahmood (Head of Distribution), Hassan Raza (Senior Distribution Manager)',
       },
     ],
   },
@@ -101,13 +107,16 @@ export default function AuthorizedDealersPage() {
                       {'contacts' in dealer && dealer.contacts && (
                         <p className="text-xs text-slate-400 mb-2 ml-6">{dealer.contacts}</p>
                       )}
-                      <a
-                        href={`tel:${dealer.phone.split(' ')[0]}`}
-                        className="flex items-center gap-2 text-sm text-green-900 font-semibold hover:text-green-950 transition-colors"
-                      >
-                        <Phone className="w-4 h-4" />
-                        {dealer.phone}
-                      </a>
+                      {dealer.phone.split('/').map((number) => (
+                        <a
+                          key={number}
+                          href={`tel:${number.replace(/\s/g, '')}`}
+                          className="flex items-center gap-2 text-sm text-green-900 font-semibold hover:text-green-950 transition-colors"
+                        >
+                          <Phone className="w-4 h-4" />
+                          {number.trim()}
+                        </a>
+                      ))}
                     </div>
                   ))}
                 </div>

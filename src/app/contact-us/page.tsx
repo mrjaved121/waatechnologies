@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'Are WAA cylinders available across Pakistan?',
-    a: 'Yes — we have authorized dealers in Punjab (Lahore, Sialkot), Sindh (Karachi, Hyderabad), and KPK (Peshawar). More locations are being added regularly.',
+    a: 'Yes — we have authorized dealers in Punjab (Lahore, Sialkot, Rawalpindi / Islamabad), Sindh (Karachi, Hyderabad), and KPK (Peshawar). More locations are being added regularly.',
   },
   {
     q: 'How do I know if my cylinder is genuine WAA?',

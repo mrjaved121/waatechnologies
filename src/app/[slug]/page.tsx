@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Dealership post: the visible steps/FAQ and the HowTo/FAQPage schema read from these same
 // constants, so what users see and what crawlers see are guaranteed to match word-for-word.
 const dealerApplySteps: { name: string; text: string }[] = [
-  { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Karachi, Hyderabad and Peshawar), then note the city and area you want to serve.' },
+  { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar), then note the city and area you want to serve.' },
   { name: 'Prepare your premises and business details', text: 'Have the address of your retail shop or storage space, your valid business registration, and a rough idea of the cylinder sizes and volumes you plan to stock.' },
   { name: 'Contact the WAA Technologies sales team', text: 'Message WAA on WhatsApp at +92 3414999998, call +92 423 781 5533, email waatechnologies.pvt.ltd@gmail.com, or use the contact page at waatechnologies.com/contact-us.' },
   { name: 'Share your location and business details', text: 'Tell the sales team your city, area, type of business and premises. WAA reviews your details and confirms whether your area is available.' },
@@ -65,7 +65,7 @@ const dealerFaqs: { q: string; a: string }[] = [
   { q: 'What is required to open an LPG composite cylinder dealership?', a: 'Typically a retail or storage space, valid business registration, and an initial stock investment. Exact terms are confirmed during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask the sales team which licence or approval applies to your location and business type.' },
   { q: 'Is a gas cylinder dealership profitable in Pakistan?', a: 'Demand for lightweight composite cylinders is rising, so early dealers in a city can benefit as households and businesses switch from steel. Composite cylinders are under 5% of Pakistan\'s cylinder fleet and WAA Technologies projects 25–35% annual demand growth. Actual profitability depends on your city, location, stock turnover and local competition.' },
   { q: 'Does WAA give marketing support to dealers?', a: 'Yes, WAA Technologies provides branding, dealer pricing and marketing support as part of its authorised dealer network. The sales team explains what support applies to your city and premises during onboarding.' },
-  { q: 'Which cities is WAA Technologies looking for dealers in?', a: 'WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. It currently lists authorised dealers in Lahore, Sialkot, Karachi, Hyderabad and Peshawar. Contact WAA to check availability in your area.' },
+  { q: 'Which cities is WAA Technologies looking for dealers in?', a: 'WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. It currently lists authorised dealers in Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar. Contact WAA to check availability in your area.' },
 ];
 
 const dealerCta = (heading: string) => (
@@ -111,7 +111,7 @@ const articleContent: Record<string, React.ReactNode> = {
         </p>
         <ul className="space-y-2.5">
           {[
-            'WAA Technologies runs an authorised dealer network across Punjab, Sindh and KPK, with listed dealers in Lahore, Sialkot, Karachi, Hyderabad and Peshawar',
+            'WAA Technologies runs an authorised dealer network across Punjab, Sindh and KPK, with listed dealers in Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar',
             'Typical requirements: a retail or storage space, valid business registration and an initial stock order — exact terms are confirmed by WAA during application',
             'Authorised dealers receive supply, dealer pricing, branding and marketing support from WAA Technologies',
             'Composite cylinders are under 5% of Pakistan\'s cylinder fleet and demand is projected to grow 25–35% a year, so early dealers can capture the switch from steel',
@@ -190,7 +190,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Which Cities and Areas Is WAA Expanding Into?</h2>
 
-      <p>WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. Its dealer list currently shows authorised dealers in five cities across three provinces:</p>
+      <p>WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. Its dealer list currently shows authorised dealers in six locations across Punjab, Sindh and KPK:</p>
 
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
@@ -202,7 +202,7 @@ const articleContent: Record<string, React.ReactNode> = {
           </thead>
           <tbody>
             {[
-              ['Punjab', 'Lahore, Sialkot'],
+              ['Punjab', 'Lahore, Sialkot, Rawalpindi / Islamabad'],
               ['Sindh', 'Karachi, Hyderabad'],
               ['KPK', 'Peshawar'],
             ].map(([province, cities]) => (
