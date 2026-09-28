@@ -19,7 +19,7 @@ const productImages: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'WAATechnologies | Non-Blast Composite LPG Gas Cylinders Pakistan',
   description:
-    "WAATechnologies — Pakistan's leading composite LPG cylinder manufacturer. 100% explosion-proof, lightweight, UV resistant, ISO certified. Shop 5kg, 10kg & 14kg cylinders.",
+    "WAATechnologies — Pakistan's leading composite LPG cylinder manufacturer. 100% explosion-proof, lightweight, UV resistant, ISO certified. Shop 5kg & 10kg cylinders.",
   alternates: { canonical: 'https://waatechnologies.com' },
 };
 

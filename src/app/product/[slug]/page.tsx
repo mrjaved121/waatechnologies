@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle2, Star, Phone, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
-import AddToCartButton from '@/components/AddToCartButton';
+import { CheckCircle2, Star, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
+import OrderInquiryButton from '@/components/OrderInquiryButton';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -60,12 +60,12 @@ const products: Record<string, {
     features: ['Tiger Orange Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
   },
   'lpg-composite-cylinder-10kg-traditional-blue': {
-    name: 'LPG Composite Cylinder 15Kg Traditional Blue',
+    name: 'LPG Composite Cylinder 10Kg Traditional Blue',
     price: 11000,
-    weight: '15 kg',
+    weight: '10 kg',
     color: 'Traditional Blue',
-    description: 'WAATechnologies 15Kg Traditional Blue composite cylinder for larger households and commercial use. The same explosion-proof, ISO-certified composite technology in a larger capacity.',
-    features: ['Traditional Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'High Capacity'],
+    description: 'The Traditional Blue edition of WAA\'s flagship 10Kg composite cylinder. A classic finish backed by the same explosion-proof, ISO-certified composite technology trusted by thousands across Pakistan.',
+    features: ['Traditional Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Classic Design'],
   },
 };
 
@@ -256,21 +256,7 @@ export default async function ProductPage({ params }: Props) {
               </div>
             </div>
 
-            <AddToCartButton
-              slug={slug}
-              name={product.name}
-              price={product.price}
-              oldPrice={product.oldPrice}
-            />
-
-            <div className="flex gap-3 mb-6">
-              <Link
-                href="/contact-us"
-                className="flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-5 py-3.5 rounded-xl font-semibold transition-all text-sm"
-              >
-                <Phone className="w-5 h-5" /> Enquire
-              </Link>
-            </div>
+            <OrderInquiryButton name={product.name} price={product.price} />
 
             <div className="flex flex-col gap-2 text-sm text-slate-500">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> 100% Non-Blast — no explosion risk under any condition</div>

@@ -333,7 +333,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p><strong>Joint family or household of 4–6</strong> — the 10 kg is the better fit. Fewer refill trips matter more than portability once you&apos;re cooking three meals a day for a full household, and the per-refill convenience adds up over a year.</p>
 
-      <p><strong>Restaurant or small commercial kitchen</strong> — the 10 kg is the minimum size WAA Technologies recommends for continuous commercial cooking; very high-volume kitchens should look at the 12 kg or 15 kg cylinders in the <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">full size and price range</Link> instead of running multiple 5 kg cylinders.</p>
+      <p><strong>Restaurant or small commercial kitchen</strong> — the 10 kg is the minimum size WAA Technologies recommends for continuous commercial cooking; very high-volume kitchens should look at the 12 kg cylinder in the <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">full size and price range</Link> instead of running multiple 5 kg cylinders.</p>
 
       <p><strong>Food truck or street vendor</strong> — the 10 kg balances weight (still liftable by one person) against fewer mid-shift refill interruptions; some vendors carry a spare 5 kg as backup for exactly this reason.</p>
 
@@ -341,7 +341,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Why Size Doesn&apos;t Change the Safety</h2>
 
-      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, 12 kg, or 15 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
+      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, or 12 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
 
       <h2>Where to Buy the Right Size in Pakistan</h2>
 

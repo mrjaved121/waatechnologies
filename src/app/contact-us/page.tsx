@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'What sizes are available?',
-    a: 'We currently offer 5 kg, 10 kg, and 15 kg composite LPG cylinders in multiple colours — Cerulean Blue, Tiger Orange, Traditional Blue, and Yellow.',
+    a: 'We currently offer 5 kg, 10 kg, and 12 kg composite LPG cylinders in multiple colours — Cerulean Blue, Tiger Orange, Traditional Blue, and Yellow.',
   },
   {
     q: 'How long is the lifespan of a WAA cylinder?',
