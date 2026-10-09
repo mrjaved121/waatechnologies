@@ -77,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'how-lpg-cylinders-tested-safety-pakistan',
     'ogra-licensed-lpg-cylinder-manufacturers-pakistan',
     'pakistan-lpg-imports-vs-domestic-production-2025',
+    'best-lpg-gas-cylinder-pakistan-2026',
   ]);
 
   return [

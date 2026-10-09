@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Buyer's Guide / Brand Comparison ─────────────────────────────────────────
+  {
+    slug: 'best-lpg-gas-cylinder-pakistan-2026',
+    title: 'Best LPG Gas Cylinder in Pakistan 2026 — Brand Comparison, Safety Ratings & Where to Buy',
+    date: 'Oct 9, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '12 min read',
+    tags: ['best-lpg-cylinder-pakistan', 'best-gas-cylinder-brand-pakistan', 'lpg-cylinder-comparison-2026', 'composite-lpg-cylinders', 'waa-technologies', 'fiber-gas-cylinder-pakistan', 'gas-cylinder-price-pakistan-2026', 'safest-gas-cylinder-pakistan'],
+    excerpt: 'Looking for the best LPG gas cylinder in Pakistan in 2026? This complete buyer\'s guide compares every major brand — WAA Technologies, PARCO, Shell, Chinese imports — on safety, certifications, price, weight, lifespan, and gas level visibility. One brand stands out on every metric that matters.',
+  },
+
   // ── Business / Dealership ─────────────────────────────────────────────────────
   {
     slug: 'become-waa-composite-cylinder-dealer-pakistan',
