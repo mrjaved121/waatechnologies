@@ -155,7 +155,6 @@ const articleContent: Record<string, React.ReactNode> = {
             {[
               ['WAA Technologies composite', 'Required — must pass', 'Yes — ISO 11119-3 certified', '✅ Safest'],
               ['Domestic steel (PS 4922)', 'Not required', 'No — can BLEVE under fire', '⚠️ Risk'],
-              ['PARCO / Shell steel', 'Not required', 'No — same steel standard', '⚠️ Risk'],
               ['Chinese composite (certified)', 'Required if genuine', 'Only if genuinely tested', '❓ Verify first'],
               ['Chinese composite (uncertified)', 'None', 'No', '❌ Avoid'],
             ].map(([cat, test, cert, verdict]) => (
