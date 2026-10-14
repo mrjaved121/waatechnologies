@@ -78,6 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'ogra-licensed-lpg-cylinder-manufacturers-pakistan',
     'pakistan-lpg-imports-vs-domestic-production-2025',
     'best-lpg-gas-cylinder-pakistan-2026',
+    'how-to-refill-composite-lpg-cylinder-pakistan',
   ]);
 
   return [

@@ -93,6 +93,110 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: How to Refill a Composite LPG Cylinder ── */
+  'how-to-refill-composite-lpg-cylinder-pakistan': (
+    <>
+      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">To refill a composite LPG cylinder in Pakistan, take it to an authorised WAA Technologies dealer or an OGRA-approved refill point — never refill it yourself at home. Staff inspect the cylinder and valve, then fill it by weight against your current gas level. Many areas also offer <strong className="text-white">exchange</strong>, where you swap your empty cylinder for a filled one of the same size. In October 2026, LPG costs roughly <strong className="text-white">Rs&nbsp;279 per kg</strong>, so a 10 kg refill is about Rs&nbsp;2,790 (the rate is set monthly by OGRA).</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'Refill only at an authorised WAA dealer or OGRA-approved point — never self-refill',
+            'Refill means filling your own cylinder; exchange means swapping it for a filled one',
+            'A composite cylinder is filled by weight, so you pay only for the gas added',
+            'Always check the valve, body and O-ring for damage before and after refilling',
+            'WAA composite cylinders are jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>A composite LPG cylinder is one of the safest ways to cook with gas in Pakistan — it is lightweight, corrosion-proof, and lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">see your gas level at a glance</Link>. But like any LPG cylinder, it has to be refilled correctly. Done at the right place, a refill takes a few minutes and is completely safe. Done wrong — at an unapproved shop or, worse, at home — it is one of the most dangerous things you can do. This guide walks you through exactly how to refill a composite cylinder, where to go, what it costs, and the safety checks that protect your family.</p>
+
+      <h2>Refill vs Exchange — Which Should You Choose?</h2>
+
+      <p>In Pakistan you will come across two options, and people often confuse them. <strong>Refilling</strong> means your own cylinder is topped up with gas and handed back to you — you keep the same cylinder you bought. <strong>Exchange</strong> means you hand over your empty cylinder and receive an already-filled one of the same size in return, paying only for the gas.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Factor</th>
+              <th className="p-3 text-left font-bold">Refill (your cylinder)</th>
+              <th className="p-3 text-left font-bold">Exchange (swap)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Wait time', 'A few minutes while filled', 'Instant swap'],
+              ['Your cylinder', 'You keep it', 'You give it up'],
+              ['Best for', 'Owners who trust their own cylinder\'s condition', 'People who want speed and no waiting'],
+              ['Cost', 'Pay for gas added, by weight', 'Pay for gas (cylinder deposit may apply)'],
+            ].map(([factor, refill, exchange]) => (
+              <tr key={factor} className="border-b border-slate-100 even:bg-slate-50">
+                <td className="p-3 font-semibold text-slate-700">{factor}</td>
+                <td className="p-3 text-slate-600">{refill}</td>
+                <td className="p-3 text-slate-600">{exchange}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>For a composite cylinder you bought new, refilling keeps the warranty and the cylinder you know. Exchange is convenient but make sure the swapped cylinder is a genuine, undamaged composite unit — not an old steel one.</p>
+
+      <h2>How a Composite LPG Cylinder Is Refilled Safely (Step by Step)</h2>
+
+      <ol>
+        <li><strong>Take it to an authorised point.</strong> Bring your cylinder to a WAA dealer or OGRA-approved refill station. Do not use roadside &ldquo;decanting&rdquo; setups that fill from a larger cylinder — this is illegal and unsafe.</li>
+        <li><strong>Inspection first.</strong> Staff check the cylinder body, valve and O-ring for cracks, leaks or damage, and confirm it is within its service life.</li>
+        <li><strong>Weigh the empty.</strong> The cylinder is weighed so the exact tare (empty) weight is known.</li>
+        <li><strong>Fill by weight, not by guess.</strong> Gas is added up to the cylinder&apos;s rated capacity (e.g. 5 kg or 10 kg) — never overfilled. Filling by weight is the single most important safety rule.</li>
+        <li><strong>Leak test.</strong> The valve is checked with soapy water or a detector for any bubbling that signals a leak.</li>
+        <li><strong>Final weigh &amp; handover.</strong> The filled weight is confirmed and the cylinder is returned to you.</li>
+      </ol>
+
+      <p>The whole process is quick, and because a <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">WAA composite cylinder is jointless and explosion-proof</Link>, it handles refilling far more safely than an old welded steel gola.</p>
+
+      <h2>Where to Refill a Composite Cylinder in Pakistan</h2>
+
+      <p>Refill and exchange are handled through WAA Technologies&apos; authorised dealer network across major cities, including <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad</Link>, with more cities being added. To find your nearest point, contact WAA or check the city guide for your area. Always choose an authorised dealer over an unknown shop — it is the difference between a safe fill and a serious risk.</p>
+
+      <h2>How Much Does an LPG Refill Cost in 2026?</h2>
+
+      <p>LPG is priced per kilogram and the rate is revised every month by OGRA (the Oil and Gas Regulatory Authority). As of October 2026 the rate is roughly <strong>Rs&nbsp;279 per kg</strong>, which puts an 11.8 kg cylinder at about Rs&nbsp;3,296. On that basis:</p>
+
+      <ul>
+        <li>A <strong>5 kg</strong> composite cylinder refill ≈ Rs&nbsp;1,395</li>
+        <li>A <strong>10 kg</strong> composite cylinder refill ≈ Rs&nbsp;2,790</li>
+      </ul>
+
+      <p>These are gas-cost estimates only and change with the monthly OGRA rate and your city. For the current cylinder prices and sizes, see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite cylinder price guide</Link>.</p>
+
+      <h2>Mistakes to Avoid When Refilling</h2>
+
+      <ul>
+        <li><strong>Never refill at home or from another cylinder.</strong> Decanting is illegal, uncontrolled, and a leading cause of LPG fires in Pakistan.</li>
+        <li><strong>Never overfill.</strong> LPG needs vapour space; an overfilled cylinder can over-pressurise. Filling by weight prevents this.</li>
+        <li><strong>Don&apos;t ignore a damaged valve or O-ring.</strong> Replace it before refilling.</li>
+        <li><strong>Don&apos;t accept a swapped cylinder without checking it.</strong> Confirm it is a genuine, undamaged composite unit.</li>
+      </ul>
+
+      <p>For the full list of safety rules that apply to everyday LPG use — not just refilling — see <Link href="/8-crucial-gas-cylinder-safety-rules-every-household-must-follow" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">8 crucial gas cylinder safety rules every household must follow</Link>.</p>
+    </>
+  ),
+
   /* ── ARTICLE: Best LPG Gas Cylinder Pakistan 2026 ── */
   'best-lpg-gas-cylinder-pakistan-2026': (
     <>
@@ -4838,10 +4942,18 @@ const wordCounts: Record<string, number> = {
   'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': 2800,
   'made-in-pakistan-waatechnologies-azadi-2026': 2900,
   'best-lpg-gas-cylinder-pakistan-2026': 3000,
+  'how-to-refill-composite-lpg-cylinder-pakistan': 1010,
 };
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'how-to-refill-composite-lpg-cylinder-pakistan': [
+    { q: 'Can I refill a composite LPG cylinder myself at home?', a: 'No. Refilling an LPG cylinder at home or from another cylinder (decanting) is illegal and extremely dangerous in Pakistan. Always use an authorised WAA dealer or OGRA-approved refill point.' },
+    { q: 'What is the difference between refill and exchange?', a: 'Refilling tops up your own cylinder and returns it to you. Exchange means you swap your empty cylinder for an already-filled one of the same size, paying only for the gas.' },
+    { q: 'Where can I refill my WAA composite cylinder?', a: 'Through WAA Technologies\' authorised dealer network in cities including Lahore, Karachi and Islamabad–Rawalpindi. Contact WAA or check your city guide for the nearest point.' },
+    { q: 'Is refilling a composite cylinder safe?', a: 'Yes, when done at an authorised point. WAA composite cylinders are jointless, 100% explosion-proof and certified to ISO 9001:2015 and BS EN 14427:2022, and staff fill them by weight with a leak test.' },
+    { q: 'How much does an LPG refill cost in Pakistan?', a: 'LPG is priced per kg and set monthly by OGRA. In October 2026 the rate is about Rs 279 per kg, so a 10 kg refill is roughly Rs 2,790. The exact cost changes each month and by city.' },
+  ],
   'best-lpg-gas-cylinder-pakistan-2026': [
     { q: 'Which is the best LPG gas cylinder brand in Pakistan in 2026?', a: 'WAA Technologies composite cylinders are the best LPG cylinders in Pakistan in 2026 on every safety metric that matters: they are the only locally manufactured composite cylinders certified to ISO 11119-3:2020 and BS EN 14427:2022, non-blast by design, corrosion-free, 50% lighter than steel, translucent for gas level visibility, and rated for 20+ years of service.' },
     { q: 'Are WAA Technologies cylinders better than PARCO cylinders?', a: 'On safety, yes — categorically. WAA Technologies composite cylinders cannot explode (BLEVE) under fire engulfment; PARCO steel cylinders are not non-blast certified. Composite cylinders also cannot corrode, weigh 50% less, show gas levels visually, and last 20+ years versus 8–12 years for steel. PARCO cylinders have lower upfront cost; WAA cylinders have lower total cost over a 10–20 year ownership period.' },

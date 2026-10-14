@@ -13,6 +13,18 @@ export type Post = {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── How-To / Refill ──────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-refill-composite-lpg-cylinder-pakistan',
+    title: 'How to Refill a Composite LPG Cylinder in Pakistan (Step-by-Step 2026 Guide)',
+    date: 'Oct 14, 2026',
+    category: 'How-To',
+    type: 'blog',
+    readingTime: '5 min read',
+    tags: ['composite-lpg-cylinder', 'refill', 'lpg-safety', 'fiber-cylinder', 'pakistan', 'waa-technologies'],
+    excerpt: 'Learn how to refill a composite LPG cylinder safely in Pakistan — refill vs exchange, where to go, current cost per kg, and the safety checks that matter. A step-by-step guide from WAA Technologies.',
+  },
+
   // ── Buyer's Guide / Brand Comparison ─────────────────────────────────────────
   {
     slug: 'best-lpg-gas-cylinder-pakistan-2026',
