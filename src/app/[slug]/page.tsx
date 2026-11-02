@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Calendar, MapPin, Tag, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
-import { allPosts, getPostBySlug } from '@/lib/posts';
+import { allPosts, getPostBySlug, seoTitleFor, metaDescriptionFor } from '@/lib/posts';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -16,14 +16,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return { title: 'Not Found' };
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: { absolute: seoTitleFor(post) },
+    description: metaDescriptionFor(post),
     keywords: post.tags,
     authors: [{ name: 'WAATechnologies Pvt Ltd', url: 'https://waatechnologies.com' }],
     alternates: { canonical: `https://waatechnologies.com/${post.slug}` },
     openGraph: {
       title: post.title,
-      description: post.excerpt,
+      description: metaDescriptionFor(post),
       type: 'article',
       url: `https://waatechnologies.com/${post.slug}`,
       siteName: 'WAATechnologies',
@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
-      description: post.excerpt,
+      title: seoTitleFor(post),
+      description: metaDescriptionFor(post),
       // no explicit image: Twitter/X falls back to og:image, which is per-post here.
     },
     robots: {

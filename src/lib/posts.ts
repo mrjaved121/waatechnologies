@@ -8,7 +8,37 @@ export type Post = {
   location?: string;
   tags?: string[];
   readingTime?: string;
+  /** Optional search-result title (≤60 chars). Falls back to a shortened `title`. */
+  seoTitle?: string;
+  /** Optional meta description (≤158 chars). Falls back to a shortened `excerpt`. */
+  metaDescription?: string;
 };
+
+/** Title for the <title> tag: Google shows ~60 characters, so long titles are shortened at a natural break. */
+export function seoTitleFor(post: Post): string {
+  if (post.seoTitle) return post.seoTitle;
+  const brand = (x: string) => (x.length <= 45 ? `${x} | WAATechnologies` : x);
+  const t = post.title;
+  if (t.length <= 65) return brand(t);
+  for (const sep of [' — ', ' – ', ': ', ' (', ' | ']) {
+    const head = t.split(sep)[0].trim();
+    if (head.length >= 25 && head.length <= 70) return brand(head);
+  }
+  const words = t.slice(0, 63).split(' ').slice(0, -1);
+  while (words.length && /^(in|for|of|the|a|an|and|to|with|vs|on|at|&|—|–|-)$/i.test(words[words.length - 1])) words.pop();
+  return words.join(' ').replace(/[,:;—–-]+$/, '').trim();
+}
+
+/** Meta description: Google shows ~155 characters, so long excerpts are cut at a sentence or word boundary. */
+export function metaDescriptionFor(post: Post): string {
+  if (post.metaDescription) return post.metaDescription;
+  const e = post.excerpt;
+  if (e.length <= 160) return e;
+  const head = e.slice(0, 158);
+  const stop = Math.max(head.lastIndexOf('. '), head.lastIndexOf('? '), head.lastIndexOf('! '));
+  if (stop >= 90) return head.slice(0, stop + 1);
+  return head.slice(0, head.lastIndexOf(' ')).replace(/[,:;—–-]+$/, '') + '…';
+}
 
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
