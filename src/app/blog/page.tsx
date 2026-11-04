@@ -57,14 +57,16 @@ export default function BlogPage() {
           <div className="mb-14">
             <div className="bg-slate-50 rounded-3xl overflow-hidden border border-slate-100 grid lg:grid-cols-2">
               <div className="relative min-h-64 overflow-hidden">
-                <Image
-                  src="/images/post-image.jpg"
-                  alt={featured.title}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                  priority
-                />
+                <Link href={`/${featured.slug}`} className="block absolute inset-0">
+                  <Image
+                    src="/images/post-image.jpg"
+                    alt={featured.title}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover"
+                    priority
+                  />
+                </Link>
               </div>
               <div className="p-8 lg:p-10 flex flex-col justify-center">
                 <div className="flex items-center gap-3 mb-3">
@@ -88,13 +90,15 @@ export default function BlogPage() {
             {rest.map((post) => (
               <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow card-hover">
                 <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src="/images/post-image.jpg"
-                    alt={post.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover"
-                  />
+                  <Link href={`/${post.slug}`} className="block absolute inset-0">
+                    <Image
+                      src="/images/post-image.jpg"
+                      alt={post.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover"
+                    />
+                  </Link>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">

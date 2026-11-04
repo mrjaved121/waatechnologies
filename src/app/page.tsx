@@ -35,7 +35,7 @@ const features = [
   {
     icon: Zap,
     title: '100% Explosion Proof',
-    desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire.',
+    desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire. Tested to ISO 11119-3 and BS EN 14427:2022 standards.',
     color: 'bg-amber-50 text-amber-700',
     border: 'border-amber-200',
   },

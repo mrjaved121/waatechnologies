@@ -2,6 +2,11 @@ import type { MetadataRoute } from 'next';
 import { allPosts, getBlogPosts } from '@/lib/posts';
 
 const base = 'https://waatechnologies.com';
+const REDIRECTED = new Set([
+  'a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders-2',
+  'waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability-2',
+  'why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction-2',
+]);
 const now = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -90,7 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     })),
-    ...allPosts.map((post) => ({
+    ...allPosts.filter((post) => !REDIRECTED.has(post.slug)).map((post) => ({
       url: `${base}/${post.slug}`,
       // Real publish date, not build time — an always-"now" lastModified gives
       // Google no genuine freshness signal and gets discounted over time.
