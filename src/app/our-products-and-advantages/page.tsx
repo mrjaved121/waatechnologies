@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle2, Zap, Feather, Droplets, Sun, Shield, Award } from 'lucide-react';
+import OrderInquiryButton from '@/components/OrderInquiryButton';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -164,7 +165,7 @@ export default function ProductsAndAdvantagesPage() {
                     )}
                     <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
-                  <button className="w-full bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors">Add to Cart</button>
+                  <OrderInquiryButton name={p.name} price={p.price} compact />
                 </div>
               </Link>
             ))}

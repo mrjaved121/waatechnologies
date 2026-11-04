@@ -8,6 +8,52 @@ const nextConfig: NextConfig = {
     // for the rest. Next picks whichever the requesting browser advertises.
     formats: ['image/avif', 'image/webp'],
   },
+
+  // Security headers — applied to every route. Fixes: clickjacking/embedding,
+  // cross-origin reads, missing content policy, and partial HTTPS enforcement.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "frame-ancestors 'self'",
+              "img-src 'self' data: https:",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com",
+              "connect-src 'self' https://www.google-analytics.com https://wa.me https://api.whatsapp.com",
+              "base-uri 'self'",
+              "form-action 'self'",
+            ].join('; '),
+          },
+          { key: 'Cross-Origin-Resource-Policy', value: 'same-origin' },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
+    ];
+  },
+
+  // Force the non-www canonical host (canonicals already point to the non-www
+  // origin). Also set waatechnologies.com as the primary domain in Vercel so
+  // this is enforced at the edge too.
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.waatechnologies.com' }],
+        destination: 'https://waatechnologies.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
