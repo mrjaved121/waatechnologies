@@ -11,9 +11,15 @@ export default function ContactForm() {
   const [phone, setPhone]     = useState('');
   const [company, setCompany] = useState('');
   const [message, setMessage] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [botField, setBotField] = useState(''); // honeypot — humans leave blank
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+
+    // Silently drop bot submissions (honeypot filled) and un-consented sends.
+    if (botField) return;
+    if (!consent) return;
 
     const text = [
       `Hello WAATechnologies! 👋`,
@@ -78,6 +84,22 @@ export default function ContactForm() {
           value={message} onChange={(e) => setMessage(e.target.value)}
           className={`${inputCls} resize-none`}
         />
+      </div>
+      {/* Honeypot — hidden from humans; bots fill it and get dropped */}
+      <input
+        type="text" tabIndex={-1} autoComplete="off" aria-hidden="true"
+        value={botField} onChange={(e) => setBotField(e.target.value)}
+        className="hidden" name="company_website"
+      />
+      <div className="sm:col-span-2">
+        <label className="flex items-start gap-2 text-sm text-slate-600">
+          <input
+            type="checkbox" required checked={consent}
+            onChange={(e) => setConsent(e.target.checked)}
+            className="mt-1"
+          />
+          <span>I agree to WAATechnologies storing my details to respond to my enquiry.</span>
+        </label>
       </div>
       <div className="sm:col-span-2">
         <button

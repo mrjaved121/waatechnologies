@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import HeroCylinder from '@/components/HeroCylinder';
 import AzadiMobileHero from '@/components/AzadiMobileHero';
+import OrderInquiryButton from '@/components/OrderInquiryButton';
 
 const productImages: Record<string, string> = {
   '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
@@ -411,9 +412,7 @@ export default function HomePage() {
                     )}
                     <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
                   </div>
-                  <button className="w-full bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors">
-                    Add to Cart
-                  </button>
+                  <OrderInquiryButton name={p.name} price={p.price} compact />
                 </div>
               </Link>
             ))}

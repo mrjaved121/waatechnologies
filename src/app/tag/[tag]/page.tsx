@@ -15,10 +15,14 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { tag } = await params;
   const label = tag.replace(/-/g, ' ');
+  const count = allPosts.filter((p) => p.tags?.includes(tag)).length;
   return {
     title: `${label} — Tag`,
     description: `All WAATechnologies articles tagged with "${label}".`,
     alternates: { canonical: `https://waatechnologies.com/tag/${tag}` },
+    // Thin tag listings are noindex (still followed) so they don't dilute the
+    // strong article content. A tag with several posts is allowed to index.
+    robots: count >= 4 ? { index: true, follow: true } : { index: false, follow: true },
   };
 }
 

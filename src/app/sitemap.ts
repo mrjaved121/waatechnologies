@@ -40,8 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  const allTags = new Set<string>();
-  allPosts.forEach((p) => p.tags?.forEach((t) => allTags.add(t)));
+  // Tag listing pages are intentionally excluded from the sitemap: most are thin
+  // (noindex in the tag route) and including them dilutes crawl focus + inflates
+  // "last modified today" signals across ~150 low-value URLs.
 
   // Slugs for the long-form 2500+ word blog posts — given highest priority
   const deepBlogSlugs = new Set([
@@ -98,11 +99,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: post.type === 'case-study' ? 0.7 : deepBlogSlugs.has(post.slug) ? 0.95 : 0.75,
     })),
     ...paginationPages,
-    ...Array.from(allTags).map((tag) => ({
-      url: `${base}/tag/${tag}`,
-      lastModified: now,
-      changeFrequency: 'monthly' as const,
-      priority: 0.45,
-    })),
   ];
 }

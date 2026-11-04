@@ -148,13 +148,9 @@ export default async function ProductPage({ params }: Props) {
         shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'PK' },
       },
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '24',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    // NOTE: aggregateRating removed — Google penalises star-rating markup when no
+    // reviews are visible on the page. Re-add it ONLY when real, visible reviews
+    // exist AND reviewCount matches the on-page count exactly.
     additionalProperty: product.features.map((f) => ({
       '@type': 'PropertyValue',
       name: f,
