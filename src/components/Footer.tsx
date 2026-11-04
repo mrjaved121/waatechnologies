@@ -50,9 +50,9 @@ export default function Footer() {
               <Phone className="w-4 h-4 text-green-400 flex-shrink-0" />
               (+92) 4237815533
             </a>
-            <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
+            <a href="mailto:info@waatechnologies.com" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
               <Mail className="w-4 h-4 text-green-400 flex-shrink-0" />
-              waatechnologies.pvt.ltd@gmail.com
+              info@waatechnologies.com
             </a>
             <div className="flex items-start gap-2 text-slate-400">
               <MapPin className="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" />

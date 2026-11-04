@@ -34,7 +34,7 @@ export default function ReturnsPage() {
           <div className="flex flex-col gap-6">
             {[
               { title: 'Eligible Returns', points: ['Defective cylinder received', 'Damaged during shipping', 'Wrong product delivered', 'Manufacturing defect discovered within 30 days'] },
-              { title: 'Return Process', points: ['Contact us within 30 days of receipt', 'Email waatechnologies.pvt.ltd@gmail.com with photos', 'We arrange collection at no cost for eligible returns', 'Replacement or refund processed within 7 business days'] },
+              { title: 'Return Process', points: ['Contact us within 30 days of receipt', 'Email info@waatechnologies.com with photos', 'We arrange collection at no cost for eligible returns', 'Replacement or refund processed within 7 business days'] },
               { title: 'Non-Eligible Returns', points: ['Cylinders that have been filled with LPG', 'Physical damage caused by misuse', 'Returns initiated after 30 days without prior notice', 'Products purchased from unauthorized dealers'] },
             ].map((section) => (
               <div key={section.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100">

@@ -97,7 +97,7 @@ const orgSchema = {
         longitude: '74.1873',
       },
       telephone: '+92-42-37815533',
-      email: 'waatechnologies.pvt.ltd@gmail.com',
+      email: 'info@waatechnologies.com',
       contactPoint: [
         {
           '@type': 'ContactPoint',

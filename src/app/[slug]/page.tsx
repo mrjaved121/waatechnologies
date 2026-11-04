@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const dealerApplySteps: { name: string; text: string }[] = [
   { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar), then note the city and area you want to serve.' },
   { name: 'Prepare your premises and business details', text: 'Have the address of your retail shop or storage space, your valid business registration, and a rough idea of the cylinder sizes and volumes you plan to stock.' },
-  { name: 'Contact the WAA Technologies sales team', text: 'Message WAA on WhatsApp at +92 3414999998, call +92 423 781 5533, email waatechnologies.pvt.ltd@gmail.com, or use the contact page at waatechnologies.com/contact-us.' },
+  { name: 'Contact the WAA Technologies sales team', text: 'Message WAA on WhatsApp at +92 3414999998, call +92 423 781 5533, email info@waatechnologies.com, or use the contact page at waatechnologies.com/contact-us.' },
   { name: 'Share your location and business details', text: 'Tell the sales team your city, area, type of business and premises. WAA reviews your details and confirms whether your area is available.' },
   { name: 'Confirm requirements, initial stock and dealer pricing', text: 'Agree the requirements that apply to you, the size of your initial stock order and your dealer pricing. Exact terms are confirmed during application.' },
   { name: 'Complete onboarding and start selling', text: 'Once approved and your initial stock is supplied, you receive branding and marketing support and begin selling as a WAA Technologies authorised dealer.' },
@@ -86,7 +86,7 @@ const dealerCta = (heading: string) => (
         Contact WAA Technologies
       </Link>
     </div>
-    <p className="text-green-200 text-xs">Phone: <a href="tel:+924237815533" className="underline">+92 423 781 5533</a> · Email: <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="underline">waatechnologies.pvt.ltd@gmail.com</a></p>
+    <p className="text-green-200 text-xs">Phone: <a href="tel:+924237815533" className="underline">+92 423 781 5533</a> · Email: <a href="mailto:info@waatechnologies.com" className="underline">info@waatechnologies.com</a></p>
   </div>
 );
 
@@ -3475,7 +3475,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <h2>Frequently Asked Questions for Lahore</h2>
 
       <h3>Where is the WAA Technologies showroom in Lahore?</h3>
-      <p>The WAA Technologies showroom is at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. It is open during regular business hours, Monday to Saturday. You can also reach us at (+92) 42 37815533 or email waatechnologies.pvt.ltd@gmail.com. We can direct you to the nearest authorised dealer in your specific Lahore area.</p>
+      <p>The WAA Technologies showroom is at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. It is open during regular business hours, Monday to Saturday. You can also reach us at (+92) 42 37815533 or email info@waatechnologies.com. We can direct you to the nearest authorised dealer in your specific Lahore area.</p>
 
       <h3>Does WAA Technologies offer home delivery in Lahore?</h3>
       <p>Select WAA Technologies authorised dealers in Lahore offer home delivery of both empty and filled composite cylinders. Availability and delivery charges vary by dealer and area. Contact the Lahore showroom at (+92) 42 37815533 for delivery options in your specific area.</p>
@@ -3500,7 +3500,7 @@ const articleContent: Record<string, React.ReactNode> = {
           {[
             'Karachi\'s coastal humidity corrodes steel cylinders faster than anywhere in Pakistan — composite cylinders cannot corrode',
             'Authorised WAA Technologies dealers serve Defence, Clifton, Gulshan-e-Iqbal, PECHS, Nazimabad, North Karachi, and more',
-            'Call (+92) 42 37815533 to find your nearest Karachi dealer or email waatechnologies.pvt.ltd@gmail.com',
+            'Call (+92) 42 37815533 to find your nearest Karachi dealer or email info@waatechnologies.com',
             'Composite cylinders are 50% lighter — especially valuable in Karachi\'s high-rise apartments where cylinders must be carried up stairs',
             'LPG refill pricing is the same as steel at any Karachi OGRA-licensed filling station',
           ].map((point) => (

@@ -34,9 +34,9 @@ export default function PrivacyPolicyPage() {
           <h2>5. Cookies</h2>
           <p>Our website may use cookies to improve user experience and analyze website traffic. You can disable cookies through your browser settings, though some features may not function correctly.</p>
           <h2>6. Your Rights</h2>
-          <p>You have the right to access, correct, or delete your personal data at any time. To exercise these rights, contact us at waatechnologies.pvt.ltd@gmail.com.</p>
+          <p>You have the right to access, correct, or delete your personal data at any time. To exercise these rights, contact us at info@waatechnologies.com.</p>
           <h2>7. Contact</h2>
-          <p>For privacy-related questions, contact WAATechnologies at 172-A First Floor, Bahria Town Lahore, or email waatechnologies.pvt.ltd@gmail.com.</p>
+          <p>For privacy-related questions, contact WAATechnologies at 172-A First Floor, Bahria Town Lahore, or email info@waatechnologies.com.</p>
         </div>
       </section>
     </>

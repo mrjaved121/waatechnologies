@@ -44,7 +44,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <span className="flex items-center gap-2">
             <Phone className="w-3 h-3" />
-            (+92) 4237815533 &nbsp;|&nbsp; waatechnologies.pvt.ltd@gmail.com
+            (+92) 4237815533 &nbsp;|&nbsp; info@waatechnologies.com
           </span>
           <span>172-A First Floor, Bahria Town Lahore, Pakistan</span>
         </div>

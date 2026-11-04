@@ -6,7 +6,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with WAATechnologies. Head office: 172-A Bahria Town Lahore. Phone: (+92) 4237815533. WhatsApp: +92 3414999998. Email: waatechnologies.pvt.ltd@gmail.com.',
+    'Get in touch with WAATechnologies. Head office: 172-A Bahria Town Lahore. Phone: (+92) 4237815533. WhatsApp: +92 3414999998. Email: info@waatechnologies.com.',
   alternates: { canonical: 'https://waatechnologies.com/contact-us' },
 };
 
@@ -54,7 +54,7 @@ const contactSchema = {
     '@id': 'https://waatechnologies.com/#organization',
     name: 'WAATechnologies Pvt Ltd',
     telephone: '+92-42-37815533',
-    email: 'waatechnologies.pvt.ltd@gmail.com',
+    email: 'info@waatechnologies.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town',
@@ -105,8 +105,8 @@ export default function ContactUsPage() {
                 <a href="https://wa.me/923414999998" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
                   <MessageSquare className="w-4 h-4" /> WhatsApp: +92 3414999998
                 </a>
-                <a href="mailto:waatechnologies.pvt.ltd@gmail.com" className="flex items-start gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors break-all">
-                  <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" /> waatechnologies.pvt.ltd@gmail.com
+                <a href="mailto:info@waatechnologies.com" className="flex items-start gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors break-all">
+                  <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" /> info@waatechnologies.com
                 </a>
               </div>
             </div>
