@@ -93,12 +93,228 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: LPG Price in Pakistan November 2026 ── */
+  'lpg-price-pakistan-november-2026-ogra': (
+    <>
+      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">What is the LPG price in Pakistan in November 2026? OGRA has set the maximum LPG consumer price at <strong className="text-white">Rs&nbsp;294.08 per kg</strong> and <strong className="text-white">Rs&nbsp;3,470.09 for an 11.8 kg domestic cylinder</strong>, effective from 1 November 2026. That is <strong className="text-white">Rs&nbsp;14.74 per kg</strong> and <strong className="text-white">Rs&nbsp;173.86 per 11.8 kg cylinder</strong> more than October 2026 (Rs&nbsp;279.34 per kg). The notified figure is a ceiling for the whole supply chain, so no producer, marketer or distributor may legally charge more, although they may charge less.</p>
+      </div>
+
+      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'OGRA\'s maximum LPG price for November 2026 is Rs 294.08 per kg, effective 1 November 2026',
+            'The maximum price of an 11.8 kg domestic cylinder is Rs 3,470.09, up Rs 173.86 from October',
+            'The notified price is a ceiling at every level of the supply chain; sellers may charge less but not more',
+            'Of the cylinder price, Rs 2,982.75 is the producer price with GST and Rs 487.34 covers margins, transport and GST on them',
+            'Media reports say some areas are seeing LPG sold far above the notified rate, as high as Rs 600 per kg',
+            'The federal government has proposed replacing OGRA\'s monthly price notifications with an import parity model, subject to Cabinet approval',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every month, millions of Pakistani households that cook with LPG wait for one number: the price OGRA notifies for the coming month. For November 2026 that number has gone up again, just as winter pushes demand higher and piped gas pressure drops in many cities. This guide explains the official November rate, how OGRA builds the price, what a refill of your own cylinder should cost, why some shops are charging much more, and what the proposed change to LPG pricing could mean. If you are new to LPG, our guide on <Link href="/how-to-refill-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to refill a composite LPG cylinder safely</Link> covers the refill process itself, and our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">winter gas shortage guide</Link> explains how to prepare your home for the cold months.</p>
+
+      <p>All official figures below come from OGRA&apos;s own <a href="https://ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">LPG notified prices page</a> and its notification dated 31 October 2026. Last updated: November 2026. Prices change monthly, so always confirm the current rate on OGRA&apos;s website.</p>
+
+      <h2>What Is the Official LPG Price in Pakistan for November 2026?</h2>
+
+      <p>OGRA&apos;s notification of 31 October 2026, issued under Section 6(2)(r) of the OGRA Ordinance 2002 and Rule 18(1) of the LPG (Production &amp; Distribution) Rules 2001, fixes the following maximum consumer prices from 1 November 2026. The same ceiling applies to both locally produced and imported LPG.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Measure</th>
+              <th className="p-3 text-left font-bold">November 2026 maximum price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Per kg', 'Rs 294.08'],
+              ['Per 11.8 kg domestic cylinder', 'Rs 3,470.09'],
+              ['Per metric tonne', 'Rs 294,075.47'],
+              ['Effective from', '1 November 2026'],
+            ].map(([measure, price]) => (
+              <tr key={measure} className="border-b border-slate-100 even:bg-slate-50">
+                <td className="p-3 font-semibold text-slate-700">{measure}</td>
+                <td className="p-3 text-slate-600">{price}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How Much Has LPG Gone Up Since October 2026?</h2>
+
+      <p>Comparing OGRA&apos;s October and November notifications shows a clear month-on-month rise, driven almost entirely by a higher producer price.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Item</th>
+              <th className="p-3 text-left font-bold">October 2026</th>
+              <th className="p-3 text-left font-bold">November 2026</th>
+              <th className="p-3 text-left font-bold">Change</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Price per kg', 'Rs 279.34', 'Rs 294.08', '+Rs 14.74'],
+              ['11.8 kg cylinder', 'Rs 3,296.23', 'Rs 3,470.09', '+Rs 173.86'],
+              ['Producer price (11.8 kg, before levy and GST)', 'Rs 2,325.32', 'Rs 2,472.66', '+Rs 147.34'],
+            ].map(([item, oct, nov, change]) => (
+              <tr key={item} className="border-b border-slate-100 even:bg-slate-50">
+                <td className="p-3 font-semibold text-slate-700">{item}</td>
+                <td className="p-3 text-slate-600">{oct}</td>
+                <td className="p-3 text-slate-600">{nov}</td>
+                <td className="p-3 text-slate-600">{change}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Marketing, distribution and transport margins did not change between the two months, so the whole increase comes from the cost of the gas itself and the GST charged on it.</p>
+
+      <h2>How Does OGRA Calculate the LPG Price?</h2>
+
+      <p>OGRA publishes the full price build-up in every notification. For November 2026, an 11.8 kg domestic cylinder is made up as follows:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Component</th>
+              <th className="p-3 text-left font-bold">Per metric tonne</th>
+              <th className="p-3 text-left font-bold">Per 11.8 kg cylinder</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Producer price (incl. excise duty, 40% propane / 60% butane)', 'Rs 209,547.50', 'Rs 2,472.66'],
+              ['Petroleum levy', 'Rs 4,669.00', 'Rs 55.09'],
+              ['18% GST on producer price + levy', 'Rs 38,558.97', 'Rs 455.00'],
+              ['Maximum producer price with GST', 'Rs 252,775.47', 'Rs 2,982.75'],
+              ['Marketing, distribution and transport margins', 'Rs 35,000', 'Rs 413.00'],
+              ['18% GST on margins', 'Rs 6,300', 'Rs 74.34'],
+              ['Maximum consumer price', 'Rs 294,075.47', 'Rs 3,470.09'],
+            ].map(([component, tonne, cylinder]) => (
+              <tr key={component} className="border-b border-slate-100 even:bg-slate-50">
+                <td className="p-3 font-semibold text-slate-700">{component}</td>
+                <td className="p-3 text-slate-600">{tonne}</td>
+                <td className="p-3 text-slate-600">{cylinder}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>The Rs 35,000 per tonne margin is split into a marketing margin of Rs 17,000, a distribution margin of Rs 10,000 and transportation of Rs 8,000 per tonne. Under Clause 3.4.5 of the LPG Policy 2016, these figures are maximums: producers, marketing companies and distributors are allowed to sell below them, but not above.</p>
+
+      <h2>How Much Should a Refill Cost for My Cylinder Size?</h2>
+
+      <p>OGRA notifies the price per kg and per 11.8 kg cylinder. For other sizes you can work out the ceiling yourself by multiplying the gas weight by Rs 294.08. The figures below are our calculations at the notified November rate, rounded to the nearest rupee, for the gas only:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Gas filled</th>
+              <th className="p-3 text-left font-bold">Maximum gas cost at Rs 294.08/kg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['5 kg', 'About Rs 1,470'],
+              ['10 kg', 'About Rs 2,941'],
+              ['11.8 kg (official OGRA figure)', 'Rs 3,470.09'],
+              ['15 kg', 'About Rs 4,411'],
+            ].map(([size, cost]) => (
+              <tr key={size} className="border-b border-slate-100 even:bg-slate-50">
+                <td className="p-3 font-semibold text-slate-700">{size}</td>
+                <td className="p-3 text-slate-600">{cost}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Because LPG is sold by weight, always ask the seller to weigh your cylinder before and after filling. With a translucent composite cylinder you can also <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check the gas level by eye</Link>, which makes short-filling much easier to spot. If you are deciding between sizes, see our comparison of <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5 kg vs 10 kg composite cylinders</Link>.</p>
+
+      <h2>Why Are Some Shops Charging More Than the OGRA Price?</h2>
+
+      <p>The notified price is the legal maximum, but it is not always what customers pay. <a href="https://www.investify.pk/news/100000159844/ogra-raises-lpg-price-by-rs14-73-per-kg-for-november" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Profit by Pakistan Today reported</a> that LPG is being sold for as much as <strong>Rs 600 per kg</strong> in some parts of the country, more than double the notified rate. Overcharging tends to be worst in winter and in areas without piped gas, where households have few alternatives.</p>
+
+      <p>To protect yourself:</p>
+      <ul>
+        <li><strong>Know the current rate.</strong> Check OGRA&apos;s website at the start of each month.</li>
+        <li><strong>Insist on weighing.</strong> Pay for the kilograms actually filled, not a guess.</li>
+        <li><strong>Buy from licensed sellers.</strong> Authorised dealers are more likely to follow the notified price and safe filling practices. See our guide to <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA-licensed LPG cylinder manufacturers</Link>.</li>
+        <li><strong>Avoid roadside decanting.</strong> Filling from one cylinder into another is unsafe and is often where overcharging happens.</li>
+        <li><strong>Report overcharging.</strong> OGRA lists its contact and complaint channels on its official website.</li>
+      </ul>
+
+      <h2>Is OGRA Ending Monthly LPG Price Notifications?</h2>
+
+      <p>Possibly. According to <a href="https://www.energyupdate.com.pk/pakistan-shifts-to-import-parity-model-in-sweeping-lpg-pricing-deregulation/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Energy Update</a>, the federal government has decided to deregulate LPG pricing and has sent proposed guidelines to the Cabinet for final approval. Under the proposal:</p>
+      <ul>
+        <li>OGRA would stop issuing monthly price notifications for local and imported LPG.</li>
+        <li>State-owned companies, including Pakistan State Oil, SSGC LPG, PARCO Pearl Gas and Pakistan LNG, would import LPG in bulk and announce a monthly base price based on the actual landed cost.</li>
+        <li>That price would be linked to the Saudi Aramco Contract Price, plus import premiums, freight, insurance and taxes.</li>
+        <li>A targeted subsidy fund would support low-income households.</li>
+        <li>OGRA&apos;s role would shift towards health, safety and environmental enforcement across the LPG supply chain.</li>
+      </ul>
+
+      <p>Until any new system is formally approved and announced, the OGRA notification for November 2026 remains the official maximum price. We will update this guide if the pricing system changes.</p>
+
+      <h2>How Can Households Manage Higher LPG Costs This Winter?</h2>
+
+      <ul>
+        <li><strong>Choose the right cylinder size</strong> for how much you cook, so gas is not tied up unused.</li>
+        <li><strong>Fix leaks immediately.</strong> A slow leak wastes gas and is dangerous; our guide to <Link href="/gas-cylinder-warning-signs-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder warning signs</Link> explains what to look for.</li>
+        <li><strong>Use lids and the right burner size</strong> to cook faster and use less gas.</li>
+        <li><strong>Store the cylinder safely</strong>, upright, ventilated and away from heat.</li>
+        <li><strong>Watch your gas level</strong> so you refill on time instead of paying emergency prices when you run out.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the LPG price per kg in Pakistan in November 2026?</h3>
+      <p>OGRA has set the maximum LPG consumer price at Rs 294.08 per kg for November 2026, effective from 1 November 2026. The rate applies to both locally produced and imported LPG and is a ceiling at every level of the supply chain.</p>
+
+      <h3>What is the price of an 11.8 kg LPG cylinder in November 2026?</h3>
+      <p>The maximum price of an 11.8 kg domestic LPG cylinder is Rs 3,470.09 for November 2026, according to OGRA&apos;s notification dated 31 October 2026. That is Rs 173.86 more than the October 2026 price of Rs 3,296.23.</p>
+
+      <h3>How much did LPG prices increase in November 2026?</h3>
+      <p>The price rose by Rs 14.74 per kg, from Rs 279.34 in October 2026 to Rs 294.08 in November 2026. The increase came from a higher producer price; marketing, distribution and transport margins stayed the same.</p>
+
+      <h3>Can an LPG seller charge more than the OGRA price?</h3>
+      <p>No. Under Clause 3.4.5 of the LPG Policy 2016, OGRA&apos;s notified price is the maximum at all levels of the supply chain. Sellers may charge less but not more. Media reports say some areas are seeing prices of up to Rs 600 per kg, so customers should check the official rate and insist on weighing.</p>
+
+      <h3>Will OGRA stop announcing LPG prices every month?</h3>
+      <p>The government has proposed replacing OGRA&apos;s monthly notifications with an import parity pricing model led by state-owned importers, with a targeted subsidy for low-income households. The proposal needs Cabinet approval; until a new system is announced, OGRA&apos;s November 2026 notification is the official maximum price.</p>
+    </>
+  ),
+
+
   /* ── ARTICLE: How to Refill a Composite LPG Cylinder ── */
   'how-to-refill-composite-lpg-cylinder-pakistan': (
     <>
       <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-1">Quick Answer</p>
-        <p className="text-green-100 text-sm leading-relaxed">To refill a composite LPG cylinder in Pakistan, take it to an authorised WAA Technologies dealer or an OGRA-approved refill point — never refill it yourself at home. Staff inspect the cylinder and valve, then fill it by weight against your current gas level. Many areas also offer <strong className="text-white">exchange</strong>, where you swap your empty cylinder for a filled one of the same size. In October 2026, LPG costs roughly <strong className="text-white">Rs&nbsp;279 per kg</strong>, so a 10 kg refill is about Rs&nbsp;2,790 (the rate is set monthly by OGRA).</p>
+        <p className="text-green-100 text-sm leading-relaxed">To refill a composite LPG cylinder in Pakistan, take it to an authorised WAA Technologies dealer or an OGRA-approved refill point — never refill it yourself at home. Staff inspect the cylinder and valve, then fill it by weight against your current gas level. Many areas also offer <strong className="text-white">exchange</strong>, where you swap your empty cylinder for a filled one of the same size. In October 2026, LPG costs roughly <strong className="text-white">Rs&nbsp;279 per kg</strong>, so a 10 kg refill is about Rs&nbsp;2,790 (the rate is set monthly by OGRA; see the <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-white underline decoration-green-300 underline-offset-2 font-semibold">latest OGRA LPG price for November 2026</Link>).</p>
       </div>
 
       <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
@@ -4907,6 +5123,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'lpg-price-pakistan-november-2026-ogra': 1516,
   'become-waa-composite-cylinder-dealer-pakistan': 1900,
   '5kg-vs-10kg-composite-lpg-cylinder': 1460,
   'gas-cylinder-blast-incidents-pakistan-2025': 1800,
@@ -4947,6 +5164,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'lpg-price-pakistan-november-2026-ogra': [
+    { q: 'What is the LPG price per kg in Pakistan in November 2026?', a: 'OGRA has set the maximum LPG consumer price at Rs 294.08 per kg for November 2026, effective from 1 November 2026. The rate applies to both locally produced and imported LPG and is a ceiling at every level of the supply chain.' },
+    { q: 'What is the price of an 11.8 kg LPG cylinder in November 2026?', a: 'The maximum price of an 11.8 kg domestic LPG cylinder is Rs 3,470.09 for November 2026, according to OGRA\'s notification dated 31 October 2026. That is Rs 173.86 more than the October 2026 price of Rs 3,296.23.' },
+    { q: 'How much did LPG prices increase in November 2026?', a: 'The price rose by Rs 14.74 per kg, from Rs 279.34 in October 2026 to Rs 294.08 in November 2026. The increase came from a higher producer price; marketing, distribution and transport margins stayed the same.' },
+    { q: 'Can an LPG seller charge more than the OGRA price?', a: 'No. Under Clause 3.4.5 of the LPG Policy 2016, OGRA\'s notified price is the maximum at all levels of the supply chain. Sellers may charge less but not more. Media reports say some areas are seeing prices of up to Rs 600 per kg, so customers should check the official rate and insist on weighing.' },
+    { q: 'Will OGRA stop announcing LPG prices every month?', a: 'The government has proposed replacing OGRA\'s monthly notifications with an import parity pricing model led by state-owned importers, with a targeted subsidy for low-income households. The proposal needs Cabinet approval; until a new system is announced, OGRA\'s November 2026 notification is the official maximum price.' },
+  ],
   'how-to-refill-composite-lpg-cylinder-pakistan': [
     { q: 'Can I refill a composite LPG cylinder myself at home?', a: 'No. Refilling an LPG cylinder at home or from another cylinder (decanting) is illegal and extremely dangerous in Pakistan. Always use an authorised WAA dealer or OGRA-approved refill point.' },
     { q: 'What is the difference between refill and exchange?', a: 'Refilling tops up your own cylinder and returns it to you. Exchange means you swap your empty cylinder for an already-filled one of the same size, paying only for the gas.' },

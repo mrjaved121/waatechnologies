@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 export const allPosts: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Price / OGRA ─────────────────────────────────────────────────────────────
+  {
+    slug: 'lpg-price-pakistan-november-2026-ogra',
+    title: 'LPG Price in Pakistan November 2026 — OGRA Rate per kg, 11.8 kg Cylinder Price & Full Breakdown',
+    seoTitle: 'LPG Price in Pakistan November 2026: Rs 294.08/kg',
+    metaDescription: 'LPG price in Pakistan for November 2026: OGRA sets Rs 294.08 per kg and Rs 3,470.09 per 11.8 kg cylinder, up Rs 14.74/kg. Full breakdown and refill costs.',
+    date: 'Nov 4, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '8 min read',
+    tags: ['lpg-price-in-pakistan-november-2026', 'ogra-lpg-price', 'lpg-price-per-kg-pakistan', '11-8-kg-cylinder-price', 'lpg-refill-cost-pakistan', 'ogra-lpg-rules', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'The LPG price in Pakistan for November 2026 is Rs 294.08 per kg and Rs 3,470.09 for an 11.8 kg cylinder, OGRA has notified, up Rs 14.74 per kg from October. Here is the full price breakdown, refill costs by cylinder size, why some shops charge more, and what the proposed LPG pricing change means.',
+  },
+
   // ── How-To / Refill ──────────────────────────────────────────────────────────
   {
     slug: 'how-to-refill-composite-lpg-cylinder-pakistan',
