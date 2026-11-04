@@ -6,6 +6,15 @@ const REDIRECTED = new Set([
   'a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders-2',
   'waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability-2',
   'why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction-2',
+  '5-reasons-to-switch-to-composite-lpg-cylinder',
+  'the-eco-friendly-features-of-waa-composite-cylinders',
+  'benefits-of-blast-proof-lpg-cylinders',
+  'best-practices-for-safely-using-lpg-composite-cylinders',
+  'lpg-industry-trends-growing-demand-for-composite-cylinders',
+  'the-science-of-assisting-with-leak-proof-fiber-lpg-cylinders',
+  'recyclable-materials-in-lpg-fiber-cylinder-manufacturing',
+  'features-waatech-composite-cylinders-standout',
+  'lpg-cylinders-game-changer-energy-industry',
 ]);
 const now = new Date();
 
