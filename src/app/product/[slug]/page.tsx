@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${product.name} | WAATechnologies`,
       description: product.description,
       type: 'website',
-      images: img ? [{ url: `https://waatechnologies.com${img}`, width: 1254, height: 1254, alt: product.name }] : undefined,
+      images: img ? [{ url: `https://waatechnologies.com${img}`, width: 752, height: 752, alt: product.name }] : undefined,
     },
   };
 }
@@ -132,7 +132,6 @@ export default async function ProductPage({ params }: Props) {
       ? `https://waatechnologies.com${productImages[slug]}`
       : 'https://waatechnologies.com/images/global-waatech-logo.png',
     color: product.color,
-    weight: { '@type': 'QuantitativeValue', value: product.weight, unitCode: 'KGM' },
     offers: {
       '@type': 'Offer',
       url: `https://waatechnologies.com/product/${slug}`,
