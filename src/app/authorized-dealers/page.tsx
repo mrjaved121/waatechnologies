@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin } from 'lucide-react';
+import BulkQuoteForm from '@/components/BulkQuoteForm';
 
 export const metadata: Metadata = {
   title: 'Authorized Dealers',
@@ -136,6 +137,12 @@ export default function AuthorizedDealersPage() {
             >
               Contact Us
             </Link>
+          </div>
+
+          <div id="bulk-quote" className="mt-10 bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-slate-100">
+            <h2 className="text-2xl font-black text-slate-900 mb-2 text-center">Request a Bulk / Dealer Quote</h2>
+            <p className="text-slate-500 text-center max-w-xl mx-auto mb-6">For restaurants, resellers and bulk buyers — tell us your city and quantity and we&apos;ll send pricing on WhatsApp.</p>
+            <BulkQuoteForm />
           </div>
         </div>
       </section>
