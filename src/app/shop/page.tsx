@@ -58,13 +58,6 @@ const shopSchema = {
         availability: 'https://schema.org/InStock',
         itemCondition: 'https://schema.org/NewCondition',
       },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: p.rating,
-        reviewCount: p.reviews,
-        bestRating: 5,
-        worstRating: 1,
-      },
     },
   })),
 };
