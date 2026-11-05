@@ -4,9 +4,9 @@ import { Phone, MapPin } from 'lucide-react';
 import BulkQuoteForm from '@/components/BulkQuoteForm';
 
 export const metadata: Metadata = {
-  title: 'Authorized Dealers',
+  title: 'Composite LPG Cylinder Dealers in Pakistan',
   description:
-    'Find WAATechnologies authorized dealers across Pakistan — Punjab (Lahore, Sialkot, Rawalpindi / Islamabad), Sindh (Karachi, Hyderabad), and KPK (Peshawar). Contact your nearest dealer today.',
+    'Find an authorised WAATechnologies composite LPG cylinder dealer in Lahore, Rawalpindi, Sialkot, Karachi, Hyderabad or Peshawar, with addresses and phones.',
   alternates: { canonical: 'https://waatechnologies.com/authorized-dealers' },
 };
 

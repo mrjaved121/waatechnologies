@@ -5,7 +5,7 @@ import { ArrowRight, Calendar } from 'lucide-react';
 import { getBlogPosts } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'Blog — LPG & Composite Cylinder Insights | WAATechnologies',
+  title: 'Blog — LPG & Composite Cylinder Insights',
   description:
     'WAATechnologies blog — expert insights on composite LPG cylinders, safety, sustainability, and the future of gas storage in Pakistan.',
   keywords: ['composite LPG cylinders Pakistan', 'LPG cylinder safety', 'fiber gas cylinder blog', 'WAATechnologies blog'],
@@ -59,7 +59,7 @@ export default function BlogPage() {
               <div className="relative min-h-64 overflow-hidden">
                 <Link href={`/${featured.slug}`} className="block absolute inset-0">
                   <Image
-                    src="/images/post-image.jpg"
+                    src={`/${featured.slug}/opengraph-image`}
                     alt={featured.title}
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -92,7 +92,7 @@ export default function BlogPage() {
                 <div className="relative h-48 overflow-hidden">
                   <Link href={`/${post.slug}`} className="block absolute inset-0">
                     <Image
-                      src="/images/post-image.jpg"
+                      src={`/${post.slug}/opengraph-image`}
                       alt={post.title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"

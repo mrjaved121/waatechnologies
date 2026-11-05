@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle2, Star, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
+import { CheckCircle2, Shield, Feather, Droplets, Sun, Award } from 'lucide-react';
 import OrderInquiryButton from '@/components/OrderInquiryButton';
 
 const productImages: Record<string, string> = {
@@ -56,7 +56,7 @@ const products: Record<string, {
     price: 11000,
     weight: '10 kg',
     color: 'Tiger Orange',
-    description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology trusted by thousands across Pakistan.',
+    description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology used in homes and kitchens across Pakistan.',
     features: ['Tiger Orange Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
   },
   'lpg-composite-cylinder-10kg-traditional-blue': {
@@ -64,7 +64,7 @@ const products: Record<string, {
     price: 11000,
     weight: '10 kg',
     color: 'Traditional Blue',
-    description: 'The Traditional Blue edition of WAA\'s flagship 10Kg composite cylinder. A classic finish backed by the same explosion-proof, ISO-certified composite technology trusted by thousands across Pakistan.',
+    description: 'The Traditional Blue edition of WAA\'s flagship 10Kg composite cylinder. A classic finish backed by the same explosion-proof, ISO-certified composite technology used in homes and kitchens across Pakistan.',
     features: ['Traditional Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Classic Design'],
   },
 };
@@ -214,14 +214,6 @@ export default async function ProductPage({ params }: Props) {
               {product.oldPrice && <span className="text-xs font-bold bg-red-100 text-red-600 px-3 py-1 rounded-full">ON SALE</span>}
             </div>
             <h1 className="text-3xl font-black text-slate-900 mb-3 leading-tight">{product.name}</h1>
-            <div className="flex items-center gap-2 mb-5">
-              <div className="flex">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="w-4 h-4 text-amber-400 fill-amber-400" />
-                ))}
-              </div>
-              <span className="text-sm text-slate-500">(Verified Purchase)</span>
-            </div>
             <div className="flex items-baseline gap-3 mb-5">
               {product.oldPrice && <span className="text-xl text-slate-400 line-through">₨ {product.oldPrice.toLocaleString()}</span>}
               <span className="text-4xl font-black text-green-900">₨ {product.price.toLocaleString()}</span>
@@ -254,7 +246,7 @@ export default async function ProductPage({ params }: Props) {
             <OrderInquiryButton name={product.name} price={product.price} />
 
             <div className="flex flex-col gap-2 text-sm text-slate-500">
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> 100% Non-Blast — no explosion risk under any condition</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Non-blast design — certified to ISO 11119-3 and EN 14427:2022</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> PEC Licensed manufacturing facility, Gujranwala</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Every unit hydro-tested before dispatch</div>
             </div>

@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: 'WAATechnologies',
     title: 'WAATechnologies | Non-Blast Composite LPG Gas Cylinders',
     description:
-      "Pakistan's leading manufacturer of 100% explosion-proof composite LPG cylinders. ISO certified, lightweight, UV resistant & corrosion-proof.",
+      "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders. ISO certified, lightweight, UV resistant & corrosion-proof.",
     images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'WAATechnologies — Non-Blast Composite LPG Cylinders Pakistan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'WAATechnologies | Non-Blast Composite LPG Cylinders Pakistan',
-    description: "Pakistan's leading manufacturer of 100% explosion-proof composite LPG cylinders.",
+    description: "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders.",
     images: ['/images/og-image.webp'],
   },
   robots: {
@@ -142,7 +142,7 @@ const orgSchema = {
       '@id': 'https://waatechnologies.com/#website',
       url: 'https://waatechnologies.com',
       name: 'WAATechnologies',
-      description: "Pakistan's leading manufacturer of 100% explosion-proof composite LPG cylinders",
+      description: "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders",
       publisher: { '@id': 'https://waatechnologies.com/#organization' },
       inLanguage: 'en-PK',
     },

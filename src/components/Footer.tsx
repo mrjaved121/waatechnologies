@@ -54,6 +54,8 @@ export default function Footer() {
               <Mail className="w-4 h-4 text-green-400 flex-shrink-0" />
               info@waatechnologies.com
             </a>
+            <a href="https://www.facebook.com/waatechnologiespvtltd/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">Facebook</a>
+            <a href="https://www.instagram.com/waatechnologies" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">Instagram</a>
             <div className="flex items-start gap-2 text-slate-400">
               <MapPin className="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" />
               <span>172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore</span>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {
   Shield, Zap, Feather, Sun, Droplets, Award,
-  ChevronRight, Star, CheckCircle2, ArrowRight, Phone
+  ChevronRight, CheckCircle2, ArrowRight, Phone
 } from 'lucide-react';
 import HeroCylinder from '@/components/HeroCylinder';
 import AzadiMobileHero from '@/components/AzadiMobileHero';
@@ -18,9 +18,9 @@ const productImages: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: 'WAATechnologies | Non-Blast Composite LPG Gas Cylinders Pakistan',
+  title: { absolute: 'Composite LPG Gas Cylinder in Pakistan | WAATechnologies' },
   description:
-    "WAATechnologies — Pakistan's leading composite LPG cylinder manufacturer. 100% explosion-proof, lightweight, UV resistant, ISO certified. Shop 5kg & 10kg cylinders.",
+    'Non-blast composite LPG cylinders made in Gujranwala, certified to ISO 11119-3 and EN 14427. 5 kg and 10 kg sizes, dealers nationwide. Order on WhatsApp.',
   alternates: { canonical: 'https://waatechnologies.com' },
 };
 
@@ -119,7 +119,7 @@ export default function HomePage() {
           <div className="text-white">
             <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-2 text-sm font-medium mb-6">
               <Zap className="w-4 h-4 text-amber-300" />
-              Pakistan&apos;s #1 Composite Gas Cylinder
+              Made-in-Pakistan Composite Gas Cylinder
             </div>
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-4">
               <span className="text-amber-300">Non-Blast</span>
@@ -536,11 +536,6 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-6">
             {testimonials.map((t) => (
               <div key={t.name} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 card-hover">
-                <div className="flex mb-4">
-                  {Array.from({ length: t.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 text-amber-400 fill-amber-400" />
-                  ))}
-                </div>
                 <p className="text-slate-600 text-sm leading-relaxed mb-5 italic">&ldquo;{t.text}&rdquo;</p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-900 text-sm flex-shrink-0">
@@ -548,7 +543,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <div className="font-bold text-slate-900 text-sm">{t.name}</div>
-                    <div className="text-slate-600 text-xs">Verified Customer</div>
+                    <div className="text-slate-600 text-xs">Customer</div>
                   </div>
                 </div>
               </div>

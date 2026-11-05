@@ -943,7 +943,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <h3>Mistake 6: Covering the Cylinder with a Cloth or Bag</h3>
       <p>Covering the cylinder for aesthetic reasons — a cloth, a bag, a decorative cover — prevents heat dissipation and, more critically, prevents early detection of a leak by smell. The cover also creates a local enclosed space around the valve area where leaked gas accumulates and concentrates before escaping to the broader room. Never cover an LPG cylinder with any material.</p>
 
-      <h3>Mistake 7: Storing an "Empty" Cylinder Carelessly</h3>
+      <h3>Mistake 7: Storing an &ldquo;Empty&rdquo; Cylinder Carelessly</h3>
       <p>There is no such thing as a truly empty LPG cylinder. A cylinder that no longer feeds the stove still contains residual LPG vapour at above-atmospheric pressure. This residual gas is sufficient to ignite if the valve is damaged or left open. Treat every LPG cylinder — regardless of how &quot;empty&quot; it appears — with the same storage care as a full cylinder. Always store with the valve closed and in the correct upright position, even if you believe the cylinder is empty.</p>
 
       <h2>Best Locations to Store an LPG Cylinder in a Pakistani Home</h2>
@@ -3060,7 +3060,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>All of these methods share a common flaw: they are indirect, imprecise, inconvenient, or actively unsafe. None of them tell you accurately how much gas you have right now without extra effort.</p>
 
-      <h2>How the Composite Cylinder's Translucent Body Works</h2>
+      <h2>How the Composite Cylinder&apos;s Translucent Body Works</h2>
 
       <p>WAA Technologies composite cylinders are manufactured with a seamless HDPE (High-Density Polyethylene) inner liner, overwrapped with filament-wound glass fibre under tension. HDPE is a semi-translucent material — it is not perfectly clear like glass, but it transmits enough light that the contents of the cylinder are visible through the wall in good lighting conditions. This is the same material and optical property that makes white plastic containers slightly see-through when you hold them up to a light.</p>
 
@@ -5651,7 +5651,7 @@ export default async function SlugPage({ params }: Props) {
                 name: 'WAATechnologies Pvt Ltd',
                 logo: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/global-waatech-logo.png', width: 991, height: 833 },
               },
-              image: { '@type': 'ImageObject', url: 'https://waatechnologies.com/images/post-image.jpg', width: 768, height: 512 },
+              image: { '@type': 'ImageObject', url: `https://waatechnologies.com/${post.slug}/opengraph-image`, width: 1200, height: 630 },
               url: `https://waatechnologies.com/${post.slug}`,
               mainEntityOfPage: { '@type': 'WebPage', '@id': `https://waatechnologies.com/${post.slug}` },
               about: {

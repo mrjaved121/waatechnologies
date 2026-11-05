@@ -1,7 +1,7 @@
 ﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Filter, Star } from 'lucide-react';
+import { Filter } from 'lucide-react';
 import OrderInquiryButton from '@/components/OrderInquiryButton';
 
 const productImages: Record<string, string> = {
@@ -19,18 +19,18 @@ const colorGradient: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: 'Shop — LPG Composite Cylinders',
+  title: 'LPG Composite Cylinder Prices: 5kg & 10kg',
   description:
-    'WAATechnologies composite LPG cylinders — 5kg and 10kg sizes. 100% explosion-proof, ISO certified. Order via WhatsApp for fast delivery across Pakistan.',
+    'Composite LPG cylinder prices in Pakistan: 5 kg Rs 8,000 and 10 kg Rs 11,000 in four colours. ISO-certified, made in Gujranwala. Order on WhatsApp today.',
   alternates: { canonical: 'https://waatechnologies.com/shop' },
 };
 
 const products = [
-  { name: '10 Kg Fiber Gas Cylinder', slug: '10-kg-fiber-gas-cylinder', price: 11000, oldPrice: null, color: 'Yellow', weight: '10 kg', rating: 4.9, reviews: 23 },
-  { name: '5 Kg LPG Fiber Gas Cylinder Price in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500, color: 'Blue', weight: '5 kg', rating: 4.8, reviews: 41, badge: 'Sale' },
-  { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null, color: 'Cerulean Blue', weight: '10 kg', rating: 5.0, reviews: 12 },
-  { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null, color: 'Tiger Orange', weight: '10 kg', rating: 4.9, reviews: 19 },
-  { name: 'LPG Composite Cylinder 10Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000, oldPrice: null, color: 'Traditional Blue', weight: '10 kg', rating: 4.8, reviews: 8 },
+  { name: '10 Kg Fiber Gas Cylinder', slug: '10-kg-fiber-gas-cylinder', price: 11000, oldPrice: null, color: 'Yellow', weight: '10 kg' },
+  { name: '5 Kg LPG Fiber Gas Cylinder Price in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500, color: 'Blue', weight: '5 kg', badge: 'Sale' },
+  { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null, color: 'Cerulean Blue', weight: '10 kg' },
+  { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null, color: 'Tiger Orange', weight: '10 kg' },
+  { name: 'LPG Composite Cylinder 10Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000, oldPrice: null, color: 'Traditional Blue', weight: '10 kg' },
 ];
 
 const shopSchema = {
@@ -131,12 +131,6 @@ export default function ShopPage() {
                   <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors line-clamp-2">
                     {p.name}
                   </h3>
-                  <div className="flex items-center gap-1 mb-2">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className={`w-3 h-3 ${i < Math.floor(p.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-200 fill-slate-200'}`} />
-                    ))}
-                    <span className="text-xs text-slate-600 ml-1">({p.reviews})</span>
-                  </div>
                   <div className="flex items-center gap-2 mb-4">
                     {p.oldPrice && <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
                     <span className="text-lg font-black text-green-900">₨ {p.price.toLocaleString()}</span>

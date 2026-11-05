@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
               "img-src 'self' data: https:",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
-              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com",
+              "script-src 'self' 'unsafe-inline' https://*.googletagmanager.com https://www.google-analytics.com",
               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://wa.me https://api.whatsapp.com",
               "base-uri 'self'",
               "form-action 'self'",

@@ -40,7 +40,7 @@ export function metaDescriptionFor(post: Post): string {
   return head.slice(0, head.lastIndexOf(' ')).replace(/[,:;—–-]+$/, '') + '…';
 }
 
-export const allPosts: Post[] = [
+const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
   // ── Price / OGRA ─────────────────────────────────────────────────────────────
@@ -915,6 +915,61 @@ export const allPosts: Post[] = [
     excerpt: 'How WAA composite cylinders have become the go-to choice for campers, trekkers, and outdoor enthusiasts across Pakistan seeking safe, lightweight gas storage.',
   },
 ];
+
+// Thin/duplicate posts retired by the audit: each 301-redirects to its best real
+// guide (next.config.ts), so keep them out of listings, tags, OG images and the sitemap.
+export const RETIRED_SLUGS = new Set<string>([
+  'the-science-of-assisting-with-leak-proof-fiber-lpg-cylinders',
+  'the-science-supporting-leak-proof-fiber-lpg-cylinders',
+  'blast-proof-technology-works-in-lpg-cylinders',
+  'benefits-of-blast-proof-lpg-cylinders-household-safety',
+  'benefits-of-blast-proof-lpg-cylinders',
+  'why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction',
+  'why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction-2',
+  'how-lightweight-lpg-cylinders-are-affecting-the-sector',
+  'smart-lpg-cylinders-iot-improves-efficiency-and-safety',
+  'the-future-of-lpg-the-reason-fiber-cylinders-are-substituting-steel',
+  'the-transformation-of-energy-storage-via-fiber-lpg-cylinders',
+  'technologies-driving-the-change-from-steel-to-fiber-lpg-cylinders',
+  'novel-ideas-guiding-the-transition-from-steel-to-fiber-lpg-cylinders',
+  'composite-lpg-cylinders-over-traditional-metal-cylinders',
+  '5-reasons-to-switch-to-composite-lpg-cylinders-for-your-home',
+  '5-reasons-to-switch-to-composite-lpg-cylinder',
+  'environmentally-friendly-gas-cylinder-toward-sustainable-energy-storage-as-knowledge-of-environmental-consequences-spreads-around-the-globe',
+  'fiber-gas-cylinders-support-a-sustainable-future',
+  'the-environmental-advantages-of-changing-to-fiber-lpg-cylinders',
+  'fiber-lpg-cylinders-advantages-for-the-environment',
+  'how-eco-friendly-lpg-fiber-cylinders-are-reducing-carbon-footprint-globally',
+  'eco-friendly-lpg-fiber-cylinders-reducing-carbon',
+  'a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders',
+  'a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders-2',
+  'the-eco-friendly-features-of-waa-composite-cylinders',
+  'the-role-of-recyclable-materials-in-the-lpg-fiber-cylinder-manufacturing',
+  'recyclable-materials-in-lpg-fiber-cylinder-manufacturing',
+  'the-top-10-applications-for-lpg-fiber-cylinders-in-industries-and-homes',
+  'how-fiber-cylinders-help-meet-industrial-and-construction-needs',
+  'waatechnologies-blast-proof-cylinders-busy-restaurant-safety',
+  'the-reasons-fiber-cylinders-are-ideal-for-barbecuing-and-outdoor-events',
+  'waatechnologies-blast-proof-cylinder-public-event-safety',
+  'waatechnologies-blast-proof-cylinder-outdoor-camping-safety',
+  'camping-blast-proof-lpg-cylinders-outdoor-adventures',
+  'fiber-gas-cylinders-in-marine-applications-safety-and-durability-advantages',
+  'winter-heating',
+  'the-future-of-lpg-cylinders',
+  'lpg-industry-trends-the-growing-demand-for-composite-cylinders',
+  'lpg-industry-trends-growing-demand-for-composite-cylinders',
+  'why-waa-techs-lpg-cylinders-are-a-game-changer-for-the-energy-industry',
+  'lpg-cylinders-game-changer-energy-industry',
+  'best-practice-for-safely-using-lpg-composite-cylinders-at-home',
+  'best-practices-for-safely-using-lpg-composite-cylinders',
+  'top-5-features-that-make-waa-techs-composite-cylinders-stand-out',
+  'features-waatech-composite-cylinders-standout',
+  'waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability',
+  'waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability-2',
+  'lpg-fiber-cylinder-applications-in-the-automobile-sector',
+]);
+
+export const allPosts: Post[] = allPostsRaw.filter((p) => !RETIRED_SLUGS.has(p.slug));
 
 export function getPostBySlug(slug: string): Post | undefined {
   return allPosts.find((p) => p.slug === slug);
