@@ -69,6 +69,10 @@ const orgSchema = {
       '@id': 'https://waatechnologies.com/#organization',
       name: 'WAATechnologies Pvt Ltd',
       alternateName: ['WAA Tech', 'WAATechnologies', 'Global WAATechnologies'],
+      sameAs: [
+        'https://www.facebook.com/waatechnologiespvtltd/',
+        'https://www.instagram.com/waatechnologies',
+      ],
       url: 'https://waatechnologies.com',
       logo: {
         '@type': 'ImageObject',
