@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { allPosts, getBlogPosts } from '@/lib/posts';
+import { allPosts } from '@/lib/posts';
 
 const base = 'https://waatechnologies.com';
 const REDIRECTED = new Set([
@@ -52,7 +52,8 @@ const REDIRECTED = new Set([
   'waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability-2',
   'lpg-fiber-cylinder-applications-in-the-automobile-sector',
 ]);
-const now = new Date();
+// Fixed date: avoids stamping every static page "today" on each build (Google discounts that). Bump when pages really change.
+const now = new Date('2026-11-04');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -81,14 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'lpg-composite-cylinder-10kg-traditional-blue',
   ];
 
-  const blogPosts = getBlogPosts();
-  const totalPages = Math.ceil(blogPosts.length / 10);
-  const paginationPages: MetadataRoute.Sitemap = Array.from({ length: totalPages - 1 }, (_, i) => ({
-    url: `${base}/blog/page/${i + 2}`,
-    lastModified: now,
-    changeFrequency: 'weekly' as const,
-    priority: 0.5,
-  }));
+  // Paginated blog list pages (/blog/page/N) are noindex, so they are not listed here.
 
   // Tag listing pages are intentionally excluded from the sitemap: most are thin
   // (noindex in the tag route) and including them dilutes crawl focus + inflates
@@ -148,6 +142,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: post.type === 'case-study' ? 0.7 : deepBlogSlugs.has(post.slug) ? 0.95 : 0.75,
     })),
-    ...paginationPages,
   ];
 }

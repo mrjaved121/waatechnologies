@@ -141,14 +141,6 @@ const orgSchema = {
       description: "Pakistan's leading manufacturer of 100% explosion-proof composite LPG cylinders",
       publisher: { '@id': 'https://waatechnologies.com/#organization' },
       inLanguage: 'en-PK',
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: 'https://waatechnologies.com/shop?search={search_term_string}',
-        },
-        'query-input': 'required name=search_term_string',
-      },
     },
   ],
 };
