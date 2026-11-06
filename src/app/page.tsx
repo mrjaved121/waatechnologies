@@ -102,6 +102,20 @@ const testimonials = [
 ];
 
 
+// Homepage FAQ — rendered visibly below and emitted as FAQPage structured data.
+const homeFaqs = [
+  { q: 'Are composite LPG cylinders safe?', a: 'Yes. WAATechnologies composite cylinders are certified to ISO 11119-3 and BS EN 14427:2022. They have no welded seams and no steel to rust, and in fire tests composite cylinders vent gas through the wall instead of bursting, which is why they are called non-blast.' },
+  { q: 'How much does a WAATechnologies composite cylinder cost?', a: 'The 5 kg composite cylinder is Rs 8,000 and the 10 kg composite cylinder is Rs 11,000. The 10 kg is available in Yellow, Cerulean Blue, Tiger Orange and Traditional Blue. Confirm current pricing with any authorised dealer.' },
+  { q: 'How long does a composite cylinder last?', a: 'WAA composite cylinders carry a rated service life of 20+ years under ISO 11119-3. Because the body does not corrode, they do not weaken over time the way steel cylinders do.' },
+  { q: 'Can I see how much gas is left?', a: 'Yes. The composite body is translucent, so you can see the gas level at a glance without lifting or shaking the cylinder.' },
+  { q: 'Is a composite cylinder lighter than a steel one?', a: 'Yes, significantly. The composite construction makes the cylinder far lighter than a steel cylinder of the same capacity, which matters for elderly users, upper-floor homes and busy restaurant kitchens.' },
+  { q: 'Where can I buy a WAATechnologies cylinder?', a: 'From authorised dealers in Lahore, Rawalpindi and Islamabad, Sialkot, Karachi, Hyderabad and Peshawar, listed with addresses and phone numbers on our dealers page, or by ordering on WhatsApp for delivery.' },
+  { q: 'How do I refill or exchange a composite cylinder?', a: 'Through the authorised dealer network. Dealers refill by weight and check the valve and body each time. Never refill a cylinder yourself or at an unlicensed roadside setup.' },
+  { q: 'Will it work with my existing regulator?', a: 'WAA cylinders are designed for the standard household LPG regulators sold in Pakistan. Our step-by-step guide shows how to connect a regulator safely at home.' },
+  { q: 'Is WAATechnologies a Pakistani company?', a: 'Yes. WAATechnologies Pvt Ltd is SECP-incorporated, PEC-licensed and manufactures its cylinders in Gujranwala, Punjab, with a head office in Bahria Town, Lahore.' },
+  { q: 'Which certifications do the cylinders hold?', a: 'ISO 9001:2015 quality management, ISO 11119-3 and BS EN 14427:2022 for the cylinders themselves, plus a Pakistan Engineering Council (PEC) licence.' },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -516,6 +530,104 @@ export default function HomePage() {
             <Link href="/our-products-and-advantages" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all">
               VIEW MORE
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── GUIDE: COMPOSITE CYLINDERS IN PAKISTAN ───────────────────────── */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Buyer&apos;s guide</span>
+            <h2 className="text-4xl font-black text-slate-900 mt-2">Composite LPG Cylinders in Pakistan: What Every Buyer Should Know</h2>
+          </div>
+          <div className="prose prose-slate max-w-none prose-headings:font-black prose-h3:text-2xl prose-a:text-green-800 prose-p:leading-relaxed">
+            <h3>What is a composite LPG cylinder?</h3>
+            <p>
+              A composite LPG cylinder is built from a fibre-reinforced polymer shell wound around a high-density
+              polyethylene (HDPE) liner, instead of welded steel. That construction is what changes the safety outcome.
+              Steel cylinders rust from the inside, weaken at the weld seams and can rupture under pressure or in a fire.
+              A composite cylinder has no welds and no metal to corrode. In fire tests carried out under ISO 11119-3 and
+              BS EN 14427:2022, composite cylinders vent gas through the wall rather than bursting, which is why they are
+              described as <Link href="/are-composite-lpg-cylinders-safe-pakistan">non-blast</Link>. The body is also
+              translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder">see how much gas is left</Link>{' '}
+              instead of guessing.
+            </p>
+
+            <h3>Made in Pakistan, in Gujranwala</h3>
+            <p>
+              WAATechnologies Pvt Ltd manufactures its composite cylinders at its facility in Gujranwala, Punjab, with a head
+              office in Bahria Town, Lahore. The company is SECP-incorporated and PEC-licensed, and the cylinders are produced
+              under ISO 9001:2015 quality management and certified to ISO 11119-3 and BS EN 14427:2022, the same international
+              standards that imported composite cylinders carry. Building locally means dealer supply, refills and support are
+              handled inside Pakistan. Read more about <Link href="/our-technology">how the cylinders are made</Link>.
+            </p>
+
+            <h3>Sizes, colours and prices</h3>
+            <p>
+              WAA cylinders come in two household sizes. The <strong>5 kg composite cylinder (Rs 8,000)</strong> suits small
+              families, single-burner cooking, travel and camping. The <strong>10 kg composite cylinder (Rs 11,000)</strong> is
+              the everyday choice for family kitchens and comes in four finishes: Yellow, Cerulean Blue, Tiger Orange and
+              Traditional Blue. Both sizes share the same non-blast construction and the same certifications; only capacity and
+              colour differ. See current options in the <Link href="/shop">shop</Link>.
+            </p>
+
+            <h3>Who uses them</h3>
+            <p>
+              Households moving away from steel &ldquo;gola&rdquo; cylinders are the largest group. Composite cylinders are also
+              used by <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan">restaurants</Link> and{' '}
+              <Link href="/composite-lpg-cylinders-food-trucks-street-vendors-pakistan">food trucks</Link>, where a lighter
+              cylinder and a visible gas level mean fewer mid-service surprises, as well as by outdoor cooks, campers and
+              businesses that store several cylinders and want to cut corrosion and handling risk.
+            </p>
+
+            <h3>How to make sure yours is genuine</h3>
+            <p>
+              Buy only from an <Link href="/authorized-dealers">authorised WAATechnologies dealer</Link>. A genuine cylinder has
+              a translucent composite body that shows the gas level and carries the WAATechnologies branding and certification
+              markings on the body. If a seller cannot show the certification marking or is not on our dealer list, do not buy;
+              call us and we will verify the dealer for you.
+            </p>
+
+            <h3>Where to buy, refill and exchange</h3>
+            <p>
+              Authorised dealers are listed with addresses and phone numbers for Lahore, Rawalpindi and Islamabad, Sialkot,
+              Karachi, Hyderabad and Peshawar, and you can order on WhatsApp for delivery. Refills and exchanges go through the
+              dealer network, which fills by weight and checks the valve and body each time. Never refill a cylinder yourself or
+              at an unlicensed roadside setup. Our guide explains{' '}
+              <Link href="/how-to-refill-composite-lpg-cylinder-pakistan">how refilling works step by step</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── FAQ ──────────────────────────────────────────────────────────── */}
+      <section className="py-20 bg-slate-50">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: homeFaqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+            }),
+          }}
+        />
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">FAQ</span>
+            <h2 className="text-4xl font-black text-slate-900 mt-2">Frequently Asked Questions</h2>
+          </div>
+          <div className="space-y-4">
+            {homeFaqs.map((f) => (
+              <details key={f.q} className="group bg-white border border-slate-100 rounded-2xl p-6 shadow-sm open:shadow-md">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-900">
+                  {f.q}
+                  <ChevronRight className="w-5 h-5 text-green-800 transition-transform group-open:rotate-90 flex-shrink-0" />
+                </summary>
+                <p className="mt-4 text-slate-600 leading-relaxed">{f.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
