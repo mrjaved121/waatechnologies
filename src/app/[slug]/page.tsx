@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Calendar, MapPin, Tag, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { allPosts, getPostBySlug, seoTitleFor, metaDescriptionFor } from '@/lib/posts';
+import { restoredPosts } from '@/content/restored-posts';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -5566,7 +5567,9 @@ export default async function SlugPage({ params }: Props) {
     .filter((p) => p.slug !== slug && p.type === post.type)
     .slice(0, 3);
 
-  const content = articleContent[slug] ?? <DefaultContent post={post} />;
+  const content =
+    articleContent[slug] ??
+    (restoredPosts[slug] ? <div dangerouslySetInnerHTML={{ __html: restoredPosts[slug].html }} /> : <DefaultContent post={post} />);
 
   return (
     <>
@@ -5636,7 +5639,7 @@ export default async function SlugPage({ params }: Props) {
               datePublished: new Date(post.date).toISOString(),
               dateModified: new Date(post.date).toISOString(),
               inLanguage: 'en-PK',
-              wordCount: wordCounts[post.slug],
+              wordCount: wordCounts[post.slug] ?? restoredPosts[post.slug]?.words,
               keywords: post.tags?.join(', '),
               articleSection: post.category,
               author: {
