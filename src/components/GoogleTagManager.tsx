@@ -7,11 +7,9 @@ const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? 'GTM-5QSDTQZ7';
 export default function GoogleTagManager() {
   return (
     <>
-      <Script id="gtm-init" strategy="afterInteractive">
-        {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());`}
-      </Script>
+      {/* Consent Mode defaults are set by an inline script in the root layout <head>,
+          which runs before this loader so no analytics cookie is set until the visitor
+          chooses in CookieNotice. */}
       <Script src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`} strategy="afterInteractive" />
     </>
   );

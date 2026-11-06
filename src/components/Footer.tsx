@@ -14,6 +14,7 @@ const usefulLinks = [
   { label: 'Authorized Dealers', href: '/authorized-dealers' },
   { label: 'Waa Tech Stores', href: '/waa-tech-stores' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
+  { label: 'Terms of Use', href: '/terms' },
   { label: 'Returns', href: '/returns' },
 ];
 
@@ -123,6 +124,7 @@ export default function Footer() {
           <span>© 2026 WAATechnologies. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="hover:text-green-400 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-green-400 transition-colors">Terms of Use</Link>
             <Link href="/returns" className="hover:text-green-400 transition-colors">Returns</Link>
           </div>
         </div>

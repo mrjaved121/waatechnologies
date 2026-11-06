@@ -204,7 +204,7 @@ const allPostsRaw: Post[] = [
   },
   {
     slug: 'ogra-rules-lpg-cylinders-pakistan',
-    title: 'OGRA Rules for LPG Cylinders in Pakistan — What Every Household and Business Must Know in 2025',
+    title: 'OGRA Rules for LPG Cylinders in Pakistan — What Every Household and Business Must Know',
     date: 'Jun 24, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -214,7 +214,7 @@ const allPostsRaw: Post[] = [
   },
   {
     slug: 'steel-vs-composite-lpg-cylinder-pakistan',
-    title: 'Steel vs Composite LPG Cylinder: Complete Comparison for Pakistani Homes (2025)',
+    title: 'Steel vs Composite LPG Cylinder: Complete Comparison for Pakistani Homes',
     date: 'Jun 24, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -256,7 +256,7 @@ const allPostsRaw: Post[] = [
   // ── Price / Buy (Batch 3) ────────────────────────────────────────────────────
   {
     slug: 'composite-lpg-cylinder-price-pakistan-2025',
-    title: 'Composite LPG Cylinder Price in Pakistan 2025 — How Much Does a Fiber Gas Cylinder Cost?',
+    title: 'Composite LPG Cylinder Price in Pakistan 2026 — How Much Does a Fiber Gas Cylinder Cost?',
     date: 'Jun 24, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -329,7 +329,7 @@ const allPostsRaw: Post[] = [
   // ── Authority / Industry (Batch 6) ───────────────────────────────────────────
   {
     slug: 'lpg-industry-pakistan-market-size-future-outlook',
-    title: 'LPG Industry in Pakistan: Market Size, Key Players, and Future Outlook (2025)',
+    title: 'LPG Industry in Pakistan: Market Size, Key Players and Future Outlook',
     date: 'Jun 24, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -349,7 +349,7 @@ const allPostsRaw: Post[] = [
   },
   {
     slug: 'ogra-licensed-lpg-cylinder-manufacturers-pakistan',
-    title: 'OGRA Licensed LPG Cylinder Manufacturers in Pakistan — Complete 2025 List',
+    title: 'OGRA Licensed LPG Cylinder Manufacturers in Pakistan — The Complete List',
     date: 'Jun 24, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -410,7 +410,7 @@ const allPostsRaw: Post[] = [
   },
   {
     slug: 'winter-gas-shortage-pakistan-2025-prepare-your-home',
-    title: 'Winter Gas Shortage Pakistan 2025 — Prepare Your Home',
+    title: 'Winter Gas Shortage in Pakistan — How to Prepare Your Home',
     date: 'Jun 21, 2026',
     category: 'WAATechCylinders',
     type: 'blog',
@@ -440,7 +440,7 @@ const allPostsRaw: Post[] = [
   },
   {
     slug: 'cost-benefits-of-composite-lpg-cylinders-a-smart-investment-for-2025',
-    title: 'Cost Benefits of Composite LPG Cylinders: A Smart Investment for 2025',
+    title: 'Cost Benefits of Composite LPG Cylinders: A Smart Investment',
     date: 'May 2, 2025',
     category: 'WAATechCylinders',
     type: 'blog',

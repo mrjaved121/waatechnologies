@@ -235,6 +235,33 @@ export default async function ProductPage({ params }: Props) {
 
             <OrderInquiryButton name={product.name} price={product.price} />
 
+            {/* Buying terms — the questions buyers ask before ordering (delivery, payment,
+                warranty). Confirmed figures only; anything unconfirmed is not stated here. */}
+            <div className="rounded-2xl border border-line bg-white p-5 mb-6">
+              <h3 className="font-bold text-ink mb-3">Delivery &amp; ordering</h3>
+              <dl className="flex flex-col gap-2.5 text-sm">
+                <div className="flex gap-3">
+                  <dt className="w-28 flex-shrink-0 text-muted">Delivery</dt>
+                  <dd className="text-ink font-medium">Within 2 to 6 days, through your nearest authorised dealer</dd>
+                </div>
+                <div className="flex gap-3">
+                  <dt className="w-28 flex-shrink-0 text-muted">How to order</dt>
+                  <dd className="text-ink font-medium">On WhatsApp, or by phone on (+92) 42 3781 5533</dd>
+                </div>
+                <div className="flex gap-3">
+                  <dt className="w-28 flex-shrink-0 text-muted">Payment</dt>
+                  <dd className="text-ink font-medium">Arranged directly with your dealer when the order is confirmed</dd>
+                </div>
+                <div className="flex gap-3">
+                  <dt className="w-28 flex-shrink-0 text-muted">Refills</dt>
+                  <dd className="text-ink font-medium">Through the same authorised dealer, filled by weight</dd>
+                </div>
+              </dl>
+              <p className="mt-3 text-xs text-muted">
+                Prices are manufacturer list prices. Confirm current pricing and availability with your dealer.
+              </p>
+            </div>
+
             <div className="flex flex-col gap-2 text-sm text-muted">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-brand" /> Non-blast design — certified to ISO 11119-3 and EN 14427:2022</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-brand" /> PEC Licensed manufacturing facility, Gujranwala</div>

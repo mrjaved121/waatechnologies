@@ -15,7 +15,7 @@ const stores = [
     address: '172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore',
     phone: '(+92) 4237815533',
     whatsapp: '+92 3414999998',
-    hours: 'Mon–Sat: 9:00 AM – 6:00 PM',
+    hours: 'Mon–Sat: 10:00 AM – 5:00 PM',
     type: 'Head Office',
     badge: 'bg-tint text-brand',
   },

@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/category/casestudies`,               lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/category/waatechcylinders`,          lastModified: now, changeFrequency: 'weekly',  priority: 0.65 },
     { url: `${base}/contact-us`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/terms`,                              lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
     { url: `${base}/privacy-policy`,                     lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
     { url: `${base}/returns`,                            lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
   ];

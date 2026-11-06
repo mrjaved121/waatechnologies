@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import IndependenceBanner from '@/components/IndependenceBanner';
 import GoogleTagManager from '@/components/GoogleTagManager';
 import FloatingContact from '@/components/FloatingContact';
+import CookieNotice from '@/components/CookieNotice';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
 const outfit = Outfit({ variable: '--font-outfit', subsets: ['latin'], weight: ['600', '700', '800'], display: 'swap' });
@@ -155,6 +156,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en-PK" className={`${geistSans.variable} ${outfit.variable} h-full`}>
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+        {/* Google Consent Mode defaults. Must run before gtm.js, so it lives here rather
+            than in a next/script tag: analytics and ad storage start denied, and a
+            visitor's earlier "granted" choice is replayed so they are not asked twice. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem('waa-analytics-consent')==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}gtag('js',new Date());`,
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <GoogleTagManager />
@@ -163,6 +172,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingContact />
+        <CookieNotice />
       </body>
     </html>
   );
