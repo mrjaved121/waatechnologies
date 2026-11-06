@@ -59,6 +59,23 @@ const nextConfig: NextConfig = {
       { source: '/waatechnologies-blast-proof-cylinder-outdoor-camping-safety', destination: '/composite-lpg-cylinders-food-trucks-street-vendors-pakistan', permanent: true },
       { source: '/waatechnologies-blast-proof-cylinder-public-event-safety', destination: '/composite-lpg-cylinders-food-trucks-street-vendors-pakistan', permanent: true },
       { source: '/waatechnologies-blast-proof-cylinders-busy-restaurant-safety', destination: '/why-restaurants-switching-composite-lpg-cylinders-pakistan', permanent: true },
+
+      // WordPress duplicates: the same three articles were published twice. The "-2"
+      // copies have been removed from the post list and point at the originals.
+      { source: '/why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction-2', destination: '/why-more-families-choosing-waatechnologies-for-safer-lpg-storage-introduction', permanent: true },
+      { source: '/waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability-2', destination: '/waa-technologies-leading-the-future-of-lpg-composite-cylinders-with-innovation-safety-and-sustainability', permanent: true },
+      { source: '/a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders-2', destination: '/a-greener-choice-the-eco-friendly-features-of-waa-composite-cylinders', permanent: true },
+
+      // Leftover WooCommerce and RSS paths from the old WordPress site. Search Console
+      // still reports these as 404s, so send them to the nearest live page instead of
+      // losing whatever link value they carry.
+      { source: '/product-category/:slug*', destination: '/shop', permanent: true },
+      { source: '/product-tag/:slug*', destination: '/shop', permanent: true },
+      { source: '/category/:slug*', destination: '/blog', permanent: true },
+      { source: '/tag/:slug*', destination: '/blog', permanent: true },
+      { source: '/:slug/feed', destination: '/:slug', permanent: true },
+      { source: '/feed', destination: '/blog', permanent: true },
+      { source: '/comments/feed', destination: '/blog', permanent: true },
     ];
   },
 };
