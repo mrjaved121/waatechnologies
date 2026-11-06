@@ -1,20 +1,11 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  Shield, Zap, Feather, Sun, Droplets, Award,
-  ChevronRight, CheckCircle2, ArrowRight, Phone
+  ShieldCheck, Feather, Eye, Droplets, MessageCircle, Truck, Flame,
+  CheckCircle2, ArrowRight, ChevronRight,
 } from 'lucide-react';
-import HeroCylinder from '@/components/HeroCylinder';
-import AzadiMobileHero from '@/components/AzadiMobileHero';
 import OrderInquiryButton from '@/components/OrderInquiryButton';
-
-const productImages: Record<string, string> = {
-  '10-kg-fiber-gas-cylinder': '/images/10kg-cylinder-yellow.jpg',
-  '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.jpg',
-  'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
-  'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.jpg',
-};
 
 export const metadata: Metadata = {
   title: { absolute: 'Composite LPG Gas Cylinder in Pakistan | WAATechnologies' },
@@ -23,84 +14,62 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://waatechnologies.com' },
 };
 
-const features = [
-  {
-    icon: Shield,
-    title: 'WAA Technology',
-    desc: 'WAATechnologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
-    color: 'bg-green-50 text-green-900',
-    border: 'border-green-200',
-  },
-  {
-    icon: Zap,
-    title: '100% Explosion Proof',
-    desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire. Tested to ISO 11119-3 and BS EN 14427:2022 standards.',
-    color: 'bg-amber-50 text-amber-700',
-    border: 'border-amber-200',
-  },
-  {
-    icon: Feather,
-    title: 'Light Weight',
-    desc: 'WAA Tech Cylinders are user friendly due to the attractive design and 50% lighter than conventional cylinder. Its weight is 5.5 kg approximately.',
-    color: 'bg-blue-50 text-blue-700',
-    border: 'border-blue-200',
-  },
-  {
-    icon: Sun,
-    title: 'UV Resistant',
-    desc: 'WAA Tech Cylinder is UV resistant to effects from sun, rain and temperature due to atmospheric variations and rough handling. Cylinder color will not be altered even after prolong usage.',
-    color: 'bg-orange-50 text-orange-700',
-    border: 'border-orange-200',
-  },
-  {
-    icon: Droplets,
-    title: 'Corrosion Proof',
-    desc: "WAA Tech Composite Cylinder is corrosion free as it doesn't leave stain on kitchen floor or anywhere else. It never gets corrode even in humid or coastal areas.",
-    color: 'bg-cyan-50 text-cyan-700',
-    border: 'border-cyan-200',
-  },
-  {
-    icon: Award,
-    title: 'Brand Features',
-    desc: 'Brand and Company names are embossed in cylinder at 4 different places. Security features have been added in design to avoid counterfeit. WAA Tech Cylinder can be customized as per customer preferences i.e color and customer brand name etc.',
-    color: 'bg-purple-50 text-purple-700',
-    border: 'border-purple-200',
-  },
-];
+// ─── Data ────────────────────────────────────────────────────────────────────
 
 const products = [
-  { name: '10 Kg Fiber Gas Cylinder Price in Pakistan', slug: '10-kg-fiber-gas-cylinder', price: 11000, oldPrice: null },
-  { name: '5 Kg LPG Fiber Gas Cylinder in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500 },
-  { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null },
-  { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null },
+  { name: '10 kg Composite Cylinder', colour: 'Yellow', slug: '10-kg-fiber-gas-cylinder', price: 11000, oldPrice: null, use: 'The everyday choice for family kitchens.', img: '/images/10kg-cylinder-yellow.jpg', tint: 'bg-amber-50', popular: true },
+  { name: '5 kg Composite Cylinder', colour: 'Blue', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500, use: 'Small households, single burners, travel.', img: '/images/5kg-cylinder.jpg', tint: 'bg-sky-50', popular: false },
+  { name: '10 kg Composite Cylinder', colour: 'Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null, use: 'Same cylinder, modern blue finish.', img: '/images/10kg-blue-Fiber-cylinder.jpg', tint: 'bg-blue-50', popular: false },
+  { name: '10 kg Composite Cylinder', colour: 'Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null, use: 'Same cylinder, bold orange finish.', img: '/images/10kg-cylinder-orange.jpg', tint: 'bg-orange-50', popular: false },
+];
+
+const usps = [
+  { icon: ShieldCheck, text: 'Non-blast by design' },
+  { icon: Feather, text: 'Half the weight of steel' },
+  { icon: Eye, text: 'See your gas level' },
+  { icon: Droplets, text: 'Never rusts' },
+  { icon: CheckCircle2, text: '20+ year rated life' },
+];
+
+const whyComposite = [
+  { icon: ShieldCheck, title: 'It vents, it doesn’t burst', desc: 'No welded seams, no metal fatigue. In fire tests under ISO 11119-3 and BS EN 14427:2022, composite cylinders release gas through the wall instead of rupturing.' },
+  { icon: Feather, title: 'About 5.5 kg empty', desc: 'A 10 kg WAA cylinder weighs roughly half of its steel equivalent, so it is easy to carry up stairs, into a kitchen or onto a food cart.' },
+  { icon: Eye, title: 'You can see the gas', desc: 'The translucent body shows the level at a glance. No shaking, no guessing, no running out mid-meal.' },
+  { icon: Droplets, title: 'Nothing to rust', desc: 'Polymer and fibre do not corrode. UV-stable outer layer keeps its colour outdoors, in humid kitchens and in coastal cities.' },
+];
+
+const specs = [
+  ['Propane capacity', '10 kg'],
+  ['Butane capacity', '12 kg'],
+  ['Water capacity', '24 litres'],
+  ['Height', '580 mm'],
+  ['Diameter', '306 mm'],
+  ['Empty weight', 'approx. 5.5 kg'],
+  ['Service pressure', '20 bar (294 psi)'],
+  ['Test pressure', '30 bar (441 psi)'],
+  ['Standards', 'ISO 11119-3 · BS EN 14427:2022'],
+  ['Quality system', 'ISO 9001:2015 · PEC licensed'],
+];
+
+const steps = [
+  { icon: MessageCircle, step: 'Step 1', title: 'Order on WhatsApp', desc: 'Pick a size and colour, tap Order. No account, no forms. A team member confirms availability on the chat.' },
+  { icon: Truck, step: 'Step 2', title: 'Delivered by your dealer', desc: 'Your nearest authorised dealer supplies and delivers in Lahore, Rawalpindi–Islamabad, Sialkot, Karachi, Hyderabad and Peshawar.' },
+  { icon: Flame, step: 'Step 3', title: 'Connect and cook', desc: 'Fits standard household LPG regulators. Refill or exchange through the same dealer network whenever it runs low.' },
 ];
 
 const certifications = [
   { label: 'Certificate of Incorporation', desc: 'Securities & Exchange Commission of Pakistan', img: '/images/certificates/1-1.jpg' },
-  { label: 'ISO 9001:2015', desc: 'Quality Management System', img: '/images/certificates/waatechnologies-vertificate-ISO-9001-2015.jpg' },
-  { label: 'ISO 11119-3:2020', desc: 'Composite Cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-11119.jpg' },
-  { label: 'BS EN 14427:2022', desc: 'Composite Cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-BSEN-14427-2022-e1747214241127.jpg' },
-  { label: 'PEC License', desc: 'Pakistan Engineering Council', img: '/images/certificates/pec-waatech.jpeg' },
+  { label: 'ISO 9001:2015', desc: 'Quality management system', img: '/images/certificates/waatechnologies-vertificate-ISO-9001-2015.jpg' },
+  { label: 'ISO 11119-3', desc: 'Composite cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-11119.jpg' },
+  { label: 'BS EN 14427:2022', desc: 'Composite cylinders — CE Module B & C', img: '/images/certificates/waatechnologies-certificate-BSEN-14427-2022-e1747214241127.jpg' },
+  { label: 'PEC Licence', desc: 'Pakistan Engineering Council', img: '/images/certificates/pec-waatech.jpeg' },
 ];
 
 const testimonials = [
-  {
-    name: 'Nazir Ahmad',
-    rating: 5,
-    text: 'I Bought cylinder 4 months ago it is jointless which makes me tension free about the gas leakage and make it 100% secure.',
-  },
-  {
-    name: 'Mehdi Khan',
-    rating: 5,
-    text: 'I recently switched to a non-explosion gas cylinder, and I am incredibly satisfied with my purchase. I highly recommend it to anyone prioritizing safety in their home. The jointless technology really make us tension free.',
-  },
-  {
-    name: 'Habib Ullah',
-    rating: 5,
-    text: 'I recently purchased a blue cylinder for my household due to the gas shortages across Pakistan. The quality of their products is tremendous. When we know that the cylinder is blast proof, lifts off the burden on my shoulders and mitigates the risk factor when using the cylinder.',
-  },
+  { name: 'Nazir Ahmad', text: 'I bought the cylinder four months ago. It is jointless, which makes me tension-free about gas leakage.' },
+  { name: 'Mehdi Khan', text: 'I recently switched to a non-explosion gas cylinder and I am incredibly satisfied. I recommend it to anyone prioritising safety at home.' },
+  { name: 'Habib Ullah', text: 'I purchased a blue cylinder during the gas shortages. Knowing the cylinder is blast-proof lifts a burden off my shoulders.' },
 ];
-
 
 // Homepage FAQ — rendered visibly below and emitted as FAQPage structured data.
 const homeFaqs = [
@@ -116,432 +85,219 @@ const homeFaqs = [
   { q: 'Which certifications do the cylinders hold?', a: 'ISO 9001:2015 quality management, ISO 11119-3 and BS EN 14427:2022 for the cylinders themselves, plus a Pakistan Engineering Council (PEC) licence.' },
 ];
 
+// ─── Small presentational helpers ─────────────────────────────────────────────
+
+function Eyebrow({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-center gap-3 mb-4">
+      <span className="h-px w-6 bg-amber-500" />
+      <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-green-800">{children}</span>
+    </div>
+  );
+}
+
+function SectionHead({ eyebrow, title, sub, center = false }: { eyebrow: string; title: React.ReactNode; sub?: string; center?: boolean }) {
+  return (
+    <div className={`max-w-3xl mb-14 ${center ? 'mx-auto text-center' : ''}`}>
+      <div className={center ? 'flex justify-center' : ''}><Eyebrow>{eyebrow}</Eyebrow></div>
+      <h2 className="text-4xl md:text-5xl font-black tracking-tight leading-[1.05] text-slate-950">{title}</h2>
+      {sub && <p className="mt-5 text-lg text-slate-600 leading-relaxed">{sub}</p>}
+    </div>
+  );
+}
+
+const btnPrimary = 'inline-flex items-center justify-center gap-2 rounded-full bg-green-900 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-green-950';
+const btnSecondary = 'inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:border-slate-900';
+const card = 'rounded-3xl border border-slate-200/70 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_16px_40px_-20px_rgba(0,0,0,0.18)]';
+
+// ─── Page ─────────────────────────────────────────────────────────────────────
+
 export default function HomePage() {
   return (
     <>
       {/* ─── HERO ─────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[88vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 gradient-green" />
-        <div className="orb-1 absolute -right-32 -top-32 w-[600px] h-[600px] rounded-full bg-white/5" />
-        <div className="orb-2 absolute -right-16 top-1/4 w-[400px] h-[400px] rounded-full bg-white/5" />
-        <div className="orb-3 absolute left-1/2 bottom-0 w-[300px] h-[300px] rounded-full bg-black/10" />
-        <AzadiMobileHero />
-
-        <div className="relative max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-white">
-            <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-2 text-sm font-medium mb-6">
-              <Zap className="w-4 h-4 text-amber-300" />
-              Made-in-Pakistan Composite Gas Cylinder
-            </div>
-            <h1 className="text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-4">
-              <span className="text-amber-300">Non-Blast</span>
-              <br />
-              <span className="text-white">GAS CYLINDER</span>
+      <section className="bg-white">
+        <div className="max-w-6xl mx-auto px-5 pt-16 pb-10 lg:pt-24 lg:pb-16 grid lg:grid-cols-12 gap-12 items-center">
+          <div className="lg:col-span-6">
+            <Eyebrow>Made in Gujranwala &middot; Non-blast composite LPG</Eyebrow>
+            <h1 className="text-5xl md:text-6xl lg:text-[4.25rem] font-black tracking-tight leading-[1.02] text-slate-950">
+              The gas cylinder that doesn&apos;t explode.
             </h1>
-            <p className="text-xl text-green-100 font-semibold mb-3">For Your Requirement</p>
-            <p className="text-green-200 text-lg leading-relaxed mb-8 max-w-lg">
-              WAATechnologies — Pakistan&apos;s first composite LPG cylinder manufacturer. 100% explosion-proof,
-              jointless design, ISO certified. Serving homes, restaurants &amp; businesses nationwide.
+            <p className="mt-6 text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl">
+              Composite cylinders with no welds and nothing to rust. Certified to ISO 11119-3 and BS EN 14427:2022,
+              made in Pakistan, delivered through authorised dealers in six cities.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                href="/shop"
-                className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-7 py-3.5 rounded-xl font-bold text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-              >
-                SHOP NOW <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href="/our-products-and-advantages"
-                className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 border border-white/30 text-white px-7 py-3.5 rounded-xl font-semibold text-base transition-all backdrop-blur-sm"
-              >
-                VIEW MORE <ChevronRight className="w-4 h-4" />
-              </Link>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Link href="/shop" className={btnPrimary}>Shop cylinders <ArrowRight className="w-4 h-4" /></Link>
+              <Link href="/authorized-dealers" className={btnSecondary}>Find a dealer</Link>
             </div>
-            <div className="flex flex-wrap gap-4 mt-10">
-              {['ISO 9001:2015', 'ISO 11119-3:2020', 'BS EN 14427:2022', 'PEC Licensed'].map((cert) => (
-                <div key={cert} className="flex items-center gap-1.5 bg-white/10 rounded-full px-3 py-1.5 text-xs font-medium text-white">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-amber-300" />
-                  {cert}
-                </div>
+            <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-500">
+              {['ISO 9001:2015', 'ISO 11119-3', 'BS EN 14427:2022', 'PEC licensed'].map((c) => (
+                <li key={c} className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-700" />{c}</li>
               ))}
-            </div>
+            </ul>
           </div>
-
-          <HeroCylinder />
-        </div>
-      </section>
-
-      {/* ─── ABOUT ────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
-          <div className="relative">
-            <div className="aspect-square max-w-md mx-auto bg-gradient-to-br from-green-50 to-emerald-100 rounded-3xl p-10 flex items-center justify-center shadow-xl">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-green-900 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                  <span className="text-white font-black text-2xl">WAA</span>
-                </div>
-                <p className="text-green-950 font-bold text-xl mb-2">TECHNOLOGIES</p>
-                <p className="text-green-800 text-sm font-medium">PVT LTD</p>
-                <div className="mt-6 flex flex-col gap-2 text-sm text-slate-600">
-                  <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> Est. 2022 — R&amp;D since 2018
-                  </div>
-                  <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> Pakistan&apos;s Premier Cylinder Factory
-                  </div>
-                  <div className="flex items-center gap-2 bg-white rounded-lg px-3 py-2 shadow-sm">
-                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" /> First Composite Cylinder in Pakistan
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute -bottom-4 -right-4 bg-amber-400 rounded-2xl px-5 py-3 shadow-lg">
-              <div className="text-slate-900 font-bold text-sm">ISO 9001-2015</div>
-              <div className="text-slate-700 text-xs">Quality Certified</div>
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">About WAATechnologies</span>
-            </div>
-            <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
-              About<br />
-              <span className="text-green-900">WAATechnologies</span>
-            </h2>
-            <p className="text-slate-600 text-lg leading-relaxed mb-5">
-              WAATechnologies was officially formed in 2022 at Gujranwala however research and development
-              was under progress since 2018. Company was aimed to develop reliable, safe and long-life
-              composite cylinders. Research and development team worked hard to achieve the goal and
-              successfully developed the product as envisaged.
-            </p>
-            <p className="text-slate-600 leading-relaxed mb-5">
-              At present the company is spread over 26000 square feet area. Facility houses production plant,
-              storage, research and development compound beside offices and visitors area. All the components
-              of cylinder are produced indigenously under one roof. Management is well qualified and technically
-              understand the complexities involved.
-            </p>
-            <p className="text-slate-600 leading-relaxed mb-8">
-              Since our beginning, we have developed a strong reputation for delivering on our promises and
-              regularly exceeding client expectations in terms of service excellence, pricing, performance
-              and quality.
-            </p>
-            <div className="flex gap-3">
-              <Link
-                href="/shop"
-                className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
-              >
-                SHOP NOW <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href="/about-us"
-                className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all"
-              >
-                VIEW MORE
-              </Link>
+          <div className="lg:col-span-6">
+            <div className="relative rounded-[2rem] bg-[#F4F6F2] p-6 lg:p-10 overflow-hidden">
+              <Image
+                src="/images/hero-range.jpg"
+                alt="WAATechnologies composite LPG cylinders in yellow, orange, cerulean blue and traditional blue"
+                width={1197}
+                height={1400}
+                priority
+                sizes="(max-width: 1024px) 100vw, 560px"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── FEATURES ────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-            </div>
-            <h2 className="text-4xl font-black text-slate-900 mb-4">
-              Features of WAA Tech Cylinders
-            </h2>
-            <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-              Here are key features of WAATechnologies Cylinders which stand&apos;s out the Brand.
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {features.map((f) => (
-              <div
-                key={f.title}
-                className={`feature-card bg-white rounded-2xl p-7 border ${f.border} card-hover cursor-default`}
-              >
-                <div className={`feature-icon w-14 h-14 rounded-xl ${f.color} flex items-center justify-center mb-5`}>
-                  <f.icon className="w-7 h-7" />
+      {/* ─── USP STRIP ────────────────────────────────────────────────────── */}
+      <section className="border-y border-slate-200/70 bg-[#F4F6F2]">
+        <ul className="max-w-6xl mx-auto px-5 py-5 flex flex-wrap justify-center gap-x-10 gap-y-3">
+          {usps.map((u) => (
+            <li key={u.text} className="flex items-center gap-2 text-sm font-medium text-slate-700">
+              <u.icon className="w-4 h-4 text-green-800" />{u.text}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* ─── RANGE ────────────────────────────────────────────────────────── */}
+      <section className="bg-white py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5">
+          <SectionHead eyebrow="The range" title="Pick your cylinder." sub="Two sizes, four colours, one construction. Every cylinder is certified to the same standards." center />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {products.map((p) => (
+              <article key={p.slug} className={`${card} relative overflow-hidden flex flex-col ${p.popular ? 'ring-2 ring-green-900' : ''}`}>
+                {p.popular && <span className="absolute top-4 left-4 z-10 rounded-full bg-green-900 text-white text-[11px] font-semibold uppercase tracking-wider px-3 py-1">Most popular</span>}
+                {p.oldPrice && <span className="absolute top-4 right-4 z-10 rounded-full bg-amber-400 text-slate-900 text-[11px] font-semibold uppercase tracking-wider px-3 py-1">Sale</span>}
+                <Link href={`/product/${p.slug}`} className={`block ${p.tint} aspect-square relative`}>
+                  <Image src={p.img} alt={`${p.name} — ${p.colour}`} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-contain p-6" />
+                </Link>
+                <div className="p-5 flex flex-col flex-1">
+                  <Link href={`/product/${p.slug}`} className="font-bold text-slate-950 leading-snug hover:text-green-900">{p.name}</Link>
+                  <p className="text-sm text-slate-500 mt-0.5">{p.colour}</p>
+                  <p className="text-sm text-slate-600 mt-3 flex-1">{p.use}</p>
+                  <div className="mt-4 flex items-baseline gap-2">
+                    <span className="text-2xl font-black text-slate-950">Rs {p.price.toLocaleString()}</span>
+                    {p.oldPrice && <span className="text-sm text-slate-400 line-through">Rs {p.oldPrice.toLocaleString()}</span>}
+                  </div>
+                  <div className="mt-4"><OrderInquiryButton name={`${p.name} (${p.colour})`} price={p.price} compact /></div>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{f.title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed">{f.desc}</p>
-              </div>
+              </article>
             ))}
           </div>
+          <p className="mt-8 text-center text-sm text-slate-500">
+            Manufacturer list prices. Traditional Blue is also available &mdash;{' '}
+            <Link href="/shop" className="font-semibold text-green-900 underline underline-offset-4">see all in the shop</Link>.
+          </p>
         </div>
       </section>
 
-      {/* ─── APPLICATIONS ────────────────────────────────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="flex items-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-amber-500 inline-block" />
-              <span className="text-amber-700 font-semibold text-sm uppercase tracking-wider">Applications</span>
-            </div>
-            <h2 className="text-4xl font-black text-slate-900 mb-5 leading-tight">
-              Applications &amp; Usage
-            </h2>
-            <p className="text-slate-600 text-lg leading-relaxed mb-4">
-              Cook Like a Pro — Elevate your culinary game with ease! Our non-explosion gas cylinders are your
-              kitchen&apos;s best friend. Say goodbye to traditional stovetops and embrace the convenience of
-              portable cooking. With instant heat no need to wait for the burner to warm up!
-            </p>
-            <p className="text-slate-600 leading-relaxed mb-6">
-              Designed with safety in mind, our cylinders are leak-proof and easy to handle. Enjoy effortless
-              and efficient cooking with non-explosion cylinders in your kitchen.
-            </p>
-            <ul className="flex flex-col gap-3 mb-8">
-              {[
-                'Jointless design — 100% leak-proof and explosion-proof.',
-                'Translucent body — visually check your LPG level anytime.',
-                'UV resistant — safe for outdoor placement in direct sunlight.',
-                'Corrosion free — never rusts even in humid or coastal areas.',
-                '50% lighter than conventional cylinders — easy to handle.',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-slate-600">
-                  <CheckCircle2 className="w-5 h-5 text-green-800 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm leading-relaxed">{item}</span>
+      {/* ─── WHY COMPOSITE ────────────────────────────────────────────────── */}
+      <section className="bg-[#F4F6F2] py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5 grid lg:grid-cols-12 gap-14 items-center">
+          <div className="lg:col-span-6">
+            <SectionHead eyebrow="Why composite" title={<>Steel rusts and bursts. Composite vents.</>} sub="A pressure vessel fails at its weakest point. A welded steel cylinder has seams and corrosion; a filament-wound composite cylinder has neither." />
+            <ul className="space-y-7">
+              {whyComposite.map((f) => (
+                <li key={f.title} className="flex gap-4">
+                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white border border-slate-200/70 text-green-800"><f.icon className="w-5 h-5" /></span>
+                  <div>
+                    <h3 className="font-bold text-slate-950">{f.title}</h3>
+                    <p className="mt-1 text-slate-600 leading-relaxed">{f.desc}</p>
+                  </div>
                 </li>
               ))}
             </ul>
-            <Link
-              href="/our-products-and-advantages"
-              className="inline-flex items-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
-            >
-              View All Products <ArrowRight className="w-4 h-4" />
+            <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="mt-9 inline-flex items-center gap-1 font-semibold text-green-900 hover:text-green-950">
+              Read the full safety guide <ChevronRight className="w-4 h-4" />
             </Link>
           </div>
+          <div className="lg:col-span-6">
+            <div className="rounded-[2rem] overflow-hidden">
+              <Image src="/images/lifestyle-kitchen.jpg" alt="Cooking at home with WAATechnologies composite LPG cylinders" width={1000} height={900} sizes="(max-width: 1024px) 100vw, 560px" className="w-full h-auto" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <div className="relative">
-            <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-3xl p-10 shadow-xl">
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { label: 'Residential', icon: '🏠', desc: 'Safe for families' },
-                  { label: 'Commercial', icon: '🏪', desc: 'Restaurants & shops' },
-                  { label: 'Industrial', icon: '🏭', desc: 'Large-scale use' },
-                  { label: 'Outdoor', icon: '⛺', desc: 'Camping & travel' },
-                ].map((item) => (
-                  <div key={item.label} className="bg-white rounded-2xl p-5 text-center shadow-sm card-hover">
-                    <div className="text-3xl mb-2">{item.icon}</div>
-                    <div className="font-bold text-slate-900 text-sm">{item.label}</div>
-                    <div className="text-xs text-slate-500 mt-1">{item.desc}</div>
+      {/* ─── SPECIFICATIONS ───────────────────────────────────────────────── */}
+      <section className="bg-white py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5 grid lg:grid-cols-12 gap-14 items-start">
+          <div className="lg:col-span-5">
+            <SectionHead eyebrow="Specifications" title="Built to a standard, not a guess." sub="The 10 kg cylinder, as tested and certified. The 5 kg uses the same construction with a smaller capacity." />
+            <div className="rounded-[2rem] overflow-hidden">
+              <Image src="/images/lifestyle-outdoor.jpg" alt="WAATechnologies composite cylinder with an outdoor heater" width={1000} height={986} sizes="(max-width: 1024px) 100vw, 460px" className="w-full h-auto" />
+            </div>
+          </div>
+          <div className="lg:col-span-7">
+            <div className={`${card} overflow-hidden`}>
+              <div className="px-6 py-4 border-b border-slate-200/70 flex items-center justify-between">
+                <span className="font-bold text-slate-950">10 kg composite LPG cylinder</span>
+                <span className="text-xs font-semibold uppercase tracking-wider text-green-800">Technical data</span>
+              </div>
+              <dl className="divide-y divide-slate-200/70">
+                {specs.map(([k, v]) => (
+                  <div key={k} className="grid grid-cols-2 px-6 py-3.5 text-sm">
+                    <dt className="text-slate-500">{k}</dt>
+                    <dd className="font-semibold text-slate-950 text-right">{v}</dd>
                   </div>
                 ))}
-              </div>
-              <div className="mt-4 bg-green-900 rounded-2xl p-4 text-white text-center">
-                <div className="font-black text-2xl mb-1">Load Shedding?</div>
-                <div className="text-green-200 text-sm">WAA Gas keeps you cooking 24/7 with Global Gas</div>
-              </div>
+              </dl>
             </div>
+            <p className="mt-4 text-xs text-slate-500">Figures from the manufacturer&apos;s technical specification sheet. Capacities are nominal fill weights; the cylinder is filled by weight at authorised dealers.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── HOW IT WORKS ─────────────────────────────────────────────────── */}
+      <section className="bg-[#F4F6F2] py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5">
+          <SectionHead eyebrow="Ordering" title="Order today. Cooking in days." center />
+          <div className="grid md:grid-cols-3 gap-5">
+            {steps.map((s) => (
+              <div key={s.step} className={`${card} p-7`}>
+                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-green-50 text-green-800"><s.icon className="w-5 h-5" /></span>
+                <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.2em] text-amber-600">{s.step}</p>
+                <h3 className="mt-2 text-lg font-bold text-slate-950">{s.title}</h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Link href="/shop" className={btnPrimary}>Shop cylinders <ArrowRight className="w-4 h-4" /></Link>
           </div>
         </div>
       </section>
 
       {/* ─── CERTIFICATIONS ───────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#0d1b3e]">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-black text-white tracking-widest uppercase">Certifications</h2>
-          </div>
-          <div className="flex flex-wrap justify-center gap-6">
-            {certifications.map((cert) => (
-              <div key={cert.label} className="flex flex-col items-center w-48 md:w-52">
-                <div className="w-full aspect-[3/4] border-4 border-amber-700 rounded-sm overflow-hidden bg-white shadow-[0_0_20px_rgba(0,0,0,0.5)] relative">
-                  <Image
-                    src={cert.img}
-                    alt={cert.label}
-                    fill
-                    sizes="(max-width: 768px) 192px, 208px"
-                    className="object-cover blur-[2px]"
-                  />
-                </div>
-                <div className="mt-3 text-center">
-                  <div className="text-white font-bold text-xs leading-tight">{cert.label}</div>
-                  <div className="text-slate-400 text-xs mt-0.5">{cert.desc}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── PRODUCTS ────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Featured Products</span>
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-            </div>
-            <h2 className="text-4xl font-black text-slate-900 mb-3">LPG &amp; Cylinders</h2>
-            <p className="text-slate-500 max-w-xl mx-auto text-lg">
-              There are many variations of WAATechnologies
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
-            {products.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/product/${p.slug}`}
-                className="product-card group bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow"
-              >
-                <div className="relative bg-gradient-to-br from-slate-50 to-green-50 aspect-square flex items-center justify-center overflow-hidden">
-                  {p.oldPrice && (
-                    <span className="absolute top-3 left-3 z-10 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      SALE
-                    </span>
-                  )}
-                  {productImages[p.slug] ? (
-                    <Image
-                      src={productImages[p.slug]}
-                      alt={p.name}
-                      fill
-                      sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 20vw"
-                      className="object-contain p-5 group-hover:scale-105 transition-transform duration-300"
-                    />
-                  ) : (
-                    <div className="product-card-img text-center py-8">
-                      <div className="w-20 h-32 mx-auto bg-gradient-to-b from-blue-400 to-blue-700 rounded-[40%_40%_50%_50%/30%_30%_60%_60%] shadow-lg" />
-                    </div>
-                  )}
+      <section className="bg-white py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5">
+          <SectionHead eyebrow="Certified" title="The proof, in full." sub="Every certificate opens at full size. Check the registration numbers against the issuing body." center />
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
+            {certifications.map((c) => (
+              <a key={c.label} href={c.img} target="_blank" rel="noopener noreferrer" className={`${card} overflow-hidden group`}>
+                <div className="relative aspect-[3/4] bg-slate-50">
+                  <Image src={c.img} alt={`${c.label} certificate — WAATechnologies`} fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover transition group-hover:scale-[1.02]" />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors">
-                    {p.name}
-                  </h3>
-                  <div className="flex items-center gap-2 mb-3">
-                    {p.oldPrice && (
-                      <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>
-                    )}
-                    <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
-                  </div>
-                  <OrderInquiryButton name={p.name} price={p.price} compact />
+                  <p className="font-bold text-slate-950 text-sm">{c.label}</p>
+                  <p className="text-xs text-slate-500 mt-0.5">{c.desc}</p>
                 </div>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link
-              href="/shop"
-              className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg"
-            >
-              View All Products <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── EXPLOSION PROOF CTA ─────────────────────────────────────────── */}
-      <section className="py-20 gradient-green text-white">
-        <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="w-8 h-0.5 bg-amber-300 inline-block" />
-              <span className="text-amber-300 font-semibold text-sm uppercase tracking-wider">Safety First</span>
-            </div>
-            <h2 className="text-4xl font-black mb-5 leading-tight">
-              100% <span className="text-amber-300">Explosion Proof</span>
-            </h2>
-            <p className="text-green-100 text-lg leading-relaxed mb-8">
-              WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material
-              does not blast unlike metal cylinders even engulfed in fire. Because of their appealing shape
-              and 50% less weight than standard cylinders, WAA Tech Cylinders are user-friendly.
-              It weighs about 5.5 kg total.
-            </p>
-            <Link
-              href="/contact-us"
-              className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-7 py-3.5 rounded-xl font-bold transition-all shadow-lg"
-            >
-              <Phone className="w-4 h-4" />
-              CONTACT US
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            {[
-              { val: '0%', label: 'Explosion Risk', sub: 'Non-blast by design' },
-              { val: '50%', label: 'Less Weight', sub: 'Vs. steel cylinders' },
-              { val: '5.5kg', label: 'Total Weight', sub: 'For 10kg cylinder' },
-              { val: '12,000', label: 'Pressure Cycles', sub: '20+ year lifespan' },
-            ].map((s) => (
-              <div key={s.label} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
-                <div className="text-3xl font-black text-amber-300 mb-1">{s.val}</div>
-                <div className="text-white font-semibold text-sm">{s.label}</div>
-                <div className="text-green-200 text-xs mt-1">{s.sub}</div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── FEATURES REDUX ──────────────────────────────────────────────── */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-4">
-              The Perfect Fit for Your <span className="text-green-900">Home &amp; Global Gas</span>
-            </h2>
-            <p className="text-slate-500 max-w-2xl mx-auto">Features</p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                icon: Sun,
-                title: 'UV Resistant',
-                desc: 'WAA Tech Cylinder is UV resistant to effects from sun, rain and temperature due to atmospheric variations and rough handling. Cylinder color will not be altered even after prolong usage.',
-              },
-              {
-                icon: Droplets,
-                title: 'Corrosion Free',
-                desc: "WAA Tech Composite Cylinder is corrosion free as it doesn't leave stain on kitchen floor or anywhere else. It never gets corrode even in humid or coastal areas.",
-              },
-              {
-                icon: Shield,
-                title: 'Brand Features',
-                desc: 'Brand and Company names are embossed in cylinder at 4 different places. Security features have been added in design to avoid counterfeit. WAA Tech Cylinder can be customized as per customer preferences.',
-              },
-              {
-                icon: Award,
-                title: 'WAA Technology',
-                desc: 'WAATechnologies have introduced jointless cylinders first time ever in Pakistan. This latest technology has increased the strength of pressure tensile and eradicated leakage from body.',
-              },
-            ].map((f) => (
-              <div key={f.title} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 card-hover">
-                <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-4">
-                  <f.icon className="w-6 h-6" />
-                </div>
-                <h3 className="font-bold text-slate-900 mb-2">{f.title}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed">{f.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-10 flex justify-center gap-3">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md">
-              GO TO SHOP
-            </Link>
-            <Link href="/our-products-and-advantages" className="inline-flex items-center gap-2 border border-slate-200 hover:border-green-300 text-slate-700 hover:text-green-900 px-6 py-3 rounded-xl font-semibold transition-all">
-              VIEW MORE
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── GUIDE: COMPOSITE CYLINDERS IN PAKISTAN ───────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Buyer&apos;s guide</span>
-            <h2 className="text-4xl font-black text-slate-900 mt-2">Composite LPG Cylinders in Pakistan: What Every Buyer Should Know</h2>
-          </div>
-          <div className="prose prose-slate max-w-none prose-headings:font-black prose-h3:text-2xl prose-a:text-green-800 prose-p:leading-relaxed">
+      {/* ─── BUYER'S GUIDE ────────────────────────────────────────────────── */}
+      <section className="bg-[#F4F6F2] py-24 lg:py-28">
+        <div className="max-w-3xl mx-auto px-5">
+          <SectionHead eyebrow="Buyer’s guide" title="Composite LPG cylinders in Pakistan: what every buyer should know." />
+          <div className="prose prose-slate max-w-none prose-headings:font-black prose-h3:text-2xl prose-h3:tracking-tight prose-a:text-green-800 prose-p:leading-relaxed">
             <h3>What is a composite LPG cylinder?</h3>
             <p>
               A composite LPG cylinder is built from a fibre-reinforced polymer shell wound around a high-density
@@ -553,7 +309,6 @@ export default function HomePage() {
               translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder">see how much gas is left</Link>{' '}
               instead of guessing.
             </p>
-
             <h3>Made in Pakistan, in Gujranwala</h3>
             <p>
               WAATechnologies Pvt Ltd manufactures its composite cylinders at its facility in Gujranwala, Punjab, with a head
@@ -562,7 +317,6 @@ export default function HomePage() {
               standards that imported composite cylinders carry. Building locally means dealer supply, refills and support are
               handled inside Pakistan. Read more about <Link href="/our-technology">how the cylinders are made</Link>.
             </p>
-
             <h3>Sizes, colours and prices</h3>
             <p>
               WAA cylinders come in two household sizes. The <strong>5 kg composite cylinder (Rs 8,000)</strong> suits small
@@ -571,7 +325,6 @@ export default function HomePage() {
               Traditional Blue. Both sizes share the same non-blast construction and the same certifications; only capacity and
               colour differ. See current options in the <Link href="/shop">shop</Link>.
             </p>
-
             <h3>Who uses them</h3>
             <p>
               Households moving away from steel &ldquo;gola&rdquo; cylinders are the largest group. Composite cylinders are also
@@ -580,7 +333,6 @@ export default function HomePage() {
               cylinder and a visible gas level mean fewer mid-service surprises, as well as by outdoor cooks, campers and
               businesses that store several cylinders and want to cut corrosion and handling risk.
             </p>
-
             <h3>How to make sure yours is genuine</h3>
             <p>
               Buy only from an <Link href="/authorized-dealers">authorised WAATechnologies dealer</Link>. A genuine cylinder has
@@ -588,7 +340,6 @@ export default function HomePage() {
               markings on the body. If a seller cannot show the certification marking or is not on our dealer list, do not buy;
               call us and we will verify the dealer for you.
             </p>
-
             <h3>Where to buy, refill and exchange</h3>
             <p>
               Authorised dealers are listed with addresses and phone numbers for Lahore, Rawalpindi and Islamabad, Sialkot,
@@ -602,7 +353,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-slate-50">
+      <section className="bg-white py-24 lg:py-28">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -613,72 +364,50 @@ export default function HomePage() {
             }),
           }}
         />
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">FAQ</span>
-            <h2 className="text-4xl font-black text-slate-900 mt-2">Frequently Asked Questions</h2>
-          </div>
-          <div className="space-y-4">
+        <div className="max-w-3xl mx-auto px-5">
+          <SectionHead eyebrow="FAQ" title="Questions, answered." center />
+          <div className="divide-y divide-slate-200/70 border-y border-slate-200/70">
             {homeFaqs.map((f) => (
-              <details key={f.q} className="group bg-white border border-slate-100 rounded-2xl p-6 shadow-sm open:shadow-md">
-                <summary className="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-900">
+              <details key={f.q} className="group py-5">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-950">
                   {f.q}
                   <ChevronRight className="w-5 h-5 text-green-800 transition-transform group-open:rotate-90 flex-shrink-0" />
                 </summary>
-                <p className="mt-4 text-slate-600 leading-relaxed">{f.a}</p>
+                <p className="mt-3 text-slate-600 leading-relaxed pr-9">{f.a}</p>
               </details>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── TESTIMONIALS ────────────────────────────────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-              <span className="text-green-900 font-semibold text-sm uppercase tracking-wider">Testimonials</span>
-              <span className="w-8 h-0.5 bg-green-800 inline-block" />
-            </div>
-            <h2 className="text-4xl font-black text-slate-900">What Our Clients Say</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
+      {/* ─── TESTIMONIALS ─────────────────────────────────────────────────── */}
+      <section className="bg-[#F4F6F2] py-24 lg:py-28">
+        <div className="max-w-6xl mx-auto px-5">
+          <SectionHead eyebrow="Customers" title="What people say after switching." center />
+          <div className="grid md:grid-cols-3 gap-5">
             {testimonials.map((t) => (
-              <div key={t.name} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 card-hover">
-                <p className="text-slate-600 text-sm leading-relaxed mb-5 italic">&ldquo;{t.text}&rdquo;</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-900 text-sm flex-shrink-0">
-                    {t.name[0]}
-                  </div>
-                  <div>
-                    <div className="font-bold text-slate-900 text-sm">{t.name}</div>
-                    <div className="text-slate-600 text-xs">Customer</div>
-                  </div>
-                </div>
-              </div>
+              <figure key={t.name} className={`${card} p-7`}>
+                <blockquote className="text-slate-700 leading-relaxed">&ldquo;{t.text}&rdquo;</blockquote>
+                <figcaption className="mt-5 flex items-center gap-3">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-green-900 text-white text-sm font-bold">{t.name[0]}</span>
+                  <span><span className="block text-sm font-bold text-slate-950">{t.name}</span><span className="block text-xs text-slate-500">Customer</span></span>
+                </figcaption>
+              </figure>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── CTA BANNER ──────────────────────────────────────────────────── */}
-      <section className="py-16 bg-amber-400">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h2 className="text-3xl font-black text-slate-900 mb-1">Ready to Switch to Safety?</h2>
-            <p className="text-slate-700 text-lg">
-              WAATechnologies PVT LTD promise to ensure the quality of its each and every product.
-              Lives are precious and we care for our customers and families lives.
-            </p>
+      {/* ─── CTA ──────────────────────────────────────────────────────────── */}
+      <section className="bg-green-900 text-white py-20 lg:py-24">
+        <div className="max-w-6xl mx-auto px-5 grid lg:grid-cols-12 gap-10 items-center">
+          <div className="lg:col-span-8">
+            <h2 className="text-4xl md:text-5xl font-black tracking-tight leading-[1.05]">Ready to switch to a safer cylinder?</h2>
+            <p className="mt-4 text-green-100 text-lg">Order on WhatsApp, or find an authorised dealer in Lahore, Rawalpindi&ndash;Islamabad, Sialkot, Karachi, Hyderabad or Peshawar.</p>
           </div>
-          <div className="flex gap-3 flex-shrink-0">
-            <Link href="/authorized-dealers" className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-semibold transition-all">
-              Find Dealers
-            </Link>
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 px-6 py-3 rounded-xl font-semibold transition-all shadow-sm">
-              Shop Online <ArrowRight className="w-4 h-4" />
-            </Link>
+          <div className="lg:col-span-4 flex flex-wrap lg:justify-end gap-3">
+            <Link href="/shop" className="inline-flex items-center gap-2 rounded-full bg-amber-400 px-7 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-amber-300">Shop cylinders <ArrowRight className="w-4 h-4" /></Link>
+            <Link href="/authorized-dealers" className="inline-flex items-center gap-2 rounded-full border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-white/10">Find a dealer</Link>
           </div>
         </div>
       </section>
