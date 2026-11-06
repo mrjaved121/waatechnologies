@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
+import { Geist, Outfit } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -8,6 +8,7 @@ import GoogleTagManager from '@/components/GoogleTagManager';
 import FloatingContact from '@/components/FloatingContact';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
+const outfit = Outfit({ variable: '--font-outfit', subsets: ['latin'], weight: ['600', '700', '800'], display: 'swap' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://waatechnologies.com'),
@@ -151,7 +152,7 @@ const orgSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-PK" className={`${geistSans.variable} h-full`}>
+    <html lang="en-PK" className={`${geistSans.variable} ${outfit.variable} h-full`}>
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>

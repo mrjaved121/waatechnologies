@@ -12,7 +12,15 @@ type Props = {
   className?: string;
   /** Compact single-button variant for grid/catalog cards. Full variant (default) adds quantity + a call option. */
   compact?: boolean;
+  /** Compact-variant colour: 'dark' (default), 'brand' green, or 'outline' on white. */
+  tone?: 'dark' | 'brand' | 'outline';
 };
+
+const COMPACT_TONES = {
+  dark: 'bg-slate-900 hover:bg-green-900 text-white border border-slate-900',
+  brand: 'bg-brand hover:bg-brand-dark text-white border border-brand',
+  outline: 'bg-white hover:border-brand text-ink border border-slate-300',
+} as const;
 
 function buildWhatsAppUrl(name: string, price: number, qty: number) {
   const message =
@@ -29,7 +37,7 @@ function trackOrder(name: string, price: number, qty: number) {
   (w.dataLayer = w.dataLayer || []).push({ event: 'whatsapp_order', product_name: name, quantity: qty, value: price * qty, currency: 'PKR' });
 }
 
-export default function OrderInquiryButton({ name, price, className = '', compact = false }: Props) {
+export default function OrderInquiryButton({ name, price, className = '', compact = false, tone = 'dark' }: Props) {
   const [qty, setQty] = useState(1);
 
   if (compact) {
@@ -45,9 +53,9 @@ export default function OrderInquiryButton({ name, price, className = '', compac
           trackOrder(name, price, 1);
           window.open(url, '_blank', 'noopener,noreferrer');
         }}
-        className={`w-full flex items-center justify-center gap-2 bg-slate-900 hover:bg-green-900 text-white text-xs font-semibold py-2 rounded-lg transition-colors ${className}`}
+        className={`w-full min-h-12 flex items-center justify-center gap-2 text-[15px] font-semibold rounded-xl transition-colors ${COMPACT_TONES[tone]} ${className}`}
       >
-        <ShoppingBag className="w-3.5 h-3.5" /> Order via WhatsApp
+        <ShoppingBag className="w-4 h-4" /> Order on WhatsApp
       </button>
     );
   }
