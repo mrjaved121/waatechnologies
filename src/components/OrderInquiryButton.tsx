@@ -17,7 +17,7 @@ type Props = {
 };
 
 const COMPACT_TONES = {
-  dark: 'bg-slate-900 hover:bg-green-900 text-white border border-slate-900',
+  dark: 'bg-brand-dark hover:bg-brand text-white border border-slate-900',
   brand: 'bg-brand hover:bg-brand-dark text-white border border-brand',
   outline: 'bg-white hover:border-brand text-ink border border-slate-300',
 } as const;
@@ -64,12 +64,12 @@ export default function OrderInquiryButton({ name, price, className = '', compac
   return (
     <div className={className}>
       <div className="flex items-center gap-3 mb-4">
-        <label htmlFor="order-qty" className="text-sm font-semibold text-slate-700">Quantity</label>
+        <label htmlFor="order-qty" className="text-sm font-semibold text-ink">Quantity</label>
         <select
           id="order-qty"
           value={qty}
           onChange={(e) => setQty(Number(e.target.value))}
-          className="border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700"
+          className="border border-line rounded-lg px-3 py-2 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-green-700"
         >
           {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
             <option key={n} value={n}>{n}</option>
@@ -82,14 +82,14 @@ export default function OrderInquiryButton({ name, price, className = '', compac
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackOrder(name, price, qty)}
-          className="flex-1 flex items-center justify-center gap-2 bg-green-900 hover:bg-green-950 text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
+          className="flex-1 flex items-center justify-center gap-2 bg-brand hover:bg-brand-dark text-white py-3.5 rounded-xl font-bold text-base transition-all shadow-md hover:shadow-lg"
         >
           <ShoppingBag className="w-5 h-5" /> Order via WhatsApp
         </a>
         <a
           href={`tel:${PHONE_NUMBER}`}
           onClick={() => trackOrder(name, price, qty)}
-          className="flex items-center gap-2 border-2 border-amber-500 text-amber-600 hover:bg-amber-50 px-5 py-3.5 rounded-xl font-bold transition-all"
+          className="flex items-center gap-2 border-2 border-amber-500 text-[#8a5a00] hover:bg-amber-50 px-5 py-3.5 rounded-xl font-bold transition-all"
         >
           <Phone className="w-5 h-5" /> Call to Order
         </a>

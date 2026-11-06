@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 const regions = [
   {
     name: 'Punjab',
-    color: 'bg-green-50 border-green-200',
-    headerColor: 'bg-green-900',
+    color: 'bg-tint border-line',
+    headerColor: 'bg-brand',
     dealers: [
       {
         name: 'Bilal Express Link',
@@ -69,7 +69,7 @@ const regions = [
 export default function AuthorizedDealersPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -83,11 +83,11 @@ export default function AuthorizedDealersPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-4">Our Dealer Network</h2>
-            <p className="text-slate-500 max-w-xl mx-auto text-lg">
+            <h2 className="text-4xl font-black text-ink mb-4">Our Dealer Network</h2>
+            <p className="text-muted max-w-xl mx-auto text-lg">
               Authorized dealers across Punjab, Sindh, and KPK — growing every month.
             </p>
           </div>
@@ -100,9 +100,9 @@ export default function AuthorizedDealersPage() {
                 <div className="p-5 flex flex-col gap-4">
                   {region.dealers.map((dealer) => (
                     <div key={dealer.name} className="bg-white rounded-xl p-5 shadow-sm">
-                      <h4 className="font-bold text-slate-900 mb-2">{dealer.name}</h4>
-                      <div className="flex items-start gap-2 text-sm text-slate-500 mb-2">
-                        <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
+                      <h4 className="font-bold text-ink mb-2">{dealer.name}</h4>
+                      <div className="flex items-start gap-2 text-sm text-muted mb-2">
+                        <MapPin className="w-4 h-4 text-brand flex-shrink-0 mt-0.5" />
                         {dealer.address}
                       </div>
                       {'contacts' in dealer && dealer.contacts && (
@@ -112,7 +112,7 @@ export default function AuthorizedDealersPage() {
                         <a
                           key={number}
                           href={`tel:${number.replace(/\s/g, '')}`}
-                          className="flex items-center gap-2 text-sm text-green-900 font-semibold hover:text-green-950 transition-colors"
+                          className="flex items-center gap-2 text-sm text-brand font-semibold hover:text-brand-dark transition-colors"
                         >
                           <Phone className="w-4 h-4" />
                           {number.trim()}
@@ -125,7 +125,7 @@ export default function AuthorizedDealersPage() {
             ))}
           </div>
 
-          <div className="mt-16 bg-green-900 rounded-3xl p-10 text-white text-center">
+          <div className="mt-16 bg-brand rounded-3xl p-10 text-white text-center">
             <h2 className="text-3xl font-black mb-3">Want to Become a Dealer?</h2>
             <p className="text-green-100 max-w-xl mx-auto mb-6">
               Join Pakistan&apos;s fastest-growing composite cylinder dealer network. Contact us to discuss
@@ -133,15 +133,15 @@ export default function AuthorizedDealersPage() {
             </p>
             <Link
               href="/contact-us"
-              className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-7 py-3 rounded-xl font-bold transition-all"
+              className="inline-flex items-center gap-2 bg-amber-brand hover:bg-[#e09c14] text-ink px-7 py-3 rounded-xl font-bold transition-all"
             >
               Contact Us
             </Link>
           </div>
 
-          <div id="bulk-quote" className="mt-10 bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-slate-100">
-            <h2 className="text-2xl font-black text-slate-900 mb-2 text-center">Request a Bulk / Dealer Quote</h2>
-            <p className="text-slate-500 text-center max-w-xl mx-auto mb-6">For restaurants, resellers and bulk buyers — tell us your city and quantity and we&apos;ll send pricing on WhatsApp.</p>
+          <div id="bulk-quote" className="mt-10 bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-line">
+            <h2 className="text-2xl font-black text-ink mb-2 text-center">Request a Bulk / Dealer Quote</h2>
+            <p className="text-muted text-center max-w-xl mx-auto mb-6">For restaurants, resellers and bulk buyers — tell us your city and quantity and we&apos;ll send pricing on WhatsApp.</p>
             <BulkQuoteForm />
           </div>
         </div>

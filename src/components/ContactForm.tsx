@@ -41,12 +41,12 @@ export default function ContactForm() {
   }
 
   const inputCls =
-    'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400';
+    'w-full border border-line rounded-xl px-4 py-3 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent placeholder:text-slate-400';
 
   return (
     <form onSubmit={handleSubmit} className="grid sm:grid-cols-2 gap-5">
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Name *</label>
+        <label className="block text-sm font-semibold text-ink mb-1.5">Your Name *</label>
         <input
           type="text" required placeholder="Your Name"
           value={name} onChange={(e) => setName(e.target.value)}
@@ -54,7 +54,7 @@ export default function ContactForm() {
         />
       </div>
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Your Email *</label>
+        <label className="block text-sm font-semibold text-ink mb-1.5">Your Email *</label>
         <input
           type="email" required placeholder="Your Email"
           value={email} onChange={(e) => setEmail(e.target.value)}
@@ -62,7 +62,7 @@ export default function ContactForm() {
         />
       </div>
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Phone Number</label>
+        <label className="block text-sm font-semibold text-ink mb-1.5">Phone Number</label>
         <input
           type="tel" placeholder="Phone Number"
           value={phone} onChange={(e) => setPhone(e.target.value)}
@@ -70,7 +70,7 @@ export default function ContactForm() {
         />
       </div>
       <div>
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Company</label>
+        <label className="block text-sm font-semibold text-ink mb-1.5">Company</label>
         <input
           type="text" placeholder="Company (optional)"
           value={company} onChange={(e) => setCompany(e.target.value)}
@@ -78,7 +78,7 @@ export default function ContactForm() {
         />
       </div>
       <div className="sm:col-span-2">
-        <label className="block text-sm font-semibold text-slate-700 mb-1.5">Message *</label>
+        <label className="block text-sm font-semibold text-ink mb-1.5">Message *</label>
         <textarea
           required rows={5} placeholder="Message"
           value={message} onChange={(e) => setMessage(e.target.value)}
@@ -92,7 +92,7 @@ export default function ContactForm() {
         className="hidden" name="company_website"
       />
       <div className="sm:col-span-2">
-        <label className="flex items-start gap-2 text-sm text-slate-600">
+        <label className="flex items-start gap-2 text-sm text-muted">
           <input
             type="checkbox" required checked={consent}
             onChange={(e) => setConsent(e.target.checked)}

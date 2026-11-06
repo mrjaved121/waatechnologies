@@ -40,7 +40,7 @@ const techSteps = [
 export default function OurTechnologyPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -60,28 +60,28 @@ export default function OurTechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-4">How We Build Safety</h2>
-            <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+            <h2 className="text-4xl font-black text-ink mb-4">How We Build Safety</h2>
+            <p className="text-muted max-w-2xl mx-auto text-lg">
               WAATechnologies uses internationally proven composite winding technology — the same process
               used in aerospace, defence, and high-performance engineering applications worldwide.
             </p>
           </div>
           <div className="flex flex-col gap-6 max-w-4xl mx-auto">
             {techSteps.map((step, i) => (
-              <div key={step.title} className="flex gap-6 items-start bg-slate-50 rounded-2xl p-7 border border-slate-100">
+              <div key={step.title} className="flex gap-6 items-start bg-tint rounded-2xl p-7 border border-line">
                 <div className="flex-shrink-0">
-                  <div className="w-14 h-14 bg-green-900 text-white rounded-xl flex items-center justify-center">
+                  <div className="w-14 h-14 bg-brand text-white rounded-xl flex items-center justify-center">
                     <step.icon className="w-7 h-7" />
                   </div>
                 </div>
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-xs font-bold text-green-900 bg-green-100 rounded-full px-2.5 py-0.5">
+                    <span className="text-xs font-bold text-brand bg-tint rounded-full px-2.5 py-0.5">
                       Step {i + 1}
                     </span>
-                    <h3 className="font-black text-slate-900 text-lg">{step.title}</h3>
+                    <h3 className="font-black text-ink text-lg">{step.title}</h3>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">{step.desc}</p>
+                  <p className="text-muted leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -92,7 +92,7 @@ export default function OurTechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-black text-slate-900 mb-5">Why Composite Over Steel?</h2>
+            <h2 className="text-3xl font-black text-ink mb-5">Why Composite Over Steel?</h2>
             <div className="flex flex-col gap-4">
               {[
                 { label: 'Weight', steel: 'Heavy — ~14 kg empty for 10L', composite: 'Light — ~5.5 kg empty for 10L' },
@@ -101,16 +101,16 @@ export default function OurTechnologyPage() {
                 { label: 'Lifespan', steel: '~10 years', composite: '20+ years, 12,000 cycles' },
                 { label: 'UV Resistance', steel: 'Degrades in sunlight', composite: 'HDPE UV-stabilised outer layer' },
               ].map((row) => (
-                <div key={row.label} className="grid grid-cols-3 gap-3 bg-slate-50 rounded-xl p-4">
-                  <div className="font-bold text-slate-700 text-sm">{row.label}</div>
+                <div key={row.label} className="grid grid-cols-3 gap-3 bg-tint rounded-xl p-4">
+                  <div className="font-bold text-ink text-sm">{row.label}</div>
                   <div className="text-red-500 text-sm flex items-start gap-1"><span className="font-bold">✗</span>{row.steel}</div>
-                  <div className="text-green-900 text-sm flex items-start gap-1"><CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" />{row.composite}</div>
+                  <div className="text-brand text-sm flex items-start gap-1"><CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" />{row.composite}</div>
                 </div>
               ))}
             </div>
           </div>
-          <div className="bg-green-50 rounded-3xl p-10 border border-green-100">
-            <h3 className="text-2xl font-black text-slate-900 mb-5">Key Technical Specs</h3>
+          <div className="bg-tint rounded-3xl p-10 border border-green-100">
+            <h3 className="text-2xl font-black text-ink mb-5">Key Technical Specs</h3>
             <div className="flex flex-col gap-4">
               {[
                 { label: 'Liner Material', val: 'High-Density Polyethylene (HDPE)' },
@@ -121,8 +121,8 @@ export default function OurTechnologyPage() {
                 { label: 'Service Life', val: '20+ years / 12,000 cycles' },
               ].map((row) => (
                 <div key={row.label} className="flex justify-between items-center py-2 border-b border-green-100 last:border-0">
-                  <span className="text-slate-600 text-sm">{row.label}</span>
-                  <span className="text-green-950 font-semibold text-sm text-right">{row.val}</span>
+                  <span className="text-muted text-sm">{row.label}</span>
+                  <span className="text-brand-dark font-semibold text-sm text-right">{row.val}</span>
                 </div>
               ))}
             </div>

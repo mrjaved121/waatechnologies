@@ -63,7 +63,7 @@ export default function ShopPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(shopSchema) }} />
-      <section className="gradient-green py-16 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -77,13 +77,13 @@ export default function ShopPage() {
         </div>
       </section>
 
-      <section className="py-10 bg-slate-50 border-b border-slate-200">
+      <section className="py-10 bg-tint border-b border-line">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-slate-500 text-sm">Showing {products.length} products</p>
+          <p className="text-muted text-sm">Showing {products.length} products</p>
           <div className="flex items-center gap-3">
             <Filter className="w-4 h-4 text-slate-400" />
-            <span className="text-sm text-slate-500">Sort by:</span>
-            <select className="text-sm border border-slate-200 rounded-lg px-3 py-2 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-green-700">
+            <span className="text-sm text-muted">Sort by:</span>
+            <select className="text-sm border border-line rounded-lg px-3 py-2 bg-white text-ink focus:outline-none focus:ring-2 focus:ring-green-700">
               <option>Default</option>
               <option>Price: Low to High</option>
               <option>Price: High to Low</option>
@@ -94,14 +94,14 @@ export default function ShopPage() {
         </div>
       </section>
 
-      <section className="py-12 bg-slate-50">
+      <section className="py-12 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {products.map((p) => (
               <Link
                 key={p.slug}
                 href={`/product/${p.slug}`}
-                className="product-card group bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+                className="product-card group bg-white border border-line rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
               >
                 <div className="relative bg-gradient-to-br from-slate-50 to-emerald-50 aspect-square flex items-center justify-center overflow-hidden">
                   {p.oldPrice && (
@@ -120,17 +120,17 @@ export default function ShopPage() {
                   ) : (
                     <div className="text-center">
                       <div className={`w-20 h-36 mx-auto bg-gradient-to-b ${colorGradient[p.color] ?? 'from-amber-300 to-amber-600'} rounded-[40%_40%_50%_50%/25%_25%_55%_55%] shadow-xl`} />
-                      <div className="mt-3 text-xs text-slate-600 font-medium">{p.color}</div>
+                      <div className="mt-3 text-xs text-muted font-medium">{p.color}</div>
                     </div>
                   )}
                 </div>
                 <div className="p-5">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors line-clamp-2">
+                  <h3 className="text-sm font-bold text-ink mb-2 leading-snug group-hover:text-brand transition-colors line-clamp-2">
                     {p.name}
                   </h3>
                   <div className="flex items-center gap-2 mb-4">
-                    {p.oldPrice && <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>}
-                    <span className="text-lg font-black text-green-900">₨ {p.price.toLocaleString()}</span>
+                    {p.oldPrice && <span className="text-xs text-muted line-through">₨ {p.oldPrice.toLocaleString()}</span>}
+                    <span className="text-lg font-black text-brand">₨ {p.price.toLocaleString()}</span>
                   </div>
                   <OrderInquiryButton name={p.name} price={p.price} compact />
                 </div>
@@ -140,10 +140,10 @@ export default function ShopPage() {
         </div>
       </section>
 
-      <section className="py-12 bg-white border-t border-slate-100">
+      <section className="py-12 bg-white border-t border-line">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-slate-500 text-sm mb-2">Need help choosing the right cylinder?</p>
-          <Link href="/contact-us" className="text-green-900 font-semibold hover:text-green-950 transition-colors text-sm">
+          <p className="text-muted text-sm mb-2">Need help choosing the right cylinder?</p>
+          <Link href="/contact-us" className="text-brand font-semibold hover:text-brand-dark transition-colors text-sm">
             Contact our team →
           </Link>
         </div>

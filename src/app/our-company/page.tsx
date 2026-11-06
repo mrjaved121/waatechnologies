@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function OurCompanyPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -31,19 +31,19 @@ export default function OurCompanyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-3xl font-black text-slate-900 mb-5">WAATechnologies Pvt Ltd</h2>
-            <p className="text-slate-600 leading-relaxed mb-4">
+            <h2 className="text-3xl font-black text-ink mb-5">WAATechnologies Pvt Ltd</h2>
+            <p className="text-muted leading-relaxed mb-4">
               WAATechnologies PVT LTD is a Pakistani company formally established in 2022, with R&D work
               commenced in 2018 under the leadership of experienced engineers and industrial experts. We are
               headquartered in Bahria Town, Lahore, with our manufacturing facility in Gujranwala spanning
               26,000 square feet.
             </p>
-            <p className="text-slate-600 leading-relaxed mb-4">
+            <p className="text-muted leading-relaxed mb-4">
               Our company is the first in Pakistan to successfully develop and manufacture composite gas
               cylinders indigenously using advanced filament winding technology. Every cylinder is
               non-blast, corrosion-free, and built to last 20+ years.
             </p>
-            <p className="text-slate-600 leading-relaxed mb-6">
+            <p className="text-muted leading-relaxed mb-6">
               We are approved by Pakistan Engineering Council (PEC) and operate from a 26,000 sq ft
               manufacturing facility in Gujranwala — giving you complete assurance of quality, safety,
               and compliance.
@@ -57,8 +57,8 @@ export default function OurCompanyPage() {
                 '20+ year rated service life per cylinder',
                 'Serving homes, restaurants & businesses nationwide',
               ].map((item) => (
-                <div key={item} className="flex items-center gap-2 text-sm text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
+                <div key={item} className="flex items-center gap-2 text-sm text-ink">
+                  <CheckCircle2 className="w-4 h-4 text-brand flex-shrink-0" />
                   {item}
                 </div>
               ))}
@@ -82,14 +82,14 @@ export default function OurCompanyPage() {
                 desc: 'To pioneer technological innovation, enforce safety imperatives, and strengthen national energy security through blast-proof fiber composite LPG cylinders made in Pakistan.',
               },
             ].map((card) => (
-              <div key={card.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <div key={card.title} className="bg-tint rounded-2xl p-6 border border-line">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-tint text-brand rounded-xl flex items-center justify-center flex-shrink-0">
                     <card.icon className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900 mb-2">{card.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed">{card.desc}</p>
+                    <h3 className="font-bold text-ink mb-2">{card.title}</h3>
+                    <p className="text-muted text-sm leading-relaxed">{card.desc}</p>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function OurCompanyPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-50">
+      <section className="py-16 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-6 text-center">
             {[
@@ -107,9 +107,9 @@ export default function OurCompanyPage() {
               { val: '20+', label: 'Year Lifespan' },
               { val: '3', label: 'Dealer Provinces' },
             ].map((s) => (
-              <div key={s.label} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-                <div className="text-4xl font-black text-green-900 mb-2">{s.val}</div>
-                <div className="text-slate-500 font-medium">{s.label}</div>
+              <div key={s.label} className="bg-white rounded-2xl p-8 shadow-sm border border-line">
+                <div className="text-4xl font-black text-brand mb-2">{s.val}</div>
+                <div className="text-muted font-medium">{s.label}</div>
               </div>
             ))}
           </div>

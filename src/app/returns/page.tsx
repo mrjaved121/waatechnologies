@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ReturnsPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -24,9 +24,9 @@ export default function ReturnsPage() {
       </section>
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <div className="bg-green-50 border border-green-100 rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl font-black text-slate-900 mb-4">Our Return Commitment</h2>
-            <p className="text-slate-600 leading-relaxed">
+          <div className="bg-tint border border-green-100 rounded-2xl p-8 mb-10">
+            <h2 className="text-2xl font-black text-ink mb-4">Our Return Commitment</h2>
+            <p className="text-muted leading-relaxed">
               WAATechnologies stands behind the quality of every composite cylinder we manufacture. If you
               receive a defective or damaged product, we will replace it or refund your purchase — no questions asked.
             </p>
@@ -37,12 +37,12 @@ export default function ReturnsPage() {
               { title: 'Return Process', points: ['Contact us within 30 days of receipt', 'Email info@waatechnologies.com with photos', 'We arrange collection at no cost for eligible returns', 'Replacement or refund processed within 7 business days'] },
               { title: 'Non-Eligible Returns', points: ['Cylinders that have been filled with LPG', 'Physical damage caused by misuse', 'Returns initiated after 30 days without prior notice', 'Products purchased from unauthorized dealers'] },
             ].map((section) => (
-              <div key={section.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                <h3 className="font-black text-slate-900 text-lg mb-4">{section.title}</h3>
+              <div key={section.title} className="bg-tint rounded-2xl p-6 border border-line">
+                <h3 className="font-black text-ink text-lg mb-4">{section.title}</h3>
                 <ul className="flex flex-col gap-2">
                   {section.points.map((pt) => (
-                    <li key={pt} className="flex items-center gap-2 text-sm text-slate-600">
-                      <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
+                    <li key={pt} className="flex items-center gap-2 text-sm text-muted">
+                      <CheckCircle2 className="w-4 h-4 text-brand flex-shrink-0" />
                       {pt}
                     </li>
                   ))}
@@ -51,8 +51,8 @@ export default function ReturnsPage() {
             ))}
           </div>
           <div className="mt-10 text-center">
-            <p className="text-slate-500 mb-4">Need help with a return?</p>
-            <Link href="/contact-us" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+            <p className="text-muted mb-4">Need help with a return?</p>
+            <Link href="/contact-us" className="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark text-white px-6 py-3 rounded-xl font-semibold transition-all">
               Contact Us
             </Link>
           </div>

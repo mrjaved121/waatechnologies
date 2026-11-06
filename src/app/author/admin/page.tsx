@@ -13,7 +13,7 @@ export default function AuthorAdminPage() {
   const posts = allPosts.slice(0, 12);
   return (
     <>
-      <section className="gradient-green py-16 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -21,7 +21,7 @@ export default function AuthorAdminPage() {
             <span className="text-white text-sm font-medium">Author: WAATechnologies</span>
           </div>
           <div className="flex items-center gap-4 mb-3">
-            <div className="w-16 h-16 bg-green-950 rounded-full flex items-center justify-center">
+            <div className="w-16 h-16 bg-brand-dark rounded-full flex items-center justify-center">
               <span className="text-white font-black text-lg">WAA</span>
             </div>
             <div>
@@ -31,26 +31,26 @@ export default function AuthorAdminPage() {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-slate-50">
+      <section className="py-16 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post) => (
-              <article key={post.slug} className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <article key={post.slug} className="bg-white border border-line rounded-2xl p-6 shadow-sm hover:shadow-lg transition-shadow">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xs font-bold bg-green-100 text-green-900 px-2 py-0.5 rounded-full">{post.category}</span>
+                  <span className="text-xs font-bold bg-tint text-brand px-2 py-0.5 rounded-full">{post.category}</span>
                   <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
                 </div>
-                <h2 className="font-bold text-slate-900 mb-3 leading-snug">
-                  <Link href={`/${post.slug}`} className="hover:text-green-900 transition-colors">{post.title}</Link>
+                <h2 className="font-bold text-ink mb-3 leading-snug">
+                  <Link href={`/${post.slug}`} className="hover:text-brand transition-colors">{post.title}</Link>
                 </h2>
-                <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-green-900 text-sm font-semibold hover:text-green-950">
+                <Link href={`/${post.slug}`} className="inline-flex items-center gap-1 text-brand text-sm font-semibold hover:text-brand-dark">
                   Read More <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </article>
             ))}
           </div>
           <div className="text-center mt-10">
-            <Link href="/blog" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+            <Link href="/blog" className="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark text-white px-6 py-3 rounded-xl font-semibold transition-all">
               View All Posts <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

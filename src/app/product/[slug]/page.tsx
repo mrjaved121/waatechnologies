@@ -98,9 +98,9 @@ export default async function ProductPage({ params }: Props) {
   if (!product) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-3xl font-black text-slate-900 mb-3">Product Not Found</h1>
-        <p className="text-slate-500 mb-6">This product doesn&apos;t exist or has been moved.</p>
-        <Link href="/shop" className="bg-green-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-950 transition-colors">Back to Shop</Link>
+        <h1 className="text-3xl font-black text-ink mb-3">Product Not Found</h1>
+        <p className="text-muted mb-6">This product doesn&apos;t exist or has been moved.</p>
+        <Link href="/shop" className="bg-brand text-white px-6 py-3 rounded-xl font-semibold hover:bg-brand-dark transition-colors">Back to Shop</Link>
       </div>
     );
   }
@@ -161,14 +161,14 @@ export default async function ProductPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <section className="py-6 bg-slate-50 border-b border-slate-100">
+      <section className="py-6 bg-tint border-b border-line">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-slate-500 hover:text-green-900 transition-colors">Home</Link>
+            <Link href="/" className="text-muted hover:text-brand transition-colors">Home</Link>
             <span className="text-slate-300">/</span>
-            <Link href="/shop" className="text-slate-500 hover:text-green-900 transition-colors">Shop</Link>
+            <Link href="/shop" className="text-muted hover:text-brand transition-colors">Shop</Link>
             <span className="text-slate-300">/</span>
-            <span className="text-slate-900 font-medium">{product.name}</span>
+            <span className="text-ink font-medium">{product.name}</span>
           </div>
         </div>
       </section>
@@ -176,7 +176,7 @@ export default async function ProductPage({ params }: Props) {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-start">
           {/* Image */}
-          <div className="relative bg-gradient-to-br from-slate-50 to-emerald-50 rounded-3xl aspect-square shadow-sm border border-slate-100 overflow-hidden">
+          <div className="relative bg-gradient-to-br from-slate-50 to-emerald-50 rounded-3xl aspect-square shadow-sm border border-line overflow-hidden">
             {productImages[slug] ? (
               <Image
                 src={productImages[slug]}
@@ -199,34 +199,34 @@ export default async function ProductPage({ params }: Props) {
           {/* Details */}
           <div>
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className="text-xs font-bold bg-green-100 text-green-900 px-3 py-1 rounded-full">LPG Composite</span>
-              <span className="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">{product.weight}</span>
+              <span className="text-xs font-bold bg-tint text-brand px-3 py-1 rounded-full">LPG Composite</span>
+              <span className="text-xs font-bold bg-slate-100 text-muted px-3 py-1 rounded-full">{product.weight}</span>
               {product.oldPrice && <span className="text-xs font-bold bg-red-100 text-red-600 px-3 py-1 rounded-full">ON SALE</span>}
             </div>
-            <h1 className="text-3xl font-black text-slate-900 mb-3 leading-tight">{product.name}</h1>
+            <h1 className="text-3xl font-black text-ink mb-3 leading-tight">{product.name}</h1>
             <div className="flex items-baseline gap-3 mb-5">
               {product.oldPrice && <span className="text-xl text-slate-400 line-through">₨ {product.oldPrice.toLocaleString()}</span>}
-              <span className="text-4xl font-black text-green-900">₨ {product.price.toLocaleString()}</span>
+              <span className="text-4xl font-black text-brand">₨ {product.price.toLocaleString()}</span>
             </div>
-            <p className="text-slate-600 leading-relaxed mb-6">{product.description}</p>
+            <p className="text-muted leading-relaxed mb-6">{product.description}</p>
 
             {/* Highlights */}
             <div className="flex flex-wrap gap-3 mb-6">
               {highlights.map((h) => (
-                <div key={h.label} className="flex items-center gap-1.5 bg-slate-50 border border-slate-200 rounded-full px-3 py-1.5 text-xs font-medium text-slate-700">
-                  <h.icon className="w-3.5 h-3.5 text-green-800" />
+                <div key={h.label} className="flex items-center gap-1.5 bg-tint border border-line rounded-full px-3 py-1.5 text-xs font-medium text-ink">
+                  <h.icon className="w-3.5 h-3.5 text-brand" />
                   {h.label}
                 </div>
               ))}
             </div>
 
             {/* Features */}
-            <div className="bg-slate-50 rounded-2xl p-5 mb-6 border border-slate-100">
-              <h3 className="font-bold text-slate-900 mb-3">Key Features</h3>
+            <div className="bg-tint rounded-2xl p-5 mb-6 border border-line">
+              <h3 className="font-bold text-ink mb-3">Key Features</h3>
               <div className="grid grid-cols-2 gap-2">
                 {product.features.map((f) => (
-                  <div key={f} className="flex items-center gap-2 text-sm text-slate-600">
-                    <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0" />
+                  <div key={f} className="flex items-center gap-2 text-sm text-muted">
+                    <CheckCircle2 className="w-4 h-4 text-brand flex-shrink-0" />
                     {f}
                   </div>
                 ))}
@@ -235,19 +235,19 @@ export default async function ProductPage({ params }: Props) {
 
             <OrderInquiryButton name={product.name} price={product.price} />
 
-            <div className="flex flex-col gap-2 text-sm text-slate-500">
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Non-blast design — certified to ISO 11119-3 and EN 14427:2022</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> PEC Licensed manufacturing facility, Gujranwala</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-800" /> Every unit hydro-tested before dispatch</div>
+            <div className="flex flex-col gap-2 text-sm text-muted">
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-brand" /> Non-blast design — certified to ISO 11119-3 and EN 14427:2022</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-brand" /> PEC Licensed manufacturing facility, Gujranwala</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-brand" /> Every unit hydro-tested before dispatch</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-12 bg-slate-50 border-t border-slate-100">
+      <section className="py-12 bg-tint border-t border-line">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-black text-slate-900 mb-6">You May Also Like</h2>
-          <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+          <h2 className="text-2xl font-black text-ink mb-6">You May Also Like</h2>
+          <Link href="/shop" className="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark text-white px-6 py-3 rounded-xl font-semibold transition-all">
             View All Products
           </Link>
         </div>

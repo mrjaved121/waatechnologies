@@ -45,7 +45,7 @@ export default function BuyersGuidePage() {
       />
 
       {/* ─── HEADER ───────────────────────────────────────────────────────── */}
-      <section className="gradient-green text-white py-16 lg:py-20">
+      <section className="page-hero">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-3">
             <span className="w-8 h-0.5 bg-amber-300 inline-block" />
@@ -64,18 +64,18 @@ export default function BuyersGuidePage() {
       {/* ─── BODY ─────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="bg-slate-50 border border-slate-100 rounded-2xl p-6 mb-12">
-            <h2 className="text-lg font-bold text-slate-900 mb-4">Quick facts</h2>
+          <div className="bg-tint border border-line rounded-2xl p-6 mb-12">
+            <h2 className="text-lg font-bold text-ink mb-4">Quick facts</h2>
             <ul className="grid sm:grid-cols-2 gap-3">
               {quickFacts.map((f) => (
-                <li key={f} className="flex items-start gap-2 text-sm text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />{f}
+                <li key={f} className="flex items-start gap-2 text-sm text-ink">
+                  <CheckCircle2 className="w-4 h-4 text-brand flex-shrink-0 mt-0.5" />{f}
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="prose prose-slate max-w-none prose-headings:font-black prose-h2:text-3xl prose-h2:tracking-tight prose-a:text-green-800 prose-p:leading-relaxed">
+          <div className="prose prose-slate max-w-none prose-headings:font-black prose-h2:text-3xl prose-h2:tracking-tight prose-a:text-brand prose-p:leading-relaxed">
             <h2>What is a composite LPG cylinder?</h2>
             <p>
               A composite LPG cylinder is built from a fibre-reinforced polymer shell wound around a high-density
@@ -159,17 +159,17 @@ export default function BuyersGuidePage() {
       </section>
 
       {/* ─── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-16 bg-amber-400">
+      <section className="py-16 bg-amber-brand">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-3xl font-black text-slate-900 mb-1">Ready to Switch to Safety?</h2>
+            <h2 className="text-3xl font-black text-ink mb-1">Ready to Switch to Safety?</h2>
             <p className="text-slate-800 text-lg">Order on WhatsApp, or find an authorised dealer in your city.</p>
           </div>
           <div className="flex flex-wrap gap-3 flex-shrink-0">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+            <Link href="/shop" className="inline-flex items-center gap-2 bg-brand-dark hover:bg-brand text-white px-6 py-3 rounded-xl font-semibold transition-all">
               Shop Now <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link href="/authorized-dealers" className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 px-6 py-3 rounded-xl font-semibold transition-all shadow-sm">
+            <Link href="/authorized-dealers" className="inline-flex items-center gap-2 bg-white hover:bg-tint text-ink px-6 py-3 rounded-xl font-semibold transition-all shadow-sm">
               Find Dealers
             </Link>
           </div>

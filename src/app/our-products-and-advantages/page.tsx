@@ -37,7 +37,7 @@ const advantages = [
 export default function ProductsAndAdvantagesPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -57,20 +57,20 @@ export default function ProductsAndAdvantagesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-4">Why WAA Cylinders?</h2>
-            <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+            <h2 className="text-4xl font-black text-ink mb-4">Why WAA Cylinders?</h2>
+            <p className="text-muted max-w-2xl mx-auto text-lg">
               There are many advantages of our cylinders which make them totally different from standard
               steel cylinders. Every cylinder is tested and proven to be Explosion Free even engulfed in fire.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {advantages.map((a) => (
-              <div key={a.title} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 card-hover">
-                <div className="w-14 h-14 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-5">
+              <div key={a.title} className="bg-tint rounded-2xl p-7 border border-line card-hover">
+                <div className="w-14 h-14 bg-tint text-brand rounded-xl flex items-center justify-center mb-5">
                   <a.icon className="w-7 h-7" />
                 </div>
-                <h3 className="font-bold text-slate-900 text-lg mb-2">{a.title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed">{a.desc}</p>
+                <h3 className="font-bold text-ink text-lg mb-2">{a.title}</h3>
+                <p className="text-muted text-sm leading-relaxed">{a.desc}</p>
               </div>
             ))}
           </div>
@@ -78,7 +78,7 @@ export default function ProductsAndAdvantagesPage() {
       </section>
 
       {/* Safety Testing */}
-      <section className="py-16 bg-green-900 text-white">
+      <section className="py-16 bg-brand text-white">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-black mb-4">Safety Testing on Every Cylinder</h2>
@@ -129,14 +129,14 @@ export default function ProductsAndAdvantagesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Our Cylinders</h2>
-            <p className="text-slate-500 max-w-xl mx-auto">
+            <h2 className="text-4xl font-black text-ink mb-3">Our Cylinders</h2>
+            <p className="text-muted max-w-xl mx-auto">
               Lives are precious and we care for our customers and their families.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5 mb-10">
             {products.map((p) => (
-              <Link key={p.slug} href={`/product/${p.slug}`} className="product-card group bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+              <Link key={p.slug} href={`/product/${p.slug}`} className="product-card group bg-white border border-line rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
                 <div className="relative bg-gradient-to-br from-slate-50 to-green-50 aspect-square flex items-center justify-center overflow-hidden">
                   {'oldPrice' in p && p.oldPrice && (
                     <span className="absolute top-3 left-3 z-10 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">SALE</span>
@@ -156,12 +156,12 @@ export default function ProductsAndAdvantagesPage() {
                   )}
                 </div>
                 <div className="p-4">
-                  <h3 className="text-sm font-bold text-slate-900 mb-2 leading-snug group-hover:text-green-900 transition-colors">{p.name}</h3>
+                  <h3 className="text-sm font-bold text-ink mb-2 leading-snug group-hover:text-brand transition-colors">{p.name}</h3>
                   <div className="flex items-center gap-2 mb-3">
                     {'oldPrice' in p && p.oldPrice && (
-                      <span className="text-xs text-slate-600 line-through">₨ {p.oldPrice.toLocaleString()}</span>
+                      <span className="text-xs text-muted line-through">₨ {p.oldPrice.toLocaleString()}</span>
                     )}
-                    <span className="text-base font-black text-green-900">₨ {p.price.toLocaleString()}</span>
+                    <span className="text-base font-black text-brand">₨ {p.price.toLocaleString()}</span>
                   </div>
                   <OrderInquiryButton name={p.name} price={p.price} compact />
                 </div>
@@ -169,7 +169,7 @@ export default function ProductsAndAdvantagesPage() {
             ))}
           </div>
           <div className="text-center">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-950 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md">
+            <Link href="/shop" className="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-md">
               View All in Shop <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

@@ -70,7 +70,7 @@ const dealerFaqs: { q: string; a: string }[] = [
 ];
 
 const dealerCta = (heading: string) => (
-  <div className="not-prose bg-green-900 rounded-2xl p-6 my-8 text-white">
+  <div className="not-prose bg-brand rounded-2xl p-6 my-8 text-white">
     <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Apply to Become a Dealer</p>
     <p className="text-lg font-bold leading-snug mb-2">{heading}</p>
     <p className="text-green-100 text-sm leading-relaxed mb-4">Message WAA&apos;s sales team with your city, premises and business details. They will confirm requirements, dealer pricing and next steps.</p>
@@ -79,7 +79,7 @@ const dealerCta = (heading: string) => (
         href="https://wa.me/923414999998?text=Hello%20WAA%20Technologies%2C%20I%20would%20like%20to%20apply%20to%20become%20an%20authorised%20dealer.%20My%20city%20is%3A%20"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-5 py-2.5 rounded-xl font-bold text-sm transition-all"
+        className="inline-flex items-center gap-2 bg-amber-brand hover:bg-[#e09c14] text-ink px-5 py-2.5 rounded-xl font-bold text-sm transition-all"
       >
         Apply on WhatsApp
       </a>
@@ -97,14 +97,14 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: LPG Price in Pakistan November 2026 ── */
   'lpg-price-pakistan-november-2026-ogra': (
     <>
-      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-1">Quick Answer</p>
         <p className="text-green-100 text-sm leading-relaxed">What is the LPG price in Pakistan in November 2026? OGRA has set the maximum LPG consumer price at <strong className="text-white">Rs&nbsp;294.08 per kg</strong> and <strong className="text-white">Rs&nbsp;3,470.09 for an 11.8 kg domestic cylinder</strong>, effective from 1 November 2026. That is <strong className="text-white">Rs&nbsp;14.74 per kg</strong> and <strong className="text-white">Rs&nbsp;173.86 per 11.8 kg cylinder</strong> more than October 2026 (Rs&nbsp;279.34 per kg). The notified figure is a ceiling for the whole supply chain, so no producer, marketer or distributor may legally charge more, although they may charge less.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -116,17 +116,17 @@ const articleContent: Record<string, React.ReactNode> = {
             'Media reports say some areas are seeing LPG sold far above the notified rate, as high as Rs 600 per kg',
             'The federal government has proposed replacing OGRA\'s monthly price notifications with an import parity model, subject to Cabinet approval',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Every month, millions of Pakistani households that cook with LPG wait for one number: the price OGRA notifies for the coming month. For November 2026 that number has gone up again, just as winter pushes demand higher and piped gas pressure drops in many cities. This guide explains the official November rate, how OGRA builds the price, what a refill of your own cylinder should cost, why some shops are charging much more, and what the proposed change to LPG pricing could mean. If you are new to LPG, our guide on <Link href="/how-to-refill-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to refill a composite LPG cylinder safely</Link> covers the refill process itself, and our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">winter gas shortage guide</Link> explains how to prepare your home for the cold months.</p>
+      <p>Every month, millions of Pakistani households that cook with LPG wait for one number: the price OGRA notifies for the coming month. For November 2026 that number has gone up again, just as winter pushes demand higher and piped gas pressure drops in many cities. This guide explains the official November rate, how OGRA builds the price, what a refill of your own cylinder should cost, why some shops are charging much more, and what the proposed change to LPG pricing could mean. If you are new to LPG, our guide on <Link href="/how-to-refill-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to refill a composite LPG cylinder safely</Link> covers the refill process itself, and our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortage guide</Link> explains how to prepare your home for the cold months.</p>
 
-      <p>All official figures below come from OGRA&apos;s own <a href="https://ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">LPG notified prices page</a> and its notification dated 31 October 2026. Last updated: November 2026. Prices change monthly, so always confirm the current rate on OGRA&apos;s website.</p>
+      <p>All official figures below come from OGRA&apos;s own <a href="https://ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG notified prices page</a> and its notification dated 31 October 2026. Last updated: November 2026. Prices change monthly, so always confirm the current rate on OGRA&apos;s website.</p>
 
       <h2>What Is the Official LPG Price in Pakistan for November 2026?</h2>
 
@@ -147,9 +147,9 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Per metric tonne', 'Rs 294,075.47'],
               ['Effective from', '1 November 2026'],
             ].map(([measure, price]) => (
-              <tr key={measure} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{measure}</td>
-                <td className="p-3 text-slate-600">{price}</td>
+              <tr key={measure} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{measure}</td>
+                <td className="p-3 text-muted">{price}</td>
               </tr>
             ))}
           </tbody>
@@ -176,11 +176,11 @@ const articleContent: Record<string, React.ReactNode> = {
               ['11.8 kg cylinder', 'Rs 3,296.23', 'Rs 3,470.09', '+Rs 173.86'],
               ['Producer price (11.8 kg, before levy and GST)', 'Rs 2,325.32', 'Rs 2,472.66', '+Rs 147.34'],
             ].map(([item, oct, nov, change]) => (
-              <tr key={item} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{item}</td>
-                <td className="p-3 text-slate-600">{oct}</td>
-                <td className="p-3 text-slate-600">{nov}</td>
-                <td className="p-3 text-slate-600">{change}</td>
+              <tr key={item} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{item}</td>
+                <td className="p-3 text-muted">{oct}</td>
+                <td className="p-3 text-muted">{nov}</td>
+                <td className="p-3 text-muted">{change}</td>
               </tr>
             ))}
           </tbody>
@@ -212,10 +212,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['18% GST on margins', 'Rs 6,300', 'Rs 74.34'],
               ['Maximum consumer price', 'Rs 294,075.47', 'Rs 3,470.09'],
             ].map(([component, tonne, cylinder]) => (
-              <tr key={component} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{component}</td>
-                <td className="p-3 text-slate-600">{tonne}</td>
-                <td className="p-3 text-slate-600">{cylinder}</td>
+              <tr key={component} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{component}</td>
+                <td className="p-3 text-muted">{tonne}</td>
+                <td className="p-3 text-muted">{cylinder}</td>
               </tr>
             ))}
           </tbody>
@@ -243,33 +243,33 @@ const articleContent: Record<string, React.ReactNode> = {
               ['11.8 kg (official OGRA figure)', 'Rs 3,470.09'],
               ['15 kg', 'About Rs 4,411'],
             ].map(([size, cost]) => (
-              <tr key={size} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{size}</td>
-                <td className="p-3 text-slate-600">{cost}</td>
+              <tr key={size} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{size}</td>
+                <td className="p-3 text-muted">{cost}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      <p>Because LPG is sold by weight, always ask the seller to weigh your cylinder before and after filling. With a translucent composite cylinder you can also <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check the gas level by eye</Link>, which makes short-filling much easier to spot. If you are deciding between sizes, see our comparison of <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5 kg vs 10 kg composite cylinders</Link>.</p>
+      <p>Because LPG is sold by weight, always ask the seller to weigh your cylinder before and after filling. With a translucent composite cylinder you can also <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">check the gas level by eye</Link>, which makes short-filling much easier to spot. If you are deciding between sizes, see our comparison of <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5 kg vs 10 kg composite cylinders</Link>.</p>
 
       <h2>Why Are Some Shops Charging More Than the OGRA Price?</h2>
 
-      <p>The notified price is the legal maximum, but it is not always what customers pay. <a href="https://www.investify.pk/news/100000159844/ogra-raises-lpg-price-by-rs14-73-per-kg-for-november" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Profit by Pakistan Today reported</a> that LPG is being sold for as much as <strong>Rs 600 per kg</strong> in some parts of the country, more than double the notified rate. Overcharging tends to be worst in winter and in areas without piped gas, where households have few alternatives.</p>
+      <p>The notified price is the legal maximum, but it is not always what customers pay. <a href="https://www.investify.pk/news/100000159844/ogra-raises-lpg-price-by-rs14-73-per-kg-for-november" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Profit by Pakistan Today reported</a> that LPG is being sold for as much as <strong>Rs 600 per kg</strong> in some parts of the country, more than double the notified rate. Overcharging tends to be worst in winter and in areas without piped gas, where households have few alternatives.</p>
 
       <p>To protect yourself:</p>
       <ul>
         <li><strong>Know the current rate.</strong> Check OGRA&apos;s website at the start of each month.</li>
         <li><strong>Insist on weighing.</strong> Pay for the kilograms actually filled, not a guess.</li>
-        <li><strong>Buy from licensed sellers.</strong> Authorised dealers are more likely to follow the notified price and safe filling practices. See our guide to <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA-licensed LPG cylinder manufacturers</Link>.</li>
+        <li><strong>Buy from licensed sellers.</strong> Authorised dealers are more likely to follow the notified price and safe filling practices. See our guide to <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA-licensed LPG cylinder manufacturers</Link>.</li>
         <li><strong>Avoid roadside decanting.</strong> Filling from one cylinder into another is unsafe and is often where overcharging happens.</li>
         <li><strong>Report overcharging.</strong> OGRA lists its contact and complaint channels on its official website.</li>
       </ul>
 
       <h2>Is OGRA Ending Monthly LPG Price Notifications?</h2>
 
-      <p>Possibly. According to <a href="https://www.energyupdate.com.pk/pakistan-shifts-to-import-parity-model-in-sweeping-lpg-pricing-deregulation/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Energy Update</a>, the federal government has decided to deregulate LPG pricing and has sent proposed guidelines to the Cabinet for final approval. Under the proposal:</p>
+      <p>Possibly. According to <a href="https://www.energyupdate.com.pk/pakistan-shifts-to-import-parity-model-in-sweeping-lpg-pricing-deregulation/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Energy Update</a>, the federal government has decided to deregulate LPG pricing and has sent proposed guidelines to the Cabinet for final approval. Under the proposal:</p>
       <ul>
         <li>OGRA would stop issuing monthly price notifications for local and imported LPG.</li>
         <li>State-owned companies, including Pakistan State Oil, SSGC LPG, PARCO Pearl Gas and Pakistan LNG, would import LPG in bulk and announce a monthly base price based on the actual landed cost.</li>
@@ -284,7 +284,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <ul>
         <li><strong>Choose the right cylinder size</strong> for how much you cook, so gas is not tied up unused.</li>
-        <li><strong>Fix leaks immediately.</strong> A slow leak wastes gas and is dangerous; our guide to <Link href="/gas-cylinder-warning-signs-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder warning signs</Link> explains what to look for.</li>
+        <li><strong>Fix leaks immediately.</strong> A slow leak wastes gas and is dangerous; our guide to <Link href="/gas-cylinder-warning-signs-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder warning signs</Link> explains what to look for.</li>
         <li><strong>Use lids and the right burner size</strong> to cook faster and use less gas.</li>
         <li><strong>Store the cylinder safely</strong>, upright, ventilated and away from heat.</li>
         <li><strong>Watch your gas level</strong> so you refill on time instead of paying emergency prices when you run out.</li>
@@ -313,14 +313,14 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How to Refill a Composite LPG Cylinder ── */
   'how-to-refill-composite-lpg-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-1">Quick Answer</p>
         <p className="text-green-100 text-sm leading-relaxed">To refill a composite LPG cylinder in Pakistan, take it to an authorised WAA Technologies dealer or an OGRA-approved refill point — never refill it yourself at home. Staff inspect the cylinder and valve, then fill it by weight against your current gas level. Many areas also offer <strong className="text-white">exchange</strong>, where you swap your empty cylinder for a filled one of the same size. In October 2026, LPG costs roughly <strong className="text-white">Rs&nbsp;279 per kg</strong>, so a 10 kg refill is about Rs&nbsp;2,790 (the rate is set monthly by OGRA; see the <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-white underline decoration-green-300 underline-offset-2 font-semibold">latest OGRA LPG price for November 2026</Link>).</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -331,15 +331,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Always check the valve, body and O-ring for damage before and after refilling',
             'WAA composite cylinders are jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>A composite LPG cylinder is one of the safest ways to cook with gas in Pakistan — it is lightweight, corrosion-proof, and lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">see your gas level at a glance</Link>. But like any LPG cylinder, it has to be refilled correctly. Done at the right place, a refill takes a few minutes and is completely safe. Done wrong — at an unapproved shop or, worse, at home — it is one of the most dangerous things you can do. This guide walks you through exactly how to refill a composite cylinder, where to go, what it costs, and the safety checks that protect your family.</p>
+      <p>A composite LPG cylinder is one of the safest ways to cook with gas in Pakistan — it is lightweight, corrosion-proof, and lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see your gas level at a glance</Link>. But like any LPG cylinder, it has to be refilled correctly. Done at the right place, a refill takes a few minutes and is completely safe. Done wrong — at an unapproved shop or, worse, at home — it is one of the most dangerous things you can do. This guide walks you through exactly how to refill a composite cylinder, where to go, what it costs, and the safety checks that protect your family.</p>
 
       <h2>Refill vs Exchange — Which Should You Choose?</h2>
 
@@ -361,10 +361,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Best for', 'Owners who trust their own cylinder\'s condition', 'People who want speed and no waiting'],
               ['Cost', 'Pay for gas added, by weight', 'Pay for gas (cylinder deposit may apply)'],
             ].map(([factor, refill, exchange]) => (
-              <tr key={factor} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{factor}</td>
-                <td className="p-3 text-slate-600">{refill}</td>
-                <td className="p-3 text-slate-600">{exchange}</td>
+              <tr key={factor} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{factor}</td>
+                <td className="p-3 text-muted">{refill}</td>
+                <td className="p-3 text-muted">{exchange}</td>
               </tr>
             ))}
           </tbody>
@@ -384,11 +384,11 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>Final weigh &amp; handover.</strong> The filled weight is confirmed and the cylinder is returned to you.</li>
       </ol>
 
-      <p>The whole process is quick, and because a <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">WAA composite cylinder is jointless and explosion-proof</Link>, it handles refilling far more safely than an old welded steel gola.</p>
+      <p>The whole process is quick, and because a <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAA composite cylinder is jointless and explosion-proof</Link>, it handles refilling far more safely than an old welded steel gola.</p>
 
       <h2>Where to Refill a Composite Cylinder in Pakistan</h2>
 
-      <p>Refill and exchange are handled through WAA Technologies&apos; authorised dealer network across major cities, including <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad</Link>, with more cities being added. To find your nearest point, contact WAA or check the city guide for your area. Always choose an authorised dealer over an unknown shop — it is the difference between a safe fill and a serious risk.</p>
+      <p>Refill and exchange are handled through WAA Technologies&apos; authorised dealer network across major cities, including <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Islamabad</Link>, with more cities being added. To find your nearest point, contact WAA or check the city guide for your area. Always choose an authorised dealer over an unknown shop — it is the difference between a safe fill and a serious risk.</p>
 
       <h2>How Much Does an LPG Refill Cost in 2026?</h2>
 
@@ -399,7 +399,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <li>A <strong>10 kg</strong> composite cylinder refill ≈ Rs&nbsp;2,790</li>
       </ul>
 
-      <p>These are gas-cost estimates only and change with the monthly OGRA rate and your city. For the current cylinder prices and sizes, see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite cylinder price guide</Link>.</p>
+      <p>These are gas-cost estimates only and change with the monthly OGRA rate and your city. For the current cylinder prices and sizes, see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite cylinder price guide</Link>.</p>
 
       <h2>Mistakes to Avoid When Refilling</h2>
 
@@ -410,21 +410,21 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>Don&apos;t accept a swapped cylinder without checking it.</strong> Confirm it is a genuine, undamaged composite unit.</li>
       </ul>
 
-      <p>For the full list of safety rules that apply to everyday LPG use — not just refilling — see <Link href="/8-crucial-gas-cylinder-safety-rules-every-household-must-follow" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">8 crucial gas cylinder safety rules every household must follow</Link>.</p>
+      <p>For the full list of safety rules that apply to everyday LPG use — not just refilling — see <Link href="/8-crucial-gas-cylinder-safety-rules-every-household-must-follow" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">8 crucial gas cylinder safety rules every household must follow</Link>.</p>
     </>
   ),
 
   /* ── ARTICLE: Best LPG Gas Cylinder Pakistan 2026 ── */
   'best-lpg-gas-cylinder-pakistan-2026': (
     <>
-      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-1">Quick Answer</p>
         <p className="text-green-100 text-sm leading-relaxed">The best LPG gas cylinder in Pakistan in 2026 is a <strong className="text-white">WAA Technologies ISO-certified composite cylinder</strong>. It is the only locally manufactured composite cylinder certified to ISO 11119-3:2020 and BS EN 14427:2022, non-blast by design, corrosion-free, 50% lighter than steel, translucent so you can see the gas level, and rated for 20+ years of service. On every measure that matters — safety, lifespan, weight, and total value — it outperforms every steel cylinder and every uncertified import in the Pakistani market.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -435,8 +435,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Chinese imports vary enormously in quality; certification markings on cheap imports may not correspond to genuine independent laboratory testing',
             'For winter 2026, composite cylinders are the most future-proof choice — the upcoming OGRA composite cylinder standard revision will likely require all cylinders sold in Pakistan to meet ISO 11119-3 within 5 years',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -453,14 +453,14 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p><strong>Category 2: Domestic steel cylinders.</strong> Conventional steel cylinders manufactured by Pakistani companies and sold through local dealers. Compliant with PS 4922, the Pakistani national standard for steel LPG cylinders. Familiar, widely distributed, cheap upfront — but heavy, opaque, prone to corrosion, and limited to 8–12 year service life before mandatory retirement.</p>
 
-      <p><strong>Category 3: Multinational-brand steel cylinders.</strong> Steel cylinders sold through the distribution networks of major fuel companies like PARCO, Shell, and Total — branded, but manufactured to the same steel cylinder standards as domestic steel. The brand name does not change the fundamental material properties or safety profile. A PARCO cylinder is still a <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">conventional steel cylinder</Link>.</p>
+      <p><strong>Category 3: Multinational-brand steel cylinders.</strong> Steel cylinders sold through the distribution networks of major fuel companies like PARCO, Shell, and Total — branded, but manufactured to the same steel cylinder standards as domestic steel. The brand name does not change the fundamental material properties or safety profile. A PARCO cylinder is still a <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">conventional steel cylinder</Link>.</p>
 
       <p><strong>Category 4: Chinese imported composite cylinders.</strong> Imported composite cylinders from China, ranging from genuinely certified products from accredited facilities to uncertified cylinders with counterfeit certification markings. The challenge for Pakistani consumers is that distinguishing genuine from counterfeit requires certificate number verification with the issuing laboratory — something almost no Pakistani retail buyer does or knows to do.</p>
 
       <h2>Safety Ratings — Ranked by Most Important Criterion</h2>
 
       <h3>Non-Blast Certification (Fire Engulfment Test)</h3>
-      <p>The single most important safety criterion for any LPG cylinder is its behaviour under fire exposure — specifically whether it explodes violently (a BLEVE) or releases gas in a controlled manner (a leak). The <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">BLEVE explosion</Link> is the cause of Pakistan&apos;s most severe gas cylinder blast fatalities.</p>
+      <p>The single most important safety criterion for any LPG cylinder is its behaviour under fire exposure — specifically whether it explodes violently (a BLEVE) or releases gas in a controlled manner (a leak). The <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">BLEVE explosion</Link> is the cause of Pakistan&apos;s most severe gas cylinder blast fatalities.</p>
 
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
@@ -479,10 +479,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Chinese composite (certified)', 'Required if genuine', 'Only if genuinely tested', '❓ Verify first'],
               ['Chinese composite (uncertified)', 'None', 'No', '❌ Avoid'],
             ].map(([cat, test, cert, verdict]) => (
-              <tr key={cat} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-medium text-slate-700">{cat}</td>
-                <td className="p-3 text-slate-600">{test}</td>
-                <td className="p-3 text-slate-600">{cert}</td>
+              <tr key={cat} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-medium text-ink">{cat}</td>
+                <td className="p-3 text-muted">{test}</td>
+                <td className="p-3 text-muted">{cert}</td>
                 <td className="p-3 font-bold">{verdict}</td>
               </tr>
             ))}
@@ -521,10 +521,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['5-Year Total Cost', '✅ Lower (no hydrotest, no replacement)', '⚠️ Higher (hydrotest + likely replacement)', '⚠️ Higher', '⚠️ Highest (cheapest replaced most often)'],
               ['Made in Pakistan', '✅ Yes (Gujranwala)', '✅ Distributed locally', '✅ Distributed locally', '✅ Yes'],
             ].map(([feat, ...vals]) => (
-              <tr key={feat} className="border-b border-slate-100 even:bg-slate-50">
-                <td className="p-3 font-semibold text-slate-700">{feat}</td>
+              <tr key={feat} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{feat}</td>
                 {vals.map((v, i) => (
-                  <td key={i} className="p-3 text-slate-600 text-xs leading-relaxed">{v}</td>
+                  <td key={i} className="p-3 text-muted text-xs leading-relaxed">{v}</td>
                 ))}
               </tr>
             ))}
@@ -534,25 +534,25 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Price vs Value — The 2026 Calculation</h2>
 
-      <p>The most common objection to WAA Technologies composite cylinders is upfront price. At Rs. 9,000–12,000 for a 10 kg cylinder, the purchase price is 2–3× a domestic steel cylinder. But purchase price is not total cost. A <Link href="/traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">full 5-year cost comparison</Link> looks very different:</p>
+      <p>The most common objection to WAA Technologies composite cylinders is upfront price. At Rs. 9,000–12,000 for a 10 kg cylinder, the purchase price is 2–3× a domestic steel cylinder. But purchase price is not total cost. A <Link href="/traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">full 5-year cost comparison</Link> looks very different:</p>
 
       <div className="not-prose grid md:grid-cols-2 gap-4 mb-6">
-        <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200">
+        <div className="bg-tint rounded-2xl p-5 border border-line">
           <p className="font-black text-slate-800 text-base mb-3">Steel Cylinder — 5-Year Cost</p>
-          <div className="space-y-2 text-sm text-slate-700">
+          <div className="space-y-2 text-sm text-ink">
             <div className="flex justify-between"><span>Purchase price</span><span className="font-bold">Rs. 3,500</span></div>
             <div className="flex justify-between"><span>Hydrotest (Year 5)</span><span className="font-bold">Rs. 800–1,200</span></div>
             <div className="flex justify-between"><span>Likely replacement (Year 8–10)</span><span className="font-bold">Rs. 3,500+</span></div>
-            <div className="flex justify-between border-t border-slate-200 pt-2 font-black text-slate-900"><span>5-year estimate</span><span>Rs. ~8,000–9,000</span></div>
+            <div className="flex justify-between border-t border-line pt-2 font-black text-ink"><span>5-year estimate</span><span>Rs. ~8,000–9,000</span></div>
           </div>
         </div>
-        <div className="bg-green-50 rounded-2xl p-5 border border-green-200">
-          <p className="font-black text-green-900 text-base mb-3">WAA Composite — 5-Year Cost</p>
-          <div className="space-y-2 text-sm text-slate-700">
+        <div className="bg-tint rounded-2xl p-5 border border-line">
+          <p className="font-black text-brand text-base mb-3">WAA Composite — 5-Year Cost</p>
+          <div className="space-y-2 text-sm text-ink">
             <div className="flex justify-between"><span>Purchase price</span><span className="font-bold">Rs. 10,000</span></div>
             <div className="flex justify-between"><span>Hydrotest required</span><span className="font-bold text-green-700">None</span></div>
             <div className="flex justify-between"><span>Replacement needed</span><span className="font-bold text-green-700">None</span></div>
-            <div className="flex justify-between border-t border-green-200 pt-2 font-black text-green-900"><span>5-year estimate</span><span>Rs. ~10,000</span></div>
+            <div className="flex justify-between border-t border-line pt-2 font-black text-brand"><span>5-year estimate</span><span>Rs. ~10,000</span></div>
           </div>
           <p className="text-green-700 text-xs mt-3 font-medium">Cylinder still at ~25% of its 20-year rated life. Still earning back value in years 6–20.</p>
         </div>
@@ -571,19 +571,19 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>OGRA-licensed dealer</strong> — Purchase only from an OGRA-licensed dealer. A licensed dealer is legally accountable for the compliance of what they sell. An unlicensed hardware market stall is not.</li>
       </ul>
 
-      <p>For details on how to identify certified vs uncertified imports, see the full guide on <Link href="/chinese-imported-vs-pakistani-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Chinese imported vs Pakistani composite LPG cylinders</Link>.</p>
+      <p>For details on how to identify certified vs uncertified imports, see the full guide on <Link href="/chinese-imported-vs-pakistani-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Chinese imported vs Pakistani composite LPG cylinders</Link>.</p>
 
       <h2>Why Winter 2026 Is the Best Time to Switch</h2>
 
-      <p>October is the ideal time to make the switch from steel to composite — before Pakistan&apos;s annual winter gas shortage hits in November. Every year, when piped gas pressure collapses across Punjab, KPK, and other SNGPL-served areas, households that have already switched to LPG composite cylinders are insulated from the shortage. Households that wait until November to buy find depleted dealer stock, longer delivery times, and panic-driven purchasing decisions. Buying now, in October, gives you full dealer inventory, normal pricing, and time to establish your refill routine before the cold sets in. For the complete winter preparation guide, see <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to prepare your home for the winter gas shortage</Link>.</p>
+      <p>October is the ideal time to make the switch from steel to composite — before Pakistan&apos;s annual winter gas shortage hits in November. Every year, when piped gas pressure collapses across Punjab, KPK, and other SNGPL-served areas, households that have already switched to LPG composite cylinders are insulated from the shortage. Households that wait until November to buy find depleted dealer stock, longer delivery times, and panic-driven purchasing decisions. Buying now, in October, gives you full dealer inventory, normal pricing, and time to establish your refill routine before the cold sets in. For the complete winter preparation guide, see <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to prepare your home for the winter gas shortage</Link>.</p>
 
       <h2>The Verdict — Best LPG Cylinder in Pakistan 2026</h2>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-6">
-        <p className="font-black text-green-900 text-base mb-3">Our Recommendation for Every Pakistani Household in 2026</p>
-        <p className="text-slate-700 text-sm leading-relaxed mb-3">If safety is your priority: <strong>WAA Technologies composite cylinder</strong> — the only locally manufactured option that is non-blast certified, corrosion-free, and rated for 20+ years.</p>
-        <p className="text-slate-700 text-sm leading-relaxed mb-3">If upfront cost is your binding constraint: any domestic steel cylinder from an OGRA-licensed dealer — PS 4922 compliant, with a valid hydrotest date. Accept the higher long-term cost and corrosion risk as the trade-off.</p>
-        <p className="text-slate-700 text-sm leading-relaxed">If you are buying for a restaurant, commercial kitchen, or food business: <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite is the only rational choice</Link> — the safety, operational, and regulatory compliance advantages compound in a high-usage commercial environment.</p>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-6">
+        <p className="font-black text-brand text-base mb-3">Our Recommendation for Every Pakistani Household in 2026</p>
+        <p className="text-ink text-sm leading-relaxed mb-3">If safety is your priority: <strong>WAA Technologies composite cylinder</strong> — the only locally manufactured option that is non-blast certified, corrosion-free, and rated for 20+ years.</p>
+        <p className="text-ink text-sm leading-relaxed mb-3">If upfront cost is your binding constraint: any domestic steel cylinder from an OGRA-licensed dealer — PS 4922 compliant, with a valid hydrotest date. Accept the higher long-term cost and corrosion risk as the trade-off.</p>
+        <p className="text-ink text-sm leading-relaxed">If you are buying for a restaurant, commercial kitchen, or food business: <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite is the only rational choice</Link> — the safety, operational, and regulatory compliance advantages compound in a high-usage commercial environment.</p>
       </div>
 
       <p>WAA Technologies composite cylinders are available from authorised dealers across Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, and growing city networks across Punjab, Sindh, and KPK. To find your nearest dealer, visit waatechnologies.com/authorized-dealers or call (+92) 42 37815533.</p>
@@ -593,17 +593,17 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Become a WAA Composite Cylinder Dealer ── */
   'become-waa-composite-cylinder-dealer-pakistan': (
     <>
-      <p className="not-prose text-xs text-slate-500 mb-4">Last updated: September 2026 · Published by WAA Technologies Pvt Ltd, Gujranwala, Pakistan</p>
+      <p className="not-prose text-xs text-muted mb-4">Last updated: September 2026 · Published by WAA Technologies Pvt Ltd, Gujranwala, Pakistan</p>
 
-      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+      <div className="not-prose bg-brand-dark rounded-2xl p-5 mb-8 text-white">
         <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
         <p className="text-lg font-bold leading-snug mb-3">How do you become a gas cylinder dealer in Pakistan with WAA Technologies?</p>
         <p className="text-slate-300 text-sm leading-relaxed">To become a gas cylinder dealer in Pakistan with WAA Technologies, you <strong className="text-white">apply through WAA&apos;s authorised dealer network</strong>, show a <strong className="text-white">retail or storage space and valid business registration</strong>, and place an <strong className="text-white">initial stock order</strong>. Once approved, you are onboarded with <strong className="text-white">supply, dealer pricing, branding and marketing support</strong>. Full requirements and steps are below.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -614,8 +614,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders are under 5% of Pakistan\'s cylinder fleet and demand is projected to grow 25–35% a year, so early dealers can capture the switch from steel',
             'Apply by WhatsApp (+92 3414999998), phone (+92 423 781 5533) or the contact page — the step-by-step process is below',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -624,7 +624,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>If you are researching how to become a gas cylinder dealer in Pakistan, a composite LPG cylinder dealership is one of the few openings where the product itself is changing the market. Households and restaurants are moving from heavy steel cylinders to lighter, non-blast composite ones, and the dealer network that supplies them is still being built. WAA Technologies Pvt Ltd — Pakistan&apos;s first composite LPG cylinder manufacturer, based in Gujranwala — is actively adding authorised dealers across the country.</p>
 
-      <p>This guide covers what a WAA Technologies dealer does, the requirements, what WAA provides, how to apply step by step, and where the network is growing. It builds on the <Link href="/lpg-industry-pakistan-market-size-future-outlook" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">growing market demand</Link> for composite cylinders and the <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">business case for composite</Link> that Pakistani restaurants are already acting on.</p>
+      <p>This guide covers what a WAA Technologies dealer does, the requirements, what WAA provides, how to apply step by step, and where the network is growing. It builds on the <Link href="/lpg-industry-pakistan-market-size-future-outlook" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">growing market demand</Link> for composite cylinders and the <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">business case for composite</Link> that Pakistani restaurants are already acting on.</p>
 
       <h2>Why a Composite LPG Cylinder Dealership Is a Strong Opportunity in 2026</h2>
 
@@ -642,7 +642,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>An authorised WAA Technologies dealer sells composite LPG cylinders to households, restaurants and other businesses in a defined area and supports those customers after the sale. In practice that means:</p>
 
       <ul>
-        <li>Advising customers on the right size, from a 5 kg cylinder for small households to larger cylinders for commercial kitchens, using our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5kg vs 10kg sizing guide</Link>.</li>
+        <li>Advising customers on the right size, from a 5 kg cylinder for small households to larger cylinders for commercial kitchens, using our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5kg vs 10kg sizing guide</Link>.</li>
         <li>Supplying each cylinder with its valve fitted, certification documentation and a safety usage guide, plus a matched regulator where the customer needs one.</li>
         <li>Offering filled cylinders, and delivery where the dealer provides it, so customers do not have to arrange filling themselves.</li>
         <li>Providing first-line after-sales help: assessing handling damage, replacing valves and advising whether a cylinder is still within its service life.</li>
@@ -656,10 +656,10 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>You need a retail shop or dedicated storage space in the area you want to serve. Location matters commercially: visible, accessible premises close to the households, restaurants and food businesses you plan to supply will turn stock over faster than a hard-to-reach address.</p>
 
       <h3>Business Registration &amp; Documents</h3>
-      <p>Applicants need valid business registration for their shop or company, plus the documents WAA&apos;s sales team requests during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask early which licence or approval applies to your premises and business type. The regulator&apos;s framework is published on the <a href="https://www.ogra.org.pk" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA website</a>, and our list of <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA-compliant supply</Link> shows what licensed LPG cylinder manufacturing looks like in Pakistan.</p>
+      <p>Applicants need valid business registration for their shop or company, plus the documents WAA&apos;s sales team requests during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask early which licence or approval applies to your premises and business type. The regulator&apos;s framework is published on the <a href="https://www.ogra.org.pk" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA website</a>, and our list of <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA-compliant supply</Link> shows what licensed LPG cylinder manufacturing looks like in Pakistan.</p>
 
       <h3>Initial Investment &amp; Stock</h3>
-      <p>Dealers place an initial stock order before they start selling. The size of that order, and therefore the total investment, depends on your city, premises and the cylinder sizes you plan to stock, so no single figure applies to every dealer and WAA confirms it during application. For planning scale, the retail prices of the cylinders you would stock run from roughly Rs. 7,000–9,000 for a 5 kg to Rs. 10,000–14,000 for a 12 kg — see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">cylinder pricing</Link> guide. Dealer pricing is provided to approved applicants.</p>
+      <p>Dealers place an initial stock order before they start selling. The size of that order, and therefore the total investment, depends on your city, premises and the cylinder sizes you plan to stock, so no single figure applies to every dealer and WAA confirms it during application. For planning scale, the retail prices of the cylinders you would stock run from roughly Rs. 7,000–9,000 for a 5 kg to Rs. 10,000–14,000 for a 12 kg — see our <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">cylinder pricing</Link> guide. Dealer pricing is provided to approved applicants.</p>
 
       {dealerCta('Meet the requirements? Apply to become a WAA Technologies authorised dealer.')}
 
@@ -692,7 +692,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-green-950 text-white">
+            <tr className="bg-brand-dark text-white">
               <th className="text-left p-3 font-bold">Province</th>
               <th className="text-left p-3 font-bold">Cities with listed authorised dealers</th>
             </tr>
@@ -703,16 +703,16 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Sindh', 'Karachi, Hyderabad'],
               ['KPK', 'Peshawar'],
             ].map(([province, cities]) => (
-              <tr key={province} className="border-b border-slate-200 even:bg-slate-50">
+              <tr key={province} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-bold text-slate-800">{province}</td>
-                <td className="p-3 text-slate-700">{cities}</td>
+                <td className="p-3 text-ink">{cities}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      <p>Availability is decided city by city and area by area, so the fastest way to find out whether your territory is open is to ask WAA directly. To see how the network looks from a customer&apos;s side, read our dealer network by city: <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>. The current dealer list is on the <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">authorised dealers page</Link>.</p>
+      <p>Availability is decided city by city and area by area, so the fastest way to find out whether your territory is open is to ask WAA directly. To see how the network looks from a customer&apos;s side, read our dealer network by city: <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Karachi</Link> and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Islamabad and Rawalpindi</Link>. The current dealer list is on the <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers page</Link>.</p>
 
       <h2>Is a Composite Cylinder Dealership Profitable?</h2>
 
@@ -742,15 +742,15 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: 5kg vs 10kg Composite LPG Cylinder ── */
   '5kg-vs-10kg-composite-lpg-cylinder': (
     <>
-      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+      <div className="not-prose bg-brand-dark rounded-2xl p-5 mb-8 text-white">
         <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
         <p className="text-lg font-bold leading-snug mb-3">5kg or 10kg composite LPG cylinder — which should you buy?</p>
         <p className="text-slate-300 text-sm leading-relaxed">For most Pakistani households of <strong className="text-white">2–4 people</strong>, a <strong className="text-white">5 kg composite LPG cylinder</strong> is the right size — a full cylinder typically lasts <strong className="text-white">15–20 days</strong> of normal cooking and is light enough (≈5.5 kg empty) to carry to a filling station without help. Choose a <strong className="text-white">10 kg composite cylinder</strong> for a family of <strong className="text-white">4–6 people</strong>, heavier daily cooking, or a small restaurant — it lasts <strong className="text-white">3–5 weeks</strong> per fill, so you refill less often even though the cylinder itself is heavier and costs more upfront.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -761,8 +761,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Price and refill frequency are the two real deciding factors — see the side-by-side table below',
             'Both carry ISO 9001:2015 and BS EN 14427:2022 certification — size does not change the safety rating',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -771,7 +771,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>The first decision a Pakistani household makes when buying a composite LPG cylinder is not steel-versus-composite — it&apos;s size. WAA Technologies&apos; two most common sizes, 5 kg and 10 kg, cover the vast majority of household needs, and the right choice depends on exactly two things: how many people you&apos;re cooking for, and how often you&apos;re willing to arrange a refill. Get the size wrong and you either pay for gas capacity you don&apos;t use, or you find yourself reordering every couple of weeks.</p>
 
-      <p>This guide compares the 5 kg and 10 kg composite cylinder head-to-head — gas duration, weight, <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">current cylinder prices</Link>, and which size fits which household — so you can buy the right one the first time, backed by the same 20+ year <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">cylinder lifespan</Link> and non-blast safety rating regardless of which size you choose.</p>
+      <p>This guide compares the 5 kg and 10 kg composite cylinder head-to-head — gas duration, weight, <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">current cylinder prices</Link>, and which size fits which household — so you can buy the right one the first time, backed by the same 20+ year <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">cylinder lifespan</Link> and non-blast safety rating regardless of which size you choose.</p>
 
       <h2>How to Decide Between a 5kg and 10kg Composite Cylinder (2-Minute Answer)</h2>
 
@@ -798,7 +798,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-green-950 text-white">
+            <tr className="bg-brand-dark text-white">
               <th className="text-left p-3 font-bold">Spec</th>
               <th className="text-center p-3 font-bold">5 kg</th>
               <th className="text-center p-3 font-bold">10 kg</th>
@@ -814,10 +814,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Refill cost', 'Rs. 1,500–2,000', 'Rs. 3,000–4,000'],
               ['Best for', 'Singles, couples, small families, apartments', 'Families of 4–6, restaurants, food trucks'],
             ].map(([spec, five, ten]) => (
-              <tr key={spec} className="border-b border-slate-200 even:bg-slate-50">
+              <tr key={spec} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-medium text-slate-800">{spec}</td>
-                <td className="p-3 text-center text-slate-700">{five}</td>
-                <td className="p-3 text-center text-green-900 font-medium">{ten}</td>
+                <td className="p-3 text-center text-ink">{five}</td>
+                <td className="p-3 text-center text-brand font-medium">{ten}</td>
               </tr>
             ))}
           </tbody>
@@ -830,7 +830,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p><strong>Joint family or household of 4–6</strong> — the 10 kg is the better fit. Fewer refill trips matter more than portability once you&apos;re cooking three meals a day for a full household, and the per-refill convenience adds up over a year.</p>
 
-      <p><strong>Restaurant or small commercial kitchen</strong> — the 10 kg is the minimum size WAA Technologies recommends for continuous commercial cooking; very high-volume kitchens should look at the 12 kg cylinder in the <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">full size and price range</Link> instead of running multiple 5 kg cylinders.</p>
+      <p><strong>Restaurant or small commercial kitchen</strong> — the 10 kg is the minimum size WAA Technologies recommends for continuous commercial cooking; very high-volume kitchens should look at the 12 kg cylinder in the <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">full size and price range</Link> instead of running multiple 5 kg cylinders.</p>
 
       <p><strong>Food truck or street vendor</strong> — the 10 kg balances weight (still liftable by one person) against fewer mid-shift refill interruptions; some vendors carry a spare 5 kg as backup for exactly this reason.</p>
 
@@ -838,11 +838,11 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Why Size Doesn&apos;t Change the Safety</h2>
 
-      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, or 12 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
+      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, or 12 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
 
       <h2>Where to Buy the Right Size in Pakistan</h2>
 
-      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>. If you would rather stock and sell these sizes yourself, see <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to become a WAA Technologies composite cylinder dealer</Link>.</p>
+      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>. If you would rather stock and sell these sizes yourself, see <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to become a WAA Technologies composite cylinder dealer</Link>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -866,7 +866,7 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How to Store LPG Cylinder Safely — OGRA Rules ── */
   'how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules': (
     <>
-      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+      <div className="not-prose bg-brand-dark rounded-2xl p-5 mb-8 text-white">
         <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
         <p className="text-lg font-bold leading-snug mb-3">How should an LPG cylinder be stored at home in Pakistan?</p>
         <p className="text-slate-300 text-sm leading-relaxed">OGRA requires LPG cylinders to be stored <strong className="text-white">upright, in a ventilated area, away from heat sources, and never in a basement or enclosed room</strong>. The cylinder must be stored with its valve closed when not in use and must never be stored horizontally. Most Pakistani household gas cylinder incidents happen not during use but due to <strong className="text-white">incorrect storage</strong> — an enclosed space traps any minor leak until the concentration reaches ignition point.</p>
@@ -874,7 +874,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <div className="not-prose bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-amber-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-amber-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          <svg className="w-5 h-5 text-[#8a5a00] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
           Key Storage Rules — At a Glance
         </p>
         <ul className="space-y-2.5">
@@ -887,8 +887,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Keep children away from the cylinder storage area at all times',
             'Composite cylinders are translucent — check the gas level visually before storing an apparently empty cylinder',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-amber-600 font-black mt-0.5 shrink-0">⚠</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-[#8a5a00] font-black mt-0.5 shrink-0">⚠</span>
               <span>{point}</span>
             </li>
           ))}
@@ -897,7 +897,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Walk into any Pakistani kitchen and you will find the gas cylinder somewhere. Behind the stove. Under the counter. In the corner of the kitchen. In a cabinet. On a balcony. In a storage room. In some homes, in the bedroom. Most of these locations are wrong — some dangerously so — and yet the households that store cylinders this way have been doing it for years without incident, which creates a false sense of safety that persists until it does not.</p>
 
-      <p>Gas cylinder storage is not a matter of convenience or habit. It is regulated by <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA (Oil and Gas Regulatory Authority)</Link>, governed by the Petroleum Act 1934 and its associated regulations, and directly connected to the majority of <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder incidents that occur in Pakistani homes every year</Link>. Most incidents do not happen during cooking. They happen because a cylinder was stored incorrectly, developed a slow leak, and the leak went undetected long enough for the gas concentration in an enclosed space to reach ignition point — at which point a spark from a light switch, a phone charger, or even static electricity is sufficient to ignite the accumulated gas.</p>
+      <p>Gas cylinder storage is not a matter of convenience or habit. It is regulated by <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA (Oil and Gas Regulatory Authority)</Link>, governed by the Petroleum Act 1934 and its associated regulations, and directly connected to the majority of <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder incidents that occur in Pakistani homes every year</Link>. Most incidents do not happen during cooking. They happen because a cylinder was stored incorrectly, developed a slow leak, and the leak went undetected long enough for the gas concentration in an enclosed space to reach ignition point — at which point a spark from a light switch, a phone charger, or even static electricity is sufficient to ignite the accumulated gas.</p>
 
       <p>This guide covers everything a Pakistani household needs to know about correct LPG cylinder storage: what OGRA actually requires, the most common dangerous mistakes, the right and wrong locations in a Pakistani home, and how composite cylinder technology changes some of the storage calculus that applies to steel cylinders.</p>
 
@@ -982,8 +982,8 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Rooftop without cover', 'Direct sun through clear sky raises cylinder temperature dangerously in Pakistani summer'],
             ].map(([location, reason], i) => (
               <tr key={location} className={i % 2 === 0 ? 'bg-white' : 'bg-red-50'}>
-                <td className="p-3 font-medium text-slate-800 border border-slate-200">{location}</td>
-                <td className="p-3 text-slate-600 border border-slate-200">{reason}</td>
+                <td className="p-3 font-medium text-slate-800 border border-line">{location}</td>
+                <td className="p-3 text-muted border border-line">{reason}</td>
               </tr>
             ))}
           </tbody>
@@ -992,16 +992,16 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>How Composite Cylinders Change the Storage Equation</h2>
 
-      <p><Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">WAATechnologies composite cylinders</Link> improve the storage safety picture in two specific ways that steel cylinders cannot match.</p>
+      <p><Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAATechnologies composite cylinders</Link> improve the storage safety picture in two specific ways that steel cylinders cannot match.</p>
 
       <h3>Gas Level Visibility Prevents Overfilling and Misreading</h3>
-      <p>The translucent HDPE body of a WAATechnologies composite cylinder lets you <Link href="/transparent-gas-cylinder-benefits-see-lpg-level-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">see the gas level directly</Link> — like reading a water bottle. This matters for storage because many Pakistani households store what they believe is an empty cylinder carelessly, not realising it contains significant residual LPG. With a transparent composite cylinder, you can immediately see whether the cylinder has residual liquid gas before deciding on your storage approach. An apparently &quot;empty&quot; composite cylinder that still shows liquid at the bottom should be treated as a partially filled cylinder with all the same storage precautions.</p>
+      <p>The translucent HDPE body of a WAATechnologies composite cylinder lets you <Link href="/transparent-gas-cylinder-benefits-see-lpg-level-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see the gas level directly</Link> — like reading a water bottle. This matters for storage because many Pakistani households store what they believe is an empty cylinder carelessly, not realising it contains significant residual LPG. With a transparent composite cylinder, you can immediately see whether the cylinder has residual liquid gas before deciding on your storage approach. An apparently &quot;empty&quot; composite cylinder that still shows liquid at the bottom should be treated as a partially filled cylinder with all the same storage precautions.</p>
 
       <h3>Corrosion-Free Body Eliminates Rust-Related Storage Risks</h3>
       <p>Steel cylinders stored in the correct outdoor alcove or kitchen corner in Pakistan&apos;s humid climate — particularly in Karachi, coastal areas, and monsoon-affected Punjab — corrode progressively. Corrosion weakens the cylinder wall over time and can compromise valve threads, leading to slow leaks at the valve-body interface. The HDPE body of a WAATechnologies composite cylinder does not corrode regardless of storage environment. A composite cylinder stored correctly on an outdoor balcony in Karachi&apos;s coastal salt air for 10 years will have the same structural condition as on its first day of service.</p>
 
       <h3>Non-Blast Certification Reduces Consequences of Storage Errors</h3>
-      <p>Even with perfect storage practices, storage errors happen — particularly in households with children, in rental properties where instructions are not passed between tenants, or in emergencies. If a storage error leads to a fire, a steel cylinder in the fire will eventually undergo a <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">BLEVE — a catastrophic rupture that projects lethal shrapnel fragments</Link>. A WAATechnologies composite cylinder certified to ISO 11119-3 cannot BLEVE. Its fire engulfment test requires that the cylinder develop a controlled gas release rather than rupturing. This does not make storage errors acceptable, but it does mean that the catastrophic consequence of the worst-case storage scenario — fire — is less lethal with a composite cylinder than with a steel one.</p>
+      <p>Even with perfect storage practices, storage errors happen — particularly in households with children, in rental properties where instructions are not passed between tenants, or in emergencies. If a storage error leads to a fire, a steel cylinder in the fire will eventually undergo a <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">BLEVE — a catastrophic rupture that projects lethal shrapnel fragments</Link>. A WAATechnologies composite cylinder certified to ISO 11119-3 cannot BLEVE. Its fire engulfment test requires that the cylinder develop a controlled gas release rather than rupturing. This does not make storage errors acceptable, but it does mean that the catastrophic consequence of the worst-case storage scenario — fire — is less lethal with a composite cylinder than with a steel one.</p>
 
       <h2>What to Do If You Smell Gas at Home</h2>
 
@@ -1031,8 +1031,8 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Performing a quick monthly check takes less than two minutes and significantly reduces storage-related incident risk. Here is the complete checklist:</p>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3">Monthly LPG Storage Check</p>
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3">Monthly LPG Storage Check</p>
         <ul className="space-y-2.5">
           {[
             'Cylinder is upright and stable — no leaning or tilting',
@@ -1044,7 +1044,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'No new heat source has been installed within 1 metre of the cylinder',
             'Perform soap-and-water bubble test on hose fittings and regulator connection after every cylinder change',
           ].map((item) => (
-            <li key={item} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={item} className="flex items-start gap-2.5 text-sm text-ink">
               <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <span>{item}</span>
             </li>
@@ -1065,8 +1065,8 @@ const articleContent: Record<string, React.ReactNode> = {
         <p className="text-green-200 text-sm leading-relaxed"><strong className="text-white">WAATechnologies Pvt Ltd</strong> — Pakistan&apos;s first and only indigenous manufacturer of ISO-certified composite LPG cylinders, founded in 2022 after four years of R&amp;D beginning in 2018. Every cylinder is designed, engineered, and manufactured in Pakistan — at a purpose-built 26,000 sq ft facility in Gujranwala, Punjab. On this <strong className="text-white">79th Independence Day</strong>, choosing a WAATechnologies cylinder is choosing Made in Pakistan.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Facts — WAATechnologies &amp; Made in Pakistan
         </p>
@@ -1079,7 +1079,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'The filament winding technology at WAATechnologies is the same process used by leading manufacturers in Germany, South Korea, and the UAE — not an approximation of it',
             'Choosing a Made in Pakistan composite cylinder keeps engineering jobs, technical R&D investment, and manufacturing revenue inside Pakistan',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <span>{point}</span>
             </li>
@@ -1097,7 +1097,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Before WAATechnologies, Pakistan&apos;s composite LPG cylinder market was entirely import-dependent. Every composite cylinder available in Pakistan came from manufacturing facilities in China, South Korea, Turkey, or Europe — with all the import costs, supply chain vulnerabilities, quality inconsistencies, and foreign exchange outflow that entails.</p>
 
-      <p>The dominant product in Pakistan&apos;s gas cylinder market was — and in most homes still is — the conventional steel cylinder. Steel cylinders have been produced in Pakistan for decades. They are familiar, widely distributed, and relatively cheap to manufacture. They are also responsible for <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">hundreds of gas cylinder blast incidents every year in Pakistan</Link>, killing and maiming Pakistani families in their own kitchens through a failure mode — the <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">BLEVE explosion</Link> — that composite cylinder technology specifically and permanently eliminates.</p>
+      <p>The dominant product in Pakistan&apos;s gas cylinder market was — and in most homes still is — the conventional steel cylinder. Steel cylinders have been produced in Pakistan for decades. They are familiar, widely distributed, and relatively cheap to manufacture. They are also responsible for <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">hundreds of gas cylinder blast incidents every year in Pakistan</Link>, killing and maiming Pakistani families in their own kitchens through a failure mode — the <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">BLEVE explosion</Link> — that composite cylinder technology specifically and permanently eliminates.</p>
 
       <p>Imported composite cylinders were available in Pakistan before WAATechnologies, but they came with no domestic after-sales infrastructure, inconsistent certification verification, limited dealer networks, and pricing that put them beyond the ordinary Pakistani household. More fundamentally, every foreign exchange rupee spent on an imported composite cylinder left Pakistan permanently.</p>
 
@@ -1133,7 +1133,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>ISO 11119-3:2020 is the International Organization for Standardization standard for refillable composite gas cylinders with non-metallic liners. Certification requires the cylinder design to pass: burst pressure testing at 2.25× working pressure; 12,000-cycle pressure fatigue testing; fire engulfment testing confirming non-blast behaviour; drop testing from 1.8 metres; and accelerated UV degradation equivalent to 20+ years of outdoor exposure.</p>
 
-      <p>A cylinder that passes all five test categories receives a <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">20+ year rated service life</Link> and the non-blast certification that means it physically cannot undergo the shrapnel-projecting BLEVE explosion that makes steel cylinder incidents so devastating. Every imported composite cylinder claiming ISO 11119-3 certification also carries this certification — because there is no alternative if the cylinder is genuinely safe. The significance: WAATechnologies cylinders carry identical certification to the South Korean and European products that previously represented the only certified composite option in Pakistan. Made in Pakistan. Certified to the same standard.</p>
+      <p>A cylinder that passes all five test categories receives a <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">20+ year rated service life</Link> and the non-blast certification that means it physically cannot undergo the shrapnel-projecting BLEVE explosion that makes steel cylinder incidents so devastating. Every imported composite cylinder claiming ISO 11119-3 certification also carries this certification — because there is no alternative if the cylinder is genuinely safe. The significance: WAATechnologies cylinders carry identical certification to the South Korean and European products that previously represented the only certified composite option in Pakistan. Made in Pakistan. Certified to the same standard.</p>
 
       <h3>BS EN 14427:2022 — European Standard Certification</h3>
 
@@ -1186,10 +1186,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['After-Sales Support', '✓ Local', 'Difficult / unavailable'],
               ['Supply Chain Risk', 'Low — domestic', 'High — import dependent'],
             ].map(([item, local, imported], i) => (
-              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-medium text-slate-800 border border-slate-200">{item}</td>
-                <td className="p-3 text-green-800 font-medium border border-slate-200">{local}</td>
-                <td className="p-3 text-slate-600 border border-slate-200">{imported}</td>
+              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-medium text-slate-800 border border-line">{item}</td>
+                <td className="p-3 text-brand font-medium border border-line">{local}</td>
+                <td className="p-3 text-muted border border-line">{imported}</td>
               </tr>
             ))}
           </tbody>
@@ -1198,7 +1198,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>How to Switch to a Made in Pakistan Composite Cylinder This Independence Day</h2>
 
-      <p>Switching from a steel cylinder to a <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">WAATechnologies composite cylinder</Link> is straightforward. WAATechnologies maintains an <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">authorised dealer network</Link> across Punjab (Lahore, Gujranwala, Faisalabad, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad).</p>
+      <p>Switching from a steel cylinder to a <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAATechnologies composite cylinder</Link> is straightforward. WAATechnologies maintains an <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealer network</Link> across Punjab (Lahore, Gujranwala, Faisalabad, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad).</p>
 
       <p>Purchase the cylinder size appropriate for your household or business — 5 kg for small households, 10 kg for standard families and commercial use. Have it filled at any OGRA-licensed LPG fill point. No new regulator is required in most cases — the cylinder valve is compatible with standard Pakistani LPG regulators. The same per-kg LPG fill cost applies as for steel cylinders.</p>
 
@@ -1224,7 +1224,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite non-blast cylinders physically cannot rupture and project shrapnel — they are the only permanent engineering solution',
             'Most incidents happen during Eid, Ramadan, and winter — when gas usage spikes and cylinders are changed more frequently',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
               <span>{point}</span>
             </li>
@@ -1234,7 +1234,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s gas cylinder blast problem is not a rare or freak event. It is a chronic, year-round public safety crisis that destroys homes, kills and maims Pakistani men, women, and children with disturbing regularity, and costs the country billions of rupees in property damage, hospital bills, and lost lives. Every major Pakistani newspaper — Dawn, Geo, ARY, Jang — publishes gas cylinder explosion reports multiple times per week. Many incidents never make national news at all, appearing only in local Urdu dailies or remaining entirely unreported in remote areas of Sindh, KPK, and Balochistan.</p>
 
-      <p>This article examines the 2024–2025 data on gas cylinder blast incidents in Pakistan, analyses the root causes that make Pakistani households disproportionately vulnerable, identifies the districts and seasons of highest risk, and explains why the engineering shift from <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">steel to composite non-blast cylinders</Link> is the only permanent solution that works.</p>
+      <p>This article examines the 2024–2025 data on gas cylinder blast incidents in Pakistan, analyses the root causes that make Pakistani households disproportionately vulnerable, identifies the districts and seasons of highest risk, and explains why the engineering shift from <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">steel to composite non-blast cylinders</Link> is the only permanent solution that works.</p>
 
       <h2>The Scale of the Problem: 2024–2025 Statistics</h2>
 
@@ -1323,9 +1323,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: OGRA Rules for LPG Cylinders Pakistan ── */
   'ogra-rules-lpg-cylinders-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1336,15 +1336,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'OGRA requires all LPG cylinders to display the manufacturer name, test date, tare weight, and capacity permanently on the cylinder body',
             'Using uncertified or non-compliant LPG equipment in a commercial premises can result in immediate closure orders and criminal charges under the Petroleum Act',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>The Oil and Gas Regulatory Authority — OGRA — is Pakistan&apos;s federal regulator for the entire LPG value chain. Its mandate covers every step from LPG production and import, through storage and distribution, to the cylinder that sits in your kitchen. Despite this comprehensive mandate, a very large number of Pakistani households, and even many businesses, have almost no knowledge of what OGRA actually requires from an LPG cylinder, what the rules mean in practice, and how to verify whether a cylinder or equipment item is legally compliant. This matters: non-compliance is not just a legal risk. It is a direct safety risk, because OGRA&apos;s rules exist specifically to prevent the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">cylinder blasts and gas leaks that kill hundreds of Pakistanis every year</Link>.</p>
+      <p>The Oil and Gas Regulatory Authority — OGRA — is Pakistan&apos;s federal regulator for the entire LPG value chain. Its mandate covers every step from LPG production and import, through storage and distribution, to the cylinder that sits in your kitchen. Despite this comprehensive mandate, a very large number of Pakistani households, and even many businesses, have almost no knowledge of what OGRA actually requires from an LPG cylinder, what the rules mean in practice, and how to verify whether a cylinder or equipment item is legally compliant. This matters: non-compliance is not just a legal risk. It is a direct safety risk, because OGRA&apos;s rules exist specifically to prevent the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">cylinder blasts and gas leaks that kill hundreds of Pakistanis every year</Link>.</p>
 
       <p>This guide covers OGRA&apos;s complete LPG cylinder rulebook in plain language — what standards cylinders must meet, how to check compliance markings, the rules on refilling and hydrotesting, dealer licensing requirements, and the specific rules for commercial premises.</p>
 
@@ -1358,7 +1358,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>The primary Pakistani standard for LPG cylinders is <strong>PS 4922</strong>, administered by PSQCA under OGRA&apos;s oversight. PS 4922 sets minimum requirements for cylinder construction, material specification, pressure testing, valve requirements, marking, and service life for conventional steel LPG cylinders. Compliance with PS 4922 is mandatory for all steel cylinders manufactured for or imported into Pakistan.</p>
 
-      <p>For <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite (fibre) cylinders</Link> — a newer category that PS 4922 does not fully cover — OGRA currently accepts international equivalents: primarily <strong>ISO 11119-3</strong> (which governs composite cylinders with load-bearing fibre-reinforced plastic with non-load-bearing metallic liners) and <strong>EN 14427:2022</strong> (the European standard for transportable refillable composite cylinders). Composite cylinders must carry certification markings from an accredited testing laboratory demonstrating compliance with one of these international standards to be legally marketed and sold in Pakistan.</p>
+      <p>For <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite (fibre) cylinders</Link> — a newer category that PS 4922 does not fully cover — OGRA currently accepts international equivalents: primarily <strong>ISO 11119-3</strong> (which governs composite cylinders with load-bearing fibre-reinforced plastic with non-load-bearing metallic liners) and <strong>EN 14427:2022</strong> (the European standard for transportable refillable composite cylinders). Composite cylinders must carry certification markings from an accredited testing laboratory demonstrating compliance with one of these international standards to be legally marketed and sold in Pakistan.</p>
 
       <h2>Mandatory Markings: What Every Legal Cylinder Must Show</h2>
 
@@ -1384,7 +1384,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>A steel cylinder whose most recent hydrotest date is more than 5 years ago cannot legally be refilled at any OGRA-licensed filling station. In practice, enforcement of this rule at the retail refilling level in Pakistan is inconsistent — many informal dealers refill cylinders regardless of test date. However, using a cylinder that is overdue for hydrotesting is both illegal and genuinely dangerous: it is the primary reason why structurally compromised old cylinders continue to circulate in Pakistani households.</p>
 
-      <p>Composite cylinders like WAA Technologies models do not require periodic hydrotesting in the same way as steel. Their construction does not degrade in the corrosion-driven way that makes periodic hydraulic testing necessary for steel. WAA composite cylinders carry a <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">20+ year rated service life</Link> validated through ISO 11119-3 testing protocols that include accelerated aging and fatigue cycle testing.</p>
+      <p>Composite cylinders like WAA Technologies models do not require periodic hydrotesting in the same way as steel. Their construction does not degrade in the corrosion-driven way that makes periodic hydraulic testing necessary for steel. WAA composite cylinders carry a <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">20+ year rated service life</Link> validated through ISO 11119-3 testing protocols that include accelerated aging and fatigue cycle testing.</p>
 
       <h2>Rules for LPG Dealers and Refilling Stations</h2>
 
@@ -1423,7 +1423,7 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Steel vs Composite LPG Cylinder ── */
   'steel-vs-composite-lpg-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand-dark text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-3">Quick Verdict — Steel vs Composite</p>
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div>
@@ -1441,9 +1441,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </div>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1454,15 +1454,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders last 20+ years with zero maintenance — steel requires hydrotest every 5 years and replacement every 8–12 years',
             'Over 10 years, composite total cost of ownership is lower than steel despite the higher upfront price',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Walk into any Pakistani hardware market or LPG dealer in Lahore, Karachi, or Islamabad and you will find both options available: the familiar heavy steel cylinder — the &quot;gola&quot; that Pakistani households have used for decades — and the newer composite or fibre cylinder, lighter, translucent, and noticeably more expensive upfront. For most Pakistani families, the buying decision comes down to price, and on <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">purchase price alone, steel wins</Link>. But purchase price is not the right metric for comparing a safety product that will sit in your kitchen, be handled by your family members, and ultimately determine what happens if something goes wrong. This comparison covers every dimension that matters.</p>
+      <p>Walk into any Pakistani hardware market or LPG dealer in Lahore, Karachi, or Islamabad and you will find both options available: the familiar heavy steel cylinder — the &quot;gola&quot; that Pakistani households have used for decades — and the newer composite or fibre cylinder, lighter, translucent, and noticeably more expensive upfront. For most Pakistani families, the buying decision comes down to price, and on <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">purchase price alone, steel wins</Link>. But purchase price is not the right metric for comparing a safety product that will sit in your kitchen, be handled by your family members, and ultimately determine what happens if something goes wrong. This comparison covers every dimension that matters.</p>
 
       <h2>1. Safety: The Fundamental Difference</h2>
 
@@ -1478,7 +1478,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>A filled 12 kg steel LPG cylinder weighs approximately 30–32 kg. A filled 12 kg WAA composite cylinder weighs approximately 18–20 kg. The weight difference — approximately 12 kg, or about 40% — is significant in the practical context of Pakistani household life, where cylinders are carried up stairs, moved between rooms, handled by women and older family members, and changed by whoever is home when the gas runs out.</p>
 
-      <p>In commercial settings — restaurant kitchens, hotel cooking facilities, wedding catering — the weight difference is even more operationally significant. Kitchen staff may change cylinders multiple times per day. The composite cylinder&apos;s lighter weight <Link href="/composite-cylinders-reduce-lifting-injuries-restaurants-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">reduces physical strain and lifting injuries</Link>, lowers the probability of dropping accidents that damage valves, and makes it practical for a single person to manage cylinder changes without assistance.</p>
+      <p>In commercial settings — restaurant kitchens, hotel cooking facilities, wedding catering — the weight difference is even more operationally significant. Kitchen staff may change cylinders multiple times per day. The composite cylinder&apos;s lighter weight <Link href="/composite-cylinders-reduce-lifting-injuries-restaurants-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">reduces physical strain and lifting injuries</Link>, lowers the probability of dropping accidents that damage valves, and makes it practical for a single person to manage cylinder changes without assistance.</p>
 
       <p><strong>Verdict: Composite wins by a wide margin — 40–50% weight reduction.</strong></p>
 
@@ -1545,10 +1545,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['ISO certification', 'PS 4922', 'ISO 11119-3 / EN 14427'],
               ['UV resistant', '⚠️ Paint degrades', '✅ UV-stabilised HDPE'],
             ].map(([feature, steel, composite]) => (
-              <tr key={feature} className="border-b border-slate-200 even:bg-slate-50">
+              <tr key={feature} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-medium text-slate-800">{feature}</td>
-                <td className="p-3 text-center text-slate-600">{steel}</td>
-                <td className="p-3 text-center text-green-900 font-medium">{composite}</td>
+                <td className="p-3 text-center text-muted">{steel}</td>
+                <td className="p-3 text-center text-brand font-medium">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -1574,9 +1574,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Why LPG Cylinders Explode ── */
   'why-lpg-cylinders-explode-pakistan-how-to-prevent': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1587,15 +1587,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'The vapour from a leaking cylinder ignites at just 1.8–8.5% concentration in air — a much lower threshold than most people realise',
             'A gas smell that persists after closing the cylinder valve means the leak is from the regulator, hose, or stove — not the cylinder body',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Every Pakistani family that uses an LPG cylinder has likely heard the news reports: a cylinder exploded in a kitchen in Lahore, a blast destroyed a restaurant in Karachi, a family lost their home in Faisalabad after a cylinder blast during Sehri preparation. The incidents are distressingly common and the injuries catastrophic — for a detailed account, see the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">recorded gas cylinder blast incidents in Pakistan</Link>. Yet most Pakistanis have only a vague understanding of why cylinders explode — and without understanding the mechanism, it is impossible to make the specific decisions that prevent it. This article explains the physics of LPG cylinder explosions in plain language and shows, step by step, why composite cylinders eliminate the risk permanently.</p>
+      <p>Every Pakistani family that uses an LPG cylinder has likely heard the news reports: a cylinder exploded in a kitchen in Lahore, a blast destroyed a restaurant in Karachi, a family lost their home in Faisalabad after a cylinder blast during Sehri preparation. The incidents are distressingly common and the injuries catastrophic — for a detailed account, see the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">recorded gas cylinder blast incidents in Pakistan</Link>. Yet most Pakistanis have only a vague understanding of why cylinders explode — and without understanding the mechanism, it is impossible to make the specific decisions that prevent it. This article explains the physics of LPG cylinder explosions in plain language and shows, step by step, why composite cylinders eliminate the risk permanently.</p>
 
       <h2>What Is a BLEVE?</h2>
 
@@ -1626,7 +1626,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>The glass fibre reinforcement in a composite cylinder works differently. Fibre reinforced composite materials fail in a progressive, energy-dissipating mode — not in the brittle fracture mode of overstressed metal. When a composite cylinder is over-pressurised, the fibres progressively delaminate and the liner develops a crack that grows slowly, releasing pressure as a controlled leak rather than a sudden rupture. The HDPE liner material has no elastic strain energy to release suddenly. The result is a gas leak that may ignite and burn — but not the shattering fragmentation event of a steel BLEVE.</p>
 
-      <p>This behaviour is not accidental — it is the specific engineering design intent of composite pressure vessels for LPG storage, and it is tested and certified under ISO 11119-3&apos;s fire engulfment and burst testing protocols. Every <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">WAA Technologies composite cylinder sold in Pakistan has passed these tests</Link> and carries individual certification documentation proving non-blast behaviour.</p>
+      <p>This behaviour is not accidental — it is the specific engineering design intent of composite pressure vessels for LPG storage, and it is tested and certified under ISO 11119-3&apos;s fire engulfment and burst testing protocols. Every <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAA Technologies composite cylinder sold in Pakistan has passed these tests</Link> and carries individual certification documentation proving non-blast behaviour.</p>
 
       <h2>How to Prevent LPG Cylinder Explosions in Your Home</h2>
 
@@ -1658,9 +1658,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: PSI Certified Gas Cylinder Pakistan ── */
   'psi-certified-gas-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -1671,15 +1671,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Counterfeit certification markings are a known problem in Pakistan\'s LPG market — always buy from OGRA-licensed dealers to reduce the risk',
             'WAA Technologies composite cylinders are individually certified to both ISO 11119-3 and EN 14427-2022 with traceable certificate numbers',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Pakistani LPG cylinder shoppers and safety-conscious households frequently search for a &quot;PSI certified gas cylinder in Pakistan.&quot; The search reflects genuine concern about cylinder safety — but also significant confusion about what certification actually means in the Pakistani context, which authority certifies what, and how to verify that a cylinder&apos;s certification claim is genuine rather than a sticker applied for marketing purposes. For the full picture of <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA&apos;s cylinder compliance requirements</Link>, see the dedicated guide. This article clarifies the complete certification landscape for LPG cylinders in Pakistan.</p>
+      <p>Pakistani LPG cylinder shoppers and safety-conscious households frequently search for a &quot;PSI certified gas cylinder in Pakistan.&quot; The search reflects genuine concern about cylinder safety — but also significant confusion about what certification actually means in the Pakistani context, which authority certifies what, and how to verify that a cylinder&apos;s certification claim is genuine rather than a sticker applied for marketing purposes. For the full picture of <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA&apos;s cylinder compliance requirements</Link>, see the dedicated guide. This article clarifies the complete certification landscape for LPG cylinders in Pakistan.</p>
 
       <h2>What Does &quot;PSI Certified&quot; Mean for LPG Cylinders in Pakistan?</h2>
 
@@ -1748,7 +1748,7 @@ const articleContent: Record<string, React.ReactNode> = {
     <>
       <div className="not-prose bg-amber-50 border-l-4 border-amber-600 rounded-r-2xl p-5 mb-8">
         <p className="font-black text-amber-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-amber-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
+          <svg className="w-5 h-5 text-[#8a5a00] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /></svg>
           5 Warning Signs at a Glance
         </p>
         <ul className="space-y-2">
@@ -1759,15 +1759,15 @@ const articleContent: Record<string, React.ReactNode> = {
             '4. Irregular stove flame — too high, too low, or flickering unpredictably',
             '5. A hissing sound from the cylinder, regulator, or hose connection',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-amber-700 font-black mt-0.5 shrink-0">⚠</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-[#8a5a00] font-black mt-0.5 shrink-0">⚠</span>
               <span className="font-medium">{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Pakistani households live with LPG cylinders as a completely normal part of domestic life. The cylinder in the kitchen corner is as familiar as the refrigerator or the washing machine — and, like familiar objects, it is easy to stop noticing it. This familiarity is one of the reasons <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder accidents are so common in Pakistan</Link>: the warning signs that a cylinder or connection is becoming dangerous are present for days or weeks before an incident, and they are simply not recognised as danger signals by families who have lived with LPG all their lives without a problem.</p>
+      <p>Pakistani households live with LPG cylinders as a completely normal part of domestic life. The cylinder in the kitchen corner is as familiar as the refrigerator or the washing machine — and, like familiar objects, it is easy to stop noticing it. This familiarity is one of the reasons <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder accidents are so common in Pakistan</Link>: the warning signs that a cylinder or connection is becoming dangerous are present for days or weeks before an incident, and they are simply not recognised as danger signals by families who have lived with LPG all their lives without a problem.</p>
 
       <p>These are the five warning signs that demand immediate action. Each sign is described with what specifically to look for, what the underlying problem is likely to be, and the exact steps to take — including what not to do, which is often more important than what to do.</p>
 
@@ -1836,9 +1836,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder Price Pakistan 2025 ── */
   'composite-lpg-cylinder-price-pakistan-2025': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           2025 Price Summary
         </p>
         <ul className="space-y-2.5">
@@ -1849,15 +1849,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'LPG refill price is the same for composite as for steel — the cylinder type does not affect refill cost',
             'Total cost of ownership over 10 years is comparable to or lower than steel when hydrotest and replacement costs are factored in',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>The most common first question Pakistani households ask about composite LPG cylinders is: how much does it cost? It is a fair question and a practical one — household budgets in Pakistan are real, and a cylinder purchase competes with dozens of other needs. This complete 2025 price guide covers the purchase price for each WAA Technologies cylinder size, the LPG refill pricing that applies regardless of cylinder type, a full 10-year cost comparison between <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite and steel</Link>, what is included in the purchase price, and where to buy composite cylinders across Pakistan&apos;s major cities.</p>
+      <p>The most common first question Pakistani households ask about composite LPG cylinders is: how much does it cost? It is a fair question and a practical one — household budgets in Pakistan are real, and a cylinder purchase competes with dozens of other needs. This complete 2025 price guide covers the purchase price for each WAA Technologies cylinder size, the LPG refill pricing that applies regardless of cylinder type, a full 10-year cost comparison between <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite and steel</Link>, what is included in the purchase price, and where to buy composite cylinders across Pakistan&apos;s major cities.</p>
 
       <h2>Composite LPG Cylinder Prices in Pakistan — 2025</h2>
 
@@ -1866,7 +1866,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-green-950 text-white">
+            <tr className="bg-brand-dark text-white">
               <th className="text-left p-3 font-bold">Size</th>
               <th className="text-center p-3 font-bold">Cylinder Price (Empty)</th>
               <th className="text-center p-3 font-bold">LPG Fill Cost (approx.)</th>
@@ -1879,11 +1879,11 @@ const articleContent: Record<string, React.ReactNode> = {
               ['10 kg', 'Rs. 9,000–12,000', 'Rs. 3,000–4,000', 'Rs. 12,000–16,000'],
               ['12 kg', 'Rs. 10,000–14,000', 'Rs. 3,600–4,800', 'Rs. 13,600–18,800'],
             ].map(([size, price, fill, total]) => (
-              <tr key={size} className="border-b border-slate-200 even:bg-slate-50">
+              <tr key={size} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-bold text-slate-800">{size}</td>
-                <td className="p-3 text-center text-slate-700">{price}</td>
-                <td className="p-3 text-center text-slate-700">{fill}</td>
-                <td className="p-3 text-center text-green-900 font-bold">{total}</td>
+                <td className="p-3 text-center text-ink">{price}</td>
+                <td className="p-3 text-center text-ink">{fill}</td>
+                <td className="p-3 text-center text-brand font-bold">{total}</td>
               </tr>
             ))}
           </tbody>
@@ -1916,10 +1916,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['LPG refills (same for both)', 'Same', 'Same'],
               ['Total 10-year hardware cost', 'Rs. 10,400–10,900', 'Rs. 10,500'],
             ].map(([element, steel, composite]) => (
-              <tr key={element} className="border-b border-slate-200 even:bg-slate-50">
+              <tr key={element} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-medium text-slate-800">{element}</td>
-                <td className="p-3 text-center text-slate-700">{steel}</td>
-                <td className="p-3 text-center text-green-900 font-medium">{composite}</td>
+                <td className="p-3 text-center text-ink">{steel}</td>
+                <td className="p-3 text-center text-brand font-medium">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -1934,7 +1934,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p><strong>10 kg composite cylinder</strong> — the most popular size in Pakistan, suitable for: a family of 4–6 people cooking three meals daily; typical Pakistani household usage lasting 3–5 weeks between refills; balanced between purchase price and fill frequency.</p>
 
-      <p>For a full side-by-side breakdown of gas duration, weight, and price for these two sizes, see our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">5kg vs 10kg composite cylinder comparison guide</Link>.</p>
+      <p>For a full side-by-side breakdown of gas duration, weight, and price for these two sizes, see our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5kg vs 10kg composite cylinder comparison guide</Link>.</p>
 
       <p><strong>12 kg composite cylinder</strong> — suitable for: larger families of 7+ people; households that also use LPG for water heating; homes in areas with frequent gas pipeline outages where LPG is the primary fuel source; light commercial users such as small restaurants or catering operations.</p>
 
@@ -1965,14 +1965,14 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How Long Does a Composite LPG Cylinder Last ── */
   'how-long-does-composite-lpg-cylinder-last-pakistan': (
     <>
-      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+      <div className="not-prose bg-brand-dark rounded-2xl p-5 mb-8 text-white">
         <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
         <p className="text-lg font-bold leading-snug mb-3">How long does a composite LPG cylinder last in Pakistan?</p>
         <p className="text-slate-300 text-sm leading-relaxed">A WAA Technologies composite LPG cylinder is rated for <strong className="text-white">20+ years of service life</strong> and <strong className="text-white">12,000 fill-empty cycles</strong> under ISO 11119-3 international certification. At a typical Pakistani household usage rate of 8–10 fills per year, 12,000 cycles represents over 100 years of fill capacity — meaning the cylinder will outlast its structural service life of 20+ years in any realistic household scenario. By comparison, a steel LPG cylinder in Pakistani conditions lasts <strong className="text-white">8–12 years</strong> before structural degradation or mandatory hydrotest failure requires replacement. Over a 20-year period, you buy one composite cylinder where you would replace a steel cylinder two to three times.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
@@ -1986,7 +1986,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders do NOT require the mandatory 5-year hydrotest that steel cylinders require in Pakistan — eliminating a significant recurring cost and inconvenience',
             'A composite cylinder showing no physical damage (no cracks, no deep gouges, no valve damage) can continue in service for its full rated life without periodic recertification',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <span>{point}</span>
             </li>
@@ -1994,9 +1994,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <p>When Pakistani buyers compare composite LPG cylinders to steel, the conversation almost always starts with price. A WAA Technologies composite cylinder <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">costs more upfront than a steel cylinder</Link> — and that price difference is visible, immediate, and easy to compare. What is less immediately visible is the lifespan difference: the fact that the composite cylinder you buy today will still be in safe, certified service in 2045, while the steel cylinder you might buy instead will need to be replaced in 2034, and again before 2046.</p>
+      <p>When Pakistani buyers compare composite LPG cylinders to steel, the conversation almost always starts with price. A WAA Technologies composite cylinder <Link href="/composite-lpg-cylinder-price-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">costs more upfront than a steel cylinder</Link> — and that price difference is visible, immediate, and easy to compare. What is less immediately visible is the lifespan difference: the fact that the composite cylinder you buy today will still be in safe, certified service in 2045, while the steel cylinder you might buy instead will need to be replaced in 2034, and again before 2046.</p>
 
-      <p>Lifespan is the most important variable in any honest cost comparison between <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite and steel LPG cylinders in Pakistan</Link> — and it is the variable that steel cylinder sellers have the least interest in discussing. This guide covers everything a Pakistani buyer needs to know about composite cylinder lifespan: the certification basis for the 20+ year rating, the real-world factors that affect actual service life in Pakistani conditions, how composite lifespan compares to steel, the cost implications over a 20-year ownership period, and how to ensure your cylinder achieves its full rated service life.</p>
+      <p>Lifespan is the most important variable in any honest cost comparison between <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite and steel LPG cylinders in Pakistan</Link> — and it is the variable that steel cylinder sellers have the least interest in discussing. This guide covers everything a Pakistani buyer needs to know about composite cylinder lifespan: the certification basis for the 20+ year rating, the real-world factors that affect actual service life in Pakistani conditions, how composite lifespan compares to steel, the cost implications over a 20-year ownership period, and how to ensure your cylinder achieves its full rated service life.</p>
 
       <h2>The 20-Year Rating: What It Means and Where It Comes From</h2>
 
@@ -2033,7 +2033,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Composite cylinders do not corrode. HDPE is immune to moisture, salt air, industrial pollution, and oxidation. The glass fibre overwrap does not rust. A WAA Technologies composite cylinder stored outdoors in Karachi&apos;s coastal salt air for 20 years will have the same corrosion status as on its first day of service: none.</p>
 
       <h3>Mandatory 5-Year Hydrotest Failure</h3>
-      <p><Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA (Oil and Gas Regulatory Authority)</Link> requires steel LPG cylinders to undergo hydrostatic pressure testing every 5 years at a licensed facility. The hydrotest subjects the cylinder to water pressure significantly above working pressure and measures the permanent deformation resulting from the test pressure. A cylinder that deforms beyond permitted limits fails the hydrotest and must be withdrawn from service — it cannot legally be refilled.</p>
+      <p><Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA (Oil and Gas Regulatory Authority)</Link> requires steel LPG cylinders to undergo hydrostatic pressure testing every 5 years at a licensed facility. The hydrotest subjects the cylinder to water pressure significantly above working pressure and measures the permanent deformation resulting from the test pressure. A cylinder that deforms beyond permitted limits fails the hydrotest and must be withdrawn from service — it cannot legally be refilled.</p>
 
       <p>Steel cylinders in Pakistan fail their 5-year hydrotests at surprisingly high rates — particularly cylinders that have been operating in corrosive environments, that have been involved in drop incidents, or that have completed high numbers of fill cycles. Industry estimates suggest 15–30% of steel cylinders presented for hydrotest in Pakistan are condemned at the 10-year mark (their second hydrotest). A cylinder condemned at 10 years has delivered half its expected service life and must be replaced at full cylinder cost.</p>
 
@@ -2091,10 +2091,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['20-year total cylinder cost', 'Rs. 17,000–27,000', 'Rs. 12,000–16,000'],
               ['20-year saving (composite vs steel)', '—', 'Rs. 5,000–11,000 saved'],
             ].map(([item, steel, composite], i) => (
-              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{item}</td>
-                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
-                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              <tr key={item} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line text-xs">{item}</td>
+                <td className="p-3 text-red-700 border border-line text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-line text-xs">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -2158,10 +2158,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Cylinder that has been in a fire', 'Heat may have degraded HDPE liner or fibre overwrap', 'Remove from service regardless of visual appearance'],
               ['Manufacture date beyond 20 years', 'ISO 11119-3 rated service life expired', 'Retire and replace — do not continue using'],
             ].map(([condition, why, action], i) => (
-              <tr key={condition} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{condition}</td>
-                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{why}</td>
-                <td className="p-3 text-red-700 font-medium border border-slate-100 text-xs">{action}</td>
+              <tr key={condition} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line text-xs">{condition}</td>
+                <td className="p-3 text-muted border border-line text-xs">{why}</td>
+                <td className="p-3 text-red-700 font-medium border border-line text-xs">{action}</td>
               </tr>
             ))}
           </tbody>
@@ -2191,10 +2191,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Fill cycle rating', 'Not specified in Pakistan standard', '12,000 cycles (ISO 11119-3 fatigue-tested)'],
               ['20-year total ownership cost (10 kg)', 'Rs. 17,000–27,000 (2–3 replacements + hydrotests)', 'Rs. 12,000–16,000 (one purchase, no hydrotest)'],
             ].map(([factor, steel, composite], i) => (
-              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100 text-xs">{factor}</td>
-                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
-                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line text-xs">{factor}</td>
+                <td className="p-3 text-red-700 border border-line text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-line text-xs">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -2232,14 +2232,14 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Transparent Gas Cylinder Benefits ── */
   'transparent-gas-cylinder-benefits-see-lpg-level-pakistan': (
     <>
-      <div className="not-prose bg-slate-900 rounded-2xl p-5 mb-8 text-white">
+      <div className="not-prose bg-brand-dark rounded-2xl p-5 mb-8 text-white">
         <p className="text-amber-400 font-black text-xs uppercase tracking-widest mb-2">Quick Answer</p>
         <p className="text-lg font-bold leading-snug mb-3">Can you see the gas level in a WAA Technologies composite cylinder?</p>
         <p className="text-slate-300 text-sm leading-relaxed">Yes. WAA Technologies composite LPG cylinders have a translucent HDPE (high-density polyethylene) body. The liquid LPG inside is directly visible through the cylinder wall — you can see exactly how much gas remains at a glance, from across the kitchen, at any time. No lifting, no shaking, no guessing. Steel cylinders are 100% opaque — there is no way to see the level without lifting the cylinder to estimate its weight.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
@@ -2252,7 +2252,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'The translucent body is structural HDPE — a material with 20+ year outdoor durability — not a thin window or sight glass that can crack',
             'This feature is exclusive to WAA Technologies in Pakistan — no imported or domestic steel cylinder competitor offers equivalent gas-level visibility',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <svg className="w-5 h-5 text-green-700 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <span>{point}</span>
             </li>
@@ -2266,11 +2266,11 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>The root cause of all of these scenarios is a single fundamental limitation of steel LPG cylinders: they are completely opaque. There is no window. There is no level indicator. There is no gauge. There is no way to know how much gas remains inside a steel cylinder without lifting it and estimating its remaining weight — a technique that requires experience, physical capability, and provides only a rough approximation even when done correctly.</p>
 
-      <p>WAA Technologies has solved this problem. Their <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinders — manufactured in Pakistan to ISO 11119-3 and EN 14427-2022 international standards</Link> — have a translucent HDPE body. The liquid LPG inside is directly visible through the cylinder wall, exactly as water is visible through a plastic water bottle. You can see precisely how much gas you have, at a glance, from across the room, without touching the cylinder. This is the transparent gas cylinder advantage — and in Pakistan today, only WAA Technologies offers it.</p>
+      <p>WAA Technologies has solved this problem. Their <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinders — manufactured in Pakistan to ISO 11119-3 and EN 14427-2022 international standards</Link> — have a translucent HDPE body. The liquid LPG inside is directly visible through the cylinder wall, exactly as water is visible through a plastic water bottle. You can see precisely how much gas you have, at a glance, from across the room, without touching the cylinder. This is the transparent gas cylinder advantage — and in Pakistan today, only WAA Technologies offers it.</p>
 
       <h2>Why Steel Cylinders Cannot Show You the Gas Level</h2>
 
-      <p>Understanding why transparent gas cylinders are significant requires understanding the structural constraint that makes <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">steel cylinders opaque</Link>. LPG is stored at pressure — approximately 6–10 bar depending on temperature and fill level. Steel is the traditional pressure vessel material because it is strong, cheap, and weldable into the cylindrical pressure vessel shape. But steel is inherently opaque — you cannot see through it, and creating a transparent window in a pressurised steel vessel introduces a structural weak point that defeats the safety advantage of steel construction.</p>
+      <p>Understanding why transparent gas cylinders are significant requires understanding the structural constraint that makes <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">steel cylinders opaque</Link>. LPG is stored at pressure — approximately 6–10 bar depending on temperature and fill level. Steel is the traditional pressure vessel material because it is strong, cheap, and weldable into the cylindrical pressure vessel shape. But steel is inherently opaque — you cannot see through it, and creating a transparent window in a pressurised steel vessel introduces a structural weak point that defeats the safety advantage of steel construction.</p>
 
       <p>This is why steel LPG cylinders have always been opaque, and why no manufacturer has ever successfully added a reliable transparent panel to a steel cylinder at commercial scale. The material constraint is fundamental: you cannot make steel transparent, and you cannot safely introduce a transparent panel into a pressurised steel shell.</p>
 
@@ -2297,7 +2297,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>This is the benefit that every Pakistani household immediately understands. Running out of gas mid-cooking is not a rare event for households using steel cylinders — it happens regularly, because the only warning that the cylinder is nearly empty is the declining intensity of the flame, and by the time the flame is noticeably weaker, the cylinder may be hours or minutes from empty.</p>
 
-      <p>With a transparent WAA Technologies cylinder, the declining gas level is visible as a continuously descending interface line on the cylinder wall. A household that checks the level once a week — a two-second glance at the cylinder, no lifting required — knows its gas situation with certainty. When the level drops to the bottom quarter, you contact your <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">nearest WAATechnologies dealer</Link>. You never cook at risk of an unexpected gas-out again.</p>
+      <p>With a transparent WAA Technologies cylinder, the declining gas level is visible as a continuously descending interface line on the cylinder wall. A household that checks the level once a week — a two-second glance at the cylinder, no lifting required — knows its gas situation with certainty. When the level drops to the bottom quarter, you contact your <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">nearest WAATechnologies dealer</Link>. You never cook at risk of an unexpected gas-out again.</p>
 
       <h3>2. No More Lifting to Estimate Weight</h3>
 
@@ -2349,10 +2349,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Commercial kitchen benefit', 'Emergency mid-service changes common', 'Planned changes scheduled for service gaps'],
               ['Night / low-light visibility', 'No change — opaque in all conditions', 'Use torch for easy night visibility through wall'],
             ].map(([feat, steel, composite], i) => (
-              <tr key={feat} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{feat}</td>
-                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
-                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              <tr key={feat} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line">{feat}</td>
+                <td className="p-3 text-red-700 border border-line text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-line text-xs">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -2435,7 +2435,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Back injuries from heavy lifting are among the most common and most costly workplace injuries in Pakistan\'s hospitality sector',
             'A WAA Technologies 10 kg composite cylinder weighs 18–20 kg when filled — 40% lighter than the steel equivalent, every single lift, every single day',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
               <span>{point}</span>
             </li>
@@ -2443,8 +2443,8 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways for Restaurant Owners
         </p>
@@ -2456,7 +2456,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Female kitchen staff, older workers, and smaller-framed employees are disproportionately affected by steel cylinder weight — composite enables independent safe handling for the full workforce',
             'One lifting injury can cost a restaurant Rs. 30,000–100,000+ in medical costs, compensation, lost productivity, and temporary staff — far more than the price difference between steel and composite cylinders',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
@@ -2464,9 +2464,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <p>In every discussion about LPG cylinder safety in Pakistani restaurants, the conversation focuses almost exclusively on explosion risk. That focus is understandable — a <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">BLEVE explosion in a commercial kitchen</Link> is catastrophic. But it obscures a second, far more common category of LPG cylinder injury in Pakistan&apos;s restaurant sector: the daily, accumulating physical damage caused by repeatedly lifting and moving steel cylinders that weigh more than any single person should be lifting alone.</p>
+      <p>In every discussion about LPG cylinder safety in Pakistani restaurants, the conversation focuses almost exclusively on explosion risk. That focus is understandable — a <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">BLEVE explosion in a commercial kitchen</Link> is catastrophic. But it obscures a second, far more common category of LPG cylinder injury in Pakistan&apos;s restaurant sector: the daily, accumulating physical damage caused by repeatedly lifting and moving steel cylinders that weigh more than any single person should be lifting alone.</p>
 
-      <p>Pakistan&apos;s restaurant industry employs hundreds of thousands of kitchen workers. A significant proportion of their daily physical labour involves handling LPG cylinders — connecting them, disconnecting them, moving them within the kitchen, carrying them to and from storage, loading and unloading them from delivery vehicles. A <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">filled 10 kg steel LPG cylinder weighs 28–30 kg</Link> — roughly 40% heavier than an equivalent composite cylinder. A filled 12 kg cylinder — common in commercial kitchens — weighs 32–34 kg. These are not trivial weights. They exceed the maximum safe single-lift load recommended in occupational health guidelines, and they are lifted repeatedly by the same workers, day after day, often under time pressure during service.</p>
+      <p>Pakistan&apos;s restaurant industry employs hundreds of thousands of kitchen workers. A significant proportion of their daily physical labour involves handling LPG cylinders — connecting them, disconnecting them, moving them within the kitchen, carrying them to and from storage, loading and unloading them from delivery vehicles. A <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">filled 10 kg steel LPG cylinder weighs 28–30 kg</Link> — roughly 40% heavier than an equivalent composite cylinder. A filled 12 kg cylinder — common in commercial kitchens — weighs 32–34 kg. These are not trivial weights. They exceed the maximum safe single-lift load recommended in occupational health guidelines, and they are lifted repeatedly by the same workers, day after day, often under time pressure during service.</p>
 
       <p>The result is a persistent, largely undocumented injury burden in Pakistan&apos;s restaurant kitchen workforce: back strains, herniated discs, shoulder injuries, and drop accidents that injure feet, damage cylinder valves, and create secondary safety hazards. This guide is written for restaurant owners and kitchen managers who want to understand this injury risk, quantify it, and eliminate the majority of it through one straightforward equipment change.</p>
 
@@ -2573,10 +2573,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Legal / compensation exposure', 'Variable', 'Pakistan Workmen\'s Compensation Act 1923 applies to industrial injuries'],
               ['Operational disruption', 'Variable', 'Service quality impact, customer complaints, menu limitations'],
             ].map(([cat, range, notes], i) => (
-              <tr key={cat} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{cat}</td>
-                <td className="p-3 text-red-700 font-medium border border-slate-100">{range}</td>
-                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{notes}</td>
+              <tr key={cat} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line">{cat}</td>
+                <td className="p-3 text-red-700 font-medium border border-line">{range}</td>
+                <td className="p-3 text-muted border border-line text-xs">{notes}</td>
               </tr>
             ))}
           </tbody>
@@ -2621,10 +2621,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Emergency change risk', 'High — no warning before gas runs out', 'Eliminated — visible level allows planned changes'],
               ['Cumulative daily lift load (2 changes/day)', '60 kg unnecessary weight per shift', 'Eliminated — 40 kg less per shift vs steel'],
             ].map(([factor, steel, composite], i) => (
-              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{factor}</td>
-                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
-                <td className="p-3 text-green-700 font-medium border border-slate-100 text-xs">{composite}</td>
+              <tr key={factor} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line">{factor}</td>
+                <td className="p-3 text-red-700 border border-line text-xs">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-line text-xs">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -2650,7 +2650,7 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinders for Food Trucks & Street Vendors ── */
   'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': (
     <>
-      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand-dark text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-3">Why Food Truck & Street Vendors Are Switching to Composite Cylinders</p>
         <ul className="space-y-2">
           {[
@@ -2668,8 +2668,8 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
@@ -2681,7 +2681,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Public-space food operations carry elevated risk when steel cylinders are nearby — one explosion near a crowded stall affects dozens of bystanders',
             'WAA Technologies supplies commercial accounts with bulk pricing — contact (+92) 42 37815533 for food truck and vendor pricing',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
@@ -2691,9 +2691,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Stand on any street corner in Lahore&apos;s Anarkali bazaar, Karachi&apos;s Burns Road, Islamabad&apos;s F-7 Markaz, or Faisalabad&apos;s D-Ground at 7 PM and you will see Pakistan&apos;s most vibrant economic sector in full operation: thousands of pushcart vendors, stall operators, and increasingly, food truck entrepreneurs serving hot food to millions of customers every night. The aroma of nihari, karahi, gola kabab, chaat, and freshly brewed chai that defines Pakistan&apos;s urban street food culture is produced almost entirely by LPG flames burning in cylinders attached to mobile cooking setups.</p>
 
-      <p>LPG is not optional equipment for a Pakistani street food vendor. It is the sole practical cooking fuel for any mobile or semi-permanent food operation. And yet the conventional steel cylinder that most vendors use creates very real, very expensive operational problems every single day: it is dangerously heavy to move, completely opaque, prone to rust that stains carts and undermines customer confidence, and — in the worst case — a <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">potential BLEVE explosion risk in densely crowded public settings</Link> where hundreds of people are within the blast radius.</p>
+      <p>LPG is not optional equipment for a Pakistani street food vendor. It is the sole practical cooking fuel for any mobile or semi-permanent food operation. And yet the conventional steel cylinder that most vendors use creates very real, very expensive operational problems every single day: it is dangerously heavy to move, completely opaque, prone to rust that stains carts and undermines customer confidence, and — in the worst case — a <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">potential BLEVE explosion risk in densely crowded public settings</Link> where hundreds of people are within the blast radius.</p>
 
-      <p>This guide is written specifically for Pakistan&apos;s food truck operators, pushcart vendors, dhaba owners, wedding caterers, canteen managers, and any food business that uses LPG in a mobile or semi-permanent setting. For indoor restaurants and hotel kitchens, see the dedicated guide on <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">why restaurants across Pakistan are switching to composite cylinders</Link>. This guide covers every dimension of the composite cylinder advantage for mobile and outdoor food operations, city by city, use case by use case, with practical guidance on making the switch.</p>
+      <p>This guide is written specifically for Pakistan&apos;s food truck operators, pushcart vendors, dhaba owners, wedding caterers, canteen managers, and any food business that uses LPG in a mobile or semi-permanent setting. For indoor restaurants and hotel kitchens, see the dedicated guide on <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">why restaurants across Pakistan are switching to composite cylinders</Link>. This guide covers every dimension of the composite cylinder advantage for mobile and outdoor food operations, city by city, use case by use case, with practical guidance on making the switch.</p>
 
       <h2>Pakistan&apos;s Street Food Economy — The Scale of the Opportunity</h2>
 
@@ -2798,17 +2798,17 @@ const articleContent: Record<string, React.ReactNode> = {
               ['10 kg', 'Pushcart karahi, gola kabab, biryani vendors', '~18 kg', '4–8 days', 'Rs. 9,000–12,000'],
               ['12 kg', 'Food trucks, multi-burner stalls, event catering', '~21 kg', '5–10 days', 'Rs. 10,000–14,000'],
             ].map(([size, use, weight, duration, price], i) => (
-              <tr key={size} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-bold text-green-700 border border-slate-100">{size}</td>
-                <td className="p-3 text-slate-700 border border-slate-100 text-xs">{use}</td>
-                <td className="p-3 text-slate-700 border border-slate-100">{weight}</td>
-                <td className="p-3 text-slate-700 border border-slate-100 text-xs">{duration}</td>
-                <td className="p-3 font-medium text-slate-800 border border-slate-100">{price}</td>
+              <tr key={size} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-bold text-green-700 border border-line">{size}</td>
+                <td className="p-3 text-ink border border-line text-xs">{use}</td>
+                <td className="p-3 text-ink border border-line">{weight}</td>
+                <td className="p-3 text-ink border border-line text-xs">{duration}</td>
+                <td className="p-3 font-medium text-slate-800 border border-line">{price}</td>
               </tr>
             ))}
           </tbody>
         </table>
-        <p className="text-slate-500 text-xs mt-2">*Service duration estimates for high-intensity commercial cooking. Actual duration varies with burner size, flame setting, and daily service hours.</p>
+        <p className="text-muted text-xs mt-2">*Service duration estimates for high-intensity commercial cooking. Actual duration varies with burner size, flame setting, and daily service hours.</p>
       </div>
 
       <h2>The ROI Calculation for Food Businesses</h2>
@@ -2840,13 +2840,13 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Are Composite LPG Cylinders Safe? ── */
   'are-composite-lpg-cylinders-safe-pakistan': (
     <>
-      <div className="not-prose bg-green-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-1">Short Answer</p>
         <p className="text-green-100 text-sm leading-relaxed">Yes — ISO-certified composite LPG cylinders are not just safe, they are <strong className="text-white">measurably safer than conventional steel cylinders</strong> in every condition that matters: fire exposure, over-pressure, corrosion, physical impact, and long-term structural integrity. The certification process that WAA Technologies cylinders undergo is more demanding than Pakistan&apos;s PS 4922 steel cylinder standard — it includes a fire engulfment test that steel cylinders are not required to pass.</p>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
@@ -2858,7 +2858,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders withstand Pakistan\'s full temperature range — from Islamabad\'s sub-zero winters to Jacobabad\'s 50°C+ summers',
             'Every individual WAA Technologies cylinder is pressure-tested before leaving the factory — not just the design prototype, every unit',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
@@ -2866,7 +2866,7 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <p>The question &quot;are composite LPG cylinders safe?&quot; is the first question most Pakistani households ask before switching from a <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">conventional steel cylinder</Link>. It is the right question to ask — LPG is a pressurised, flammable fuel stored in your kitchen or courtyard, and the cylinder that contains it is safety-critical equipment. You should not buy any cylinder without understanding its safety properties. This guide answers every safety question about composite LPG cylinders comprehensively: what the certifications mean, what happens in worst-case scenarios, how composite compares to steel in every safety dimension, and what precautions remain necessary regardless of cylinder type.</p>
+      <p>The question &quot;are composite LPG cylinders safe?&quot; is the first question most Pakistani households ask before switching from a <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">conventional steel cylinder</Link>. It is the right question to ask — LPG is a pressurised, flammable fuel stored in your kitchen or courtyard, and the cylinder that contains it is safety-critical equipment. You should not buy any cylinder without understanding its safety properties. This guide answers every safety question about composite LPG cylinders comprehensively: what the certifications mean, what happens in worst-case scenarios, how composite compares to steel in every safety dimension, and what precautions remain necessary regardless of cylinder type.</p>
 
       <h2>What Makes Any LPG Cylinder Safe or Unsafe?</h2>
 
@@ -2874,11 +2874,11 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p><strong>Structural integrity under pressure:</strong> LPG is stored at pressures significantly above atmospheric — approximately 6–8 bar (87–116 psi) at typical Pakistani ambient temperatures. The cylinder must contain this pressure safely without leaking, deforming, or rupturing under normal operating conditions and within its rated service life. A cylinder that develops structural weakness — through corrosion, impact damage, weld failure, or material fatigue — can fail under this pressure.</p>
 
-      <p><strong>Behaviour under extreme conditions:</strong> The most dangerous scenario for any LPG cylinder is fire exposure. When a cylinder is exposed to fire, the LPG inside heats rapidly, pressure rises, and — in the worst case — the cylinder ruptures violently in a BLEVE (Boiling Liquid Expanding Vapour Explosion). This is the event responsible for <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Pakistan&apos;s most severe gas cylinder blast injuries</Link>. A safe cylinder must either resist fire long enough for emergency response, or fail in a controlled manner (releasing gas through a leak) rather than explosively.</p>
+      <p><strong>Behaviour under extreme conditions:</strong> The most dangerous scenario for any LPG cylinder is fire exposure. When a cylinder is exposed to fire, the LPG inside heats rapidly, pressure rises, and — in the worst case — the cylinder ruptures violently in a BLEVE (Boiling Liquid Expanding Vapour Explosion). This is the event responsible for <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Pakistan&apos;s most severe gas cylinder blast injuries</Link>. A safe cylinder must either resist fire long enough for emergency response, or fail in a controlled manner (releasing gas through a leak) rather than explosively.</p>
 
       <p><strong>Long-term material durability:</strong> A cylinder that is structurally sound when new but deteriorates dangerously over its service life is not truly safe. Corrosion, UV degradation, weld fatigue, and valve wear all reduce a cylinder&apos;s safety margin over time. A safe cylinder maintains its rated safety properties throughout its entire service life.</p>
 
-      <p>Composite LPG cylinders — specifically WAA Technologies cylinders certified to ISO 11119-3 and EN 14427-2022 — are designed and tested to perform better than steel on all three dimensions. Understanding <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA&apos;s cylinder safety rules</Link> will also help you verify which standards are legally recognised for sale in Pakistan.</p>
+      <p>Composite LPG cylinders — specifically WAA Technologies cylinders certified to ISO 11119-3 and EN 14427-2022 — are designed and tested to perform better than steel on all three dimensions. Understanding <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA&apos;s cylinder safety rules</Link> will also help you verify which standards are legally recognised for sale in Pakistan.</p>
 
       <h2>The Certification That Proves It: ISO 11119-3 and EN 14427-2022</h2>
 
@@ -2946,10 +2946,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Periodic safety testing', 'Required hydrotest every 5 years', 'No periodic hydrotest required'],
               ['Traceability', 'Batch tracking only', 'Individual serial number — every cylinder traceable'],
             ].map(([dim, steel, composite], i) => (
-              <tr key={dim} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{dim}</td>
-                <td className="p-3 text-red-700 border border-slate-100 text-xs">{steel}</td>
-                <td className="p-3 text-green-700 border border-slate-100 text-xs font-medium">{composite}</td>
+              <tr key={dim} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line">{dim}</td>
+                <td className="p-3 text-red-700 border border-line text-xs">{steel}</td>
+                <td className="p-3 text-green-700 border border-line text-xs font-medium">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -3003,7 +3003,7 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How to Check Gas Level in a Composite Cylinder ── */
   'how-to-check-gas-level-composite-cylinder': (
     <>
-      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand-dark text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-3">Quick Answer — How to Check Gas Level in a Composite Cylinder</p>
         <ol className="space-y-2 list-none">
           {[
@@ -3021,8 +3021,8 @@ const articleContent: Record<string, React.ReactNode> = {
         </ol>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
+      <div className="not-prose bg-tint border-l-4 border-green-700 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
           <svg className="w-5 h-5 text-green-700 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
@@ -3034,7 +3034,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'On a cold morning, condensation forms a visible "frost line" on the outside — an even faster way to read the level',
             'Checking level at a glance prevents mid-cooking gas runouts — the single most common LPG complaint in Pakistani households',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-green-700 font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
@@ -3044,9 +3044,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Every Pakistani household that uses LPG has had the same experience: you are 20 minutes into cooking biryani — the rice is halfway done, the steam is exactly right — and the flame drops, flickers, and dies. The cylinder is empty. There was no warning. There was no way to know. You lift the steel cylinder and it feels lighter than yesterday, but &quot;lighter than yesterday&quot; is not a useful measurement when your rice is half-cooked and your guests arrive in an hour.</p>
 
-      <p>This is not a minor inconvenience. In Pakistani households, where one or two cylinders serve the entire family&apos;s cooking needs, running out of gas unexpectedly disrupts meals, wastes food, and creates the urgent scramble of finding a cylinder delivery at the worst possible moment. The problem has existed since LPG first entered Pakistani homes — because <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">conventional steel cylinders are completely opaque</Link>. You cannot see inside them. You have no idea how much gas is left without lifting and guessing.</p>
+      <p>This is not a minor inconvenience. In Pakistani households, where one or two cylinders serve the entire family&apos;s cooking needs, running out of gas unexpectedly disrupts meals, wastes food, and creates the urgent scramble of finding a cylinder delivery at the worst possible moment. The problem has existed since LPG first entered Pakistani homes — because <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">conventional steel cylinders are completely opaque</Link>. You cannot see inside them. You have no idea how much gas is left without lifting and guessing.</p>
 
-      <p>WAA Technologies composite LPG cylinders solve this problem completely — not through a meter, a sensor, or an app, but through the simplest possible mechanism: the cylinder body is <Link href="/transparent-gas-cylinder-benefits-see-lpg-level-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium"><strong>translucent</strong></Link>. You can see the gas level the same way you see water in a bottle. This article explains exactly how to read a composite cylinder&apos;s gas level, what you are actually seeing inside the cylinder, and why this one feature changes everything about how Pakistani households manage their LPG supply.</p>
+      <p>WAA Technologies composite LPG cylinders solve this problem completely — not through a meter, a sensor, or an app, but through the simplest possible mechanism: the cylinder body is <Link href="/transparent-gas-cylinder-benefits-see-lpg-level-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium"><strong>translucent</strong></Link>. You can see the gas level the same way you see water in a bottle. This article explains exactly how to read a composite cylinder&apos;s gas level, what you are actually seeing inside the cylinder, and why this one feature changes everything about how Pakistani households manage their LPG supply.</p>
 
       <h2>Why Steel Cylinders Cannot Show Their Gas Level</h2>
 
@@ -3116,11 +3116,11 @@ const articleContent: Record<string, React.ReactNode> = {
               ['10–15%', '~1–1.5 kg', '3–5 days', 'Order immediately'],
               ['Bottom only (5%)', '<1 kg', '1–2 days', 'Emergency — arrange today'],
             ].map(([level, amount, days, action], i) => (
-              <tr key={level} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-medium text-slate-900 border border-slate-100">{level}</td>
-                <td className="p-3 text-slate-700 border border-slate-100">{amount}</td>
-                <td className="p-3 text-slate-700 border border-slate-100">{days}</td>
-                <td className="p-3 text-slate-600 border border-slate-100 text-xs">{action}</td>
+              <tr key={level} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-medium text-ink border border-line">{level}</td>
+                <td className="p-3 text-ink border border-line">{amount}</td>
+                <td className="p-3 text-ink border border-line">{days}</td>
+                <td className="p-3 text-muted border border-line text-xs">{action}</td>
               </tr>
             ))}
           </tbody>
@@ -3164,10 +3164,10 @@ const articleContent: Record<string, React.ReactNode> = {
               ['Requires any tools', 'No (but warm water helps)', 'No'],
               ['Works for any family member', 'Only those strong enough to lift', 'Anyone at any age'],
             ].map(([method, steel, composite], i) => (
-              <tr key={method} className={i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
-                <td className="p-3 font-semibold text-slate-800 border border-slate-100">{method}</td>
-                <td className="p-3 text-red-700 border border-slate-100">{steel}</td>
-                <td className="p-3 text-green-700 font-medium border border-slate-100">{composite}</td>
+              <tr key={method} className={i % 2 === 0 ? 'bg-white' : 'bg-tint'}>
+                <td className="p-3 font-semibold text-slate-800 border border-line">{method}</td>
+                <td className="p-3 text-red-700 border border-line">{steel}</td>
+                <td className="p-3 text-green-700 font-medium border border-line">{composite}</td>
               </tr>
             ))}
           </tbody>
@@ -3193,9 +3193,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: PARCO vs WAA Technologies ── */
   'parco-vs-waa-technologies-cylinder-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -3206,15 +3206,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'For households prioritising safety, WAA composite cylinders are the superior choice — for lowest upfront cost, steel is cheaper',
             'Both are sold through OGRA-licensed distribution channels',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Pakistani consumers searching for the best LPG cylinder often compare brand names they have encountered — PARCO, WAA Technologies, and others. Understanding this comparison requires understanding what each organisation actually does in Pakistan&apos;s LPG sector, because PARCO and WAA Technologies are not directly competing products in the same category. They are different types of businesses selling different types of cylinders. For a direct technical comparison between cylinder materials, see the guide on <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">steel vs composite LPG cylinders in Pakistan</Link>. This guide explains each company&apos;s role, products, and the genuine comparison points that matter for Pakistani households and businesses.</p>
+      <p>Pakistani consumers searching for the best LPG cylinder often compare brand names they have encountered — PARCO, WAA Technologies, and others. Understanding this comparison requires understanding what each organisation actually does in Pakistan&apos;s LPG sector, because PARCO and WAA Technologies are not directly competing products in the same category. They are different types of businesses selling different types of cylinders. For a direct technical comparison between cylinder materials, see the guide on <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">steel vs composite LPG cylinders in Pakistan</Link>. This guide explains each company&apos;s role, products, and the genuine comparison points that matter for Pakistani households and businesses.</p>
 
       <h2>What Is PARCO?</h2>
 
@@ -3282,7 +3282,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'OGRA does not maintain a real-time registry of approved imports — verifying import cylinder compliance requires checking back to the original testing laboratory record',
             'Locally manufactured WAA Technologies cylinders have individual serial numbers traceable to Gujranwala production and testing records — a paper trail that import cylinders frequently lack',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-red-600 font-black mt-0.5 shrink-0">!</span>
               <span>{point}</span>
             </li>
@@ -3290,7 +3290,7 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <p>Pakistan&apos;s LPG equipment market is not sealed. Cylinders, regulators, and hoses manufactured in China enter Pakistan through both formal import channels and informal grey-market routes. Some of these imported products are genuinely certified to international standards and represent legitimate choices. Many are not. The challenge for Pakistani consumers is that the certification claim on an imported cylinder — the ISO logo, the standard number, the test date — is not self-verifying. A sticker or stamp is only as trustworthy as the organisation that applied it. This guide helps Pakistani households and businesses understand the real differences between import cylinders and locally manufactured composite cylinders, and how to protect themselves from buying an uncertified product marketed as certified. To understand what genuine ISO certification requires, see the in-depth guide on <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder safety standards in Pakistan</Link>.</p>
+      <p>Pakistan&apos;s LPG equipment market is not sealed. Cylinders, regulators, and hoses manufactured in China enter Pakistan through both formal import channels and informal grey-market routes. Some of these imported products are genuinely certified to international standards and represent legitimate choices. Many are not. The challenge for Pakistani consumers is that the certification claim on an imported cylinder — the ISO logo, the standard number, the test date — is not self-verifying. A sticker or stamp is only as trustworthy as the organisation that applied it. This guide helps Pakistani households and businesses understand the real differences between import cylinders and locally manufactured composite cylinders, and how to protect themselves from buying an uncertified product marketed as certified. To understand what genuine ISO certification requires, see the in-depth guide on <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinder safety standards in Pakistan</Link>.</p>
 
       <h2>The Import Cylinder Market in Pakistan</h2>
 
@@ -3340,7 +3340,7 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Steel Gola vs Fiber Cylinder Cost Over 5 Years ── */
   'traditional-steel-gola-vs-fiber-lpg-cylinder-cost-pakistan': (
     <>
-      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand-dark text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-3">5-Year Cost Verdict (10 kg cylinder)</p>
         <div className="grid grid-cols-2 gap-4 text-sm">
           <div className="bg-slate-700 rounded-xl p-3">
@@ -3348,7 +3348,7 @@ const articleContent: Record<string, React.ReactNode> = {
             <p className="text-2xl font-black text-white">Rs. ~8,700</p>
             <p className="text-slate-400 text-xs mt-1">Includes hydrotest + possible replacement</p>
           </div>
-          <div className="bg-green-950 rounded-xl p-3">
+          <div className="bg-brand-dark rounded-xl p-3">
             <p className="text-green-200 font-bold mb-2">Fiber Composite — 5 Year Total</p>
             <p className="text-2xl font-black text-white">Rs. ~10,500</p>
             <p className="text-slate-200 text-xs mt-1">No hydrotest. No replacement. Still in full service.</p>
@@ -3357,7 +3357,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <p className="text-slate-300 text-xs mt-3">Cost difference narrows to ~Rs. 1,800 by year 5 — and composite continues earning back value in years 6–20 while steel requires another hydrotest and likely another replacement.</p>
       </div>
 
-      <p>The single most common objection to buying a composite LPG fiber cylinder in Pakistan is: &quot;it is too expensive compared to the steel gola.&quot; It is a valid concern — the upfront price difference is real, and for Pakistani households managing monthly budgets carefully, a Rs. 5,000–8,000 difference in purchase price is significant. But the objection assumes that the purchase price is the total cost, and that assumption is wrong. The total cost of owning an LPG cylinder includes the purchase, the periodic hydrotest (for steel only), replacement when the cylinder reaches <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">end of life (for steel, much sooner than composite)</Link>, and the operational costs that differ between the two types. This article does the full calculation for a Pakistani household over 5 years.</p>
+      <p>The single most common objection to buying a composite LPG fiber cylinder in Pakistan is: &quot;it is too expensive compared to the steel gola.&quot; It is a valid concern — the upfront price difference is real, and for Pakistani households managing monthly budgets carefully, a Rs. 5,000–8,000 difference in purchase price is significant. But the objection assumes that the purchase price is the total cost, and that assumption is wrong. The total cost of owning an LPG cylinder includes the purchase, the periodic hydrotest (for steel only), replacement when the cylinder reaches <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">end of life (for steel, much sooner than composite)</Link>, and the operational costs that differ between the two types. This article does the full calculation for a Pakistani household over 5 years.</p>
 
       <h2>Understanding the Pakistani &quot;Gola&quot;</h2>
 
@@ -3419,9 +3419,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Lahore ── */
   'composite-lpg-cylinder-lahore': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Lahore
         </p>
         <ul className="space-y-2.5">
@@ -3432,15 +3432,15 @@ const articleContent: Record<string, React.ReactNode> = {
             '10 kg composite cylinder: Rs. 9,000–12,000 (LPG fill separate) — same refill cost as steel at any OGRA station',
             'Free delivery available through select Lahore dealers — confirm when calling',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Lahore is Pakistan&apos;s most populous province capital and the heartland of WAA Technologies&apos; composite LPG cylinder operations. WAA Technologies Pvt Ltd is headquartered in Lahore — our showroom is at Bahria Town Lahore, with our manufacturing facility in Gujranwala, 80 km from Lahore city centre. Lahore households, restaurants, hotels, and businesses have access to the most direct and well-supported composite cylinder supply chain in Pakistan. This guide covers everything a Lahore household or business needs to know: where to buy, current pricing, which cylinder size is right for Lahore&apos;s household patterns, and why Lahore specifically benefits from the <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">winter gas shortage preparedness</Link> that a composite cylinder provides.</p>
+      <p>Lahore is Pakistan&apos;s most populous province capital and the heartland of WAA Technologies&apos; composite LPG cylinder operations. WAA Technologies Pvt Ltd is headquartered in Lahore — our showroom is at Bahria Town Lahore, with our manufacturing facility in Gujranwala, 80 km from Lahore city centre. Lahore households, restaurants, hotels, and businesses have access to the most direct and well-supported composite cylinder supply chain in Pakistan. This guide covers everything a Lahore household or business needs to know: where to buy, current pricing, which cylinder size is right for Lahore&apos;s household patterns, and why Lahore specifically benefits from the <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortage preparedness</Link> that a composite cylinder provides.</p>
 
       <h2>Why Lahore Households Need Composite LPG Cylinders</h2>
 
@@ -3492,9 +3492,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Karachi ── */
   'composite-lpg-cylinder-karachi': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Karachi
         </p>
         <ul className="space-y-2.5">
@@ -3505,15 +3505,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders are 50% lighter — especially valuable in Karachi\'s high-rise apartments where cylinders must be carried up stairs',
             'LPG refill pricing is the same as steel at any Karachi OGRA-licensed filling station',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Karachi is Pakistan&apos;s largest city and commercial capital, home to over 20 million people and one of the country&apos;s most demanding environments for LPG cylinder performance. Karachi&apos;s coastal location — sitting on the Arabian Sea — creates a salt-air humidity environment that is significantly more corrosive than Pakistan&apos;s inland cities. <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Steel cylinders in Karachi corrode faster</Link>, develop rust more aggressively, and have a meaningfully shorter safe service life than equivalent cylinders used in Lahore, Islamabad, or Faisalabad. For Karachi households, the corrosion-free advantage of composite cylinders is not just a long-term financial benefit — it is an immediate, year-one safety advantage.</p>
+      <p>Karachi is Pakistan&apos;s largest city and commercial capital, home to over 20 million people and one of the country&apos;s most demanding environments for LPG cylinder performance. Karachi&apos;s coastal location — sitting on the Arabian Sea — creates a salt-air humidity environment that is significantly more corrosive than Pakistan&apos;s inland cities. <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Steel cylinders in Karachi corrode faster</Link>, develop rust more aggressively, and have a meaningfully shorter safe service life than equivalent cylinders used in Lahore, Islamabad, or Faisalabad. For Karachi households, the corrosion-free advantage of composite cylinders is not just a long-term financial benefit — it is an immediate, year-one safety advantage.</p>
 
       <h2>Why Karachi Specifically Benefits from Composite Cylinders</h2>
 
@@ -3559,9 +3559,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Composite LPG Cylinder in Islamabad ── */
   'composite-lpg-cylinder-islamabad': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Buy a Composite Cylinder in Islamabad / Rawalpindi
         </p>
         <ul className="space-y-2.5">
@@ -3572,8 +3572,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Twin cities\' colder winters mean higher LPG usage — 12 kg cylinder recommended for family households here',
             'Islamabad\'s OGRA-compliance culture is strong — composite ISO-certified cylinders pass all commercial inspections easily',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -3582,7 +3582,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Islamabad and Rawalpindi — Pakistan&apos;s twin cities — sit at higher elevation than Lahore and Karachi and experience colder winters, stronger winds, and a gas shortage pattern that is, by objective measurement, among the most severe in Pakistan. The SNGPL pipeline serving the twin cities faces peak pressure collapse during January and February, when temperatures regularly drop below 5°C and heating demand from millions of households in Punjab, KPK, and Gilgit-Baltistan simultaneously peaks. Twin cities households — particularly those in Islamabad&apos;s higher-altitude F-sectors, I-sectors, and Bahria Town — experience sustained cooking gas outages that can last days at a time during the worst winter weeks.</p>
 
-      <p>A WAA Technologies composite LPG cylinder is the most practical and reliable solution to this recurring annual crisis. This guide covers everything Islamabad and Rawalpindi households need to know: where to buy, which size to choose, the dealer network across both cities, and why the twin cities environment makes composite cylinders particularly worth the investment. For a complete guide to preparing for Pakistan&apos;s winter gas shortage, see <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to prepare your home before the shortage hits</Link>.</p>
+      <p>A WAA Technologies composite LPG cylinder is the most practical and reliable solution to this recurring annual crisis. This guide covers everything Islamabad and Rawalpindi households need to know: where to buy, which size to choose, the dealer network across both cities, and why the twin cities environment makes composite cylinders particularly worth the investment. For a complete guide to preparing for Pakistan&apos;s winter gas shortage, see <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to prepare your home before the shortage hits</Link>.</p>
 
       <h2>Why Islamabad and Rawalpindi Need LPG Backup More Than Most Pakistani Cities</h2>
 
@@ -3625,9 +3625,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: LPG Industry in Pakistan ── */
   'lpg-industry-pakistan-market-size-future-outlook': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Industry at a Glance (2025)
         </p>
         <ul className="space-y-2.5">
@@ -3638,17 +3638,17 @@ const articleContent: Record<string, React.ReactNode> = {
             'LPG imports: Pakistan imports 60–70% of its consumption, primarily from Saudi Arabia, UAE, and Iraq',
             'Composite cylinder adoption: currently less than 5% of Pakistan\'s cylinder fleet — representing the largest growth opportunity in the sector',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Pakistan&apos;s LPG sector is one of the largest and most critical components of the country&apos;s energy infrastructure, yet it remains poorly understood by most stakeholders — including many of the households and businesses that depend on it daily. LPG provides cooking fuel for approximately 10–12 million Pakistani households, water and space heating for millions more, and industrial process heat for a significant portion of Pakistan&apos;s manufacturing sector. The industry generates hundreds of billions of rupees in annual revenue, employs hundreds of thousands of people across the value chain, and is managed under a regulatory framework governed by <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA&apos;s LPG rules</Link> that is actively evolving as the sector transitions from an import-heavy, steel-cylinder dominated model toward a more efficient, safer composite cylinder infrastructure.</p>
+      <p>Pakistan&apos;s LPG sector is one of the largest and most critical components of the country&apos;s energy infrastructure, yet it remains poorly understood by most stakeholders — including many of the households and businesses that depend on it daily. LPG provides cooking fuel for approximately 10–12 million Pakistani households, water and space heating for millions more, and industrial process heat for a significant portion of Pakistan&apos;s manufacturing sector. The industry generates hundreds of billions of rupees in annual revenue, employs hundreds of thousands of people across the value chain, and is managed under a regulatory framework governed by <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA&apos;s LPG rules</Link> that is actively evolving as the sector transitions from an import-heavy, steel-cylinder dominated model toward a more efficient, safer composite cylinder infrastructure.</p>
 
-      <p>This industry overview provides a comprehensive picture of Pakistan&apos;s LPG market as of 2025 — its size, growth drivers, key players, supply chain, regulatory landscape, and the investment opportunity represented by the ongoing steel-to-composite cylinder transition. If you are considering that opportunity as a business, see our guide to <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">becoming a WAA Technologies composite cylinder dealer</Link>.</p>
+      <p>This industry overview provides a comprehensive picture of Pakistan&apos;s LPG market as of 2025 — its size, growth drivers, key players, supply chain, regulatory landscape, and the investment opportunity represented by the ongoing steel-to-composite cylinder transition. If you are considering that opportunity as a business, see our guide to <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">becoming a WAA Technologies composite cylinder dealer</Link>.</p>
 
       <h2>Market Size and Structure</h2>
 
@@ -3691,9 +3691,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: How LPG Cylinders Are Tested for Safety ── */
   'how-lpg-cylinders-tested-safety-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -3704,15 +3704,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Steel cylinders (PS 4922) must pass hydrostatic burst testing and periodic hydrotest every 5 years',
             'Every WAA Technologies cylinder carries individual test traceability — the certificate number links each cylinder to its specific testing record',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>When a Pakistani household purchases an LPG cylinder, the markings on the cylinder body represent the conclusion of an extensive safety testing process that the cylinder design has been through before a single unit was manufactured for sale. That process — independent laboratory testing, documented in a certification record traceable to every cylinder sold — is the basis of the safety claim that a manufacturer makes when they stamp ISO 11119-3 or PS 4922 on the cylinder. To understand how these certifications relate to <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">composite LPG cylinder safety in practice</Link>, see the dedicated safety guide. This article explains what the testing actually involves, test by test, and why understanding it helps Pakistani consumers make better-informed cylinder purchase decisions.</p>
+      <p>When a Pakistani household purchases an LPG cylinder, the markings on the cylinder body represent the conclusion of an extensive safety testing process that the cylinder design has been through before a single unit was manufactured for sale. That process — independent laboratory testing, documented in a certification record traceable to every cylinder sold — is the basis of the safety claim that a manufacturer makes when they stamp ISO 11119-3 or PS 4922 on the cylinder. To understand how these certifications relate to <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinder safety in practice</Link>, see the dedicated safety guide. This article explains what the testing actually involves, test by test, and why understanding it helps Pakistani consumers make better-informed cylinder purchase decisions.</p>
 
       <h2>How Cylinder Certification Works</h2>
 
@@ -3765,9 +3765,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: OGRA Licensed LPG Manufacturers Pakistan ── */
   'ogra-licensed-lpg-cylinder-manufacturers-pakistan': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -3778,8 +3778,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'WAA Technologies Pvt Ltd is Pakistan\'s leading ISO-certified composite LPG cylinder manufacturer, licensed and operating from Gujranwala',
             'Buying from a non-licensed manufacturer voids any safety certification claims and exposes consumers to legal and safety risk',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -3788,7 +3788,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s LPG cylinder manufacturing sector is a regulated industry — companies cannot simply begin manufacturing and selling LPG cylinders without OGRA&apos;s authorisation. The licensing requirement exists because LPG cylinders are safety-critical pressure vessels: a cylinder manufactured to substandard specifications or without quality oversight poses direct risk to the household or business that uses it. OGRA&apos;s manufacturing licence is the mechanism through which the regulator ensures that only manufacturers meeting defined safety and quality standards supply cylinders to Pakistan&apos;s market.</p>
 
-      <p>Despite this, many Pakistani consumers have no knowledge of which cylinder manufacturers are OGRA-licensed and which are not — and the market contains products from non-licensed or inadequately licensed sources. For a detailed look at <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">OGRA&apos;s full LPG cylinder compliance rules</Link>, see the dedicated guide. This article explains the manufacturing licence framework, what it requires, how to verify a manufacturer&apos;s status, and profiles the key licensed manufacturers relevant to Pakistani consumers in 2025.</p>
+      <p>Despite this, many Pakistani consumers have no knowledge of which cylinder manufacturers are OGRA-licensed and which are not — and the market contains products from non-licensed or inadequately licensed sources. For a detailed look at <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA&apos;s full LPG cylinder compliance rules</Link>, see the dedicated guide. This article explains the manufacturing licence framework, what it requires, how to verify a manufacturer&apos;s status, and profiles the key licensed manufacturers relevant to Pakistani consumers in 2025.</p>
 
       <h2>What an OGRA Manufacturing Licence Requires</h2>
 
@@ -3839,9 +3839,9 @@ const articleContent: Record<string, React.ReactNode> = {
   /* ── ARTICLE: Pakistan LPG Imports vs Domestic Production 2025 ── */
   'pakistan-lpg-imports-vs-domestic-production-2025': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Supply Snapshot (2025)
         </p>
         <ul className="space-y-2.5">
@@ -3852,15 +3852,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Primary import sources: Saudi Arabia (~50%), UAE (~25%), Iraq and others (~25%)',
             'Import pricing is linked to Saudi Aramco Contract Price (CP) — so global energy prices directly affect Pakistani cylinder refill costs',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>When Pakistani households complain that LPG refill prices have increased, or when media reports that <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">winter gas shortages are expected to be severe</Link>, the underlying cause is almost always traceable to Pakistan&apos;s fundamental LPG supply position: the country produces only about 35–40% of the LPG it consumes domestically. The remaining 60–65% must be imported, at global market prices, from suppliers thousands of kilometres away. This structural import dependency makes Pakistan&apos;s domestic LPG price and supply directly vulnerable to international energy market movements, shipping logistics, and the political and commercial decisions of its primary suppliers. Understanding this supply structure explains price movements, shortage events, and the policy choices that affect Pakistani cylinder users every day.</p>
+      <p>When Pakistani households complain that LPG refill prices have increased, or when media reports that <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortages are expected to be severe</Link>, the underlying cause is almost always traceable to Pakistan&apos;s fundamental LPG supply position: the country produces only about 35–40% of the LPG it consumes domestically. The remaining 60–65% must be imported, at global market prices, from suppliers thousands of kilometres away. This structural import dependency makes Pakistan&apos;s domestic LPG price and supply directly vulnerable to international energy market movements, shipping logistics, and the political and commercial decisions of its primary suppliers. Understanding this supply structure explains price movements, shortage events, and the policy choices that affect Pakistani cylinder users every day.</p>
 
       <h2>Pakistan&apos;s Domestic LPG Production</h2>
 
@@ -3909,7 +3909,7 @@ const articleContent: Record<string, React.ReactNode> = {
   'why-restaurants-switching-composite-lpg-cylinders-pakistan': (
     <>
       {/* Featured snippet target — bulleted quick answer */}
-      <div className="not-prose bg-slate-900 text-white rounded-2xl p-5 mb-8">
+      <div className="not-prose bg-brand-dark text-white rounded-2xl p-5 mb-8">
         <p className="font-black text-white text-base mb-3">Quick Answer: 5 Reasons Restaurants Are Switching</p>
         <ul className="space-y-2">
           {[
@@ -3927,9 +3927,9 @@ const articleContent: Record<string, React.ReactNode> = {
         </ul>
       </div>
 
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -3940,8 +3940,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Restaurants in Lahore, Karachi, and Islamabad report 30–50% reductions in cylinder-related operational downtime after switching',
             'WAATechnologies supplies composite cylinders to commercial and restaurant accounts across Punjab, Sindh, and KPK',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -3950,7 +3950,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Walk into any successful restaurant kitchen in Lahore&apos;s DHA, Karachi&apos;s Boat Basin, Islamabad&apos;s F-7 Markaz, or Faisalabad&apos;s city centre, and you will find the same scene: multiple burners running simultaneously at full heat, karahis and woks in constant motion, industrial pressure cookers venting steam, bread ovens cycling through hundreds of rotis per hour. Gas is not one option among several for these kitchens — it is the only practical cooking fuel for the Pakistani commercial kitchen environment, and it must never fail. A restaurant that cannot cook is a restaurant that cannot earn revenue, cannot serve customers, and cannot pay staff. In Pakistan&apos;s fiercely competitive food service sector, even a single service disruption due to a gas cylinder problem can cost thousands of rupees in lost covers, wasted prepared food, and damage to reputation.</p>
 
-      <p>This is why Pakistan&apos;s restaurant industry is in the middle of a significant transition: away from <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">conventional steel LPG cylinders</Link> and toward WAATechnologies-style composite alternatives. The transition is driven not by sentiment or marketing, but by hard commercial logic. Composite cylinders are safer, cheaper over their full service life, more operationally reliable, easier to handle, and better suited to the <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">regulatory requirements that Pakistani commercial kitchens face</Link>. This article examines every dimension of the business case in detail — with specific reference to the restaurant markets of Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, and Gujranwala.</p>
+      <p>This is why Pakistan&apos;s restaurant industry is in the middle of a significant transition: away from <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">conventional steel LPG cylinders</Link> and toward WAATechnologies-style composite alternatives. The transition is driven not by sentiment or marketing, but by hard commercial logic. Composite cylinders are safer, cheaper over their full service life, more operationally reliable, easier to handle, and better suited to the <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">regulatory requirements that Pakistani commercial kitchens face</Link>. This article examines every dimension of the business case in detail — with specific reference to the restaurant markets of Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, and Gujranwala.</p>
 
       <h2>Why Commercial Kitchens Have Different LPG Needs Than Households</h2>
 
@@ -4059,9 +4059,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'how-to-safely-connect-lpg-cylinder-regulator-at-home': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4072,17 +4072,17 @@ const articleContent: Record<string, React.ReactNode> = {
             'Always perform the soap-and-water bubble test after every connection before opening the valve fully',
             'If bubbles persist after re-tightening, do not use the cylinder — call your dealer or a qualified gas technician',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Every time a Pakistani household switches to a new LPG cylinder — whether it is the routine delivery from the local dealer or a new cylinder purchased after moving home — someone has to connect the regulator. It is one of the most frequently performed gas-related tasks in Pakistani domestic life, repeated by tens of millions of households across the country every week. It is also one of the most frequently performed incorrectly. Improperly connected regulators are among the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">leading causes of gas leaks in Pakistani homes</Link>: a cross-threaded fitting, a worn O-ring nobody checked, a cylinder valve not closed before attachment, a hose left kinked under the weight of the cylinder. These are not rare or exotic failure modes. They happen in ordinary homes, to ordinary families, every single day — because the correct procedure is simply not widely known.</p>
+      <p>Every time a Pakistani household switches to a new LPG cylinder — whether it is the routine delivery from the local dealer or a new cylinder purchased after moving home — someone has to connect the regulator. It is one of the most frequently performed gas-related tasks in Pakistani domestic life, repeated by tens of millions of households across the country every week. It is also one of the most frequently performed incorrectly. Improperly connected regulators are among the <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">leading causes of gas leaks in Pakistani homes</Link>: a cross-threaded fitting, a worn O-ring nobody checked, a cylinder valve not closed before attachment, a hose left kinked under the weight of the cylinder. These are not rare or exotic failure modes. They happen in ordinary homes, to ordinary families, every single day — because the correct procedure is simply not widely known.</p>
 
-      <p>This guide gives you the complete, correct procedure for connecting an LPG cylinder regulator at home — from the pre-connection safety checks, through the step-by-step attachment process, to the leak test that confirms the connection is safe before you cook your first meal on the new cylinder. It also covers the most common mistakes Pakistani households make, how to know when your regulator needs replacement, the differences between regulator types used across Pakistan, and how WAATechnologies composite cylinders interact with standard Pakistani domestic regulators. For a broader look at LPG safety at home, see the guide on <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">how to store an LPG cylinder safely at home</Link>.</p>
+      <p>This guide gives you the complete, correct procedure for connecting an LPG cylinder regulator at home — from the pre-connection safety checks, through the step-by-step attachment process, to the leak test that confirms the connection is safe before you cook your first meal on the new cylinder. It also covers the most common mistakes Pakistani households make, how to know when your regulator needs replacement, the differences between regulator types used across Pakistan, and how WAATechnologies composite cylinders interact with standard Pakistani domestic regulators. For a broader look at LPG safety at home, see the guide on <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to store an LPG cylinder safely at home</Link>.</p>
 
       <h2>What Is an LPG Cylinder Regulator and What Does It Do?</h2>
 
@@ -4203,9 +4203,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   '8-crucial-gas-cylinder-safety-rules-every-household-must-follow': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4216,15 +4216,15 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite LPG cylinders are non-blast — under fire conditions they leak rather than explode, eliminating the shrapnel risk of steel',
             'Every household member — including children and domestic workers — must know the 3-step gas emergency protocol',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <p>Every year across Pakistan, <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder accidents kill people, burn down kitchens, and destroy homes</Link>. In Lahore, Karachi, Rawalpindi, and in towns across Punjab and KPK, Emergency Rescue 1122 receives calls about gas explosions, kitchen fires, and carbon monoxide incidents with tragic regularity. The most painful truth about the overwhelming majority of these accidents is this: they were completely preventable. They happened not because of equipment failure that nobody could have anticipated, but because of avoidable mistakes — a valve left open, a cracked hose not replaced, a leak checked with a lighter instead of soapy water, a child in the kitchen without anyone knowing the emergency procedure.</p>
+      <p>Every year across Pakistan, <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder accidents kill people, burn down kitchens, and destroy homes</Link>. In Lahore, Karachi, Rawalpindi, and in towns across Punjab and KPK, Emergency Rescue 1122 receives calls about gas explosions, kitchen fires, and carbon monoxide incidents with tragic regularity. The most painful truth about the overwhelming majority of these accidents is this: they were completely preventable. They happened not because of equipment failure that nobody could have anticipated, but because of avoidable mistakes — a valve left open, a cracked hose not replaced, a leak checked with a lighter instead of soapy water, a child in the kitchen without anyone knowing the emergency procedure.</p>
 
       <p>Pakistan has approximately 10–12 million LPG cylinder users and tens of millions more households connected to Sui gas pipelines — all using gas appliances in daily life. Gas is not inherently dangerous when used correctly with well-maintained equipment. But when basic safety rules are ignored — as they routinely are in millions of Pakistani households — the consequences can be catastrophic. The good news is that the 8 rules in this guide require no special equipment, no expensive upgrades, and no technical expertise. They require only knowledge and the discipline to form habits. Read them, share them with your family, and act on them today.</p>
 
@@ -4240,7 +4240,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>LPG is heavier than air. This is a fact with profound safety implications that many Pakistani households do not fully appreciate. When LPG leaks — from a valve, a hose joint, or a corroded cylinder body — it does not disperse upward and away from danger zones the way natural gas does. It sinks. It flows along the floor, accumulates in low areas, collects under kitchen counters, pools in enclosed corners, and eventually reaches a concentration at which it can ignite from a spark, a pilot light, or any open flame. A cylinder stored in a sealed cupboard, a closed pantry, or a poorly ventilated kitchen corner creates exactly the conditions for this dangerous accumulation.</p>
 
-      <p>The rules for <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">safe cylinder storage</Link> are straightforward. Store cylinders upright at all times — never on their side, which can allow liquid LPG to enter the regulator and cause pressure surges. Store them in a ventilated area where any leaked gas can disperse naturally: near a window, in a kitchen with cross-ventilation, or in an outdoor space that is protected from rain and direct sunlight. Keep cylinders at least one metre away from stoves, water heaters, and any other heat source. Never store a cylinder in a sealed cupboard, under stairs, or in a basement — these are the most dangerous locations possible for LPG storage.</p>
+      <p>The rules for <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">safe cylinder storage</Link> are straightforward. Store cylinders upright at all times — never on their side, which can allow liquid LPG to enter the regulator and cause pressure surges. Store them in a ventilated area where any leaked gas can disperse naturally: near a window, in a kitchen with cross-ventilation, or in an outdoor space that is protected from rain and direct sunlight. Keep cylinders at least one metre away from stoves, water heaters, and any other heat source. Never store a cylinder in a sealed cupboard, under stairs, or in a basement — these are the most dangerous locations possible for LPG storage.</p>
 
       <p>If your kitchen layout makes good cylinder storage difficult, the solution is to invest in a proper cylinder storage cage or outdoor cylinder cabinet, available from most hardware suppliers in Pakistan. These are specifically designed to keep cylinders secure, upright, and ventilated.</p>
 
@@ -4334,9 +4334,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'lpg-gas-shortage-pakistan-composite-cylinders-solution': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4347,8 +4347,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'A composite cylinder lasts 20+ years vs 8–12 for steel — the effective fleet size doubles over time',
             'Every household that switches to composite improves the distribution system for the whole neighbourhood',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -4357,7 +4357,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Every year, as temperatures drop across Pakistan, the same painful scene plays out in cities from Lahore to Peshawar: long queues outside LPG dealers, frustrated households waiting days for a cylinder refill, and families forced back onto wood fires and kerosene stoves simply to cook a meal. The LPG gas shortage in Pakistan is not a new problem. It has repeated, deepened, and spread geographically for nearly two decades. Yet for all the government committees, regulatory announcements, and import diversification promises, the crisis returns every winter with the same ferocity — and it increasingly strikes during Ramadan and summer peaks as well.</p>
 
-      <p>The conventional framing of Pakistan&apos;s LPG shortage focuses on production deficits, import chain failures, and government policy — all real problems that genuinely need addressing. But buried within this crisis is a structural inefficiency that receives almost no public attention and that can be meaningfully improved right now, without waiting for government action or new import infrastructure: the ageing, heavy, corroding fleet of <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">steel LPG cylinders</Link> that Pakistan&apos;s distribution system depends on. Replacing this fleet with modern composite LPG cylinders would not solve the shortage by itself — but it would substantially reduce its severity, improve distribution efficiency, <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">extend cylinder lifespan</Link>, and directly reduce the LPG wastage that bleeds supply before it ever reaches a consumer&apos;s stove.</p>
+      <p>The conventional framing of Pakistan&apos;s LPG shortage focuses on production deficits, import chain failures, and government policy — all real problems that genuinely need addressing. But buried within this crisis is a structural inefficiency that receives almost no public attention and that can be meaningfully improved right now, without waiting for government action or new import infrastructure: the ageing, heavy, corroding fleet of <Link href="/steel-vs-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">steel LPG cylinders</Link> that Pakistan&apos;s distribution system depends on. Replacing this fleet with modern composite LPG cylinders would not solve the shortage by itself — but it would substantially reduce its severity, improve distribution efficiency, <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">extend cylinder lifespan</Link>, and directly reduce the LPG wastage that bleeds supply before it ever reaches a consumer&apos;s stove.</p>
 
       <p>This article provides a complete, detailed examination of why Pakistan faces recurring LPG gas shortages, how the country&apos;s cylinder infrastructure actively worsens those shortages, and why composite cylinders — specifically WAATechnologies&apos; ISO-certified composite cylinders manufactured in Gujranwala — represent the most practical, immediately available part of the solution.</p>
 
@@ -4499,9 +4499,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'winter-gas-shortage-pakistan-2025-prepare-your-home': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4512,8 +4512,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders are non-blast — safe for winter heating use even near open flame sources',
             'Start preparing in August–October before panic buying empties dealer shelves in November',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -4524,7 +4524,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>The winter gas shortage Pakistan 2025 season will be no different from those that preceded it. In fact, with domestic gas field production continuing its multi-year decline and demand growing every year as more households connect to the gas network, the 2025 winter shortage may be more severe than previous years. The government will issue advisories. SNGPL will announce load management schedules. Journalists will file the same stories they filed last December. And millions of households will wake up to cold stoves unless they have prepared in advance.</p>
 
-      <p>This guide gives you a complete, specific, actionable plan for preparing your home for the winter gas shortage before it begins. It covers why the shortage happens, which areas suffer most, why LPG is the only reliable backup, how to choose the right cylinder, when to do each preparation step, and how to manage safely through the peak shortage months. If you are also concerned about <Link href="/lpg-gas-shortage-pakistan-composite-cylinders-solution" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">Pakistan&apos;s wider LPG shortage problem</Link> and how composite cylinders help address it, that guide explains the full picture. Read this one now, in summer, while you still have time to act.</p>
+      <p>This guide gives you a complete, specific, actionable plan for preparing your home for the winter gas shortage before it begins. It covers why the shortage happens, which areas suffer most, why LPG is the only reliable backup, how to choose the right cylinder, when to do each preparation step, and how to manage safely through the peak shortage months. If you are also concerned about <Link href="/lpg-gas-shortage-pakistan-composite-cylinders-solution" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Pakistan&apos;s wider LPG shortage problem</Link> and how composite cylinders help address it, that guide explains the full picture. Read this one now, in summer, while you still have time to act.</p>
 
       <h2>A Brief History: Why Pakistan&apos;s Winter Gas Shortage Never Goes Away</h2>
 
@@ -4678,9 +4678,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'ramadan-gas-safety-tips-pakistani-kitchens': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4691,8 +4691,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders are non-blast — a gas leak near an open flame does not create an explosion risk',
             'Never cook Sehri alone while severely fatigued — always have a second person present as safety monitor',
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -4701,7 +4701,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>In the Pakistani household, Ramadan is the month that pushes the kitchen to its absolute limit. Before Fajr, someone is already at the stove preparing Sehri — paratha on the tawa, eggs sizzling, chai boiling — while the rest of the family sleeps or drowsily dresses. As Maghrib approaches, the kitchen becomes a controlled frenzy: samosas frying in hot oil, daal simmering, chicken karahi on full heat, chaat being assembled, sharbat being mixed. After Iftar, Taraweeh is followed by dessert and late-night chai. Then the alarm goes off at 3:30 AM and the cycle begins again. Over 29 or 30 consecutive days, Pakistani kitchens operate at an intensity they match at no other time of year.</p>
 
-      <p>That intensity, combined with the physiological effects of fasting — reduced alertness, fatigue, dehydration, slowed reaction times — and the social dynamics of crowded kitchens full of helpers who may not normally cook, creates a genuinely elevated risk environment for gas-related kitchen accidents. Pakistan&apos;s Emergency Rescue 1122 data consistently shows elevated kitchen fire and gas incident reports during Ramadan — consistent with the broader pattern of <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">gas cylinder incidents across Pakistan</Link>. The majority of these incidents are preventable. Most result not from equipment failure but from human factors: a burner left on, a hose not checked in months, a child in the wrong place, a dupatta too close to a flame, a cylinder valve never closed.</p>
+      <p>That intensity, combined with the physiological effects of fasting — reduced alertness, fatigue, dehydration, slowed reaction times — and the social dynamics of crowded kitchens full of helpers who may not normally cook, creates a genuinely elevated risk environment for gas-related kitchen accidents. Pakistan&apos;s Emergency Rescue 1122 data consistently shows elevated kitchen fire and gas incident reports during Ramadan — consistent with the broader pattern of <Link href="/gas-cylinder-blast-incidents-pakistan-2025" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder incidents across Pakistan</Link>. The majority of these incidents are preventable. Most result not from equipment failure but from human factors: a burner left on, a hose not checked in months, a child in the wrong place, a dupatta too close to a flame, a cylinder valve never closed.</p>
 
       <p>This guide covers everything Pakistani households need to know about gas safety during Ramadan — from the pre-Ramadan inspection checklist to the Sehri safety protocol, Iftar management, child safety in the Ramadan kitchen, carbon monoxide risk, emergency procedures, and why choosing a WAATechnologies composite LPG cylinder is the single most impactful safety upgrade available for any Pakistani kitchen during the holy month.</p>
 
@@ -4878,9 +4878,9 @@ const articleContent: Record<string, React.ReactNode> = {
 
   'load-shedding-lpg-pakistanis-switching-gas-cooking': (
     <>
-      <div className="not-prose bg-green-50 border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
-        <p className="font-black text-green-900 text-base mb-3 flex items-center gap-2">
-          <svg className="w-5 h-5 text-green-900 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           Key Takeaways
         </p>
         <ul className="space-y-2.5">
@@ -4891,8 +4891,8 @@ const articleContent: Record<string, React.ReactNode> = {
             'Composite cylinders are the safest LPG option for households using gas as primary cooking fuel daily',
             "Pakistan's restaurant industry switched from electric to gas years ago — households are catching up",
           ].map((point) => (
-            <li key={point} className="flex items-start gap-2.5 text-sm text-slate-700">
-              <span className="text-green-900 font-black mt-0.5 shrink-0">✓</span>
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
               <span>{point}</span>
             </li>
           ))}
@@ -4903,7 +4903,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s electricity load shedding crisis is not a temporary disruption. It is a structural consequence of a power sector circular debt that has grown beyond Rs 2.7 trillion, a generation fleet that cannot be adequately fuelled because the fuel cannot be paid for, a distribution infrastructure that loses 20–25% of power as technical and commercial losses, and a tariff structure that prices electricity beyond the reach of millions of households while simultaneously failing to generate enough revenue to cover generation costs. None of these problems will be resolved quickly. The International Monetary Fund&apos;s structural reform programme addresses them over a 3–5 year horizon at best. Pakistan&apos;s households need cooking fuel today, this evening, when the power goes out — not in 2028 when the circular debt may or may not have been meaningfully reduced.</p>
 
-      <p>The answer that millions of Pakistani households have arrived at independently, through practical necessity, is LPG. Stored in a pressurised cylinder in the kitchen, LPG is independent of the grid, available on demand, cost-effective, and — when stored in a WAATechnologies composite cylinder — <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-green-900 font-medium">safe in ways that conventional steel cylinders are not</Link>. This article makes the complete case for LPG cooking as Pakistan&apos;s rational response to load shedding, and explains specifically why composite cylinders are the right choice for making this switch.</p>
+      <p>The answer that millions of Pakistani households have arrived at independently, through practical necessity, is LPG. Stored in a pressurised cylinder in the kitchen, LPG is independent of the grid, available on demand, cost-effective, and — when stored in a WAATechnologies composite cylinder — <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">safe in ways that conventional steel cylinders are not</Link>. This article makes the complete case for LPG cooking as Pakistan&apos;s rational response to load shedding, and explains specifically why composite cylinders are the right choice for making this switch.</p>
 
       <h2>The True Scale of Pakistan&apos;s Load Shedding Problem</h2>
 
@@ -5574,7 +5574,7 @@ export default async function SlugPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className={`py-16 text-white ${isCaseStudy ? 'bg-slate-900' : 'gradient-green'}`}>
+      <section className={`py-16 text-white ${isCaseStudy ? 'bg-brand-dark' : 'gradient-green'}`}>
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-5 flex-wrap">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -5589,7 +5589,7 @@ export default async function SlugPage({ params }: Props) {
           </div>
 
           <div className="flex flex-wrap gap-2 mb-4">
-            <span className={`text-xs font-bold px-3 py-1 rounded-full ${isCaseStudy ? 'bg-amber-400 text-slate-900' : 'bg-white/20 text-white'}`}>
+            <span className={`text-xs font-bold px-3 py-1 rounded-full ${isCaseStudy ? 'bg-amber-brand text-ink' : 'bg-white/20 text-white'}`}>
               {isCaseStudy ? 'Case Study' : post.category}
             </span>
             {post.location && (
@@ -5726,17 +5726,17 @@ export default async function SlugPage({ params }: Props) {
           <div className="grid lg:grid-cols-[1fr_280px] gap-12">
             {/* Main */}
             <article>
-              <p className="text-xl text-slate-700 font-medium leading-relaxed mb-8 pb-8 border-b border-slate-100">
+              <p className="text-xl text-ink font-medium leading-relaxed mb-8 pb-8 border-b border-line">
                 {post.excerpt}
               </p>
 
               {isCaseStudy && post.location && (
                 <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-8">
                   <div className="flex items-center gap-2 mb-2">
-                    <MapPin className="w-5 h-5 text-amber-600" />
-                    <span className="font-bold text-slate-900">Location: {post.location}</span>
+                    <MapPin className="w-5 h-5 text-[#8a5a00]" />
+                    <span className="font-bold text-ink">Location: {post.location}</span>
                   </div>
-                  <p className="text-slate-600 text-sm">This case study documents a real customer experience with WAATechnologies composite LPG cylinders.</p>
+                  <p className="text-muted text-sm">This case study documents a real customer experience with WAATechnologies composite LPG cylinders.</p>
                 </div>
               )}
 
@@ -5746,14 +5746,14 @@ export default async function SlugPage({ params }: Props) {
 
               {/* Tags */}
               {post.tags && post.tags.length > 0 && (
-                <div className="mt-10 pt-6 border-t border-slate-100">
+                <div className="mt-10 pt-6 border-t border-line">
                   <div className="flex flex-wrap gap-2 items-center">
                     <Tag className="w-4 h-4 text-slate-400" />
                     {post.tags.map((tag) => (
                       <Link
                         key={tag}
                         href={`/tag/${tag}`}
-                        className="text-xs bg-slate-100 hover:bg-green-100 text-slate-600 hover:text-green-900 px-3 py-1.5 rounded-full transition-colors font-medium"
+                        className="text-xs bg-slate-100 hover:bg-tint text-muted hover:text-brand px-3 py-1.5 rounded-full transition-colors font-medium"
                       >
                         {tag.replace(/-/g, ' ')}
                       </Link>
@@ -5765,7 +5765,7 @@ export default async function SlugPage({ params }: Props) {
               <div className="mt-10">
                 <Link
                   href={isCaseStudy ? '/category/casestudies' : '/blog'}
-                  className="inline-flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand font-semibold hover:text-brand-dark transition-colors"
                 >
                   <ArrowLeft className="w-4 h-4" />
                   {isCaseStudy ? 'All Case Studies' : 'All Posts'}
@@ -5775,12 +5775,12 @@ export default async function SlugPage({ params }: Props) {
 
             {/* Sidebar */}
             <aside className="flex flex-col gap-6">
-              <div className="bg-green-900 text-white rounded-2xl p-6">
+              <div className="bg-brand text-white rounded-2xl p-6">
                 <h3 className="font-black text-lg mb-3">Ready to Switch?</h3>
                 <p className="text-green-100 text-sm mb-4">
                   100% explosion-proof composite cylinders. ISO certified. Made in Pakistan.
                 </p>
-                <Link href="/shop" className="block text-center bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold py-2.5 rounded-xl transition-all text-sm">
+                <Link href="/shop" className="block text-center bg-amber-brand hover:bg-[#e09c14] text-ink font-bold py-2.5 rounded-xl transition-all text-sm">
                   Shop Now
                 </Link>
                 <Link href="/contact-us" className="block text-center mt-2 bg-white/10 hover:bg-white/20 text-white font-semibold py-2.5 rounded-xl transition-all text-sm">
@@ -5788,20 +5788,20 @@ export default async function SlugPage({ params }: Props) {
                 </Link>
               </div>
 
-              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                <h3 className="font-bold text-slate-900 mb-3 text-sm uppercase tracking-wide">Key Benefits</h3>
+              <div className="bg-tint rounded-2xl p-6 border border-line">
+                <h3 className="font-bold text-ink mb-3 text-sm uppercase tracking-wide">Key Benefits</h3>
                 <div className="flex flex-col gap-2">
                   {['100% Explosion Proof', '50% Lighter than Steel', 'UV Resistant', 'Corrosion Free', 'ISO 9001-2015 Certified'].map((b) => (
-                    <div key={b} className="flex items-center gap-2 text-xs text-slate-600">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-green-800 flex-shrink-0" />
+                    <div key={b} className="flex items-center gap-2 text-xs text-muted">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-brand flex-shrink-0" />
                       {b}
                     </div>
                   ))}
                 </div>
               </div>
 
-              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                <h3 className="font-bold text-slate-900 mb-4 text-sm uppercase tracking-wide">
+              <div className="bg-tint rounded-2xl p-6 border border-line">
+                <h3 className="font-bold text-ink mb-4 text-sm uppercase tracking-wide">
                   {isCaseStudy ? 'More Case Studies' : 'Related Posts'}
                 </h3>
                 <div className="flex flex-col gap-3">
@@ -5809,19 +5809,19 @@ export default async function SlugPage({ params }: Props) {
                     <Link
                       key={p.slug}
                       href={`/${p.slug}`}
-                      className="text-sm text-slate-600 hover:text-green-900 transition-colors leading-snug flex items-start gap-1.5"
+                      className="text-sm text-muted hover:text-brand transition-colors leading-snug flex items-start gap-1.5"
                     >
-                      <ArrowRight className="w-3.5 h-3.5 text-green-800 flex-shrink-0 mt-0.5" />
+                      <ArrowRight className="w-3.5 h-3.5 text-brand flex-shrink-0 mt-0.5" />
                       {p.title}
                     </Link>
                   ))}
                 </div>
               </div>
 
-              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                <h3 className="font-bold text-slate-900 mb-3 text-sm uppercase tracking-wide">Find a Dealer</h3>
-                <p className="text-slate-500 text-xs mb-3">Authorized dealers in Punjab, Sindh &amp; KPK.</p>
-                <Link href="/authorized-dealers" className="inline-flex items-center gap-1 text-green-900 font-semibold text-sm hover:text-green-950">
+              <div className="bg-tint rounded-2xl p-6 border border-line">
+                <h3 className="font-bold text-ink mb-3 text-sm uppercase tracking-wide">Find a Dealer</h3>
+                <p className="text-muted text-xs mb-3">Authorized dealers in Punjab, Sindh &amp; KPK.</p>
+                <Link href="/authorized-dealers" className="inline-flex items-center gap-1 text-brand font-semibold text-sm hover:text-brand-dark">
                   View Dealers <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>

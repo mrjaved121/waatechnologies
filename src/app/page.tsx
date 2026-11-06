@@ -461,27 +461,27 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="rounded-[1.75rem] border border-line bg-[#FAFBFA] p-8 sm:p-10">
             <p className="mb-6 text-center text-xs font-bold uppercase tracking-[0.16em] text-brand">
-              Certificates and licences — click any to open it full size
+              Certificates and licences
             </p>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-5">
               {certifications.map((c) => (
-                <a
-                  key={c.label}
-                  href={c.img}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group overflow-hidden rounded-2xl border border-line bg-white"
-                >
-                  <div className="relative aspect-[3/4] bg-slate-50">
-                    <Image src={c.img} alt={`${c.label} certificate — WAATechnologies`} fill sizes="(max-width: 768px) 45vw, 18vw" className="object-cover transition-transform group-hover:scale-[1.02]" />
+                <div key={c.label} className="overflow-hidden rounded-2xl border border-line bg-white">
+                  {/* Published deliberately small and softened: the document is recognisable,
+                      but registration numbers cannot be read off the page or reused. */}
+                  <div className="relative aspect-[3/4] bg-tint">
+                    <Image src={c.img} alt={`${c.label} certificate — WAATechnologies`} fill sizes="(max-width: 768px) 45vw, 18vw" className="object-cover" />
                   </div>
                   <div className="p-3 text-center">
                     <p className="text-xs font-bold leading-tight text-brand-dark">{c.label}</p>
                     <p className="mt-0.5 text-[11px] text-muted">{c.desc}</p>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
+            <p className="mt-5 text-center text-[13px] text-muted">
+              Verified copies are available to dealers and corporate buyers on request —{' '}
+              <Link href="/contact-us" className="font-semibold text-brand underline underline-offset-4">contact us</Link>.
+            </p>
           </div>
         </div>
       </section>

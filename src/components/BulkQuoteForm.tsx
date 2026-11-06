@@ -41,7 +41,7 @@ export default function BulkQuoteForm() {
   }
 
   const inputCls =
-    'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400';
+    'w-full border border-line rounded-xl px-4 py-3 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-green-700 placeholder:text-slate-400';
 
   return (
     <form onSubmit={handleSubmit} className="grid sm:grid-cols-2 gap-4 text-left">
@@ -53,7 +53,7 @@ export default function BulkQuoteForm() {
       <textarea className={`${inputCls} sm:col-span-2 resize-none`} rows={3} placeholder="Anything else we should know?" value={message} onChange={(e) => setMessage(e.target.value)} />
       {/* honeypot — hidden from humans */}
       <input type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" value={bot} onChange={(e) => setBot(e.target.value)} name="company_website" />
-      <label className="sm:col-span-2 flex items-start gap-2 text-sm text-slate-600">
+      <label className="sm:col-span-2 flex items-start gap-2 text-sm text-muted">
         <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-1" />
         <span>I agree to WAATechnologies storing my details to respond to my enquiry.</span>
       </label>

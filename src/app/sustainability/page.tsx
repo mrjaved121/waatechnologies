@@ -37,7 +37,7 @@ const pillars = [
   {
     icon: Leaf,
     title: 'Environment',
-    color: 'bg-green-50 text-green-900 border-green-100',
+    color: 'bg-tint text-brand border-green-100',
     points: [
       'Composite cylinders use 70% less raw material than steel',
       'Zero rust/corrosion means no chemical leaching into soil',
@@ -51,7 +51,7 @@ const pillars = [
 export default function SustainabilityPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -70,8 +70,8 @@ export default function SustainabilityPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-6">
-            <h2 className="text-4xl font-black text-slate-900 mb-4">Some Words About Us</h2>
-            <p className="text-slate-600 max-w-3xl mx-auto text-lg leading-relaxed">
+            <h2 className="text-4xl font-black text-ink mb-4">Some Words About Us</h2>
+            <p className="text-muted max-w-3xl mx-auto text-lg leading-relaxed">
               We care for our customers and families&apos; lives. WAATechnologies was founded on the
               belief that energy should be safe, accessible, and sustainable for every Pakistani household.
               Our commitment to sustainability runs through every stage of design, manufacture, distribution,
@@ -81,11 +81,11 @@ export default function SustainabilityPage() {
         </div>
       </section>
 
-      <section className="py-10 pb-20 bg-slate-50">
+      <section className="py-10 pb-20 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Our Pillars</h2>
-            <p className="text-slate-500 max-w-xl mx-auto">
+            <h2 className="text-4xl font-black text-ink mb-3">Our Pillars</h2>
+            <p className="text-muted max-w-xl mx-auto">
               Three principles guide every decision we make at WAATechnologies.
             </p>
           </div>
@@ -95,10 +95,10 @@ export default function SustainabilityPage() {
                 <div className={`w-14 h-14 rounded-xl ${p.color} flex items-center justify-center mb-5`}>
                   <p.icon className="w-7 h-7" />
                 </div>
-                <h3 className="font-black text-slate-900 text-xl mb-4">{p.title}</h3>
+                <h3 className="font-black text-ink text-xl mb-4">{p.title}</h3>
                 <ul className="flex flex-col gap-2.5">
                   {p.points.map((pt) => (
-                    <li key={pt} className="flex items-start gap-2 text-sm text-slate-600">
+                    <li key={pt} className="flex items-start gap-2 text-sm text-muted">
                       <span className="w-1.5 h-1.5 rounded-full bg-current mt-1.5 flex-shrink-0 opacity-60" />
                       {pt}
                     </li>
@@ -113,8 +113,8 @@ export default function SustainabilityPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Design &amp; Development Process</h2>
-            <p className="text-slate-500 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-black text-ink mb-3">Design &amp; Development Process</h2>
+            <p className="text-muted max-w-2xl mx-auto">
               Our cylinder development follows a rigorous, sustainability-conscious design and testing
               process from concept to certification.
             </p>
@@ -128,12 +128,12 @@ export default function SustainabilityPage() {
               { icon: Leaf, title: 'Reduced Footprint', desc: '70% less material than steel, lighter transport weight, and 2× longer lifespan equals less total waste.' },
               { icon: Heart, title: 'Community Impact', desc: 'Safer cylinders mean fewer household fires and gas accidents in Pakistani communities.' },
             ].map((card) => (
-              <div key={card.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 card-hover">
-                <div className="w-12 h-12 bg-green-100 text-green-900 rounded-xl flex items-center justify-center mb-4">
+              <div key={card.title} className="bg-tint rounded-2xl p-6 border border-line card-hover">
+                <div className="w-12 h-12 bg-tint text-brand rounded-xl flex items-center justify-center mb-4">
                   <card.icon className="w-6 h-6" />
                 </div>
-                <h3 className="font-bold text-slate-900 mb-2">{card.title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed">{card.desc}</p>
+                <h3 className="font-bold text-ink mb-2">{card.title}</h3>
+                <p className="text-muted text-sm leading-relaxed">{card.desc}</p>
               </div>
             ))}
           </div>

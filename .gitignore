@@ -45,3 +45,6 @@ next-env.d.ts
 .claude/
 AGENTS.md
 CLAUDE.md
+
+# Sharp certificate scans — kept locally, never published
+private-originals/

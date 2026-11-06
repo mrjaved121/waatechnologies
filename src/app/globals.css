@@ -107,8 +107,67 @@ body {
 
 /* ── Gradient & nav utilities ─────────────────────────────────────────── */
 
+/* ── Shared page chrome — every page uses these ───────────────────────
+   One system: brand gradient bands, page heroes, buttons and cards.
+   Change a value here and every page follows.                          */
+
 .gradient-green {
-  background: linear-gradient(135deg, #0f2d1e 0%, #1a4731 50%, #15803d 100%);
+  background: linear-gradient(135deg, #0b3528 0%, #0e4a37 55%, #0e5c44 100%);
+}
+
+/* Standard page header band: same height, colour and rhythm everywhere. */
+.page-hero {
+  background: linear-gradient(135deg, #0b3528 0%, #0e4a37 55%, #0e5c44 100%);
+  color: #ffffff;
+  padding-block: 4.5rem;
+}
+@media (min-width: 1024px) {
+  .page-hero { padding-block: 5.5rem; }
+}
+.page-hero p { color: #cfe0d7; }
+
+/* Headings share one display face across the site. */
+h1, h2, h3, .font-display {
+  font-family: var(--font-outfit), var(--font-geist-sans), system-ui, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+/* Buttons — one shape, one height, three tones. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 0 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+.btn-brand { background: #0e5c44; color: #ffffff; }
+.btn-brand:hover { background: #0b3528; }
+.btn-amber { background: #f0a91e; color: #16211c; }
+.btn-amber:hover { background: #e09c14; }
+.btn-outline { background: #ffffff; color: #16211c; border: 1.5px solid #cbd5d0; }
+.btn-outline:hover { border-color: #0e5c44; }
+.btn-ondark { background: rgba(255, 255, 255, 0.1); color: #ffffff; border: 1px solid rgba(255, 255, 255, 0.3); }
+.btn-ondark:hover { background: rgba(255, 255, 255, 0.2); }
+
+/* Cards — one radius and border for every grid on the site. */
+.card-base {
+  background: #ffffff;
+  border: 1px solid #dfe6e2;
+  border-radius: 1.25rem;
+}
+
+/* Small uppercase label above a section heading. */
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0e5c44;
 }
 
 .gradient-hero {

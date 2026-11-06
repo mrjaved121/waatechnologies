@@ -52,7 +52,7 @@ const caseStudies = [
 export default function CaseStudiesPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -72,12 +72,12 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col gap-8">
             {caseStudies.map((cs) => (
-              <article key={cs.slug} className="bg-slate-50 rounded-3xl border border-slate-100 overflow-hidden grid md:grid-cols-[280px_1fr] card-hover">
+              <article key={cs.slug} className="bg-tint rounded-3xl border border-line overflow-hidden grid md:grid-cols-[280px_1fr] card-hover">
                 <div className="relative min-h-48 overflow-hidden">
                   <Image src="/images/post-image.jpg" alt={cs.title} fill sizes="280px" className="object-cover" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-6 text-white text-center">
                     <div className="text-sm font-bold text-green-200 uppercase tracking-wider mb-2">Case Study</div>
-                    <div className="bg-amber-400 text-slate-900 text-xs font-bold px-3 py-1.5 rounded-full">
+                    <div className="bg-amber-brand text-ink text-xs font-bold px-3 py-1.5 rounded-full">
                       {cs.outcome}
                     </div>
                   </div>
@@ -87,11 +87,11 @@ export default function CaseStudiesPage() {
                     <span className="text-xs text-slate-400 flex items-center gap-1"><MapPin className="w-3.5 h-3.5" />{cs.location}</span>
                     <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3.5 h-3.5" />{cs.date}</span>
                   </div>
-                  <h2 className="text-xl font-black text-slate-900 mb-3 leading-snug">
-                    <Link href={`/${cs.slug}`} className="hover:text-green-900 transition-colors">{cs.title}</Link>
+                  <h2 className="text-xl font-black text-ink mb-3 leading-snug">
+                    <Link href={`/${cs.slug}`} className="hover:text-brand transition-colors">{cs.title}</Link>
                   </h2>
-                  <p className="text-slate-600 leading-relaxed mb-4">{cs.excerpt}</p>
-                  <Link href={`/${cs.slug}`} className="inline-flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
+                  <p className="text-muted leading-relaxed mb-4">{cs.excerpt}</p>
+                  <Link href={`/${cs.slug}`} className="inline-flex items-center gap-2 text-brand font-semibold hover:text-brand-dark transition-colors">
                     Read Full Case Study <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
@@ -101,14 +101,14 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-green-900 text-white">
+      <section className="py-16 bg-brand text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-black mb-3">Ready to Be Our Next Success Story?</h2>
           <p className="text-green-100 mb-6 max-w-xl mx-auto">
             Join thousands of Pakistani households and businesses who have switched to WAA composite cylinders.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/shop" className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-900 px-6 py-3 rounded-xl font-bold transition-all">
+            <Link href="/shop" className="inline-flex items-center gap-2 bg-amber-brand hover:bg-[#e09c14] text-ink px-6 py-3 rounded-xl font-bold transition-all">
               Shop Now <ArrowRight className="w-4 h-4" />
             </Link>
             <Link href="/authorized-dealers" className="inline-flex items-center gap-2 bg-white/15 border border-white/30 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/25 transition-all">

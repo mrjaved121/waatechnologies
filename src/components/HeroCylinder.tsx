@@ -15,7 +15,7 @@ export default function HeroCylinder() {
 
       {/* Outer ambient glow */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-80 h-80 rounded-full bg-amber-400/15 blur-3xl cylinder-glow-outer" />
+        <div className="w-80 h-80 rounded-full bg-amber-brand/15 blur-3xl cylinder-glow-outer" />
       </div>
 
       {/* Inner tight glow */}

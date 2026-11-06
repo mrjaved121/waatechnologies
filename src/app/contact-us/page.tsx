@@ -70,7 +70,7 @@ export default function ContactUsPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -90,38 +90,38 @@ export default function ContactUsPage() {
           {/* Contact Info */}
           <div className="flex flex-col gap-6">
             {/* Head Office */}
-            <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100">
-              <h2 className="font-black text-slate-900 text-lg mb-5 flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-green-800" /> HEAD OFFICE
+            <div className="bg-tint rounded-2xl p-7 border border-line">
+              <h2 className="font-black text-ink text-lg mb-5 flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-brand" /> HEAD OFFICE
               </h2>
-              <div className="flex flex-col gap-3 text-sm text-slate-600">
+              <div className="flex flex-col gap-3 text-sm text-muted">
                 <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-brand flex-shrink-0 mt-0.5" />
                   172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore
                 </div>
-                <a href="tel:+924237815533" className="flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
+                <a href="tel:+924237815533" className="flex items-center gap-2 text-brand font-semibold hover:text-brand-dark transition-colors">
                   <Phone className="w-4 h-4" /> +92 423 781 5533
                 </a>
-                <a href="https://wa.me/923414999998" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors">
+                <a href="https://wa.me/923414999998" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-brand font-semibold hover:text-brand-dark transition-colors">
                   <MessageSquare className="w-4 h-4" /> WhatsApp: +92 3414999998
                 </a>
-                <a href="mailto:info@waatechnologies.com" className="flex items-start gap-2 text-green-900 font-semibold hover:text-green-950 transition-colors break-all">
+                <a href="mailto:info@waatechnologies.com" className="flex items-start gap-2 text-brand font-semibold hover:text-brand-dark transition-colors break-all">
                   <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" /> info@waatechnologies.com
                 </a>
               </div>
             </div>
 
             {/* Manufacturing Facility */}
-            <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100">
-              <h2 className="font-black text-slate-900 text-lg mb-5 flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-green-800" /> MANUFACTURING FACILITY
+            <div className="bg-tint rounded-2xl p-7 border border-line">
+              <h2 className="font-black text-ink text-lg mb-5 flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-brand" /> MANUFACTURING FACILITY
               </h2>
-              <div className="text-sm text-slate-600 flex flex-col gap-2">
+              <div className="text-sm text-muted flex flex-col gap-2">
                 <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-green-800 flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-brand flex-shrink-0 mt-0.5" />
                   Gujranwala, Pakistan
                 </div>
-                <p className="text-slate-500">
+                <p className="text-muted">
                   26,000 sq ft state-of-the-art composite cylinder manufacturing plant.
                   Operational since 2022. R&D since 2018.
                 </p>
@@ -131,25 +131,25 @@ export default function ContactUsPage() {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <h2 className="font-black text-slate-900 text-2xl mb-2">SEND US A MESSAGE</h2>
-            <p className="text-slate-500 text-sm mb-6">Fill in the form and we&apos;ll open WhatsApp with your message pre-filled.</p>
+            <h2 className="font-black text-ink text-2xl mb-2">SEND US A MESSAGE</h2>
+            <p className="text-muted text-sm mb-6">Fill in the form and we&apos;ll open WhatsApp with your message pre-filled.</p>
             <ContactForm />
           </div>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-tint">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-3">FREQUENTLY ASKED QUESTIONS</h2>
-            <p className="text-slate-500">Quick answers to our most common questions.</p>
+            <h2 className="text-4xl font-black text-ink mb-3">FREQUENTLY ASKED QUESTIONS</h2>
+            <p className="text-muted">Quick answers to our most common questions.</p>
           </div>
           <div className="flex flex-col gap-4">
             {faqs.map((faq, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
-                <h3 className="font-bold text-slate-900 mb-2">Q: {faq.q}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">A: {faq.a}</p>
+              <div key={i} className="bg-white rounded-2xl p-6 border border-line shadow-sm">
+                <h3 className="font-bold text-ink mb-2">Q: {faq.q}</h3>
+                <p className="text-muted text-sm leading-relaxed">A: {faq.a}</p>
               </div>
             ))}
           </div>

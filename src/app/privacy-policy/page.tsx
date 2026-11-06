@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <section className="gradient-green py-20 text-white">
+      <section className="page-hero">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center gap-2 mb-4">
             <Link href="/" className="text-green-200 hover:text-white text-sm transition-colors">Home</Link>
@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
         </div>
       </section>
       <section className="py-20 bg-white">
-        <div className="max-w-3xl mx-auto px-4 prose prose-slate prose-headings:font-black prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:leading-relaxed">
+        <div className="max-w-3xl mx-auto px-4 prose prose-slate prose-headings:font-black prose-headings:text-ink prose-p:text-muted prose-p:leading-relaxed">
           <h2>1. Information We Collect</h2>
           <p>When you use our website or contact us, we may collect your name, email address, phone number, and company name. This information is used solely to respond to your enquiries and process orders.</p>
           <h2>2. How We Use Your Information</h2>
