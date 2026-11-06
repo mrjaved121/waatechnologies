@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: '%s | WAATechnologies',
   },
   description:
-    'WAATechnologies manufactures 100% explosion-proof, lightweight composite LPG gas cylinders in Pakistan. ISO certified, UV resistant, corrosion-proof. Buy online or find authorized dealers near you.',
+    'WAATechnologies manufactures non-blast, lightweight composite LPG gas cylinders in Pakistan. ISO certified, UV resistant, corrosion-proof. Buy online or find authorized dealers near you.',
   keywords: [
     'composite LPG cylinder Pakistan',
     'fiber gas cylinder',
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     siteName: 'WAATechnologies',
     title: 'WAATechnologies | Non-Blast Composite LPG Gas Cylinders',
     description:
-      "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders. ISO certified, lightweight, UV resistant & corrosion-proof.",
+      "Pakistan-based manufacturer of non-blast composite LPG cylinders. ISO certified, lightweight, UV resistant & corrosion-proof.",
     images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'WAATechnologies — Non-Blast Composite LPG Cylinders Pakistan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'WAATechnologies | Non-Blast Composite LPG Cylinders Pakistan',
-    description: "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders.",
+    description: "Pakistan-based manufacturer of non-blast composite LPG cylinders.",
     images: ['/images/og-image.webp'],
   },
   robots: {
@@ -85,7 +85,7 @@ const orgSchema = {
       },
       image: 'https://waatechnologies.com/images/global-waatech-logo.webp',
       description:
-        "Pakistan's first indigenous manufacturer of ISO-certified non-blast composite LPG gas cylinders. 100% explosion-proof, lightweight, corrosion-free, 20+ year service life. ISO 9001:2015, ISO 11119-3:2020 and BS EN 14427:2022 certified. PEC licensed.",
+        "Pakistan's first indigenous manufacturer of ISO-certified non-blast composite LPG gas cylinders. Lightweight, corrosion-free, with a 20+ year rated service life. ISO 9001:2015, ISO 11119-3:2020 and BS EN 14427:2022 certified. PEC licensed.",
       foundingDate: '2022',
       foundingLocation: { '@type': 'Place', name: 'Gujranwala, Punjab, Pakistan' },
       address: {
@@ -143,7 +143,7 @@ const orgSchema = {
       '@id': 'https://waatechnologies.com/#website',
       url: 'https://waatechnologies.com',
       name: 'WAATechnologies',
-      description: "Pakistan-based manufacturer of 100% explosion-proof composite LPG cylinders",
+      description: "Pakistan-based manufacturer of non-blast composite LPG cylinders",
       publisher: { '@id': 'https://waatechnologies.com/#organization' },
       inLanguage: 'en-PK',
     },

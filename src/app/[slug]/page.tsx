@@ -329,7 +329,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'Refill means filling your own cylinder; exchange means swapping it for a filled one',
             'A composite cylinder is filled by weight, so you pay only for the gas added',
             'Always check the valve, body and O-ring for damage before and after refilling',
-            'WAA composite cylinders are jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022',
+            'WAA composite cylinders are jointless, non-blast by design, and certified to ISO 9001:2015 and BS EN 14427:2022',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
@@ -631,7 +631,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>A composite LPG cylinder dealership is a strong opportunity in 2026 because demand is growing from a very small base. Composite cylinders make up less than 5% of Pakistan&apos;s estimated 30–40 million cylinder fleet, and WAA Technologies projects composite demand growing 25–35% annually over 2025–2030. Four forces drive the switch from steel:</p>
 
       <ul>
-        <li><strong>Safety.</strong> WAA composite LPG cylinders are jointless and 100% explosion-proof, which matters to households and commercial kitchens alike.</li>
+        <li><strong>Safety.</strong> WAA composite LPG cylinders are jointless and non-blast by design, which matters to households and commercial kitchens alike.</li>
         <li><strong>Weight.</strong> A 10 kg composite cylinder weighs about 18–20 kg filled versus 28–30 kg for steel, and its translucent body lets customers see the gas level.</li>
         <li><strong>Commercial demand.</strong> Restaurants, food trucks and caterers are switching because non-blast, ISO-certified cylinders reduce risk in busy kitchens.</li>
         <li><strong>Regulation.</strong> OGRA is tightening hydrotest enforcement on steel cylinders, which pushes buyers toward certified alternatives.</li>
@@ -757,7 +757,7 @@ const articleContent: Record<string, React.ReactNode> = {
           {[
             '5 kg composite cylinder: best for small families, apartments, single-burner kitchens, and anyone who needs to lift and carry the cylinder themselves',
             '10 kg composite cylinder: best for larger families, restaurants, food trucks, and anyone who would rather refill less often than carry a lighter cylinder',
-            'Both sizes are 100% explosion-proof, jointless, and translucent — you can see the LPG level through the cylinder wall on either size',
+            'Both sizes are non-blast, jointless, and translucent — you can see the LPG level through the cylinder wall on either size',
             'Price and refill frequency are the two real deciding factors — see the side-by-side table below',
             'Both carry ISO 9001:2015 and BS EN 14427:2022 certification — size does not change the safety rating',
           ].map((point) => (
@@ -838,7 +838,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Why Size Doesn&apos;t Change the Safety</h2>
 
-      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, or 12 kg — is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
+      <p>Whichever size you choose, the safety rating is identical. Every WAA Technologies <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite LPG cylinder</Link> — 5 kg, 10 kg, or 12 kg — is jointless, non-blast by design, and certified to ISO 9001:2015 and BS EN 14427:2022. The size only changes how much gas it holds and how heavy it is to lift; it does not change the certification testing, the non-blast construction, or the 20+ year rated service life. Both sizes are also translucent, so you can <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">check your gas level</Link> at a glance without lifting the cylinder to estimate its weight.</p>
 
       <h2>Where to Buy the Right Size in Pakistan</h2>
 
@@ -856,7 +856,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>It can work for very light or occasional commercial use, but WAA Technologies recommends the 10 kg (or larger) for restaurants and commercial kitchens, since continuous cooking demand means a 5 kg cylinder would need refilling multiple times per week.</p>
 
       <h3>Are both sizes explosion-proof?</h3>
-      <p>Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.</p>
+      <p>Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, non-blast by design, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.</p>
 
       <h3>Which size is easier to carry?</h3>
       <p>The 5 kg cylinder, at approximately 5.5 kg empty, is significantly lighter and easier to carry than the 10 kg — a practical advantage for elderly users, upper-floor apartments, or anyone without help lifting a filled cylinder.</p>
@@ -5176,7 +5176,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Can I refill a composite LPG cylinder myself at home?', a: 'No. Refilling an LPG cylinder at home or from another cylinder (decanting) is illegal and extremely dangerous in Pakistan. Always use an authorised WAA dealer or OGRA-approved refill point.' },
     { q: 'What is the difference between refill and exchange?', a: 'Refilling tops up your own cylinder and returns it to you. Exchange means you swap your empty cylinder for an already-filled one of the same size, paying only for the gas.' },
     { q: 'Where can I refill my WAA composite cylinder?', a: 'Through WAA Technologies\' authorised dealer network in cities including Lahore, Karachi and Islamabad–Rawalpindi. Contact WAA or check your city guide for the nearest point.' },
-    { q: 'Is refilling a composite cylinder safe?', a: 'Yes, when done at an authorised point. WAA composite cylinders are jointless, 100% explosion-proof and certified to ISO 9001:2015 and BS EN 14427:2022, and staff fill them by weight with a leak test.' },
+    { q: 'Is refilling a composite cylinder safe?', a: 'Yes, when done at an authorised point. WAA composite cylinders are jointless, non-blast and certified to ISO 9001:2015 and BS EN 14427:2022, and staff fill them by weight with a leak test.' },
     { q: 'How much does an LPG refill cost in Pakistan?', a: 'LPG is priced per kg and set monthly by OGRA. In October 2026 the rate is about Rs 279 per kg, so a 10 kg refill is roughly Rs 2,790. The exact cost changes each month and by city.' },
   ],
   'best-lpg-gas-cylinder-pakistan-2026': [
@@ -5191,7 +5191,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'How long does a 5kg composite LPG cylinder last?', a: 'For a family of 2–4 cooking daily, a full 5 kg composite cylinder typically lasts 15–20 days — roughly 2–3 weeks. Usage varies with the number of burners running and how much heavy cooking (frying, roti-making, long simmers) you do versus quick reheating.' },
     { q: 'Is a 10kg cylinder more economical than a 5kg?', a: 'Per kilogram of gas, the cost is the same for both sizes. A 10 kg cylinder is more economical in terms of convenience — it means fewer refills and fewer delivery or filling-station trips per month — which suits larger households and small commercial kitchens more than it saves money outright.' },
     { q: 'Can I use a 5kg cylinder for a restaurant?', a: 'It can work for very light or occasional commercial use, but WAA Technologies recommends the 10 kg (or larger) for restaurants and commercial kitchens, since continuous cooking demand means a 5 kg cylinder would need refilling multiple times per week.' },
-    { q: 'Are both sizes explosion-proof?', a: 'Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, 100% explosion-proof, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.' },
+    { q: 'Are both sizes explosion-proof?', a: 'Yes. Every WAA Technologies composite cylinder, regardless of size, is jointless, non-blast by design, and certified to ISO 9001:2015 and BS EN 14427:2022. Size affects gas capacity and weight only — not the safety rating or certification.' },
     { q: 'Which size is easier to carry?', a: 'The 5 kg cylinder, at approximately 5.5 kg empty, is significantly lighter and easier to carry than the 10 kg — a practical advantage for elderly users, upper-floor apartments, or anyone without help lifting a filled cylinder.' },
   ],
   'gas-cylinder-blast-incidents-pakistan-2025': [
@@ -5529,7 +5529,7 @@ function DefaultContent({ post }: { post: ReturnType<typeof getPostBySlug> }) {
         — eliminating the blast and shrapnel risk that steel cylinders present.
       </p>
       <ul>
-        <li>100% Explosion Proof — non-blast composite construction</li>
+        <li>Non-Blast by Design — non-blast composite construction</li>
         <li>50% lighter than conventional steel cylinders (≈5.5 kg for 10L)</li>
         <li>UV resistant HDPE outer layer — safe in direct sunlight</li>
         <li>Corrosion free — never rusts in humid or coastal environments</li>
@@ -5778,7 +5778,7 @@ export default async function SlugPage({ params }: Props) {
               <div className="bg-brand text-white rounded-2xl p-6">
                 <h3 className="font-black text-lg mb-3">Ready to Switch?</h3>
                 <p className="text-green-100 text-sm mb-4">
-                  100% explosion-proof composite cylinders. ISO certified. Made in Pakistan.
+                  non-blast composite cylinders. ISO certified. Made in Pakistan.
                 </p>
                 <Link href="/shop" className="block text-center bg-amber-brand hover:bg-[#e09c14] text-ink font-bold py-2.5 rounded-xl transition-all text-sm">
                   Shop Now
@@ -5791,7 +5791,7 @@ export default async function SlugPage({ params }: Props) {
               <div className="bg-tint rounded-2xl p-6 border border-line">
                 <h3 className="font-bold text-ink mb-3 text-sm uppercase tracking-wide">Key Benefits</h3>
                 <div className="flex flex-col gap-2">
-                  {['100% Explosion Proof', '50% Lighter than Steel', 'UV Resistant', 'Corrosion Free', 'ISO 9001-2015 Certified'].map((b) => (
+                  {['Non-Blast by Design', '50% Lighter than Steel', 'UV Resistant', 'Corrosion Free', 'ISO 9001-2015 Certified'].map((b) => (
                     <div key={b} className="flex items-center gap-2 text-xs text-muted">
                       <CheckCircle2 className="w-3.5 h-3.5 text-brand flex-shrink-0" />
                       {b}

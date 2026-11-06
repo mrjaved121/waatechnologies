@@ -14,7 +14,7 @@ const productImages: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Our Products And Advantages',
   description:
-    'Explore WAATechnologies\' composite LPG cylinders — 5kg and 10kg sizes. 100% explosion-proof, lightweight, UV resistant, corrosion-proof, translucent, ISO certified.',
+    'Explore WAATechnologies\' composite LPG cylinders — 5kg and 10kg sizes. Non-blast by design, lightweight, UV resistant, corrosion-proof, translucent, ISO certified.',
   alternates: { canonical: 'https://waatechnologies.com/our-products-and-advantages' },
 };
 
@@ -31,7 +31,7 @@ const advantages = [
   { icon: Droplets, title: 'Rust and Corrosion Proof', desc: "WAA Tech Composite Cylinder is corrosion free as it doesn't leave stain on kitchen floor or anywhere else. It never gets corrode even in humid or coastal areas." },
   { icon: Sun, title: 'UV Resistant', desc: 'WAA Tech Cylinder is UV resistant to effects from sun, rain and temperature due to atmospheric variations and rough handling. Cylinder color will not be altered even after prolong usage.' },
   { icon: Shield, title: 'Translucent Against Light', desc: 'The translucent body allows users to visually check the LPG level at any time — no need for gauges, weighing, or guessing how much gas remains.' },
-  { icon: Zap, title: '100% Explosion Proof', desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire. Tested to ISO 11119-3 and BS EN 14427:2022 standards.' },
+  { icon: Zap, title: 'Non-Blast by Design', desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire. Tested to ISO 11119-3 and BS EN 14427:2022 standards.' },
 ];
 
 export default function ProductsAndAdvantagesPage() {
@@ -48,7 +48,7 @@ export default function ProductsAndAdvantagesPage() {
           </div>
           <h1 className="text-5xl font-black mb-4">Our Products And Advantages</h1>
           <p className="text-green-100 text-xl max-w-2xl">
-            Most Importantly — 100% Explosion Proof.
+            Most Importantly — Non-Blast by Design.
           </p>
         </div>
       </section>

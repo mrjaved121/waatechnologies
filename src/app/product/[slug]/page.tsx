@@ -29,8 +29,8 @@ const products: Record<string, {
     price: 11000,
     weight: '10 kg',
     color: 'Yellow',
-    description: 'WAATechnologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. 100% explosion-proof, UV resistant, and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
-    features: ['100% Explosion Proof', 'ISO 11119-3 Certified', 'UV Resistant HDPE Outer', 'Corrosion Free', 'Translucent Body', '20+ Year Lifespan'],
+    description: 'WAATechnologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. Non-blast by design, UV resistant and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
+    features: ['Non-Blast by Design', 'ISO 11119-3 Certified', 'UV Resistant HDPE Outer', 'Corrosion Free', 'Translucent Body', '20+ Year Lifespan'],
   },
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': {
     name: '5 Kg LPG Fiber Gas Cylinder',
@@ -39,7 +39,7 @@ const products: Record<string, {
     weight: '5 kg',
     color: 'Blue',
     description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is perfect for small households. Lightweight, explosion-proof, and ISO certified — the safest small cylinder in Pakistan.',
-    features: ['100% Explosion Proof', 'Ultra Lightweight', 'ISO Certified', 'UV Resistant', 'Corrosion Free', 'Translucent Visibility'],
+    features: ['Non-Blast by Design', 'Ultra Lightweight', 'ISO Certified', 'UV Resistant', 'Corrosion Free', 'Translucent Visibility'],
   },
   'lpg-composite-cylinder-10kg-cerulean-blue': {
     name: 'LPG Composite Cylinder 10Kg Cerulean Blue',
@@ -47,7 +47,7 @@ const products: Record<string, {
     weight: '10 kg',
     color: 'Cerulean Blue',
     description: 'The Cerulean Blue 10Kg composite cylinder combines WAA\'s world-class safety technology with a modern aesthetic design. Perfect for contemporary kitchens.',
-    features: ['Cerulean Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Modern Design'],
+    features: ['Cerulean Blue Finish', 'Non-Blast by Design', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Modern Design'],
   },
   'lpg-composite-cylinder-10kg-tiger-orange': {
     name: 'LPG Composite Cylinder 10Kg Tiger Orange',
@@ -55,7 +55,7 @@ const products: Record<string, {
     weight: '10 kg',
     color: 'Tiger Orange',
     description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology used in homes and kitchens across Pakistan.',
-    features: ['Tiger Orange Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
+    features: ['Tiger Orange Finish', 'Non-Blast by Design', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
   },
 };
 

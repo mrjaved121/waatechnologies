@@ -5,7 +5,7 @@ import { Layers, Zap, Shield, Microscope, Cog, CheckCircle2 } from 'lucide-react
 export const metadata: Metadata = {
   title: 'Our Technology',
   description:
-    'Discover WAATechnologies\' proprietary composite cylinder winding technology. ISO 11119-3 and EN 14427-2022 certified filament winding process for 100% explosion-proof LPG cylinders.',
+    'Discover WAATechnologies\' proprietary composite cylinder winding technology. ISO 11119-3 and EN 14427-2022 certified filament winding process for non-blast LPG cylinders.',
   alternates: { canonical: 'https://waatechnologies.com/our-technology' },
 };
 

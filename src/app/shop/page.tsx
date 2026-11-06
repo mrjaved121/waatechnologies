@@ -34,7 +34,7 @@ const shopSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'WAATechnologies LPG Composite Cylinders',
-  description: 'Buy composite LPG cylinders online in Pakistan — 100% explosion-proof, ISO certified, made in Gujranwala.',
+  description: 'Buy composite LPG cylinders online in Pakistan — non-blast, ISO certified, made in Gujranwala.',
   url: 'https://waatechnologies.com/shop',
   numberOfItems: products.length,
   itemListElement: products.map((p, i) => ({
@@ -72,7 +72,7 @@ export default function ShopPage() {
           </div>
           <h1 className="text-5xl font-black mb-3">Shop</h1>
           <p className="text-green-100 text-lg">
-            Composite LPG Cylinders — 100% Explosion Proof. ISO Certified. Made in Pakistan.
+            Composite LPG Cylinders — non-blast by design, ISO certified, made in Pakistan.
           </p>
         </div>
       </section>
