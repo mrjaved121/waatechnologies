@@ -79,7 +79,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan',
     'lpg-composite-cylinder-10kg-cerulean-blue',
     'lpg-composite-cylinder-10kg-tiger-orange',
-    'lpg-composite-cylinder-10kg-traditional-blue',
   ];
 
   // Paginated blog list pages (/blog/page/N) are noindex, so they are not listed here.

@@ -14,7 +14,6 @@ const productImages: Record<string, string> = {
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.jpg',
   'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
   'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.jpg',
-  'lpg-composite-cylinder-10kg-traditional-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
 };
 
 export const metadata: Metadata = {
@@ -74,7 +73,6 @@ const products = [
   { name: '5 Kg LPG Fiber Gas Cylinder in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500 },
   { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null },
   { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null },
-  { name: 'LPG Composite Cylinder 10Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000, oldPrice: null },
 ];
 
 const certifications = [

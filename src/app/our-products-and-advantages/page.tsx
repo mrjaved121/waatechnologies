@@ -9,7 +9,6 @@ const productImages: Record<string, string> = {
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.jpg',
   'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
   'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.jpg',
-  'lpg-composite-cylinder-10kg-traditional-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
 };
 
 export const metadata: Metadata = {
@@ -24,12 +23,11 @@ const products = [
   { name: '5 Kg LPG Fiber Gas Cylinder in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500 },
   { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000 },
   { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000 },
-  { name: 'LPG Composite Cylinder 10Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000 },
 ];
 
 const advantages = [
   { icon: Feather, title: 'Extremely Lite in Weight', desc: 'WAA Tech Cylinders are user friendly due to the attractive design and 50% lighter than conventional cylinder. Its weight is 5.5 kg approximately.' },
-  { icon: Award, title: 'Attractive in Color and Shape', desc: 'Available in multiple attractive colors — Cerulean Blue, Tiger Orange, Traditional Blue, and Yellow. WAA cylinders can be customized as per customer brand preferences.' },
+  { icon: Award, title: 'Attractive in Color and Shape', desc: 'Available in multiple attractive colors — Cerulean Blue, Tiger Orange, and Yellow. WAA cylinders can be customized as per customer brand preferences.' },
   { icon: Droplets, title: 'Rust and Corrosion Proof', desc: "WAA Tech Composite Cylinder is corrosion free as it doesn't leave stain on kitchen floor or anywhere else. It never gets corrode even in humid or coastal areas." },
   { icon: Sun, title: 'UV Resistant', desc: 'WAA Tech Cylinder is UV resistant to effects from sun, rain and temperature due to atmospheric variations and rough handling. Cylinder color will not be altered even after prolong usage.' },
   { icon: Shield, title: 'Translucent Against Light', desc: 'The translucent body allows users to visually check the LPG level at any time — no need for gauges, weighing, or guessing how much gas remains.' },

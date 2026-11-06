@@ -9,12 +9,10 @@ const productImages: Record<string, string> = {
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.jpg',
   'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
   'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.jpg',
-  'lpg-composite-cylinder-10kg-traditional-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
 };
 
 const colorGradient: Record<string, string> = {
   'Cerulean Blue': 'from-blue-400 to-blue-700',
-  'Traditional Blue': 'from-blue-600 to-blue-900',
 };
 
 const products: Record<string, {
@@ -58,14 +56,6 @@ const products: Record<string, {
     color: 'Tiger Orange',
     description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology used in homes and kitchens across Pakistan.',
     features: ['Tiger Orange Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
-  },
-  'lpg-composite-cylinder-10kg-traditional-blue': {
-    name: 'LPG Composite Cylinder 10Kg Traditional Blue',
-    price: 11000,
-    weight: '10 kg',
-    color: 'Traditional Blue',
-    description: 'The Traditional Blue edition of WAA\'s flagship 10Kg composite cylinder. A classic finish backed by the same explosion-proof, ISO-certified composite technology used in homes and kitchens across Pakistan.',
-    features: ['Traditional Blue Finish', '100% Explosion Proof', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Classic Design'],
   },
 };
 

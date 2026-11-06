@@ -9,19 +9,17 @@ const productImages: Record<string, string> = {
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': '/images/5kg-cylinder.jpg',
   'lpg-composite-cylinder-10kg-cerulean-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
   'lpg-composite-cylinder-10kg-tiger-orange': '/images/10kg-cylinder-orange.jpg',
-  'lpg-composite-cylinder-10kg-traditional-blue': '/images/10kg-blue-Fiber-cylinder.jpg',
 };
 
 const colorGradient: Record<string, string> = {
   'Cerulean Blue': 'from-blue-400 to-blue-700',
-  'Traditional Blue': 'from-blue-600 to-blue-900',
   'Blue': 'from-blue-400 to-blue-600',
 };
 
 export const metadata: Metadata = {
   title: 'LPG Composite Cylinder Prices: 5kg & 10kg',
   description:
-    'Composite LPG cylinder prices in Pakistan: 5 kg Rs 8,000 and 10 kg Rs 11,000 in four colours. ISO-certified, made in Gujranwala. Order on WhatsApp today.',
+    'Composite LPG cylinder prices in Pakistan: 5 kg Rs 8,000 and 10 kg Rs 11,000 in multiple colours. ISO-certified, made in Gujranwala. Order on WhatsApp today.',
   alternates: { canonical: 'https://waatechnologies.com/shop' },
 };
 
@@ -30,7 +28,6 @@ const products = [
   { name: '5 Kg LPG Fiber Gas Cylinder Price in Pakistan', slug: '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan', price: 8000, oldPrice: 8500, color: 'Blue', weight: '5 kg', badge: 'Sale' },
   { name: 'LPG Composite Cylinder 10Kg Cerulean Blue', slug: 'lpg-composite-cylinder-10kg-cerulean-blue', price: 11000, oldPrice: null, color: 'Cerulean Blue', weight: '10 kg' },
   { name: 'LPG Composite Cylinder 10Kg Tiger Orange', slug: 'lpg-composite-cylinder-10kg-tiger-orange', price: 11000, oldPrice: null, color: 'Tiger Orange', weight: '10 kg' },
-  { name: 'LPG Composite Cylinder 10Kg Traditional Blue', slug: 'lpg-composite-cylinder-10kg-traditional-blue', price: 11000, oldPrice: null, color: 'Traditional Blue', weight: '10 kg' },
 ];
 
 const shopSchema = {

@@ -1954,7 +1954,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>You can buy an empty composite cylinder and fill it at any OGRA-licensed filling station. Most WAA authorised dealers will also offer the option to purchase filled, where the refill cost is included in the purchase transaction. An empty cylinder is lighter and easier to transport to the filling station. Many dealers offer free first-fill promotions — confirm with your dealer when purchasing.</p>
 
       <h3>Is there a price difference between the different colours of WAA composite cylinders?</h3>
-      <p>No. WAA Technologies composite cylinders are available in three colours — Cerulean Blue, Tiger Orange, and Traditional Blue — at the same price point. Colour is purely aesthetic and does not affect cylinder specification, capacity, or certification.</p>
+      <p>No. WAA Technologies composite cylinders are available in multiple colours — including Cerulean Blue and Tiger Orange — at the same price point. Colour is purely aesthetic and does not affect cylinder specification, capacity, or certification.</p>
 
       <h3>Can I get a discount on multiple cylinders or on bulk commercial orders?</h3>
       <p>Yes. WAA Technologies and authorised dealers offer commercial pricing for bulk orders — restaurants, hotels, catering businesses, and other commercial operators purchasing multiple cylinders. Contact WAA Technologies directly at (+92) 4237815533 or through the authorised dealer in your city to discuss commercial pricing.</p>
@@ -2386,7 +2386,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Which WAA Technologies Cylinders Are Transparent?</h2>
 
-      <p>All WAA Technologies composite LPG cylinders have the translucent HDPE body — this is a material property of the construction, not a feature specific to a particular model. The 5 kg, 10 kg, and 12 kg variants all share the same construction methodology and the same gas-level visibility benefit. The different colour overlays (Cerulean Blue, Tiger Orange, Traditional Blue) are surface finishes on the glass fibre overwrap — they affect the outer appearance and brand differentiation, but the translucency of the HDPE inner liner means the gas level is visible through the cylinder in all variants when viewed in good light.</p>
+      <p>All WAA Technologies composite LPG cylinders have the translucent HDPE body — this is a material property of the construction, not a feature specific to a particular model. The 5 kg, 10 kg, and 12 kg variants all share the same construction methodology and the same gas-level visibility benefit. The different colour overlays (Cerulean Blue, Tiger Orange) are surface finishes on the glass fibre overwrap — they affect the outer appearance and brand differentiation, but the translucency of the HDPE inner liner means the gas level is visible through the cylinder in all variants when viewed in good light.</p>
 
       <p>If you hold a WAA Technologies cylinder up to natural light or bright artificial light, the liquid LPG level is clearly visible as the horizontal interface line between the opaque liquid phase below and the lighter vapour phase above. This is true regardless of which colour variant you purchase.</p>
 
