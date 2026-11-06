@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/our-technology`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/sustainability`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/our-products-and-advantages`,        lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/composite-lpg-cylinder-buyers-guide`,  lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/authorized-dealers`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/waa-tech-stores`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/shop`,                               lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
