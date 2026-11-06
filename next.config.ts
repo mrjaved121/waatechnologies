@@ -69,11 +69,11 @@ const nextConfig: NextConfig = {
       // Leftover WooCommerce and RSS paths from the old WordPress site. Search Console
       // still reports these as 404s, so send them to the nearest live page instead of
       // losing whatever link value they carry.
+      // /category/... and /tag/... are real pages on this site, so only the
+      // WooCommerce paths and the RSS feed suffix are redirected.
       { source: '/product-category/:slug*', destination: '/shop', permanent: true },
       { source: '/product-tag/:slug*', destination: '/shop', permanent: true },
-      { source: '/category/:slug*', destination: '/blog', permanent: true },
-      { source: '/tag/:slug*', destination: '/blog', permanent: true },
-      { source: '/:slug/feed', destination: '/:slug', permanent: true },
+      { source: '/:path*/feed', destination: '/:path*', permanent: true },
       { source: '/feed', destination: '/blog', permanent: true },
       { source: '/comments/feed', destination: '/blog', permanent: true },
     ];
