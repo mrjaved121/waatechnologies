@@ -21,16 +21,12 @@ function buildWhatsAppUrl(name: string, price: number, qty: number) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
-// Fire a GA4 event so order-intent clicks are tracked (no-op if GA isn't loaded).
+// Push an order-intent event to the GTM dataLayer (create a "whatsapp_order" custom-event
+// trigger in GTM to forward it to GA4). No-op during server rendering.
 function trackOrder(name: string, price: number, qty: number) {
-  if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag === 'function') {
-    (window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'whatsapp_order', {
-      product_name: name,
-      quantity: qty,
-      value: price * qty,
-      currency: 'PKR',
-    });
-  }
+  if (typeof window === 'undefined') return;
+  const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+  (w.dataLayer = w.dataLayer || []).push({ event: 'whatsapp_order', product_name: name, quantity: qty, value: price * qty, currency: 'PKR' });
 }
 
 export default function OrderInquiryButton({ name, price, className = '', compact = false }: Props) {

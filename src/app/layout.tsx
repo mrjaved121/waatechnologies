@@ -4,7 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import IndependenceBanner from '@/components/IndependenceBanner';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import GoogleTagManager from '@/components/GoogleTagManager';
 import FloatingContact from '@/components/FloatingContact';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' });
@@ -156,7 +156,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>
       <body className="min-h-full flex flex-col antialiased">
-        <GoogleAnalytics />
+        <GoogleTagManager />
         <IndependenceBanner />
         <Header />
         <main className="flex-1">{children}</main>

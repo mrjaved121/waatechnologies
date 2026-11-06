@@ -33,8 +33,9 @@ export default function BulkQuoteForm() {
       '— Sent from waatechnologies.com/authorized-dealers',
     ].filter((l) => l !== null).join('\n');
 
-    if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag === 'function') {
-      (window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'bulk_quote_request', { city, quantity: qty });
+    if (typeof window !== 'undefined') {
+      const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+      (w.dataLayer = w.dataLayer || []).push({ event: 'bulk_quote_request', city, quantity: qty });
     }
     window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
   }
