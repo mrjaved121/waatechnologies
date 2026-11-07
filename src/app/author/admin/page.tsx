@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: 'Posts by WAATechnologies',
   description: 'All blog posts and case studies published by WAATechnologies.',
   alternates: { canonical: 'https://waatechnologies.com/author/admin' },
+  // A WordPress leftover: this lists the same posts as /blog with no extra
+  // content, so it competes with /blog for the same queries. Kept reachable
+  // for old inbound links, but out of the index (and out of the sitemap).
+  robots: { index: false, follow: true },
 };
 
 export default function AuthorAdminPage() {
