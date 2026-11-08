@@ -94,6 +94,168 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: LPG Gas Heater Safety Tips (Pakistan) ── */
+  'lpg-gas-heater-safety-tips-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">Is it safe to use an LPG gas heater on a cylinder in a room in Pakistan? Yes, but only if you control two separate dangers. The first is <strong className="text-white">carbon monoxide (CO)</strong>, a colourless, odourless gas that any gas heater can produce when it burns without enough fresh air. The second is <strong className="text-white">unburnt LPG</strong> leaking into a closed room, where one spark from a match, heater igniter or light switch can set it off. The safe routine is simple: <strong className="text-white">keep a window or door open while the heater runs, switch the heater and the cylinder valve off before you sleep, never light anything if you smell gas, and fit a CO alarm</strong>. A certified cylinder lowers the risk from the cylinder itself, but it cannot prevent CO or a leak from a bad hose or heater.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'A gas heater can kill in two ways: carbon monoxide from poor burning, and an explosion when leaked LPG in a closed room meets a flame or spark',
+            'Never sleep with a gas heater running, and close the cylinder valve every night, not just the heater knob',
+            'If you smell gas when you enter a room, do not light the heater, a match or a light switch; open doors and windows and go outside',
+            'Keep fresh air coming in whenever the heater is on; a slightly open window is enough to make a real difference',
+            'Carbon monoxide has no smell or colour, so fit a CO alarm in every room with a gas heater or geyser',
+            'LPG is heavier than air and collects near the floor, so a floor-level gas leak detector is the right type for LPG',
+            'Check the hose, regulator and heater every winter before first use, and replace anything cracked, stiff or loose',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>As soon as the nights turn cold, gas heaters come out of storage in homes across Punjab, Khyber Pakhtunkhwa and Balochistan. Where Sui gas pressure is weak or the supply comes and goes, many families run their heater from an LPG cylinder instead. That is a sensible choice, but it brings a gas appliance and a cylinder into a bedroom or living room with the doors shut against the cold, which is exactly when accidents happen. This guide explains how gas heater accidents actually happen, a safe daily routine, how to set up the cylinder, hose and regulator, and what to do if you suspect a leak or carbon monoxide poisoning.</p>
+
+      <p>If you are getting your home ready for the colder months, our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortage preparation guide</Link> covers backup planning and stove maintenance. For the connection itself, see our step-by-step guide on <Link href="/how-to-safely-connect-lpg-cylinder-regulator-at-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to connect an LPG cylinder regulator safely</Link>.</p>
+
+      <h2>Why Gas Heater Accidents Rise Every Winter in Pakistan</h2>
+
+      <p>Gas accidents in Pakistan follow the weather. In January 2026, <a href="https://www.arabnews.pk/pakistan/gas-leak-claims-lives-of-three-women-in-pakistans-rawalpindi-police-2629208" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Arab News reported</a> that three women died of suffocation after a gas leak from a geyser at their home in Rawalpindi, and a 16-year-old girl was put on a ventilator. Police and officials quoted in the same report described gas leaks as a recurring winter hazard, with the risk rising as households lean on heaters, geysers, cylinders and stoves in poorly ventilated rooms.</p>
+
+      <p>A few days earlier, <a href="https://www.bbc.com/news/articles/c4gr7nlx421o" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">the BBC reported</a> that a newly married couple and six other people were killed in Islamabad when gas leaked into a room where people were sleeping and then exploded early in the morning, bringing down the roof. In Quetta, <a href="https://www.arabnews.pk/pakistan/deaths-of-six-of-a-family-spotlight-gas-leak-accidents-in-pakistans-balochistan-2266096" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Arab News reported in March 2023</a> that six members of one family died when a woman tried to light a gas heater at around 4 am in a room that had already filled with gas. Officials at Civil Hospital Quetta told the paper that at least 25 people had died in gas-leak incidents in and around the city in the three months since December.</p>
+
+      <p>These cases share a pattern: a closed room, a cold night, gas that leaked or burned badly for hours, and nobody awake to notice. Almost every step that breaks that pattern costs nothing.</p>
+
+      <h2>The Two Hidden Dangers of a Gas Heater</h2>
+
+      <h3>1. Carbon monoxide poisoning</h3>
+
+      <p>When gas burns with plenty of air, it produces mainly carbon dioxide and water vapour. When the air runs short, or the burner is dirty or faulty, it also produces carbon monoxide. The <a href="https://www.nhs.uk/conditions/carbon-monoxide-poisoning/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">NHS explains</a> that CO is colourless and has no smell, so you cannot tell it is there, and it lists gas and paraffin heaters among the household appliances that can produce it. Early symptoms are easy to mistake for a cold or tiredness:</p>
+      <ul>
+        <li>headache and dizziness</li>
+        <li>feeling sick or vomiting</li>
+        <li>weakness, tiredness and confusion</li>
+        <li>chest and muscle pain, and shortness of breath</li>
+      </ul>
+      <p>A useful warning sign is that symptoms ease when you go outside and return when you go back into the room. People who are asleep cannot notice any of this, which is why overnight use is so dangerous.</p>
+
+      <h3>2. Leaked LPG and explosions</h3>
+
+      <p>The second danger is gas that never burns at all. A loose regulator, a cracked hose, a heater knob left slightly open or a flame that blows out can let LPG escape into the room. The UK Health and Safety Executive notes that <a href="https://www.hse.gov.uk/gas/lpg/about.htm" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG is heavier than air</a>, so it settles and builds up in low places, and that a strong smell is added to it so leaks can be detected. In a closed room, that heavy gas pools along the floor until something lights it: a match, the heater&apos;s own igniter, a light switch or a phone charger being plugged in. The Quetta case above, where a heater was lit in a gas-filled room, shows exactly how this happens.</p>
+
+      <h2>A Safe Daily Routine for Using an LPG Heater</h2>
+
+      <h3>Before you light the heater</h3>
+      <ul>
+        <li><strong>Sniff first.</strong> Walk into the room and check for the smell of gas before touching anything. If you smell gas, do not light anything; go straight to the leak steps further down this page.</li>
+        <li><strong>Open an air path.</strong> Leave a window open a few centimetres, or keep the door open to a ventilated area. Fresh air is what keeps the flame burning cleanly.</li>
+        <li><strong>Check the flame after lighting.</strong> A healthy flame or glowing panel is steady and even. Yellow, sooty or flickering flames, or black marks above the heater, are signs of poor burning; switch the heater off and have it checked.</li>
+      </ul>
+
+      <h3>While the heater is running</h3>
+      <ul>
+        <li><strong>Stay awake and nearby.</strong> Do not leave a gas heater burning in an empty room or a room where children are alone.</li>
+        <li><strong>Keep clearance.</strong> Keep curtains, bedding, clothes and furniture well away from the front of the heater, and never dry clothes on it.</li>
+        <li><strong>Do not move a lit heater.</strong> Switch it off and let it cool before you move it or change the cylinder.</li>
+        <li><strong>One heater per room.</strong> Several gas appliances in one small closed room use up the air much faster.</li>
+      </ul>
+
+      <h3>Before you sleep</h3>
+      <ul>
+        <li><strong>Switch the heater off.</strong> Warm the room, then turn the heater off before anyone goes to sleep. Never sleep with a gas heater running.</li>
+        <li><strong>Close the cylinder valve.</strong> Turning off the heater knob is not enough. Closing the valve on the cylinder stops gas reaching the hose and heater overnight, so a slow leak cannot fill the room while you sleep.</li>
+        <li><strong>Let in fresh air for a few minutes</strong> after switching off, then close the window if you need to.</li>
+      </ul>
+
+      <h2>Setting Up the Cylinder, Hose and Regulator</h2>
+
+      <p>Most domestic leaks start at the connection between the cylinder and the appliance, not at the cylinder body. Before the first cold night, check the whole line:</p>
+      <ul>
+        <li><strong>Regulator.</strong> Use a proper LPG regulator that matches your cylinder valve and is in good condition. Our <Link href="/how-to-safely-connect-lpg-cylinder-regulator-at-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">regulator connection guide</Link> walks through fitting it correctly.</li>
+        <li><strong>Hose.</strong> It should be flexible, free of cracks, kinks and swelling, firmly clamped at both ends, and no longer than it needs to be. Replace a hose that has gone stiff or brittle over the summer. Keep it away from the hot front and top of the heater.</li>
+        <li><strong>Soap test.</strong> With the cylinder valve open and the heater off, brush soapy water over every joint. Bubbles mean a leak. Close the valve and fix the joint before using the heater; never test for leaks with a flame.</li>
+        <li><strong>Cylinder position.</strong> Keep the cylinder upright, on a firm floor, and never lying on its side. Follow the heater maker&apos;s instructions on where the cylinder should sit, and keep it away from the heater&apos;s flame and hot surfaces. Store spare cylinders outside living rooms and bedrooms in a ventilated place, as set out in our guide to <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">storing an LPG cylinder safely at home</Link>.</li>
+        <li><strong>Refills.</strong> Get cylinders filled only by a licensed seller or authorised dealer. Roadside decanting and illegally assembled cylinders, which Arab News found many Quetta families turning to during gas shortages, add risk before the heater is even lit.</li>
+      </ul>
+
+      <h2>Choosing a Safer Gas Heater</h2>
+
+      <p>Pakistani markets sell everything from open-flame &quot;gas heaters&quot; to radiant ceramic-panel and catalytic models. Whichever type you buy, look for these points:</p>
+      <ul>
+        <li><strong>An automatic gas cut-off.</strong> Many heaters have a safety device that shuts off the gas if the flame goes out, and some also cut off if the oxygen level in the room falls. Ask the seller to show you the feature and how it works, and read the manual.</li>
+        <li><strong>A known brand with a manual and a warranty,</strong> so spare parts and servicing are available.</li>
+        <li><strong>A stable base</strong> that will not tip easily, ideally with a tip-over cut-off if children are in the house.</li>
+        <li><strong>A guard</strong> over the flame or hot panel.</li>
+        <li><strong>The gas rating on the label.</strong> The heater&apos;s rating plate shows how much gas it burns. A higher rating gives more heat but uses gas, and air, faster.</li>
+      </ul>
+      <p>A safety cut-off is a backup, not permission to sleep with the heater on or to run it in a sealed room.</p>
+
+      <h2>Gas Geysers Need the Same Care</h2>
+
+      <p>The Rawalpindi deaths in January 2026 were linked to a geyser, not a room heater. Instant and storage gas geysers burn gas too, and when they are fitted inside bathrooms or closed spaces without a working flue or ventilation, CO and leaked gas can build up in the same way. Have geysers installed and serviced by a qualified technician, make sure the flue is clear and leads outside, keep bathroom ventilation open, and switch the geyser off when it is not needed. The NHS advises a CO alarm in every room that contains an appliance burning gas, and that includes a geyser room.</p>
+
+      <h2>What to Do If You Smell Gas or Suspect CO Poisoning</h2>
+
+      <h3>If you smell gas</h3>
+      <ol>
+        <li>Do not light a match, lighter or heater, and do not switch lights or electrical appliances on or off.</li>
+        <li>Close the cylinder valve if you can reach it safely.</li>
+        <li>Open doors and windows wide. Because LPG sinks, airflow at floor level helps clear it.</li>
+        <li>Get everyone, including children and elderly relatives, outside.</li>
+        <li>Do not go back in or relight anything until the smell is completely gone and the leak has been found and fixed. Our guide to <Link href="/gas-cylinder-warning-signs-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas cylinder warning signs</Link> explains what to check.</li>
+      </ol>
+
+      <h3>If someone has CO symptoms</h3>
+      <ol>
+        <li>Switch off the heater or geyser if you can do it quickly, and close the cylinder valve.</li>
+        <li>Move everyone into fresh air straight away.</li>
+        <li>Get medical help urgently, especially if anyone is confused, drowsy, has trouble breathing or has collapsed. Call your local emergency service, such as Rescue 1122, or go to the nearest hospital emergency department. The NHS notes that hospitals check CO levels in the blood and may give oxygen.</li>
+        <li>Do not use the appliance again until it has been inspected.</li>
+      </ol>
+
+      <h2>Detectors and Alarms: The Cheapest Insurance</h2>
+
+      <p>You need two different devices because they look for two different gases. A <strong>carbon monoxide alarm</strong> detects CO from poor burning; mount it in the room where the heater or geyser is used, following the maker&apos;s instructions, and test it regularly. An <strong>LPG gas leak detector</strong> detects unburnt LPG; because LPG is heavier than air, it should be placed low, close to the floor, near the cylinder and appliance. Neither replaces fresh air and switching off at night, but both can wake you when something goes wrong.</p>
+
+      <h2>Does a Composite Cylinder Make Heater Use Safer?</h2>
+
+      <p>It helps with some risks but not all, and it is important to be clear about which. A WAA Technologies composite LPG cylinder is certified to ISO 11119-3 and BS EN 14427:2022. In fire tests under those standards, the cylinder vents gas through its wall instead of rupturing, so it does not throw metal fragments. That is tested behaviour under those standards, not a guarantee under every possible condition. The body is jointless, so there are no weld seams to leak, and it does not rust, which matters for cylinders stored in damp winter conditions. You can read more in <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">are composite LPG cylinders safe?</Link></p>
+
+      <p>Two practical features also help in winter. The translucent body lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see the gas level by eye</Link>, so you are not shaking or tilting a cylinder next to a heater to guess how much is left. And a 10 kg WAA cylinder weighs about 5.5 kg empty, roughly half the weight of a comparable steel cylinder, which makes it easier to carry safely between rooms or to the dealer. WAA cylinders use standard Pakistani domestic valve fittings and work with the standard regulators sold in Pakistan.</p>
+
+      <p>What no cylinder can do is stop carbon monoxide from a heater burning in a closed room, or gas escaping from a worn hose or a knob left open. Those risks are controlled only by ventilation, switching off, closing the valve and using detectors. To buy a certified cylinder or arrange refills, contact one of WAA Technologies&apos; <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers</Link>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is it safe to use a gas cylinder heater in a closed room?</h3>
+      <p>No. A gas heater in a fully closed room can use up fresh air and produce carbon monoxide, which has no smell or colour. Keep a window slightly open or the door open to a ventilated area whenever the heater runs, never sleep with it on, and fit a CO alarm in the room. Used this way, an LPG heater on a cylinder can be used safely for short periods.</p>
+
+      <h3>Should I close the cylinder valve after using a gas heater?</h3>
+      <p>Yes. Close the cylinder valve every night and whenever the heater will not be used for a while, not just the heater knob. With the valve closed, gas cannot reach the hose and heater, so a loose joint, cracked hose or knob left slightly open cannot slowly fill the room while you sleep. Fatal winter explosions in Pakistan, including one in Islamabad in January 2026, have followed gas building up in a closed room while people slept.</p>
+
+      <h3>What are the signs of carbon monoxide poisoning from a gas heater?</h3>
+      <p>Common signs are headache, dizziness, feeling sick or vomiting, weakness, tiredness, confusion, chest or muscle pain and shortness of breath. Symptoms often ease outside and return indoors. If you suspect CO, switch off the heater, close the cylinder valve, move everyone into fresh air and get urgent medical help, for example by calling Rescue 1122 or going to the nearest emergency department.</p>
+
+      <h3>What should I do if I smell gas before lighting the heater?</h3>
+      <p>Do not light the heater, a match or a lighter, and do not touch light switches or plugs, because a spark can ignite leaked LPG. Close the cylinder valve if it is safe, open doors and windows wide, and get everyone outside. LPG is heavier than air and collects near the floor, so let the room air out fully and have the leak found and fixed before using any gas appliance again.</p>
+
+      <h3>Does a composite LPG cylinder prevent gas heater accidents?</h3>
+      <p>Not on its own. A composite cylinder certified to ISO 11119-3 and BS EN 14427:2022, such as WAA Technologies&apos; cylinders, vents gas through its wall in fire tests instead of rupturing, and its translucent, rust-free body helps with safe handling. But it cannot stop carbon monoxide from a heater in a closed room or a leak from a hose or heater, so ventilation, switching off and closing the valve remain essential.</p>
+    </>
+  ),
+
+
   /* ── ARTICLE: LPG Price in Pakistan November 2026 ── */
   'lpg-price-pakistan-november-2026-ogra': (
     <>
@@ -4633,7 +4795,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Symptoms of CO exposure in order of increasing severity: headache, dizziness, and fatigue (which can easily be attributed to fasting or tiredness), progressing to nausea and confusion, and at high concentrations, loss of consciousness. CO poisoning can be fatal. The tragedy is that it is entirely preventable: keep a window cracked even in cold weather during extended cooking, run an exhaust fan if available, and install a CO detector near gas appliances. CO detectors are available for modest cost and alarm at concentrations well below dangerous levels — giving you time to ventilate and exit safely before a problem becomes an emergency.</p>
 
-      <p>Never use an LPG room heater in a completely sealed room overnight. If you use an LPG heater to warm a room before sleeping, turn it off and ventilate the room before sleeping. CO produced by overnight heater operation in a sealed room can kill silently — this is the cause of multiple fatalities in Pakistan every winter.</p>
+      <p>Never use an LPG room heater in a completely sealed room overnight. If you use an LPG heater to warm a room before sleeping, turn it off and ventilate the room before sleeping. CO produced by overnight heater operation in a sealed room can kill silently — this is the cause of multiple fatalities in Pakistan every winter. Our full guide to <Link href="/lpg-gas-heater-safety-tips-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG gas heater safety tips</Link> covers the nightly routine, cylinder and hose setup, and what to do if you smell gas.</p>
 
       <h2>How Much LPG Will Your Household Need This Winter?</h2>
 
@@ -5124,6 +5286,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'lpg-gas-heater-safety-tips-pakistan': 2710,
   'lpg-price-pakistan-november-2026-ogra': 1516,
   'become-waa-composite-cylinder-dealer-pakistan': 1900,
   '5kg-vs-10kg-composite-lpg-cylinder': 1460,
@@ -5165,6 +5328,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'lpg-gas-heater-safety-tips-pakistan': [
+    { q: 'Is it safe to use a gas cylinder heater in a closed room?', a: 'No. A gas heater in a fully closed room can use up fresh air and produce carbon monoxide, which has no smell or colour. Keep a window slightly open or the door open to a ventilated area whenever the heater runs, never sleep with it on, and fit a CO alarm in the room. Used this way, an LPG heater on a cylinder can be used safely for short periods.' },
+    { q: 'Should I close the cylinder valve after using a gas heater?', a: 'Yes. Close the cylinder valve every night and whenever the heater will not be used for a while, not just the heater knob. With the valve closed, gas cannot reach the hose and heater, so a loose joint, cracked hose or knob left slightly open cannot slowly fill the room while you sleep. Fatal winter explosions in Pakistan, including one in Islamabad in January 2026, have followed gas building up in a closed room while people slept.' },
+    { q: 'What are the signs of carbon monoxide poisoning from a gas heater?', a: 'Common signs are headache, dizziness, feeling sick or vomiting, weakness, tiredness, confusion, chest or muscle pain and shortness of breath. Symptoms often ease outside and return indoors. If you suspect CO, switch off the heater, close the cylinder valve, move everyone into fresh air and get urgent medical help, for example by calling Rescue 1122 or going to the nearest emergency department.' },
+    { q: 'What should I do if I smell gas before lighting the heater?', a: 'Do not light the heater, a match or a lighter, and do not touch light switches or plugs, because a spark can ignite leaked LPG. Close the cylinder valve if it is safe, open doors and windows wide, and get everyone outside. LPG is heavier than air and collects near the floor, so let the room air out fully and have the leak found and fixed before using any gas appliance again.' },
+    { q: 'Does a composite LPG cylinder prevent gas heater accidents?', a: 'Not on its own. A composite cylinder certified to ISO 11119-3 and BS EN 14427:2022, such as WAA Technologies\' cylinders, vents gas through its wall in fire tests instead of rupturing, and its translucent, rust-free body helps with safe handling. But it cannot stop carbon monoxide from a heater in a closed room or a leak from a hose or heater, so ventilation, switching off and closing the valve remain essential.' },
+  ],
   'lpg-price-pakistan-november-2026-ogra': [
     { q: 'What is the LPG price per kg in Pakistan in November 2026?', a: 'OGRA has set the maximum LPG consumer price at Rs 294.08 per kg for November 2026, effective from 1 November 2026. The rate applies to both locally produced and imported LPG and is a ceiling at every level of the supply chain.' },
     { q: 'What is the price of an 11.8 kg LPG cylinder in November 2026?', a: 'The maximum price of an 11.8 kg domestic LPG cylinder is Rs 3,470.09 for November 2026, according to OGRA\'s notification dated 31 October 2026. That is Rs 173.86 more than the October 2026 price of Rs 3,296.23.' },

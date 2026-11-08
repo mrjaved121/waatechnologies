@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Safety / Winter ──────────────────────────────────────────────────────────
+  {
+    slug: 'lpg-gas-heater-safety-tips-pakistan',
+    title: 'LPG Gas Heater Safety Tips in Pakistan — Avoid Carbon Monoxide and Gas Leaks This Winter',
+    seoTitle: 'LPG Gas Heater Safety Tips in Pakistan: 2026 Winter Guide',
+    metaDescription: 'LPG gas heater safety tips for Pakistani homes: avoid carbon monoxide and gas build-up, set up the cylinder and hose safely, and know what to do in a leak.',
+    date: 'Nov 8, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '14 min read',
+    tags: ['lpg-gas-heater-safety-tips-pakistan', 'gas-heater-safety', 'carbon-monoxide-poisoning', 'gas-cylinder-heater-for-room', 'winter-heating-lpg', 'lpg-safety-pakistan', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'Using an LPG gas heater on a cylinder this winter? These LPG gas heater safety tips explain how carbon monoxide and leaked gas cause deadly accidents in Pakistani homes, the safe nightly routine, how to set up the cylinder, hose and regulator, and what to do if you smell gas.',
+  },
+
   // ── Price / OGRA ─────────────────────────────────────────────────────────────
   {
     slug: 'lpg-price-pakistan-november-2026-ogra',
