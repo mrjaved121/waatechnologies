@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Comparison / Cost ────────────────────────────────────────────────────────
+  {
+    slug: 'lpg-vs-sui-gas-cost-pakistan',
+    title: 'LPG vs Sui Gas Cost in Pakistan 2026 — Which Is Cheaper for Cooking and Heating?',
+    seoTitle: 'LPG vs Sui Gas Cost in Pakistan 2026: Which Is Cheaper?',
+    metaDescription: 'LPG vs Sui gas cost in Pakistan 2026: OGRA prices compared per unit of heat, slab by slab, with bill examples and when an LPG cylinder still makes sense.',
+    date: 'Nov 9, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '12 min read',
+    tags: ['lpg-vs-sui-gas-cost-pakistan', 'sui-gas-slab-rates', 'lpg-price-per-kg-pakistan', 'protected-gas-consumer', 'ogra-gas-tariff', 'winter-heating-lpg', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'Is LPG or Sui gas cheaper in Pakistan in 2026? We compare OGRA\'s November LPG price with the domestic Sui gas slabs per unit of heat, work through monthly bill examples, explain the protected-category rule, and show when an LPG cylinder still makes sense.',
+  },
+
   // ── Safety / Winter ──────────────────────────────────────────────────────────
   {
     slug: 'lpg-gas-heater-safety-tips-pakistan',

@@ -94,6 +94,190 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: LPG vs Sui Gas Cost in Pakistan ── */
+  'lpg-vs-sui-gas-cost-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">Is LPG or Sui gas cheaper in Pakistan in 2026? For the same amount of heat, piped Sui gas is cheaper in every tariff slab. At OGRA&apos;s November 2026 ceiling of <strong className="text-white">Rs&nbsp;294.08 per kg</strong>, LPG works out to roughly <strong className="text-white">Rs&nbsp;6,250 per MMBtu</strong> of energy. OGRA&apos;s domestic Sui gas rates, in force since 1 July 2025, run from <strong className="text-white">Rs&nbsp;200 to Rs&nbsp;350 per MMBtu</strong> for protected households and <strong className="text-white">Rs&nbsp;500 to Rs&nbsp;4,200 per MMBtu</strong> for non-protected households, plus a fixed monthly charge. So LPG costs about one and a half times the most expensive Sui gas slab and many times the cheaper slabs. LPG still makes sense where there is no gas connection, where winter pressure is too low to cook, or as a backup for heaters and cooking during supply cuts.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'OGRA\'s maximum LPG price for November 2026 is Rs 294.08 per kg, or Rs 3,470.09 for an 11.8 kg cylinder',
+            'One kg of LPG holds about 46,900 Btu of heat, so one MMBtu of energy needs roughly 21.3 kg of LPG, costing about Rs 6,250',
+            'OGRA\'s domestic Sui gas rates run from Rs 200 to Rs 4,200 per MMBtu depending on your category and monthly slab',
+            'Fixed charges are Rs 600 a month for protected users and Rs 1,500 or Rs 3,000 for non-protected users, plus Rs 40 meter rent',
+            'The government kept consumer gas tariffs unchanged for 2026-27 even though OGRA lowered the prescribed price',
+            'Piped gas is cheaper per unit of heat in every slab, but LPG wins on availability where there is no connection or no pressure',
+            'Because your protected status depends on November to February use, running a heater on LPG can help keep your Sui gas bill in a lower category',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every winter the same question comes up in Pakistani households: is it cheaper to rely on Sui gas, or to cook and heat with an LPG cylinder? The answer is not obvious, because the two are sold in completely different ways. LPG is sold by the kilogram at a price OGRA caps every month. Sui gas is billed by volume, in hundreds of cubic metres (hm³), at a rate that depends on whether you are a protected or non-protected consumer and on which slab your monthly use falls into. On top of that, there is a fixed monthly charge that you pay even if you use very little gas.</p>
+
+      <p>This guide puts both fuels on the same footing, the cost of one unit of heat, using OGRA&apos;s own published figures. For this month&apos;s full LPG price breakdown, see our report on the <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG price in Pakistan for November 2026</Link>. If your problem is less about price and more about gas simply not arriving, our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortage preparation guide</Link> covers backup planning.</p>
+
+      <h2>Current LPG Price: What OGRA Allows in November 2026</h2>
+
+      <p>OGRA&apos;s notification dated 31 October 2026, published on its <a href="https://ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG notified prices page</a>, sets the maximum consumer price from 1 November 2026 at <strong>Rs&nbsp;294.08 per kg</strong> and <strong>Rs&nbsp;3,470.09 for an 11.8 kg cylinder</strong>. The notification bases the price on a mix of 40% propane and 60% butane, and the ceiling applies at every level of the supply chain, so sellers may charge less but not more. LPG prices change every month, so check the latest notification before you work out your own costs.</p>
+
+      <h2>Current Sui Gas Tariffs: OGRA&apos;s Domestic Slabs</h2>
+
+      <p>Domestic gas prices for SNGPL and SSGC customers are set in OGRA&apos;s <a href="https://www.ogra.org.pk/consumer-gas-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">gas sale price notification effective 1 July 2025</a>. In July 2026, <a href="https://profit.pakistantoday.com.pk/2026/07/07/govt-keeps-gas-tariffs-unchanged-despite-ogra-cut-in-prescribed-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Profit reported</a> that the federal government decided to keep existing consumer gas tariffs unchanged for 2026-27, even though OGRA cut the average prescribed price for the two utilities from Rs&nbsp;1,793 to Rs&nbsp;1,705 per MMBtu. So the July 2025 slabs below are still the rates households pay this winter.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Monthly use</th>
+              <th className="p-3 text-left font-bold">Protected (Rs/MMBtu)</th>
+              <th className="p-3 text-left font-bold">Non-protected (Rs/MMBtu)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Up to 0.25 hm³', '200', '500'],
+              ['Up to 0.5 hm³', '250', '—'],
+              ['Up to 0.6 hm³', '300', '850'],
+              ['Up to 0.9 hm³', '350', '—'],
+              ['Up to 1 hm³', '—', '1,250'],
+              ['Up to 1.5 hm³', '—', '1,450'],
+              ['Up to 2 hm³', '—', '1,900'],
+              ['Up to 3 hm³', '—', '3,300'],
+              ['Up to 4 hm³', '—', '3,800'],
+              ['Above 4 hm³', '—', '4,200'],
+            ].map(([slab, prot, nonProt]) => (
+              <tr key={slab} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{slab}</td>
+                <td className="p-3 text-muted">{prot}</td>
+                <td className="p-3 text-muted">{nonProt}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Three other parts of the notification matter for your bill:</p>
+      <ul>
+        <li><strong>Fixed charges.</strong> Protected consumers pay a fixed charge of Rs&nbsp;600 a month. Non-protected consumers pay Rs&nbsp;1,500 a month for use up to 1.5 hm³ and Rs&nbsp;3,000 a month above that. Both pay Rs&nbsp;40 meter rent. <a href="https://thestandard.com.pk/ogra-notifies-major-gas-hike-for-all-consumers/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">The Standard reported</a> that these fixed charges rose from Rs&nbsp;400 and Rs&nbsp;1,000 when the July 2025 notification took effect.</li>
+        <li><strong>Who counts as protected.</strong> A household is protected if its average use over the last four winter months, November to February, is 0.9 hm³ or less. Everyone else is non-protected.</li>
+        <li><strong>Slab benefit and minimum bill.</strong> Consumers get the benefit of one preceding slab, except those using more than 4 hm³, and the minimum bill is worked out at the first slab of each category.</li>
+      </ul>
+
+      <h2>Comparing Like with Like: Cost per Unit of Heat</h2>
+
+      <p>A gas stove, heater or geyser does not care what the fuel is called; it cares how much heat it gets. Both fuels can be compared in MMBtu (one million British thermal units), the unit OGRA already uses for Sui gas.</p>
+
+      <h3>How much heat is in LPG?</h3>
+      <p>The <a href="https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Engineering ToolBox calorific value table</a> lists the gross heating value of propane at 50.4 MJ per kg and butane at 49.1 MJ per kg. For the 40:60 propane-butane mix in OGRA&apos;s notification, that is close to 49.5 MJ per kg, or about <strong>46,900 Btu per kg</strong>. So:</p>
+      <ul>
+        <li>One MMBtu of heat needs about <strong>21.3 kg of LPG</strong>.</li>
+        <li>At Rs&nbsp;294.08 per kg, one MMBtu from LPG costs about <strong>Rs&nbsp;6,250</strong>.</li>
+        <li>A full 11.8 kg cylinder holds about <strong>0.55 MMBtu</strong> of heat.</li>
+      </ul>
+
+      <h3>The price gap, slab by slab</h3>
+      <p>Set against OGRA&apos;s per-MMBtu Sui gas rates, LPG at about Rs&nbsp;6,250 per MMBtu costs:</p>
+      <ul>
+        <li>about 1.5 times the top non-protected slab (Rs&nbsp;4,200);</li>
+        <li>about 5 times the non-protected rate up to 1 hm³ (Rs&nbsp;1,250);</li>
+        <li>about 18 to 31 times the protected rates (Rs&nbsp;200 to Rs&nbsp;350).</li>
+      </ul>
+      <p>On a pure energy basis, Sui gas wins in every slab. The fixed charge narrows the gap for very small users, but it does not close it.</p>
+
+      <h2>Worked Examples: A Month of Gas from Each Source</h2>
+
+      <p>To turn hm³ into heat, these examples use the <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">US Energy Information Administration&apos;s</a> typical figure of 1,036 Btu per cubic foot, which makes one hm³ about 3.66 MMBtu. The heat value of Pakistani pipeline gas varies, and your bill applies its own conversion, so treat these as rough illustrations. They use the slab rate on the whole month&apos;s use, add the fixed charge and meter rent, and leave out GST and the one-slab benefit, which would change the totals a little.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Household (monthly use)</th>
+              <th className="p-3 text-left font-bold">Approx. Sui gas bill</th>
+              <th className="p-3 text-left font-bold">Same heat from LPG</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Protected, 0.5 hm³ (light cooking)', 'about Rs 1,100', 'about 39 kg, roughly Rs 11,500'],
+              ['Non-protected, 1.5 hm³ (cooking + some heating)', 'about Rs 9,500', 'about 117 kg, roughly Rs 34,400'],
+              ['Non-protected, 3 hm³ (heaters + geyser)', 'about Rs 39,300', 'about 234 kg, roughly Rs 68,800'],
+            ].map(([home, sui, lpg]) => (
+              <tr key={home} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{home}</td>
+                <td className="p-3 text-muted">{sui}</td>
+                <td className="p-3 text-muted">{lpg}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Two things stand out. First, LPG is never the cheaper fuel when Sui gas is actually flowing. Second, the gap shrinks sharply in the higher non-protected slabs, because those slabs are priced much closer to the real cost of gas. For a home burning 3 hm³ a month, LPG costs under twice as much; for a light protected user, it costs about ten times as much.</p>
+
+      <h2>When LPG Still Makes Sense</h2>
+
+      <p>Price per unit of heat is only half the story. Gas you cannot get is worth nothing, and many Pakistani homes choose LPG for reasons a tariff table cannot show:</p>
+      <ul>
+        <li><strong>No Sui gas connection.</strong> Many towns, villages and newer housing schemes have no pipeline at all. For them, the real comparison is LPG against wood, electricity or kerosene, not against Sui gas.</li>
+        <li><strong>Low winter pressure.</strong> In many cities, gas pressure falls at the times families need it most: early morning and evening cooking. An LPG cylinder gives steady pressure whatever the pipeline is doing.</li>
+        <li><strong>Backup for supply cuts.</strong> A cylinder kept for cooking during gas cuts costs little to hold, and you only pay for the LPG you actually use. Our article on <Link href="/load-shedding-lpg-pakistanis-switching-gas-cooking" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">why more Pakistanis are switching to LPG cooking</Link> looks at this trend.</li>
+        <li><strong>Room heaters.</strong> A heater on a cylinder can be moved where it is needed. If you go this route, follow our <Link href="/lpg-gas-heater-safety-tips-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG gas heater safety tips</Link>: keep air coming in, switch off before sleeping, and close the cylinder valve every night.</li>
+        <li><strong>Tenants and short stays.</strong> A cylinder moves with you; a gas connection does not.</li>
+      </ul>
+
+      <h2>The Protected-Category Angle Most Families Miss</h2>
+
+      <p>Because protected status depends on your average Sui gas use from November to February, the winter months decide which category your home falls into. A household that pushes its winter average above 0.9 hm³, often because of gas heaters and geysers, can lose protected status. Under the July 2025 notification, that moves it from Rs&nbsp;200 to Rs&nbsp;350 per MMBtu onto non-protected rates of Rs&nbsp;500 and up, and from a Rs&nbsp;600 fixed charge to Rs&nbsp;1,500 or more.</p>
+
+      <p>For families close to that line, running one room heater from an LPG cylinder instead of the gas line can be worth considering. The LPG itself costs more per unit of heat, so it is not automatically cheaper. Do the sum with your own bills: compare the extra LPG cost over the winter with the higher rates and fixed charges you would pay if your home became non-protected. Your gas bill shows your monthly hm³ use, which is all you need to check where you stand.</p>
+
+      <h2>Tips to Cut Your Gas Costs Either Way</h2>
+      <ul>
+        <li><strong>Match the flame to the pot.</strong> A flame wider than the pot base wastes heat around the sides, whatever the fuel.</li>
+        <li><strong>Use lids and pressure cookers.</strong> They cut cooking time noticeably for daal, rice and meat.</li>
+        <li><strong>Service burners before winter.</strong> A clean, blue flame burns gas more completely than a yellow, sooty one.</li>
+        <li><strong>Insulate geyser pipes and lower the geyser setting.</strong> Geysers are among the biggest gas users in many homes.</li>
+        <li><strong>Never pay above the OGRA ceiling for LPG.</strong> Check the monthly notification and buy from licensed sellers or authorised dealers.</li>
+        <li><strong>Pick the right cylinder size.</strong> A backup-only household may not need a large cylinder; our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5 kg vs 10 kg cylinder guide</Link> helps you choose.</li>
+      </ul>
+
+      <h2>Choosing a Cylinder If You Use LPG</h2>
+
+      <p>If LPG is part of your plan this winter, the cylinder matters as much as the price. WAA Technologies Pvt Ltd, based in Gujranwala, Punjab, Pakistan, makes composite LPG cylinders in 5 kg and 10 kg sizes, certified to ISO 11119-3 and BS EN 14427:2022. A 10 kg WAA cylinder weighs about 5.5 kg empty, roughly half the weight of a comparable steel cylinder, which makes carrying it to a heater or refill point easier. The translucent body lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see how much gas is left</Link>, so you can plan refills instead of running out mid-meal, and the cylinders use standard Pakistani domestic valve fittings and regulators. You can read more about how they behave in fire tests in <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">are composite LPG cylinders safe?</Link>, or find a seller through our <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers</Link>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is LPG cheaper than Sui gas in Pakistan?</h3>
+      <p>No. For the same amount of heat, piped Sui gas is cheaper in every domestic slab. At OGRA&apos;s November 2026 price of Rs 294.08 per kg, LPG costs roughly Rs 6,250 per MMBtu, while OGRA&apos;s domestic gas rates run from Rs 200 to Rs 4,200 per MMBtu plus a fixed monthly charge. LPG is about 1.5 times the top non-protected slab and far more than the protected slabs. It makes sense mainly where there is no gas connection, pressure is too low, or as a backup.</p>
+
+      <h3>How many kg of LPG equal one MMBtu of Sui gas?</h3>
+      <p>About 21.3 kg. LPG made of 40% propane and 60% butane, the mix used in OGRA&apos;s price notification, holds roughly 49.5 MJ, or about 46,900 Btu, of heat per kg based on standard calorific value tables. One MMBtu is one million Btu, so it takes about 21.3 kg of LPG, nearly two 11.8 kg cylinders, to give the same heat as one MMBtu of piped gas. At November 2026 prices that is about Rs 6,250.</p>
+
+      <h3>What are the current Sui gas slab rates for homes in Pakistan?</h3>
+      <p>Under OGRA&apos;s notification effective 1 July 2025, which the government kept unchanged for 2026-27, protected households pay Rs 200 to Rs 350 per MMBtu across slabs up to 0.9 hm³, plus a Rs 600 fixed charge. Non-protected households pay Rs 500 per MMBtu up to 0.25 hm³, rising through Rs 850, 1,250, 1,450, 1,900, 3,300 and 3,800 to Rs 4,200 above 4 hm³, plus a fixed charge of Rs 1,500, or Rs 3,000 above 1.5 hm³. Both pay Rs 40 meter rent.</p>
+
+      <h3>Who is a protected gas consumer in Pakistan?</h3>
+      <p>A protected consumer is a domestic household whose average Sui gas use over the last four winter months, November to February, is 0.9 hm³ or less, according to OGRA&apos;s July 2025 notification. Protected homes pay much lower rates, Rs 200 to Rs 350 per MMBtu, and a Rs 600 fixed charge. Because winter use decides the category, heavy use of gas heaters and geysers can push a home into the non-protected category with higher rates and fixed charges.</p>
+
+      <h3>Should I use an LPG cylinder heater to keep my Sui gas bill down?</h3>
+      <p>It can help in some homes, but check the numbers first. LPG costs more per unit of heat than any Sui gas slab, so moving a heater to a cylinder only saves money if it keeps your home in a lower slab or in the protected category, where rates and fixed charges are much lower. Compare the extra LPG cost with the higher gas rates you would otherwise pay, and always follow heater safety rules: ventilation, no overnight use and closing the cylinder valve.</p>
+    </>
+  ),
+
   /* ── ARTICLE: LPG Gas Heater Safety Tips (Pakistan) ── */
   'lpg-gas-heater-safety-tips-pakistan': (
     <>
@@ -450,6 +634,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>Use lids and the right burner size</strong> to cook faster and use less gas.</li>
         <li><strong>Store the cylinder safely</strong>, upright, ventilated and away from heat.</li>
         <li><strong>Watch your gas level</strong> so you refill on time instead of paying emergency prices when you run out.</li>
+        <li><strong>Compare with piped gas.</strong> If your home has a Sui gas connection, our <Link href="/lpg-vs-sui-gas-cost-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG vs Sui gas cost comparison</Link> shows how the two fuels compare per unit of heat, slab by slab.</li>
       </ul>
 
       <h2>Frequently Asked Questions</h2>
@@ -4734,7 +4919,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Wood and charcoal are regressive options — they produce indoor air pollution, require sourcing and storing solid fuel, and create fire risks. Kerosene is expensive, produces fumes, and its retail availability has declined significantly as the LPG market expanded. Biogas is available to rural households with sufficient cattle, but not to urban and peri-urban families.</p>
 
-      <p>LPG stored in a pressurised cylinder is the only backup cooking fuel that is: immediately available (valve open, flame lit, cooking begins in seconds); completely independent of the electricity and pipeline gas networks; clean-burning with no indoor air quality concerns; portable and convenient to store and handle; and available through a nationwide dealer network. For every Pakistani household at risk of winter gas shortage — which is to say, any household connected to SNGPL or SSGCL in Punjab, KPK, or parts of Sindh — LPG backup is not a luxury option. It is the sensible, practical, necessary preparation for a shortage that will come.</p>
+      <p>LPG stored in a pressurised cylinder is the only backup cooking fuel that is: immediately available (valve open, flame lit, cooking begins in seconds); completely independent of the electricity and pipeline gas networks; clean-burning with no indoor air quality concerns; portable and convenient to store and handle; and available through a nationwide dealer network. For every Pakistani household at risk of winter gas shortage — which is to say, any household connected to SNGPL or SSGCL in Punjab, KPK, or parts of Sindh — LPG backup is not a luxury option. It is the sensible, practical, necessary preparation for a shortage that will come. LPG does cost more per unit of heat than piped gas, so it works best as a backup rather than a full replacement; our <Link href="/lpg-vs-sui-gas-cost-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG vs Sui gas cost guide</Link> sets out the numbers.</p>
 
       <h2>Composite vs Steel: Why the Cylinder Choice Matters in Winter</h2>
 
@@ -5286,6 +5471,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'lpg-vs-sui-gas-cost-pakistan': 2330,
   'lpg-gas-heater-safety-tips-pakistan': 2710,
   'lpg-price-pakistan-november-2026-ogra': 1516,
   'become-waa-composite-cylinder-dealer-pakistan': 1900,
@@ -5328,6 +5514,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'lpg-vs-sui-gas-cost-pakistan': [
+    { q: 'Is LPG cheaper than Sui gas in Pakistan?', a: 'No. For the same amount of heat, piped Sui gas is cheaper in every domestic slab. At OGRA\'s November 2026 price of Rs 294.08 per kg, LPG costs roughly Rs 6,250 per MMBtu, while OGRA\'s domestic gas rates run from Rs 200 to Rs 4,200 per MMBtu plus a fixed monthly charge. LPG is about 1.5 times the top non-protected slab and far more than the protected slabs. It makes sense mainly where there is no gas connection, pressure is too low, or as a backup.' },
+    { q: 'How many kg of LPG equal one MMBtu of Sui gas?', a: 'About 21.3 kg. LPG made of 40% propane and 60% butane, the mix used in OGRA\'s price notification, holds roughly 49.5 MJ, or about 46,900 Btu, of heat per kg based on standard calorific value tables. One MMBtu is one million Btu, so it takes about 21.3 kg of LPG, nearly two 11.8 kg cylinders, to give the same heat as one MMBtu of piped gas. At November 2026 prices that is about Rs 6,250.' },
+    { q: 'What are the current Sui gas slab rates for homes in Pakistan?', a: 'Under OGRA\'s notification effective 1 July 2025, which the government kept unchanged for 2026-27, protected households pay Rs 200 to Rs 350 per MMBtu across slabs up to 0.9 hm³, plus a Rs 600 fixed charge. Non-protected households pay Rs 500 per MMBtu up to 0.25 hm³, rising through Rs 850, 1,250, 1,450, 1,900, 3,300 and 3,800 to Rs 4,200 above 4 hm³, plus a fixed charge of Rs 1,500, or Rs 3,000 above 1.5 hm³. Both pay Rs 40 meter rent.' },
+    { q: 'Who is a protected gas consumer in Pakistan?', a: 'A protected consumer is a domestic household whose average Sui gas use over the last four winter months, November to February, is 0.9 hm³ or less, according to OGRA\'s July 2025 notification. Protected homes pay much lower rates, Rs 200 to Rs 350 per MMBtu, and a Rs 600 fixed charge. Because winter use decides the category, heavy use of gas heaters and geysers can push a home into the non-protected category with higher rates and fixed charges.' },
+    { q: 'Should I use an LPG cylinder heater to keep my Sui gas bill down?', a: 'It can help in some homes, but check the numbers first. LPG costs more per unit of heat than any Sui gas slab, so moving a heater to a cylinder only saves money if it keeps your home in a lower slab or in the protected category, where rates and fixed charges are much lower. Compare the extra LPG cost with the higher gas rates you would otherwise pay, and always follow heater safety rules: ventilation, no overnight use and closing the cylinder valve.' },
+  ],
   'lpg-gas-heater-safety-tips-pakistan': [
     { q: 'Is it safe to use a gas cylinder heater in a closed room?', a: 'No. A gas heater in a fully closed room can use up fresh air and produce carbon monoxide, which has no smell or colour. Keep a window slightly open or the door open to a ventilated area whenever the heater runs, never sleep with it on, and fit a CO alarm in the room. Used this way, an LPG heater on a cylinder can be used safely for short periods.' },
     { q: 'Should I close the cylinder valve after using a gas heater?', a: 'Yes. Close the cylinder valve every night and whenever the heater will not be used for a while, not just the heater knob. With the valve closed, gas cannot reach the hose and heater, so a loose joint, cracked hose or knob left slightly open cannot slowly fill the room while you sleep. Fatal winter explosions in Pakistan, including one in Islamabad in January 2026, have followed gas building up in a closed room while people slept.' },
