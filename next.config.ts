@@ -29,9 +29,17 @@ const nextConfig: NextConfig = {
               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://wa.me https://api.whatsapp.com",
               "base-uri 'self'",
               "form-action 'self'",
+              "object-src 'none'",
+              "upgrade-insecure-requests",
             ].join('; '),
           },
           { key: 'Cross-Origin-Resource-Policy', value: 'same-origin' },
+          // Vercel's edge adds "Access-Control-Allow-Origin: *" to every response;
+          // nothing in this app sets it. Pinning it to the site's own origin stops
+          // any other website reading responses cross-origin. Same-origin page
+          // loads, fonts, GTM and images are unaffected: none of them is a
+          // cross-origin read of this domain.
+          { key: 'Access-Control-Allow-Origin', value: 'https://waatechnologies.com' },
           { key: 'X-Content-Type-Options', value: 'nosniff' },
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
