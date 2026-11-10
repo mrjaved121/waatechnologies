@@ -6,6 +6,11 @@ import { allPosts } from '@/lib/posts';
 
 type Props = { params: Promise<{ tag: string }> };
 
+// Only tags that exist on a post are real pages. Anything else (old WordPress
+// tags, typos) must return a true 404: an empty "No posts found" page served
+// with 200 is what Search Console reports as a Soft 404.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const tags = new Set<string>();
   allPosts.forEach((p) => p.tags?.forEach((t) => tags.add(t)));

@@ -79,6 +79,8 @@ const nextConfig: NextConfig = {
       // losing whatever link value they carry.
       // /category/... and /tag/... are real pages on this site, so only the
       // WooCommerce paths and the RSS feed suffix are redirected.
+      // /blog/page/1 is the same listing as /blog; keep a single URL for it.
+      { source: '/blog/page/1', destination: '/blog', permanent: true },
       { source: '/product-category/:slug*', destination: '/shop', permanent: true },
       { source: '/product-tag/:slug*', destination: '/shop', permanent: true },
       { source: '/:path*/feed', destination: '/:path*', permanent: true },

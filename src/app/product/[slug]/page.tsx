@@ -61,6 +61,10 @@ const products: Record<string, {
 
 type Props = { params: Promise<{ slug: string }> };
 
+// Unknown product slugs return a true 404. Previously they rendered a
+// "Product Not Found" page with a 200 status and index,follow (a Soft 404).
+export const dynamicParams = false;
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = products[slug];

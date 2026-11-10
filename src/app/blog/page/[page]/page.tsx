@@ -8,10 +8,14 @@ const PER_PAGE = 10;
 
 type Props = { params: Promise<{ page: string }> };
 
+// Page numbers past the last page (or non-numbers) return a true 404 instead of
+// an empty 200 page. Page 1 is /blog itself and is redirected in next.config.ts.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const total = getBlogPosts().length;
   const pages = Math.ceil(total / PER_PAGE);
-  return Array.from({ length: pages }, (_, i) => ({ page: String(i + 1) }));
+  return Array.from({ length: pages }, (_, i) => ({ page: String(i + 1) })).filter((p) => p.page !== '1');
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
