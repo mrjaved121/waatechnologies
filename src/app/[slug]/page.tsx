@@ -94,6 +94,160 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: How to Check LPG Cylinder Expiry Date in Pakistan ── */
+  'how-to-check-lpg-cylinder-expiry-date-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">How do you check an LPG cylinder expiry date in Pakistan? Look at the markings on the cylinder itself, usually on the collar, shoulder or foot ring. According to OGRA, LPG cylinders in Pakistan are embossed with the <strong className="text-white">date of manufacture</strong> and the <strong className="text-white">next test date</strong>, along with the manufacturer&apos;s name, serial number, batch number, weight and water capacity. A steel cylinder does not have a fixed expiry date; it has a test date, and the industry practice is a re-test <strong className="text-white">every five years</strong>. Codes such as <strong className="text-white">A-26 or D-26</strong> belong to the Indian system and are not used in Pakistan. A WAA Technologies composite cylinder is checked differently: read its manufacture date and count its <strong className="text-white">20-year service life</strong> from there.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'OGRA says LPG cylinders in Pakistan are embossed with the date of manufacture and the next test date, not a letter code',
+            'The A-26 or D-26 style code described in viral posts is the Indian test-due marking and is not used on Pakistani cylinders',
+            'A steel LPG cylinder has a test date rather than a true expiry date, and the LPG Distributors Association says cylinders are re-tested after five years',
+            'If the next test date has passed, or you cannot read any markings at all, do not accept the cylinder from the seller',
+            'Pakistan\'s LPG Policy 2016 makes the LPG marketing company, not the household, responsible for testing and revalidating its cylinders',
+            'A WAA Technologies composite cylinder carries a permanent manufacture date and is rated for a 20-year service life counted from that date',
+            'Markings alone are not proof of safety, so also check for rust, dents, a damaged valve and whether the seller is an authorised dealer',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Many people searching for how to check LPG cylinder expiry date in Pakistan land on guides written for India, which explain a letter and number code painted inside the cylinder collar. Those guides are correct for India, but they describe a marking system that Pakistani cylinders do not use. That mismatch is why a social media post claiming that cylinders marked A-26 or D-26 would expire and explode in 2026 spread so quickly this year, and why OGRA had to deny it publicly.</p>
+
+      <p>This guide explains what is actually marked on a cylinder sold in Pakistan, how to read it in under a minute at the dealer&apos;s shop, and what to do when the date has passed or cannot be read. It sits alongside our guides on the <Link href="/gas-cylinder-warning-signs-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">warning signs of an unsafe gas cylinder</Link> and on <Link href="/how-lpg-cylinders-tested-safety-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how LPG cylinders are tested for safety in Pakistan</Link>. For the wider legal picture, see the <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA rules for LPG cylinders</Link>.</p>
+
+      <h2>Do LPG Cylinders in Pakistan Have an Expiry Date?</h2>
+
+      <p>Not in the way a packet of food does. A steel LPG cylinder is a pressure vessel that stays in service for many years, on the condition that it is inspected and pressure-tested at set intervals. What is marked on it is therefore a <strong>test date</strong>: the date by which it must go back for inspection, not a date after which the metal suddenly fails.</p>
+
+      <p>OGRA made this point in a 2026 <a href="https://www.geo.tv/latest/667744-fact-check-ogra-refutes-viral-claim-about-lpg-cylinder-expiry-dates" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Geo Fact Check report</a>. Uzma Ashfaq, OGRA&apos;s joint executive director of corporate and media affairs, told Geo that the safety and validity of cylinders in Pakistan are tracked through manufacturing information and periodic testing. She added that certified cylinders do not pose an explosion risk when used properly, because they are built to recognised standards and tested periodically. In the same report, Irfan Khokhar, chairman of the LPG Distributors Association, said OGRA-approved cylinders are designed for long-term use but must be refurbished and tested periodically, including after five years.</p>
+
+      <p>So when people ask about the expiry date of a steel cylinder in Pakistan, the useful question is: <strong>when is this cylinder next due for testing, and has that date already passed?</strong></p>
+
+      <h2>The A-26 and D-26 Code Myth</h2>
+
+      <p>The viral post, shared on Instagram on 31 May according to Geo, claimed that a code such as A-26 or D-26 on a household cylinder means it expires in a particular month of 2026 and could explode at any time after that. Geo&apos;s verdict was that these markings are not used in Pakistan to show an expiry date and do not mean a cylinder becomes unsafe in 2026. OGRA confirmed that such codes are not used on LPG cylinders in Pakistan.</p>
+
+      <p>The code is real, but it comes from India. <a href="https://totalenergies.in/blogs/how-check-your-lpg-cylinder-due-date" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">TotalEnergies India explains</a> that Indian cylinders carry a statutory test due date on the collar, written as a letter from A to D followed by two digits for the year, so A-25 means the cylinder is due for testing in the first quarter of 2025. Even in India this is a test due date and not an expiry date. If you see such a code on a cylinder in Pakistan, it tells you nothing about Pakistani test requirements, and you should look for the markings described below instead.</p>
+
+      <h2>What Is Marked on an LPG Cylinder in Pakistan</h2>
+
+      <p>According to OGRA&apos;s statement to Geo, LPG cylinders in Pakistan are embossed with the following details. Embossed means pressed or stamped into the metal, so the information survives repainting.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Marking</th>
+              <th className="p-3 text-left font-bold">What it tells you</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Date of manufacture', 'How old the cylinder is'],
+              ['Next test date', 'When the cylinder must be inspected and pressure-tested again'],
+              ['Manufacturer\'s name', 'Who made it, which you can compare with OGRA\'s list of authorised manufacturers'],
+              ['Company name', 'The LPG marketing company that owns and fills the cylinder'],
+              ['Serial number and batch number', 'The individual identity of the cylinder for tracing and test records'],
+              ['Weight', 'The empty weight, used to check how much gas you received'],
+              ['Water capacity', 'The internal volume, which sets how much LPG may be filled'],
+            ].map(([mark, meaning]) => (
+              <tr key={mark} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{mark}</td>
+                <td className="p-3 text-muted">{meaning}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>OGRA also told Geo that cylinders made in Pakistan follow internationally recognised specifications, including DOT 4B, DOT 4BW and DOT 4BA. The exact layout of the stamping differs between manufacturers, so do not expect every cylinder to look the same. What matters is that a manufacture date and a test date are present and readable.</p>
+
+      <h2>How to Check LPG Cylinder Expiry Date in Pakistan: Step by Step</h2>
+
+      <ol>
+        <li><strong>Check before you pay.</strong> Do this at the shop or when the delivery arrives, with the cylinder upright and the valve closed. Never tilt or roll a full cylinder to read it.</li>
+        <li><strong>Find the stamped area.</strong> Look at the collar or guard around the valve, the curved shoulder below it, and the foot ring at the base. A phone torch held at a low angle makes stamped figures much easier to read.</li>
+        <li><strong>Read the date of manufacture.</strong> This gives you the age of the cylinder. Our warning signs guide recommends retiring steel cylinders that are more than 10 years old, whatever their test status.</li>
+        <li><strong>Read the next test date.</strong> If that date is still ahead, the cylinder is within its test period. If only an older test date is visible, count five years forward from it.</li>
+        <li><strong>Check the names.</strong> The manufacturer and the marketing company should both be identifiable. A cylinder with no names is a cylinder nobody is responsible for.</li>
+        <li><strong>Look at the condition.</strong> Deep rust, dents, bulges, a bent collar or a damaged valve are reasons to refuse a cylinder even when its date is valid.</li>
+        <li><strong>Refuse and swap if in doubt.</strong> Ask for another cylinder. A licensed distributor should exchange it without argument.</li>
+      </ol>
+
+      <p>Wipe dust away with a dry cloth if you need to, but do not scrape, file or grind the cylinder to expose a marking. If a marking can only be read after removing metal or thick paint, treat it as unreadable.</p>
+
+      <h2>What If the Date Has Passed or Cannot Be Read?</h2>
+
+      <p>A cylinder that is past its test date has not been proven safe for the period it is now being used in. That does not mean it will fail tomorrow, but the check that is meant to catch corrosion, weakened welds and valve wear has been skipped. The sensible response is simple:</p>
+
+      <ul>
+        <li><strong>Do not accept it.</strong> Return it to the dealer and ask for a cylinder that is within its test date.</li>
+        <li><strong>Do not use it for heaters or geysers indoors.</strong> If you already have it at home, keep the valve closed, keep it in a ventilated place away from flames and arrange a swap as soon as you can.</li>
+        <li><strong>Do not try to test or repair it yourself.</strong> Pressure testing is done by qualified facilities, and a home repair on a pressure vessel is dangerous.</li>
+        <li><strong>Report repeated problems.</strong> If a seller keeps supplying out-of-date or unmarked cylinders, complain to the marketing company whose name is on the cylinder and to OGRA.</li>
+      </ul>
+
+      <p>Missing markings are the more serious problem. In the Geo report, the LPG Distributors Association chairman warned that cylinders made without OGRA approval may not meet safety standards and could pose serious risks. Our guide on <Link href="/why-lpg-cylinders-explode-pakistan-how-to-prevent" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">why LPG cylinders explode in Pakistan</Link> explains how substandard and worn-out cylinders are involved in many incidents.</p>
+
+      <h2>Who Is Responsible for Testing Cylinders?</h2>
+
+      <p>Not the household. Under clause 3.3.7 of Pakistan&apos;s <a href="https://policy.asiapacificenergy.org/sites/default/files/Liquefied%20Petroleum%20Gas%20%28Production%20%26%20Distribution%29%20Policy%2C%202016.pdf" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG (Production and Distribution) Policy 2016</a>, LPG marketing companies must give OGRA certificates before 31 December each year, listing cylinder serial numbers and confirming that the cylinders have been properly tested. The same clause makes the marketing companies responsible for ensuring their cylinders are revalidated after a specific period determined by OGRA.</p>
+
+      <p>The policy also says OGRA will publish a list of authorised manufacturers of LPG equipment, including cylinders (clause 3.3.6), and it prohibits decanting LPG from one cylinder to another (clause 3.3.3). In practice this means the safest cylinder is one that belongs to a licensed marketing company, is filled at its plant and reaches you through its distributor. A cylinder filled by decanting at a roadside shop bypasses the point where an out-of-date cylinder should be caught and pulled from circulation.</p>
+
+      <h2>How the Check Differs for Composite Cylinders</h2>
+
+      <p>Composite cylinders are built differently, so the date you look for is different too. WAA Technologies Pvt Ltd, based in Gujranwala, Punjab, Pakistan, makes composite LPG cylinders in 5 kg and 10 kg sizes, certified to ISO 11119-3 and BS EN 14427:2022. Each WAA cylinder is permanently marked with its manufacture date, an individual serial number and its certification reference. The marking is stamped or moulded into the shoulder area and is not painted on, so it cannot fade or be hidden by repainting.</p>
+
+      <p>A WAA composite cylinder is rated for a <strong>20-year service life</strong>, counted from the manufacture date. A cylinder made in 2024 should be retired no later than 2044. The body does not rust, which removes the corrosion that makes old steel cylinders hard to judge, and the translucent wall lets you see the gas level. Our guide on <Link href="/how-long-does-composite-lpg-cylinder-last-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how long a composite LPG cylinder lasts in Pakistan</Link> covers the service life in detail.</p>
+
+      <p>When buying a composite cylinder, check the manufacture date in the same way: the older the date, the less service life remains, and the price should reflect that. To buy from a known source, use an authorised dealer; our <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore buying guide</Link> explains how that works in one city.</p>
+
+      <h2>A One-Minute Checklist at the Dealer</h2>
+
+      <ul>
+        <li>Manufacture date present and readable</li>
+        <li>Next test date present and not yet passed</li>
+        <li>Manufacturer and marketing company names visible</li>
+        <li>Serial number present</li>
+        <li>No heavy rust, dents, bulges or damaged valve</li>
+        <li>Seal intact and cylinder supplied by a licensed distributor, not filled by decanting</li>
+        <li>For a composite cylinder: manufacture date within its 20-year service life and no cuts or cracks in the casing</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I check the expiry date of an LPG cylinder in Pakistan?</h3>
+      <p>Read the markings embossed on the cylinder, usually on the collar, shoulder or foot ring. OGRA says LPG cylinders in Pakistan carry the date of manufacture and the next test date, along with the manufacturer&apos;s name, company name, serial number, batch number, weight and water capacity. If the next test date has not passed and the cylinder is in good condition, it is within its test period. If the date has passed or no markings can be read, refuse the cylinder and ask the dealer for another one.</p>
+
+      <h3>Does A-26 or D-26 on a gas cylinder mean it expires in 2026?</h3>
+      <p>No, not in Pakistan. OGRA told Geo Fact Check in 2026 that markings such as A-26 or D-26 are not used on LPG cylinders in Pakistan, and Geo found the viral claim to be false. That letter and year code is the Indian system, where A to D stands for a quarter of the year and the digits for the year in which the cylinder is due for testing. In Pakistan, look for the embossed date of manufacture and next test date instead.</p>
+
+      <h3>How often are LPG cylinders tested in Pakistan?</h3>
+      <p>The interval commonly quoted is five years. The chairman of the LPG Distributors Association told Geo Fact Check that OGRA-approved cylinders must be refurbished and tested periodically, including after five years. Pakistan&apos;s LPG Policy 2016 requires LPG marketing companies to certify to OGRA every year that their cylinders have been properly tested, and to revalidate cylinders after a period determined by OGRA. The household is not expected to arrange testing; the company that owns the cylinder is.</p>
+
+      <h3>What should I do if my gas cylinder is past its test date?</h3>
+      <p>Do not keep using it as normal. Close the valve, keep the cylinder upright in a ventilated place away from flames, and return it to the dealer or distributor for exchange with a cylinder that is within its test date. Do not attempt to test, repair or repaint it yourself. If a seller repeatedly supplies out-of-date or unmarked cylinders, complain to the LPG marketing company named on the cylinder and to OGRA.</p>
+
+      <h3>Do composite LPG cylinders have an expiry date?</h3>
+      <p>They have a rated service life. A WAA Technologies composite cylinder is permanently marked with its manufacture date and is rated for a 20-year service life counted from that date, so a cylinder made in 2024 should be retired no later than 2044. The marking is stamped or moulded into the shoulder area, not painted, so it stays readable. When buying, check the manufacture date, because an older cylinder has fewer years of service left.</p>
+    </>
+  ),
+
   /* ── ARTICLE: LPG vs Sui Gas Cost in Pakistan ── */
   'lpg-vs-sui-gas-cost-pakistan': (
     <>
@@ -2173,7 +2327,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>A very brief, faint smell of gas at the moment of lighting — lasting less than 1 second — can occur when residual unburned gas in the burner ignites. This is within normal limits. Any gas smell that persists after the burner is lit, that is detectable when the stove is off, or that you notice anywhere other than immediately at the burner when lighting, is not normal and should be investigated immediately using the procedure described under Warning Sign 1.</p>
 
       <h3>How old is too old for a steel LPG cylinder in Pakistan?</h3>
-      <p>OGRA specifies that steel LPG cylinders must be hydrotested every 5 years. As a practical safety guideline for Pakistani households, a steel cylinder that is more than 10 years old should be retired regardless of its hydrotest status — the cumulative corrosion, mechanical handling, and fatigue cycling in Pakistani operating conditions make cylinders increasingly unsafe as they age. The manufacture date is stamped on the cylinder body — if you cannot read it, that itself is a warning sign.</p>
+      <p>OGRA specifies that steel LPG cylinders must be hydrotested every 5 years. As a practical safety guideline for Pakistani households, a steel cylinder that is more than 10 years old should be retired regardless of its hydrotest status — the cumulative corrosion, mechanical handling, and fatigue cycling in Pakistani operating conditions make cylinders increasingly unsafe as they age. The manufacture date is stamped on the cylinder body — if you cannot read it, that itself is a warning sign. Our guide on <Link href="/how-to-check-lpg-cylinder-expiry-date-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to check an LPG cylinder expiry date in Pakistan</Link> shows which markings to look for.</p>
 
       <h3>What is the safest LPG cylinder for Pakistani households concerned about these warning signs?</h3>
       <p>A WAA Technologies ISO 11119-3 certified composite cylinder eliminates the two most common warning signs entirely: rust and physical degradation (impossible on a composite cylinder), and explosion risk (composite cylinders cannot BLEVE regardless of condition). The remaining warning signs — gas smell, valve closure, flame behaviour, hissing — apply to any LPG setup and should be monitored regardless of cylinder type. The composite cylinder eliminates the catastrophic outcome if a gas leak does occur — the result is a fire, not an explosion.</p>
@@ -2556,7 +2710,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Reading Your Cylinder&apos;s Manufacture Date</h2>
 
-      <p>Every WAA Technologies composite cylinder is permanently marked with its manufacture date. This marking is stamped or moulded into the cylinder shoulder area — not painted, so it cannot fade or be obscured by repainting. The manufacture date is your reference for the 20-year service life calculation: a cylinder manufactured in 2024 should be retired from service no later than 2044.</p>
+      <p>Every WAA Technologies composite cylinder is permanently marked with its manufacture date. This marking is stamped or moulded into the cylinder shoulder area — not painted, so it cannot fade or be obscured by repainting. The manufacture date is your reference for the 20-year service life calculation: a cylinder manufactured in 2024 should be retired from service no later than 2044. For steel cylinders, which carry a test date instead, see <Link href="/how-to-check-lpg-cylinder-expiry-date-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to check the LPG cylinder expiry date in Pakistan</Link>.</p>
 
       <p>When purchasing a composite cylinder — new or through a dealer — always check the manufacture date marking. A reputable dealer selling a new cylinder will have cylinders manufactured within the last 1–2 years. Be cautious of composite cylinders offered at significant discounts that carry older manufacture dates — a cylinder manufactured in 2018 has only 12 years of service life remaining at the time of writing in 2026, not 20. The price should reflect the remaining service life.</p>
 
@@ -5471,6 +5625,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'how-to-check-lpg-cylinder-expiry-date-pakistan': 2340,
   'lpg-vs-sui-gas-cost-pakistan': 2330,
   'lpg-gas-heater-safety-tips-pakistan': 2710,
   'lpg-price-pakistan-november-2026-ogra': 1516,
@@ -5514,6 +5669,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'how-to-check-lpg-cylinder-expiry-date-pakistan': [
+    { q: 'How do I check the expiry date of an LPG cylinder in Pakistan?', a: 'Read the markings embossed on the cylinder, usually on the collar, shoulder or foot ring. OGRA says LPG cylinders in Pakistan carry the date of manufacture and the next test date, along with the manufacturer\'s name, company name, serial number, batch number, weight and water capacity. If the next test date has not passed and the cylinder is in good condition, it is within its test period. If the date has passed or no markings can be read, refuse the cylinder and ask the dealer for another one.' },
+    { q: 'Does A-26 or D-26 on a gas cylinder mean it expires in 2026?', a: 'No, not in Pakistan. OGRA told Geo Fact Check in 2026 that markings such as A-26 or D-26 are not used on LPG cylinders in Pakistan, and Geo found the viral claim to be false. That letter and year code is the Indian system, where A to D stands for a quarter of the year and the digits for the year in which the cylinder is due for testing. In Pakistan, look for the embossed date of manufacture and next test date instead.' },
+    { q: 'How often are LPG cylinders tested in Pakistan?', a: 'The interval commonly quoted is five years. The chairman of the LPG Distributors Association told Geo Fact Check that OGRA-approved cylinders must be refurbished and tested periodically, including after five years. Pakistan\'s LPG Policy 2016 requires LPG marketing companies to certify to OGRA every year that their cylinders have been properly tested, and to revalidate cylinders after a period determined by OGRA. The household is not expected to arrange testing; the company that owns the cylinder is.' },
+    { q: 'What should I do if my gas cylinder is past its test date?', a: 'Do not keep using it as normal. Close the valve, keep the cylinder upright in a ventilated place away from flames, and return it to the dealer or distributor for exchange with a cylinder that is within its test date. Do not attempt to test, repair or repaint it yourself. If a seller repeatedly supplies out-of-date or unmarked cylinders, complain to the LPG marketing company named on the cylinder and to OGRA.' },
+    { q: 'Do composite LPG cylinders have an expiry date?', a: 'They have a rated service life. A WAA Technologies composite cylinder is permanently marked with its manufacture date and is rated for a 20-year service life counted from that date, so a cylinder made in 2024 should be retired no later than 2044. The marking is stamped or moulded into the shoulder area, not painted, so it stays readable. When buying, check the manufacture date, because an older cylinder has fewer years of service left.' },
+  ],
   'lpg-vs-sui-gas-cost-pakistan': [
     { q: 'Is LPG cheaper than Sui gas in Pakistan?', a: 'No. For the same amount of heat, piped Sui gas is cheaper in every domestic slab. At OGRA\'s November 2026 price of Rs 294.08 per kg, LPG costs roughly Rs 6,250 per MMBtu, while OGRA\'s domestic gas rates run from Rs 200 to Rs 4,200 per MMBtu plus a fixed monthly charge. LPG is about 1.5 times the top non-protected slab and far more than the protected slabs. It makes sense mainly where there is no gas connection, pressure is too low, or as a backup.' },
     { q: 'How many kg of LPG equal one MMBtu of Sui gas?', a: 'About 21.3 kg. LPG made of 40% propane and 60% butane, the mix used in OGRA\'s price notification, holds roughly 49.5 MJ, or about 46,900 Btu, of heat per kg based on standard calorific value tables. One MMBtu is one million Btu, so it takes about 21.3 kg of LPG, nearly two 11.8 kg cylinders, to give the same heat as one MMBtu of piped gas. At November 2026 prices that is about Rs 6,250.' },

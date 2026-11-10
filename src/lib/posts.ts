@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── How-To / Safety ──────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-check-lpg-cylinder-expiry-date-pakistan',
+    title: 'How to Check LPG Cylinder Expiry Date in Pakistan — Test Dates, Markings and the A-26 Myth',
+    seoTitle: 'How to Check LPG Cylinder Expiry Date in Pakistan (2026)',
+    metaDescription: 'How to check LPG cylinder expiry date in Pakistan: read the manufacture and next test dates, ignore the A-26 myth, and know when to refuse a cylinder.',
+    date: 'Nov 10, 2026',
+    category: 'How-To',
+    type: 'blog',
+    readingTime: '12 min read',
+    tags: ['how-to-check-lpg-cylinder-expiry-date-pakistan', 'lpg-cylinder-expiry-date', 'gas-cylinder-test-date', 'lpg-cylinder-markings', 'ogra-lpg-rules', 'lpg-safety-pakistan', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'How to check LPG cylinder expiry date in Pakistan: OGRA says cylinders carry an embossed manufacture date and next test date, not the A-26 style code from viral posts. Learn where to find the markings, what to do if the date has passed, and how composite cylinders differ.',
+  },
+
   // ── Comparison / Cost ────────────────────────────────────────────────────────
   {
     slug: 'lpg-vs-sui-gas-cost-pakistan',
