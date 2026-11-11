@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── How-To / OGRA Complaints ─────────────────────────────────────────────────
+  {
+    slug: 'ogra-lpg-price-complaint-number-pakistan',
+    title: 'OGRA LPG Price Complaint Number in Pakistan — How to Report LPG Overcharging Step by Step',
+    seoTitle: 'OGRA LPG Price Complaint Number: Report Overcharging',
+    metaDescription: 'OGRA LPG price complaint number in Pakistan: call toll-free 0800-77733. Step-by-step guide to reporting LPG overcharging, with the proof you need to keep.',
+    date: 'Nov 11, 2026',
+    category: 'How-To',
+    type: 'blog',
+    readingTime: '15 min read',
+    tags: ['ogra-lpg-price-complaint-number-pakistan', 'lpg-overcharging-complaint', 'ogra-complaint-number', 'ogra-lpg-price', 'lpg-price-per-kg-pakistan', 'ogra-lpg-rules', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'OGRA LPG price complaint number in Pakistan: call toll-free 0800-77733 on working days to report a seller charging above the notified LPG rate or short-filling your cylinder. This step-by-step guide covers the proof to keep, what to say, what it costs and what to expect.',
+  },
+
   // ── Buying Guide / Usage ─────────────────────────────────────────────────────
   {
     slug: 'instant-geyser-lpg-gas-consumption-per-hour-pakistan',

@@ -94,6 +94,228 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: OGRA LPG Price Complaint Number in Pakistan ── */
+  'ogra-lpg-price-complaint-number-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">What is the OGRA LPG price complaint number in Pakistan? OGRA&apos;s toll-free number for public complaints about the LPG, CNG and oil sectors is <strong className="text-white">0800-77733</strong>. OGRA&apos;s working hours are Monday to Friday, <strong className="text-white">9:00 am to 5:00 pm</strong>. Call it when a seller charges more than OGRA&apos;s notified maximum, which for November 2026 is <strong className="text-white">Rs&nbsp;294.08 per kg</strong> and <strong className="text-white">Rs&nbsp;3,470.09 for an 11.8 kg cylinder</strong>, or fills less gas than you paid for. You can also write to the Registrar, OGRA, Plot No. 37 &amp; 39, Mauve Area, Service Road South, Sector G-10/4, Islamabad, or use OGRA&apos;s online complaint system. Keep the receipt, the weight and the seller&apos;s name and address ready.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'OGRA\'s toll-free complaint number for the LPG, CNG and oil sectors is 0800-77733, as listed on OGRA\'s Contact Us page',
+            'OGRA\'s office hours are Monday to Friday, 9:00 am to 5:00 pm, with a break from 1:00 pm to 1:45 pm (1:00 pm to 2:00 pm on Fridays)',
+            'The November 2026 ceiling is Rs 294.08 per kg and Rs 3,470.09 per 11.8 kg cylinder; anything above that for the gas is overcharging',
+            'OGRA says overcharging and less filling of LPG cylinders is an offence dealt with under Rules 18, 19 and 29 of the LPG Rules, 2001',
+            'A useful complaint names the seller, the place, the date, the price charged, the weight filled and includes a receipt or photo',
+            'OGRA has not published a fixed time limit or a refund promise for LPG price complaints, so a complaint may lead to enforcement without money back',
+            'Buying from licensed distributors and weighing the cylinder before you pay prevents most overcharging in the first place',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>Every winter the same thing happens in many Pakistani towns: OGRA announces one LPG price and the shop on the corner asks for something very different. If you have just been charged far above the official rate, or your cylinder feels lighter than it should, this guide shows you exactly who to call, what to say, what evidence to keep and what to expect afterwards. You should not need another website to finish the job.</p>
+
+      <p>Start by confirming the official rate in our <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG price in Pakistan for November 2026</Link> breakdown. For the wider legal background, see our guide to <Link href="/ogra-rules-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA rules for LPG cylinders in Pakistan</Link>, and for the correct way to get a cylinder filled, read <Link href="/how-to-refill-composite-lpg-cylinder-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to refill a composite LPG cylinder</Link>.</p>
+
+      <p>Every contact detail below was taken from OGRA&apos;s own website on 11 November 2026: its <a href="https://www.ogra.org.pk/contact-us" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Contact Us page</a>, its <a href="https://www.ogra.org.pk/lodge-complaints" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lodge Complaints page</a> and its press releases. Numbers and staff change, so if a line does not connect, check those pages for the current details.</p>
+
+      <h2>What Counts as LPG Overcharging in Pakistan?</h2>
+
+      <p>OGRA notifies a maximum LPG price each month. Its <a href="https://www.ogra.org.pk/press-releases-2" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">press release of 31 October 2026</a> sets the consumer price from 1 November 2026 at Rs 294,075.47 per tonne, which is Rs 294.08 per kg, and Rs 3,470.09 for an 11.8 kg cylinder. That figure already includes the producer price, taxes and the marketing, distribution and transport margins. A seller may charge less, but not more.</p>
+
+      <p>To see whether you were overcharged, multiply the kilograms of gas you received by the notified rate. The amounts for other sizes below are our own calculations at Rs 294.08 per kg, rounded to the nearest rupee:</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Gas filled</th>
+              <th className="p-3 text-left font-bold">Maximum for the gas, November 2026</th>
+              <th className="p-3 text-left font-bold">If the seller charges Rs 400 per kg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['5 kg', 'About Rs 1,470', 'Rs 2,000, about Rs 530 too much'],
+              ['10 kg', 'About Rs 2,941', 'Rs 4,000, about Rs 1,059 too much'],
+              ['11.8 kg (official OGRA figure)', 'Rs 3,470.09', 'Rs 4,720, about Rs 1,250 too much'],
+            ].map(([size, max, example]) => (
+              <tr key={size} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{size}</td>
+                <td className="p-3 text-muted">{max}</td>
+                <td className="p-3 text-muted">{example}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Rs 400 per kg is only an example to show the arithmetic. There are two ways a customer loses money. The first is a price per kg above the notified rate. The second is <strong>less filling</strong>: you pay for 11.8 kg and receive 10 kg. OGRA treats both as the same offence, and both can be reported in the same call.</p>
+
+      <p>One honest limit: OGRA&apos;s price covers the gas. We could not find an official OGRA figure for home delivery to your door or for the deposit on a cylinder, so ask about those charges before you order and have them written separately on the receipt.</p>
+
+      <h2>OGRA LPG Price Complaint Number and Other Official Contacts</h2>
+
+      <p>OGRA&apos;s Contact Us page describes 0800-77733 as its toll-free number for the general public for complaints about the CNG, LPG and oil sectors. The same page asks that written complaints be sent to the Registrar at the head office.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Channel</th>
+              <th className="p-3 text-left font-bold">Detail published by OGRA</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Toll-free complaint line (LPG, CNG, oil)', '0800-77733'],
+              ['Head office switchboard, Islamabad', '051-9108890 to 98'],
+              ['Written complaints', 'The Registrar, Oil & Gas Regulatory Authority, Plot No. 37 & 39, Mauve Area, Service Road South, Sector G-10/4, Islamabad'],
+              ['Lahore regional office', '27-Civic Centre, Barkat Market, New Garden Town; 042-99232865 to 69'],
+              ['Karachi regional office', 'House F-5/1, Block 8, Clifton; 021-99332363'],
+              ['Peshawar regional office', '2nd Floor, Sarhad Chamber of Commerce & Industry Building, G.T. Road; 091-9225327'],
+              ['Quetta regional office', 'First Floor, Plot No. 10, Fida Building, Samungli Road; 081-9204429'],
+              ['Multan regional office', '74 Abdali Road, Chenone Tower; 061-9330033'],
+              ['Sukkur regional office', 'House B-02, Millat Cooperative Society, Shikarpur Road; 071-9310949'],
+              ['Working hours', 'Monday to Friday, 9:00 am to 5:00 pm; break 1:00 to 1:45 pm, Fridays 1:00 to 2:00 pm'],
+            ].map(([channel, detail]) => (
+              <tr key={channel} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{channel}</td>
+                <td className="p-3 text-muted">{detail}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>An older OGRA press release, dated 18 March 2021 and titled &quot;Overcharging &amp; less filling of LPG cylinders is an offence&quot;, gave a dedicated LPG line, 051-9244397 during office hours, and the email address infolpg@ogra.org.pk. OGRA&apos;s current Contact Us page does not list that line or address, so treat those two as a second option and use the toll-free number first.</p>
+
+      <h2>How to Do It — Step by Step</h2>
+
+      <ol>
+        <li><strong>Confirm the official price first.</strong> Open OGRA&apos;s <a href="https://www.ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG notified prices page</a> and note the current rate per kg. For November 2026 it is Rs 294.08. A complaint based on last month&apos;s price will not hold up.</li>
+        <li><strong>Work out the overcharge.</strong> Multiply the kilograms of gas by the notified rate and compare it with what you paid. Write down both numbers.</li>
+        <li><strong>Collect evidence at the shop.</strong> Ask for a receipt that shows the weight and the price. If the seller refuses, take a clear photo of the shop front, the price board if there is one, and the cylinder on the scale. Note the date and time. Do not argue or threaten; simply pay, keep the proof and leave.</li>
+        <li><strong>Check the weight.</strong> Ask for the cylinder to be weighed in front of you. OGRA&apos;s advice is to take the weight of the filled cylinder and subtract the empty weight marked on the cylinder. The answer is the gas you actually received.</li>
+        <li><strong>Note who the seller is.</strong> Write the shop or plant name, the full address, the city and district, and the LPG marketing company whose name is on the cylinder. OGRA cannot act on &quot;a shop near the bazaar&quot;.</li>
+        <li><strong>Call 0800-77733 during office hours.</strong> Say that you want to report LPG overcharging or less filling, then give the facts from steps 2 to 5 in that order. Ask for a complaint or reference number and the name of the office that will handle it, and write both down.</li>
+        <li><strong>Put it in writing if the call does not work.</strong> Send a short letter to the Registrar at the Islamabad address above, or hand it in at the nearest regional office. Attach copies, never originals, of your receipt and photos. You can also try OGRA&apos;s <a href="https://complaint.ogra.org.pk/complaint" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">online complaint form</a>, which asks for your name, CNIC, city, province, address, the company or dealer you are complaining about, a description of the problem and file uploads in PDF, JPG or PNG of up to 5 MB each.</li>
+        <li><strong>Follow up.</strong> If you used the online form you receive a tracking ID, which you can enter on OGRA&apos;s <a href="https://complaint.ogra.org.pk/track" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">complaint tracking page</a>. For a phone complaint, call again with your reference number after a week or two if you have heard nothing.</li>
+      </ol>
+
+      <p>A note on the online form: its own notice lists documents such as a gas bill and a decision by the licensee&apos;s review committee, and OGRA&apos;s complaints FAQ describes the formal procedure as being for consumers of the gas utilities SNGPL and SSGCL. The form does have a field for a licensee or dealer, but it was clearly built around piped gas disputes. That is why we put the toll-free line and a written complaint to the Registrar ahead of it for LPG price problems.</p>
+
+      <h2>What to Say or Write in Your Complaint</h2>
+
+      <p>A short, factual complaint is easier to act on than a long, angry one. Cover these points:</p>
+
+      <ul>
+        <li><strong>Who you are:</strong> name, CNIC number, phone number, city and province.</li>
+        <li><strong>Who the seller is:</strong> shop, distributor or plant name, full address, and the marketing company on the cylinder.</li>
+        <li><strong>What happened:</strong> date and time, size of cylinder, kilograms filled, price charged per kg or per cylinder, and the OGRA notified price on that date.</li>
+        <li><strong>The difference:</strong> the amount overcharged, or the kilograms short.</li>
+        <li><strong>Your evidence:</strong> receipt, photos of the scale reading, the price board and the shop front.</li>
+        <li><strong>What you want:</strong> an inspection of the seller and action under the LPG Rules, 2001.</li>
+      </ul>
+
+      <p>For example: &quot;On 10 November 2026 at about 6 pm, [shop name] at [address], [city], charged me Rs 4,000 for a 10 kg LPG fill. At OGRA&apos;s notified price of Rs 294.08 per kg the maximum is about Rs 2,941. A photo of the receipt is attached. I request an inspection and action under the LPG Rules, 2001.&quot;</p>
+
+      <h2>What Does a Complaint Cost?</h2>
+
+      <p>OGRA describes 0800-77733 as toll-free, and neither its Contact Us page nor its online complaint form lists any fee for lodging a complaint. Your only likely costs are a stamp or courier charge if you send a letter and the time spent on the phone. Nobody should ask you for money to &quot;register&quot; or &quot;speed up&quot; a complaint; if someone does, treat it as a warning sign and deal only with OGRA&apos;s published numbers and offices.</p>
+
+      <h2>What Happens After You Complain?</h2>
+
+      <p>OGRA&apos;s 2021 press release says that any LPG marketing company or distributor found less filling or overcharging &quot;shall be dealt in accordance with Rules 18, 19 and 29 of the LPG Rules, 2001&quot;. In a press release of 20 January 2023, OGRA said it had sent enforcement teams to LPG plants around Lahore and Islamabad after overcharging complaints, directed all plants to display prices at prominent places, and kept teams in the field with district administrations during winter. In September 2022 it advised chief secretaries and district authorities to act against profiteers and told plants and distributors to show the selling price on gate passes and receipts.</p>
+
+      <p>So a complaint can lead to an inspection, a written direction or action under the LPG Rules. What OGRA has not published is a time limit for LPG price complaints or a promise of a refund. The 90-day decision period on OGRA&apos;s Consumer Affairs page applies to its formal procedure for gas utility complaints. Go in expecting enforcement against the seller, not guaranteed money back.</p>
+
+      <h3>What to do if it goes wrong</h3>
+
+      <ul>
+        <li><strong>The line is busy or unanswered:</strong> try again outside the 1:00 to 2:00 pm break, call the head office switchboard on 051-9108890 to 98 or your nearest regional office, or send the written complaint.</li>
+        <li><strong>You have no receipt:</strong> complain anyway. Give the exact address, date and time, and any photo you have. Several complaints about the same seller are harder to ignore than one.</li>
+        <li><strong>Nothing happens:</strong> write to the Registrar quoting your first reference number and the date of your call. OGRA has also told district authorities to act on LPG profiteering, so you can raise the same complaint with your district administration.</li>
+        <li><strong>The seller refuses to refill for you afterwards:</strong> switch to another licensed distributor. You are not tied to one shop.</li>
+      </ul>
+
+      <h2>How to Check You Got the Gas You Paid For</h2>
+
+      <p>Short-filling is harder to notice than a high price, which is why OGRA advises the public to have cylinders weighed before taking delivery. The method is simple: read the empty weight marked on the cylinder, weigh the filled cylinder, and subtract. An 11.8 kg fill should add 11.8 kg to the empty weight. If the scale is hidden, broken or &quot;not available&quot;, treat that as a warning sign and buy elsewhere.</p>
+
+      <p>A translucent composite cylinder gives you a second check. WAA Technologies Pvt Ltd, based in Gujranwala, Punjab, Pakistan, makes composite LPG cylinders in 5 kg and 10 kg sizes, and a 10 kg WAA cylinder weighs about 5.5 kg empty, so a full one should weigh about 15.5 kg. Because the wall is translucent you can also <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see the gas level without lifting the cylinder</Link>. That does not replace the scale, but it makes an obviously short fill easy to spot.</p>
+
+      <h2>Common Mistakes That Weaken a Complaint</h2>
+
+      <ul>
+        <li><strong>Comparing with the wrong month.</strong> The price changes monthly. Use the rate that applied on the day you bought.</li>
+        <li><strong>Complaining about a decanting shop as if it were a licensed dealer.</strong> Filling one cylinder from another is prohibited under the LPG Policy 2016 and unsafe. Report it, but do not expect such a seller to follow any price.</li>
+        <li><strong>Leaving out the address.</strong> Without a location, an inspection team has nowhere to go.</li>
+        <li><strong>Mixing gas price and other charges.</strong> Separate the price of the gas from delivery or cylinder deposit so the overcharge is clear.</li>
+        <li><strong>Sending original receipts.</strong> Keep originals and send copies or photos.</li>
+        <li><strong>Calling after hours.</strong> OGRA works Monday to Friday, 9:00 am to 5:00 pm.</li>
+        <li><strong>Confronting the seller.</strong> A dispute next to gas cylinders helps nobody. Collect the facts and let the regulator act.</li>
+      </ul>
+
+      <h2>How to Avoid Being Overcharged Next Time</h2>
+
+      <ul>
+        <li><strong>Check the rate on the first of each month.</strong> OGRA announces the new price at the turn of every month.</li>
+        <li><strong>Buy from licensed sellers.</strong> OGRA publishes its list of licensed LPG marketing companies, most recently dated 5 November 2026, on its <a href="https://www.ogra.org.pk/lpg-4" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG licences page</a>. Ask your distributor which company it represents and check that the name appears there.</li>
+        <li><strong>Look for a displayed price.</strong> OGRA has directed plants and distributors to display the LPG price. No price board is a reason for caution.</li>
+        <li><strong>Always ask for a receipt</strong> showing kilograms and price per kg.</li>
+        <li><strong>Avoid roadside decanting.</strong> It is the least safe way to fill a cylinder and the hardest to hold to any price. OGRA&apos;s own <a href="https://www.ogra.org.pk/lpg-10" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">enforcement record for 2025-26</a> includes an inspection of an illegal decanting site in Islamabad.</li>
+        <li><strong>Use a cylinder that lets you see the gas.</strong> For WAA composite cylinders, buy and refill through WAA Technologies&apos; <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers</Link>, and see our list of <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA-licensed LPG cylinder manufacturers</Link> before buying any cylinder.</li>
+      </ul>
+
+      <p>None of these steps can guarantee a fair price in every town, especially during a winter shortage, but together they remove the easiest ways to be cheated.</p>
+
+      <h2>LPG Overcharging Complaint Checklist</h2>
+
+      <ul>
+        <li>Current OGRA rate per kg noted from ogra.org.pk</li>
+        <li>Kilograms filled and price paid written down</li>
+        <li>Overcharge or shortfall calculated</li>
+        <li>Receipt or photos of scale, price board and shop front saved</li>
+        <li>Seller&apos;s name, full address, city and district recorded</li>
+        <li>Marketing company name on the cylinder recorded</li>
+        <li>Call made to 0800-77733 on a working day between 9:00 am and 5:00 pm</li>
+        <li>Complaint or reference number written down</li>
+        <li>Written complaint sent to the Registrar, OGRA, if the call did not resolve it</li>
+        <li>Follow-up date set in your phone</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the OGRA complaint number for LPG overcharging?</h3>
+      <p>OGRA&apos;s toll-free number for public complaints about the LPG, CNG and oil sectors is 0800-77733, as listed on its Contact Us page. OGRA&apos;s working hours are Monday to Friday, 9:00 am to 5:00 pm. You can also call the head office switchboard in Islamabad on 051-9108890 to 98 or a regional office in Lahore, Karachi, Peshawar, Quetta, Multan or Sukkur. Have the seller&apos;s name and address, the price charged and the weight filled ready before you call.</p>
+
+      <h3>How do I file an LPG price complaint with OGRA online?</h3>
+      <p>Go to OGRA&apos;s Lodge Complaints page at ogra.org.pk and open the Online Complaint System. The form asks for your name, CNIC, city, province, address, the company or dealer complained about, a description of the problem and supporting files in PDF, JPG or PNG of up to 5 MB each, and it gives a tracking ID. The form is built mainly around gas utility disputes, so for LPG overcharging it is sensible to call 0800-77733 or write to the Registrar as well.</p>
+
+      <h3>Is it illegal to sell LPG above the OGRA price in Pakistan?</h3>
+      <p>Yes. OGRA notifies a maximum LPG consumer price each month, and for November 2026 it is Rs 294.08 per kg and Rs 3,470.09 for an 11.8 kg cylinder. In a press release dated 18 March 2021, OGRA stated that overcharging and less filling of LPG cylinders is an offence and that any marketing company or distributor involved will be dealt with under Rules 18, 19 and 29 of the LPG Rules, 2001. Sellers may charge less than the notified price but not more.</p>
+
+      <h3>What proof do I need to report LPG overcharging?</h3>
+      <p>The strongest proof is a receipt showing the kilograms filled and the price charged. If the seller will not give one, take photos of the cylinder on the scale, the price board and the shop front, and note the date, time and full address. Also record the LPG marketing company named on the cylinder. You can still complain without a receipt, but precise details of place and time make it far more likely that an inspection team can act.</p>
+
+      <h3>Will OGRA refund the extra money I paid for LPG?</h3>
+      <p>OGRA has not published any promise of a refund for LPG price complaints. Its press releases describe enforcement instead: inspections of LPG plants, directions to display prices and action under the LPG Rules, 2001, sometimes together with district administrations. OGRA has also not published a time limit for LPG price complaints; the 90-day period on its website applies to its formal procedure for gas utility complaints. Expect action against the seller, not guaranteed money back.</p>
+    </>
+  ),
+
   /* ── ARTICLE: How to Check LPG Cylinder Expiry Date in Pakistan ── */
   'instant-geyser-lpg-gas-consumption-per-hour-pakistan': (
     <>
@@ -966,7 +1188,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>Insist on weighing.</strong> Pay for the kilograms actually filled, not a guess.</li>
         <li><strong>Buy from licensed sellers.</strong> Authorised dealers are more likely to follow the notified price and safe filling practices. See our guide to <Link href="/ogra-licensed-lpg-cylinder-manufacturers-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA-licensed LPG cylinder manufacturers</Link>.</li>
         <li><strong>Avoid roadside decanting.</strong> Filling from one cylinder into another is unsafe and is often where overcharging happens.</li>
-        <li><strong>Report overcharging.</strong> OGRA lists its contact and complaint channels on its official website.</li>
+        <li><strong>Report overcharging.</strong> OGRA runs a toll-free complaint line for the LPG sector. Our step-by-step guide to the <Link href="/ogra-lpg-price-complaint-number-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA LPG price complaint number</Link> explains what to say and what proof to keep.</li>
       </ul>
 
       <h2>Is OGRA Ending Monthly LPG Price Notifications?</h2>
@@ -5827,6 +6049,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'ogra-lpg-price-complaint-number-pakistan': 3046,
   'instant-geyser-lpg-gas-consumption-per-hour-pakistan': 2590,
   'how-to-check-lpg-cylinder-expiry-date-pakistan': 2340,
   'lpg-vs-sui-gas-cost-pakistan': 2330,
@@ -5872,6 +6095,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'ogra-lpg-price-complaint-number-pakistan': [
+    { q: 'What is the OGRA complaint number for LPG overcharging?', a: 'OGRA\'s toll-free number for public complaints about the LPG, CNG and oil sectors is 0800-77733, as listed on its Contact Us page. OGRA\'s working hours are Monday to Friday, 9:00 am to 5:00 pm. You can also call the head office switchboard in Islamabad on 051-9108890 to 98 or a regional office in Lahore, Karachi, Peshawar, Quetta, Multan or Sukkur. Have the seller\'s name and address, the price charged and the weight filled ready before you call.' },
+    { q: 'How do I file an LPG price complaint with OGRA online?', a: 'Go to OGRA\'s Lodge Complaints page at ogra.org.pk and open the Online Complaint System. The form asks for your name, CNIC, city, province, address, the company or dealer complained about, a description of the problem and supporting files in PDF, JPG or PNG of up to 5 MB each, and it gives a tracking ID. The form is built mainly around gas utility disputes, so for LPG overcharging it is sensible to call 0800-77733 or write to the Registrar as well.' },
+    { q: 'Is it illegal to sell LPG above the OGRA price in Pakistan?', a: 'Yes. OGRA notifies a maximum LPG consumer price each month, and for November 2026 it is Rs 294.08 per kg and Rs 3,470.09 for an 11.8 kg cylinder. In a press release dated 18 March 2021, OGRA stated that overcharging and less filling of LPG cylinders is an offence and that any marketing company or distributor involved will be dealt with under Rules 18, 19 and 29 of the LPG Rules, 2001. Sellers may charge less than the notified price but not more.' },
+    { q: 'What proof do I need to report LPG overcharging?', a: 'The strongest proof is a receipt showing the kilograms filled and the price charged. If the seller will not give one, take photos of the cylinder on the scale, the price board and the shop front, and note the date, time and full address. Also record the LPG marketing company named on the cylinder. You can still complain without a receipt, but precise details of place and time make it far more likely that an inspection team can act.' },
+    { q: 'Will OGRA refund the extra money I paid for LPG?', a: 'OGRA has not published any promise of a refund for LPG price complaints. Its press releases describe enforcement instead: inspections of LPG plants, directions to display prices and action under the LPG Rules, 2001, sometimes together with district administrations. OGRA has also not published a time limit for LPG price complaints; the 90-day period on its website applies to its formal procedure for gas utility complaints. Expect action against the seller, not guaranteed money back.' },
+  ],
   'instant-geyser-lpg-gas-consumption-per-hour-pakistan': [
     { q: 'How much LPG does an instant geyser use per hour?', a: 'A typical 6 litre per minute instant geyser uses about 0.9 kg of LPG per hour at full flame and about 0.5 kg per hour at its lowest flame. This is based on a published heat input of 6.3 to 11.8 kW for an LPG heater of that size and an LPG energy content of about 12.7 to 13.8 kWh per kg. Larger LPG water heaters rated at 22 to 25 kW burn roughly 1.6 to 2.0 kg per hour. The geyser only burns gas while a hot tap is open.' },
     { q: 'How long does an 11.8 kg LPG cylinder last with an instant geyser?', a: 'An 11.8 kg cylinder gives about 13 hours of full-flame running on a 6 litre per minute instant geyser. If hot water runs 20 minutes a day, the cylinder lasts about 39 days; at 30 minutes a day about 26 days; and at 60 minutes a day about 13 days. A 10 or 12 litre geyser at full flow burns up to twice as much, so the same cylinder may give only 6 to 8 hours of running. Using the cylinder for cooking as well shortens these times.' },
