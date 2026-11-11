@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── Buying Guide / Usage ─────────────────────────────────────────────────────
+  {
+    slug: 'instant-geyser-lpg-gas-consumption-per-hour-pakistan',
+    title: 'Instant Geyser LPG Gas Consumption Per Hour in Pakistan — How Long a Cylinder Lasts and What a Shower Costs',
+    seoTitle: 'Instant Geyser LPG Gas Consumption Per Hour in Pakistan',
+    metaDescription: 'Instant geyser LPG gas consumption per hour in Pakistan: about 0.9 kg for a 6 litre model. See how long an 11.8 kg cylinder lasts and what a shower costs.',
+    date: 'Nov 11, 2026',
+    category: 'WAATechCylinders',
+    type: 'blog',
+    readingTime: '13 min read',
+    tags: ['instant-geyser-lpg-gas-consumption-per-hour', 'lpg-gas-geyser-pakistan', 'lpg-cylinder-for-geyser', 'how-long-lpg-cylinder-lasts', 'winter-heating-lpg', 'lpg-price-per-kg-pakistan', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'Instant geyser LPG gas consumption per hour in Pakistan: a 6 litre model burns about 0.9 kg of LPG per hour at full flame, roughly Rs 265 at the November 2026 OGRA price. See how long an 11.8 kg cylinder lasts, what a shower costs and how to cut gas use safely.',
+  },
+
   // ── How-To / Safety ──────────────────────────────────────────────────────────
   {
     slug: 'how-to-check-lpg-cylinder-expiry-date-pakistan',

@@ -95,6 +95,208 @@ const dealerCta = (heading: string) => (
 const articleContent: Record<string, React.ReactNode> = {
 
   /* ── ARTICLE: How to Check LPG Cylinder Expiry Date in Pakistan ── */
+  'instant-geyser-lpg-gas-consumption-per-hour-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">What is the instant geyser LPG gas consumption per hour in Pakistan? A typical 6 litre per minute instant geyser burns about <strong className="text-white">0.9 kg of LPG per hour</strong> at full flame and about 0.5 kg per hour at its lowest flame. At OGRA&apos;s November 2026 maximum price of <strong className="text-white">Rs&nbsp;294.08 per kg</strong>, that is roughly <strong className="text-white">Rs&nbsp;265 per hour</strong>, or about Rs&nbsp;22 for a five-minute shower. A full <strong className="text-white">11.8 kg cylinder gives about 13 hours</strong> of full-flame hot water, which is around 39 days for a home that runs the geyser 20 minutes a day. Larger whole-house models can burn 1.6 to 2.0 kg per hour.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'A 6 litre per minute instant geyser has a heat input of about 11.8 kW at full flame, which works out to roughly 0.9 kg of LPG per hour',
+            'An instant geyser burns gas only while the hot tap is open, so minutes of use matter more than the hourly figure',
+            'At OGRA\'s November 2026 ceiling of Rs 294.08 per kg, one hour of full flame costs about Rs 265 and a five-minute shower about Rs 22',
+            'A full 11.8 kg cylinder gives about 13 hours of full-flame running; a 10 kg fill gives about 11 hours',
+            'A quick rule of thumb is about 0.15 kg of LPG per hour for every litre per minute of geyser size, at full flow and a 25°C temperature rise',
+            'Larger LPG water heaters rated at 22 to 25 kW burn roughly 1.6 to 2.0 kg per hour, so a cylinder lasts only 6 to 7 hours of running',
+            'Never fit an instant geyser in a closed bathroom without a working flue and ventilation; carbon monoxide is the real danger',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>When Sui gas pressure drops in winter, many Pakistani homes move the geyser onto an LPG cylinder. The first question is always the same: how fast will it empty the cylinder? Shop listings rarely help, because most of them give the water flow in litres and say nothing about gas use. This guide works the answer out from published appliance ratings and standard fuel data, then turns it into rupees using this month&apos;s official price from our report on the <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG price in Pakistan for November 2026</Link>.</p>
+
+      <p>If you are still deciding between fuels, our comparison of <Link href="/lpg-vs-sui-gas-cost-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG vs Sui gas cost in Pakistan</Link> shows the price gap slab by slab, and our <Link href="/winter-gas-shortage-pakistan-2025-prepare-your-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">winter gas shortage guide</Link> covers backup planning for the whole house.</p>
+
+      <p>One note before the numbers: the figures below are calculated estimates, not measurements of any one Pakistani brand. Your own geyser&apos;s rating plate or manual is the final word, and we explain how to use it further down. Last updated: November 2026.</p>
+
+      <h2>How Much LPG Does an Instant Geyser Use Per Hour?</h2>
+
+      <p>In Pakistan an instant geyser is sold by its &quot;litres&quot;: 6 litre, 8 litre, 10 litre and so on. That number is the hot water flow in litres per minute, not a tank size. The bigger the flow, the bigger the burner, and the more gas it burns.</p>
+
+      <p>A good published reference for the common 6 litre size is the specification of the Ferroli Pegaso Eco 6, an LPG instant water heater sold by <a href="https://appliances.calor.co.uk/ferroli-pegaso-eco-6-lpg-gas-water-heater-flue-kit.html" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Calor in the UK</a>. It delivers up to 6 litres per minute at a 25°C temperature rise, with a heat input that adjusts between <strong>6.3 kW and 11.8 kW</strong> and an efficiency of about 87% at full power.</p>
+
+      <p>To turn kilowatts into kilograms of LPG, you need the energy in the fuel. The <a href="https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Engineering ToolBox calorific value table</a> lists propane at 12.88 to 13.99 kWh per kg and butane at 12.58 to 13.64 kWh per kg (lower and higher heating values). For the 40% propane and 60% butane mix named in OGRA&apos;s price notification, that is about <strong>12.7 to 13.8 kWh per kg</strong>.</p>
+
+      <p>Dividing the heat input by the energy per kg gives the hourly gas use:</p>
+      <ul>
+        <li><strong>Full flame (11.8 kW):</strong> 0.86 to 0.93 kg per hour, or about <strong>0.9 kg per hour</strong>. That is roughly 15 grams of LPG every minute.</li>
+        <li><strong>Lowest flame (6.3 kW):</strong> 0.46 to 0.50 kg per hour, or about <strong>0.5 kg per hour</strong>.</li>
+      </ul>
+
+      <p>The most important point is that an instant geyser has no tank to keep warm. It burns gas only while a hot tap is open. So the hourly figure tells you the burn rate, but your monthly bill depends on how many minutes a day hot water is actually running.</p>
+
+      <h2>LPG Consumption by Geyser Size</h2>
+
+      <p>You can estimate other sizes from basic physics. Heating one litre of water per minute by 25°C needs about 1.74 kW of heat. At 87% efficiency that is about 2.0 kW of gas input, or roughly <strong>0.15 kg of LPG per hour for every litre per minute</strong> of geyser size. The table below applies that rule at full flow and full flame, using the OGRA November 2026 price of Rs&nbsp;294.08 per kg.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Geyser size</th>
+              <th className="p-3 text-left font-bold">Approx. heat input</th>
+              <th className="p-3 text-left font-bold">LPG per hour (full flame)</th>
+              <th className="p-3 text-left font-bold">Cost per hour</th>
+              <th className="p-3 text-left font-bold">Hours from 11.8 kg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['6 litres per minute', '11.8 kW (published rating)', 'about 0.9 kg', 'about Rs 265', 'about 13'],
+              ['8 litres per minute', 'about 16 kW (estimate)', 'about 1.2 kg', 'about Rs 355', 'about 10'],
+              ['10 litres per minute', 'about 20 kW (estimate)', 'about 1.5 kg', 'about Rs 440', 'about 8'],
+              ['12 litres per minute', 'about 24 kW (estimate)', 'about 1.8 kg', 'about Rs 530', 'about 6.5'],
+            ].map(([size, input, perHour, cost, hours]) => (
+              <tr key={size} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{size}</td>
+                <td className="p-3 text-muted">{input}</td>
+                <td className="p-3 text-muted">{perHour}</td>
+                <td className="p-3 text-muted">{cost}</td>
+                <td className="p-3 text-muted">{hours}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>The estimates for larger sizes line up with official test data. Hong Kong&apos;s Electrical and Mechanical Services Department publishes an <a href="https://www.emsd.gov.hk/energylabel/en/households/giwh/select_giwh_result.php?type=all" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">energy label register of gas instantaneous water heaters</a>, and the LPG models we checked on it carry rated heat inputs of <strong>22 to 25 kW</strong>. On the same fuel data that is roughly <strong>1.6 to 2.0 kg of LPG per hour</strong>, which would empty an 11.8 kg cylinder in about 6 to 7 hours of running.</p>
+
+      <p>In real use most geysers run below full flame for part of the time, because people mix in cold water, turn the gas knob down or reduce the flow. Treat the table as the upper end of what your geyser will burn.</p>
+
+      <h2>How Long Will an LPG Cylinder Last With an Instant Geyser?</h2>
+
+      <p>Take the cylinder&apos;s gas weight and divide it by the burn rate. For a 6 litre geyser at full flame:</p>
+      <ul>
+        <li>An <strong>11.8 kg</strong> domestic cylinder gives about <strong>13 hours</strong> of running (11.8 ÷ 0.9).</li>
+        <li>A <strong>10 kg</strong> fill gives about <strong>11 hours</strong>.</li>
+        <li>At the lowest flame, an 11.8 kg cylinder stretches to roughly 24 hours of running.</li>
+      </ul>
+
+      <p>What matters at home is minutes per day. The table shows a 6 litre geyser at full flame on a cylinder used only for the geyser.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Hot water running per day</th>
+              <th className="p-3 text-left font-bold">LPG per day</th>
+              <th className="p-3 text-left font-bold">11.8 kg cylinder lasts</th>
+              <th className="p-3 text-left font-bold">Cost for 30 days</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['20 minutes', 'about 0.3 kg', 'about 39 days', 'about Rs 2,650'],
+              ['30 minutes', 'about 0.45 kg', 'about 26 days', 'about Rs 3,970'],
+              ['45 minutes', 'about 0.68 kg', 'about 17 days', 'about Rs 5,960'],
+              ['60 minutes', 'about 0.9 kg', 'about 13 days', 'about Rs 7,940'],
+            ].map(([minutes, perDay, lasts, cost]) => (
+              <tr key={minutes} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{minutes}</td>
+                <td className="p-3 text-muted">{perDay}</td>
+                <td className="p-3 text-muted">{lasts}</td>
+                <td className="p-3 text-muted">{cost}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>If the same cylinder also runs your stove, it will finish sooner. Many families keep the geyser on its own cylinder for this reason: you can see exactly what hot water is costing, and the kitchen does not go cold when the bathroom cylinder runs out. Our guide to <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">choosing between a 5 kg and 10 kg composite cylinder</Link> explains which size suits which job.</p>
+
+      <h2>What Does a Hot Shower Cost on LPG?</h2>
+
+      <p>At about 15 grams of LPG a minute and Rs&nbsp;294.08 per kg, a 6 litre geyser at full flame costs about Rs&nbsp;4.40 per minute. That gives simple figures you can use at home:</p>
+      <ul>
+        <li><strong>Five-minute shower:</strong> about 75 g of LPG, roughly <strong>Rs&nbsp;22</strong>.</li>
+        <li><strong>Ten-minute shower:</strong> about 150 g of LPG, roughly <strong>Rs&nbsp;44</strong>.</li>
+        <li><strong>One 15 litre bucket heated by 25°C:</strong> about 38 g of LPG, roughly <strong>Rs&nbsp;11</strong>.</li>
+      </ul>
+
+      <p>These figures use OGRA&apos;s notified maximum price, confirmed in its notification dated 31 October 2026 on the <a href="https://ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA LPG notified prices page</a>. The price changes every month, and shops in some areas charge more than the ceiling, so multiply the grams by the rate you actually pay.</p>
+
+      <h2>How to Work Out Your Own Geyser&apos;s Gas Use</h2>
+
+      <p>You can check your own model in three steps.</p>
+      <ol>
+        <li><strong>Find the rating.</strong> Look at the rating plate on the geyser body or the manual for &quot;heat input&quot; or &quot;rated load&quot; in kW. Some plates give gas consumption directly in kg per hour.</li>
+        <li><strong>Convert kW to kg per hour.</strong> Divide the kW figure by 13. For example, 16 kW ÷ 13 is about 1.2 kg per hour. This uses the middle of the 12.7 to 13.8 kWh per kg range above.</li>
+        <li><strong>Multiply by your minutes and your price.</strong> Kg per hour × hours of use per day × price per kg gives your daily cost.</li>
+      </ol>
+
+      <p>If your geyser has no readable plate, weigh the evidence instead. Note the gas level when you start a fresh cylinder and count the days it lasts. With a translucent composite cylinder you can see the liquid level directly; our guide on <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to check the gas level in a composite cylinder</Link> shows how.</p>
+
+      <h2>Seven Ways to Make a Cylinder Last Longer</h2>
+
+      <ul>
+        <li><strong>Buy the right size.</strong> A 6 litre geyser is enough for one shower or tap at a time. A 10 or 12 litre model burns up to twice the gas whenever it runs at full flow.</li>
+        <li><strong>Turn the flame down, not the cold tap up.</strong> Heating water to scalding and then diluting it with cold wastes gas. Set the gas knob so the water comes out at a comfortable temperature.</li>
+        <li><strong>Reduce the flow.</strong> Less water through the geyser means less gas for the same temperature. A water-saving shower head helps.</li>
+        <li><strong>Keep showers short.</strong> Every minute saved is about 15 g of LPG on a 6 litre geyser.</li>
+        <li><strong>Shorten and insulate the hot pipe.</strong> Water that cools in a long pipe run is gas you paid for and never used.</li>
+        <li><strong>Use the summer and winter setting</strong> if your geyser has one, so the burner is not on its highest stage when the incoming water is already mild.</li>
+        <li><strong>Service the geyser before winter.</strong> A clean burner and heat exchanger pass more of the heat into the water.</li>
+      </ul>
+
+      <h2>Safety: An LPG Geyser Needs Fresh Air</h2>
+
+      <p>Gas use is a cost question. Carbon monoxide is a life question. An instant geyser burns a lot of gas in a short time, and if it is fitted inside a closed bathroom without a working flue and ventilation, carbon monoxide can build up while someone is showering. Our guide to <Link href="/lpg-gas-heater-safety-tips-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG gas heater safety in Pakistan</Link> covers the warning signs, the January 2026 Rawalpindi geyser deaths and why a CO alarm is worth fitting.</p>
+
+      <ul>
+        <li><strong>Fit the geyser where air moves.</strong> Have it installed by a qualified technician with a clear flue that leads outside, and keep the ventilation open.</li>
+        <li><strong>Use an LPG model.</strong> Retailers such as <a href="https://japanelectronics.com.pk/blogs/docs/what-is-the-difference-between-a-gas-geyser-and-an-lpg-geyser" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Japan Electronics</a> sell geysers for natural gas and for LPG. Buy the version made for cylinder gas, or follow the maker&apos;s instructions for your model.</li>
+        <li><strong>Keep the cylinder away from the burner.</strong> Store it upright, in a ventilated spot, at least one metre from the geyser or any other heat source, as explained in our guide on <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to store an LPG cylinder safely at home</Link>.</li>
+        <li><strong>Check the hose and regulator.</strong> Follow the steps in our guide on <Link href="/how-to-safely-connect-lpg-cylinder-regulator-at-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">connecting an LPG cylinder regulator safely</Link>, and test joints with soapy water, never a flame.</li>
+        <li><strong>Switch off when finished.</strong> Close the cylinder valve when the geyser is not needed, especially overnight.</li>
+      </ul>
+
+      <h2>Which Cylinder Suits a Geyser?</h2>
+
+      <p>A geyser cylinder usually lives near a bathroom, on a balcony or in a wash area, where it gets damp and is carried up and down stairs for refills. Those are the conditions where a composite cylinder helps most. WAA Technologies Pvt Ltd of Gujranwala, Punjab, Pakistan makes composite LPG cylinders certified to ISO 11119-3 and BS EN 14427:2022. They are corrosion-free, so damp air does not rust the body; about 50% lighter than steel, so refills are easier to carry; and translucent, so you can see how much gas is left before someone steps into the shower.</p>
+
+      <p>For most homes with a 6 litre geyser, a 10 kg or 12 kg cylinder kept only for hot water gives roughly three to six weeks of use at 20 to 30 minutes a day. Heavier users, or homes with a 10 or 12 litre geyser, should keep a second filled cylinder ready, because the burn rate is close to double.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How much LPG does an instant geyser use per hour?</h3>
+      <p>A typical 6 litre per minute instant geyser uses about 0.9 kg of LPG per hour at full flame and about 0.5 kg per hour at its lowest flame. This is based on a published heat input of 6.3 to 11.8 kW for an LPG heater of that size and an LPG energy content of about 12.7 to 13.8 kWh per kg. Larger LPG water heaters rated at 22 to 25 kW burn roughly 1.6 to 2.0 kg per hour. The geyser only burns gas while a hot tap is open.</p>
+
+      <h3>How long does an 11.8 kg LPG cylinder last with an instant geyser?</h3>
+      <p>An 11.8 kg cylinder gives about 13 hours of full-flame running on a 6 litre per minute instant geyser. If hot water runs 20 minutes a day, the cylinder lasts about 39 days; at 30 minutes a day about 26 days; and at 60 minutes a day about 13 days. A 10 or 12 litre geyser at full flow burns up to twice as much, so the same cylinder may give only 6 to 8 hours of running. Using the cylinder for cooking as well shortens these times.</p>
+
+      <h3>How much does a hot shower cost on LPG in Pakistan?</h3>
+      <p>A five-minute shower from a 6 litre instant geyser at full flame uses about 75 g of LPG, which costs roughly Rs 22 at OGRA&apos;s November 2026 maximum price of Rs 294.08 per kg. A ten-minute shower costs about Rs 44, and heating one 15 litre bucket by 25°C costs about Rs 11. The price is notified monthly and some shops charge more, so multiply the grams used by the rate you actually pay.</p>
+
+      <h3>Is a 6 litre or 10 litre instant geyser better for LPG?</h3>
+      <p>For LPG, a 6 litre geyser is usually the more economical choice because it burns about 0.9 kg per hour at full flame, while a 10 litre model burns about 1.5 kg per hour at full flow. Choose 6 litres if only one shower or tap runs at a time. Choose 10 litres or more only if you need two outlets at once or a stronger flow, and plan for the cylinder to empty faster.</p>
+
+      <h3>Is it safe to run an instant geyser on an LPG cylinder?</h3>
+      <p>Yes, if the geyser is an LPG model, is installed by a qualified technician with a clear flue to the outside, and has good ventilation. The main danger is carbon monoxide building up in a closed bathroom. Keep the cylinder upright in a ventilated place at least one metre from the geyser, check the hose and regulator with soapy water, fit a carbon monoxide alarm, and close the cylinder valve when hot water is not needed.</p>
+    </>
+  ),
+
   'how-to-check-lpg-cylinder-expiry-date-pakistan': (
     <>
       <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
@@ -404,7 +606,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <li><strong>Match the flame to the pot.</strong> A flame wider than the pot base wastes heat around the sides, whatever the fuel.</li>
         <li><strong>Use lids and pressure cookers.</strong> They cut cooking time noticeably for daal, rice and meat.</li>
         <li><strong>Service burners before winter.</strong> A clean, blue flame burns gas more completely than a yellow, sooty one.</li>
-        <li><strong>Insulate geyser pipes and lower the geyser setting.</strong> Geysers are among the biggest gas users in many homes.</li>
+        <li><strong>Insulate geyser pipes and lower the geyser setting.</strong> Geysers are among the biggest gas users in many homes. Our guide to <Link href="/instant-geyser-lpg-gas-consumption-per-hour-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how much LPG an instant geyser uses per hour</Link> has the numbers.</li>
         <li><strong>Never pay above the OGRA ceiling for LPG.</strong> Check the monthly notification and buy from licensed sellers or authorised dealers.</li>
         <li><strong>Pick the right cylinder size.</strong> A backup-only household may not need a large cylinder; our <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5 kg vs 10 kg cylinder guide</Link> helps you choose.</li>
       </ul>
@@ -541,7 +743,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Gas Geysers Need the Same Care</h2>
 
-      <p>The Rawalpindi deaths in January 2026 were linked to a geyser, not a room heater. Instant and storage gas geysers burn gas too, and when they are fitted inside bathrooms or closed spaces without a working flue or ventilation, CO and leaked gas can build up in the same way. Have geysers installed and serviced by a qualified technician, make sure the flue is clear and leads outside, keep bathroom ventilation open, and switch the geyser off when it is not needed. The NHS advises a CO alarm in every room that contains an appliance burning gas, and that includes a geyser room.</p>
+      <p>The Rawalpindi deaths in January 2026 were linked to a geyser, not a room heater. Instant and storage gas geysers burn gas too, and when they are fitted inside bathrooms or closed spaces without a working flue or ventilation, CO and leaked gas can build up in the same way. Have geysers installed and serviced by a qualified technician, make sure the flue is clear and leads outside, keep bathroom ventilation open, and switch the geyser off when it is not needed. The NHS advises a CO alarm in every room that contains an appliance burning gas, and that includes a geyser room. To see what running one on a cylinder costs, read our guide to <Link href="/instant-geyser-lpg-gas-consumption-per-hour-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">instant geyser LPG gas consumption per hour</Link>.</p>
 
       <h2>What to Do If You Smell Gas or Suspect CO Poisoning</h2>
 
@@ -5625,6 +5827,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'instant-geyser-lpg-gas-consumption-per-hour-pakistan': 2590,
   'how-to-check-lpg-cylinder-expiry-date-pakistan': 2340,
   'lpg-vs-sui-gas-cost-pakistan': 2330,
   'lpg-gas-heater-safety-tips-pakistan': 2710,
@@ -5669,6 +5872,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'instant-geyser-lpg-gas-consumption-per-hour-pakistan': [
+    { q: 'How much LPG does an instant geyser use per hour?', a: 'A typical 6 litre per minute instant geyser uses about 0.9 kg of LPG per hour at full flame and about 0.5 kg per hour at its lowest flame. This is based on a published heat input of 6.3 to 11.8 kW for an LPG heater of that size and an LPG energy content of about 12.7 to 13.8 kWh per kg. Larger LPG water heaters rated at 22 to 25 kW burn roughly 1.6 to 2.0 kg per hour. The geyser only burns gas while a hot tap is open.' },
+    { q: 'How long does an 11.8 kg LPG cylinder last with an instant geyser?', a: 'An 11.8 kg cylinder gives about 13 hours of full-flame running on a 6 litre per minute instant geyser. If hot water runs 20 minutes a day, the cylinder lasts about 39 days; at 30 minutes a day about 26 days; and at 60 minutes a day about 13 days. A 10 or 12 litre geyser at full flow burns up to twice as much, so the same cylinder may give only 6 to 8 hours of running. Using the cylinder for cooking as well shortens these times.' },
+    { q: 'How much does a hot shower cost on LPG in Pakistan?', a: 'A five-minute shower from a 6 litre instant geyser at full flame uses about 75 g of LPG, which costs roughly Rs 22 at OGRA\'s November 2026 maximum price of Rs 294.08 per kg. A ten-minute shower costs about Rs 44, and heating one 15 litre bucket by 25°C costs about Rs 11. The price is notified monthly and some shops charge more, so multiply the grams used by the rate you actually pay.' },
+    { q: 'Is a 6 litre or 10 litre instant geyser better for LPG?', a: 'For LPG, a 6 litre geyser is usually the more economical choice because it burns about 0.9 kg per hour at full flame, while a 10 litre model burns about 1.5 kg per hour at full flow. Choose 6 litres if only one shower or tap runs at a time. Choose 10 litres or more only if you need two outlets at once or a stronger flow, and plan for the cylinder to empty faster.' },
+    { q: 'Is it safe to run an instant geyser on an LPG cylinder?', a: 'Yes, if the geyser is an LPG model, is installed by a qualified technician with a clear flue to the outside, and has good ventilation. The main danger is carbon monoxide building up in a closed bathroom. Keep the cylinder upright in a ventilated place at least one metre from the geyser, check the hose and regulator with soapy water, fit a carbon monoxide alarm, and close the cylinder valve when hot water is not needed.' },
+  ],
   'how-to-check-lpg-cylinder-expiry-date-pakistan': [
     { q: 'How do I check the expiry date of an LPG cylinder in Pakistan?', a: 'Read the markings embossed on the cylinder, usually on the collar, shoulder or foot ring. OGRA says LPG cylinders in Pakistan carry the date of manufacture and the next test date, along with the manufacturer\'s name, company name, serial number, batch number, weight and water capacity. If the next test date has not passed and the cylinder is in good condition, it is within its test period. If the date has passed or no markings can be read, refuse the cylinder and ask the dealer for another one.' },
     { q: 'Does A-26 or D-26 on a gas cylinder mean it expires in 2026?', a: 'No, not in Pakistan. OGRA told Geo Fact Check in 2026 that markings such as A-26 or D-26 are not used on LPG cylinders in Pakistan, and Geo found the viral claim to be false. That letter and year code is the Indian system, where A to D stands for a quarter of the year and the digits for the year in which the cylinder is due for testing. In Pakistan, look for the embossed date of manufacture and next test date instead.' },
