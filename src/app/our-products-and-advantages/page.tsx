@@ -31,7 +31,7 @@ const advantages = [
   { icon: Droplets, title: 'Rust and Corrosion Proof', desc: "WAA Tech Composite Cylinder is corrosion free as it doesn't leave stain on kitchen floor or anywhere else. It never gets corrode even in humid or coastal areas." },
   { icon: Sun, title: 'UV Resistant', desc: 'WAA Tech Cylinder is UV resistant to effects from sun, rain and temperature due to atmospheric variations and rough handling. Cylinder color will not be altered even after prolong usage.' },
   { icon: Shield, title: 'Translucent Against Light', desc: 'The translucent body allows users to visually check the LPG level at any time — no need for gauges, weighing, or guessing how much gas remains.' },
-  { icon: Zap, title: 'Non-Blast by Design', desc: 'WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material does not blast unlike metal cylinders even engulfed in fire. Tested to ISO 11119-3 and BS EN 14427:2022 standards.' },
+  { icon: Zap, title: 'Non-Blast by Design', desc: 'In fire tests to ISO 11119-3 and BS EN 14427:2022, the composite wall vents gas instead of bursting the way an over-pressured steel cylinder can.' },
 ];
 
 export default function ProductsAndAdvantagesPage() {
@@ -83,9 +83,9 @@ export default function ProductsAndAdvantagesPage() {
           <div>
             <h2 className="text-3xl font-black mb-4">Safety Testing on Every Cylinder</h2>
             <p className="text-green-100 leading-relaxed mb-5">
-              WAA Tech Cylinders quality assures 100% safety from explosion. Highly safe composite material
-              does not hold either static electricity or become engulfed in fire because of their appealing
-              shape and 50% less synthetic material than standard cylinders.
+              Every cylinder is hydrostatically pressure-tested and air-leak tested at the factory before
+              dispatch. In fire tests to ISO 11119-3 and BS EN 14427:2022, the composite wall vents gas
+              instead of bursting, so no metal fragments are thrown.
             </p>
             <p className="text-green-100 leading-relaxed mb-6">
               The cylinders feature jointless technology of pressure tensile to minimize leakage.
@@ -110,7 +110,7 @@ export default function ProductsAndAdvantagesPage() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { val: '100%', label: 'Explosion Proof', sub: 'Non-blast by design' },
+              { val: 'Non-blast', label: 'Fire tested', sub: 'ISO 11119-3 · BS EN 14427' },
               { val: '50%', label: 'Lighter', sub: 'Vs. steel cylinders' },
               { val: '5.5 kg', label: 'Empty Weight', sub: '10L cylinder' },
               { val: '12,000', label: 'Pressure Cycles', sub: '20+ year lifespan' },

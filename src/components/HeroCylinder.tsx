@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 const badges = [
-  { val: '100%', label: 'Explosion Proof', cls: 'cylinder-badge-1 top-6 right-2 md:right-6' },
+  { val: '100%', label: 'Non-Blast', cls: 'cylinder-badge-1 top-6 right-2 md:right-6' },
   { val: '20+',  label: 'Years Lifespan',  cls: 'cylinder-badge-2 top-1/2 right-0 md:right-2 -translate-y-1/2' },
   { val: '5.5kg',label: 'Light Weight',    cls: 'cylinder-badge-3 bottom-6 right-2 md:right-6' },
   { val: '12K',  label: 'Pressure Cycles', cls: 'cylinder-badge-4 bottom-6 left-2 md:left-6' },

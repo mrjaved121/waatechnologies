@@ -51,7 +51,7 @@ export default function OurTechnologyPage() {
           </div>
           <h1 className="text-5xl font-black mb-4">Our Technology</h1>
           <p className="text-green-100 text-xl max-w-2xl">
-            Advanced composite filament winding technology — delivering cylinders that are 100% safer,
+            Advanced composite filament winding technology — delivering cylinders that are non-blast by design,
             lighter, and longer-lasting than steel.
           </p>
         </div>

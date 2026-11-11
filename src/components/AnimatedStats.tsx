@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 const stats = [
-  { end: 100, suffix: '%',    label: 'Explosion Proof',      decimals: 0 },
+  { end: 100, suffix: '%',    label: 'Non-Blast',      decimals: 0 },
   { end: 5.5, suffix: ' kg',  label: 'Lightweight (10kg Size)', decimals: 1 },
   { end: 20,  suffix: '+',    label: 'Years Lifespan',        decimals: 0 },
   { end: 12000, suffix: '',   label: 'Pressure Cycles',       decimals: 0 },

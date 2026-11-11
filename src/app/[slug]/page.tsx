@@ -4353,9 +4353,8 @@ const articleContent: Record<string, React.ReactNode> = {
           {[
             'WAA Technologies showroom: 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial, Bahria Town Lahore',
             'Phone: (+92) 42 37815533 — call for dealer near your area of Lahore',
-            'Authorised dealers in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Faisal Town, and more',
-            '10 kg composite cylinder: Rs. 9,000–12,000 (LPG fill separate) — same refill cost as steel at any OGRA station',
-            'Free delivery available through select Lahore dealers — confirm when calling',
+            'Authorised Lahore dealer: Ashiq Home Appliance, Mugalpura Link Road, Nazad Railway Crossing Dryport — 0321 4354809',
+            'List prices: 5 kg Rs 8,000, 10 kg Rs 11,000 (empty cylinder; LPG fill bought separately)',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
@@ -4410,7 +4409,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Yes, particularly given Lahore&apos;s winter gas shortage pattern. A single 10 kg composite cylinder with one spare refill provides 6–10 weeks of backup cooking capacity — sufficient to cover Lahore&apos;s worst annual winter shortage periods without any disruption to household cooking. The cylinder&apos;s 20+ year rated life means it pays back this functionality year after year without replacement cost.</p>
 
       <h3>What is the composite LPG cylinder price in Lahore?</h3>
-      <p>Current 2025 prices at WAA Technologies authorised dealers in Lahore: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder; LPG fill purchased separately). Prices may vary slightly by dealer. Contact the Lahore showroom for current pricing in your area.</p>
+      <p>WAA Technologies list prices: 5 kg — Rs 8,000; 10 kg — Rs 11,000, in four colours (empty cylinder; LPG fill bought separately). WAA makes 5 kg and 10 kg cylinders only. Confirm the current price with the dealer or the Lahore showroom.</p>
     </>
   ),
 
@@ -6241,7 +6240,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Where is the WAA Technologies showroom in Lahore?', a: 'The WAA Technologies showroom is at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. Phone: (+92) 42 37815533. Open Monday to Saturday during regular business hours. Authorised dealers are located across DHA, Gulberg, Model Town, Johar Town, Faisal Town, Iqbal Town, and Cantt areas.' },
     { q: 'Does WAA Technologies offer home delivery of composite cylinders in Lahore?', a: 'Select WAA Technologies authorised dealers in Lahore offer home delivery of both empty and filled composite cylinders. Availability and charges vary by dealer and area. Contact the Lahore showroom at (+92) 42 37815533 for delivery options in your specific Lahore neighbourhood.' },
     { q: 'Why is a composite LPG cylinder especially useful during Lahore\'s winter gas shortage?', a: 'Lahore is on the SNGPL pipeline network, which experiences severe pressure collapses every winter (November–February) as Punjab heating demand spikes. A WAA composite cylinder provides fully independent LPG cooking fuel that is completely unaffected by pipeline pressure — meaning Lahore families with a composite cylinder can cook normally during the worst annual gas shortage weeks.' },
-    { q: 'What is the composite LPG cylinder price in Lahore in 2025?', a: '2025 prices at WAA Technologies authorised dealers in Lahore: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder; LPG fill purchased separately). Prices may vary slightly by dealer. Contact the Lahore showroom for current pricing.' },
+    { q: 'What is the composite LPG cylinder price in Lahore?', a: 'WAA Technologies list prices: 5 kg — Rs 8,000; 10 kg — Rs 11,000 (empty cylinder; LPG fill bought separately). WAA makes 5 kg and 10 kg cylinders only. Confirm the current price with the dealer or the Lahore showroom.' },
   ],
   'composite-lpg-cylinder-karachi': [
     { q: 'Why do steel LPG cylinders corrode faster in Karachi than other cities?', a: 'Karachi\'s proximity to the Arabian Sea creates a salt-laden coastal humidity environment that accelerates steel corrosion significantly — 2–3 times faster than in Lahore or Islamabad. Salt acts as an electrolyte that speeds up electrochemical corrosion on steel surfaces. A steel cylinder in Karachi develops visible rust in 18–24 months. WAA composite cylinders are completely immune: HDPE and glass fibre cannot corrode regardless of salt air or humidity exposure.' },

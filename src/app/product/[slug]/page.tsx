@@ -22,6 +22,10 @@ const products: Record<string, {
   weight: string;
   color: string;
   description: string;
+  // Search result title and snippet. People search "fiber cylinder price in
+  // pakistan", so these lead with the word they use and the price itself.
+  seoTitle: string;
+  seoDescription: string;
   features: string[];
 }> = {
   '10-kg-fiber-gas-cylinder': {
@@ -30,6 +34,8 @@ const products: Record<string, {
     weight: '10 kg',
     color: 'Yellow',
     description: 'WAATechnologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. Non-blast by design, UV resistant and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
+    seoTitle: '10 Kg Fiber Gas Cylinder Price in Pakistan: Rs 11,000',
+    seoDescription: '10 kg fiber (composite) LPG cylinder: Rs 11,000. About half the weight of steel at 5.5 kg empty, see-through body, ISO 11119-3 certified. Order on WhatsApp.',
     features: ['Non-Blast by Design', 'ISO 11119-3 Certified', 'UV Resistant HDPE Outer', 'Corrosion Free', 'Translucent Body', '20+ Year Lifespan'],
   },
   '5-kg-lpg-fiber-gas-cylinder-price-in-pakistan': {
@@ -38,7 +44,9 @@ const products: Record<string, {
     oldPrice: 8500,
     weight: '5 kg',
     color: 'Blue',
-    description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is perfect for small households. Lightweight, explosion-proof, and ISO certified — the safest small cylinder in Pakistan.',
+    description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is made for small households, travel and outdoor cooking. Lightweight, non-blast by design and ISO certified, with a see-through body that shows how much gas is left.',
+    seoTitle: '5 Kg Fiber Gas Cylinder Price in Pakistan: Rs 8,000',
+    seoDescription: '5 kg fiber (composite) LPG cylinder price today: Rs 8,000, was Rs 8,500. See the gas level through the body, no rust, ISO certified. Order on WhatsApp.',
     features: ['Non-Blast by Design', 'Ultra Lightweight', 'ISO Certified', 'UV Resistant', 'Corrosion Free', 'Translucent Visibility'],
   },
   'lpg-composite-cylinder-10kg-cerulean-blue': {
@@ -47,6 +55,8 @@ const products: Record<string, {
     weight: '10 kg',
     color: 'Cerulean Blue',
     description: 'The Cerulean Blue 10Kg composite cylinder combines WAA\'s world-class safety technology with a modern aesthetic design. Perfect for contemporary kitchens.',
+    seoTitle: '10 Kg Composite Gas Cylinder, Cerulean Blue: Rs 11,000',
+    seoDescription: 'Cerulean Blue 10 kg fiber (composite) LPG cylinder: Rs 11,000. About 5.5 kg empty, see-through body, no rust, ISO 11119-3 certified. Order on WhatsApp.',
     features: ['Cerulean Blue Finish', 'Non-Blast by Design', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Modern Design'],
   },
   'lpg-composite-cylinder-10kg-tiger-orange': {
@@ -55,6 +65,8 @@ const products: Record<string, {
     weight: '10 kg',
     color: 'Tiger Orange',
     description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology used in homes and kitchens across Pakistan.',
+    seoTitle: '10 Kg Composite Gas Cylinder, Tiger Orange: Rs 11,000',
+    seoDescription: 'Tiger Orange 10 kg fiber (composite) LPG cylinder: Rs 11,000. About 5.5 kg empty, see-through body, no rust, ISO 11119-3 certified. Order on WhatsApp.',
     features: ['Tiger Orange Finish', 'Non-Blast by Design', 'ISO 11119-3', 'UV Resistant', 'Corrosion Free', 'Bold Design'],
   },
 };
@@ -71,12 +83,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' };
   const img = productImages[slug];
   return {
-    title: product.name,
-    description: product.description,
+    title: product.seoTitle,
+    description: product.seoDescription,
     alternates: { canonical: `https://waatechnologies.com/product/${slug}` },
     openGraph: {
-      title: `${product.name} | WAATechnologies`,
-      description: product.description,
+      title: `${product.seoTitle} | WAATechnologies`,
+      description: product.seoDescription,
       type: 'website',
       images: img ? [{ url: `https://waatechnologies.com${img}`, width: 752, height: 752, alt: product.name }] : undefined,
     },
@@ -88,7 +100,7 @@ export function generateStaticParams() {
 }
 
 const highlights = [
-  { icon: Shield, label: 'Explosion Proof' },
+  { icon: Shield, label: 'Non-Blast by Design' },
   { icon: Feather, label: 'Lightweight' },
   { icon: Droplets, label: 'Corrosion Free' },
   { icon: Sun, label: 'UV Resistant' },
@@ -112,6 +124,7 @@ export default async function ProductPage({ params }: Props) {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    '@id': `https://waatechnologies.com/product/${slug}#product`,
     name: product.name,
     description: product.description,
     sku: slug,
@@ -131,15 +144,11 @@ export default async function ProductPage({ params }: Props) {
       url: `https://waatechnologies.com/product/${slug}`,
       priceCurrency: 'PKR',
       price: product.price,
-      priceValidUntil: '2026-12-31',
       itemCondition: 'https://schema.org/NewCondition',
       availability: 'https://schema.org/InStock',
       seller: { '@type': 'Organization', name: 'WAATechnologies Pvt Ltd' },
-      shippingDetails: {
-        '@type': 'OfferShippingDetails',
-        shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'PKR' },
-        shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'PK' },
-      },
+      // No shippingDetails: delivery is arranged by the dealer and its cost varies,
+      // so a fixed rate here (it said 0, i.e. free nationwide) would be untrue.
     },
     // NOTE: aggregateRating removed — Google penalises star-rating markup when no
     // reviews are visible on the page. Re-add it ONLY when real, visible reviews

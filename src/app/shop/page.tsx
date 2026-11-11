@@ -17,9 +17,9 @@ const colorGradient: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: 'LPG Composite Cylinder Prices: 5kg & 10kg',
+  title: { absolute: 'Fiber Cylinder Price in Pakistan: 5 Kg Rs 8,000, 10 Kg Rs 11,000' },
   description:
-    'Composite LPG cylinder prices in Pakistan: 5 kg Rs 8,000 and 10 kg Rs 11,000 in multiple colours. ISO-certified, made in Gujranwala. Order on WhatsApp today.',
+    'Fiber (composite) LPG cylinder prices in Pakistan today: 5 kg Rs 8,000, 10 kg Rs 11,000 in four colours. ISO certified, made in Gujranwala. Order on WhatsApp.',
   alternates: { canonical: 'https://waatechnologies.com/shop' },
 };
 
