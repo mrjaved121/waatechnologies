@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "script-src 'self' 'unsafe-inline' https://*.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://scripts.clarity.ms",
-              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://c.bing.com https://wa.me https://api.whatsapp.com",
+              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://www.google.com https://*.clarity.ms https://c.bing.com https://wa.me https://api.whatsapp.com",
               "base-uri 'self'",
               "form-action 'self'",
               "object-src 'none'",
