@@ -97,7 +97,7 @@ export default function ShopPage() {
       <section className="py-12 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {products.map((p) => (
+            {products.map((p, i) => (
               <Link
                 key={p.slug}
                 href={`/product/${p.slug}`}
@@ -116,6 +116,9 @@ export default function ShopPage() {
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
                       className="object-contain p-6 group-hover:scale-105 transition-transform duration-300"
+                      // The first card is the largest thing on a phone screen; load it
+                      // straight away instead of lazily.
+                      priority={i === 0}
                     />
                   ) : (
                     <div className="text-center">

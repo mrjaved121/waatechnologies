@@ -8,6 +8,10 @@ import { restoredPosts } from '@/content/restored-posts';
 
 type Props = { params: Promise<{ slug: string }> };
 
+// Only the posts listed here exist. Any other address gets the prebuilt 404 page
+// straight from the edge instead of a slow server render in the US region.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return allPosts.map((post) => ({ slug: post.slug }));
 }

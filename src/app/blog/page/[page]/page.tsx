@@ -70,10 +70,10 @@ export default async function BlogPaginationPage({ params }: Props) {
       <section className="py-16 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {posts.map((post) => (
+            {posts.map((post, i) => (
               <article key={post.slug} className="bg-white border border-line rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow card-hover">
                 <div className="relative h-48 overflow-hidden">
-                  <Link href={`/${post.slug}`} className="block absolute inset-0"><Image src={`/${post.slug}/opengraph-image`} alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" /></Link>
+                  <Link href={`/${post.slug}`} className="block absolute inset-0"><Image src={`/${post.slug}/opengraph-image`} alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" priority={i === 0} /></Link>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
