@@ -71,7 +71,7 @@ export default function CookieNotice() {
         <div>
           <p id="cookie-notice-title" className="font-bold text-ink">Cookies on this site</p>
           <p className="mt-1 text-sm leading-relaxed text-muted">
-            We use Google Analytics to see which pages people find useful. It stays off until you choose.{' '}
+            We use Google Analytics and Microsoft Clarity to see which pages people find useful and where the site is hard to use. Both stay off until you choose.{' '}
             <Link href="/privacy-policy" className="font-semibold text-brand underline underline-offset-2">
               Privacy policy
             </Link>

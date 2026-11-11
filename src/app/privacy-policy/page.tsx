@@ -32,7 +32,8 @@ export default function PrivacyPolicyPage() {
           <h2>4. Data Security</h2>
           <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
           <h2>5. Cookies</h2>
-          <p>Our website may use cookies to improve user experience and analyze website traffic. You can disable cookies through your browser settings, though some features may not function correctly.</p>
+          <p>We use two analytics tools, and both stay off until you click Accept on the cookie notice. Google Analytics counts visits, pages viewed and how visitors found the site. Microsoft Clarity records anonymised sessions and heatmaps showing how people scroll and click, so we can find pages that are hard to use; it masks text you type and does not record passwords or payment details. Neither tool is used to identify you personally.</p>
+          <p>You can change your choice by clearing this site&apos;s data in your browser, or block cookies in your browser settings. Some features may then not work correctly.</p>
           <h2>6. Your Rights</h2>
           <p>You have the right to access, correct, or delete your personal data at any time. To exercise these rights, contact us at info@waatechnologies.com.</p>
           <h2>7. Contact</h2>

@@ -86,9 +86,10 @@ export default function OrderInquiryButton({ name, price, className = '', compac
         >
           <ShoppingBag className="w-5 h-5" /> Order via WhatsApp
         </a>
+        {/* No dataLayer push here: this is a phone call, not a WhatsApp order.
+            Tag Manager's tel: link trigger records it as phone_call. */}
         <a
           href={`tel:${PHONE_NUMBER}`}
-          onClick={() => trackOrder(name, price, qty)}
           className="flex items-center gap-2 border-2 border-amber-500 text-[#8a5a00] hover:bg-amber-50 px-5 py-3.5 rounded-xl font-bold transition-all"
         >
           <Phone className="w-5 h-5" /> Call to Order
