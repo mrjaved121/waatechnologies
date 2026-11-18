@@ -98,6 +98,248 @@ const dealerCta = (heading: string) => (
 // Real article content keyed by slug
 const articleContent: Record<string, React.ReactNode> = {
 
+  /* ── ARTICLE: How to Stop a Gas Cylinder Freezing in Winter in Pakistan ── */
+  'how-to-stop-gas-cylinder-freezing-in-winter-pakistan': (
+    <>
+      <div className="not-prose bg-brand text-white rounded-2xl p-5 mb-8">
+        <p className="font-black text-white text-base mb-1">Quick Answer</p>
+        <p className="text-green-100 text-sm leading-relaxed">How do you stop a gas cylinder freezing in winter in Pakistan? The gas inside does not freeze. The cylinder turns cold and frosty because liquid LPG takes heat from the cylinder wall as it turns into gas, and a cold cylinder gives a weak flame. To fix it, <strong className="text-white">turn the appliance off and let the cylinder rest until the frost clears</strong>, run <strong className="text-white">one appliance at a time on a lower flame</strong>, keep the cylinder upright in a ventilated place out of the wind, and use a <strong className="text-white">larger or second cylinder</strong> for heavy users such as geysers. <strong className="text-white">Never warm a cylinder with a flame, a heater or boiling water.</strong> Pakistan&apos;s LPG price formula is based on <strong className="text-white">40% propane and 60% butane</strong>, and butane stops turning into gas at about 0°C, so the problem is worst on frosty nights and when the cylinder is nearly empty.</p>
+      </div>
+
+      <div className="not-prose bg-tint border-l-4 border-green-900 rounded-r-2xl p-5 mb-8">
+        <p className="font-black text-brand text-base mb-3 flex items-center gap-2">
+          <svg className="w-5 h-5 text-brand shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Key Takeaways
+        </p>
+        <ul className="space-y-2.5">
+          {[
+            'LPG does not freeze in any Pakistani winter: propane freezes at about -188°C and butane at about -138°C to -140°C',
+            'Frost on a cylinder is water from the air freezing on a cold wall; the wall is cold because liquid LPG takes heat from it while turning into gas',
+            'Propane keeps turning into gas down to about -42°C, but butane stops at about 0°C (sources quote -0.4°C to -2°C)',
+            'OGRA\'s November 2026 price notification is based on LPG of 40% propane and 60% butane, so cylinders in Pakistan are sensitive to cold nights',
+            'Published pressure tables show a propane-butane mix has roughly half the cylinder pressure at about 4°C that it has at about 21°C',
+            'Frost around the liquid line usually means the appliance is asking for more gas than that cylinder can supply; the fix is less demand or more cylinder',
+            'Never heat a cylinder with a flame, a room heater or boiling water, and never tilt, shake or turn it upside down to get more gas',
+          ].map((point) => (
+            <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
+              <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p>It is a familiar winter morning problem. The geyser lights and then fades, the stove flame shrinks to a blue ring, and the lower half of the cylinder is wet or white with frost even though you can feel there is still gas inside. Many people react by pouring hot water over the cylinder or, far worse, putting it next to a fire. This guide explains what is really happening, how to fix it safely tonight, and how to set up your cylinders so that it does not keep happening all winter. You should not need another website or a technician for the basic fix.</p>
+
+      <p>Winter is also when most gas accidents happen, so read this together with our <Link href="/lpg-gas-heater-safety-tips-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG gas heater safety tips</Link>. If the weak flame is on a water heater, our guide to <Link href="/instant-geyser-lpg-gas-consumption-per-hour-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">instant geyser LPG gas consumption per hour</Link> shows how much gas that appliance pulls, and <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to check the gas level in a composite cylinder</Link> helps you rule out the simplest cause, an empty cylinder.</p>
+
+      <p>The facts below were checked on 18 November 2026 against OGRA&apos;s LPG price notification for November 2026, technical pages from the LPG suppliers Elgas and Calor, the Engineering ToolBox pressure tables, guidance from the UK caterers&apos; association NCASS and Liquid Gas UK, and Radio Pakistan&apos;s report of the Pakistan Meteorological Department forecast. Each source is linked where it is used.</p>
+
+      <h2>Does LPG Actually Freeze in a Pakistani Winter?</h2>
+
+      <p>No. <a href="https://www.elgas.com.au/elgas-knowledge-hub/residential-lpg/lpg-freezing-point/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Elgas, an Australian LPG supplier</a>, gives the freezing point of propane as -188°C and of butane as -140°C, and the <a href="https://www.engineeringtoolbox.com/butane-d_1415.html" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Engineering ToolBox butane data sheet</a> lists butane&apos;s melting point as -138°C. Nowhere in Pakistan comes close to that. The liquid in your cylinder stays liquid.</p>
+
+      <p>What people call a &quot;frozen cylinder&quot; is two separate things happening together:</p>
+
+      <ul>
+        <li><strong>Frost on the outside.</strong> This is moisture from the air that has condensed and then frozen on a cold cylinder wall, in the same way that water forms on a glass of iced water.</li>
+        <li><strong>Not enough gas coming out.</strong> The liquid has become too cold to turn into gas as fast as the appliance wants it. This is the part that weakens the flame.</li>
+      </ul>
+
+      <p>The number that matters is therefore not the freezing point but the boiling point, the temperature at which the liquid turns into gas. Propane boils at about -42°C. Butane is very different: Elgas and the Engineering ToolBox give -0.4°C, while <a href="https://www.calor.co.uk/news-and-views/the-difference-between-butane-and-propane" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Calor</a> and NCASS use -2°C as the point at which butane stops working. Either way, butane gives up at about the temperature at which water freezes.</p>
+
+      <h2>Why the Cylinder Goes Cold and the Flame Goes Weak</h2>
+
+      <h3>Turning liquid into gas uses heat</h3>
+
+      <p>LPG is stored as a liquid under pressure and leaves the cylinder as a gas. Changing from liquid to gas needs heat, and the liquid takes that heat from the cylinder wall, which takes it from the surrounding air. Elgas explains that this makes the cylinder colder than the air around it, and colder still while gas is being used quickly. When the wall drops below the dew point you see condensation; when it drops below 0°C the condensation turns to frost. The frost stops at the level of the liquid inside, because only the wall touching the liquid is being cooled.</p>
+
+      <p>The Engineering ToolBox makes the same point about supply: if the heat reaching the liquid is limited, the liquid cools and evaporation falls. In plain words, a cylinder can only make gas as fast as heat can get in. Ask for more than that and it chills itself until the flame drops.</p>
+
+      <h3>Frost usually means the cylinder is too small for the job</h3>
+
+      <p><a href="https://www.ncass.org.uk/resources/legal-compliance/gas-safety/winter-lpg-safety-tips/" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">NCASS, the UK association for mobile caterers</a>, tells its members not to ignore frosting around the liquid line. Its explanation is that the appliances are demanding more gas than the cylinder can deliver, and that the answer is to check the appliance or to increase the number or size of cylinders. Elgas reaches the same conclusion: frost and ice point to a vessel that is too small for the vaporisation the system needs.</p>
+
+      <h3>Pakistan&apos;s LPG is mostly butane</h3>
+
+      <p>OGRA&apos;s notification of 31 October 2026, published on its <a href="https://www.ogra.org.pk/lpg-notified-prices" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG notified prices page</a>, describes the producers&apos; price as being for &quot;Propane 40% and Butane 60%&quot;. That is the reference mix for the official price. The exact blend in any one cylinder can differ from it, and it is not printed on the cylinder, but it tells you what to expect: more than half of the liquid is the component that struggles near 0°C.</p>
+
+      <p>The <a href="https://www.engineeringtoolbox.com/propane-butane-mix-d_1043.html" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Engineering ToolBox table of propane-butane vapour pressures</a> shows how quickly cylinder pressure falls with temperature. The table gives pounds per square inch above atmospheric pressure (psig); the bar figures and Celsius temperatures are our own conversions. Pakistan&apos;s 40:60 reference mix sits between the first two columns.</p>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">Liquid temperature</th>
+              <th className="p-3 text-left font-bold">50% propane, 50% butane</th>
+              <th className="p-3 text-left font-bold">30% propane, 70% butane</th>
+              <th className="p-3 text-left font-bold">Butane only</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['About 21°C (70°F)', '61 psig (about 4.2 bar)', '45 psig (about 3.1 bar)', '17 psig (about 1.2 bar)'],
+              ['10°C (50°F)', '41 psig (about 2.8 bar)', '28.5 psig (about 2.0 bar)', '6.9 psig (about 0.5 bar)'],
+              ['About 4°C (40°F)', '32.4 psig (about 2.2 bar)', '21.5 psig (about 1.5 bar)', '3.1 psig (about 0.2 bar)'],
+              ['About -1°C (30°F)', '24.5 psig (about 1.7 bar)', '15.4 psig (about 1.1 bar)', '0'],
+              ['About -7°C (20°F)', '17.8 psig (about 1.2 bar)', '10.2 psig (about 0.7 bar)', '0'],
+            ].map(([temp, mixA, mixB, butane]) => (
+              <tr key={temp} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{temp}</td>
+                <td className="p-3 text-muted">{mixA}</td>
+                <td className="p-3 text-muted">{mixB}</td>
+                <td className="p-3 text-muted">{butane}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p>Three things follow from this table. First, a mixed cylinder at about 4°C has roughly half the pressure it has at about 21°C. Second, a fresh mix still has pressure to spare in ordinary cold weather, which is why a full cylinder normally lights without trouble on a cold morning. Third, the temperature in the table is the temperature of the liquid, not the air. A cylinder feeding a geyser can chill its own liquid well below the air temperature, and then it moves down the table by itself.</p>
+
+      <h3>The last part of a cylinder is the weakest</h3>
+
+      <p>In a propane-butane mix the propane leaves faster than the butane, so the liquid that remains becomes richer in butane as the cylinder empties and its pressure falls. Outdoor-stove users see this every winter with mixed-gas canisters, and the <a href="https://faq.bushwalk.com/FAQ_Mixtures.htm" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Bushwalking FAQ on fuel mixtures</a> sets out the physics. We have not found a measurement of this for Pakistani domestic cylinders, so treat it as an explanation and not a figure: it is the likely reason a cylinder that worked well when full becomes sluggish on cold mornings when it is nearly finished, while still holding some liquid.</p>
+
+      <h2>How Cold Does It Get in Pakistan?</h2>
+
+      <p>Cold enough in the north and west to matter, and it is only November. <a href="https://radio.gov.pk/16-11-2026/dry-weather-expected-in-most-parts-pmd" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Radio Pakistan&apos;s report of the Pakistan Meteorological Department forecast on 16 November 2026</a> gave morning temperatures of 1°C in Gilgit, 4°C in Quetta, 6°C in Murree, 9°C in Islamabad, 10°C in Peshawar, 16°C in Lahore and 24°C in Karachi.</p>
+
+      <ul>
+        <li><strong>Gilgit-Baltistan, Quetta, Murree and other hill areas:</strong> nights are already near the point at which butane stops turning into gas. A cylinder kept outside can struggle even on a light load.</li>
+        <li><strong>Islamabad, Peshawar and the plains of Punjab:</strong> the air is cold but above 0°C, so the usual cause is a heavy appliance, most often a geyser, chilling a small or nearly empty cylinder.</li>
+        <li><strong>Karachi and the coast:</strong> cold-weather trouble is unlikely. A weak flame there is more likely an empty cylinder, a regulator or hose fault, or a blocked burner.</li>
+      </ul>
+
+      <h2>How to Do It — Step by Step</h2>
+
+      <p>Everything here is free and needs no tools, no agent and no technician. If anyone offers to &quot;defrost&quot; or &quot;treat&quot; your cylinder for a fee, say no.</p>
+
+      <ol>
+        <li><strong>Turn the appliance off and close the cylinder valve.</strong> Do not keep relighting a fading burner. A flame that goes out while the knob is open lets unburnt gas into the room.</li>
+        <li><strong>Check that the cylinder is not simply empty.</strong> On a translucent composite cylinder, look at the liquid level through the wall. On a steel cylinder, weigh it and subtract the empty weight marked on the body. Frost with liquid still inside means the cylinder is cold; no frost and no liquid means it is finished.</li>
+        <li><strong>Let it rest.</strong> Leave the valve closed and the cylinder upright in ordinary room or outdoor air. Once gas stops flowing, the liquid stops cooling, the wall warms back towards the air temperature and the frost melts. Wipe the water off with a cloth. There is no official figure for how long this takes; it depends on how cold the cylinder became and how warm the air is.</li>
+        <li><strong>Restart on a smaller load.</strong> Open the valve, light one appliance only and use a lower flame. Do not run the geyser, the stove and a heater from the same cylinder at the same moment.</li>
+        <li><strong>Move the cylinder to a better place.</strong> It should be upright, in a ventilated spot, out of the wind and rain, and at least 1 metre from any stove, heater, geyser burner or other source of heat or sparks, the minimum distance NCASS gives for ignition sources. An open-air cylinder cabinet or a sheltered, ventilated corner is ideal. Do not solve the problem by shutting the cylinder in a closed, unventilated room.</li>
+        <li><strong>Keep a second cylinder for heavy use.</strong> When the working cylinder frosts, close its valve, connect the other cylinder with the appliance off, check the joint with soapy water and carry on. The first cylinder recovers while it rests. Elgas notes that sharing the load between cylinders lowers the rate of use from each one and also reduces regulator freezing.</li>
+        <li><strong>If you must warm it, use only mild heat.</strong> Elgas lists an approved cylinder heater or a warm water bath as acceptable, and warns against extreme heat and any open flame. In practice that means warm tap water on the lower body with the appliance off, never boiling water from a kettle. Resting the cylinder is the safer habit.</li>
+        <li><strong>If the flame is still weak on a full, frost-free cylinder, look for a fault.</strong> Check the regulator, the hose and the burner jets using our guide to <Link href="/how-to-safely-connect-lpg-cylinder-regulator-at-home" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">connecting an LPG cylinder regulator safely</Link>. For a WAA composite cylinder, contact your seller from the official <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers</Link> page or use the <Link href="/contact-us" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAA Technologies contact page</Link>. For another brand, contact the LPG marketing company named on the cylinder.</li>
+      </ol>
+
+      <p><strong>What to expect afterwards:</strong> a rested cylinder should give a normal flame again on a moderate load. If frost returns every time you run a particular appliance, the cylinder is too small for that appliance and the lasting answer is in the sizing section below, not more warming.</p>
+
+      <h2>What You Must Never Do to a Cold Cylinder</h2>
+
+      <ul>
+        <li><strong>Never use a flame.</strong> No stove, candle, burning paper or blowtorch under or beside the cylinder. Elgas warns that open flames can cause an explosion.</li>
+        <li><strong>Never stand it next to a room heater or geyser burner.</strong> Keep the 1 metre gap. A cylinder needs air at normal temperature around it, not a hot surface on one side.</li>
+        <li><strong>Never pour boiling water over it.</strong> The published advice allows warm water only and says to avoid extreme heat.</li>
+        <li><strong>Never tilt, shake, lay down or invert the cylinder.</strong> Cylinders are stored and used upright, as NCASS and our <Link href="/how-to-store-lpg-cylinder-safely-home-pakistan-ogra-rules" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG storage guide</Link> both say. Shaking a cold cylinder does not make more gas.</li>
+        <li><strong>Never improvise a heater.</strong> No electric blanket, heating pad or heat lamp. NCASS advises its UK members against heated cylinder blankets because forcing more gas out with heat makes the cylinder volatile, and Elgas accepts only heaters approved for the purpose. A plain insulated jacket with no heating element is a different product, which NCASS says is used in countries with very low temperatures.</li>
+        <li><strong>Never move the cylinder into a sealed room to keep it warm.</strong> NCASS tells caterers to keep cylinders in a well-ventilated place even in snow. Ventilation matters more than a few degrees of warmth.</li>
+        <li><strong>Never ignore frost that keeps coming back.</strong> NCASS warns that an appliance demanding more gas than the cylinder can deliver may also burn badly and produce carbon monoxide.</li>
+      </ul>
+
+      <h2>Is It Frost, an Empty Cylinder or a Fault?</h2>
+
+      <div className="not-prose overflow-x-auto mb-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3 text-left font-bold">What you see</th>
+              <th className="p-3 text-left font-bold">Most likely cause</th>
+              <th className="p-3 text-left font-bold">What to do</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['Frost or water on the lower part of the cylinder, flame fading during long use', 'The cylinder is being asked for gas faster than it can supply it', 'Rest it, lower the load, add or switch to a second cylinder'],
+              ['Weak flame only on very cold mornings, cylinder nearly finished, little frost', 'Cold, butane-rich liquid with low pressure', 'Use the cylinder for light cooking in the warmer part of the day; keep a fuller cylinder for the geyser'],
+              ['No frost, no liquid visible, cylinder at its empty weight', 'The cylinder is empty', 'Refill through a licensed seller'],
+              ['Ice on the regulator while the cylinder body looks normal', 'Gas expanding through the regulator cools it; common at high flow', 'Lower the flame; if the flame is unstable, have the regulator checked or replaced'],
+              ['Weak or yellow flame on a full cylinder with no frost anywhere', 'Regulator, hose or burner fault', 'Close the valve, do the soapy-water leak test, clean the burner, replace worn parts'],
+              ['Smell of gas at any time', 'A leak', 'No flames or switches; close the valve, open doors and windows, go outside'],
+            ].map(([sign, cause, action]) => (
+              <tr key={sign} className="border-b border-line even:bg-tint">
+                <td className="p-3 font-semibold text-ink">{sign}</td>
+                <td className="p-3 text-muted">{cause}</td>
+                <td className="p-3 text-muted">{action}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Match the Cylinder to the Appliance</h2>
+
+      <p>Stopping the problem for good is a sizing question. The heavier the appliance, the more liquid surface and cylinder wall it needs behind it.</p>
+
+      <ul>
+        <li><strong>Instant geysers are the usual culprit.</strong> A 6 litre per minute instant geyser burns about 0.9 kg of LPG per hour at full flame, as our geyser guide works out. Give the geyser its own cylinder, the largest you use, and keep it reasonably full in the coldest weeks.</li>
+        <li><strong>Use the nearly empty cylinder for light work.</strong> A cylinder that can no longer keep a geyser going on a January morning will often still run a stove burner at midday.</li>
+        <li><strong>Turn the flow down.</strong> A lower flame for a little longer draws gas more slowly and gives the cylinder time to take in heat.</li>
+        <li><strong>Two cylinders beat one.</strong> For a restaurant, tandoor or tea stall, joining cylinders on a manifold spreads the load, but a manifold is fixed pipework and should be installed by a qualified gas fitter, not improvised with hose and clamps.</li>
+        <li><strong>Small cylinders chill fastest.</strong> A 5 kg cylinder is convenient for a single burner. It is the wrong choice for a geyser or a large heater in a cold town.</li>
+      </ul>
+
+      <h3>Does a composite cylinder behave differently in the cold?</h3>
+
+      <p>Partly, and it is worth being exact. WAA Technologies Pvt Ltd, based in Gujranwala, Punjab, Pakistan, makes composite LPG cylinders in 5 kg and 10 kg sizes. The same physics applies to them as to steel: the gas inside is the same and it cools as it is used. The Engineering ToolBox notes that composite containers transfer less heat from the surroundings than steel ones, which can cause problems at low surrounding temperatures. So a composite cylinder is not a cure for winter frosting, and the sizing rules above matter just as much.</p>
+
+      <p>Where it helps is in knowing what is going on. The translucent body shows the liquid level, so you can tell in a few seconds whether the cylinder is cold or simply empty, and you can keep the fuller cylinder on the geyser. The body does not rust, which matters when a cylinder is wet with condensation every winter morning. And a 10 kg WAA cylinder weighs about 5.5 kg empty, which makes swapping between two cylinders much less of a chore. For help choosing a size, see <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">5 kg vs 10 kg composite LPG cylinder</Link>.</p>
+
+      <h2>Should You Pay Extra for &quot;Winter Gas&quot;?</h2>
+
+      <p>No seller can change the weather, and the official price does not rise for the cold season. OGRA&apos;s <a href="https://www.ogra.org.pk/press-releases-2" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">press release of 31 October 2026</a> sets the maximum consumer price from 1 November 2026 at Rs&nbsp;294.08 per kg and Rs&nbsp;3,470.09 for an 11.8 kg cylinder, and the notification says this is the maximum at all levels of the supply chain for both local and imported LPG. OGRA does not publish a separate price or grade for winter. A higher propane share would help in the cold, but a shopkeeper has no way to prove what is in the cylinder, so do not pay above the notified rate for a promise of &quot;special&quot; or &quot;non-freezing&quot; gas.</p>
+
+      <p>If you are asked for more than the notified price, check the current rate in our <Link href="/lpg-price-pakistan-november-2026-ogra" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">LPG price in Pakistan for November 2026</Link> breakdown and follow the steps in our guide to the <Link href="/ogra-lpg-price-complaint-number-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">OGRA LPG price complaint number</Link>. Buy and refill only through licensed sellers and authorised dealers, and deal with them directly; nobody needs a middleman to buy gas.</p>
+
+      <h2>Common Mistakes</h2>
+
+      <ul>
+        <li><strong>Calling a cold cylinder empty.</strong> People return cylinders with gas still in them because the flame died on a cold morning. Check the level or the weight first.</li>
+        <li><strong>Turning the flame up when it fades.</strong> A higher setting asks for more gas and chills the cylinder faster.</li>
+        <li><strong>Running every appliance from one cylinder.</strong> The geyser and the stove together are often more than one small cylinder can supply in the cold.</li>
+        <li><strong>Leaving the cylinder in an exposed, windy spot on a freezing night.</strong> Shelter with ventilation is better than open wind.</li>
+        <li><strong>Relighting again and again in a closed bathroom or kitchen.</strong> Each failed attempt releases unburnt gas.</li>
+        <li><strong>Blaming the cylinder for a regulator or burner fault.</strong> If there is no frost and the cylinder is full, look elsewhere.</li>
+      </ul>
+
+      <h2>Winter Cylinder Checklist</h2>
+
+      <ul>
+        <li>Cylinder upright, in a ventilated place, out of wind and rain</li>
+        <li>At least 1 metre from any stove, heater, geyser burner or spark</li>
+        <li>Geyser on its own cylinder, the largest and fullest one</li>
+        <li>Second cylinder ready for swapping in the coldest weeks</li>
+        <li>Nearly empty cylinder kept for light daytime cooking</li>
+        <li>Hose and regulator checked before winter, joints tested with soapy water</li>
+        <li>Cylinder valve closed every night and whenever a flame fades</li>
+        <li>No flame, heater or boiling water ever used on a cylinder</li>
+        <li>Gas bought at or below the OGRA notified price from a licensed seller</li>
+      </ul>
+
+      <p>None of this can promise a strong flame on the coldest night in Skardu or Ziarat with a nearly empty cylinder. What it does is remove the causes you control: too much demand, too little cylinder, a bad position and unsafe shortcuts.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why does my gas cylinder freeze in winter?</h3>
+      <p>The gas inside does not freeze. Liquid LPG takes heat from the cylinder wall as it turns into gas, so the wall becomes colder than the air, and moisture from the air condenses and then freezes on it. Frost appears only up to the level of the liquid. It is worst when an appliance such as a geyser draws gas quickly, when the cylinder is small or nearly empty, and on cold nights. Frost that keeps returning usually means the cylinder is too small for the appliance connected to it.</p>
+
+      <h3>How do I stop my gas cylinder freezing in winter?</h3>
+      <p>Turn the appliance off, close the valve and let the cylinder rest until the frost melts, then restart with one appliance on a lower flame. Keep the cylinder upright in a ventilated place out of the wind and at least 1 metre from any heat source. For heavy users such as geysers, use a larger cylinder or keep a second cylinder and swap when frost forms. Never warm a cylinder with a flame, a room heater or boiling water.</p>
+
+      <h3>Can I pour hot water on a frozen gas cylinder?</h3>
+      <p>Do not use boiling or very hot water. The LPG supplier Elgas lists a warm water bath or an approved cylinder heater as acceptable ways to counter the cooling, and warns against extreme heat and open flames because an explosion could result. If you use water at all, use warm tap water on the lower body with the appliance off. The safer habit is to close the valve, let the cylinder rest and reduce the load on it.</p>
+
+      <h3>Does LPG freeze in winter in Pakistan?</h3>
+      <p>No. Propane freezes at about -188°C and butane at about -138°C to -140°C, far below any temperature recorded in Pakistan. The winter problem is the boiling point, not the freezing point. Propane turns into gas down to about -42°C, but butane stops at about 0°C, and OGRA&apos;s November 2026 price notification is based on LPG of 40% propane and 60% butane. In freezing weather a butane-rich cylinder produces gas slowly, which gives a weak flame.</p>
+
+      <h3>Why is my gas flame low in winter even though the cylinder is not empty?</h3>
+      <p>A cold cylinder has less pressure. Published tables for propane-butane mixes show roughly half the pressure at about 4°C compared with about 21°C, and heavy use cools the liquid further. The liquid left near the end of a cylinder is also richer in butane, which performs poorly near 0°C. Rest the cylinder, lower the flame and use a fuller or larger cylinder for the geyser. If a full, frost-free cylinder still gives a weak flame, check the regulator, hose and burner.</p>
+    </>
+  ),
+
   /* ── ARTICLE: OGRA LPG Price Complaint Number in Pakistan ── */
   'ogra-lpg-price-complaint-number-pakistan': (
     <>
@@ -450,7 +692,7 @@ const articleContent: Record<string, React.ReactNode> = {
         </table>
       </div>
 
-      <p>If the same cylinder also runs your stove, it will finish sooner. Many families keep the geyser on its own cylinder for this reason: you can see exactly what hot water is costing, and the kitchen does not go cold when the bathroom cylinder runs out. Our guide to <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">choosing between a 5 kg and 10 kg composite cylinder</Link> explains which size suits which job.</p>
+      <p>If the same cylinder also runs your stove, it will finish sooner. Many families keep the geyser on its own cylinder for this reason: you can see exactly what hot water is costing, and the kitchen does not go cold when the bathroom cylinder runs out. A geyser is also the appliance most likely to frost a small cylinder on a cold morning; our guide on <Link href="/how-to-stop-gas-cylinder-freezing-in-winter-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to stop a gas cylinder freezing in winter</Link> explains the safe fix. Our guide to <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">choosing between a 5 kg and 10 kg composite cylinder</Link> explains which size suits which job.</p>
 
       <h2>What Does a Hot Shower Cost on LPG?</h2>
 
@@ -998,7 +1240,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>It helps with some risks but not all, and it is important to be clear about which. A WAA Technologies composite LPG cylinder is certified to ISO 11119-3 and BS EN 14427:2022. In fire tests under those standards, the cylinder vents gas through its wall instead of rupturing, so it does not throw metal fragments. That is tested behaviour under those standards, not a guarantee under every possible condition. The body is jointless, so there are no weld seams to leak, and it does not rust, which matters for cylinders stored in damp winter conditions. You can read more in <Link href="/are-composite-lpg-cylinders-safe-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">are composite LPG cylinders safe?</Link></p>
 
-      <p>Two practical features also help in winter. The translucent body lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see the gas level by eye</Link>, so you are not shaking or tilting a cylinder next to a heater to guess how much is left. And a 10 kg WAA cylinder weighs about 5.5 kg empty, roughly half the weight of a comparable steel cylinder, which makes it easier to carry safely between rooms or to the dealer. WAA cylinders use standard Pakistani domestic valve fittings and work with the standard regulators sold in Pakistan.</p>
+      <p>Two practical features also help in winter. The translucent body lets you <Link href="/how-to-check-gas-level-composite-cylinder" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">see the gas level by eye</Link>, so you are not shaking or tilting a cylinder next to a heater to guess how much is left. And a 10 kg WAA cylinder weighs about 5.5 kg empty, roughly half the weight of a comparable steel cylinder, which makes it easier to carry safely between rooms or to the dealer. WAA cylinders use standard Pakistani domestic valve fittings and work with the standard regulators sold in Pakistan. If the cylinder turns frosty and the heater flame fades on cold nights, see <Link href="/how-to-stop-gas-cylinder-freezing-in-winter-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to stop a gas cylinder freezing in winter</Link>.</p>
 
       <p>What no cylinder can do is stop carbon monoxide from a heater burning in a closed room, or gas escaping from a worn hose or a knob left open. Those risks are controlled only by ventilation, switching off, closing the valve and using detectors. To buy a certified cylinder or arrange refills, contact one of WAA Technologies&apos; <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealers</Link>.</p>
 
@@ -6052,6 +6294,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
 // ── Per-article word counts for JSON-LD ──────────────────────────────────────
 const wordCounts: Record<string, number> = {
+  'how-to-stop-gas-cylinder-freezing-in-winter-pakistan': 3849,
   'ogra-lpg-price-complaint-number-pakistan': 3046,
   'instant-geyser-lpg-gas-consumption-per-hour-pakistan': 2590,
   'how-to-check-lpg-cylinder-expiry-date-pakistan': 2340,
@@ -6098,6 +6341,13 @@ const wordCounts: Record<string, number> = {
 
 // ── FAQPage schema data for People Also Ask / AI answer extraction ────────────
 const faqData: Record<string, { q: string; a: string }[]> = {
+  'how-to-stop-gas-cylinder-freezing-in-winter-pakistan': [
+    { q: 'Why does my gas cylinder freeze in winter?', a: 'The gas inside does not freeze. Liquid LPG takes heat from the cylinder wall as it turns into gas, so the wall becomes colder than the air, and moisture from the air condenses and then freezes on it. Frost appears only up to the level of the liquid. It is worst when an appliance such as a geyser draws gas quickly, when the cylinder is small or nearly empty, and on cold nights. Frost that keeps returning usually means the cylinder is too small for the appliance connected to it.' },
+    { q: 'How do I stop my gas cylinder freezing in winter?', a: 'Turn the appliance off, close the valve and let the cylinder rest until the frost melts, then restart with one appliance on a lower flame. Keep the cylinder upright in a ventilated place out of the wind and at least 1 metre from any heat source. For heavy users such as geysers, use a larger cylinder or keep a second cylinder and swap when frost forms. Never warm a cylinder with a flame, a room heater or boiling water.' },
+    { q: 'Can I pour hot water on a frozen gas cylinder?', a: 'Do not use boiling or very hot water. The LPG supplier Elgas lists a warm water bath or an approved cylinder heater as acceptable ways to counter the cooling, and warns against extreme heat and open flames because an explosion could result. If you use water at all, use warm tap water on the lower body with the appliance off. The safer habit is to close the valve, let the cylinder rest and reduce the load on it.' },
+    { q: 'Does LPG freeze in winter in Pakistan?', a: 'No. Propane freezes at about -188°C and butane at about -138°C to -140°C, far below any temperature recorded in Pakistan. The winter problem is the boiling point, not the freezing point. Propane turns into gas down to about -42°C, but butane stops at about 0°C, and OGRA\'s November 2026 price notification is based on LPG of 40% propane and 60% butane. In freezing weather a butane-rich cylinder produces gas slowly, which gives a weak flame.' },
+    { q: 'Why is my gas flame low in winter even though the cylinder is not empty?', a: 'A cold cylinder has less pressure. Published tables for propane-butane mixes show roughly half the pressure at about 4°C compared with about 21°C, and heavy use cools the liquid further. The liquid left near the end of a cylinder is also richer in butane, which performs poorly near 0°C. Rest the cylinder, lower the flame and use a fuller or larger cylinder for the geyser. If a full, frost-free cylinder still gives a weak flame, check the regulator, hose and burner.' },
+  ],
   'ogra-lpg-price-complaint-number-pakistan': [
     { q: 'What is the OGRA complaint number for LPG overcharging?', a: 'OGRA\'s toll-free number for public complaints about the LPG, CNG and oil sectors is 0800-77733, as listed on its Contact Us page. OGRA\'s working hours are Monday to Friday, 9:00 am to 5:00 pm. You can also call the head office switchboard in Islamabad on 051-9108890 to 98 or a regional office in Lahore, Karachi, Peshawar, Quetta, Multan or Sukkur. Have the seller\'s name and address, the price charged and the weight filled ready before you call.' },
     { q: 'How do I file an LPG price complaint with OGRA online?', a: 'Go to OGRA\'s Lodge Complaints page at ogra.org.pk and open the Online Complaint System. The form asks for your name, CNIC, city, province, address, the company or dealer complained about, a description of the problem and supporting files in PDF, JPG or PNG of up to 5 MB each, and it gives a tracking ID. The form is built mainly around gas utility disputes, so for LPG overcharging it is sensible to call 0800-77733 or write to the Registrar as well.' },

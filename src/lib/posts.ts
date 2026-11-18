@@ -43,6 +43,20 @@ export function metaDescriptionFor(post: Post): string {
 const allPostsRaw: Post[] = [
   // ── BLOG POSTS ──────────────────────────────────────────────────────────────
 
+  // ── How-To / Winter ──────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-stop-gas-cylinder-freezing-in-winter-pakistan',
+    title: 'How to Stop a Gas Cylinder Freezing in Winter in Pakistan — Why the LPG Flame Goes Weak and the Safe Fix',
+    seoTitle: 'How to Stop Gas Cylinder Freezing in Winter in Pakistan',
+    metaDescription: 'How to stop a gas cylinder freezing in winter in Pakistan: why LPG cylinders frost and the flame fades, the safe step-by-step fix and what never to do.',
+    date: 'Nov 18, 2026',
+    category: 'How-To',
+    type: 'blog',
+    readingTime: '19 min read',
+    tags: ['how-to-stop-gas-cylinder-freezing-in-winter', 'lpg-cylinder-freezing', 'low-gas-flame-in-winter', 'winter-heating-lpg', 'lpg-safety-pakistan', 'lpg-cylinder-for-geyser', 'composite-lpg-cylinders', 'waa-technologies'],
+    excerpt: 'How to stop a gas cylinder freezing in winter in Pakistan: the gas does not freeze, the cylinder chills itself as LPG turns into gas. Rest it, lower the load, use a larger or second cylinder for geysers, and never warm it with a flame or boiling water. Step-by-step fix inside.',
+  },
+
   // ── How-To / OGRA Complaints ─────────────────────────────────────────────────
   {
     slug: 'ogra-lpg-price-complaint-number-pakistan',
