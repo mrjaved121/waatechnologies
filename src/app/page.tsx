@@ -101,6 +101,19 @@ const useCases = [
 
 const cities = ['Lahore', 'Rawalpindi–Islamabad', 'Karachi', 'Sialkot'];
 
+// Manufacturer figures for both sizes. Shown side by side so buyers can compare.
+const sizeSpecs: [string, string, string][] = [
+  ['LPG capacity', '5 kg', '10 kg'],
+  ['Water capacity', '12 litres', '24 litres'],
+  ['Empty (tare) weight', 'approx. 3.5 kg', 'approx. 5.5 kg'],
+  ['Working pressure', '20 bar', '20 bar'],
+  ['Test pressure', '30 bar', '30 bar'],
+  ['Construction', 'Jointless HDPE liner, glass-fibre wound', 'Jointless HDPE liner, glass-fibre wound'],
+  ['Standards', 'ISO 11119-3 · BS EN 14427:2022', 'ISO 11119-3 · BS EN 14427:2022'],
+  ['Best for', '1–3 people, travel, outdoor cooking', '4–8 people, family kitchens, restaurants'],
+  ['Price', 'Rs 8,000', 'Rs 11,000'],
+];
+
 const certifications = [
   { label: 'Certificate of Incorporation', desc: 'SECP', img: '/images/certificates/1-1.jpg' },
   { label: 'ISO 9001:2015', desc: 'Quality management', img: '/images/certificates/waatechnologies-vertificate-ISO-9001-2015.jpg' },
@@ -292,6 +305,45 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-6xl flex-col items-center px-6">
           <SectionHead eyebrow="Help me choose" title="Which size suits your kitchen?" />
           <SizeHelper />
+        </div>
+      </section>
+
+      {/* ─── SPECIFICATIONS: 5 KG VS 10 KG ───────────────────────────────── */}
+      <section id="specifications" className="bg-white py-24">
+        <div className="mx-auto max-w-4xl px-6">
+          <SectionHead
+            eyebrow="Technical specifications"
+            title="5 kg vs 10 kg, side by side."
+            sub="Both sizes share the same jointless construction and certifications. Only the capacity and weight change."
+          />
+          <div className="overflow-x-auto rounded-2xl border border-line">
+            <table className="w-full min-w-[34rem] border-collapse text-left text-sm">
+              <thead>
+                <tr className="bg-brand-dark text-white">
+                  <th scope="col" className="p-4 font-semibold">Specification</th>
+                  <th scope="col" className="p-4 font-semibold">5 kg cylinder</th>
+                  <th scope="col" className="p-4 font-semibold">10 kg cylinder</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sizeSpecs.map(([label, small, large]) => (
+                  <tr key={label} className="border-t border-line even:bg-tint">
+                    <th scope="row" className="p-4 font-medium text-muted">{label}</th>
+                    <td className="p-4 font-semibold text-ink">{small}</td>
+                    <td className="p-4 font-semibold text-ink">{large}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-sm text-muted">
+            10 kg cylinder dimensions: 580 mm tall, 306 mm diameter; 12 kg butane capacity. Cylinders are filled by weight at
+            authorised dealers.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
+            <Link href="/5kg-vs-10kg-composite-lpg-cylinder" className="text-brand hover:text-brand-dark">Full 5 kg vs 10 kg buying guide →</Link>
+            <Link href="/our-technology" className="text-brand hover:text-brand-dark">How the cylinder is made →</Link>
+          </div>
         </div>
       </section>
 
