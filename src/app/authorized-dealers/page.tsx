@@ -6,7 +6,7 @@ import BulkQuoteForm from '@/components/BulkQuoteForm';
 export const metadata: Metadata = {
   title: 'Composite LPG Cylinder Dealers in Pakistan',
   description:
-    'Find an authorised WAATechnologies composite LPG cylinder dealer in Lahore, Rawalpindi, Sialkot, Karachi, Hyderabad or Peshawar, with addresses and phones.',
+    'Find an authorised WAATechnologies composite LPG cylinder dealer in Lahore, Rawalpindi / Islamabad, Sialkot or Karachi, with addresses and phone numbers.',
   alternates: { canonical: 'https://waatechnologies.com/authorized-dealers' },
 };
 
@@ -44,24 +44,6 @@ const regions = [
         address: 'Karachi',
         phone: '0345 2887277',
       },
-      {
-        name: 'Gujrat Gass Cylinder',
-        address: 'Pakkah Qila Street No 4, Hyderabad, Sindh',
-        phone: '0222663544-45 / 0315 4374577',
-      },
-    ],
-  },
-  {
-    name: 'KPK',
-    color: 'bg-amber-50 border-amber-200',
-    headerColor: 'bg-amber-600',
-    dealers: [
-      {
-        name: 'Global Gas Corner',
-        address: 'Malik Ghulam Rasool Market, Gulabad Police Station, Chamkani G.T Road, Peshawar',
-        phone: '0300 9590349 / 0300 5522337',
-        contacts: 'Syed Athar Ali Shah, Syed Tariq Ali Shah',
-      },
     ],
   },
 ];
@@ -88,10 +70,10 @@ export default function AuthorizedDealersPage() {
           <div className="text-center mb-14">
             <h2 className="text-4xl font-black text-ink mb-4">Our Dealer Network</h2>
             <p className="text-muted max-w-xl mx-auto text-lg">
-              Authorized dealers across Punjab, Sindh, and KPK — growing every month.
+              Authorized dealers across Punjab and Sindh — growing every month.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {regions.map((region) => (
               <div key={region.name} className={`rounded-2xl border overflow-hidden ${region.color}`}>
                 <div className={`${region.headerColor} px-6 py-4 text-white`}>

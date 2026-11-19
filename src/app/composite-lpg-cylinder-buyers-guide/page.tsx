@@ -134,8 +134,8 @@ export default function BuyersGuidePage() {
 
             <h2>Where to buy, refill and exchange</h2>
             <p>
-              Authorised dealers are listed with addresses and phone numbers for Lahore, Rawalpindi and Islamabad, Sialkot,
-              Karachi, Hyderabad and Peshawar, and you can order on WhatsApp for delivery. Refills and exchanges go through the
+              Authorised dealers are listed with addresses and phone numbers for Lahore, Rawalpindi and Islamabad, Sialkot
+              and Karachi, and you can order on WhatsApp for delivery. Refills and exchanges go through the
               dealer network, which fills by weight and checks the valve and body each time. Never refill a cylinder yourself or
               at an unlicensed roadside setup. Our guide explains{' '}
               <Link href="/how-to-refill-composite-lpg-cylinder-pakistan">how refilling works step by step</Link>.

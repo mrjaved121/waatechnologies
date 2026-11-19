@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Dealership post: the visible steps/FAQ and the HowTo/FAQPage schema read from these same
 // constants, so what users see and what crawlers see are guaranteed to match word-for-word.
 const dealerApplySteps: { name: string; text: string }[] = [
-  { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar), then note the city and area you want to serve.' },
+  { name: 'Check dealer availability in your city', text: 'Review the current dealer list at waatechnologies.com/authorized-dealers to see where WAA Technologies is already represented (Lahore, Sialkot, Rawalpindi / Islamabad and Karachi), then note the city and area you want to serve.' },
   { name: 'Prepare your premises and business details', text: 'Have the address of your retail shop or storage space, your valid business registration, and a rough idea of the cylinder sizes and volumes you plan to stock.' },
   { name: 'Contact the WAA Technologies sales team', text: 'Message WAA on WhatsApp at +92 3414999998, call +92 423 781 5533, email info@waatechnologies.com, or use the contact page at waatechnologies.com/contact-us.' },
   { name: 'Share your location and business details', text: 'Tell the sales team your city, area, type of business and premises. WAA reviews your details and confirms whether your area is available.' },
@@ -70,7 +70,7 @@ const dealerFaqs: { q: string; a: string }[] = [
   { q: 'What is required to open an LPG composite cylinder dealership?', a: 'Typically a retail or storage space, valid business registration, and an initial stock investment. Exact terms are confirmed during application. WAA cylinders are distributed through OGRA-licensed dealers, so ask the sales team which licence or approval applies to your location and business type.' },
   { q: 'Is a gas cylinder dealership profitable in Pakistan?', a: 'Demand for lightweight composite cylinders is rising, so early dealers in a city can benefit as households and businesses switch from steel. Composite cylinders are under 5% of Pakistan\'s cylinder fleet and WAA Technologies projects 25–35% annual demand growth. Actual profitability depends on your city, location, stock turnover and local competition.' },
   { q: 'Does WAA give marketing support to dealers?', a: 'Yes, WAA Technologies provides branding, dealer pricing and marketing support as part of its authorised dealer network. The sales team explains what support applies to your city and premises during onboarding.' },
-  { q: 'Which cities is WAA Technologies looking for dealers in?', a: 'WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. It currently lists authorised dealers in Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar. Contact WAA to check availability in your area.' },
+  { q: 'Which cities is WAA Technologies looking for dealers in?', a: 'WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. It currently lists authorised dealers in Lahore, Sialkot, Rawalpindi / Islamabad and Karachi. Contact WAA to check availability in your area.' },
 ];
 
 const dealerCta = (heading: string) => (
@@ -1757,7 +1757,7 @@ const articleContent: Record<string, React.ReactNode> = {
         <p className="text-ink text-sm leading-relaxed">If you are buying for a restaurant, commercial kitchen, or food business: <Link href="/why-restaurants-switching-composite-lpg-cylinders-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">composite is the only rational choice</Link> — the safety, operational, and regulatory compliance advantages compound in a high-usage commercial environment.</p>
       </div>
 
-      <p>WAA Technologies composite cylinders are available from authorised dealers across Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, and growing city networks across Punjab, Sindh, and KPK. To find your nearest dealer, visit waatechnologies.com/authorized-dealers or call (+92) 42 37815533.</p>
+      <p>WAA Technologies composite cylinders are available from authorised dealers across Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, and growing city networks across Punjab and Sindh. To find your nearest dealer, visit waatechnologies.com/authorized-dealers or call (+92) 42 37815533.</p>
     </>
   ),
 
@@ -1779,7 +1779,7 @@ const articleContent: Record<string, React.ReactNode> = {
         </p>
         <ul className="space-y-2.5">
           {[
-            'WAA Technologies runs an authorised dealer network across Punjab, Sindh and KPK, with listed dealers in Lahore, Sialkot, Rawalpindi / Islamabad, Karachi, Hyderabad and Peshawar',
+            'WAA Technologies runs an authorised dealer network across Punjab and Sindh, with listed dealers in Lahore, Sialkot, Rawalpindi / Islamabad and Karachi',
             'Typical requirements: a retail or storage space, valid business registration and an initial stock order — exact terms are confirmed by WAA during application',
             'Authorised dealers receive supply, dealer pricing, branding and marketing support from WAA Technologies',
             'Composite cylinders are under 5% of Pakistan\'s cylinder fleet and demand is projected to grow 25–35% a year, so early dealers can capture the switch from steel',
@@ -1858,7 +1858,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Which Cities and Areas Is WAA Expanding Into?</h2>
 
-      <p>WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. Its dealer list currently shows authorised dealers in six locations across Punjab, Sindh and KPK:</p>
+      <p>WAA Technologies is expanding across major cities including Lahore, Karachi, Islamabad and beyond. Its dealer list currently shows authorised dealers in four locations across Punjab and Sindh:</p>
 
       <div className="not-prose overflow-x-auto mb-6">
         <table className="w-full text-sm border-collapse">
@@ -1871,8 +1871,7 @@ const articleContent: Record<string, React.ReactNode> = {
           <tbody>
             {[
               ['Punjab', 'Lahore, Sialkot, Rawalpindi / Islamabad'],
-              ['Sindh', 'Karachi, Hyderabad'],
-              ['KPK', 'Peshawar'],
+              ['Sindh', 'Karachi'],
             ].map(([province, cities]) => (
               <tr key={province} className="border-b border-line even:bg-tint">
                 <td className="p-3 font-bold text-slate-800">{province}</td>
@@ -2013,7 +2012,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Where to Buy the Right Size in Pakistan</h2>
 
-      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab, Sindh, and KPK. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>. If you would rather stock and sell these sizes yourself, see <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to become a WAA Technologies composite cylinder dealer</Link>.</p>
+      <p>Both 5 kg and 10 kg WAA Technologies composite cylinders are available through authorised dealers in <Link href="/composite-lpg-cylinder-lahore" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Lahore</Link>, <Link href="/composite-lpg-cylinder-karachi" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Karachi</Link>, and <Link href="/composite-lpg-cylinder-islamabad" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">Islamabad and Rawalpindi</Link>, along with dealer networks across Punjab and Sindh. Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer, or contact WAA Technologies directly at <strong>(+92) 4237815533</strong>. If you would rather stock and sell these sizes yourself, see <Link href="/become-waa-composite-cylinder-dealer-pakistan" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">how to become a WAA Technologies composite cylinder dealer</Link>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -2369,7 +2368,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>How to Switch to a Made in Pakistan Composite Cylinder This Independence Day</h2>
 
-      <p>Switching from a steel cylinder to a <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAATechnologies composite cylinder</Link> is straightforward. WAATechnologies maintains an <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealer network</Link> across Punjab (Lahore, Gujranwala, Faisalabad, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad).</p>
+      <p>Switching from a steel cylinder to a <Link href="/our-products-and-advantages" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">WAATechnologies composite cylinder</Link> is straightforward. WAATechnologies maintains an <Link href="/authorized-dealers" className="text-green-700 underline decoration-green-300 underline-offset-2 hover:text-brand font-medium">authorised dealer network</Link> across Punjab (Lahore, Gujranwala, Faisalabad, Rawalpindi, Multan) and Sindh (Karachi).</p>
 
       <p>Purchase the cylinder size appropriate for your household or business — 5 kg for small households, 10 kg for standard families and commercial use. Have it filled at any OGRA-licensed LPG fill point. No new regulator is required in most cases — the cylinder valve is compatible with standard Pakistani LPG regulators. The same per-kg LPG fill cost applies as for steel cylinders.</p>
 
@@ -2573,7 +2572,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>WAA Technologies Pvt Ltd manufactures composite LPG cylinders at its Gujranwala facility to ISO 11119-3 and EN 14427-2022 international standards — both of which are accepted by OGRA as equivalent to or exceeding the PS 4922 requirements for composite cylinder construction. Each WAA cylinder carries: individual serial number, manufacture date, tare weight, test pressure, standard certification reference, and service life date — all permanently marked on the cylinder body in compliance with OGRA marking requirements.</p>
 
-      <p>WAA cylinders are distributed exclusively through OGRA-licensed dealers across Punjab, Sindh, and KPK. Purchasing through an authorised WAA dealer guarantees that the cylinder, the refilling station, and the dealer are all operating within OGRA&apos;s licensing framework — giving you both legal compliance and the highest available safety standard in a single purchase decision.</p>
+      <p>WAA cylinders are distributed exclusively through OGRA-licensed dealers across Punjab and Sindh. Purchasing through an authorised WAA dealer guarantees that the cylinder, the refilling station, and the dealer are all operating within OGRA&apos;s licensing framework — giving you both legal compliance and the highest available safety standard in a single purchase decision.</p>
 
       <h2>Frequently Asked Questions About OGRA LPG Cylinder Rules</h2>
 
@@ -2732,7 +2731,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Yes. Certified composite LPG cylinders are physically incapable of the blast fragmentation that makes steel cylinder explosions so deadly. ISO 11119-3 certification requires passing a fire engulfment test where the cylinder develops a controlled gas leak rather than rupturing. Every certified composite cylinder has passed this test. Steel cylinders are not required to pass an equivalent fire engulfment test for domestic certification in Pakistan.</p>
 
       <h3>Which composite LPG cylinder brand is best in Pakistan?</h3>
-      <p>WAA Technologies Pvt Ltd, manufactured in Gujranwala and certified to both ISO 11119-3 and EN 14427-2022, is Pakistan&apos;s leading domestic composite cylinder manufacturer. WAA cylinders are available through an authorised dealer network across Punjab, Sindh, and KPK. When choosing any composite cylinder, confirm it carries an individual serial number, a visible ISO 11119-3 or EN 14427 certification marking, and is sold through an OGRA-licensed dealer.</p>
+      <p>WAA Technologies Pvt Ltd, manufactured in Gujranwala and certified to both ISO 11119-3 and EN 14427-2022, is Pakistan&apos;s leading domestic composite cylinder manufacturer. WAA cylinders are available through an authorised dealer network across Punjab and Sindh. When choosing any composite cylinder, confirm it carries an individual serial number, a visible ISO 11119-3 or EN 14427 certification marking, and is sold through an OGRA-licensed dealer.</p>
 
       <h3>Can I switch from steel to composite without changing my regulator?</h3>
       <p>In most cases, yes — WAA Technologies composite cylinders use standard LPG valve configurations compatible with regulators already in use in most Pakistani households. However, confirm compatibility with your WAA authorised dealer when purchasing, as regulator requirements can vary by appliance pressure specification. WAA also supplies matched regulators for guaranteed compatibility.</p>
@@ -3115,7 +3114,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>Where to Buy a Composite LPG Cylinder in Pakistan</h2>
 
-      <p>WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer in your city. You can also contact WAA Technologies directly at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.</p>
+      <p>WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan) and Sindh (Karachi). Visit <strong>waatechnologies.com/authorized-dealers</strong> to find the nearest authorised dealer in your city. You can also contact WAA Technologies directly at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.</p>
 
       <h2>Frequently Asked Questions About Composite Cylinder Pricing</h2>
 
@@ -3376,7 +3375,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>WAA Technologies backs its composite cylinders with manufacturer warranty and authorised service support across Pakistan. The warranty covers manufacturing defects in the cylinder body and valve assembly. Physical damage from handling incidents is not covered under warranty — this is standard for all cylinder manufacturers — but WAA Technologies authorised dealers can assess damage, perform valve replacements, and advise on whether a cylinder is within its service life parameters.</p>
 
-      <p>For Pakistani buyers, the availability of a local manufacturer with an authorised dealer network across Punjab, Sindh, and KPK is a significant practical advantage over imported composite cylinders. An imported cylinder that develops a valve issue or requires assessment has no local manufacturer support infrastructure in Pakistan — the buyer is left relying on the importer, who may or may not maintain after-sales capability. WAA Technologies, as Pakistan&apos;s domestic composite cylinder manufacturer, has the established dealer network and technical capability to support its products through their full 20-year service life.</p>
+      <p>For Pakistani buyers, the availability of a local manufacturer with an authorised dealer network across Punjab and Sindh is a significant practical advantage over imported composite cylinders. An imported cylinder that develops a valve issue or requires assessment has no local manufacturer support infrastructure in Pakistan — the buyer is left relying on the importer, who may or may not maintain after-sales capability. WAA Technologies, as Pakistan&apos;s domestic composite cylinder manufacturer, has the established dealer network and technical capability to support its products through their full 20-year service life.</p>
 
       <h2>Reading Your Cylinder&apos;s Manufacture Date</h2>
 
@@ -3568,7 +3567,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <ul>
         <li><strong>WAA Technologies direct</strong> — showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. Contact: (+92) 42 37815533</li>
-        <li><strong>Authorised dealers across Pakistan</strong> — covering Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Full dealer list at waatechnologies.com/authorized-dealers</li>
+        <li><strong>Authorised dealers across Pakistan</strong> — covering Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan) and Sindh (Karachi). Full dealer list at waatechnologies.com/authorized-dealers</li>
         <li><strong>Online</strong> — available through the WAA Technologies shop at waatechnologies.com/shop</li>
       </ul>
 
@@ -3814,7 +3813,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Pakistan&apos;s Factories Act 1934 and the Workmen&apos;s Compensation Act 1923 both apply to workplace injuries in commercial kitchens classified as factory or industrial premises. The Factories Act requires employers to provide safe working conditions and equipment. An employer who requires kitchen staff to repeatedly perform lifts that exceed safe manual handling limits — using unnecessarily heavy equipment when lighter alternatives exist and are commercially available — may face exposure under these statutes if a worker is injured. Switching to composite cylinders is demonstrable due diligence in providing lighter, safer handling equipment for a known heavy-lift task.</p>
 
       <h3>How do I order composite cylinders for my restaurant from WAA Technologies?</h3>
-      <p>Contact WAA Technologies directly at (+92) 42 37815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. For restaurants requiring multiple cylinders, commercial pricing is available. WAA Technologies authorised dealers also serve restaurant and commercial accounts across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find your nearest commercial account dealer.</p>
+      <p>Contact WAA Technologies directly at (+92) 42 37815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore. For restaurants requiring multiple cylinders, commercial pricing is available. WAA Technologies authorised dealers also serve restaurant and commercial accounts across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi) and Sindh (Karachi). Visit waatechnologies.com/authorized-dealers to find your nearest commercial account dealer.</p>
     </>
   ),
 
@@ -4430,7 +4429,7 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Yes. PARCO LPG is a licensed, OGRA-regulated product that meets the specification requirements for LPG sold in Pakistan. The safety question relevant to Pakistan&apos;s household accident statistics is not about the quality of the gas — it is about the type of cylinder the gas is stored in. The same gas in a corroded 15-year-old steel cylinder is far more dangerous than in a new certified composite cylinder.</p>
 
       <h3>Does WAA Technologies have dealers in all Pakistani cities?</h3>
-      <p>WAA Technologies has an authorised dealer network across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). The network continues to expand. Find your nearest authorised dealer at waatechnologies.com/authorized-dealers or call (+92) 4237815533.</p>
+      <p>WAA Technologies has an authorised dealer network across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan) and Sindh (Karachi). The network continues to expand. Find your nearest authorised dealer at waatechnologies.com/authorized-dealers or call (+92) 4237815533.</p>
 
       <h3>Are PARCO cylinders certified to the same standard as WAA?</h3>
       <p>PARCO steel cylinders are manufactured to PS 4922 — Pakistan&apos;s national standard for steel LPG cylinders. WAA Technologies composite cylinders are certified to ISO 11119-3 and EN 14427-2022 — international standards that include significantly more comprehensive safety testing, including fire engulfment testing that confirms non-blast behaviour. ISO 11119-3 is a more demanding standard than PS 4922 in terms of fire safety performance requirements.</p>
@@ -4980,7 +4979,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h2>WAA Technologies: Pakistan&apos;s Leading Composite Cylinder Manufacturer</h2>
 
-      <p>WAA Technologies Pvt Ltd is Pakistan&apos;s leading domestic manufacturer of composite LPG cylinders. Operating from a purpose-built manufacturing facility in Gujranwala, Punjab, WAA Technologies produces composite cylinders certified to ISO 11119-3 and EN 14427-2022 — the most rigorous international composite cylinder standards in use globally. WAA Technologies holds a current OGRA manufacturing licence for composite LPG cylinder production and distributes exclusively through its authorised dealer network across Punjab, Sindh, and KPK.</p>
+      <p>WAA Technologies Pvt Ltd is Pakistan&apos;s leading domestic manufacturer of composite LPG cylinders. Operating from a purpose-built manufacturing facility in Gujranwala, Punjab, WAA Technologies produces composite cylinders certified to ISO 11119-3 and EN 14427-2022 — the most rigorous international composite cylinder standards in use globally. WAA Technologies holds a current OGRA manufacturing licence for composite LPG cylinder production and distributes exclusively through its authorised dealer network across Punjab and Sindh.</p>
 
       <p>WAA Technologies&apos; quality management system maintains production standards that support the ISO 11119-3 certification through annual surveillance testing and documented production quality controls. Every WAA cylinder is individually serialised, with the serial number traceable to production batch, testing record, and certification documentation. This traceability exceeds OGRA&apos;s minimum requirements and provides consumers with a level of product accountability that is uncommon in Pakistan&apos;s LPG equipment market.</p>
 
@@ -5108,7 +5107,7 @@ const articleContent: Record<string, React.ReactNode> = {
             'A single steel cylinder explosion in a restaurant can mean criminal liability, complete insurance loss, and permanent closure',
             'Composite cylinders\' see-through body is the single most operationally valuable feature for busy commercial kitchens',
             'Restaurants in Lahore, Karachi, and Islamabad report 30–50% reductions in cylinder-related operational downtime after switching',
-            'WAATechnologies supplies composite cylinders to commercial and restaurant accounts across Punjab, Sindh, and KPK',
+            'WAATechnologies supplies composite cylinders to commercial and restaurant accounts across Punjab and Sindh',
           ].map((point) => (
             <li key={point} className="flex items-start gap-2.5 text-sm text-ink">
               <span className="text-brand font-black mt-0.5 shrink-0">✓</span>
@@ -5221,7 +5220,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s restaurant industry runs on gas. The question is not whether to use LPG — there is no practical alternative for high-volume Pakistani commercial cooking. The question is which LPG cylinder to use: a heavy, opaque, corrosion-prone steel vessel with an unpredictable service life and an explosion risk that grows as the cylinder ages, or a lightweight, transparent, corrosion-free composite vessel with a 20+ year service life, non-blast safety certification, and the level visibility that allows a commercial kitchen to manage its gas supply with the same precision it applies to every other operational resource.</p>
 
-      <p>From Lahore&apos;s Food Street to Karachi&apos;s Boat Basin, from Islamabad&apos;s F-7 to Faisalabad&apos;s city centre, the Pakistani restaurant industry has been answering that question consistently: composite cylinders. WAATechnologies Pvt Ltd manufactures those composite cylinders in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards, and supplies them through an authorised dealer network across Punjab, Sindh, and KPK.</p>
+      <p>From Lahore&apos;s Food Street to Karachi&apos;s Boat Basin, from Islamabad&apos;s F-7 to Faisalabad&apos;s city centre, the Pakistani restaurant industry has been answering that question consistently: composite cylinders. WAATechnologies Pvt Ltd manufactures those composite cylinders in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards, and supplies them through an authorised dealer network across Punjab and Sindh.</p>
 
       <p>Contact WAATechnologies for commercial restaurant accounts at (+92) 4237815533, visit our showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore, or find your nearest authorised dealer at waatechnologies.com/authorized-dealers.</p>
     </>
@@ -5476,7 +5475,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Beyond the non-blast safety advantage, WAA composite cylinders offer three additional safety benefits. First, their translucent HDPE body lets you see the gas level at a glance — eliminating the dangerous practice of tipping, shaking, or using a flame to estimate whether a cylinder is empty. Second, their corrosion-free construction means the cylinder body will never develop rust-related weaknesses in its structural integrity over its 20+ year service life. Third, their 50% lower weight compared to steel makes them easier to move, position, and handle safely — reducing the risk of dropping accidents that can damage valves or dent cylinder bodies.</p>
 
-      <p>WAATechnologies composite cylinders are manufactured in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards. Every cylinder is individually hydro-tested and air-leak tested before leaving the factory. They are available through an authorised dealer network across Punjab, Sindh, and KPK, and directly through the WAATechnologies online shop.</p>
+      <p>WAATechnologies composite cylinders are manufactured in Gujranwala to ISO 11119-3 and EN 14427-2022 international standards. Every cylinder is individually hydro-tested and air-leak tested before leaving the factory. They are available through an authorised dealer network across Punjab and Sindh, and directly through the WAATechnologies online shop.</p>
 
       <h2>Frequently Asked Questions About Gas Cylinder Safety in Pakistan</h2>
 
@@ -5655,13 +5654,13 @@ const articleContent: Record<string, React.ReactNode> = {
       <p>Yes. Composite LPG cylinders are compatible with LPG room heaters and water heaters, in addition to cooking stoves. Gas heaters consume LPG at significantly higher rates than cooking stoves, so a household using one cylinder for both cooking and heating will need to increase their buffer stock accordingly. A 12 kg composite cylinder used for combined cooking and heating in a Pakistani winter may last 2–3 weeks rather than the 5–6 weeks typical for cooking-only use.</p>
 
       <h3>Where can I find a WAATechnologies authorised dealer near me?</h3>
-      <p>WAATechnologies operates an authorised dealer network across Punjab, Sindh, and KPK. Contact WAATechnologies directly at (+92) 4237815533 to locate your nearest authorised dealer. Always purchase composite cylinders through authorised channels to ensure you receive a genuine, certified, and warranted product.</p>
+      <p>WAATechnologies operates an authorised dealer network across Punjab and Sindh. Contact WAATechnologies directly at (+92) 4237815533 to locate your nearest authorised dealer. Always purchase composite cylinders through authorised channels to ensure you receive a genuine, certified, and warranted product.</p>
 
       <h2>Conclusion: The Most Practical Solution Available Today</h2>
 
       <p>Pakistan&apos;s LPG gas shortage is the product of multiple compounding factors — declining domestic production, fragile import chains, explosive demand growth, and an ageing distribution infrastructure held together by a cylinder fleet that is past its best. Solving this problem comprehensively requires years of infrastructure investment, regulatory reform, and import diversification. But one component of the solution is available today, to every Pakistani household and to every LPG distributor in the country: replacing conventional steel cylinders with modern composite LPG cylinders that deliver more gas per delivery trip, last twice as long, never corrode, and waste less LPG throughout the distribution chain.</p>
 
-      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 international standards at their Gujranwala facility. Every cylinder is individually hydro-tested and certified before leaving the factory. With an authorised dealer network across Punjab, Sindh, and KPK, WAA composite cylinders are available nationwide. Every household that makes the switch is not just solving their own shortage problem — they are contributing to a distribution system that works better for everyone. That is a rare opportunity to do well and good simultaneously, and it is available starting today.</p>
+      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 international standards at their Gujranwala facility. Every cylinder is individually hydro-tested and certified before leaving the factory. With an authorised dealer network across Punjab and Sindh, WAA composite cylinders are available nationwide. Every household that makes the switch is not just solving their own shortage problem — they are contributing to a distribution system that works better for everyone. That is a rare opportunity to do well and good simultaneously, and it is available starting today.</p>
 
       <p>Contact WAATechnologies at (+92) 4237815533 or visit our showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Visit our online shop to order your composite cylinder and take control of your household&apos;s LPG supply security.</p>
     </>
@@ -5842,7 +5841,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s winter gas shortage will arrive in 2025 exactly as it has every year for the past two decades. It will cause suffering for unprepared households and be a minor background inconvenience for prepared ones. The difference between those two experiences is determined entirely by whether preparation happens in August and September or is postponed until the shortage is already underway in December. The prepared household — with two WAA composite cylinders installed, stove serviced, CO detector in place, and dealer contact saved — will cook hot meals every morning of winter without interruption, regardless of what SNGPL&apos;s gas pressure does. That household security is available to every Pakistani family. The only question is whether you act now, while you have time to do it properly, or wait until the shortage makes every step harder.</p>
 
-      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 standards at their Gujranwala facility. Available in 5 kg, 10 kg, and 12 kg sizes through authorised dealers across Punjab, Sindh, and KPK. Contact us at (+92) 4237815533 or visit 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Visit our shop today and make your home winter-ready.</p>
+      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 standards at their Gujranwala facility. Available in 5 kg, 10 kg, and 12 kg sizes through authorised dealers across Punjab and Sindh. Contact us at (+92) 4237815533 or visit 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Visit our shop today and make your home winter-ready.</p>
     </>
   ),
 
@@ -6179,7 +6178,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <h3>Step 3: Purchase Through an Authorised Dealer</h3>
 
-      <p>WAATechnologies composite cylinders are available exclusively through an authorised dealer network across Punjab, Sindh, and KPK. Authorised dealers supply genuine, individually serialised and certified cylinders with full manufacturer warranties. They also supply matched high-quality regulators and can provide guidance on compatible hose and connection fittings for your stove. Purchasing through authorised channels is the only way to ensure you receive a cylinder that has been individually hydro-tested and certified at the WAA Gujranwala manufacturing facility — not a counterfeit, a rebranded import, or an uncertified product from the unregulated secondary market.</p>
+      <p>WAATechnologies composite cylinders are available exclusively through an authorised dealer network across Punjab and Sindh. Authorised dealers supply genuine, individually serialised and certified cylinders with full manufacturer warranties. They also supply matched high-quality regulators and can provide guidance on compatible hose and connection fittings for your stove. Purchasing through authorised channels is the only way to ensure you receive a cylinder that has been individually hydro-tested and certified at the WAA Gujranwala manufacturing facility — not a counterfeit, a rebranded import, or an uncertified product from the unregulated secondary market.</p>
 
       <h3>Step 4: Professional Installation</h3>
 
@@ -6223,7 +6222,7 @@ const articleContent: Record<string, React.ReactNode> = {
 
       <p>Pakistan&apos;s electricity load shedding has made electricity an unreliable cooking fuel for tens of millions of households. The response — switching to LPG cooking — is practical, economical, safe, and aligned with the cooking techniques that Pakistani cuisine demands. The choice of cylinder technology within that switch matters enormously: WAATechnologies composite cylinders provide non-blast safety, visible level monitoring, lightweight daily handling, and a 20-year service life that steel cylinders cannot match. Millions of Pakistani households have already made the switch. The data on electricity costs, reliability, and load shedding trajectories suggests that millions more should. The only question remaining is whether your household will be among those that prepare ahead of the next outage, or among those that discover the need for LPG while waiting in a dark kitchen for the power to come back.</p>
 
-      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 international standards at their Gujranwala facility. Authorised dealers are available across Punjab, Sindh, and KPK. Contact us at (+92) 4237815533 or visit 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Visit our shop to find the right composite cylinder for your household and make your home cooking load-shedding proof — starting today.</p>
+      <p>WAATechnologies Pvt Ltd manufactures composite LPG cylinders to ISO 11119-3 and EN 14427-2022 international standards at their Gujranwala facility. Authorised dealers are available across Punjab and Sindh. Contact us at (+92) 4237815533 or visit 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town Lahore. Visit our shop to find the right composite cylinder for your household and make your home cooking load-shedding proof — starting today.</p>
     </>
   ),
 
@@ -6402,7 +6401,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'Are WAA Technologies cylinders better than PARCO cylinders?', a: 'On safety, yes — categorically. WAA Technologies composite cylinders cannot explode (BLEVE) under fire engulfment; PARCO steel cylinders are not non-blast certified. Composite cylinders also cannot corrode, weigh 50% less, show gas levels visually, and last 20+ years versus 8–12 years for steel. PARCO cylinders have lower upfront cost; WAA cylinders have lower total cost over a 10–20 year ownership period.' },
     { q: 'Are Chinese imported composite cylinders safe to buy in Pakistan?', a: 'Some are, and some are not. Genuine ISO 11119-3 certified Chinese imports from accredited testing laboratories are safe products. However, Pakistan\'s market also contains Chinese cylinders with counterfeit certification markings. Verify certification by getting the specific certificate number and confirming it directly with the named testing laboratory before purchase. Never accept a certification photocopy as verification.' },
     { q: 'What is the price of a WAA Technologies composite cylinder in 2026?', a: 'WAA Technologies 10 kg composite cylinders are priced at approximately Rs. 9,000–12,000 in 2026, depending on the dealer and region. The 5 kg variant is approximately Rs. 6,000–8,000. While higher than steel cylinder upfront costs, the total cost over a 10-year ownership period is comparable or lower when hydrotest avoidance and longer service life are factored in.' },
-    { q: 'Where can I buy a WAA Technologies cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available from authorised dealers across Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, and growing networks in Punjab, Sindh, and KPK. Visit waatechnologies.com/authorized-dealers to find your nearest dealer, or call (+92) 42 37815533.' },
+    { q: 'Where can I buy a WAA Technologies cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available from authorised dealers across Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, and growing networks in Punjab and Sindh. Visit waatechnologies.com/authorized-dealers to find your nearest dealer, or call (+92) 42 37815533.' },
   ],
   'become-waa-composite-cylinder-dealer-pakistan': dealerFaqs,
   '5kg-vs-10kg-composite-lpg-cylinder': [
@@ -6422,7 +6421,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'What is the OGRA standard for LPG cylinders in Pakistan?', a: 'OGRA requires LPG cylinders to comply with Pakistan Standard PS 4922 for steel cylinders, or ISO 11119-3 / EN 14427-2022 for composite cylinders. Every legal LPG cylinder must display manufacturer name, manufacture date, serial number, tare weight, test pressure, applicable standard, and last test date permanently on the cylinder body.' },
     { q: 'How often must LPG cylinders be hydrotested in Pakistan?', a: 'OGRA requires steel LPG cylinders to be hydrotested every 5 years at an OGRA-licensed facility. A steel cylinder whose hydrotest date is more than 5 years ago cannot legally be refilled. Composite cylinders certified to ISO 11119-3 do not require the same periodic hydrotesting — they carry a 20+ year rated service life validated through the certification testing process.' },
     { q: 'What happens if I use a non-compliant LPG cylinder in a commercial premises in Pakistan?', a: 'OGRA inspectors can issue immediate stop-use notices for non-compliant equipment, require replacement of all non-compliant cylinders within 48 hours, and refer serious or repeated non-compliance for prosecution under the Petroleum Act 1934. Commercial operators face fines and in serious cases criminal charges following cylinder blast incidents where equipment was found non-compliant.' },
-    { q: 'How do I find OGRA-licensed LPG dealers in my area?', a: 'OGRA maintains a register of licensed LPG dealers on its website at ogra.org.pk. You can also verify dealer licensing by asking the dealer to show their current OGRA licence — licensed dealers are required to display it prominently at their premises. WAA Technologies maintains an authorised dealer network across Punjab, Sindh, and KPK; find your nearest dealer at waatechnologies.com/authorized-dealers.' },
+    { q: 'How do I find OGRA-licensed LPG dealers in my area?', a: 'OGRA maintains a register of licensed LPG dealers on its website at ogra.org.pk. You can also verify dealer licensing by asking the dealer to show their current OGRA licence — licensed dealers are required to display it prominently at their premises. WAA Technologies maintains an authorised dealer network across Punjab and Sindh; find your nearest dealer at waatechnologies.com/authorized-dealers.' },
   ],
   'steel-vs-composite-lpg-cylinder-pakistan': [
     { q: 'Is a composite LPG cylinder really safer than steel for Pakistani homes?', a: 'Yes. Certified composite LPG cylinders are physically incapable of the blast fragmentation that makes steel cylinder explosions so deadly. ISO 11119-3 certification requires passing a fire engulfment test where the cylinder develops a controlled gas leak rather than rupturing. Steel cylinders are not required to pass an equivalent fire engulfment test for domestic certification in Pakistan.' },
@@ -6452,7 +6451,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     { q: 'How much does a composite LPG cylinder cost in Pakistan in 2025?', a: 'In 2025, WAA Technologies composite LPG cylinders are priced at approximately: 5 kg — Rs. 7,000–9,000; 10 kg — Rs. 9,000–12,000; 12 kg — Rs. 10,000–14,000 (empty cylinder, LPG fill purchased separately). Prices vary by city and dealer. The LPG refill cost is the same as for steel cylinders — composite does not cost more to refill.' },
     { q: 'Is the LPG refill price different for a composite cylinder in Pakistan?', a: 'No. LPG refill price is determined by the weight of gas purchased at the per-kg rate set by OGRA, and is the same regardless of cylinder type — steel or composite. A 10 kg LPG refill costs the same whether you have a WAA composite cylinder or a conventional steel cylinder.' },
     { q: 'Is a composite LPG cylinder worth the extra cost in Pakistan?', a: 'Over a 10-year period, the total cost of ownership for a composite cylinder is comparable to steel when hydrotest costs and replacement frequency are factored in. Composite cylinders eliminate the Rs. 700 hydrotest every 5 years and do not need replacement at year 8–10 like steel cylinders. The 20+ year service life, gas level visibility, 50% lighter weight, and non-blast safety certification add substantial value beyond the cost comparison.' },
-    { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
+    { q: 'Where can I buy a WAA Technologies composite LPG cylinder in Pakistan?', a: 'WAA Technologies composite cylinders are available through authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Multan) and Sindh (Karachi). Visit waatechnologies.com/authorized-dealers to find the nearest dealer, or contact WAA Technologies at (+92) 4237815533 or visit the showroom at 172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial Bahria Town, Lahore.' },
   ],
   'composite-lpg-cylinders-food-trucks-street-vendors-pakistan': [
     { q: 'Can composite LPG cylinders handle the continuous high-heat cooking of a food stall or food truck?', a: 'Yes. WAA Technologies composite cylinders are rated for 12,000 fill-and-empty pressure cycles and 20+ years of service life — exceeding commercial food stall usage demands by a wide margin. They deliver the same gas flow rate and pressure as steel cylinders of equivalent size. Commercial karahi vendors, biryani cooks, and BBQ stall operators using composite cylinders report identical burner performance to their previous steel cylinders.' },
@@ -6605,7 +6604,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     },
     {
       q: 'Where can I find a WAATechnologies authorised dealer near me?',
-      a: 'WAATechnologies operates an authorised dealer network across Punjab, Sindh, and KPK. Contact WAATechnologies directly at (+92) 4237815533 or visit the Authorised Dealers page at waatechnologies.com to locate your nearest dealer. Always purchase through authorised channels to receive a genuine, certified, warranted product.',
+      a: 'WAATechnologies operates an authorised dealer network across Punjab and Sindh. Contact WAATechnologies directly at (+92) 4237815533 or visit the Authorised Dealers page at waatechnologies.com to locate your nearest dealer. Always purchase through authorised channels to receive a genuine, certified, warranted product.',
     },
   ],
   'winter-gas-shortage-pakistan-2025-prepare-your-home': [
@@ -6687,7 +6686,7 @@ const faqData: Record<string, { q: string; a: string }[]> = {
     },
     {
       q: 'Where can I buy a transparent gas cylinder in Pakistan?',
-      a: 'WAA Technologies is currently the only manufacturer offering transparent composite LPG cylinders in Pakistan. They are available from the WAA Technologies showroom in Bahria Town Lahore (172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial), from the online shop at waatechnologies.com/shop, and from authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan), Sindh (Karachi, Hyderabad), and KPK (Peshawar, Abbottabad). Contact WAA Technologies at (+92) 42 37815533 or find your nearest dealer at waatechnologies.com/authorized-dealers.',
+      a: 'WAA Technologies is currently the only manufacturer offering transparent composite LPG cylinders in Pakistan. They are available from the WAA Technologies showroom in Bahria Town Lahore (172-A First Floor, Adjacent Bahria Grand Masjid, Sector E Commercial), from the online shop at waatechnologies.com/shop, and from authorised dealers across Punjab (Lahore, Faisalabad, Gujranwala, Rawalpindi, Sialkot, Multan) and Sindh (Karachi). Contact WAA Technologies at (+92) 42 37815533 or find your nearest dealer at waatechnologies.com/authorized-dealers.',
     },
   ],
   'composite-cylinders-reduce-lifting-injuries-restaurants-pakistan': [
@@ -7038,7 +7037,7 @@ export default async function SlugPage({ params }: Props) {
 
               <div className="bg-tint rounded-2xl p-6 border border-line">
                 <h3 className="font-bold text-ink mb-3 text-sm uppercase tracking-wide">Find a Dealer</h3>
-                <p className="text-muted text-xs mb-3">Authorized dealers in Punjab, Sindh &amp; KPK.</p>
+                <p className="text-muted text-xs mb-3">Authorized dealers in Punjab &amp; Sindh.</p>
                 <Link href="/authorized-dealers" className="inline-flex items-center gap-1 text-brand font-semibold text-sm hover:text-brand-dark">
                   View Dealers <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
