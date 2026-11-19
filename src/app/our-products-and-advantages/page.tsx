@@ -88,14 +88,15 @@ export default function ProductsAndAdvantagesPage() {
               instead of bursting, so no metal fragments are thrown.
             </p>
             <p className="text-green-100 leading-relaxed mb-6">
-              The cylinders feature jointless technology of pressure tensile to minimize leakage.
+              WAATechnologies is a world pioneer in jointless technology: the cylinders have no welded
+              joints or seams, which minimises the risk of leakage.
               Every cylinder undergoes hydro testing and air leakage testing before leaving our facility.
               The translucent body allows users to check LPG levels visually, and the design prevents
               LPG from freezing due to kitchen temperatures.
             </p>
             <ul className="flex flex-col gap-2">
               {[
-                'Hydro tested to 1.5× working pressure',
+                'Working pressure 20 bar, test pressure 30 bar',
                 'Air leakage tested — zero defects leave factory',
                 'Jointless pressure tensile design',
                 'Approximately 12,000 cycle lifespan',
@@ -112,7 +113,7 @@ export default function ProductsAndAdvantagesPage() {
             {[
               { val: 'Non-blast', label: 'Fire tested', sub: 'ISO 11119-3 · BS EN 14427' },
               { val: '50%', label: 'Lighter', sub: 'Vs. steel cylinders' },
-              { val: '5.5 kg', label: 'Empty Weight', sub: '10L cylinder' },
+              { val: '5.5 kg', label: 'Empty Weight', sub: '10 kg (24 L) cylinder' },
               { val: '12,000', label: 'Pressure Cycles', sub: '20+ year lifespan' },
             ].map((s) => (
               <div key={s.label} className="bg-white/10 border border-white/20 rounded-2xl p-5 text-center">

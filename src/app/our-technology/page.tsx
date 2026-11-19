@@ -95,7 +95,7 @@ export default function OurTechnologyPage() {
             <h2 className="text-3xl font-black text-ink mb-5">Why Composite Over Steel?</h2>
             <div className="flex flex-col gap-4">
               {[
-                { label: 'Weight', steel: 'Heavy — ~14 kg empty for 10L', composite: 'Light — ~5.5 kg empty for 10L' },
+                { label: 'Weight', steel: 'Heavy — ~14 kg empty for a 10 kg cylinder', composite: 'Light — ~5.5 kg empty for a 10 kg (24 L) cylinder' },
                 { label: 'Blast Risk', steel: 'High — metallic shrapnel on failure', composite: 'Zero — non-blast, non-fragmentation' },
                 { label: 'Corrosion', steel: 'Rusts over time', composite: 'Never corrodes — HDPE + fibreglass' },
                 { label: 'Lifespan', steel: '~10 years', composite: '20+ years, 12,000 cycles' },
@@ -115,9 +115,11 @@ export default function OurTechnologyPage() {
               {[
                 { label: 'Liner Material', val: 'High-Density Polyethylene (HDPE)' },
                 { label: 'Outer Shell', val: 'Glass fibre composite winding' },
-                { label: 'Working Pressure', val: '30 bar (standard LPG)' },
-                { label: 'Burst Pressure', val: '≥ 1.5× working pressure' },
-                { label: 'Empty Weight (10L)', val: '~5.5 kg' },
+                { label: 'Working Pressure', val: '20 bar' },
+                { label: 'Test Pressure', val: '30 bar' },
+                { label: 'Water Capacity (10 kg)', val: '24 litres' },
+                { label: 'Empty Weight (10 kg)', val: '~5.5 kg' },
+                { label: 'Empty Weight (5 kg)', val: '~3.5 kg' },
                 { label: 'Service Life', val: '20+ years / 12,000 cycles' },
               ].map((row) => (
                 <div key={row.label} className="flex justify-between items-center py-2 border-b border-green-100 last:border-0">

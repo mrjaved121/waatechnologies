@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, ArrowRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Waa Tech Stores',
   description:
-    'Find WAATechnologies stores near you. Visit our Bahria Town Lahore showroom or Life LPG Store in DHA Phase 5, Askari 11 to experience our composite cylinders in person.',
+    'Visit the WAATechnologies head office and showroom in Bahria Town Lahore to see our composite LPG cylinders in person, or find an authorised dealer near you.',
   alternates: { canonical: 'https://waatechnologies.com/waa-tech-stores' },
 };
 
@@ -18,15 +18,6 @@ const stores = [
     hours: 'Mon–Sat: 10:00 AM – 5:00 PM',
     type: 'Head Office',
     badge: 'bg-tint text-brand',
-  },
-  {
-    name: 'Life LPG Store',
-    address: 'DHA Phase 5, Askari 11, Lahore',
-    phone: '+92 3414999998',
-    whatsapp: '+92 3414999998',
-    hours: 'Mon–Sat: 9:00 AM – 7:00 PM',
-    type: 'Authorized Store',
-    badge: 'bg-blue-100 text-blue-700',
   },
 ];
 
@@ -50,12 +41,12 @@ export default function WaaTechStoresPage() {
       <section className="py-20 bg-tint">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-black text-ink mb-4">Our Locations</h2>
+            <h2 className="text-4xl font-black text-ink mb-4">Our Showroom</h2>
             <p className="text-muted max-w-xl mx-auto">
-              Experience WAA composite cylinders in person at our showroom and authorized store locations.
+              Experience WAA composite cylinders in person at our Bahria Town Lahore showroom, or buy through an <Link href="/authorized-dealers" className="text-brand font-semibold hover:text-brand-dark">authorised dealer</Link> near you.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid gap-8 max-w-xl mx-auto">
             {stores.map((store) => (
               <div key={store.name} className="bg-white rounded-2xl shadow-sm border border-line overflow-hidden card-hover">
                 <div className="bg-brand-dark h-40 flex items-center justify-center">

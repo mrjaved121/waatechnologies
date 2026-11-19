@@ -99,7 +99,7 @@ const useCases = [
   },
 ];
 
-const cities = ['Lahore', 'Rawalpindi–Islamabad', 'Karachi', 'Sialkot', 'Hyderabad', 'Peshawar'];
+const cities = ['Lahore', 'Rawalpindi–Islamabad', 'Karachi', 'Sialkot'];
 
 const certifications = [
   { label: 'Certificate of Incorporation', desc: 'SECP', img: '/images/certificates/1-1.jpg' },
@@ -122,7 +122,7 @@ const homeFaqs = [
   { q: 'How long does a composite cylinder last?', a: 'WAA composite cylinders carry a rated service life of 20+ years under ISO 11119-3. Because the body does not corrode, they do not weaken over time the way steel cylinders do.' },
   { q: 'Can I see how much gas is left?', a: 'Yes. The composite body is translucent, so you can see the gas level at a glance without lifting or shaking the cylinder.' },
   { q: 'Is a composite cylinder lighter than a steel one?', a: 'Yes, significantly. A 10 kg WAA cylinder weighs about 5.5 kg empty, roughly half a steel cylinder of the same capacity, which matters for elderly users, upper-floor homes and busy restaurant kitchens.' },
-  { q: 'Where can I buy a WAATechnologies cylinder?', a: 'From authorised dealers in Lahore, Rawalpindi and Islamabad, Sialkot, Karachi, Hyderabad and Peshawar, listed with addresses and phone numbers on our dealers page, or by ordering on WhatsApp for delivery.' },
+  { q: 'Where can I buy a WAATechnologies cylinder?', a: 'From authorised dealers in Lahore, Rawalpindi and Islamabad, Sialkot and Karachi, listed with addresses and phone numbers on our dealers page, or by ordering on WhatsApp for delivery.' },
   { q: 'How do I refill or exchange a composite cylinder?', a: 'Through the authorised dealer network. Dealers refill by weight and check the valve and body each time. Never refill a cylinder yourself or at an unlicensed roadside setup.' },
   { q: 'Will it work with my existing regulator?', a: 'WAA cylinders are designed for the standard household LPG regulators sold in Pakistan, so your current regulator and hose connect exactly as before.' },
   { q: 'Is WAATechnologies a Pakistani company?', a: 'Yes. WAATechnologies Pvt Ltd is SECP-incorporated, PEC-licensed and manufactures its cylinders in Gujranwala, Punjab, with a head office in Bahria Town, Lahore.' },
@@ -161,7 +161,7 @@ export default function HomePage() {
       <section className="bg-white">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-11 px-6 pb-20 pt-16 lg:gap-16">
           <div className="flex min-w-0 flex-[1_1_26rem] flex-col gap-6">
-            <Eyebrow>Made in Gujranwala, Pakistan</Eyebrow>
+            <Eyebrow>World pioneer in jointless technology</Eyebrow>
             <h1 className="font-display text-[clamp(2.6rem,5.4vw,4.25rem)] font-extrabold leading-[1.0] tracking-tight text-brand-dark">
               It vents.<br />It doesn&apos;t burst.
             </h1>

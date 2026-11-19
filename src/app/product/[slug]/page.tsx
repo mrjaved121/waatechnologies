@@ -20,6 +20,9 @@ const products: Record<string, {
   price: number;
   oldPrice?: number;
   weight: string;
+  // Confirmed manufacturer figures only. Leave a field out rather than guess.
+  waterCapacity?: string;
+  tareWeight: string;
   color: string;
   description: string;
   // Search result title and snippet. People search "fiber cylinder price in
@@ -32,6 +35,8 @@ const products: Record<string, {
     name: '10 Kg Fiber Gas Cylinder',
     price: 11000,
     weight: '10 kg',
+    waterCapacity: '24 litres',
+    tareWeight: 'Approx. 5.5 kg',
     color: 'Yellow',
     description: 'WAATechnologies 10 Kg Fiber Gas Cylinder is a premium composite LPG cylinder manufactured using advanced filament winding technology. Non-blast by design, UV resistant and corrosion-free. Certified to ISO 11119-3 and EN 14427-2022.',
     seoTitle: '10 Kg Fiber Gas Cylinder Price in Pakistan: Rs 11,000',
@@ -43,6 +48,7 @@ const products: Record<string, {
     price: 8000,
     oldPrice: 8500,
     weight: '5 kg',
+    tareWeight: 'Approx. 3.5 kg',
     color: 'Blue',
     description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is made for small households, travel and outdoor cooking. Lightweight, non-blast by design and ISO certified, with a see-through body that shows how much gas is left.',
     seoTitle: '5 Kg Fiber Gas Cylinder Price in Pakistan: Rs 8,000',
@@ -53,6 +59,8 @@ const products: Record<string, {
     name: 'LPG Composite Cylinder 10Kg Cerulean Blue',
     price: 11000,
     weight: '10 kg',
+    waterCapacity: '24 litres',
+    tareWeight: 'Approx. 5.5 kg',
     color: 'Cerulean Blue',
     description: 'The Cerulean Blue 10Kg composite cylinder combines WAA\'s world-class safety technology with a modern aesthetic design. Perfect for contemporary kitchens.',
     seoTitle: '10 Kg Composite Gas Cylinder, Cerulean Blue: Rs 11,000',
@@ -63,6 +71,8 @@ const products: Record<string, {
     name: 'LPG Composite Cylinder 10Kg Tiger Orange',
     price: 11000,
     weight: '10 kg',
+    waterCapacity: '24 litres',
+    tareWeight: 'Approx. 5.5 kg',
     color: 'Tiger Orange',
     description: 'The Tiger Orange edition of WAA\'s flagship 10Kg composite cylinder. Bold design, maximum safety — the same composite technology used in homes and kitchens across Pakistan.',
     seoTitle: '10 Kg Composite Gas Cylinder, Tiger Orange: Rs 11,000',
@@ -247,6 +257,24 @@ export default async function ProductPage({ params }: Props) {
             </div>
 
             <OrderInquiryButton name={product.name} price={product.price} />
+
+            <div className="rounded-2xl border border-line bg-white p-5 mb-6">
+              <h3 className="font-bold text-ink mb-3">Specifications</h3>
+              <dl className="flex flex-col gap-2.5 text-sm">
+                {[
+                  { k: 'LPG capacity', v: product.weight },
+                  ...(product.waterCapacity ? [{ k: 'Water capacity', v: product.waterCapacity }] : []),
+                  { k: 'Empty (tare) weight', v: product.tareWeight },
+                  { k: 'Working pressure', v: '20 bar' },
+                  { k: 'Test pressure', v: '30 bar' },
+                ].map((row) => (
+                  <div key={row.k} className="flex gap-3">
+                    <dt className="w-36 flex-shrink-0 text-muted">{row.k}</dt>
+                    <dd className="text-ink font-medium">{row.v}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
 
             {/* Buying terms — the questions buyers ask before ordering (delivery, payment,
                 warranty). Confirmed figures only; anything unconfirmed is not stated here. */}
