@@ -48,6 +48,7 @@ const products: Record<string, {
     price: 8000,
     oldPrice: 8500,
     weight: '5 kg',
+    waterCapacity: '12 litres',
     tareWeight: 'Approx. 3.5 kg',
     color: 'Blue',
     description: 'The WAATechnologies 5 Kg LPG Fiber Gas Cylinder is made for small households, travel and outdoor cooking. Lightweight, non-blast by design and ISO certified, with a see-through body that shows how much gas is left.',

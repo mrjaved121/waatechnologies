@@ -118,6 +118,7 @@ export default function OurTechnologyPage() {
                 { label: 'Working Pressure', val: '20 bar' },
                 { label: 'Test Pressure', val: '30 bar' },
                 { label: 'Water Capacity (10 kg)', val: '24 litres' },
+                { label: 'Water Capacity (5 kg)', val: '12 litres' },
                 { label: 'Empty Weight (10 kg)', val: '~5.5 kg' },
                 { label: 'Empty Weight (5 kg)', val: '~3.5 kg' },
                 { label: 'Service Life', val: '20+ years / 12,000 cycles' },
