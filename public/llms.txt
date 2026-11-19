@@ -17,7 +17,7 @@ WAA Technologies Pvt Ltd is a Pakistani manufacturer headquartered in Bahria Tow
 - **Email**: info@waatechnologies.com
 - **Website**: https://waatechnologies.com
 - **Certifications**: ISO 9001:2015 (quality management), ISO 11119-3 (composite cylinders), BS EN 14427:2022 (transportable composite LPG cylinders), PEC licence, SECP incorporation
-- **Market served**: Pakistan (Punjab, Sindh, KPK) via an authorised dealer network
+- **Market served**: Pakistan (Punjab, Sindh) via an authorised dealer network
 
 ## What is a composite LPG cylinder?
 
@@ -61,7 +61,7 @@ All prices are manufacturer list prices in Pakistani Rupees (PKR) and should be 
 | Standards | ISO 11119-3, BS EN 14427:2022 |
 | Quality system | ISO 9001:2015, PEC licensed |
 
-The 5 kg cylinder uses the same construction with a smaller capacity.
+The 5 kg cylinder uses the same construction with a smaller capacity: 5 kg LPG, 12 litres water capacity, approx. 3.5 kg empty, same 20 bar service and 30 bar test pressure.
 
 ## Authorised Dealers
 
@@ -74,10 +74,6 @@ This list mirrors https://waatechnologies.com/authorized-dealers. Only these dea
 
 **Sindh**
 - Adrees & Sons — Karachi — 0345 2887277
-- Gujrat Gass Cylinder — Pakkah Qila Street No 4, Hyderabad — 022 2663544-45, 0315 4374577
-
-**KPK**
-- Global Gas Corner — Malik Ghulam Rasool Market, Gulabad Police Station, Chamkani G.T Road, Peshawar — 0300 9590349, 0300 5522337 (Syed Athar Ali Shah, Syed Tariq Ali Shah)
 
 Full dealer directory: https://waatechnologies.com/authorized-dealers
 
@@ -110,7 +106,7 @@ A: Yes, with standard LPG precautions: a ventilated area, the valve closed after
 A: The body is translucent, so the liquid LPG level is visible directly through the cylinder wall.
 
 **Q: Where can I buy WAA Technologies cylinders in Pakistan?**
-A: Through the authorised dealer network in Lahore, Rawalpindi–Islamabad, Sialkot, Karachi, Hyderabad and Peshawar. Find your nearest dealer at https://waatechnologies.com/authorized-dealers or order at https://waatechnologies.com/shop. Enquiries: +92 42 3781 5533 or WhatsApp +92 341 4999998.
+A: Through the authorised dealer network in Lahore, Rawalpindi–Islamabad, Sialkot and Karachi. Find your nearest dealer at https://waatechnologies.com/authorized-dealers or order at https://waatechnologies.com/shop. Enquiries: +92 42 3781 5533 or WhatsApp +92 341 4999998.
 
 **Q: What is the price of a WAA composite cylinder in Pakistan?**
 A: 5 kg: Rs 8,000 (previously Rs 8,500). 10 kg: Rs 11,000, in all four colours. These are manufacturer list prices; confirm the current price with an authorised dealer.
